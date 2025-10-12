@@ -95,9 +95,9 @@ export default function Home() {
   useEffect(() => {
     fetch('https://raw.githubusercontent.com/mhollingshead/billboard-hot-100/main/valid_dates.json')
       .then(res => res.json())
-      .then(dates => {
+      .then((dates: string[]) => {
         setValidDates(dates);
-        const uniqueYears = Array.from(new Set(dates.map((d: string) => parseInt(d.split('-')[0]))));
+        const uniqueYears = Array.from(new Set(dates.map(d => parseInt(d.split('-')[0]))));
         setYears(uniqueYears.sort((a, b) => b - a));
       });
   }, []);
