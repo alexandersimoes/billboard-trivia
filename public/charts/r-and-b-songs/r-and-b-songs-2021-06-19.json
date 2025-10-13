@@ -1,0 +1,230 @@
+{
+  "date": "2021-06-19",
+  "data": [
+    {
+      "song": "Peaches",
+      "artist": "Justin Bieber Featuring Daniel Caesar & Giveon",
+      "this_week": 1,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Leave The Door Open",
+      "artist": "Silk Sonic (Bruno Mars & Anderson .Paak)",
+      "this_week": 2,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Heartbreak Anniversary",
+      "artist": "Giveon",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 3,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Track Star",
+      "artist": "Mooski",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "You're Mines Still",
+      "artist": "Yung Bleu Featuring Drake",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 3,
+      "weeks_on_chart": 34,
+      "new": false
+    },
+    {
+      "song": "Come Through",
+      "artist": "H.E.R. Featuring Chris Brown",
+      "this_week": 6,
+      "last_week": 6,
+      "peak_position": 6,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Can't Let It Show",
+      "artist": "Tank",
+      "this_week": 7,
+      "last_week": 7,
+      "peak_position": 7,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Like I Want You",
+      "artist": "Giveon",
+      "this_week": 8,
+      "last_week": 8,
+      "peak_position": 8,
+      "weeks_on_chart": 44,
+      "new": false
+    },
+    {
+      "song": "Not Another Love Song",
+      "artist": "Ella Mai",
+      "this_week": 9,
+      "last_week": 9,
+      "peak_position": 9,
+      "weeks_on_chart": 36,
+      "new": false
+    },
+    {
+      "song": "I Like Dat",
+      "artist": "T-Pain & Kehlani",
+      "this_week": 10,
+      "last_week": 10,
+      "peak_position": 10,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "No Plans For Love",
+      "artist": "D-Nice Featuring Ne-Yo & Kent Jones",
+      "this_week": 11,
+      "last_week": 12,
+      "peak_position": 11,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Essence",
+      "artist": "Wizkid Featuring Justin Bieber & Tems",
+      "this_week": 12,
+      "last_week": 19,
+      "peak_position": 12,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "At My Worst",
+      "artist": "Pink Sweat$ Featuring Kehlani",
+      "this_week": 13,
+      "last_week": 11,
+      "peak_position": 11,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Dead Man Walking",
+      "artist": "Brent Faiyaz",
+      "this_week": 14,
+      "last_week": 13,
+      "peak_position": 9,
+      "weeks_on_chart": 33,
+      "new": false
+    },
+    {
+      "song": "Gravity",
+      "artist": "Brent Faiyaz & DJ Dahi Featuring Tyler, the Creator",
+      "this_week": 15,
+      "last_week": 14,
+      "peak_position": 7,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "He Don't Know Nothin' Bout It",
+      "artist": "Jam & Lewis x Babyface",
+      "this_week": 16,
+      "last_week": 16,
+      "peak_position": 16,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "All To Me",
+      "artist": "Giveon",
+      "this_week": 17,
+      "last_week": 15,
+      "peak_position": 12,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Girl Like Me",
+      "artist": "Jazmine Sullivan Featuring H.E.R.",
+      "this_week": 18,
+      "last_week": 17,
+      "peak_position": 10,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Stuck On You",
+      "artist": "Giveon",
+      "this_week": 19,
+      "last_week": 18,
+      "peak_position": 17,
+      "weeks_on_chart": 25,
+      "new": false
+    },
+    {
+      "song": "Freak",
+      "artist": "Doja Cat",
+      "this_week": 20,
+      "last_week": 22,
+      "peak_position": 6,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Touch You",
+      "artist": "Roy Woods",
+      "this_week": 21,
+      "last_week": null,
+      "peak_position": 21,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Still Your Best",
+      "artist": "Giveon",
+      "this_week": 22,
+      "last_week": 21,
+      "peak_position": 18,
+      "weeks_on_chart": 26,
+      "new": false
+    },
+    {
+      "song": "Waves Of Blue",
+      "artist": "Majid Jordan",
+      "this_week": 23,
+      "last_week": 23,
+      "peak_position": 11,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Body In Motion",
+      "artist": "DJ Khaled Featuring Bryson Tiller, Lil Baby & Roddy Ricch",
+      "this_week": 24,
+      "last_week": 20,
+      "peak_position": 8,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Look Easy",
+      "artist": "Robin Thicke",
+      "this_week": 25,
+      "last_week": 24,
+      "peak_position": 24,
+      "weeks_on_chart": 2,
+      "new": false
+    }
+  ]
+}

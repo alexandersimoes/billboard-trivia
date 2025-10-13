@@ -1,0 +1,455 @@
+{
+  "date": "2023-04-22",
+  "data": [
+    {
+      "song": "Something In The Orange",
+      "artist": "Zach Bryan",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 51,
+      "new": false
+    },
+    {
+      "song": "Until I Found You",
+      "artist": "Stephen Sanchez",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 56,
+      "new": false
+    },
+    {
+      "song": "Bad Habit",
+      "artist": "Steve Lacy",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 41,
+      "new": false
+    },
+    {
+      "song": "Sunroof",
+      "artist": "Nicky Youre & dazy",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 2,
+      "weeks_on_chart": 62,
+      "new": false
+    },
+    {
+      "song": "Need A Favor",
+      "artist": "Jelly Roll",
+      "this_week": 5,
+      "last_week": 7,
+      "peak_position": 5,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Ceilings",
+      "artist": "Lizzy McAlpine",
+      "this_week": 6,
+      "last_week": 6,
+      "peak_position": 5,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Dawns",
+      "artist": "Zach Bryan Featuring Maggie Rogers",
+      "this_week": 7,
+      "last_week": 8,
+      "peak_position": 4,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Void",
+      "artist": "Melanie Martinez",
+      "this_week": 8,
+      "last_week": 5,
+      "peak_position": 5,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Here With Me",
+      "artist": "d4vd",
+      "this_week": 9,
+      "last_week": 11,
+      "peak_position": 7,
+      "weeks_on_chart": 25,
+      "new": false
+    },
+    {
+      "song": "Lost",
+      "artist": "Linkin Park",
+      "this_week": 10,
+      "last_week": 16,
+      "peak_position": 4,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Hell N Back",
+      "artist": "Bakar Featuring Summer Walker",
+      "this_week": 11,
+      "last_week": 22,
+      "peak_position": 11,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Death",
+      "artist": "Melanie Martinez",
+      "this_week": 12,
+      "last_week": 9,
+      "peak_position": 9,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Straight And Narrow",
+      "artist": "Sam Barber",
+      "this_week": 13,
+      "last_week": 38,
+      "peak_position": 13,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Eat Your Young",
+      "artist": "Hozier",
+      "this_week": 14,
+      "last_week": 14,
+      "peak_position": 6,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Heart To Heart",
+      "artist": "Mac DeMarco",
+      "this_week": 15,
+      "last_week": 21,
+      "peak_position": 8,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "The Contortionist",
+      "artist": "Melanie Martinez",
+      "this_week": 16,
+      "last_week": 10,
+      "peak_position": 10,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Christmas Kids",
+      "artist": "ROAR",
+      "this_week": 17,
+      "last_week": 24,
+      "peak_position": 12,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Evil",
+      "artist": "Melanie Martinez",
+      "this_week": 18,
+      "last_week": 12,
+      "peak_position": 12,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Just Pretend",
+      "artist": "Bad Omens",
+      "this_week": 19,
+      "last_week": 23,
+      "peak_position": 19,
+      "weeks_on_chart": 25,
+      "new": false
+    },
+    {
+      "song": "Blue Hair",
+      "artist": "TV Girl",
+      "this_week": 20,
+      "last_week": 32,
+      "peak_position": 20,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "It's Called: Freefall",
+      "artist": "Rainbow Kitten Surprise",
+      "this_week": 21,
+      "last_week": 25,
+      "peak_position": 13,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Nymphology",
+      "artist": "Melanie Martinez",
+      "this_week": 22,
+      "last_week": 15,
+      "peak_position": 15,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Snap",
+      "artist": "Rosa Linn",
+      "this_week": 23,
+      "last_week": 29,
+      "peak_position": 9,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Tunnel Vision",
+      "artist": "Melanie Martinez",
+      "this_week": 24,
+      "last_week": 13,
+      "peak_position": 13,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Labour",
+      "artist": "Paris Paloma",
+      "this_week": 25,
+      "last_week": 26,
+      "peak_position": 13,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Love From The Other Side",
+      "artist": "Fall Out Boy",
+      "this_week": 26,
+      "last_week": 31,
+      "peak_position": 11,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Drive Me Crazy!",
+      "artist": "Lil Yachty",
+      "this_week": 27,
+      "last_week": null,
+      "peak_position": 21,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Spider Web",
+      "artist": "Melanie Martinez",
+      "this_week": 28,
+      "last_week": 17,
+      "peak_position": 17,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Light Shower",
+      "artist": "Melanie Martinez",
+      "this_week": 29,
+      "last_week": 18,
+      "peak_position": 18,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Watch The World Burn",
+      "artist": "Falling in Reverse",
+      "this_week": 30,
+      "last_week": 36,
+      "peak_position": 8,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Battle Of The Larynx",
+      "artist": "Melanie Martinez",
+      "this_week": 31,
+      "last_week": 20,
+      "peak_position": 20,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Those Eyes",
+      "artist": "New West",
+      "this_week": 32,
+      "last_week": 39,
+      "peak_position": 25,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Meeting The Master",
+      "artist": "Greta Van Fleet",
+      "this_week": 33,
+      "last_week": null,
+      "peak_position": 33,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Faerie Soiree",
+      "artist": "Melanie Martinez",
+      "this_week": 34,
+      "last_week": 19,
+      "peak_position": 19,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Look At Us Now (Honeycomb)",
+      "artist": "Daisy Jones & The Six",
+      "this_week": 35,
+      "last_week": 37,
+      "peak_position": 30,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Jack",
+      "artist": "HARDY",
+      "this_week": 36,
+      "last_week": 45,
+      "peak_position": 21,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Milk Of The Siren",
+      "artist": "Melanie Martinez",
+      "this_week": 37,
+      "last_week": null,
+      "peak_position": 37,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "The Summoning",
+      "artist": "Sleep Token",
+      "this_week": 38,
+      "last_week": 50,
+      "peak_position": 26,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Moon Cycle",
+      "artist": "Melanie Martinez",
+      "this_week": 39,
+      "last_week": 27,
+      "peak_position": 27,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Separate Ways (Worlds Apart)",
+      "artist": "Daughtry Featuring Lzzy Hale",
+      "this_week": 40,
+      "last_week": null,
+      "peak_position": 40,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Fighting Myself",
+      "artist": "Linkin Park",
+      "this_week": 41,
+      "last_week": 35,
+      "peak_position": 14,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Womb",
+      "artist": "Melanie Martinez",
+      "this_week": 42,
+      "last_week": 30,
+      "peak_position": 30,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Leeches",
+      "artist": "Melanie Martinez",
+      "this_week": 43,
+      "last_week": 28,
+      "peak_position": 28,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Not Strong Enough",
+      "artist": "Boygenius",
+      "this_week": 44,
+      "last_week": 33,
+      "peak_position": 33,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "A&W",
+      "artist": "Lana Del Rey",
+      "this_week": 45,
+      "last_week": 41,
+      "peak_position": 10,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "The Perfect Pair",
+      "artist": "beabadoobee",
+      "this_week": 46,
+      "last_week": 48,
+      "peak_position": 35,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Glue Song",
+      "artist": "beabadoobee",
+      "this_week": 47,
+      "last_week": null,
+      "peak_position": 12,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Paris, Texas",
+      "artist": "Lana Del Rey Featuring SYML",
+      "this_week": 48,
+      "last_week": 42,
+      "peak_position": 24,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Let The Light In",
+      "artist": "Lana Del Rey Featuring Father John Misty",
+      "this_week": 49,
+      "last_week": 47,
+      "peak_position": 27,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Green Green Grass",
+      "artist": "George Ezra",
+      "this_week": 50,
+      "last_week": null,
+      "peak_position": 31,
+      "weeks_on_chart": 8,
+      "new": false
+    }
+  ]
+}

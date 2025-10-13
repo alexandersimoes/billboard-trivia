@@ -1,0 +1,455 @@
+{
+  "date": "2023-04-08",
+  "data": [
+    {
+      "song": "Something In The Orange",
+      "artist": "Zach Bryan",
+      "this_week": 1,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 49,
+      "new": false
+    },
+    {
+      "song": "Until I Found You",
+      "artist": "Stephen Sanchez",
+      "this_week": 2,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 54,
+      "new": false
+    },
+    {
+      "song": "Bad Habit",
+      "artist": "Steve Lacy",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 39,
+      "new": false
+    },
+    {
+      "song": "Sunroof",
+      "artist": "Nicky Youre & dazy",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 2,
+      "weeks_on_chart": 60,
+      "new": false
+    },
+    {
+      "song": "Ceilings",
+      "artist": "Lizzy McAlpine",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 5,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Dawns",
+      "artist": "Zach Bryan Featuring Maggie Rogers",
+      "this_week": 6,
+      "last_week": 7,
+      "peak_position": 4,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Eat Your Young",
+      "artist": "Hozier",
+      "this_week": 7,
+      "last_week": 6,
+      "peak_position": 6,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Romantic Homicide",
+      "artist": "d4vd",
+      "this_week": 8,
+      "last_week": 8,
+      "peak_position": 4,
+      "weeks_on_chart": 35,
+      "new": false
+    },
+    {
+      "song": "Here With Me",
+      "artist": "d4vd",
+      "this_week": 9,
+      "last_week": 10,
+      "peak_position": 7,
+      "weeks_on_chart": 23,
+      "new": false
+    },
+    {
+      "song": "Death",
+      "artist": "Melanie Martinez",
+      "this_week": 10,
+      "last_week": 9,
+      "peak_position": 9,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Need A Favor",
+      "artist": "Jelly Roll",
+      "this_week": 11,
+      "last_week": 11,
+      "peak_position": 9,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Lost",
+      "artist": "Linkin Park",
+      "this_week": 12,
+      "last_week": 13,
+      "peak_position": 4,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Labour",
+      "artist": "Paris Paloma",
+      "this_week": 13,
+      "last_week": null,
+      "peak_position": 13,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Fighting Myself",
+      "artist": "Linkin Park",
+      "this_week": 14,
+      "last_week": null,
+      "peak_position": 14,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Love From The Other Side",
+      "artist": "Fall Out Boy",
+      "this_week": 15,
+      "last_week": 29,
+      "peak_position": 11,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Heart To Heart",
+      "artist": "Mac DeMarco",
+      "this_week": 16,
+      "last_week": 15,
+      "peak_position": 8,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "It's Called: Freefall",
+      "artist": "Rainbow Kitten Surprise",
+      "this_week": 17,
+      "last_week": 16,
+      "peak_position": 13,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "A&W",
+      "artist": "Lana Del Rey",
+      "this_week": 18,
+      "last_week": 43,
+      "peak_position": 10,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Hell N Back",
+      "artist": "Bakar Featuring Summer Walker",
+      "this_week": 19,
+      "last_week": 17,
+      "peak_position": 17,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Spit In My Face!",
+      "artist": "ThxSoMch",
+      "this_week": 20,
+      "last_week": 18,
+      "peak_position": 9,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Christmas Kids",
+      "artist": "ROAR",
+      "this_week": 21,
+      "last_week": 12,
+      "peak_position": 12,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Candy Necklace",
+      "artist": "Lana Del Rey Featuring Jon Batiste",
+      "this_week": 22,
+      "last_week": null,
+      "peak_position": 22,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Just Pretend",
+      "artist": "Bad Omens",
+      "this_week": 23,
+      "last_week": 21,
+      "peak_position": 21,
+      "weeks_on_chart": 23,
+      "new": false
+    },
+    {
+      "song": "Paris, Texas",
+      "artist": "Lana Del Rey Featuring SYML",
+      "this_week": 24,
+      "last_week": null,
+      "peak_position": 24,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Hold Me Like A Grudge",
+      "artist": "Fall Out Boy",
+      "this_week": 25,
+      "last_week": null,
+      "peak_position": 25,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Peppers",
+      "artist": "Lana Del Rey Featuring Tommy Genesis",
+      "this_week": 26,
+      "last_week": null,
+      "peak_position": 26,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Let The Light In",
+      "artist": "Lana Del Rey Featuring Father John Misty",
+      "this_week": 27,
+      "last_week": null,
+      "peak_position": 27,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Snap",
+      "artist": "Rosa Linn",
+      "this_week": 28,
+      "last_week": 23,
+      "peak_position": 9,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Taco Truck x VB",
+      "artist": "Lana Del Rey",
+      "this_week": 29,
+      "last_week": null,
+      "peak_position": 29,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Blue Hair",
+      "artist": "TV Girl",
+      "this_week": 30,
+      "last_week": 24,
+      "peak_position": 21,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "The Grants",
+      "artist": "Lana Del Rey",
+      "this_week": 31,
+      "last_week": 45,
+      "peak_position": 31,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Did You Know That There's A Tunnel Under Ocean Blvd",
+      "artist": "Lana Del Rey",
+      "this_week": 32,
+      "last_week": null,
+      "peak_position": 23,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Sweet",
+      "artist": "Lana Del Rey",
+      "this_week": 33,
+      "last_week": null,
+      "peak_position": 33,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Watch The World Burn",
+      "artist": "Falling in Reverse",
+      "this_week": 34,
+      "last_week": 26,
+      "peak_position": 8,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Look At Us Now (Honeycomb)",
+      "artist": "Daisy Jones & The Six",
+      "this_week": 35,
+      "last_week": 30,
+      "peak_position": 30,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Those Eyes",
+      "artist": "New West",
+      "this_week": 36,
+      "last_week": 28,
+      "peak_position": 25,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "The Good I'll Do",
+      "artist": "Zach Bryan",
+      "this_week": 37,
+      "last_week": 27,
+      "peak_position": 21,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Fishtail",
+      "artist": "Lana Del Rey",
+      "this_week": 38,
+      "last_week": null,
+      "peak_position": 38,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Heart Attack (Rock Version)",
+      "artist": "Demi Lovato",
+      "this_week": 39,
+      "last_week": null,
+      "peak_position": 39,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Void",
+      "artist": "Melanie Martinez",
+      "this_week": 40,
+      "last_week": null,
+      "peak_position": 40,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Tormenta",
+      "artist": "Gorillaz Featuring Bad Bunny",
+      "this_week": 41,
+      "last_week": 25,
+      "peak_position": 9,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Grandfather Please Stand On The Shoulders Of My Father While He's...",
+      "artist": "Lana Del Rey Featuring RIOPY",
+      "this_week": 42,
+      "last_week": null,
+      "peak_position": 42,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Margaret",
+      "artist": "Lana Del Rey Featuring Bleachers",
+      "this_week": 43,
+      "last_week": null,
+      "peak_position": 43,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Kintsugi",
+      "artist": "Lana Del Rey",
+      "this_week": 44,
+      "last_week": null,
+      "peak_position": 44,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Glue Song",
+      "artist": "beabadoobee",
+      "this_week": 45,
+      "last_week": 32,
+      "peak_position": 12,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Jack",
+      "artist": "HARDY",
+      "this_week": 46,
+      "last_week": 36,
+      "peak_position": 21,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "F2F",
+      "artist": "SZA",
+      "this_week": 47,
+      "last_week": 35,
+      "peak_position": 3,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Fingertips",
+      "artist": "Lana Del Rey",
+      "this_week": 48,
+      "last_week": null,
+      "peak_position": 48,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "The Perfect Pair",
+      "artist": "beabadoobee",
+      "this_week": 49,
+      "last_week": 41,
+      "peak_position": 35,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Heartbreak Feels So Good",
+      "artist": "Fall Out Boy",
+      "this_week": 50,
+      "last_week": null,
+      "peak_position": 50,
+      "weeks_on_chart": 1,
+      "new": true
+    }
+  ]
+}

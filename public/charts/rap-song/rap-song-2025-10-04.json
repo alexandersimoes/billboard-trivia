@@ -1,0 +1,230 @@
+{
+  "date": "2025-10-04",
+  "data": [
+    {
+      "song": "Safe",
+      "artist": "Cardi B Featuring Kehlani",
+      "this_week": 1,
+      "last_week": null,
+      "peak_position": 1,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Luther",
+      "artist": "Kendrick Lamar & SZA",
+      "this_week": 2,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 44,
+      "new": false
+    },
+    {
+      "song": "All The Way",
+      "artist": "BigXthaPlug Featuring Bailey Zimmerman",
+      "this_week": 3,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 25,
+      "new": false
+    },
+    {
+      "song": "Magnet",
+      "artist": "Cardi B",
+      "this_week": 4,
+      "last_week": null,
+      "peak_position": 4,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Outside",
+      "artist": "Cardi B",
+      "this_week": 5,
+      "last_week": 10,
+      "peak_position": 2,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Pretty & Petty",
+      "artist": "Cardi B",
+      "this_week": 6,
+      "last_week": null,
+      "peak_position": 6,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Pick It Up",
+      "artist": "Cardi B Featuring Selena Gomez",
+      "this_week": 7,
+      "last_week": null,
+      "peak_position": 7,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Hello",
+      "artist": "Cardi B",
+      "this_week": 8,
+      "last_week": null,
+      "peak_position": 8,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Dead",
+      "artist": "Cardi B Featuring Summer Walker",
+      "this_week": 9,
+      "last_week": null,
+      "peak_position": 9,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Hell At Night",
+      "artist": "BigXthaPlug Featuring Ella Langley",
+      "this_week": 10,
+      "last_week": 3,
+      "peak_position": 3,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Bodega Baddie",
+      "artist": "Cardi B",
+      "this_week": 11,
+      "last_week": null,
+      "peak_position": 11,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "What's Goin On",
+      "artist": "Cardi B Featuring Lizzo",
+      "this_week": 12,
+      "last_week": null,
+      "peak_position": 12,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "ErrTime",
+      "artist": "Cardi B",
+      "this_week": 13,
+      "last_week": null,
+      "peak_position": 13,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Imaginary Playerz",
+      "artist": "Cardi B",
+      "this_week": 14,
+      "last_week": null,
+      "peak_position": 7,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Man Of Your Word",
+      "artist": "Cardi B Featuring Dougie F",
+      "this_week": 15,
+      "last_week": null,
+      "peak_position": 15,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Salute",
+      "artist": "Cardi B",
+      "this_week": 16,
+      "last_week": null,
+      "peak_position": 16,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "wgft",
+      "artist": "Gunna Featuring Burna Boy",
+      "this_week": 17,
+      "last_week": 5,
+      "peak_position": 4,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Shower Tears",
+      "artist": "Cardi B Featuring Summer Walker",
+      "this_week": 18,
+      "last_week": null,
+      "peak_position": 18,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Shot Callin",
+      "artist": "YoungBoy Never Broke Again",
+      "this_week": 19,
+      "last_week": 9,
+      "peak_position": 9,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Better Than You",
+      "artist": "Cardi B Featuring Cash Cobain",
+      "this_week": 20,
+      "last_week": null,
+      "peak_position": 20,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Principal",
+      "artist": "Cardi B Featuring Janet Jackson",
+      "this_week": 21,
+      "last_week": null,
+      "peak_position": 21,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Which One",
+      "artist": "Drake & Central Cee",
+      "this_week": 22,
+      "last_week": 12,
+      "peak_position": 2,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Went Legit",
+      "artist": "G Herbo",
+      "this_week": 23,
+      "last_week": 13,
+      "peak_position": 9,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "What Did I Miss?",
+      "artist": "Drake",
+      "this_week": 24,
+      "last_week": 7,
+      "peak_position": 1,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Typa",
+      "artist": "Glorilla",
+      "this_week": 25,
+      "last_week": 8,
+      "peak_position": 6,
+      "weeks_on_chart": 16,
+      "new": false
+    }
+  ]
+}

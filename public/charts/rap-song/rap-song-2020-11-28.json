@@ -1,0 +1,230 @@
+{
+  "date": "2020-11-28",
+  "data": [
+    {
+      "song": "Mood",
+      "artist": "24kGoldn Featuring iann dior",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Laugh Now Cry Later",
+      "artist": "Drake Featuring Lil Durk",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Lemonade",
+      "artist": "Internet Money & Gunna Featuring Don Toliver & Nav",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 3,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "For The Night",
+      "artist": "Pop Smoke Featuring Lil Baby & DaBaby",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "WAP",
+      "artist": "Cardi B Featuring Megan Thee Stallion",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 1,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Rockstar",
+      "artist": "DaBaby Featuring Roddy Ricch",
+      "this_week": 6,
+      "last_week": 6,
+      "peak_position": 1,
+      "weeks_on_chart": 31,
+      "new": false
+    },
+    {
+      "song": "Said Sum",
+      "artist": "Moneybagg Yo",
+      "this_week": 7,
+      "last_week": 7,
+      "peak_position": 7,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Whats Poppin",
+      "artist": "Jack Harlow Featuring DaBaby, Tory Lanez & Lil Wayne",
+      "this_week": 8,
+      "last_week": 8,
+      "peak_position": 2,
+      "weeks_on_chart": 36,
+      "new": false
+    },
+    {
+      "song": "Drankin N Smokin",
+      "artist": "Future & Lil Uzi Vert",
+      "this_week": 9,
+      "last_week": null,
+      "peak_position": 9,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "What You Know Bout Love",
+      "artist": "Pop Smoke",
+      "this_week": 10,
+      "last_week": 9,
+      "peak_position": 9,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Holiday",
+      "artist": "Lil Nas X",
+      "this_week": 11,
+      "last_week": null,
+      "peak_position": 11,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Stripes Like Burberry",
+      "artist": "Future & Lil Uzi Vert",
+      "this_week": 12,
+      "last_week": null,
+      "peak_position": 12,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "That's It",
+      "artist": "Future & Lil Uzi Vert",
+      "this_week": 13,
+      "last_week": null,
+      "peak_position": 13,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "The Woo",
+      "artist": "Pop Smoke Featuring 50 Cent & Roddy Ricch",
+      "this_week": 14,
+      "last_week": 11,
+      "peak_position": 6,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Rags2Riches",
+      "artist": "Rod Wave Featuring ATR Son Son",
+      "this_week": 15,
+      "last_week": 12,
+      "peak_position": 5,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Real Baby Pluto",
+      "artist": "Future & Lil Uzi Vert",
+      "this_week": 16,
+      "last_week": null,
+      "peak_position": 16,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Mr. Right Now",
+      "artist": "21 Savage & Metro Boomin Featuring Drake",
+      "this_week": 17,
+      "last_week": 14,
+      "peak_position": 6,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Franchise",
+      "artist": "Travis Scott Featuring Young Thug & M.I.A.",
+      "this_week": 18,
+      "last_week": 16,
+      "peak_position": 1,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Took Her To The O",
+      "artist": "King Von",
+      "this_week": 19,
+      "last_week": 13,
+      "peak_position": 13,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Mood Swings",
+      "artist": "Pop Smoke Featuring Lil Tjay",
+      "this_week": 20,
+      "last_week": 15,
+      "peak_position": 6,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Marni On Me",
+      "artist": "Future & Lil Uzi Vert",
+      "this_week": 21,
+      "last_week": null,
+      "peak_position": 21,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Tyler Herro",
+      "artist": "Jack Harlow",
+      "this_week": 22,
+      "last_week": 17,
+      "peak_position": 10,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Million Dollar Play",
+      "artist": "Future & Lil Uzi Vert",
+      "this_week": 23,
+      "last_week": null,
+      "peak_position": 23,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Sleeping On The Floor",
+      "artist": "Future & Lil Uzi Vert",
+      "this_week": 24,
+      "last_week": null,
+      "peak_position": 24,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Throat Baby (Go Baby)",
+      "artist": "BRS Kash",
+      "this_week": 25,
+      "last_week": 23,
+      "peak_position": 23,
+      "weeks_on_chart": 3,
+      "new": false
+    }
+  ]
+}

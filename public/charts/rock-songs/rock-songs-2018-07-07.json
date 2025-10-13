@@ -1,0 +1,455 @@
+{
+  "date": "2018-07-07",
+  "data": [
+    {
+      "song": "Whatever It Takes",
+      "artist": "Imagine Dragons",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 52,
+      "new": false
+    },
+    {
+      "song": "Thunder",
+      "artist": "Imagine Dragons",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 62,
+      "new": false
+    },
+    {
+      "song": "Believer",
+      "artist": "Imagine Dragons",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 74,
+      "new": false
+    },
+    {
+      "song": "Feel It Still",
+      "artist": "Portugal. The Man",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 1,
+      "weeks_on_chart": 69,
+      "new": false
+    },
+    {
+      "song": "Sit Next To Me",
+      "artist": "Foster the People",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 5,
+      "weeks_on_chart": 41,
+      "new": false
+    },
+    {
+      "song": "Say Amen (Saturday Night)",
+      "artist": "Panic! At The Disco",
+      "this_week": 6,
+      "last_week": 7,
+      "peak_position": 5,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "High Hopes",
+      "artist": "Panic! At The Disco",
+      "this_week": 7,
+      "last_week": 10,
+      "peak_position": 7,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Zombie",
+      "artist": "Bad Wolves",
+      "this_week": 8,
+      "last_week": 6,
+      "peak_position": 5,
+      "weeks_on_chart": 23,
+      "new": false
+    },
+    {
+      "song": "Broken",
+      "artist": "lovelytheband",
+      "this_week": 9,
+      "last_week": 8,
+      "peak_position": 8,
+      "weeks_on_chart": 27,
+      "new": false
+    },
+    {
+      "song": "Hey Look Ma, I Made It",
+      "artist": "Panic! At The Disco",
+      "this_week": 10,
+      "last_week": null,
+      "peak_position": 10,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "King Of The Clouds",
+      "artist": "Panic! At The Disco",
+      "this_week": 11,
+      "last_week": 20,
+      "peak_position": 11,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "(Fuck A) Silver Lining",
+      "artist": "Panic! At The Disco",
+      "this_week": 12,
+      "last_week": 46,
+      "peak_position": 10,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "New Light",
+      "artist": "John Mayer",
+      "this_week": 13,
+      "last_week": 9,
+      "peak_position": 7,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Roaring 20s",
+      "artist": "Panic! At The Disco",
+      "this_week": 14,
+      "last_week": null,
+      "peak_position": 14,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Africa",
+      "artist": "Weezer",
+      "this_week": 15,
+      "last_week": 11,
+      "peak_position": 8,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Dancing's Not A Crime",
+      "artist": "Panic! At The Disco",
+      "this_week": 16,
+      "last_week": null,
+      "peak_position": 16,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Dying In LA",
+      "artist": "Panic! At The Disco",
+      "this_week": 17,
+      "last_week": null,
+      "peak_position": 17,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Let It Be",
+      "artist": "The Beatles",
+      "this_week": 18,
+      "last_week": null,
+      "peak_position": 18,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "One Of The Drunks",
+      "artist": "Panic! At The Disco",
+      "this_week": 19,
+      "last_week": null,
+      "peak_position": 19,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "I Feel Like I'm Drowning",
+      "artist": "Two Feet",
+      "this_week": 20,
+      "last_week": 13,
+      "peak_position": 13,
+      "weeks_on_chart": 23,
+      "new": false
+    },
+    {
+      "song": "Bulletproof",
+      "artist": "Godsmack",
+      "this_week": 21,
+      "last_week": 12,
+      "peak_position": 9,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Old Fashioned",
+      "artist": "Panic! At The Disco",
+      "this_week": 22,
+      "last_week": null,
+      "peak_position": 22,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "The Overpass",
+      "artist": "Panic! At The Disco",
+      "this_week": 23,
+      "last_week": null,
+      "peak_position": 23,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Come On To Me",
+      "artist": "Paul McCartney",
+      "this_week": 24,
+      "last_week": null,
+      "peak_position": 24,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Hunger",
+      "artist": "Florence + the Machine",
+      "this_week": 25,
+      "last_week": 16,
+      "peak_position": 9,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Humility",
+      "artist": "Gorillaz Featuring George Benson",
+      "this_week": 26,
+      "last_week": 14,
+      "peak_position": 7,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "&Run",
+      "artist": "Sir Sly",
+      "this_week": 27,
+      "last_week": 17,
+      "peak_position": 17,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Devil",
+      "artist": "Shinedown",
+      "this_week": 28,
+      "last_week": 18,
+      "peak_position": 9,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Quarter Past Midnight",
+      "artist": "Bastille",
+      "this_week": 29,
+      "last_week": 21,
+      "peak_position": 15,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Sham Pain",
+      "artist": "Five Finger Death Punch",
+      "this_week": 30,
+      "last_week": 22,
+      "peak_position": 14,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Gold Rush",
+      "artist": "Death Cab for Cutie",
+      "this_week": 31,
+      "last_week": 23,
+      "peak_position": 23,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Big God",
+      "artist": "Florence + the Machine",
+      "this_week": 32,
+      "last_week": null,
+      "peak_position": 32,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Kamikaze",
+      "artist": "Walk the Moon",
+      "this_week": 33,
+      "last_week": 29,
+      "peak_position": 28,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Rats",
+      "artist": "Ghost",
+      "this_week": 34,
+      "last_week": 26,
+      "peak_position": 16,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Thought Contagion",
+      "artist": "Muse",
+      "this_week": 35,
+      "last_week": 25,
+      "peak_position": 10,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Blood // Water",
+      "artist": "Grandson",
+      "this_week": 36,
+      "last_week": 33,
+      "peak_position": 33,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Give Yourself A Try",
+      "artist": "The 1975",
+      "this_week": 37,
+      "last_week": 28,
+      "peak_position": 12,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Blue On Black",
+      "artist": "Five Finger Death Punch Featuring Kenny Wayne Shepherd, Brantley Gilbert & Brian May",
+      "this_week": 38,
+      "last_week": 30,
+      "peak_position": 19,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "I Don't Know",
+      "artist": "Paul McCartney",
+      "this_week": 39,
+      "last_week": null,
+      "peak_position": 39,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Colors",
+      "artist": "Beck",
+      "this_week": 40,
+      "last_week": 35,
+      "peak_position": 35,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Hear Me Now",
+      "artist": "Bad Wolves Featuring Diamante",
+      "this_week": 41,
+      "last_week": 36,
+      "peak_position": 35,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Samurai Cop (Oh Joy Begin)",
+      "artist": "Dave Matthews Band",
+      "this_week": 42,
+      "last_week": 41,
+      "peak_position": 18,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "I Hope You're Happy",
+      "artist": "Blue October",
+      "this_week": 43,
+      "last_week": 45,
+      "peak_position": 13,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Next To Me",
+      "artist": "Imagine Dragons",
+      "this_week": 44,
+      "last_week": 37,
+      "peak_position": 7,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Walking On Water",
+      "artist": "Needtobreathe",
+      "this_week": 45,
+      "last_week": 31,
+      "peak_position": 26,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Crossing A Line",
+      "artist": "Mike Shinoda",
+      "this_week": 46,
+      "last_week": 27,
+      "peak_position": 27,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Such A Simple Thing",
+      "artist": "Ray LaMontagne",
+      "this_week": 47,
+      "last_week": 43,
+      "peak_position": 32,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "The Night We Met",
+      "artist": "Lord Huron Featuring Phoebe Bridgers",
+      "this_week": 48,
+      "last_week": 34,
+      "peak_position": 25,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Four Out Of Five",
+      "artist": "Arctic Monkeys",
+      "this_week": 49,
+      "last_week": 38,
+      "peak_position": 12,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Lash Out",
+      "artist": "Alice Merton",
+      "this_week": 50,
+      "last_week": 47,
+      "peak_position": 47,
+      "weeks_on_chart": 4,
+      "new": false
+    }
+  ]
+}

@@ -1,0 +1,455 @@
+{
+  "date": "2020-07-18",
+  "data": [
+    {
+      "song": "Death Bed",
+      "artist": "Powfu Featuring beabadoobee",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Supalonely",
+      "artist": "BENEE Featuring Gus Dapperton",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Dance Monkey",
+      "artist": "Tones And I",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 3,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Everything I Wanted",
+      "artist": "Billie Eilish",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 2,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Bang!",
+      "artist": "AJR",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 3,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Level Of Concern",
+      "artist": "Twenty One Pilots",
+      "this_week": 6,
+      "last_week": 6,
+      "peak_position": 1,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Are You Bored Yet?",
+      "artist": "Wallows Featuring Clairo",
+      "this_week": 7,
+      "last_week": 8,
+      "peak_position": 7,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Moral Of The Story",
+      "artist": "Ashe",
+      "this_week": 8,
+      "last_week": 7,
+      "peak_position": 7,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "City Of Angels",
+      "artist": "24kGoldn",
+      "this_week": 9,
+      "last_week": 9,
+      "peak_position": 7,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Bloody Valentine",
+      "artist": "Machine Gun Kelly",
+      "this_week": 10,
+      "last_week": 11,
+      "peak_position": 3,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "A Little Bit Off",
+      "artist": "Five Finger Death Punch",
+      "this_week": 11,
+      "last_week": 17,
+      "peak_position": 8,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Gimme Love",
+      "artist": "Joji",
+      "this_week": 12,
+      "last_week": 13,
+      "peak_position": 12,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Heat Waves",
+      "artist": "Glass Animals",
+      "this_week": 13,
+      "last_week": null,
+      "peak_position": 13,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Caution",
+      "artist": "The Killers",
+      "this_week": 14,
+      "last_week": 15,
+      "peak_position": 3,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "The Game Is Over",
+      "artist": "Evanescence",
+      "this_week": 15,
+      "last_week": null,
+      "peak_position": 15,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Honeybee",
+      "artist": "The Head And The Heart",
+      "this_week": 16,
+      "last_week": null,
+      "peak_position": 12,
+      "weeks_on_chart": 27,
+      "new": false
+    },
+    {
+      "song": "Hallucinogenics",
+      "artist": "Matt Maeson",
+      "this_week": 17,
+      "last_week": 18,
+      "peak_position": 17,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Can I Call You Tonight?",
+      "artist": "Dayglow",
+      "this_week": 18,
+      "last_week": 21,
+      "peak_position": 17,
+      "weeks_on_chart": 27,
+      "new": false
+    },
+    {
+      "song": "Angels & Demons",
+      "artist": "jxdn",
+      "this_week": 19,
+      "last_week": 12,
+      "peak_position": 5,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Mariposa",
+      "artist": "Peach Tree Rascals",
+      "this_week": 20,
+      "last_week": 20,
+      "peak_position": 17,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Sick And Tired",
+      "artist": "iann dior Featuring Machine Gun Kelly & Travis Barker",
+      "this_week": 21,
+      "last_week": 16,
+      "peak_position": 3,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Lost In Yesterday",
+      "artist": "Tame Impala",
+      "this_week": 22,
+      "last_week": 23,
+      "peak_position": 5,
+      "weeks_on_chart": 27,
+      "new": false
+    },
+    {
+      "song": "Ur So cOoL",
+      "artist": "Tones And I",
+      "this_week": 23,
+      "last_week": 25,
+      "peak_position": 23,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Parasite Eve",
+      "artist": "Bring Me the Horizon",
+      "this_week": 24,
+      "last_week": 10,
+      "peak_position": 10,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Sober",
+      "artist": "Bad Wolves",
+      "this_week": 25,
+      "last_week": 24,
+      "peak_position": 21,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Lay Your Head On Me",
+      "artist": "Major Lazer Featuring Marcus Mumford",
+      "this_week": 26,
+      "last_week": 27,
+      "peak_position": 26,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Wolf Totem",
+      "artist": "The Hu Featuring Jacoby Shaddix",
+      "this_week": 27,
+      "last_week": 29,
+      "peak_position": 22,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "No Time To Die",
+      "artist": "Billie Eilish",
+      "this_week": 28,
+      "last_week": 28,
+      "peak_position": 22,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Hero",
+      "artist": "Weezer",
+      "this_week": 29,
+      "last_week": 32,
+      "peak_position": 17,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Ilomilo",
+      "artist": "Billie Eilish",
+      "this_week": 30,
+      "last_week": 37,
+      "peak_position": 30,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Unforgettable",
+      "artist": "Godsmack",
+      "this_week": 31,
+      "last_week": 31,
+      "peak_position": 16,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Monsters",
+      "artist": "All Time Low Featuring Blackbear",
+      "this_week": 32,
+      "last_week": 41,
+      "peak_position": 13,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Chicken Tenders",
+      "artist": "Dominic Fike",
+      "this_week": 33,
+      "last_week": 22,
+      "peak_position": 22,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Death By Rock And Roll",
+      "artist": "The Pretty Reckless",
+      "this_week": 34,
+      "last_week": 46,
+      "peak_position": 19,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Hell N Back",
+      "artist": "Bakar Featuring Summer Walker",
+      "this_week": 35,
+      "last_week": 43,
+      "peak_position": 35,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Bad Child",
+      "artist": "Tones And I",
+      "this_week": 36,
+      "last_week": 38,
+      "peak_position": 19,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Bad Decisions",
+      "artist": "The Strokes",
+      "this_week": 37,
+      "last_week": 47,
+      "peak_position": 6,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Let Me Down",
+      "artist": "Oliver Tree",
+      "this_week": 38,
+      "last_week": 39,
+      "peak_position": 9,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "How Will I Rest In Peace If I'm Buried By A Highway?//",
+      "artist": "KennyHoopla",
+      "this_week": 39,
+      "last_week": null,
+      "peak_position": 39,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Your Love (Deja Vu)",
+      "artist": "Glass Animals",
+      "this_week": 40,
+      "last_week": 42,
+      "peak_position": 10,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Atlas Falls",
+      "artist": "Shinedown",
+      "this_week": 41,
+      "last_week": 48,
+      "peak_position": 6,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Antisocialist",
+      "artist": "Asking Alexandria",
+      "this_week": 42,
+      "last_week": null,
+      "peak_position": 26,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Outlaws & Outsiders",
+      "artist": "Cory Marks Featuring Travis Tritt, Ivan Moody & Mick Mars",
+      "this_week": 43,
+      "last_week": null,
+      "peak_position": 14,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "If You're Too Shy (Let Me Know)",
+      "artist": "The 1975",
+      "this_week": 44,
+      "last_week": 44,
+      "peak_position": 5,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "My Own Soul's Warning",
+      "artist": "The Killers",
+      "this_week": 45,
+      "last_week": 49,
+      "peak_position": 25,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Maybe It's Time (Demo)",
+      "artist": "Jason Isbell",
+      "this_week": 46,
+      "last_week": null,
+      "peak_position": 46,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "OK",
+      "artist": "Wallows",
+      "this_week": 47,
+      "last_week": null,
+      "peak_position": 28,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Don't Let Me Down",
+      "artist": "Milky Chance & Jack Johnson",
+      "this_week": 48,
+      "last_week": null,
+      "peak_position": 48,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Can You Hear Me",
+      "artist": "Korn",
+      "this_week": 49,
+      "last_week": null,
+      "peak_position": 39,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Dreamer",
+      "artist": "Trippie Redd",
+      "this_week": 50,
+      "last_week": 34,
+      "peak_position": 11,
+      "weeks_on_chart": 3,
+      "new": false
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "date": "2021-10-30",
+  "data": [
+    {
+      "song": "My Universe",
+      "artist": "Coldplay x BTS",
+      "this_week": 1,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Heat Waves",
+      "artist": "Glass Animals",
+      "this_week": 2,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 57,
+      "new": false
+    },
+    {
+      "song": "Beggin'",
+      "artist": "Maneskin",
+      "this_week": 3,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Happier Than Ever",
+      "artist": "Billie Eilish",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 1,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Meet Me At Our Spot",
+      "artist": "THE ANXIETY: WILLOW & Tyler Cole",
+      "this_week": 5,
+      "last_week": 6,
+      "peak_position": 5,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "A-O-K",
+      "artist": "Tai Verdes",
+      "this_week": 6,
+      "last_week": 5,
+      "peak_position": 4,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Without You",
+      "artist": "The Kid LAROI",
+      "this_week": 7,
+      "last_week": 7,
+      "peak_position": 1,
+      "weeks_on_chart": 38,
+      "new": false
+    },
+    {
+      "song": "Let Somebody Go",
+      "artist": "Coldplay X Selena Gomez",
+      "this_week": 8,
+      "last_week": null,
+      "peak_position": 8,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Life Goes On",
+      "artist": "Oliver Tree",
+      "this_week": 9,
+      "last_week": 8,
+      "peak_position": 8,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Saturday",
+      "artist": "Twenty One Pilots",
+      "this_week": 10,
+      "last_week": 9,
+      "peak_position": 9,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Wrecked",
+      "artist": "Imagine Dragons",
+      "this_week": 11,
+      "last_week": 13,
+      "peak_position": 10,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Brutal",
+      "artist": "Olivia Rodrigo",
+      "this_week": 12,
+      "last_week": 10,
+      "peak_position": 1,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Freaks",
+      "artist": "Surf Curse",
+      "this_week": 13,
+      "last_week": 12,
+      "peak_position": 9,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Paralyzed",
+      "artist": "Sueco",
+      "this_week": 14,
+      "last_week": 11,
+      "peak_position": 6,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "transparentsoul",
+      "artist": "Willow Featuring Travis Barker",
+      "this_week": 15,
+      "last_week": 14,
+      "peak_position": 7,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Edamame",
+      "artist": "bbno$ Featuring Rich Brian",
+      "this_week": 16,
+      "last_week": 16,
+      "peak_position": 16,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Missing Piece",
+      "artist": "Vance Joy",
+      "this_week": 17,
+      "last_week": 20,
+      "peak_position": 17,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "I Hope Ur Miserable Until Ur Dead",
+      "artist": "Nessa Barrett",
+      "this_week": 18,
+      "last_week": 17,
+      "peak_position": 8,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "I Am Not A Woman, I'm A God",
+      "artist": "Halsey",
+      "this_week": 19,
+      "last_week": 15,
+      "peak_position": 6,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Higher Power",
+      "artist": "Coldplay",
+      "this_week": 20,
+      "last_week": null,
+      "peak_position": 7,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Perfume",
+      "artist": "Lovejoy",
+      "this_week": 21,
+      "last_week": null,
+      "peak_position": 21,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Memories!",
+      "artist": "347aidan",
+      "this_week": 22,
+      "last_week": null,
+      "peak_position": 22,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "The Fall",
+      "artist": "Lovejoy",
+      "this_week": 23,
+      "last_week": null,
+      "peak_position": 23,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "The Red Means I Love You",
+      "artist": "Madds Buckley",
+      "this_week": 24,
+      "last_week": 21,
+      "peak_position": 21,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Inferno",
+      "artist": "Sub Urban & Bella Poarch",
+      "this_week": 25,
+      "last_week": 22,
+      "peak_position": 10,
+      "weeks_on_chart": 8,
+      "new": false
+    }
+  ]
+}

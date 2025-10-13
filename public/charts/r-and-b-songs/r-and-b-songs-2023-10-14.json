@@ -1,0 +1,230 @@
+{
+  "date": "2023-10-14",
+  "data": [
+    {
+      "song": "Snooze",
+      "artist": "SZA",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 43,
+      "new": false
+    },
+    {
+      "song": "Slime You Out",
+      "artist": "Drake Featuring SZA",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Good Good",
+      "artist": "Usher, Summer Walker & 21 Savage",
+      "this_week": 3,
+      "last_week": 4,
+      "peak_position": 3,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "What It Is (Block Boy)",
+      "artist": "Doechii Featuring Kodak Black",
+      "this_week": 4,
+      "last_week": 3,
+      "peak_position": 2,
+      "weeks_on_chart": 28,
+      "new": false
+    },
+    {
+      "song": "Popular",
+      "artist": "The Weeknd, Playboi Carti & Madonna",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 3,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Water",
+      "artist": "Tyla",
+      "this_week": 6,
+      "last_week": 7,
+      "peak_position": 6,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "On My Mama",
+      "artist": "Victoria Monet",
+      "this_week": 7,
+      "last_week": 6,
+      "peak_position": 6,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Last Time I Saw You",
+      "artist": "Nicki Minaj",
+      "this_week": 8,
+      "last_week": 8,
+      "peak_position": 2,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Summer Too Hot",
+      "artist": "Chris Brown",
+      "this_week": 9,
+      "last_week": 10,
+      "peak_position": 6,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Back To Your Place",
+      "artist": "October London",
+      "this_week": 10,
+      "last_week": 11,
+      "peak_position": 8,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "WY@",
+      "artist": "Brent Faiyaz",
+      "this_week": 11,
+      "last_week": 9,
+      "peak_position": 9,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "When It Comes To You",
+      "artist": "Fridayy",
+      "this_week": 12,
+      "last_week": 14,
+      "peak_position": 12,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "How We Roll",
+      "artist": "Ciara & Chris Brown",
+      "this_week": 13,
+      "last_week": 13,
+      "peak_position": 9,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "America Has A Problem",
+      "artist": "Beyonce Featuring Kendrick Lamar",
+      "this_week": 14,
+      "last_week": 16,
+      "peak_position": 6,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Always",
+      "artist": "Daniel Caesar",
+      "this_week": 15,
+      "last_week": 15,
+      "peak_position": 12,
+      "weeks_on_chart": 25,
+      "new": false
+    },
+    {
+      "song": "Heated",
+      "artist": "Beyonce",
+      "this_week": 16,
+      "last_week": 17,
+      "peak_position": 13,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Energy",
+      "artist": "Beyonce Featuring BEAM",
+      "this_week": 17,
+      "last_week": 19,
+      "peak_position": 8,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Moment Of Your Life",
+      "artist": "Brent Faiyaz Featuring Coco Jones",
+      "this_week": 18,
+      "last_week": 18,
+      "peak_position": 8,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Homicide",
+      "artist": "6LACK With Jessie Reyez",
+      "this_week": 19,
+      "last_week": null,
+      "peak_position": 19,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "In This Darkness",
+      "artist": "Clara La San",
+      "this_week": 20,
+      "last_week": 20,
+      "peak_position": 20,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Changed",
+      "artist": "Tamar Braxton",
+      "this_week": 21,
+      "last_week": 23,
+      "peak_position": 21,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Main One",
+      "artist": "Mario, Tyga & Lil Wayne",
+      "this_week": 22,
+      "last_week": 21,
+      "peak_position": 21,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Delresto (Echoes)",
+      "artist": "Travis Scott & Beyonce",
+      "this_week": 23,
+      "last_week": 22,
+      "peak_position": 2,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "My Whole Heart",
+      "artist": "J. Brown",
+      "this_week": 24,
+      "last_week": null,
+      "peak_position": 24,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "One Of The Girls",
+      "artist": "The Weeknd, JENNIE & Lily-Rose Depp",
+      "this_week": 25,
+      "last_week": 25,
+      "peak_position": 14,
+      "weeks_on_chart": 6,
+      "new": false
+    }
+  ]
+}

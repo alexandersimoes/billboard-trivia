@@ -1,0 +1,230 @@
+{
+  "date": "2022-04-16",
+  "data": [
+    {
+      "song": "Big Energy",
+      "artist": "Latto",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 23,
+      "new": false
+    },
+    {
+      "song": "Super Gremlin",
+      "artist": "Kodak Black",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Industry Baby",
+      "artist": "Lil Nas X & Jack Harlow",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 37,
+      "new": false
+    },
+    {
+      "song": "Pushin P",
+      "artist": "Gunna & Future Featuring Young Thug",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 2,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Sweetest Pie",
+      "artist": "Megan Thee Stallion & Dua Lipa",
+      "this_week": 5,
+      "last_week": 6,
+      "peak_position": 3,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "In My Head",
+      "artist": "Lil Tjay",
+      "this_week": 6,
+      "last_week": null,
+      "peak_position": 6,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "What Happened To Virgil",
+      "artist": "Lil Durk Featuring Gunna",
+      "this_week": 7,
+      "last_week": 5,
+      "peak_position": 5,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "To The Moon!",
+      "artist": "JNR CHOI & Sam Tompkins",
+      "this_week": 8,
+      "last_week": 8,
+      "peak_position": 8,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Ahhh Ha",
+      "artist": "Lil Durk",
+      "this_week": 9,
+      "last_week": 7,
+      "peak_position": 4,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Nail Tech",
+      "artist": "Jack Harlow",
+      "this_week": 10,
+      "last_week": 15,
+      "peak_position": 4,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Broadway Girls",
+      "artist": "Lil Durk Featuring Morgan Wallen",
+      "this_week": 11,
+      "last_week": 10,
+      "peak_position": 1,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Me Or Sum",
+      "artist": "Nardo Wick, Lil Baby & Future",
+      "this_week": 12,
+      "last_week": 13,
+      "peak_position": 10,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Freaky Deaky",
+      "artist": "Tyga X Doja Cat",
+      "this_week": 13,
+      "last_week": 16,
+      "peak_position": 8,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Thinking With My Dick",
+      "artist": "Kevin Gates Featuring Juicy J",
+      "this_week": 14,
+      "last_week": 9,
+      "peak_position": 9,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Do We Have A Problem?",
+      "artist": "Nicki Minaj X Lil Baby",
+      "this_week": 15,
+      "last_week": 14,
+      "peak_position": 1,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Stick",
+      "artist": "JID & J. Cole Featuring Kenny Mason & Sheck Wes",
+      "this_week": 16,
+      "last_week": null,
+      "peak_position": 16,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Handsomer",
+      "artist": "Russ Featuring Ktlyn",
+      "this_week": 17,
+      "last_week": 12,
+      "peak_position": 9,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Rumors",
+      "artist": "Gucci Mane Featuring Lil Durk",
+      "this_week": 18,
+      "last_week": 17,
+      "peak_position": 6,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Banking On Me",
+      "artist": "Gunna",
+      "this_week": 19,
+      "last_week": 19,
+      "peak_position": 15,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "P Power",
+      "artist": "Gunna Featuring Drake",
+      "this_week": 20,
+      "last_week": 18,
+      "peak_position": 4,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Petty Too",
+      "artist": "Lil Durk Featuring Future",
+      "this_week": 21,
+      "last_week": 20,
+      "peak_position": 8,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "I Hate YoungBoy",
+      "artist": "YoungBoy Never Broke Again",
+      "this_week": 22,
+      "last_week": null,
+      "peak_position": 19,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "By Your Side",
+      "artist": "Rod Wave",
+      "this_week": 23,
+      "last_week": 22,
+      "peak_position": 7,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "4KT Baby",
+      "artist": "YoungBoy Never Broke Again",
+      "this_week": 24,
+      "last_week": null,
+      "peak_position": 24,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "City Of Gods",
+      "artist": "Fivio Foreign, Kanye West & Alicia Keys",
+      "this_week": 25,
+      "last_week": null,
+      "peak_position": 10,
+      "weeks_on_chart": 5,
+      "new": false
+    }
+  ]
+}

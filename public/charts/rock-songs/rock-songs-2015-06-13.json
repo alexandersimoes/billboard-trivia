@@ -1,0 +1,455 @@
+{
+  "date": "2015-06-13",
+  "data": [
+    {
+      "song": "Shut Up And Dance",
+      "artist": "Walk the Moon",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 38,
+      "new": false
+    },
+    {
+      "song": "Budapest",
+      "artist": "George Ezra",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 43,
+      "new": false
+    },
+    {
+      "song": "Take Me To Church",
+      "artist": "Hozier",
+      "this_week": 3,
+      "last_week": 4,
+      "peak_position": 1,
+      "weeks_on_chart": 57,
+      "new": false
+    },
+    {
+      "song": "Centuries",
+      "artist": "Fall Out Boy",
+      "this_week": 4,
+      "last_week": 5,
+      "peak_position": 2,
+      "weeks_on_chart": 38,
+      "new": false
+    },
+    {
+      "song": "Uma Thurman",
+      "artist": "Fall Out Boy",
+      "this_week": 5,
+      "last_week": 7,
+      "peak_position": 5,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Believe",
+      "artist": "Mumford & Sons",
+      "this_week": 6,
+      "last_week": 8,
+      "peak_position": 4,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Renegades",
+      "artist": "X Ambassadors",
+      "this_week": 7,
+      "last_week": 10,
+      "peak_position": 5,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Stressed Out",
+      "artist": "Twenty One Pilots",
+      "this_week": 8,
+      "last_week": 9,
+      "peak_position": 8,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Tear In My Heart",
+      "artist": "Twenty One Pilots",
+      "this_week": 9,
+      "last_week": 11,
+      "peak_position": 8,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Hold Back The River",
+      "artist": "James Bay",
+      "this_week": 10,
+      "last_week": 12,
+      "peak_position": 10,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Brother",
+      "artist": "Needtobreathe Featuring Gavin DeGraw",
+      "this_week": 11,
+      "last_week": 17,
+      "peak_position": 11,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Ride",
+      "artist": "Twenty One Pilots",
+      "this_week": 12,
+      "last_week": 16,
+      "peak_position": 12,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Nothing Without Love",
+      "artist": "Nate Ruess",
+      "this_week": 13,
+      "last_week": 14,
+      "peak_position": 6,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Dead Inside",
+      "artist": "Muse",
+      "this_week": 14,
+      "last_week": 18,
+      "peak_position": 13,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Delilah",
+      "artist": "Florence + the Machine",
+      "this_week": 15,
+      "last_week": 21,
+      "peak_position": 15,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Ex's & Oh's",
+      "artist": "Elle King",
+      "this_week": 16,
+      "last_week": 29,
+      "peak_position": 16,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Failure",
+      "artist": "Breaking Benjamin",
+      "this_week": 17,
+      "last_week": 26,
+      "peak_position": 8,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Crystals",
+      "artist": "Of Monsters and Men",
+      "this_week": 18,
+      "last_week": 27,
+      "peak_position": 15,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "My Type",
+      "artist": "Saint Motel",
+      "this_week": 19,
+      "last_week": 25,
+      "peak_position": 19,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Hallelujah",
+      "artist": "Panic! At The Disco",
+      "this_week": 20,
+      "last_week": 19,
+      "peak_position": 3,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Shots",
+      "artist": "Imagine Dragons",
+      "this_week": 21,
+      "last_week": 24,
+      "peak_position": 7,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Hollow Moon (Bad Wolf)",
+      "artist": "AWOLNATION",
+      "this_week": 22,
+      "last_week": 23,
+      "peak_position": 11,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "The Wolf",
+      "artist": "Mumford & Sons",
+      "this_week": 23,
+      "last_week": 20,
+      "peak_position": 11,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Cecilia And The Satellite",
+      "artist": "Andrew McMahon In the Wilderness",
+      "this_week": 24,
+      "last_week": 34,
+      "peak_position": 24,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Someone New",
+      "artist": "Hozier",
+      "this_week": 25,
+      "last_week": 28,
+      "peak_position": 14,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Hunger",
+      "artist": "Of Monsters and Men",
+      "this_week": 26,
+      "last_week": null,
+      "peak_position": 26,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Fairly Local",
+      "artist": "Twenty One Pilots",
+      "this_week": 27,
+      "last_week": 22,
+      "peak_position": 8,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Black Sun",
+      "artist": "Death Cab for Cutie",
+      "this_week": 28,
+      "last_week": 30,
+      "peak_position": 12,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Heavy Is The Head",
+      "artist": "Zac Brown Band Featuring Chris Cornell",
+      "this_week": 29,
+      "last_week": 35,
+      "peak_position": 14,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Heavydirtysoul",
+      "artist": "Twenty One Pilots",
+      "this_week": 30,
+      "last_week": 31,
+      "peak_position": 30,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Don't Wanna Fight",
+      "artist": "Alabama Shakes",
+      "this_week": 31,
+      "last_week": 32,
+      "peak_position": 13,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "The Judge",
+      "artist": "Twenty One Pilots",
+      "this_week": 32,
+      "last_week": 42,
+      "peak_position": 32,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Doubt",
+      "artist": "Twenty One Pilots",
+      "this_week": 33,
+      "last_week": 41,
+      "peak_position": 33,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "First",
+      "artist": "Cold War Kids",
+      "this_week": 34,
+      "last_week": 46,
+      "peak_position": 34,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Irresistible",
+      "artist": "Fall Out Boy",
+      "this_week": 35,
+      "last_week": 44,
+      "peak_position": 7,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Peaches",
+      "artist": "In The Valley Below",
+      "this_week": 36,
+      "last_week": 36,
+      "peak_position": 33,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "What Kind Of Man",
+      "artist": "Florence + the Machine",
+      "this_week": 37,
+      "last_week": 43,
+      "peak_position": 7,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Polarize",
+      "artist": "Twenty One Pilots",
+      "this_week": 38,
+      "last_week": 45,
+      "peak_position": 38,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Lane Boy",
+      "artist": "Twenty One Pilots",
+      "this_week": 39,
+      "last_week": 38,
+      "peak_position": 31,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Human Race",
+      "artist": "Three Days Grace",
+      "this_week": 40,
+      "last_week": null,
+      "peak_position": 40,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Electric Love",
+      "artist": "BORNS",
+      "this_week": 41,
+      "last_week": 48,
+      "peak_position": 13,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "House Of Gold",
+      "artist": "Twenty One Pilots",
+      "this_week": 42,
+      "last_week": null,
+      "peak_position": 38,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Congregation",
+      "artist": "Foo Fighters",
+      "this_week": 43,
+      "last_week": 50,
+      "peak_position": 21,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Snake Eyes",
+      "artist": "Mumford & Sons",
+      "this_week": 44,
+      "last_week": 33,
+      "peak_position": 12,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Message Man",
+      "artist": "Twenty One Pilots",
+      "this_week": 45,
+      "last_week": null,
+      "peak_position": 45,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Ship To Wreck",
+      "artist": "Florence + the Machine",
+      "this_week": 46,
+      "last_week": null,
+      "peak_position": 38,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Angel",
+      "artist": "Theory Of A Deadman",
+      "this_week": 47,
+      "last_week": null,
+      "peak_position": 44,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "We Don't Believe What's On TV",
+      "artist": "Twenty One Pilots",
+      "this_week": 48,
+      "last_week": null,
+      "peak_position": 48,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Goner",
+      "artist": "Twenty One Pilots",
+      "this_week": 49,
+      "last_week": null,
+      "peak_position": 49,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Mercy",
+      "artist": "Muse",
+      "this_week": 50,
+      "last_week": 40,
+      "peak_position": 40,
+      "weeks_on_chart": 2,
+      "new": false
+    }
+  ]
+}

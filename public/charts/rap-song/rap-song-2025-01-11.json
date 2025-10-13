@@ -1,0 +1,230 @@
+{
+  "date": "2025-01-11",
+  "data": [
+    {
+      "song": "Luther",
+      "artist": "Kendrick Lamar & SZA",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "TV Off",
+      "artist": "Kendrick Lamar Featuring Lefty Gunplay",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Squabble Up",
+      "artist": "Kendrick Lamar",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Sticky",
+      "artist": "Tyler, the Creator Featuring Glorilla, Sexyy Red & Lil Wayne",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 1,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Whatchu Kno About Me",
+      "artist": "Glorilla & Sexyy Red",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 2,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Hey Now",
+      "artist": "Kendrick Lamar Featuring Dody6",
+      "this_week": 6,
+      "last_week": 6,
+      "peak_position": 5,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Help Me",
+      "artist": "Real Boston Richey",
+      "this_week": 7,
+      "last_week": 7,
+      "peak_position": 6,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "No Pole",
+      "artist": "Don Toliver",
+      "this_week": 8,
+      "last_week": 12,
+      "peak_position": 8,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Empty Out Your Pockets",
+      "artist": "Juice WRLD",
+      "this_week": 9,
+      "last_week": 9,
+      "peak_position": 9,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Wacced Out Murals",
+      "artist": "Kendrick Lamar",
+      "this_week": 10,
+      "last_week": 8,
+      "peak_position": 4,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "25",
+      "artist": "Rod Wave",
+      "this_week": 11,
+      "last_week": 10,
+      "peak_position": 2,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Peekaboo",
+      "artist": "Kendrick Lamar Featuring AzChike",
+      "this_week": 12,
+      "last_week": 11,
+      "peak_position": 9,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Gang Baby",
+      "artist": "NLE Choppa",
+      "this_week": 13,
+      "last_week": 14,
+      "peak_position": 13,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Brokey",
+      "artist": "Latto",
+      "this_week": 14,
+      "last_week": 15,
+      "peak_position": 14,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Dodger Blue",
+      "artist": "Kendrick Lamar Featuring Wallie the Sensei, Siete7x & Roddy Ricch",
+      "this_week": 15,
+      "last_week": 13,
+      "peak_position": 8,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "The Largest",
+      "artist": "BigXthaPlug",
+      "this_week": 16,
+      "last_week": 18,
+      "peak_position": 16,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "On One Tonight",
+      "artist": "Gunna",
+      "this_week": 17,
+      "last_week": 20,
+      "peak_position": 17,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "St. Chroma",
+      "artist": "Tyler, the Creator Featuring Daniel Caesar",
+      "this_week": 18,
+      "last_week": 17,
+      "peak_position": 1,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "I Luv Her",
+      "artist": "Glorilla & T-Pain",
+      "this_week": 19,
+      "last_week": 21,
+      "peak_position": 13,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Denial Is A River",
+      "artist": "Doechii",
+      "this_week": 20,
+      "last_week": null,
+      "peak_position": 20,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Reincarnated",
+      "artist": "Kendrick Lamar",
+      "this_week": 21,
+      "last_week": 16,
+      "peak_position": 6,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Too Fast",
+      "artist": "Future",
+      "this_week": 22,
+      "last_week": 25,
+      "peak_position": 3,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "New Drop",
+      "artist": "Don Toliver",
+      "this_week": 23,
+      "last_week": null,
+      "peak_position": 17,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Heart Pt. 6",
+      "artist": "Kendrick Lamar",
+      "this_week": 24,
+      "last_week": 22,
+      "peak_position": 10,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Or What?",
+      "artist": "NLE Choppa & 41",
+      "this_week": 25,
+      "last_week": null,
+      "peak_position": 6,
+      "weeks_on_chart": 8,
+      "new": false
+    }
+  ]
+}

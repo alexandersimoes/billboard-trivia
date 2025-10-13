@@ -1,0 +1,230 @@
+{
+  "date": "2020-07-04",
+  "data": [
+    {
+      "song": "Blinding Lights",
+      "artist": "The Weeknd",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 30,
+      "new": false
+    },
+    {
+      "song": "Intentions",
+      "artist": "Justin Bieber Featuring Quavo",
+      "this_week": 2,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Say So",
+      "artist": "Doja Cat",
+      "this_week": 3,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 28,
+      "new": false
+    },
+    {
+      "song": "Go Crazy",
+      "artist": "Chris Brown & Young Thug",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Black Parade",
+      "artist": "Beyonce",
+      "this_week": 5,
+      "last_week": null,
+      "peak_position": 5,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "P*$$y Fairy (OTW)",
+      "artist": "Jhene Aiko",
+      "this_week": 6,
+      "last_week": 5,
+      "peak_position": 5,
+      "weeks_on_chart": 23,
+      "new": false
+    },
+    {
+      "song": "Believe It",
+      "artist": "PARTYNEXTDOOR & Rihanna",
+      "this_week": 7,
+      "last_week": 6,
+      "peak_position": 4,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Like That",
+      "artist": "Doja Cat Featuring Gucci Mane",
+      "this_week": 8,
+      "last_week": 8,
+      "peak_position": 7,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Do It",
+      "artist": "Chloe X Halle",
+      "this_week": 9,
+      "last_week": 7,
+      "peak_position": 7,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "B.S.",
+      "artist": "Jhene Aiko Featuring H.E.R.",
+      "this_week": 10,
+      "last_week": 9,
+      "peak_position": 5,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Can I",
+      "artist": "Kehlani Featuring Tory Lanez",
+      "this_week": 11,
+      "last_week": 12,
+      "peak_position": 4,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Slow Down",
+      "artist": "Skip Marley & H.E.R.",
+      "this_week": 12,
+      "last_week": 11,
+      "peak_position": 9,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "U Move, I Move",
+      "artist": "John Legend Featuring Jhene Aiko",
+      "this_week": 13,
+      "last_week": null,
+      "peak_position": 13,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Wake Up Love",
+      "artist": "Teyana Taylor Featuring Iman",
+      "this_week": 14,
+      "last_week": 25,
+      "peak_position": 14,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Yummy",
+      "artist": "Justin Bieber",
+      "this_week": 15,
+      "last_week": 13,
+      "peak_position": 1,
+      "weeks_on_chart": 26,
+      "new": false
+    },
+    {
+      "song": "Don't Waste My Time",
+      "artist": "Usher Featuring Ella Mai",
+      "this_week": 16,
+      "last_week": 16,
+      "peak_position": 12,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Know Your Worth",
+      "artist": "Khalid x Disclosure",
+      "this_week": 17,
+      "last_week": 15,
+      "peak_position": 8,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "In My Bed",
+      "artist": "Rotimi Featuring Wale",
+      "this_week": 18,
+      "last_week": 14,
+      "peak_position": 12,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Conversations In The Dark",
+      "artist": "John Legend",
+      "this_week": 19,
+      "last_week": null,
+      "peak_position": 12,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "I Can't Breathe",
+      "artist": "H.E.R.",
+      "this_week": 20,
+      "last_week": null,
+      "peak_position": 20,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Boomin",
+      "artist": "Teyana Taylor Featuring Missy Elliott & Future",
+      "this_week": 21,
+      "last_week": null,
+      "peak_position": 21,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Back Home",
+      "artist": "Trey Songz Featuring Summer Walker",
+      "this_week": 22,
+      "last_week": 21,
+      "peak_position": 21,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "The Take",
+      "artist": "Tory Lanez Featuring Chris Brown",
+      "this_week": 23,
+      "last_week": 17,
+      "peak_position": 9,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Lie To Me",
+      "artist": "Kem",
+      "this_week": 24,
+      "last_week": 24,
+      "peak_position": 24,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Toxic",
+      "artist": "Kehlani",
+      "this_week": 25,
+      "last_week": 18,
+      "peak_position": 6,
+      "weeks_on_chart": 9,
+      "new": false
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "date": "2022-04-16",
+  "data": [
+    {
+      "song": "Heat Waves",
+      "artist": "Glass Animals",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 81,
+      "new": false
+    },
+    {
+      "song": "Enemy",
+      "artist": "Imagine Dragons X JID",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 23,
+      "new": false
+    },
+    {
+      "song": "abcdefu",
+      "artist": "GAYLE",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 2,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Happier Than Ever",
+      "artist": "Billie Eilish",
+      "this_week": 4,
+      "last_week": 6,
+      "peak_position": 1,
+      "weeks_on_chart": 36,
+      "new": false
+    },
+    {
+      "song": "Make Up Sex",
+      "artist": "Machine Gun Kelly X Blackbear",
+      "this_week": 5,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "I Love You So",
+      "artist": "The Walters",
+      "this_week": 6,
+      "last_week": 10,
+      "peak_position": 6,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Meet Me At Our Spot",
+      "artist": "THE ANXIETY: WILLOW & Tyler Cole",
+      "this_week": 7,
+      "last_week": 7,
+      "peak_position": 3,
+      "weeks_on_chart": 32,
+      "new": false
+    },
+    {
+      "song": "Bones",
+      "artist": "Imagine Dragons",
+      "this_week": 8,
+      "last_week": 11,
+      "peak_position": 8,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Everlong",
+      "artist": "Foo Fighters",
+      "this_week": 9,
+      "last_week": 12,
+      "peak_position": 9,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Black Summer",
+      "artist": "Red Hot Chili Peppers",
+      "this_week": 10,
+      "last_week": null,
+      "peak_position": 9,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Maybe",
+      "artist": "Machine Gun Kelly & Bring Me the Horizon",
+      "this_week": 11,
+      "last_week": 5,
+      "peak_position": 5,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Emo Girl",
+      "artist": "Machine Gun Kelly & WILLOW",
+      "this_week": 12,
+      "last_week": 8,
+      "peak_position": 8,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "IDGAF",
+      "artist": "BoyWithUke X Blackbear",
+      "this_week": 13,
+      "last_week": 16,
+      "peak_position": 9,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Infinity",
+      "artist": "Jaymes Young",
+      "this_week": 14,
+      "last_week": 19,
+      "peak_position": 8,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Ay!",
+      "artist": "Machine Gun Kelly & Lil Wayne",
+      "this_week": 15,
+      "last_week": 9,
+      "peak_position": 7,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Notion",
+      "artist": "The Rare Occasions",
+      "this_week": 16,
+      "last_week": 22,
+      "peak_position": 9,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Toxic",
+      "artist": "BoyWithUke",
+      "this_week": 17,
+      "last_week": null,
+      "peak_position": 11,
+      "weeks_on_chart": 23,
+      "new": false
+    },
+    {
+      "song": "Love It When You Hate Me",
+      "artist": "Avril Lavigne Featuring Blackbear",
+      "this_week": 18,
+      "last_week": null,
+      "peak_position": 14,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Sunroof",
+      "artist": "Nicky Youre & dazy",
+      "this_week": 19,
+      "last_week": null,
+      "peak_position": 19,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "My Hero",
+      "artist": "Foo Fighters",
+      "this_week": 20,
+      "last_week": null,
+      "peak_position": 20,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Drug Dealer",
+      "artist": "Machine Gun Kelly Featuring Lil Wayne",
+      "this_week": 21,
+      "last_week": 13,
+      "peak_position": 13,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Alien Blues",
+      "artist": "Vundabar",
+      "this_week": 22,
+      "last_week": null,
+      "peak_position": 12,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Fake Love Don't Last",
+      "artist": "Machine Gun Kelly & iann dior",
+      "this_week": 23,
+      "last_week": 14,
+      "peak_position": 14,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Die In California",
+      "artist": "Machine Gun Kelly Featuring Gunna, Young Thug & Landon Barker",
+      "this_week": 24,
+      "last_week": 15,
+      "peak_position": 15,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Twin Flame",
+      "artist": "Machine Gun Kelly",
+      "this_week": 25,
+      "last_week": 18,
+      "peak_position": 18,
+      "weeks_on_chart": 2,
+      "new": false
+    }
+  ]
+}

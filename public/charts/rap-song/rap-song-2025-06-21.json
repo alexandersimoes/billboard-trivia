@@ -1,0 +1,230 @@
+{
+  "date": "2025-06-21",
+  "data": [
+    {
+      "song": "Luther",
+      "artist": "Kendrick Lamar & SZA",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 29,
+      "new": false
+    },
+    {
+      "song": "Nokia",
+      "artist": "Drake",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "All The Way",
+      "artist": "BigXthaPlug Featuring Bailey Zimmerman",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 3,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Not Like Us",
+      "artist": "Kendrick Lamar",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 1,
+      "weeks_on_chart": 47,
+      "new": false
+    },
+    {
+      "song": "Hip-Hop",
+      "artist": "Lil Wayne & BigXthaPlug Featuring Jay Jones",
+      "this_week": 5,
+      "last_week": null,
+      "peak_position": 5,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Typa",
+      "artist": "Glorilla",
+      "this_week": 6,
+      "last_week": null,
+      "peak_position": 6,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Sharks",
+      "artist": "Lil Wayne, Jelly Roll & Big Sean",
+      "this_week": 7,
+      "last_week": null,
+      "peak_position": 7,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Banned From NO",
+      "artist": "Lil Wayne",
+      "this_week": 8,
+      "last_week": null,
+      "peak_position": 8,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Welcome To Tha Carter",
+      "artist": "Lil Wayne",
+      "this_week": 9,
+      "last_week": null,
+      "peak_position": 9,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Dark Thoughts",
+      "artist": "Lil Tecca",
+      "this_week": 10,
+      "last_week": 8,
+      "peak_position": 6,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Bells",
+      "artist": "Lil Wayne",
+      "this_week": 11,
+      "last_week": null,
+      "peak_position": 11,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Whim Whamiee",
+      "artist": "PLUTO & YKNIECE",
+      "this_week": 12,
+      "last_week": 7,
+      "peak_position": 7,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "OWA OWA",
+      "artist": "Lil Tecca",
+      "this_week": 13,
+      "last_week": 6,
+      "peak_position": 6,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Peekaboo",
+      "artist": "Kendrick Lamar Featuring AzChike",
+      "this_week": 14,
+      "last_week": 9,
+      "peak_position": 6,
+      "weeks_on_chart": 28,
+      "new": false
+    },
+    {
+      "song": "Rather Lie",
+      "artist": "Playboi Carti & The Weeknd",
+      "this_week": 15,
+      "last_week": 10,
+      "peak_position": 3,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Cotton Candy",
+      "artist": "Lil Wayne & 2 Chainz",
+      "this_week": 16,
+      "last_week": null,
+      "peak_position": 16,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Went Legit",
+      "artist": "G Herbo",
+      "this_week": 17,
+      "last_week": 14,
+      "peak_position": 14,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Flex Up",
+      "artist": "Lil Wayne",
+      "this_week": 18,
+      "last_week": null,
+      "peak_position": 18,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Island Holiday",
+      "artist": "Lil Wayne",
+      "this_week": 19,
+      "last_week": null,
+      "peak_position": 19,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "2AM",
+      "artist": "BigXthaPlug",
+      "this_week": 20,
+      "last_week": 13,
+      "peak_position": 12,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "The Days",
+      "artist": "Lil Wayne & Bono",
+      "this_week": 21,
+      "last_week": null,
+      "peak_position": 21,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Hollywood",
+      "artist": "YG & Shoreline Mafia",
+      "this_week": 22,
+      "last_week": 11,
+      "peak_position": 11,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Loki's Theme",
+      "artist": "Lil Wayne",
+      "this_week": 23,
+      "last_week": null,
+      "peak_position": 23,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Jan. 31st (My Truth)",
+      "artist": "Yfn Lucci",
+      "this_week": 24,
+      "last_week": 12,
+      "peak_position": 11,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Peanuts 2 N Elephant",
+      "artist": "Lil Wayne",
+      "this_week": 25,
+      "last_week": null,
+      "peak_position": 25,
+      "weeks_on_chart": 1,
+      "new": true
+    }
+  ]
+}

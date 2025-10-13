@@ -1,0 +1,230 @@
+{
+  "date": "2023-04-01",
+  "data": [
+    {
+      "song": "Players",
+      "artist": "Coi Leray",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Just Wanna Rock",
+      "artist": "Lil Uzi Vert",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Favorite Song",
+      "artist": "Toosii",
+      "this_week": 3,
+      "last_week": 5,
+      "peak_position": 3,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Rich Flex",
+      "artist": "Drake & 21 Savage",
+      "this_week": 4,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Superhero (Heroes & Villains)",
+      "artist": "Metro Boomin, Future & Chris Brown",
+      "this_week": 5,
+      "last_week": 4,
+      "peak_position": 1,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Spin Bout U",
+      "artist": "Drake & 21 Savage",
+      "this_week": 6,
+      "last_week": 7,
+      "peak_position": 3,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Red Ruby Da Sleeze",
+      "artist": "Nicki Minaj",
+      "this_week": 7,
+      "last_week": 6,
+      "peak_position": 1,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Painting Pictures",
+      "artist": "Superstar Pride",
+      "this_week": 8,
+      "last_week": 8,
+      "peak_position": 4,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "In Ha Mood",
+      "artist": "Ice Spice",
+      "this_week": 9,
+      "last_week": 9,
+      "peak_position": 9,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Tomorrow 2",
+      "artist": "Glorilla & Cardi B",
+      "this_week": 10,
+      "last_week": 10,
+      "peak_position": 2,
+      "weeks_on_chart": 26,
+      "new": false
+    },
+    {
+      "song": "Freestyle",
+      "artist": "Lil Baby",
+      "this_week": 11,
+      "last_week": 12,
+      "peak_position": 8,
+      "weeks_on_chart": 25,
+      "new": false
+    },
+    {
+      "song": "Trance",
+      "artist": "Metro Boomin, Travis Scott & Young Thug",
+      "this_week": 12,
+      "last_week": 11,
+      "peak_position": 8,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Forever",
+      "artist": "Lil Baby Featuring Fridayy",
+      "this_week": 13,
+      "last_week": 14,
+      "peak_position": 2,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Watch This (ARIZONATEARS Pluggnb Remix)",
+      "artist": "Lil Uzi Vert",
+      "this_week": 14,
+      "last_week": 13,
+      "peak_position": 9,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Nasty",
+      "artist": "Russ",
+      "this_week": 15,
+      "last_week": null,
+      "peak_position": 15,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Private Landing",
+      "artist": "Don Toliver Featuring Justin Bieber & Future",
+      "this_week": 16,
+      "last_week": 15,
+      "peak_position": 14,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Back End",
+      "artist": "Finesse2Tymes",
+      "this_week": 17,
+      "last_week": 17,
+      "peak_position": 13,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Lottery",
+      "artist": "Latto Featuring LU KALA",
+      "this_week": 18,
+      "last_week": 18,
+      "peak_position": 17,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Slut Me Out",
+      "artist": "NLE Choppa",
+      "this_week": 19,
+      "last_week": 19,
+      "peak_position": 19,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Low Down",
+      "artist": "Lil Baby",
+      "this_week": 20,
+      "last_week": null,
+      "peak_position": 20,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Shorty Party",
+      "artist": "Cartel de Santa Featuring La Kelly",
+      "this_week": 21,
+      "last_week": 20,
+      "peak_position": 20,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Don't Play With It",
+      "artist": "Lola Brooke X Latto X Yung Miami Or Featuring Billy B",
+      "this_week": 22,
+      "last_week": 22,
+      "peak_position": 18,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Too Many Nights",
+      "artist": "Metro Boomin Featuring Don Toliver & Future",
+      "this_week": 23,
+      "last_week": 24,
+      "peak_position": 3,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "2 Million Up",
+      "artist": "PeeZy",
+      "this_week": 24,
+      "last_week": 23,
+      "peak_position": 17,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Out The Way",
+      "artist": "Yeat",
+      "this_week": 25,
+      "last_week": null,
+      "peak_position": 20,
+      "weeks_on_chart": 8,
+      "new": false
+    }
+  ]
+}

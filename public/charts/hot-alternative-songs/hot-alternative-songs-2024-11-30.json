@@ -1,0 +1,230 @@
+{
+  "date": "2024-11-30",
+  "data": [
+    {
+      "song": "Birds Of A Feather",
+      "artist": "Billie Eilish",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 27,
+      "new": false
+    },
+    {
+      "song": "Too Sweet",
+      "artist": "Hozier",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 35,
+      "new": false
+    },
+    {
+      "song": "Stargazing",
+      "artist": "Myles Smith",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 3,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "No One Noticed",
+      "artist": "The Marias",
+      "this_week": 4,
+      "last_week": 6,
+      "peak_position": 4,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Sailor Song",
+      "artist": "Gigi Perez",
+      "this_week": 5,
+      "last_week": 4,
+      "peak_position": 3,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Wildflower",
+      "artist": "Billie Eilish",
+      "this_week": 6,
+      "last_week": 5,
+      "peak_position": 3,
+      "weeks_on_chart": 27,
+      "new": false
+    },
+    {
+      "song": "The Emptiness Machine",
+      "artist": "Linkin Park",
+      "this_week": 7,
+      "last_week": 8,
+      "peak_position": 3,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Heavy Is The Crown",
+      "artist": "Linkin Park",
+      "this_week": 8,
+      "last_week": 14,
+      "peak_position": 8,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Two Faced",
+      "artist": "Linkin Park",
+      "this_week": 9,
+      "last_week": null,
+      "peak_position": 9,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Headlock",
+      "artist": "Imogen Heap",
+      "this_week": 10,
+      "last_week": 13,
+      "peak_position": 10,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Messy",
+      "artist": "Lola Young",
+      "this_week": 11,
+      "last_week": 24,
+      "peak_position": 11,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Over Each Other",
+      "artist": "Linkin Park",
+      "this_week": 12,
+      "last_week": 22,
+      "peak_position": 12,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Cut The Bridge",
+      "artist": "Linkin Park",
+      "this_week": 13,
+      "last_week": null,
+      "peak_position": 13,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Labour",
+      "artist": "Paris Paloma",
+      "this_week": 14,
+      "last_week": 10,
+      "peak_position": 9,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Beanie",
+      "artist": "Chezile",
+      "this_week": 15,
+      "last_week": 18,
+      "peak_position": 15,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Disco",
+      "artist": "Surf Curse",
+      "this_week": 16,
+      "last_week": 16,
+      "peak_position": 10,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Stained",
+      "artist": "Linkin Park",
+      "this_week": 17,
+      "last_week": null,
+      "peak_position": 17,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Good Things Go",
+      "artist": "Linkin Park",
+      "this_week": 18,
+      "last_week": null,
+      "peak_position": 18,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Overflow",
+      "artist": "Linkin Park",
+      "this_week": 19,
+      "last_week": null,
+      "peak_position": 19,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Casualty",
+      "artist": "Linkin Park",
+      "this_week": 20,
+      "last_week": null,
+      "peak_position": 20,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Juna",
+      "artist": "Clairo",
+      "this_week": 21,
+      "last_week": 17,
+      "peak_position": 10,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "IGYEIH",
+      "artist": "Linkin Park",
+      "this_week": 22,
+      "last_week": null,
+      "peak_position": 22,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Fable",
+      "artist": "Gigi Perez",
+      "this_week": 23,
+      "last_week": 15,
+      "peak_position": 13,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Remember Me (Intro)",
+      "artist": "d4vd",
+      "this_week": 24,
+      "last_week": null,
+      "peak_position": 24,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Champagne Coast",
+      "artist": "Blood Orange",
+      "this_week": 25,
+      "last_week": 21,
+      "peak_position": 15,
+      "weeks_on_chart": 17,
+      "new": false
+    }
+  ]
+}

@@ -1,0 +1,455 @@
+{
+  "date": "2021-09-25",
+  "data": [
+    {
+      "song": "Heat Waves",
+      "artist": "Glass Animals",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 62,
+      "new": false
+    },
+    {
+      "song": "Beggin'",
+      "artist": "Maneskin",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Happier Than Ever",
+      "artist": "Billie Eilish",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "A-O-K",
+      "artist": "Tai Verdes",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Without You",
+      "artist": "The Kid LAROI",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 1,
+      "weeks_on_chart": 33,
+      "new": false
+    },
+    {
+      "song": "Meet Me At Our Spot",
+      "artist": "THE ANXIETY: WILLOW & Tyler Cole",
+      "this_week": 6,
+      "last_week": 7,
+      "peak_position": 6,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Drunk (And I Don't Wanna Go Home)",
+      "artist": "Elle King & Miranda Lambert",
+      "this_week": 7,
+      "last_week": 6,
+      "peak_position": 6,
+      "weeks_on_chart": 29,
+      "new": false
+    },
+    {
+      "song": "I Am Not A Woman, I'm A God",
+      "artist": "Halsey",
+      "this_week": 8,
+      "last_week": 8,
+      "peak_position": 6,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Brutal",
+      "artist": "Olivia Rodrigo",
+      "this_week": 9,
+      "last_week": 9,
+      "peak_position": 1,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Paralyzed",
+      "artist": "Sueco",
+      "this_week": 10,
+      "last_week": 10,
+      "peak_position": 8,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Wrecked",
+      "artist": "Imagine Dragons",
+      "this_week": 11,
+      "last_week": 11,
+      "peak_position": 11,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "transparentsoul",
+      "artist": "Willow Featuring Travis Barker",
+      "this_week": 12,
+      "last_week": 14,
+      "peak_position": 10,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Freaks",
+      "artist": "Surf Curse",
+      "this_week": 13,
+      "last_week": 13,
+      "peak_position": 10,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Saturday",
+      "artist": "Twenty One Pilots",
+      "this_week": 14,
+      "last_week": 16,
+      "peak_position": 14,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "I Hope Ur Miserable Until Ur Dead",
+      "artist": "Nessa Barrett",
+      "this_week": 15,
+      "last_week": 17,
+      "peak_position": 11,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "I Wanna Be Your Slave",
+      "artist": "Maneskin",
+      "this_week": 16,
+      "last_week": 15,
+      "peak_position": 11,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Life Goes On",
+      "artist": "Oliver Tree",
+      "this_week": 17,
+      "last_week": null,
+      "peak_position": 17,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "I Don't Wanna Talk (I Just Wanna Dance)",
+      "artist": "Glass Animals",
+      "this_week": 18,
+      "last_week": null,
+      "peak_position": 18,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Papercuts",
+      "artist": "Machine Gun Kelly",
+      "this_week": 19,
+      "last_week": 24,
+      "peak_position": 9,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Don't You (Forget About Me)",
+      "artist": "Simple Minds",
+      "this_week": 20,
+      "last_week": null,
+      "peak_position": 14,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "When Doves Cry",
+      "artist": "Prince",
+      "this_week": 21,
+      "last_week": null,
+      "peak_position": 2,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Inferno",
+      "artist": "Sub Urban & Bella Poarch",
+      "this_week": 22,
+      "last_week": 19,
+      "peak_position": 12,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "NDA",
+      "artist": "Billie Eilish",
+      "this_week": 23,
+      "last_week": 20,
+      "peak_position": 3,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "All My Favorite Songs",
+      "artist": "Weezer",
+      "this_week": 24,
+      "last_week": 21,
+      "peak_position": 15,
+      "weeks_on_chart": 34,
+      "new": false
+    },
+    {
+      "song": "Heat Above",
+      "artist": "Greta Van Fleet",
+      "this_week": 25,
+      "last_week": 27,
+      "peak_position": 25,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Your Power",
+      "artist": "Billie Eilish",
+      "this_week": 26,
+      "last_week": 22,
+      "peak_position": 2,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Edamame",
+      "artist": "bbno$ Featuring Rich Brian",
+      "this_week": 27,
+      "last_week": 25,
+      "peak_position": 25,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Lost Cause",
+      "artist": "Billie Eilish",
+      "this_week": 28,
+      "last_week": 23,
+      "peak_position": 3,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Missing Piece",
+      "artist": "Vance Joy",
+      "this_week": 29,
+      "last_week": 26,
+      "peak_position": 26,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Light My Love",
+      "artist": "Greta Van Fleet",
+      "this_week": 30,
+      "last_week": 45,
+      "peak_position": 30,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Bad Day",
+      "artist": "Justus Bennetts",
+      "this_week": 31,
+      "last_week": null,
+      "peak_position": 31,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "I Didn't Change My Number",
+      "artist": "Billie Eilish",
+      "this_week": 32,
+      "last_week": 32,
+      "peak_position": 14,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Making A Fire",
+      "artist": "Foo Fighters",
+      "this_week": 33,
+      "last_week": 37,
+      "peak_position": 30,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Billie Bossa Nova",
+      "artist": "Billie Eilish",
+      "this_week": 34,
+      "last_week": 31,
+      "peak_position": 11,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Solar Power",
+      "artist": "Lorde",
+      "this_week": 35,
+      "last_week": 35,
+      "peak_position": 6,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Break It Off",
+      "artist": "PinkPantheress",
+      "this_week": 36,
+      "last_week": 38,
+      "peak_position": 30,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Getting Older",
+      "artist": "Billie Eilish",
+      "this_week": 37,
+      "last_week": 36,
+      "peak_position": 10,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Nothing Else Matters",
+      "artist": "Miley Cyrus Featuring WATT, Elton John, Yo-Yo Ma, Robert Trujillo, & Chad Smith",
+      "this_week": 38,
+      "last_week": null,
+      "peak_position": 36,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Oxytocin",
+      "artist": "Billie Eilish",
+      "this_week": 39,
+      "last_week": 33,
+      "peak_position": 12,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Arcadia",
+      "artist": "Lana Del Rey",
+      "this_week": 40,
+      "last_week": null,
+      "peak_position": 40,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Kill The Noise",
+      "artist": "Papa Roach",
+      "this_week": 41,
+      "last_week": null,
+      "peak_position": 41,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Halley's Comet",
+      "artist": "Billie Eilish",
+      "this_week": 42,
+      "last_week": 39,
+      "peak_position": 17,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Renegade",
+      "artist": "Big Red Machine Featuring Taylor Swift",
+      "this_week": 43,
+      "last_week": 30,
+      "peak_position": 9,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Keep Me Afraid",
+      "artist": "Nessa Barrett",
+      "this_week": 44,
+      "last_week": null,
+      "peak_position": 44,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Silk Chiffon",
+      "artist": "Muna Featuring Phoebe Bridgers",
+      "this_week": 45,
+      "last_week": null,
+      "peak_position": 45,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Colorado",
+      "artist": "Milky Chance",
+      "this_week": 46,
+      "last_week": null,
+      "peak_position": 46,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Male Fantasy",
+      "artist": "Billie Eilish",
+      "this_week": 47,
+      "last_week": 42,
+      "peak_position": 20,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Amoeba",
+      "artist": "Clairo",
+      "this_week": 48,
+      "last_week": 46,
+      "peak_position": 32,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Mood Ring",
+      "artist": "Lorde",
+      "this_week": 49,
+      "last_week": 40,
+      "peak_position": 11,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Monday",
+      "artist": "Imagine Dragons",
+      "this_week": 50,
+      "last_week": 28,
+      "peak_position": 28,
+      "weeks_on_chart": 2,
+      "new": false
+    }
+  ]
+}

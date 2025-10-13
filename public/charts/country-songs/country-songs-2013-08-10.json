@@ -1,0 +1,455 @@
+{
+  "date": "2013-08-10",
+  "data": [
+    {
+      "song": "Cruise",
+      "artist": "Florida Georgia Line",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 53,
+      "new": false
+    },
+    {
+      "song": "I Want Crazy",
+      "artist": "Hunter Hayes",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Runnin' Outta Moonlight",
+      "artist": "Randy Houser",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 3,
+      "weeks_on_chart": 27,
+      "new": false
+    },
+    {
+      "song": "Crash My Party",
+      "artist": "Luke Bryan",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 2,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Boys 'Round Here",
+      "artist": "Blake Shelton Featuring Pistol Annies & Friends",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 2,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Round Here",
+      "artist": "Florida Georgia Line",
+      "this_week": 6,
+      "last_week": 7,
+      "peak_position": 6,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Don't Ya",
+      "artist": "Brett Eldredge",
+      "this_week": 7,
+      "last_week": 9,
+      "peak_position": 7,
+      "weeks_on_chart": 25,
+      "new": false
+    },
+    {
+      "song": "Hey Pretty Girl",
+      "artist": "Kip Moore",
+      "this_week": 8,
+      "last_week": 8,
+      "peak_position": 8,
+      "weeks_on_chart": 26,
+      "new": false
+    },
+    {
+      "song": "See You Again",
+      "artist": "Carrie Underwood",
+      "this_week": 9,
+      "last_week": 10,
+      "peak_position": 9,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Wagon Wheel",
+      "artist": "Darius Rucker",
+      "this_week": 10,
+      "last_week": 6,
+      "peak_position": 1,
+      "weeks_on_chart": 29,
+      "new": false
+    },
+    {
+      "song": "Redneck Crazy",
+      "artist": "Tyler Farr",
+      "this_week": 11,
+      "last_week": 12,
+      "peak_position": 11,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Little Bit Of Everything",
+      "artist": "Keith Urban",
+      "this_week": 12,
+      "last_week": 14,
+      "peak_position": 12,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "All Over The Road",
+      "artist": "Easton Corbin",
+      "this_week": 13,
+      "last_week": 15,
+      "peak_position": 13,
+      "weeks_on_chart": 26,
+      "new": false
+    },
+    {
+      "song": "It Goes Like This",
+      "artist": "Thomas Rhett",
+      "this_week": 14,
+      "last_week": 19,
+      "peak_position": 14,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Hey Girl",
+      "artist": "Billy Currington",
+      "this_week": 15,
+      "last_week": 17,
+      "peak_position": 15,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "DONE.",
+      "artist": "The Band Perry",
+      "this_week": 16,
+      "last_week": 11,
+      "peak_position": 8,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Night Train",
+      "artist": "Jason Aldean",
+      "this_week": 17,
+      "last_week": 23,
+      "peak_position": 17,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Highway Don't Care",
+      "artist": "Tim McGraw With Taylor Swift",
+      "this_week": 18,
+      "last_week": 18,
+      "peak_position": 4,
+      "weeks_on_chart": 25,
+      "new": false
+    },
+    {
+      "song": "Jump Right In",
+      "artist": "Zac Brown Band",
+      "this_week": 19,
+      "last_week": 13,
+      "peak_position": 13,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Parking Lot Party",
+      "artist": "Lee Brice",
+      "this_week": 20,
+      "last_week": 22,
+      "peak_position": 19,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Point At You",
+      "artist": "Justin Moore",
+      "this_week": 21,
+      "last_week": 24,
+      "peak_position": 21,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Get Your Shine On",
+      "artist": "Florida Georgia Line",
+      "this_week": 22,
+      "last_week": 20,
+      "peak_position": 5,
+      "weeks_on_chart": 41,
+      "new": false
+    },
+    {
+      "song": "Anywhere With You",
+      "artist": "Jake Owen",
+      "this_week": 23,
+      "last_week": 21,
+      "peak_position": 7,
+      "weeks_on_chart": 27,
+      "new": false
+    },
+    {
+      "song": "Aw Naw",
+      "artist": "Chris Young",
+      "this_week": 24,
+      "last_week": 27,
+      "peak_position": 24,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Beat This Summer",
+      "artist": "Brad Paisley",
+      "this_week": 25,
+      "last_week": 25,
+      "peak_position": 9,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "When I See This Bar",
+      "artist": "Kenny Chesney",
+      "this_week": 26,
+      "last_week": 29,
+      "peak_position": 26,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Goodbye Town",
+      "artist": "Lady Antebellum",
+      "this_week": 27,
+      "last_week": 26,
+      "peak_position": 26,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Southern Girl",
+      "artist": "Tim McGraw",
+      "this_week": 28,
+      "last_week": 39,
+      "peak_position": 28,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Easy",
+      "artist": "Sheryl Crow",
+      "this_week": 29,
+      "last_week": 28,
+      "peak_position": 27,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Red",
+      "artist": "Taylor Swift",
+      "this_week": 30,
+      "last_week": 31,
+      "peak_position": 2,
+      "weeks_on_chart": 23,
+      "new": false
+    },
+    {
+      "song": "Bruises",
+      "artist": "Train Featuring Ashley Monroe",
+      "this_week": 31,
+      "last_week": 37,
+      "peak_position": 31,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Sunny And 75",
+      "artist": "Joe Nichols",
+      "this_week": 32,
+      "last_week": 35,
+      "peak_position": 32,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Drinks After Work",
+      "artist": "Toby Keith",
+      "this_week": 33,
+      "last_week": 34,
+      "peak_position": 33,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Your Side Of The Bed",
+      "artist": "Little Big Town",
+      "this_week": 34,
+      "last_week": 33,
+      "peak_position": 33,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Could It Be",
+      "artist": "Charlie Worsham",
+      "this_week": 35,
+      "last_week": 36,
+      "peak_position": 35,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Blowin' Smoke",
+      "artist": "Kacey Musgraves",
+      "this_week": 36,
+      "last_week": 32,
+      "peak_position": 31,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Mine Would Be You",
+      "artist": "Blake Shelton",
+      "this_week": 37,
+      "last_week": 48,
+      "peak_position": 37,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Outta My Head",
+      "artist": "Craig Campbell",
+      "this_week": 38,
+      "last_week": 38,
+      "peak_position": 35,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Wasting All These Tears",
+      "artist": "Cassadee Pope",
+      "this_week": 39,
+      "last_week": 40,
+      "peak_position": 7,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Pieces",
+      "artist": "Gary Allan",
+      "this_week": 40,
+      "last_week": 30,
+      "peak_position": 29,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Drunk Last Night",
+      "artist": "Eli Young Band",
+      "this_week": 41,
+      "last_week": 41,
+      "peak_position": 23,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "The Heart Of Dixie",
+      "artist": "Danielle Bradbery",
+      "this_week": 42,
+      "last_week": 16,
+      "peak_position": 16,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Carolina",
+      "artist": "Parmalee",
+      "this_week": 43,
+      "last_week": 42,
+      "peak_position": 40,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Chillin' It",
+      "artist": "Cole Swindell",
+      "this_week": 44,
+      "last_week": 45,
+      "peak_position": 42,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Whatever She's Got",
+      "artist": "David Nail",
+      "this_week": 45,
+      "last_week": 43,
+      "peak_position": 43,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "All Kinds Of Kinds",
+      "artist": "Miranda Lambert",
+      "this_week": 46,
+      "last_week": 47,
+      "peak_position": 46,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Friday Night",
+      "artist": "Eric Paslay",
+      "this_week": 47,
+      "last_week": 49,
+      "peak_position": 47,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Better",
+      "artist": "Maggie Rose",
+      "this_week": 48,
+      "last_week": 50,
+      "peak_position": 48,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Up All Night",
+      "artist": "Jon Pardi",
+      "this_week": 49,
+      "last_week": null,
+      "peak_position": 46,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Cold Beer With Your Name On It",
+      "artist": "Josh Thompson",
+      "this_week": 50,
+      "last_week": null,
+      "peak_position": 50,
+      "weeks_on_chart": 1,
+      "new": true
+    }
+  ]
+}

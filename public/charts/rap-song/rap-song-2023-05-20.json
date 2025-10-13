@@ -1,0 +1,230 @@
+{
+  "date": "2023-05-20",
+  "data": [
+    {
+      "song": "Favorite Song",
+      "artist": "Toosii",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Search & Rescue",
+      "artist": "Drake",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Players",
+      "artist": "Coi Leray",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Princess Diana",
+      "artist": "Ice Spice & Nicki Minaj",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 1,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Slut Me Out",
+      "artist": "NLE Choppa",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 4,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Spin Bout U",
+      "artist": "Drake & 21 Savage",
+      "this_week": 6,
+      "last_week": 7,
+      "peak_position": 3,
+      "weeks_on_chart": 27,
+      "new": false
+    },
+    {
+      "song": "Superhero (Heroes & Villains)",
+      "artist": "Metro Boomin, Future & Chris Brown",
+      "this_week": 7,
+      "last_week": 6,
+      "peak_position": 1,
+      "weeks_on_chart": 23,
+      "new": false
+    },
+    {
+      "song": "Area Codes",
+      "artist": "Kaliii",
+      "this_week": 8,
+      "last_week": null,
+      "peak_position": 8,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Go Hard",
+      "artist": "Lil Baby",
+      "this_week": 9,
+      "last_week": null,
+      "peak_position": 9,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Low Down",
+      "artist": "Lil Baby",
+      "this_week": 10,
+      "last_week": 10,
+      "peak_position": 7,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Fight The Feeling",
+      "artist": "Rod Wave",
+      "this_week": 11,
+      "last_week": 12,
+      "peak_position": 3,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Red Ruby Da Sleeze",
+      "artist": "Nicki Minaj",
+      "this_week": 12,
+      "last_week": 11,
+      "peak_position": 1,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Trance",
+      "artist": "Metro Boomin, Travis Scott & Young Thug",
+      "this_week": 13,
+      "last_week": 13,
+      "peak_position": 8,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Painting Pictures",
+      "artist": "Superstar Pride",
+      "this_week": 14,
+      "last_week": 14,
+      "peak_position": 4,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "In Ha Mood",
+      "artist": "Ice Spice",
+      "this_week": 15,
+      "last_week": 15,
+      "peak_position": 9,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Mathematical Disrespect",
+      "artist": "Lil Mabu",
+      "this_week": 16,
+      "last_week": null,
+      "peak_position": 16,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Shake Sumn",
+      "artist": "DaBaby",
+      "this_week": 17,
+      "last_week": null,
+      "peak_position": 17,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Private Landing",
+      "artist": "Don Toliver Featuring Justin Bieber & Future",
+      "this_week": 18,
+      "last_week": 19,
+      "peak_position": 14,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Strike (Holster)",
+      "artist": "Lil Yachty",
+      "this_week": 19,
+      "last_week": 17,
+      "peak_position": 13,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Dogtooth",
+      "artist": "Tyler, the Creator",
+      "this_week": 20,
+      "last_week": 20,
+      "peak_position": 6,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Watch This (ARIZONATEARS Pluggnb Remix)",
+      "artist": "Lil Uzi Vert",
+      "this_week": 21,
+      "last_week": 25,
+      "peak_position": 9,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "They Don't Love It",
+      "artist": "Jack Harlow",
+      "this_week": 22,
+      "last_week": 9,
+      "peak_position": 9,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Don't Play With It",
+      "artist": "Lola Brooke X Latto X Yung Miami Or Featuring Billy B",
+      "this_week": 23,
+      "last_week": null,
+      "peak_position": 11,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Pissy",
+      "artist": "Gucci Mane Featuring Roddy Ricch And Nardo Wick",
+      "this_week": 24,
+      "last_week": null,
+      "peak_position": 24,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Keep Dat N*gga",
+      "artist": "Icandy",
+      "this_week": 25,
+      "last_week": null,
+      "peak_position": 25,
+      "weeks_on_chart": 1,
+      "new": true
+    }
+  ]
+}

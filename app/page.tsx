@@ -1,6 +1,9 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
+import { Audiowide } from 'next/font/google';
+
+const audiowide = Audiowide({ weight: '400', subsets: ['latin'] });
 
 interface Track {
   song: string;
@@ -65,6 +68,7 @@ async function findITunesPreviewUrl(
 }
 
 export default function Home() {
+  const [selectedChart, setSelectedChart] = useState<string>('hot-100');
   const [validDates, setValidDates] = useState<string[]>([]);
   const [years, setYears] = useState<number[]>([]);
   const [selectedYear, setSelectedYear] = useState<number | null>(null);
@@ -91,16 +95,50 @@ export default function Home() {
   const timerRef = useRef<NodeJS.Timeout | null>(null);
   const roundStartTimeRef = useRef<number>(0);
 
-  // Fetch valid dates on mount
+  // Fetch valid dates when chart changes
   useEffect(() => {
-    fetch('https://raw.githubusercontent.com/mhollingshead/billboard-hot-100/main/valid_dates.json')
-      .then(res => res.json())
-      .then((dates: string[]) => {
-        setValidDates(dates);
-        const uniqueYears = Array.from(new Set(dates.map(d => parseInt(d.split('-')[0]))));
-        setYears(uniqueYears.sort((a, b) => b - a));
-      });
-  }, []);
+    if (selectedChart === 'hot-100') {
+      // Hot 100 uses the external GitHub repo
+      fetch('https://raw.githubusercontent.com/mhollingshead/billboard-hot-100/main/valid_dates.json')
+        .then(res => res.json())
+        .then((dates: string[]) => {
+          setValidDates(dates);
+          const uniqueYears = Array.from(new Set(dates.map(d => parseInt(d.split('-')[0]))));
+          setYears(uniqueYears.sort((a, b) => b - a));
+          setSelectedYear(null);
+          setSelectedWeek(null);
+        });
+    } else {
+      // Other charts use local files - fetch the directory listing
+      const chartFolders: Record<string, string> = {
+        'country': 'country-songs',
+        'rnb': 'r-b-hip-hop-songs',
+        'rap': 'rap-song',
+        'alternative': 'hot-alternative-songs',
+        'rock': 'rock-songs'
+      };
+
+      const folderName = chartFolders[selectedChart];
+
+      // For now, we'll need to manually list available dates or fetch from a local JSON
+      // Since we can't list directory contents via HTTP, you'll need to create a valid-dates.json
+      // file for each chart type. For demonstration, using empty array:
+      fetch(`/billboard-trivia/charts/${folderName}/valid-dates.json`)
+        .then(res => res.json())
+        .then((dates: string[]) => {
+          setValidDates(dates);
+          const uniqueYears = Array.from(new Set(dates.map(d => parseInt(d.split('-')[0]))));
+          setYears(uniqueYears.sort((a, b) => b - a));
+          setSelectedYear(null);
+          setSelectedWeek(null);
+        })
+        .catch(() => {
+          // If valid-dates.json doesn't exist, set empty
+          setValidDates([]);
+          setYears([]);
+        });
+    }
+  }, [selectedChart]);
 
   // Update available weeks when year is selected
   useEffect(() => {
@@ -115,12 +153,39 @@ export default function Home() {
     if (!selectedWeek) return;
 
     setGameState('loading');
-    setStatus('Loading Billboard Hot 100...');
+
+    const chartNames: Record<string, string> = {
+      'hot-100': 'Billboard Hot 100',
+      'country': 'Country Songs',
+      'rnb': 'R&B/Hip-Hop Songs',
+      'rap': 'Rap Songs',
+      'alternative': 'Alternative Songs',
+      'rock': 'Rock Songs'
+    };
+
+    setStatus(`Loading ${chartNames[selectedChart]}...`);
+
+    let fetchUrl: string;
+
+    if (selectedChart === 'hot-100') {
+      // Hot 100 uses external GitHub repo
+      fetchUrl = `https://raw.githubusercontent.com/mhollingshead/billboard-hot-100/main/date/${selectedWeek}.json`;
+    } else {
+      // Other charts use local files
+      const chartFolders: Record<string, string> = {
+        'country': 'country-songs',
+        'rnb': 'r-b-hip-hop-songs',
+        'rap': 'rap-song',
+        'alternative': 'hot-alternative-songs',
+        'rock': 'rock-songs'
+      };
+
+      const folderName = chartFolders[selectedChart];
+      fetchUrl = `/billboard-trivia/charts/${folderName}/${folderName}-${selectedWeek}.json`;
+    }
 
     try {
-      const res = await fetch(
-        `https://raw.githubusercontent.com/mhollingshead/billboard-hot-100/main/date/${selectedWeek}.json`
-      );
+      const res = await fetch(fetchUrl);
       const response = await res.json();
 
       // Extract the data array from the response
@@ -209,6 +274,8 @@ export default function Home() {
             setTimeout(() => {
               if (!answered) {
                 setAnswered(true);
+                setSelectedAnswer(null);
+                setRoundPoints(0);
                 setStatus(`⏱ Time's up! It was "${currentTrack.song}" by ${currentTrack.artist}`);
                 if (audioRef.current) audioRef.current.pause();
               }
@@ -326,6 +393,17 @@ export default function Home() {
     }
   };
 
+  const handleTitleClick = () => {
+    // If in the middle of a game, confirm before resetting
+    if (gameState === 'playing' && !gameComplete) {
+      if (confirm('Are you sure you want to quit this game and return to the home screen?')) {
+        resetGame();
+      }
+    } else {
+      resetGame();
+    }
+  };
+
   // Cleanup timer on unmount
   useEffect(() => {
     return () => {
@@ -370,29 +448,73 @@ export default function Home() {
   }, [gameState, loading, answered, options, gameComplete]);
 
   return (
-    <div className="min-h-screen p-3 sm:p-6 md:p-8">
+    <div className="min-h-screen p-3 sm:p-6 md:p-8 relative overflow-hidden">
       <audio ref={audioRef} />
 
-      <div className="max-w-4xl mx-auto">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white text-center mb-4 sm:mb-6 md:mb-8">
-          Billboard Hot 100 Music Trivia
+      {/* Constellation lines */}
+      <div className="constellation-line" style={{ top: '20%', left: '10%', width: '30%', transform: 'rotate(45deg)' }} />
+      <div className="constellation-line" style={{ top: '60%', right: '15%', width: '25%', transform: 'rotate(-30deg)' }} />
+      <div className="constellation-line" style={{ bottom: '30%', left: '25%', width: '40%', transform: 'rotate(15deg)' }} />
+
+      <div className="max-w-5xl mx-auto relative z-10">
+        <h1
+          onClick={handleTitleClick}
+          className={`${audiowide.className} text-4xl sm:text-5xl md:text-7xl font-bold text-center mb-6 sm:mb-8 md:mb-12 metallic-text cursor-pointer transition-all hover:scale-105`}
+          style={{
+            textShadow: '0 0 30px rgba(192, 192, 192, 0.8), 0 0 60px rgba(75, 0, 130, 0.6)'
+          }}
+        >
+          🚀 TUNETRIVIA 🎸
         </h1>
 
         {gameState === 'select' && (
-          <div className="bg-white/10 backdrop-blur-md rounded-xl p-4 sm:p-6 md:p-8 shadow-2xl">
-            <h2 className="text-xl sm:text-2xl font-semibold text-white mb-4 sm:mb-6">Select a Chart Week</h2>
+          <div className="holographic-card rounded-3xl p-8 sm:p-10 md:p-12 relative" style={{
+            background: 'linear-gradient(135deg, rgba(75, 0, 130, 0.4) 0%, rgba(255, 0, 0, 0.2) 100%)',
+          }}>
+            <h2 className={`${audiowide.className} text-3xl sm:text-4xl font-bold text-center mb-8 text-silver-400`} style={{
+              color: '#C0C0C0',
+              textShadow: '0 0 20px rgba(192, 192, 192, 0.8)'
+            }}>
+              LAUNCH SEQUENCE
+            </h2>
 
-            <div className="space-y-4 sm:space-y-6">
+            <div className="space-y-6">
               <div>
-                <label className="block text-white text-base sm:text-lg mb-2">Year</label>
+                <label className="block font-bold text-xl mb-3 text-silver-300" style={{ color: '#C0C0C0' }}>⚡ CHART TYPE</label>
+                <select
+                  value={selectedChart}
+                  onChange={(e) => setSelectedChart(e.target.value)}
+                  className="w-full p-4 rounded-xl border-2 font-semibold text-lg focus:outline-none focus:ring-4 focus:ring-red-500 rocket-button"
+                  style={{
+                    backgroundColor: 'rgba(75, 0, 130, 0.6)',
+                    color: '#C0C0C0',
+                    borderColor: '#C0C0C0'
+                  }}
+                >
+                  <option value="hot-100" style={{ backgroundColor: '#000' }}>🔥 HOT 100</option>
+                  <option value="country" style={{ backgroundColor: '#000' }}>🤠 COUNTRY</option>
+                  <option value="rnb" style={{ backgroundColor: '#000' }}>🎤 R&B/HIP-HOP</option>
+                  <option value="rap" style={{ backgroundColor: '#000' }}>🎙️ RAP</option>
+                  <option value="alternative" style={{ backgroundColor: '#000' }}>🎸 ALTERNATIVE</option>
+                  <option value="rock" style={{ backgroundColor: '#000' }}>🎧 ROCK</option>
+                </select>
+              </div>
+
+              <div>
+                <label className="block font-bold text-xl mb-3 text-silver-300" style={{ color: '#C0C0C0' }}>📅 YEAR</label>
                 <select
                   value={selectedYear || ''}
                   onChange={(e) => setSelectedYear(parseInt(e.target.value))}
-                  className="w-full p-2 sm:p-3 rounded-lg bg-white/20 text-white border border-white/30 focus:outline-none focus:ring-2 focus:ring-purple-400"
+                  className="w-full p-4 rounded-xl border-2 font-semibold text-lg focus:outline-none focus:ring-4 focus:ring-red-500 rocket-button"
+                  style={{
+                    backgroundColor: 'rgba(75, 0, 130, 0.6)',
+                    color: '#C0C0C0',
+                    borderColor: '#C0C0C0'
+                  }}
                 >
-                  <option value="">Select a year...</option>
+                  <option value="" style={{ backgroundColor: '#000' }}>SELECT YEAR...</option>
                   {years.map(year => (
-                    <option key={year} value={year} className="bg-gray-800">
+                    <option key={year} value={year} style={{ backgroundColor: '#000' }}>
                       {year}
                     </option>
                   ))}
@@ -401,15 +523,20 @@ export default function Home() {
 
               {selectedYear && (
                 <div>
-                  <label className="block text-white text-base sm:text-lg mb-2">Week</label>
+                  <label className="block font-bold text-xl mb-3 text-silver-300" style={{ color: '#C0C0C0' }}>🗓️ WEEK</label>
                   <select
                     value={selectedWeek || ''}
                     onChange={(e) => setSelectedWeek(e.target.value)}
-                    className="w-full p-2 sm:p-3 rounded-lg bg-white/20 text-white border border-white/30 focus:outline-none focus:ring-2 focus:ring-purple-400"
+                    className="w-full p-4 rounded-xl border-2 font-semibold text-lg focus:outline-none focus:ring-4 focus:ring-red-500 rocket-button"
+                    style={{
+                      backgroundColor: 'rgba(75, 0, 130, 0.6)',
+                      color: '#C0C0C0',
+                      borderColor: '#C0C0C0'
+                    }}
                   >
-                    <option value="">Select a week...</option>
+                    <option value="" style={{ backgroundColor: '#000' }}>SELECT WEEK...</option>
                     {availableWeeks.map(week => (
-                      <option key={week} value={week} className="bg-gray-800">
+                      <option key={week} value={week} style={{ backgroundColor: '#000' }}>
                         {week}
                       </option>
                     ))}
@@ -420,9 +547,15 @@ export default function Home() {
               {selectedWeek && (
                 <button
                   onClick={startGame}
-                  className="w-full py-3 sm:py-4 bg-gradient-to-r from-purple-500 to-pink-500 text-white text-lg sm:text-xl font-bold rounded-lg hover:from-purple-600 hover:to-pink-600 transition-all shadow-lg"
+                  className={`${audiowide.className} w-full py-5 rounded-2xl text-3xl font-bold rocket-button relative overflow-hidden`}
+                  style={{
+                    background: 'linear-gradient(135deg, #4B0082 0%, #FF0000 100%)',
+                    color: '#C0C0C0',
+                    border: '3px solid #C0C0C0',
+                    boxShadow: '0 0 30px rgba(255, 0, 0, 0.6)'
+                  }}
                 >
-                  Start Game
+                  🚀 IGNITE!
                 </button>
               )}
             </div>
@@ -430,17 +563,33 @@ export default function Home() {
         )}
 
         {gameState === 'loading' && (
-          <div className="bg-white/10 backdrop-blur-md rounded-xl p-4 sm:p-6 md:p-8 shadow-2xl text-center">
-            <div className="text-white text-base sm:text-lg md:text-xl">{status}</div>
+          <div className="holographic-card rounded-3xl p-12 text-center" style={{
+            background: 'linear-gradient(135deg, rgba(75, 0, 130, 0.4) 0%, rgba(255, 0, 0, 0.2) 100%)',
+          }}>
+            <div className={`${audiowide.className} text-3xl font-bold mb-6`} style={{
+              color: '#C0C0C0',
+              textShadow: '0 0 20px rgba(192, 192, 192, 0.8)'
+            }}>
+              {status}
+            </div>
+            <div className="text-8xl animate-spin inline-block">🌌</div>
+            <div className="mt-6 text-silver-400 font-bold text-xl" style={{ color: '#C0C0C0' }}>
+              Warp speed engaged...
+            </div>
           </div>
         )}
 
         {gameState === 'playing' && (
-          <div className="bg-white/10 backdrop-blur-md rounded-xl p-4 sm:p-6 md:p-8 shadow-2xl">
+          <div className="holographic-card rounded-3xl p-3 sm:p-8 md:p-10" style={{
+            background: 'linear-gradient(135deg, rgba(75, 0, 130, 0.5) 0%, rgba(255, 0, 0, 0.3) 100%)',
+          }}>
             {selectedWeek && (
-              <div className="text-center mb-2 sm:mb-3">
-                <div className="text-white/70 text-xs sm:text-sm uppercase tracking-wider">
-                  Week of {new Date(selectedWeek).toLocaleDateString('en-US', {
+              <div className="text-center mb-2 sm:mb-4">
+                <div className="font-bold text-xs sm:text-sm tracking-widest" style={{
+                  color: '#C0C0C0',
+                  textShadow: '0 0 10px rgba(192, 192, 192, 0.5)'
+                }}>
+                  📡 TRANSMISSION: {new Date(selectedWeek).toLocaleDateString('en-US', {
                     year: 'numeric',
                     month: 'long',
                     day: 'numeric'
@@ -448,55 +597,85 @@ export default function Home() {
                 </div>
               </div>
             )}
-            <div className="flex justify-between items-center mb-3 sm:mb-4 md:mb-6">
-              <div className="text-white text-base sm:text-lg md:text-xl">
-                Round {currentRound + 1} / {tracks.length}
+            <div className="flex justify-between items-center mb-3 sm:mb-6 font-bold text-base sm:text-xl" style={{ color: '#C0C0C0' }}>
+              <div className="flex items-center gap-1 sm:gap-2">
+                <span className="text-lg sm:text-2xl">🎯</span>
+                <span>ROUND {currentRound + 1}/{tracks.length}</span>
               </div>
-              <div className="text-white text-base sm:text-lg md:text-xl font-bold">
-                Score: {score}
+              <div className="flex items-center gap-1 sm:gap-2 text-lg sm:text-2xl">
+                <span className="animate-pulse">⭐</span>
+                <span>{score}</span>
               </div>
             </div>
 
             {!loading && !answered && (
-              <div className="mb-3 sm:mb-4 md:mb-6 text-center">
-                <div className={`text-4xl sm:text-5xl md:text-6xl font-bold mb-2 ${
-                  timeLeft <= 5 ? 'text-red-400 animate-pulse' : 'text-white'
-                }`}>
-                  {timeLeft}s
+              <div className="mb-3 sm:mb-6 text-center relative">
+                <div className={`${audiowide.className} text-5xl sm:text-7xl font-bold mb-2 sm:mb-4 ${
+                  timeLeft <= 5 ? 'animate-pulse' : ''
+                }`} style={{
+                  color: timeLeft <= 5 ? '#FF0000' : '#C0C0C0',
+                  textShadow: timeLeft <= 5 ? '0 0 30px rgba(255, 0, 0, 0.8)' : '0 0 20px rgba(192, 192, 192, 0.8)'
+                }}>
+                  {timeLeft}
                 </div>
-                <div className="w-full bg-white/20 rounded-full h-2 overflow-hidden">
+                <div className="w-full rounded-full h-3 sm:h-5 overflow-hidden border-2 relative" style={{
+                  borderColor: '#C0C0C0',
+                  backgroundColor: 'rgba(0, 0, 0, 0.5)'
+                }}>
                   <div
-                    className={`h-full transition-all duration-1000 ${
-                      timeLeft <= 5 ? 'bg-red-500' : 'bg-green-500'
-                    }`}
-                    style={{ width: `${(timeLeft / 30) * 100}%` }}
+                    className="h-full transition-all duration-1000 relative"
+                    style={{
+                      width: `${(timeLeft / 30) * 100}%`,
+                      background: timeLeft <= 5
+                        ? 'linear-gradient(90deg, #FF0000 0%, #FF6B00 100%)'
+                        : 'linear-gradient(90deg, #4B0082 0%, #C0C0C0 100%)',
+                      boxShadow: timeLeft <= 5 ? '0 0 20px rgba(255, 0, 0, 0.8)' : '0 0 10px rgba(192, 192, 192, 0.5)'
+                    }}
                   />
                 </div>
               </div>
             )}
 
-            <div className="mb-3 sm:mb-4 md:mb-6 text-center">
-              <div className="text-white text-sm sm:text-base md:text-lg mb-1 sm:mb-2">{status}</div>
+            <div className="mb-3 sm:mb-6 text-center">
+              <div className="font-bold text-base sm:text-xl hidden sm:block" style={{
+                color: '#C0C0C0',
+                textShadow: '0 0 10px rgba(192, 192, 192, 0.5)'
+              }}>{status}</div>
               {loading && (
-                <div className="text-white/70 text-sm">Loading preview...</div>
+                <div className="text-sm mt-2 animate-pulse" style={{ color: '#C0C0C0' }}>Establishing signal... 📡</div>
               )}
             </div>
 
             {!loading && !gameComplete && (
-              <div className="space-y-2 sm:space-y-3 md:space-y-4 mb-4 sm:mb-5 md:mb-6">
-                <h3 className="text-white text-lg sm:text-xl md:text-2xl font-semibold text-center mb-2 sm:mb-3 md:mb-4">
-                  Who performed this song?
+              <div className="space-y-3 sm:space-y-4 mb-3 sm:mb-6">
+                <h3 className={`${audiowide.className} text-xl sm:text-3xl font-bold text-center mb-3 sm:mb-6`} style={{
+                  color: '#C0C0C0',
+                  textShadow: '0 0 20px rgba(192, 192, 192, 0.8)'
+                }}>
+                  Who performed this track?
                 </h3>
                 {options.map((track, idx) => {
                   const isCorrect = track === tracks[currentRound];
                   const isSelected = idx === selectedAnswer;
 
-                  let bgClass = 'bg-white/20 hover:bg-white/30';
+                  let bgGradient = 'linear-gradient(135deg, rgba(75, 0, 130, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%)';
+                  let textColor = '#C0C0C0';
+                  let borderColor = '#C0C0C0';
+                  let additionalClass = 'rocket-button';
+                  let boxShadow = '0 0 15px rgba(192, 192, 192, 0.3)';
+
                   if (answered) {
                     if (isCorrect) {
-                      bgClass = 'bg-green-500/50';
+                      bgGradient = 'linear-gradient(135deg, #00FF00 0%, #00AA00 100%)';
+                      textColor = '#000';
+                      borderColor = '#00FF00';
+                      additionalClass = 'correct-burst';
+                      boxShadow = '0 0 30px rgba(0, 255, 0, 0.8)';
                     } else if (isSelected) {
-                      bgClass = 'bg-red-500/50';
+                      bgGradient = 'linear-gradient(135deg, #FF0000 0%, #AA0000 100%)';
+                      textColor = '#FFF';
+                      borderColor = '#FF0000';
+                      boxShadow = '0 0 30px rgba(255, 0, 0, 0.8)';
                     }
                   }
 
@@ -505,17 +684,28 @@ export default function Home() {
                       key={idx}
                       onClick={() => handleAnswer(track)}
                       disabled={answered}
-                      className={`w-full p-2 sm:p-3 md:p-4 rounded-lg text-white text-left transition-all ${bgClass} ${
+                      className={`w-full p-3 sm:p-5 rounded-2xl text-left transition-all border-3 relative overflow-hidden ${additionalClass} ${
                         answered ? 'cursor-default' : 'cursor-pointer'
                       }`}
+                      style={{
+                        background: bgGradient,
+                        color: textColor,
+                        border: `3px solid ${borderColor}`,
+                        boxShadow: boxShadow
+                      }}
                     >
-                      <div className="flex items-center gap-2 sm:gap-3">
-                        <div className="flex-shrink-0 w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 rounded-full bg-white/20 flex items-center justify-center font-bold text-sm sm:text-base">
+                      <div className="flex items-center gap-2 sm:gap-4 relative z-10">
+                        <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 rounded-full border-3 flex items-center justify-center font-bold text-lg sm:text-xl" style={{
+                          background: 'linear-gradient(135deg, #FF0000 0%, #4B0082 100%)',
+                          color: '#C0C0C0',
+                          border: '2px solid #C0C0C0',
+                          boxShadow: '0 0 10px rgba(192, 192, 192, 0.5)'
+                        }}>
                           {idx + 1}
                         </div>
                         <div className="flex-1 min-w-0">
-                          <div className="font-semibold text-sm sm:text-base truncate">{track.song}</div>
-                          <div className="text-white/80 text-xs sm:text-sm truncate">{track.artist}</div>
+                          <div className="font-bold text-base sm:text-lg truncate">{track.song}</div>
+                          <div className="text-xs sm:text-sm opacity-80 truncate">{track.artist}</div>
                         </div>
                       </div>
                     </button>
@@ -526,50 +716,64 @@ export default function Home() {
 
             {answered && !gameComplete && (
               <>
-                <div className="bg-white/20 rounded-xl p-3 sm:p-4 md:p-6 mb-3 sm:mb-4 md:mb-6">
-                  <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 md:gap-6 items-start">
+                <div className="holographic-card rounded-2xl p-4 sm:p-5 md:p-6 mb-4 sm:mb-5 md:mb-6" style={{
+                  background: 'linear-gradient(135deg, rgba(75, 0, 130, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%)',
+                }}>
+                  <div className="flex flex-col sm:flex-row gap-4 sm:gap-5 md:gap-6 items-start">
                     {currentArtwork && (
                       <img
                         src={currentArtwork}
                         alt="Album artwork"
-                        className="w-20 h-20 sm:w-24 sm:h-24 md:w-32 md:h-32 rounded-lg shadow-lg flex-shrink-0 mx-auto sm:mx-0"
+                        className="w-24 h-24 sm:w-28 sm:h-28 md:w-36 md:h-36 rounded-xl shadow-lg flex-shrink-0 mx-auto sm:mx-0"
+                        style={{
+                          border: '3px solid #C0C0C0',
+                          boxShadow: '0 0 20px rgba(192, 192, 192, 0.5)'
+                        }}
                       />
                     )}
                     <div className="flex-1 w-full">
-                      <h3 className="text-white text-lg sm:text-xl md:text-2xl font-bold mb-1 sm:mb-2">
+                      <h3 className="metallic-text text-xl sm:text-2xl md:text-3xl font-bold mb-2" style={{
+                        fontFamily: 'Audiowide, sans-serif',
+                      }}>
                         {tracks[currentRound].song}
                       </h3>
-                      <p className="text-white/90 text-sm sm:text-base md:text-lg mb-2 sm:mb-3 md:mb-4">
+                      <p className="text-lg sm:text-xl md:text-2xl mb-3 sm:mb-4" style={{
+                        color: '#C0C0C0',
+                      }}>
                         {tracks[currentRound].artist}
                       </p>
-                      <div className="grid grid-cols-2 gap-2 sm:gap-3 md:gap-4 text-white">
+                      <div className="grid grid-cols-2 gap-3 sm:gap-4 md:gap-5">
                         <div>
-                          <div className="text-white/60 text-xs sm:text-sm">Billboard Position</div>
-                          <div className="text-lg sm:text-xl md:text-2xl font-bold flex items-center gap-1 sm:gap-2">
+                          <div className="text-xs sm:text-sm uppercase tracking-wider mb-1" style={{ color: '#C0C0C0' }}>Billboard Position</div>
+                          <div className="text-xl sm:text-2xl md:text-3xl font-bold flex items-center gap-2 metallic-text">
                             #{tracks[currentRound].this_week}
                             {tracks[currentRound].last_week !== null && (
-                              <span className="text-sm sm:text-base md:text-lg">
+                              <span className="text-base sm:text-lg md:text-xl">
                                 {tracks[currentRound].this_week < tracks[currentRound].last_week! ? (
-                                  <span className="text-green-400">▲ {tracks[currentRound].last_week! - tracks[currentRound].this_week}</span>
+                                  <span style={{ color: '#00FF00' }}>▲ {tracks[currentRound].last_week! - tracks[currentRound].this_week}</span>
                                 ) : tracks[currentRound].this_week > tracks[currentRound].last_week! ? (
-                                  <span className="text-red-400">▼ {tracks[currentRound].this_week - tracks[currentRound].last_week!}</span>
+                                  <span style={{ color: '#FF0000' }}>▼ {tracks[currentRound].this_week - tracks[currentRound].last_week!}</span>
                                 ) : (
-                                  <span className="text-white/60">—</span>
+                                  <span style={{ color: '#C0C0C0' }}>—</span>
                                 )}
                               </span>
                             )}
                             {tracks[currentRound].last_week === null && (
-                              <span className="text-xs sm:text-sm text-yellow-400">NEW</span>
+                              <span className="text-xs sm:text-sm px-2 py-1 rounded" style={{
+                                background: 'linear-gradient(135deg, #FF0000 0%, #FF6B00 100%)',
+                                color: '#FFF',
+                                boxShadow: '0 0 10px rgba(255, 0, 0, 0.5)'
+                              }}>NEW</span>
                             )}
                           </div>
                         </div>
                         <div>
-                          <div className="text-white/60 text-xs sm:text-sm">Peak Position</div>
-                          <div className="text-lg sm:text-xl md:text-2xl font-bold">#{tracks[currentRound].peak_position}</div>
+                          <div className="text-xs sm:text-sm uppercase tracking-wider mb-1" style={{ color: '#C0C0C0' }}>Peak Position</div>
+                          <div className="text-xl sm:text-2xl md:text-3xl font-bold metallic-text">#{tracks[currentRound].peak_position}</div>
                         </div>
                         <div>
-                          <div className="text-white/60 text-xs sm:text-sm">Weeks on Chart</div>
-                          <div className="text-lg sm:text-xl md:text-2xl font-bold">
+                          <div className="text-xs sm:text-sm uppercase tracking-wider mb-1" style={{ color: '#C0C0C0' }}>Weeks on Chart</div>
+                          <div className="text-xl sm:text-2xl md:text-3xl font-bold metallic-text">
                             {tracks[currentRound].weeks_on_chart} {tracks[currentRound].weeks_on_chart === 1 ? 'wk' : 'wks'}
                           </div>
                         </div>
@@ -579,32 +783,66 @@ export default function Home() {
                 </div>
                 <button
                   onClick={nextRound}
-                  className="w-full py-2 sm:py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white text-base sm:text-lg font-bold rounded-lg hover:from-purple-600 hover:to-pink-600 transition-all"
+                  className="w-full py-4 sm:py-5 rounded-2xl text-lg sm:text-xl font-bold transition-all rocket-button border-3"
+                  style={{
+                    background: 'linear-gradient(135deg, rgba(75, 0, 130, 0.8) 0%, rgba(255, 0, 0, 0.8) 100%)',
+                    color: '#C0C0C0',
+                    border: '3px solid #C0C0C0',
+                    boxShadow: '0 0 20px rgba(192, 192, 192, 0.4)',
+                    fontFamily: 'Audiowide, sans-serif',
+                  }}
                 >
-                  Next Round →
+                  NEXT ROUND →
                 </button>
               </>
             )}
 
             {gameComplete && (
-              <div className="text-center space-y-3 sm:space-y-4">
-                <div className="text-white text-2xl sm:text-3xl font-bold mb-2">
-                  {correctCount} out of {tracks.length} Correct
-                </div>
-                <div className="text-white/80 text-xl sm:text-2xl mb-2 sm:mb-4">
-                  {score} points
-                </div>
-                <div className="text-white/80 text-lg sm:text-xl mb-2 sm:mb-4">
-                  {correctCount === tracks.length && "Perfect! You're a music expert!"}
-                  {correctCount >= tracks.length * 0.7 && correctCount < tracks.length && "Great job!"}
-                  {correctCount >= tracks.length * 0.5 && correctCount < tracks.length * 0.7 && "Not bad!"}
-                  {correctCount < tracks.length * 0.5 && "Keep practicing!"}
+              <div className="text-center space-y-5 sm:space-y-6">
+                <div className="holographic-card rounded-3xl p-6 sm:p-8 md:p-10" style={{
+                  background: 'linear-gradient(135deg, rgba(75, 0, 130, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%)',
+                }}>
+                  <div className="metallic-text text-4xl sm:text-5xl md:text-6xl font-bold mb-4" style={{
+                    fontFamily: 'Audiowide, sans-serif',
+                  }}>
+                    MISSION COMPLETE
+                  </div>
+                  <div className="text-3xl sm:text-4xl md:text-5xl font-bold mb-3" style={{
+                    color: '#C0C0C0',
+                  }}>
+                    {correctCount} out of {tracks.length} Correct
+                  </div>
+                  <div className="text-2xl sm:text-3xl md:text-4xl mb-5" style={{
+                    background: 'linear-gradient(135deg, #FF0000 0%, #FF6B00 100%)',
+                    WebkitBackgroundClip: 'text',
+                    WebkitTextFillColor: 'transparent',
+                    backgroundClip: 'text',
+                    fontWeight: 'bold',
+                  }}>
+                    {score} points
+                  </div>
+                  <div className="text-xl sm:text-2xl md:text-3xl" style={{
+                    color: '#C0C0C0',
+                    fontWeight: '600',
+                  }}>
+                    {correctCount === tracks.length && "Perfect! You're a music expert!"}
+                    {correctCount >= tracks.length * 0.7 && correctCount < tracks.length && "Great job!"}
+                    {correctCount >= tracks.length * 0.5 && correctCount < tracks.length * 0.7 && "Not bad!"}
+                    {correctCount < tracks.length * 0.5 && "Keep practicing!"}
+                  </div>
                 </div>
                 <button
                   onClick={resetGame}
-                  className="px-6 sm:px-8 py-2 sm:py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white text-base sm:text-lg font-bold rounded-lg hover:from-purple-600 hover:to-pink-600 transition-all"
+                  className="px-8 sm:px-10 py-4 sm:py-5 rounded-2xl text-lg sm:text-xl font-bold transition-all rocket-button border-3"
+                  style={{
+                    background: 'linear-gradient(135deg, rgba(75, 0, 130, 0.8) 0%, rgba(255, 0, 0, 0.8) 100%)',
+                    color: '#C0C0C0',
+                    border: '3px solid #C0C0C0',
+                    boxShadow: '0 0 20px rgba(192, 192, 192, 0.4)',
+                    fontFamily: 'Audiowide, sans-serif',
+                  }}
                 >
-                  Play Again
+                  🚀 PLAY AGAIN
                 </button>
               </div>
             )}

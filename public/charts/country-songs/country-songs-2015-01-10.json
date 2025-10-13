@@ -1,0 +1,455 @@
+{
+  "date": "2015-01-10",
+  "data": [
+    {
+      "song": "Something In The Water",
+      "artist": "Carrie Underwood",
+      "this_week": 1,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Shotgun Rider",
+      "artist": "Tim McGraw",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Talladega",
+      "artist": "Eric Church",
+      "this_week": 3,
+      "last_week": 4,
+      "peak_position": 3,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Sun Daze",
+      "artist": "Florida Georgia Line",
+      "this_week": 4,
+      "last_week": 5,
+      "peak_position": 4,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "I See You",
+      "artist": "Luke Bryan",
+      "this_week": 5,
+      "last_week": 7,
+      "peak_position": 5,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Drinking Class",
+      "artist": "Lee Brice",
+      "this_week": 6,
+      "last_week": 12,
+      "peak_position": 6,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "God Made Girls",
+      "artist": "RaeLynn",
+      "this_week": 7,
+      "last_week": 15,
+      "peak_position": 7,
+      "weeks_on_chart": 26,
+      "new": false
+    },
+    {
+      "song": "Perfect Storm",
+      "artist": "Brad Paisley",
+      "this_week": 8,
+      "last_week": 6,
+      "peak_position": 4,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Burnin' It Down",
+      "artist": "Jason Aldean",
+      "this_week": 9,
+      "last_week": 23,
+      "peak_position": 1,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Leave The Night On",
+      "artist": "Sam Hunt",
+      "this_week": 10,
+      "last_week": 10,
+      "peak_position": 1,
+      "weeks_on_chart": 28,
+      "new": false
+    },
+    {
+      "song": "Dirt",
+      "artist": "Florida Georgia Line",
+      "this_week": 11,
+      "last_week": 22,
+      "peak_position": 1,
+      "weeks_on_chart": 26,
+      "new": false
+    },
+    {
+      "song": "Lonely Tonight",
+      "artist": "Blake Shelton Featuring Ashley Monroe",
+      "this_week": 12,
+      "last_week": 8,
+      "peak_position": 5,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Just Gettin' Started",
+      "artist": "Jason Aldean",
+      "this_week": 13,
+      "last_week": 13,
+      "peak_position": 10,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Make Me Wanna",
+      "artist": "Thomas Rhett",
+      "this_week": 14,
+      "last_week": 14,
+      "peak_position": 14,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Lonely Eyes",
+      "artist": "Chris Young",
+      "this_week": 15,
+      "last_week": 20,
+      "peak_position": 15,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Girl In A Country Song",
+      "artist": "Maddie & Tae",
+      "this_week": 16,
+      "last_week": 18,
+      "peak_position": 3,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Til It's Gone",
+      "artist": "Kenny Chesney",
+      "this_week": 17,
+      "last_week": 9,
+      "peak_position": 9,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Somewhere In My Car",
+      "artist": "Keith Urban",
+      "this_week": 18,
+      "last_week": 16,
+      "peak_position": 3,
+      "weeks_on_chart": 25,
+      "new": false
+    },
+    {
+      "song": "Mean To Me",
+      "artist": "Brett Eldredge",
+      "this_week": 19,
+      "last_week": 17,
+      "peak_position": 17,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Close Your Eyes",
+      "artist": "Parmalee",
+      "this_week": 20,
+      "last_week": 11,
+      "peak_position": 11,
+      "weeks_on_chart": 36,
+      "new": false
+    },
+    {
+      "song": "Homegrown Honey",
+      "artist": "Darius Rucker",
+      "this_week": 21,
+      "last_week": 21,
+      "peak_position": 21,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Like A Cowboy",
+      "artist": "Randy Houser",
+      "this_week": 22,
+      "last_week": 19,
+      "peak_position": 19,
+      "weeks_on_chart": 29,
+      "new": false
+    },
+    {
+      "song": "Neon Light",
+      "artist": "Blake Shelton",
+      "this_week": 23,
+      "last_week": 24,
+      "peak_position": 3,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Take Your Time",
+      "artist": "Sam Hunt",
+      "this_week": 24,
+      "last_week": 25,
+      "peak_position": 24,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "A Guy Walks Into A Bar",
+      "artist": "Tyler Farr",
+      "this_week": 25,
+      "last_week": 32,
+      "peak_position": 25,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "What We Ain't Got",
+      "artist": "Jake Owen",
+      "this_week": 26,
+      "last_week": 27,
+      "peak_position": 26,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Ain't Worth The Whiskey",
+      "artist": "Cole Swindell",
+      "this_week": 27,
+      "last_week": 29,
+      "peak_position": 27,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Take It On Back",
+      "artist": "Chase Bryant",
+      "this_week": 28,
+      "last_week": 26,
+      "peak_position": 25,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Kiss You Tonight",
+      "artist": "David Nail",
+      "this_week": 29,
+      "last_week": 31,
+      "peak_position": 25,
+      "weeks_on_chart": 34,
+      "new": false
+    },
+    {
+      "song": "Say You Do",
+      "artist": "Dierks Bentley",
+      "this_week": 30,
+      "last_week": 34,
+      "peak_position": 30,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Break Up In A Small Town",
+      "artist": "Sam Hunt",
+      "this_week": 31,
+      "last_week": 40,
+      "peak_position": 30,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Freestyle",
+      "artist": "Lady Antebellum",
+      "this_week": 32,
+      "last_week": 35,
+      "peak_position": 32,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Trailer Hitch",
+      "artist": "Kristian Bush",
+      "this_week": 33,
+      "last_week": 36,
+      "peak_position": 33,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Love You Like That",
+      "artist": "Canaan Smith",
+      "this_week": 34,
+      "last_week": 38,
+      "peak_position": 32,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "She Don't Love You",
+      "artist": "Eric Paslay",
+      "this_week": 35,
+      "last_week": 37,
+      "peak_position": 34,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Drunk Americans",
+      "artist": "Toby Keith",
+      "this_week": 36,
+      "last_week": 39,
+      "peak_position": 36,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Lay Low",
+      "artist": "Josh Turner",
+      "this_week": 37,
+      "last_week": 41,
+      "peak_position": 37,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Ex To See",
+      "artist": "Sam Hunt",
+      "this_week": 38,
+      "last_week": 50,
+      "peak_position": 37,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Make You Miss Me",
+      "artist": "Sam Hunt",
+      "this_week": 39,
+      "last_week": 48,
+      "peak_position": 32,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "House Party",
+      "artist": "Sam Hunt",
+      "this_week": 40,
+      "last_week": 49,
+      "peak_position": 39,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Baby Be My Love Song",
+      "artist": "Easton Corbin",
+      "this_week": 41,
+      "last_week": 42,
+      "peak_position": 41,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Girl Crush",
+      "artist": "Little Big Town",
+      "this_week": 42,
+      "last_week": 46,
+      "peak_position": 42,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Gentle On My Mind",
+      "artist": "The Band Perry",
+      "this_week": 43,
+      "last_week": 43,
+      "peak_position": 35,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Don't It",
+      "artist": "Billy Currington",
+      "this_week": 44,
+      "last_week": 44,
+      "peak_position": 36,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Love Me Like You Mean It",
+      "artist": "Kelsea Ballerini",
+      "this_week": 45,
+      "last_week": 45,
+      "peak_position": 45,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Gonna Wanna Tonight",
+      "artist": "Chase Rice",
+      "this_week": 46,
+      "last_week": null,
+      "peak_position": 34,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Anything Goes",
+      "artist": "Florida Georgia Line",
+      "this_week": 47,
+      "last_week": null,
+      "peak_position": 19,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Hard To Be Cool",
+      "artist": "Joe Nichols",
+      "this_week": 48,
+      "last_week": null,
+      "peak_position": 48,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Speakers",
+      "artist": "Sam Hunt",
+      "this_week": 49,
+      "last_week": null,
+      "peak_position": 40,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "When I've Been Drinkin'",
+      "artist": "Jon Pardi",
+      "this_week": 50,
+      "last_week": null,
+      "peak_position": 49,
+      "weeks_on_chart": 2,
+      "new": false
+    }
+  ]
+}

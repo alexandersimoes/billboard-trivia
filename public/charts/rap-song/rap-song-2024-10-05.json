@@ -1,0 +1,230 @@
+{
+  "date": "2024-10-05",
+  "data": [
+    {
+      "song": "Not Like Us",
+      "artist": "Kendrick Lamar",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Teflon Don",
+      "artist": "Future",
+      "this_week": 2,
+      "last_week": null,
+      "peak_position": 2,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Too Fast",
+      "artist": "Future",
+      "this_week": 3,
+      "last_week": null,
+      "peak_position": 3,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Lil Demon",
+      "artist": "Future",
+      "this_week": 4,
+      "last_week": null,
+      "peak_position": 4,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Ski",
+      "artist": "Future",
+      "this_week": 5,
+      "last_week": null,
+      "peak_position": 5,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Plutoski",
+      "artist": "Future",
+      "this_week": 6,
+      "last_week": null,
+      "peak_position": 6,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Kehlani",
+      "artist": "Jordan Adetunji",
+      "this_week": 7,
+      "last_week": 3,
+      "peak_position": 2,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "TGIF",
+      "artist": "Glorilla",
+      "this_week": 8,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Ready To Cook Up",
+      "artist": "Future",
+      "this_week": 9,
+      "last_week": null,
+      "peak_position": 9,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Ocean",
+      "artist": "Future",
+      "this_week": 10,
+      "last_week": null,
+      "peak_position": 10,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Wanna Be",
+      "artist": "Glorilla & Megan Thee Stallion",
+      "this_week": 11,
+      "last_week": 6,
+      "peak_position": 4,
+      "weeks_on_chart": 25,
+      "new": false
+    },
+    {
+      "song": "All Red",
+      "artist": "Playboi Carti",
+      "this_week": 12,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Big Dawgs",
+      "artist": "Hanumankind X Kalmi",
+      "this_week": 13,
+      "last_week": 7,
+      "peak_position": 3,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "South Of France",
+      "artist": "Future",
+      "this_week": 14,
+      "last_week": null,
+      "peak_position": 14,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Brazzier",
+      "artist": "Future",
+      "this_week": 15,
+      "last_week": null,
+      "peak_position": 15,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Mamushi",
+      "artist": "Megan Thee Stallion Featuring Yuki Chiba",
+      "this_week": 16,
+      "last_week": 8,
+      "peak_position": 5,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Press The Button",
+      "artist": "Future",
+      "this_week": 17,
+      "last_week": null,
+      "peak_position": 17,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Surfing A Tsunami",
+      "artist": "Future",
+      "this_week": 18,
+      "last_week": null,
+      "peak_position": 18,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Help Me",
+      "artist": "Real Boston Richey",
+      "this_week": 19,
+      "last_week": 10,
+      "peak_position": 10,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Houdini",
+      "artist": "Eminem",
+      "this_week": 20,
+      "last_week": 9,
+      "peak_position": 1,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "One Of Wun",
+      "artist": "Gunna",
+      "this_week": 21,
+      "last_week": 11,
+      "peak_position": 7,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "MJ",
+      "artist": "Future",
+      "this_week": 22,
+      "last_week": null,
+      "peak_position": 22,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Whiskey Whiskey",
+      "artist": "Moneybagg Yo Featuring Morgan Wallen",
+      "this_week": 23,
+      "last_week": 12,
+      "peak_position": 4,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Oath",
+      "artist": "Future",
+      "this_week": 24,
+      "last_week": null,
+      "peak_position": 24,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Aye Say Gang",
+      "artist": "Future",
+      "this_week": 25,
+      "last_week": null,
+      "peak_position": 25,
+      "weeks_on_chart": 1,
+      "new": true
+    }
+  ]
+}

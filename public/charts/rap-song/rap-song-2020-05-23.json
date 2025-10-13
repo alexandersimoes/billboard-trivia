@@ -1,0 +1,230 @@
+{
+  "date": "2020-05-23",
+  "data": [
+    {
+      "song": "Gooba",
+      "artist": "6ix9ine",
+      "this_week": 1,
+      "last_week": null,
+      "peak_position": 1,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Savage",
+      "artist": "Megan Thee Stallion Featuring Beyonce",
+      "this_week": 2,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Toosie Slide",
+      "artist": "Drake",
+      "this_week": 3,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "The Box",
+      "artist": "Roddy Ricch",
+      "this_week": 4,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 23,
+      "new": false
+    },
+    {
+      "song": "Rockstar",
+      "artist": "DaBaby Featuring Roddy Ricch",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 3,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Life Is Good",
+      "artist": "Future Featuring Drake",
+      "this_week": 6,
+      "last_week": 7,
+      "peak_position": 2,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "The Scotts",
+      "artist": "THE SCOTTS, Travis Scott & Kid Cudi",
+      "this_week": 7,
+      "last_week": 6,
+      "peak_position": 1,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Blueberry Faygo",
+      "artist": "Lil Mosey",
+      "this_week": 8,
+      "last_week": 10,
+      "peak_position": 5,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Falling",
+      "artist": "Trevor Daniel",
+      "this_week": 9,
+      "last_week": 12,
+      "peak_position": 6,
+      "weeks_on_chart": 26,
+      "new": false
+    },
+    {
+      "song": "High Fashion",
+      "artist": "Roddy Ricch Featuring Mustard",
+      "this_week": 10,
+      "last_week": 15,
+      "peak_position": 7,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Death Bed",
+      "artist": "Powfu Featuring beabadoobee",
+      "this_week": 11,
+      "last_week": 13,
+      "peak_position": 11,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Whats Poppin",
+      "artist": "Jack Harlow Featuring DaBaby, Tory Lanez & Lil Wayne",
+      "this_week": 12,
+      "last_week": 20,
+      "peak_position": 12,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "3 Headed Goat",
+      "artist": "Lil Durk Featuring Lil Baby & Polo G",
+      "this_week": 13,
+      "last_week": null,
+      "peak_position": 13,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Sum 2 Prove",
+      "artist": "Lil Baby",
+      "this_week": 14,
+      "last_week": 25,
+      "peak_position": 7,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Chicago Freestyle",
+      "artist": "Drake Featuring Giveon",
+      "this_week": 15,
+      "last_week": 8,
+      "peak_position": 8,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Party Girl",
+      "artist": "StaySolidRocky",
+      "this_week": 16,
+      "last_week": null,
+      "peak_position": 16,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Righteous",
+      "artist": "Juice WRLD",
+      "this_week": 17,
+      "last_week": 19,
+      "peak_position": 5,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Pain 1993",
+      "artist": "Drake Featuring Playboi Carti",
+      "this_week": 18,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Walk Em Down",
+      "artist": "NLE Choppa Featuring Roddy Ricch",
+      "this_week": 19,
+      "last_week": null,
+      "peak_position": 19,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Dior",
+      "artist": "Pop Smoke",
+      "this_week": 20,
+      "last_week": null,
+      "peak_position": 11,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "We Paid",
+      "artist": "Lil Baby & 42 Dugg",
+      "this_week": 21,
+      "last_week": null,
+      "peak_position": 21,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Emotionally Scarred",
+      "artist": "Lil Baby",
+      "this_week": 22,
+      "last_week": 24,
+      "peak_position": 13,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Turks",
+      "artist": "Nav, Gunna & Travis Scott",
+      "this_week": 23,
+      "last_week": null,
+      "peak_position": 5,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "After Party",
+      "artist": "Don Toliver",
+      "this_week": 24,
+      "last_week": null,
+      "peak_position": 24,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Zoo York",
+      "artist": "Lil Tjay Featuring Fivio Foreign & Pop Smoke",
+      "this_week": 25,
+      "last_week": null,
+      "peak_position": 25,
+      "weeks_on_chart": 1,
+      "new": true
+    }
+  ]
+}

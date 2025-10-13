@@ -1,0 +1,230 @@
+{
+  "date": "2024-07-13",
+  "data": [
+    {
+      "song": "Million Dollar Baby",
+      "artist": "Tommy Richman",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Saturn",
+      "artist": "SZA",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Devil Is A Lie",
+      "artist": "Tommy Richman",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 3,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Nasty",
+      "artist": "Tinashe",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "After Hours",
+      "artist": "Kehlani",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 5,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Uuugly",
+      "artist": "Drake",
+      "this_week": 6,
+      "last_week": null,
+      "peak_position": 6,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "No Chill",
+      "artist": "PARTYNEXTDOOR",
+      "this_week": 7,
+      "last_week": 6,
+      "peak_position": 6,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Wait On It",
+      "artist": "Jeremih, Bryson Tiller + Chris Brown",
+      "this_week": 8,
+      "last_week": null,
+      "peak_position": 8,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Jump",
+      "artist": "Tyla x Gunna x Skillibeng",
+      "this_week": 9,
+      "last_week": 8,
+      "peak_position": 6,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Love Me JeJe",
+      "artist": "Tems",
+      "this_week": 10,
+      "last_week": 9,
+      "peak_position": 7,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Never Be Yours",
+      "artist": "Kali Uchis",
+      "this_week": 11,
+      "last_week": 7,
+      "peak_position": 7,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Wake Up",
+      "artist": "Skylar Blatt & Chris Brown",
+      "this_week": 12,
+      "last_week": 10,
+      "peak_position": 10,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Here We Go (Uh Oh)",
+      "artist": "Coco Jones",
+      "this_week": 13,
+      "last_week": 12,
+      "peak_position": 12,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Upset",
+      "artist": "Brent Faiyaz Featuring Tommy Richman & FELIX!",
+      "this_week": 14,
+      "last_week": 11,
+      "peak_position": 6,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Residuals",
+      "artist": "Chris Brown",
+      "this_week": 15,
+      "last_week": 13,
+      "peak_position": 12,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Ciao!",
+      "artist": "Bryson Tiller",
+      "this_week": 16,
+      "last_week": 14,
+      "peak_position": 9,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "That's You",
+      "artist": "Lucky Daye",
+      "this_week": 17,
+      "last_week": 21,
+      "peak_position": 17,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Free Fall",
+      "artist": "Tems Featuring J. Cole",
+      "this_week": 18,
+      "last_week": 15,
+      "peak_position": 11,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Alright",
+      "artist": "Victoria Monet",
+      "this_week": 19,
+      "last_week": null,
+      "peak_position": 13,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Truth Or Dare",
+      "artist": "Tyla",
+      "this_week": 20,
+      "last_week": 24,
+      "peak_position": 7,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Real Woman",
+      "artist": "PARTYNEXTDOOR",
+      "this_week": 21,
+      "last_week": 25,
+      "peak_position": 9,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Forever Yours",
+      "artist": "Brent Faiyaz",
+      "this_week": 22,
+      "last_week": null,
+      "peak_position": 13,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Please Don't Fall In Love With Me",
+      "artist": "Khalid",
+      "this_week": 23,
+      "last_week": null,
+      "peak_position": 6,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Inside",
+      "artist": "Don Toliver Featuring Travis Scott",
+      "this_week": 24,
+      "last_week": 16,
+      "peak_position": 6,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "For Certain",
+      "artist": "PARTYNEXTDOOR",
+      "this_week": 25,
+      "last_week": null,
+      "peak_position": 6,
+      "weeks_on_chart": 8,
+      "new": false
+    }
+  ]
+}

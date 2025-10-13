@@ -1,0 +1,230 @@
+{
+  "date": "2023-07-29",
+  "data": [
+    {
+      "song": "Snooze",
+      "artist": "SZA",
+      "this_week": 1,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 32,
+      "new": false
+    },
+    {
+      "song": "Kill Bill",
+      "artist": "SZA",
+      "this_week": 2,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 32,
+      "new": false
+    },
+    {
+      "song": "Sure Thing",
+      "artist": "Miguel",
+      "this_week": 3,
+      "last_week": 4,
+      "peak_position": 3,
+      "weeks_on_chart": 29,
+      "new": false
+    },
+    {
+      "song": "Creepin'",
+      "artist": "Metro Boomin, The Weeknd & 21 Savage",
+      "this_week": 4,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 33,
+      "new": false
+    },
+    {
+      "song": "What It Is (Block Boy)",
+      "artist": "Doechii Featuring Kodak Black",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 5,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "ICU",
+      "artist": "Coco Jones",
+      "this_week": 6,
+      "last_week": 8,
+      "peak_position": 6,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Popular",
+      "artist": "The Weeknd, Playboi Carti & Madonna",
+      "this_week": 7,
+      "last_week": 6,
+      "peak_position": 6,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "See You Again",
+      "artist": "Tyler, the Creator Featuring Kali Uchis",
+      "this_week": 8,
+      "last_week": 7,
+      "peak_position": 6,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "America Has A Problem",
+      "artist": "Beyonce Featuring Kendrick Lamar",
+      "this_week": 9,
+      "last_week": 11,
+      "peak_position": 6,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Summer Too Hot",
+      "artist": "Chris Brown",
+      "this_week": 10,
+      "last_week": 14,
+      "peak_position": 10,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Karma",
+      "artist": "Summer Walker",
+      "this_week": 11,
+      "last_week": 12,
+      "peak_position": 11,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Jackie Brown",
+      "artist": "Brent Faiyaz",
+      "this_week": 12,
+      "last_week": 15,
+      "peak_position": 12,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "This Is",
+      "artist": "Ella Mai",
+      "this_week": 13,
+      "last_week": 16,
+      "peak_position": 13,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "GLU",
+      "artist": "Usher",
+      "this_week": 14,
+      "last_week": 13,
+      "peak_position": 12,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Jericho",
+      "artist": "Iniko",
+      "this_week": 15,
+      "last_week": 18,
+      "peak_position": 15,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Always",
+      "artist": "Daniel Caesar",
+      "this_week": 16,
+      "last_week": 19,
+      "peak_position": 13,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Special",
+      "artist": "Lizzo Featuring SZA",
+      "this_week": 17,
+      "last_week": 17,
+      "peak_position": 8,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Resentment",
+      "artist": "PARTYNEXTDOOR",
+      "this_week": 18,
+      "last_week": 10,
+      "peak_position": 10,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Heated",
+      "artist": "Beyonce",
+      "this_week": 19,
+      "last_week": 22,
+      "peak_position": 13,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Fell In Love",
+      "artist": "Marshmello & Brent Faiyaz",
+      "this_week": 20,
+      "last_week": 21,
+      "peak_position": 12,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Lipstick Lover",
+      "artist": "Janelle Monae",
+      "this_week": 21,
+      "last_week": 24,
+      "peak_position": 18,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Double Fantasy",
+      "artist": "The Weeknd Featuring Future",
+      "this_week": 22,
+      "last_week": 20,
+      "peak_position": 5,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Collide",
+      "artist": "Justine Skye Featuring Tyga",
+      "this_week": 23,
+      "last_week": 25,
+      "peak_position": 21,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "On My Mama",
+      "artist": "Victoria Monet",
+      "this_week": 24,
+      "last_week": null,
+      "peak_position": 16,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "One Of The Girls",
+      "artist": "The Weeknd, JENNIE & Lily-Rose Depp",
+      "this_week": 25,
+      "last_week": 23,
+      "peak_position": 14,
+      "weeks_on_chart": 4,
+      "new": false
+    }
+  ]
+}

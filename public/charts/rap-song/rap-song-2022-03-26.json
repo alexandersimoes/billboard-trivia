@@ -1,0 +1,230 @@
+{
+  "date": "2022-03-26",
+  "data": [
+    {
+      "song": "Super Gremlin",
+      "artist": "Kodak Black",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Big Energy",
+      "artist": "Latto",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Sweetest Pie",
+      "artist": "Megan Thee Stallion & Dua Lipa",
+      "this_week": 3,
+      "last_week": null,
+      "peak_position": 3,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Ahhh Ha",
+      "artist": "Lil Durk",
+      "this_week": 4,
+      "last_week": 5,
+      "peak_position": 4,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Pushin P",
+      "artist": "Gunna & Future Featuring Young Thug",
+      "this_week": 5,
+      "last_week": 3,
+      "peak_position": 2,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Industry Baby",
+      "artist": "Lil Nas X & Jack Harlow",
+      "this_week": 6,
+      "last_week": 4,
+      "peak_position": 1,
+      "weeks_on_chart": 34,
+      "new": false
+    },
+    {
+      "song": "What Happened To Virgil",
+      "artist": "Lil Durk Featuring Gunna",
+      "this_week": 7,
+      "last_week": null,
+      "peak_position": 7,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Petty Too",
+      "artist": "Lil Durk Featuring Future",
+      "this_week": 8,
+      "last_week": null,
+      "peak_position": 8,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "No Interviews",
+      "artist": "Lil Durk",
+      "this_week": 9,
+      "last_week": null,
+      "peak_position": 9,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Golden Child",
+      "artist": "Lil Durk",
+      "this_week": 10,
+      "last_week": null,
+      "peak_position": 10,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Thinking With My Dick",
+      "artist": "Kevin Gates Featuring Juicy J",
+      "this_week": 11,
+      "last_week": null,
+      "peak_position": 11,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Handsomer",
+      "artist": "Russ Featuring Ktlyn",
+      "this_week": 12,
+      "last_week": 9,
+      "peak_position": 9,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Broadway Girls",
+      "artist": "Lil Durk Featuring Morgan Wallen",
+      "this_week": 13,
+      "last_week": 11,
+      "peak_position": 1,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Barbarian",
+      "artist": "Lil Durk",
+      "this_week": 14,
+      "last_week": null,
+      "peak_position": 14,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Shootout @ My Crib",
+      "artist": "Lil Durk",
+      "this_week": 15,
+      "last_week": null,
+      "peak_position": 15,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Started From",
+      "artist": "Lil Durk",
+      "this_week": 16,
+      "last_week": null,
+      "peak_position": 16,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Headtaps",
+      "artist": "Lil Durk",
+      "this_week": 17,
+      "last_week": null,
+      "peak_position": 17,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Smoking & Thinking",
+      "artist": "Lil Durk",
+      "this_week": 18,
+      "last_week": null,
+      "peak_position": 18,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Grow Up/Keep It On Speaker",
+      "artist": "Lil Durk",
+      "this_week": 19,
+      "last_week": null,
+      "peak_position": 19,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Do We Have A Problem?",
+      "artist": "Nicki Minaj X Lil Baby",
+      "this_week": 20,
+      "last_week": 7,
+      "peak_position": 1,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Nail Tech",
+      "artist": "Jack Harlow",
+      "this_week": 21,
+      "last_week": 8,
+      "peak_position": 4,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Blocklist",
+      "artist": "Lil Durk",
+      "this_week": 22,
+      "last_week": null,
+      "peak_position": 22,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Me Or Sum",
+      "artist": "Nardo Wick, Lil Baby & Future",
+      "this_week": 23,
+      "last_week": 12,
+      "peak_position": 10,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Difference Is",
+      "artist": "Lil Durk Featuring Summer Walker",
+      "this_week": 24,
+      "last_week": null,
+      "peak_position": 24,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Freaky Deaky",
+      "artist": "Tyga X Doja Cat",
+      "this_week": 25,
+      "last_week": 13,
+      "peak_position": 8,
+      "weeks_on_chart": 3,
+      "new": false
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "date": "2024-09-28",
+  "data": [
+    {
+      "song": "Birds Of A Feather",
+      "artist": "Billie Eilish",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Too Sweet",
+      "artist": "Hozier",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 26,
+      "new": false
+    },
+    {
+      "song": "Stargazing",
+      "artist": "Myles Smith",
+      "this_week": 3,
+      "last_week": 4,
+      "peak_position": 3,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "The Emptiness Machine",
+      "artist": "Linkin Park",
+      "this_week": 4,
+      "last_week": 3,
+      "peak_position": 3,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Sailor Song",
+      "artist": "Gigi Perez",
+      "this_week": 5,
+      "last_week": 6,
+      "peak_position": 5,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Wildflower",
+      "artist": "Billie Eilish",
+      "this_week": 6,
+      "last_week": 5,
+      "peak_position": 4,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Iris",
+      "artist": "Goo Goo Dolls",
+      "this_week": 7,
+      "last_week": 7,
+      "peak_position": 7,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Numb",
+      "artist": "Linkin Park",
+      "this_week": 8,
+      "last_week": 8,
+      "peak_position": 8,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Lunch",
+      "artist": "Billie Eilish",
+      "this_week": 9,
+      "last_week": 9,
+      "peak_position": 1,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "I Like The Way You Kiss Me",
+      "artist": "Artemas",
+      "this_week": 10,
+      "last_week": 10,
+      "peak_position": 3,
+      "weeks_on_chart": 26,
+      "new": false
+    },
+    {
+      "song": "In The End",
+      "artist": "Linkin Park",
+      "this_week": 11,
+      "last_week": 11,
+      "peak_position": 11,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Chihiro",
+      "artist": "Billie Eilish",
+      "this_week": 12,
+      "last_week": 12,
+      "peak_position": 3,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Disco",
+      "artist": "Surf Curse",
+      "this_week": 13,
+      "last_week": 13,
+      "peak_position": 13,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "No One Noticed",
+      "artist": "The Marias",
+      "this_week": 14,
+      "last_week": 14,
+      "peak_position": 11,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Juna",
+      "artist": "Clairo",
+      "this_week": 15,
+      "last_week": 15,
+      "peak_position": 10,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "One Step Closer",
+      "artist": "Linkin Park",
+      "this_week": 16,
+      "last_week": 16,
+      "peak_position": 16,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Home",
+      "artist": "Good Neighbours",
+      "this_week": 17,
+      "last_week": 17,
+      "peak_position": 7,
+      "weeks_on_chart": 35,
+      "new": false
+    },
+    {
+      "song": "Faint",
+      "artist": "Linkin Park",
+      "this_week": 18,
+      "last_week": 19,
+      "peak_position": 18,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "L'amour de Ma Vie",
+      "artist": "Billie Eilish",
+      "this_week": 19,
+      "last_week": 22,
+      "peak_position": 6,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Misses",
+      "artist": "Dominic Fike",
+      "this_week": 20,
+      "last_week": 21,
+      "peak_position": 9,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "The Greatest",
+      "artist": "Billie Eilish",
+      "this_week": 21,
+      "last_week": 23,
+      "peak_position": 8,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Linger (SiriusXM Session)",
+      "artist": "Royel Otis",
+      "this_week": 22,
+      "last_week": 25,
+      "peak_position": 11,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "We Pray",
+      "artist": "Coldplay Featuring Little Simz, Burna Boy, Elyanna & TINI",
+      "this_week": 23,
+      "last_week": 24,
+      "peak_position": 19,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Blue",
+      "artist": "Billie Eilish",
+      "this_week": 24,
+      "last_week": null,
+      "peak_position": 9,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Skinny",
+      "artist": "Billie Eilish",
+      "this_week": 25,
+      "last_week": null,
+      "peak_position": 6,
+      "weeks_on_chart": 17,
+      "new": false
+    }
+  ]
+}
