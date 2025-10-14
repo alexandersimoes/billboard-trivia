@@ -1,0 +1,365 @@
+{
+  "date": "1999-09-04",
+  "data": [
+    {
+      "song": "Bella [She's All I Ever Had]",
+      "artist": "Ricky Martin",
+      "this_week": 1,
+      "last_week": 4,
+      "peak_position": 1,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "De Hoy En Adelante",
+      "artist": "Millie",
+      "this_week": 2,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Sol, Arena Y Mar",
+      "artist": "Luis Miguel",
+      "this_week": 3,
+      "last_week": 10,
+      "peak_position": 3,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "No Me Ames",
+      "artist": "Jennifer Lopez With Marc Anthony",
+      "this_week": 4,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Dejate Querer",
+      "artist": "Gilberto Santa Rosa",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 4,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Se Me Olvido Otra Vez",
+      "artist": "Mana",
+      "this_week": 6,
+      "last_week": 6,
+      "peak_position": 5,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Necesito Decirte",
+      "artist": "Conjunto Primavera",
+      "this_week": 7,
+      "last_week": 9,
+      "peak_position": 6,
+      "weeks_on_chart": 33,
+      "new": false
+    },
+    {
+      "song": "Loco",
+      "artist": "Alejandro Fernandez",
+      "this_week": 8,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "El Peor De Mis Fracasos",
+      "artist": "Marco Antonio Solis",
+      "this_week": 9,
+      "last_week": 7,
+      "peak_position": 5,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Traigo Una Pena",
+      "artist": "Franco De Vita",
+      "this_week": 10,
+      "last_week": 11,
+      "peak_position": 10,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Bailamos",
+      "artist": "Enrique Iglesias",
+      "this_week": 11,
+      "last_week": 8,
+      "peak_position": 1,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Me Haces Mucha Falta",
+      "artist": "Los Tucanes de Tijuana",
+      "this_week": 12,
+      "last_week": 16,
+      "peak_position": 10,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Santo, Santo",
+      "artist": "So Pra Contrariar & Gloria Estefan",
+      "this_week": 13,
+      "last_week": 17,
+      "peak_position": 13,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "En Las Nubes",
+      "artist": "Manny Manuel",
+      "this_week": 14,
+      "last_week": 12,
+      "peak_position": 12,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Atado A Tu Amor",
+      "artist": "Chayanne",
+      "this_week": 15,
+      "last_week": 20,
+      "peak_position": 15,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Lagrimas",
+      "artist": "Los Tigres del Norte",
+      "this_week": 16,
+      "last_week": 13,
+      "peak_position": 7,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Estas Enamorada",
+      "artist": "Limi-T 21",
+      "this_week": 17,
+      "last_week": 23,
+      "peak_position": 17,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Cuando La Brisa Llega",
+      "artist": "Tonny Tun Tun",
+      "this_week": 18,
+      "last_week": 19,
+      "peak_position": 18,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Tu Sabes Bien",
+      "artist": "Ednita Nazario Con La Ley",
+      "this_week": 19,
+      "last_week": 22,
+      "peak_position": 8,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Me Estoy Acostumbrando A Ti",
+      "artist": "Pepe Aguilar",
+      "this_week": 20,
+      "last_week": 14,
+      "peak_position": 6,
+      "weeks_on_chart": 29,
+      "new": false
+    },
+    {
+      "song": "Alguna Vez",
+      "artist": "Cristian",
+      "this_week": 21,
+      "last_week": null,
+      "peak_position": 21,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "El Poder De Tu Amor",
+      "artist": "Ricardo Montaner",
+      "this_week": 22,
+      "last_week": null,
+      "peak_position": 22,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Si Tu Me Faltas",
+      "artist": "Jerry Rivera",
+      "this_week": 23,
+      "last_week": 30,
+      "peak_position": 17,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "A Cambio De Que",
+      "artist": "Corvo",
+      "this_week": 24,
+      "last_week": 28,
+      "peak_position": 24,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Mi Vida Sin Tu Amor",
+      "artist": "Cristian",
+      "this_week": 25,
+      "last_week": 15,
+      "peak_position": 3,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Me Vas A Recordar",
+      "artist": "Los Angeles de Charly",
+      "this_week": 26,
+      "last_week": 37,
+      "peak_position": 26,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Tiemblo",
+      "artist": "Elvis Crespo",
+      "this_week": 27,
+      "last_week": 21,
+      "peak_position": 21,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Deshojo La Margarita",
+      "artist": "Rene & Renny",
+      "this_week": 28,
+      "last_week": 24,
+      "peak_position": 23,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Estaba Solo",
+      "artist": "Los Temerarios",
+      "this_week": 29,
+      "last_week": 29,
+      "peak_position": 19,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Sed De Carino",
+      "artist": "Grupo Innovacion",
+      "this_week": 30,
+      "last_week": 32,
+      "peak_position": 26,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "If You Had My Love",
+      "artist": "Jennifer Lopez",
+      "this_week": 31,
+      "last_week": 27,
+      "peak_position": 27,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "You'll Be In My Heart",
+      "artist": "Phil Collins",
+      "this_week": 32,
+      "last_week": 33,
+      "peak_position": 32,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Livin' La Vida Loca",
+      "artist": "Ricky Martin",
+      "this_week": 33,
+      "last_week": 25,
+      "peak_position": 1,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Atada",
+      "artist": "Gisselle",
+      "this_week": 34,
+      "last_week": null,
+      "peak_position": 34,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "El Niagara En Bicicleta",
+      "artist": "Juan Luis Guerra 440",
+      "this_week": 35,
+      "last_week": 38,
+      "peak_position": 2,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "5 Dias",
+      "artist": "Amanda Miguel",
+      "this_week": 36,
+      "last_week": 31,
+      "peak_position": 16,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "La Persona Equivocada",
+      "artist": "Melina Leon With Victor Manuelle",
+      "this_week": 37,
+      "last_week": null,
+      "peak_position": 37,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Ingratos Ojos Mios",
+      "artist": "Banda Machos",
+      "this_week": 38,
+      "last_week": 39,
+      "peak_position": 38,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Si He Sabido Amor",
+      "artist": "Alejandro Fernandez",
+      "this_week": 39,
+      "last_week": null,
+      "peak_position": 39,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Si Estuvieras Conmigo",
+      "artist": "Liberacion",
+      "this_week": 40,
+      "last_week": null,
+      "peak_position": 40,
+      "weeks_on_chart": 1,
+      "new": true
+    }
+  ]
+}

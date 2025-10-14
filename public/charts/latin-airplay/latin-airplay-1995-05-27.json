@@ -1,0 +1,365 @@
+{
+  "date": "1995-05-27",
+  "data": [
+    {
+      "song": "Fotos Y Recuerdos (Back On The Chain Gang)",
+      "artist": "Selena",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Te Amo Mama",
+      "artist": "Marco Antonio Solis y Los Bukis",
+      "this_week": 2,
+      "last_week": 10,
+      "peak_position": 2,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Vestida De Blanco",
+      "artist": "Rocio Durcal",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 3,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Una Mujer Como Tu",
+      "artist": "Marco Antonio Solis y Los Bukis",
+      "this_week": 4,
+      "last_week": 6,
+      "peak_position": 4,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Esa Mujer",
+      "artist": "Bronco: El Gigante De America",
+      "this_week": 5,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Una Vez Mas",
+      "artist": "The Barrio Boyzz",
+      "this_week": 6,
+      "last_week": 5,
+      "peak_position": 5,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Toma Mi Amor",
+      "artist": "La Mafia",
+      "this_week": 7,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "No Me Queda Mas",
+      "artist": "Selena",
+      "this_week": 8,
+      "last_week": 7,
+      "peak_position": 1,
+      "weeks_on_chart": 28,
+      "new": false
+    },
+    {
+      "song": "Ven Junto A Mi",
+      "artist": "Claudio",
+      "this_week": 9,
+      "last_week": 9,
+      "peak_position": 8,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "A Esa",
+      "artist": "Liberacion",
+      "this_week": 10,
+      "last_week": 11,
+      "peak_position": 6,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Siempre Te Voy A Querer",
+      "artist": "Industria del Amor",
+      "this_week": 11,
+      "last_week": 12,
+      "peak_position": 7,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Aunque Me Duela El Alma",
+      "artist": "Vicente Fernandez",
+      "this_week": 12,
+      "last_week": 31,
+      "peak_position": 12,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "El Taxista",
+      "artist": "Los Dinnosaurios",
+      "this_week": 13,
+      "last_week": 8,
+      "peak_position": 3,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Mi Corazon Lloro",
+      "artist": "Ritmo Rojo",
+      "this_week": 14,
+      "last_week": 15,
+      "peak_position": 8,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Que Me Pasa Contigo",
+      "artist": "Wilkins",
+      "this_week": 15,
+      "last_week": 13,
+      "peak_position": 13,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Por Favor Corazon",
+      "artist": "Gary Hobbs",
+      "this_week": 16,
+      "last_week": 19,
+      "peak_position": 16,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Estamos Solos",
+      "artist": "Rey Ruiz",
+      "this_week": 17,
+      "last_week": 14,
+      "peak_position": 14,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Nadie",
+      "artist": "La Mafia",
+      "this_week": 18,
+      "last_week": null,
+      "peak_position": 18,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Quiero Que Me Vuelvas A Querer",
+      "artist": "Sparx",
+      "this_week": 19,
+      "last_week": 34,
+      "peak_position": 19,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "La Fama De La Pareja",
+      "artist": "Los Tigres del Norte",
+      "this_week": 20,
+      "last_week": 18,
+      "peak_position": 5,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Delirio",
+      "artist": "Luis Miguel",
+      "this_week": 21,
+      "last_week": 16,
+      "peak_position": 16,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Que No Me Olvide",
+      "artist": "Bronco: El Gigante De America",
+      "this_week": 22,
+      "last_week": 17,
+      "peak_position": 1,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Si Ya No Te Vuelvo A Ver",
+      "artist": "Marco Antonio Solis y Los Bukis",
+      "this_week": 23,
+      "last_week": 20,
+      "peak_position": 13,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Si Te Vas",
+      "artist": "Los Fugitivos",
+      "this_week": 24,
+      "last_week": 23,
+      "peak_position": 10,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Esta Noche Tu Vendras",
+      "artist": "Los Invasores de Nuevo Leon",
+      "this_week": 25,
+      "last_week": 39,
+      "peak_position": 25,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "No Puedo Olvidarte",
+      "artist": "Ednita Nazario",
+      "this_week": 26,
+      "last_week": 22,
+      "peak_position": 22,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Gente",
+      "artist": "Laura Pausini",
+      "this_week": 27,
+      "last_week": 35,
+      "peak_position": 27,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Que Seas Muy Feliz",
+      "artist": "Alejandro Fernandez",
+      "this_week": 28,
+      "last_week": 36,
+      "peak_position": 28,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Estan Lloviendo Lagrimas",
+      "artist": "Graciela Beltran",
+      "this_week": 29,
+      "last_week": 28,
+      "peak_position": 28,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Corazon Romantico",
+      "artist": "Guardianes del Amor",
+      "this_week": 30,
+      "last_week": 26,
+      "peak_position": 24,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Diez",
+      "artist": "Elsa Garcia",
+      "this_week": 31,
+      "last_week": 27,
+      "peak_position": 26,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Linda Chaparrita",
+      "artist": "La Diferenzia",
+      "this_week": 32,
+      "last_week": 33,
+      "peak_position": 15,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Ya Me Canse",
+      "artist": "Olga Tanon",
+      "this_week": 33,
+      "last_week": 21,
+      "peak_position": 21,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Pobres De Los Dos",
+      "artist": "Jose Javier Solis",
+      "this_week": 34,
+      "last_week": null,
+      "peak_position": 34,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Ya",
+      "artist": "Emilio",
+      "this_week": 35,
+      "last_week": null,
+      "peak_position": 35,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Gracias Mujer",
+      "artist": "Banda Machos",
+      "this_week": 36,
+      "last_week": null,
+      "peak_position": 36,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Estare (I'll Be There)",
+      "artist": "Saylor & Fultz",
+      "this_week": 37,
+      "last_week": 29,
+      "peak_position": 20,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Azul Gris",
+      "artist": "Cristian",
+      "this_week": 38,
+      "last_week": 24,
+      "peak_position": 10,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Corazon De Otro",
+      "artist": "Los Temerarios",
+      "this_week": 39,
+      "last_week": null,
+      "peak_position": 39,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Libre",
+      "artist": "Ricardo Arjona",
+      "this_week": 40,
+      "last_week": null,
+      "peak_position": 40,
+      "weeks_on_chart": 1,
+      "new": true
+    }
+  ]
+}

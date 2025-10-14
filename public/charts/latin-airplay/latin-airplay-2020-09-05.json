@@ -1,0 +1,455 @@
+{
+  "date": "2020-09-05",
+  "data": [
+    {
+      "song": "Agua",
+      "artist": "Tainy x J Balvin",
+      "this_week": 1,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Caramelo",
+      "artist": "Ozuna x Karol G x Myke Towers",
+      "this_week": 2,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "PAM",
+      "artist": "Justin Quiles, Daddy Yankee & El Alfa",
+      "this_week": 3,
+      "last_week": 6,
+      "peak_position": 3,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Tattoo",
+      "artist": "Rauw Alejandro x Camilo",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Porfa",
+      "artist": "Feid, J Balvin, Maluma, Nicky Jam, Sech & Justin Quiles",
+      "this_week": 5,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Besame",
+      "artist": "Play N Skillz, Daddy Yankee & Zion & Lennox",
+      "this_week": 6,
+      "last_week": 5,
+      "peak_position": 4,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Un Dia (One Day)",
+      "artist": "J Balvin, Dua Lipa, Bad Bunny & Tainy",
+      "this_week": 7,
+      "last_week": 10,
+      "peak_position": 7,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Carita de Inocente",
+      "artist": "Prince Royce",
+      "this_week": 8,
+      "last_week": 7,
+      "peak_position": 1,
+      "weeks_on_chart": 26,
+      "new": false
+    },
+    {
+      "song": "Ay, Dios Mio!",
+      "artist": "Karol G",
+      "this_week": 9,
+      "last_week": 12,
+      "peak_position": 9,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Yo Perreo Sola",
+      "artist": "Bad Bunny",
+      "this_week": 10,
+      "last_week": 8,
+      "peak_position": 1,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Hawai",
+      "artist": "Maluma & The Weeknd",
+      "this_week": 11,
+      "last_week": 16,
+      "peak_position": 11,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "El Envidioso",
+      "artist": "Los Dos Carnales",
+      "this_week": 12,
+      "last_week": 13,
+      "peak_position": 12,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Relacion",
+      "artist": "Sech, Daddy Yankee & J Balvin Featuring Rosalia & Farruko",
+      "this_week": 13,
+      "last_week": 14,
+      "peak_position": 13,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "ADMV",
+      "artist": "Maluma",
+      "this_week": 14,
+      "last_week": 9,
+      "peak_position": 1,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Aqui Abajo",
+      "artist": "Christian Nodal",
+      "this_week": 15,
+      "last_week": 20,
+      "peak_position": 15,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Me Hubieras Avisado",
+      "artist": "Edwin Luna y La Trakalosa de Monterrey",
+      "this_week": 16,
+      "last_week": 11,
+      "peak_position": 11,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "El Carnaval de Celia: A Tribute (La Vida Es Un Carnaval / La Negra Tiene...",
+      "artist": "KYEN?ES?",
+      "this_week": 17,
+      "last_week": 23,
+      "peak_position": 17,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "La Dificil",
+      "artist": "Bad Bunny",
+      "this_week": 18,
+      "last_week": 17,
+      "peak_position": 1,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Somos Los Que Somos",
+      "artist": "Los 2 de La S & Banda MS de Sergio Lizarraga",
+      "this_week": 19,
+      "last_week": 24,
+      "peak_position": 19,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "40 y 21",
+      "artist": "Beto Zapata",
+      "this_week": 20,
+      "last_week": 22,
+      "peak_position": 20,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Futbol & Rumba",
+      "artist": "Anuel AA & Enrique Iglesias",
+      "this_week": 21,
+      "last_week": 18,
+      "peak_position": 1,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Que Maldicion",
+      "artist": "Banda MS de Sergio Lizarraga & Snoop Dogg",
+      "this_week": 22,
+      "last_week": 19,
+      "peak_position": 9,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Mamacita",
+      "artist": "Black Eyed Peas, Ozuna + J.Rey Soul",
+      "this_week": 23,
+      "last_week": 15,
+      "peak_position": 1,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "La Jeepeta",
+      "artist": "Nio Garcia x Anuel AA x Myke Towers x Brray x Juanka",
+      "this_week": 24,
+      "last_week": 25,
+      "peak_position": 20,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Que Mal Te Fue",
+      "artist": "Natti Natasha",
+      "this_week": 25,
+      "last_week": 26,
+      "peak_position": 25,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "La Toxica",
+      "artist": "Farruko",
+      "this_week": 26,
+      "last_week": 33,
+      "peak_position": 26,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Barquillero",
+      "artist": "Calibre 50",
+      "this_week": 27,
+      "last_week": 21,
+      "peak_position": 7,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Feel The Beat",
+      "artist": "Black Eyed Peas X Maluma",
+      "this_week": 28,
+      "last_week": 27,
+      "peak_position": 22,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Tu",
+      "artist": "Carin Leon",
+      "this_week": 29,
+      "last_week": 31,
+      "peak_position": 29,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Rojo",
+      "artist": "J Balvin",
+      "this_week": 30,
+      "last_week": 32,
+      "peak_position": 1,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Favorito",
+      "artist": "Camilo",
+      "this_week": 31,
+      "last_week": 29,
+      "peak_position": 20,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "No Estoy Perdiendo Nada",
+      "artist": "Enigma Norteno y Grupo Firme",
+      "this_week": 32,
+      "last_week": 40,
+      "peak_position": 32,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Drogba [Johanna] (Global Latin Version)",
+      "artist": "Afro B X Ozuna",
+      "this_week": 33,
+      "last_week": 37,
+      "peak_position": 33,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Locura",
+      "artist": "Cali y El Dandee & Sebastian Yatra",
+      "this_week": 34,
+      "last_week": 34,
+      "peak_position": 31,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Diosa",
+      "artist": "Myke Towers",
+      "this_week": 35,
+      "last_week": 45,
+      "peak_position": 35,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Con Tus Besos",
+      "artist": "Eslabon Armado",
+      "this_week": 36,
+      "last_week": 44,
+      "peak_position": 36,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "TKN",
+      "artist": "Rosalia & Travis Scott",
+      "this_week": 37,
+      "last_week": 30,
+      "peak_position": 25,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Tiempo Pa' Olvidar",
+      "artist": "Abraham Mateo & Becky G",
+      "this_week": 38,
+      "last_week": 43,
+      "peak_position": 38,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Cancion Con Yandel",
+      "artist": "Yandel X Bad Bunny",
+      "this_week": 39,
+      "last_week": 36,
+      "peak_position": 34,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Borracho de Cochera",
+      "artist": "El Fantasma",
+      "this_week": 40,
+      "last_week": 35,
+      "peak_position": 32,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "De Ti Me Enamore",
+      "artist": "Banda El Recodo de Cruz Lizarraga",
+      "this_week": 41,
+      "last_week": 28,
+      "peak_position": 23,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Te Mueves",
+      "artist": "Zion & Lennox & Natti Natasha",
+      "this_week": 42,
+      "last_week": 39,
+      "peak_position": 39,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "No Se Te Dio",
+      "artist": "Nio Garcia & Casper Magico Featuring Arcangel, De la Ghetto",
+      "this_week": 43,
+      "last_week": null,
+      "peak_position": 43,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Dile",
+      "artist": "Jary Franco",
+      "this_week": 44,
+      "last_week": 41,
+      "peak_position": 39,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Mirala",
+      "artist": "Rafa Pabon",
+      "this_week": 45,
+      "last_week": null,
+      "peak_position": 45,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "For Sale",
+      "artist": "Carlos Vives & Alejandro Sanz",
+      "this_week": 46,
+      "last_week": 48,
+      "peak_position": 46,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Gistro Amarillo",
+      "artist": "Ozuna X Wisin",
+      "this_week": 47,
+      "last_week": null,
+      "peak_position": 47,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "La Curiosidad",
+      "artist": "DJ Nelson Presenta Jay Wheeler & Myke Towers",
+      "this_week": 48,
+      "last_week": null,
+      "peak_position": 48,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "La Cama",
+      "artist": "Lunay x Myke Towers",
+      "this_week": 49,
+      "last_week": 49,
+      "peak_position": 40,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Relaciones",
+      "artist": "Lunay",
+      "this_week": 50,
+      "last_week": 47,
+      "peak_position": 47,
+      "weeks_on_chart": 2,
+      "new": false
+    }
+  ]
+}

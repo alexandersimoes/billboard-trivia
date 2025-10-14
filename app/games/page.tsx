@@ -80,6 +80,7 @@ export default function Games() {
     'rap': '🎙️',
     'alternative': '🎸',
     'rock': '🎧',
+    'latin': '💃',
     'other': '🎵'
   };
 

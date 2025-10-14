@@ -1,0 +1,455 @@
+{
+  "date": "2011-12-17",
+  "data": [
+    {
+      "song": "El Verdadero Amor Perdona",
+      "artist": "Mana Featuring Prince Royce",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Promise",
+      "artist": "Romeo Santos Featuring Usher",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Te Quiero A Morir",
+      "artist": "Banda El Recodo de Cruz Lizarraga",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 3,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "El Mil Amores",
+      "artist": "Pesado",
+      "this_week": 4,
+      "last_week": 5,
+      "peak_position": 3,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Maquina Del Tiempo",
+      "artist": "Tito \"El Bambino\" Featuring Wisin & Yandel",
+      "this_week": 5,
+      "last_week": 8,
+      "peak_position": 4,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Lovumba (Prestige)",
+      "artist": "Daddy Yankee",
+      "this_week": 6,
+      "last_week": 7,
+      "peak_position": 6,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Give Me Everything",
+      "artist": "Pitbull Featuring Ne-Yo, Afrojack & Nayer",
+      "this_week": 7,
+      "last_week": 4,
+      "peak_position": 1,
+      "weeks_on_chart": 32,
+      "new": false
+    },
+    {
+      "song": "Olvidame",
+      "artist": "Julion Alvarez y Su Norteno Banda",
+      "this_week": 8,
+      "last_week": 6,
+      "peak_position": 2,
+      "weeks_on_chart": 28,
+      "new": false
+    },
+    {
+      "song": "Para No Perderte",
+      "artist": "Espinoza Paz",
+      "this_week": 9,
+      "last_week": 13,
+      "peak_position": 9,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Taboo",
+      "artist": "Don Omar",
+      "this_week": 10,
+      "last_week": 9,
+      "peak_position": 1,
+      "weeks_on_chart": 42,
+      "new": false
+    },
+    {
+      "song": "Moves Like Jagger",
+      "artist": "Maroon 5 Featuring Christina Aguilera",
+      "this_week": 11,
+      "last_week": 11,
+      "peak_position": 8,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Sexy And I Know It",
+      "artist": "LMFAO",
+      "this_week": 12,
+      "last_week": 15,
+      "peak_position": 12,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Ayer",
+      "artist": "Enrique Iglesias",
+      "this_week": 13,
+      "last_week": 10,
+      "peak_position": 7,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Di Que Regresaras",
+      "artist": "La Original Banda el Limon de Salvador Lizarraga",
+      "this_week": 14,
+      "last_week": 12,
+      "peak_position": 3,
+      "weeks_on_chart": 28,
+      "new": false
+    },
+    {
+      "song": "No Fue Facil",
+      "artist": "Roberto Tapia",
+      "this_week": 15,
+      "last_week": 16,
+      "peak_position": 15,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "El Poeta",
+      "artist": "Chino & Nacho",
+      "this_week": 16,
+      "last_week": 17,
+      "peak_position": 16,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Respira",
+      "artist": "Luis Fonsi",
+      "this_week": 17,
+      "last_week": 22,
+      "peak_position": 13,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Basta Ya",
+      "artist": "Jenni Rivera Featuring Marco Antonio Solis",
+      "this_week": 18,
+      "last_week": 14,
+      "peak_position": 14,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Nada Iguales",
+      "artist": "La Adictiva Banda San Jose de Mesillas",
+      "this_week": 19,
+      "last_week": 21,
+      "peak_position": 19,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "We Found Love",
+      "artist": "Rihanna Featuring Calvin Harris",
+      "this_week": 20,
+      "last_week": 26,
+      "peak_position": 20,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "De Mi",
+      "artist": "Camila",
+      "this_week": 21,
+      "last_week": 23,
+      "peak_position": 18,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Versos De Mi Alma",
+      "artist": "Voz de Mando",
+      "this_week": 22,
+      "last_week": 24,
+      "peak_position": 22,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Tu Mirada",
+      "artist": "Reik",
+      "this_week": 23,
+      "last_week": 19,
+      "peak_position": 19,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Fanfarron",
+      "artist": "Fanny Lu",
+      "this_week": 24,
+      "last_week": 27,
+      "peak_position": 24,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "El Mentiroso",
+      "artist": "Banda Carnaval",
+      "this_week": 25,
+      "last_week": 25,
+      "peak_position": 14,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Me Gustas Tanto",
+      "artist": "Paulina Rubio",
+      "this_week": 26,
+      "last_week": 33,
+      "peak_position": 26,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "400 Mil Veinte Anos",
+      "artist": "Tierra Cali",
+      "this_week": 27,
+      "last_week": 32,
+      "peak_position": 27,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "El Amor",
+      "artist": "Ricardo Arjona",
+      "this_week": 28,
+      "last_week": 20,
+      "peak_position": 1,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Someone Like You",
+      "artist": "Adele",
+      "this_week": 29,
+      "last_week": 29,
+      "peak_position": 28,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Intentalo",
+      "artist": "3BallMTY Featuring El Bebeto y America Sierra",
+      "this_week": 30,
+      "last_week": 31,
+      "peak_position": 30,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Si Tu Me Besas",
+      "artist": "Victor Manuelle",
+      "this_week": 31,
+      "last_week": 34,
+      "peak_position": 31,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Un Minuto",
+      "artist": "Pedro Capo",
+      "this_week": 32,
+      "last_week": 36,
+      "peak_position": 32,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "You Make Me Feel...",
+      "artist": "Cobra Starship Featuring Sabi",
+      "this_week": 33,
+      "last_week": 35,
+      "peak_position": 33,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Tu Decides",
+      "artist": "Los Huracanes del Norte",
+      "this_week": 34,
+      "last_week": 37,
+      "peak_position": 34,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Aquiles Afirmo",
+      "artist": "Gerardo Ortiz",
+      "this_week": 35,
+      "last_week": 30,
+      "peak_position": 21,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Nobody Like You",
+      "artist": "Franco El Gorila Featuring Oneill",
+      "this_week": 36,
+      "last_week": 39,
+      "peak_position": 36,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Mas Que Nunca",
+      "artist": "Duelo",
+      "this_week": 37,
+      "last_week": 40,
+      "peak_position": 30,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "In The Dark",
+      "artist": "Dev",
+      "this_week": 38,
+      "last_week": 38,
+      "peak_position": 31,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Pegate Mas",
+      "artist": "Dyland & Lenny",
+      "this_week": 39,
+      "last_week": 42,
+      "peak_position": 39,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Wanna Be Yours",
+      "artist": "PW Featuring El Cata",
+      "this_week": 40,
+      "last_week": 44,
+      "peak_position": 40,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Vuelve Pronto",
+      "artist": "Alex Rivera",
+      "this_week": 41,
+      "last_week": 45,
+      "peak_position": 41,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Take Over Control",
+      "artist": "Afrojack Featuring Eva Simons",
+      "this_week": 42,
+      "last_week": null,
+      "peak_position": 42,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Bienvenido",
+      "artist": "Laura Pausini",
+      "this_week": 43,
+      "last_week": 41,
+      "peak_position": 41,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Te Estoy Enganando Con Otra",
+      "artist": "Calibre 50",
+      "this_week": 44,
+      "last_week": 46,
+      "peak_position": 39,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Na, Na, Na, Na, Na",
+      "artist": "Baby Rasta & Gringo",
+      "this_week": 45,
+      "last_week": 48,
+      "peak_position": 45,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Enhorabuena",
+      "artist": "Fidel Rueda",
+      "this_week": 46,
+      "last_week": 43,
+      "peak_position": 21,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Me Toca Celebrar",
+      "artist": "Tito \"El Bambino\" El Patron",
+      "this_week": 47,
+      "last_week": null,
+      "peak_position": 47,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Como Tu No Hay 2",
+      "artist": "Beatriz Luengo Featuring Yotuel",
+      "this_week": 48,
+      "last_week": 47,
+      "peak_position": 34,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "El Dia Que Me Fui",
+      "artist": "Shaila Durcal",
+      "this_week": 49,
+      "last_week": null,
+      "peak_position": 49,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Energia",
+      "artist": "Alexis & Fido",
+      "this_week": 50,
+      "last_week": null,
+      "peak_position": 25,
+      "weeks_on_chart": 12,
+      "new": false
+    }
+  ]
+}

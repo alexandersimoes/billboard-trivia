@@ -1,0 +1,455 @@
+{
+  "date": "2014-03-15",
+  "data": [
+    {
+      "song": "La Luz",
+      "artist": "Juanes",
+      "this_week": 1,
+      "last_week": 11,
+      "peak_position": 1,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Odio",
+      "artist": "Romeo Santos Featuring Drake",
+      "this_week": 2,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "El Perdedor",
+      "artist": "Enrique Iglesias Featuring Marco Antonio Solis",
+      "this_week": 3,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Te Robare",
+      "artist": "Prince Royce",
+      "this_week": 4,
+      "last_week": 5,
+      "peak_position": 4,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Cambio de Piel",
+      "artist": "Marc Anthony",
+      "this_week": 5,
+      "last_week": 3,
+      "peak_position": 2,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Hermosa Experiencia",
+      "artist": "Banda Sinaloense MS de Sergio Lizarraga",
+      "this_week": 6,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Mujer de Piedra",
+      "artist": "Gerardo Ortiz",
+      "this_week": 7,
+      "last_week": 6,
+      "peak_position": 4,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Adrenalina",
+      "artist": "Wisin Featuring Jennifer Lopez & Ricky Martin",
+      "this_week": 8,
+      "last_week": null,
+      "peak_position": 8,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Borracho de Amor",
+      "artist": "Banda La Trakalosa",
+      "this_week": 9,
+      "last_week": 14,
+      "peak_position": 9,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "El Inmigrante",
+      "artist": "Calibre 50",
+      "this_week": 10,
+      "last_week": 7,
+      "peak_position": 7,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Prometo Olvidarte",
+      "artist": "Tony Dize",
+      "this_week": 11,
+      "last_week": 10,
+      "peak_position": 2,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "6 AM",
+      "artist": "J Balvin Featuring Farruko",
+      "this_week": 12,
+      "last_week": 16,
+      "peak_position": 12,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Fin de Semana",
+      "artist": "La Original Banda el Limon de Salvador Lizarraga Featuring Rio Roma",
+      "this_week": 13,
+      "last_week": 18,
+      "peak_position": 13,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "La Nueva y La Ex",
+      "artist": "Daddy Yankee",
+      "this_week": 14,
+      "last_week": 8,
+      "peak_position": 1,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Vivir Mi Vida",
+      "artist": "Marc Anthony",
+      "this_week": 15,
+      "last_week": 13,
+      "peak_position": 1,
+      "weeks_on_chart": 45,
+      "new": false
+    },
+    {
+      "song": "Te Hubieras Ido Antes",
+      "artist": "Julion Alvarez y Su Norteno Banda",
+      "this_week": 16,
+      "last_week": 17,
+      "peak_position": 16,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Una Vez Mas",
+      "artist": "Victor Manuelle Featuring Reik",
+      "this_week": 17,
+      "last_week": 20,
+      "peak_position": 17,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Hasta Abajo",
+      "artist": "Yandel",
+      "this_week": 18,
+      "last_week": 9,
+      "peak_position": 1,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Can't Remember To Forget You",
+      "artist": "Shakira Featuring Rihanna",
+      "this_week": 19,
+      "last_week": 27,
+      "peak_position": 19,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "La Doble Cara",
+      "artist": "Banda Carnaval",
+      "this_week": 20,
+      "last_week": 15,
+      "peak_position": 14,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "La Foto de Los Dos",
+      "artist": "Carlos Vives",
+      "this_week": 21,
+      "last_week": 12,
+      "peak_position": 7,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Chica Ideal",
+      "artist": "Chino & Nacho",
+      "this_week": 22,
+      "last_week": 19,
+      "peak_position": 16,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Para Que Tantos Besos",
+      "artist": "Noel Torres",
+      "this_week": 23,
+      "last_week": 21,
+      "peak_position": 21,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "En La Sierra y En La Ciudad...La China",
+      "artist": "Javier Rosas",
+      "this_week": 24,
+      "last_week": 28,
+      "peak_position": 24,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "La Temperatura",
+      "artist": "Maluma Featuring Eli Palacios",
+      "this_week": 25,
+      "last_week": 24,
+      "peak_position": 24,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Relacion Clandestina",
+      "artist": "Chuy Lizarraga y Su Banda Tierra Sinaloense",
+      "this_week": 26,
+      "last_week": 22,
+      "peak_position": 20,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Amor Amor",
+      "artist": "Conjunto Primavera",
+      "this_week": 27,
+      "last_week": 31,
+      "peak_position": 27,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Dark Horse",
+      "artist": "Katy Perry Featuring Juicy J",
+      "this_week": 28,
+      "last_week": 30,
+      "peak_position": 28,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Te La Pasas",
+      "artist": "Tito Torbellino XIII Featuring EP",
+      "this_week": 29,
+      "last_week": 29,
+      "peak_position": 17,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Desde El Primer Beso",
+      "artist": "Gocho \"El Lapiz de Platino\" Featuring Wisin",
+      "this_week": 30,
+      "last_week": 25,
+      "peak_position": 25,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "With Or Without You",
+      "artist": "Johnny Sky",
+      "this_week": 31,
+      "last_week": 26,
+      "peak_position": 26,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Cero A La Izquierda",
+      "artist": "Los Huracanes del Norte",
+      "this_week": 32,
+      "last_week": 43,
+      "peak_position": 32,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Se Fue",
+      "artist": "Laura Pausini & Marc Anthony",
+      "this_week": 33,
+      "last_week": 36,
+      "peak_position": 33,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Happy",
+      "artist": "Pharrell Williams",
+      "this_week": 34,
+      "last_week": 44,
+      "peak_position": 34,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Candy",
+      "artist": "Plan B",
+      "this_week": 35,
+      "last_week": 33,
+      "peak_position": 33,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Counting Stars",
+      "artist": "OneRepublic",
+      "this_week": 36,
+      "last_week": 34,
+      "peak_position": 32,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "La Noche Es Tuya",
+      "artist": "3BallMTY Featuring America Sierra & Gerardo Ortiz",
+      "this_week": 37,
+      "last_week": 37,
+      "peak_position": 37,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Moviendo Caderas",
+      "artist": "Yandel Featuring Daddy Yankee",
+      "this_week": 38,
+      "last_week": null,
+      "peak_position": 38,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Let Her Go",
+      "artist": "Passenger",
+      "this_week": 39,
+      "last_week": 35,
+      "peak_position": 35,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "El Juego",
+      "artist": "Roberto Tapia",
+      "this_week": 40,
+      "last_week": 45,
+      "peak_position": 40,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Corazon En La Maleta",
+      "artist": "Luis Fonsi",
+      "this_week": 41,
+      "last_week": null,
+      "peak_position": 41,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "La Botella",
+      "artist": "Zion & Lennox",
+      "this_week": 42,
+      "last_week": 32,
+      "peak_position": 27,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "A Los Cuatro Vientos",
+      "artist": "La Arrolladora Banda el Limon de Rene Camacho",
+      "this_week": 43,
+      "last_week": 39,
+      "peak_position": 35,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Timber",
+      "artist": "Pitbull Featuring Ke$ha",
+      "this_week": 44,
+      "last_week": 38,
+      "peak_position": 23,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Put It In A Kiss",
+      "artist": "Katherine Alexander",
+      "this_week": 45,
+      "last_week": 23,
+      "peak_position": 1,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Alocate",
+      "artist": "Alexis & Fido",
+      "this_week": 46,
+      "last_week": 41,
+      "peak_position": 31,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "De Mil Amores",
+      "artist": "Marco Antonio Solis",
+      "this_week": 47,
+      "last_week": 47,
+      "peak_position": 47,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "La Nina Mas Linda",
+      "artist": "Kevin Ortiz",
+      "this_week": 48,
+      "last_week": null,
+      "peak_position": 48,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Soy de Rancho",
+      "artist": "El Komander",
+      "this_week": 49,
+      "last_week": null,
+      "peak_position": 49,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Pompeii",
+      "artist": "Bastille",
+      "this_week": 50,
+      "last_week": 46,
+      "peak_position": 46,
+      "weeks_on_chart": 3,
+      "new": false
+    }
+  ]
+}

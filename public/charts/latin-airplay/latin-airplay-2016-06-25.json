@@ -1,0 +1,455 @@
+{
+  "date": "2016-06-25",
+  "data": [
+    {
+      "song": "Duele El Corazon",
+      "artist": "Enrique Iglesias Featuring Wisin",
+      "this_week": 1,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "La Bicicleta",
+      "artist": "Carlos Vives & Shakira",
+      "this_week": 2,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Bobo",
+      "artist": "J Balvin",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Hasta El Amanecer",
+      "artist": "Nicky Jam",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 1,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Me Va A Pesar",
+      "artist": "La Arrolladora Banda el Limon de Rene Camacho",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 4,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "El Perdedor",
+      "artist": "Maluma Featuring Yandel",
+      "this_week": 6,
+      "last_week": 8,
+      "peak_position": 5,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "CicatrIIIces",
+      "artist": "Regulo Caro",
+      "this_week": 7,
+      "last_week": 6,
+      "peak_position": 6,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Hasta Que Se Seque El Malecon",
+      "artist": "Jacob Forever",
+      "this_week": 8,
+      "last_week": 9,
+      "peak_position": 5,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Si No Es Contigo",
+      "artist": "Banda El Recodo de Cruz Lizarraga",
+      "this_week": 9,
+      "last_week": 7,
+      "peak_position": 5,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Espero Con Ansias",
+      "artist": "Remmy Valenzuela",
+      "this_week": 10,
+      "last_week": 13,
+      "peak_position": 10,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Me Vas A Extranar",
+      "artist": "Banda Sinaloense MS de Sergio Lizarraga",
+      "this_week": 11,
+      "last_week": 14,
+      "peak_position": 11,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Ay Mi Dios",
+      "artist": "IAmChino Featuring Pitbull, Yandel & Chacal",
+      "this_week": 12,
+      "last_week": 15,
+      "peak_position": 12,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Corazon Acelerao",
+      "artist": "Wisin",
+      "this_week": 13,
+      "last_week": 10,
+      "peak_position": 10,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Tan Facil",
+      "artist": "CNCO",
+      "this_week": 14,
+      "last_week": 11,
+      "peak_position": 1,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Obsesionado",
+      "artist": "Farruko",
+      "this_week": 15,
+      "last_week": 12,
+      "peak_position": 1,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Prestamela A Mi",
+      "artist": "Calibre 50",
+      "this_week": 16,
+      "last_week": 17,
+      "peak_position": 3,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Andas En Mi Cabeza",
+      "artist": "Chino & Nacho Featuring Daddy Yankee",
+      "this_week": 17,
+      "last_week": 20,
+      "peak_position": 6,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Ya Me Entere",
+      "artist": "Reik & Nicky Jam",
+      "this_week": 18,
+      "last_week": 21,
+      "peak_position": 18,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Me Esta Gustando",
+      "artist": "Banda los Recoditos",
+      "this_week": 19,
+      "last_week": 22,
+      "peak_position": 19,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Embriagame",
+      "artist": "Zion & Lennox",
+      "this_week": 20,
+      "last_week": 19,
+      "peak_position": 4,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Shaky Shaky",
+      "artist": "Daddy Yankee",
+      "this_week": 21,
+      "last_week": 29,
+      "peak_position": 21,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "La Carretera",
+      "artist": "Prince Royce",
+      "this_week": 22,
+      "last_week": 28,
+      "peak_position": 22,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Todo O Nada",
+      "artist": "Alfredo Olivas",
+      "this_week": 23,
+      "last_week": 25,
+      "peak_position": 23,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Bien Servida",
+      "artist": "Los Gfez Featuring Diego Herrera",
+      "this_week": 24,
+      "last_week": 23,
+      "peak_position": 20,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Nadie Como Tu",
+      "artist": "Banda Clave Nueva De Max Peraza",
+      "this_week": 25,
+      "last_week": 16,
+      "peak_position": 14,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Shalala",
+      "artist": "Tito \"El Bambino\"",
+      "this_week": 26,
+      "last_week": 24,
+      "peak_position": 23,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Baby",
+      "artist": "Jencarlos Featuring Lennox",
+      "this_week": 27,
+      "last_week": 26,
+      "peak_position": 18,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Fuiste Mia",
+      "artist": "Gerardo Ortiz",
+      "this_week": 28,
+      "last_week": 37,
+      "peak_position": 28,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Baila Conmigo",
+      "artist": "Juan Magan Featuring Luciana",
+      "this_week": 29,
+      "last_week": 31,
+      "peak_position": 29,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Dueles",
+      "artist": "Jesse & Joy",
+      "this_week": 30,
+      "last_week": 34,
+      "peak_position": 30,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Not A Crime (No Es Ilegal)",
+      "artist": "Play-N-Skillz x Daddy Yankee",
+      "this_week": 31,
+      "last_week": 27,
+      "peak_position": 17,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Pero Sin Enamorarse",
+      "artist": "Jesus Ojeda y Sus Parientes",
+      "this_week": 32,
+      "last_week": 30,
+      "peak_position": 21,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Imaginar",
+      "artist": "Victor Manuelle + Yandel",
+      "this_week": 33,
+      "last_week": 35,
+      "peak_position": 33,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "One Dance",
+      "artist": "Drake Featuring Wizkid & Kyla",
+      "this_week": 34,
+      "last_week": 38,
+      "peak_position": 30,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Quiero Experimentar",
+      "artist": "J Alvarez",
+      "this_week": 35,
+      "last_week": 36,
+      "peak_position": 35,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "El Guitarrero",
+      "artist": "Julion Alvarez y Su Norteno Banda Featuring El Coyote",
+      "this_week": 36,
+      "last_week": 33,
+      "peak_position": 33,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Te Has Convertido En Mi",
+      "artist": "Christian Daniel",
+      "this_week": 37,
+      "last_week": 40,
+      "peak_position": 30,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Por Haber Sido Mia",
+      "artist": "Noel Torres",
+      "this_week": 38,
+      "last_week": 32,
+      "peak_position": 32,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Amor de Los Pobres",
+      "artist": "La Original Banda el Limon de Salvador Lizarraga",
+      "this_week": 39,
+      "last_week": 39,
+      "peak_position": 39,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Don't Let Me Down",
+      "artist": "The Chainsmokers Featuring Daya",
+      "this_week": 40,
+      "last_week": 45,
+      "peak_position": 40,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Juro Quererte",
+      "artist": "Hijos de Barron",
+      "this_week": 41,
+      "last_week": 43,
+      "peak_position": 36,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Hay Amores",
+      "artist": "Julion Alvarez y Su Norteno Banda Featuring Pancho Barraza",
+      "this_week": 42,
+      "last_week": 47,
+      "peak_position": 42,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Me Gustas",
+      "artist": "Jose Angel Ledesma \"El Coyote\"",
+      "this_week": 43,
+      "last_week": null,
+      "peak_position": 43,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Amarte Es Hermoso",
+      "artist": "Los Huracanes del Norte",
+      "this_week": 44,
+      "last_week": 48,
+      "peak_position": 31,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "La Mejor de Todas",
+      "artist": "Zacarias Ferreira",
+      "this_week": 45,
+      "last_week": 41,
+      "peak_position": 33,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Como Sanar",
+      "artist": "Frank Reyes",
+      "this_week": 46,
+      "last_week": null,
+      "peak_position": 46,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Solo Yo",
+      "artist": "Sofia Reyes / Prince Royce",
+      "this_week": 47,
+      "last_week": 42,
+      "peak_position": 28,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Ataud",
+      "artist": "Los Tigres del Norte",
+      "this_week": 48,
+      "last_week": null,
+      "peak_position": 48,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Que Sera de Mi",
+      "artist": "Baby Rasta & Gringo",
+      "this_week": 49,
+      "last_week": null,
+      "peak_position": 49,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Como Decirle",
+      "artist": "Kany Garcia",
+      "this_week": 50,
+      "last_week": 44,
+      "peak_position": 44,
+      "weeks_on_chart": 2,
+      "new": false
+    }
+  ]
+}

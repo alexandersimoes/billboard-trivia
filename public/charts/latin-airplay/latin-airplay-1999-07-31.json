@@ -1,0 +1,365 @@
+{
+  "date": "1999-07-31",
+  "data": [
+    {
+      "song": "No Me Ames",
+      "artist": "Jennifer Lopez With Marc Anthony",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Bailamos",
+      "artist": "Enrique Iglesias",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Loco",
+      "artist": "Alejandro Fernandez",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 3,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Mi Vida Sin Tu Amor",
+      "artist": "Cristian",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 3,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Se Me Olvido Otra Vez",
+      "artist": "Mana",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 5,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Bella [She's All I Ever Had]",
+      "artist": "Ricky Martin",
+      "this_week": 6,
+      "last_week": 8,
+      "peak_position": 6,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Lagrimas",
+      "artist": "Los Tigres del Norte",
+      "this_week": 7,
+      "last_week": 9,
+      "peak_position": 7,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Tu Sabes Bien",
+      "artist": "Ednita Nazario Con La Ley",
+      "this_week": 8,
+      "last_week": 10,
+      "peak_position": 8,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "El Niagara En Bicicleta",
+      "artist": "Juan Luis Guerra 440",
+      "this_week": 9,
+      "last_week": 6,
+      "peak_position": 2,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Necesito Decirte",
+      "artist": "Conjunto Primavera",
+      "this_week": 10,
+      "last_week": 12,
+      "peak_position": 6,
+      "weeks_on_chart": 28,
+      "new": false
+    },
+    {
+      "song": "Dejate Querer",
+      "artist": "Gilberto Santa Rosa",
+      "this_week": 11,
+      "last_week": 18,
+      "peak_position": 11,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "El Peor De Mis Fracasos",
+      "artist": "Marco Antonio Solis",
+      "this_week": 12,
+      "last_week": 13,
+      "peak_position": 10,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Me Haces Mucha Falta",
+      "artist": "Los Tucanes de Tijuana",
+      "this_week": 13,
+      "last_week": 14,
+      "peak_position": 13,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Livin' La Vida Loca",
+      "artist": "Ricky Martin",
+      "this_week": 14,
+      "last_week": 7,
+      "peak_position": 1,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Tu",
+      "artist": "Noelia",
+      "this_week": 15,
+      "last_week": 17,
+      "peak_position": 5,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Me Estoy Acostumbrando A Ti",
+      "artist": "Pepe Aguilar",
+      "this_week": 16,
+      "last_week": 11,
+      "peak_position": 6,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "De Hoy En Adelante",
+      "artist": "Millie",
+      "this_week": 17,
+      "last_week": 16,
+      "peak_position": 16,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Sublime Mujer",
+      "artist": "Vicente Fernandez",
+      "this_week": 18,
+      "last_week": 15,
+      "peak_position": 15,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Si Te Pudiera Mentir",
+      "artist": "Marco Antonio Solis",
+      "this_week": 19,
+      "last_week": 19,
+      "peak_position": 1,
+      "weeks_on_chart": 27,
+      "new": false
+    },
+    {
+      "song": "Pintame",
+      "artist": "Elvis Crespo",
+      "this_week": 20,
+      "last_week": 21,
+      "peak_position": 2,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Si Tu Quisieras",
+      "artist": "Luis Fonsi",
+      "this_week": 21,
+      "last_week": 24,
+      "peak_position": 9,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Si Tu Me Faltas",
+      "artist": "Jerry Rivera",
+      "this_week": 22,
+      "last_week": null,
+      "peak_position": 22,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Hielo Y Fuego",
+      "artist": "Olga Tanon",
+      "this_week": 23,
+      "last_week": 29,
+      "peak_position": 23,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "En Las Nubes",
+      "artist": "Manny Manuel",
+      "this_week": 24,
+      "last_week": 39,
+      "peak_position": 24,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Le Gusta Que La Vean",
+      "artist": "Tito Nieves",
+      "this_week": 25,
+      "last_week": 30,
+      "peak_position": 25,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Pasion",
+      "artist": "Limite",
+      "this_week": 26,
+      "last_week": 25,
+      "peak_position": 24,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "No Me Digas Que Ya Te Vas",
+      "artist": "Pesado",
+      "this_week": 27,
+      "last_week": 34,
+      "peak_position": 27,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Amor Del Bueno",
+      "artist": "Banda Arkangel R-15",
+      "this_week": 28,
+      "last_week": 35,
+      "peak_position": 28,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "El Disgusto",
+      "artist": "Julio Preciado Y Su Banda Perla del Pacifico",
+      "this_week": 29,
+      "last_week": 33,
+      "peak_position": 27,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Cuando La Brisa Llega",
+      "artist": "Tonny Tun Tun",
+      "this_week": 30,
+      "last_week": 31,
+      "peak_position": 30,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Mil Gracias",
+      "artist": "Banda Maguey",
+      "this_week": 31,
+      "last_week": 40,
+      "peak_position": 31,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Entrega Total",
+      "artist": "Tiranos del Norte",
+      "this_week": 32,
+      "last_week": 28,
+      "peak_position": 11,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Llamarada",
+      "artist": "Pepe Aguilar",
+      "this_week": 33,
+      "last_week": null,
+      "peak_position": 33,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Salome",
+      "artist": "Chayanne",
+      "this_week": 34,
+      "last_week": 22,
+      "peak_position": 19,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Dame Un Poco Mas",
+      "artist": "MDO",
+      "this_week": 35,
+      "last_week": null,
+      "peak_position": 11,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Estaba Solo",
+      "artist": "Los Temerarios",
+      "this_week": 36,
+      "last_week": 27,
+      "peak_position": 27,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "5 Dias",
+      "artist": "Amanda Miguel",
+      "this_week": 37,
+      "last_week": null,
+      "peak_position": 25,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Pura Sangre",
+      "artist": "Jarabe de Palo",
+      "this_week": 38,
+      "last_week": 26,
+      "peak_position": 23,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Infidelidad",
+      "artist": "Juan Gabriel",
+      "this_week": 39,
+      "last_week": 36,
+      "peak_position": 27,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Toco La Luz",
+      "artist": "Noelia",
+      "this_week": 40,
+      "last_week": 32,
+      "peak_position": 32,
+      "weeks_on_chart": 6,
+      "new": false
+    }
+  ]
+}

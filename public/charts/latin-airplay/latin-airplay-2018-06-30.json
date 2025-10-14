@@ -1,0 +1,455 @@
+{
+  "date": "2018-06-30",
+  "data": [
+    {
+      "song": "La Player (Bandolera)",
+      "artist": "Zion & Lennox",
+      "this_week": 1,
+      "last_week": 6,
+      "peak_position": 1,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "X",
+      "artist": "Nicky Jam x J Balvin",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Me Niego",
+      "artist": "Reik Featuring Ozuna & Wisin",
+      "this_week": 3,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Dura",
+      "artist": "Daddy Yankee",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 1,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "El Prestamo",
+      "artist": "Maluma",
+      "this_week": 5,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Se Acabo El Amor",
+      "artist": "Abraham Mateo, Yandel + Jennifer Lopez",
+      "this_week": 6,
+      "last_week": 5,
+      "peak_position": 1,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "I Like It",
+      "artist": "Cardi B, Bad Bunny & J Balvin",
+      "this_week": 7,
+      "last_week": 12,
+      "peak_position": 7,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Me Hubieras Dicho",
+      "artist": "Joss Favela",
+      "this_week": 8,
+      "last_week": 22,
+      "peak_position": 8,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Sin Pijama",
+      "artist": "Becky G + Natti Natasha",
+      "this_week": 9,
+      "last_week": 9,
+      "peak_position": 9,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Ambiente",
+      "artist": "J Balvin",
+      "this_week": 10,
+      "last_week": 8,
+      "peak_position": 8,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Te Bote",
+      "artist": "Casper Magico, Nio Garcia, Darell, Nicky Jam, Ozuna & Bad Bunny",
+      "this_week": 11,
+      "last_week": 10,
+      "peak_position": 9,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Que Bonito Es Querer",
+      "artist": "Ulices Chaidez y Sus Plebes",
+      "this_week": 12,
+      "last_week": 14,
+      "peak_position": 12,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Bella",
+      "artist": "Wolfine",
+      "this_week": 13,
+      "last_week": 16,
+      "peak_position": 13,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "El Anillo",
+      "artist": "Jennifer Lopez",
+      "this_week": 14,
+      "last_week": 13,
+      "peak_position": 12,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Corazon",
+      "artist": "Maluma X Nego do Borel",
+      "this_week": 15,
+      "last_week": 17,
+      "peak_position": 1,
+      "weeks_on_chart": 30,
+      "new": false
+    },
+    {
+      "song": "Fiebre",
+      "artist": "Ricky Martin Featuring Wisin & Yandel",
+      "this_week": 16,
+      "last_week": 15,
+      "peak_position": 1,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Segunda Opcion",
+      "artist": "Banda Carnaval",
+      "this_week": 17,
+      "last_week": 31,
+      "peak_position": 17,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "El Clavo",
+      "artist": "Prince Royce Featuring Maluma",
+      "this_week": 18,
+      "last_week": 23,
+      "peak_position": 18,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Mi Cama",
+      "artist": "Karol G & J Balvin Featuring Nicky Jam",
+      "this_week": 19,
+      "last_week": 25,
+      "peak_position": 19,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Diez Minutos Mas",
+      "artist": "Los Huracanes del Norte",
+      "this_week": 20,
+      "last_week": 19,
+      "peak_position": 19,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Unica",
+      "artist": "Ozuna",
+      "this_week": 21,
+      "last_week": 26,
+      "peak_position": 21,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "El Farsante",
+      "artist": "Ozuna & Romeo Santos",
+      "this_week": 22,
+      "last_week": 28,
+      "peak_position": 15,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Oye Mujer",
+      "artist": "Raymix",
+      "this_week": 23,
+      "last_week": 7,
+      "peak_position": 5,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Sobredosis",
+      "artist": "Romeo Santos Featuring Ozuna",
+      "this_week": 24,
+      "last_week": 18,
+      "peak_position": 9,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Calidad y Cantidad",
+      "artist": "La Arrolladora Banda el Limon de Rene Camacho",
+      "this_week": 25,
+      "last_week": 21,
+      "peak_position": 13,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Esperandote",
+      "artist": "Manuel Turizo",
+      "this_week": 26,
+      "last_week": 24,
+      "peak_position": 21,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Tiempo",
+      "artist": "Banda los Recoditos",
+      "this_week": 27,
+      "last_week": 11,
+      "peak_position": 6,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Te Falle",
+      "artist": "Christian Nodal",
+      "this_week": 28,
+      "last_week": 35,
+      "peak_position": 28,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Quisiera Alejarme",
+      "artist": "Wisin Featuring Ozuna",
+      "this_week": 29,
+      "last_week": 32,
+      "peak_position": 29,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "El Que A Ti Te Gusta",
+      "artist": "Voz de Mando",
+      "this_week": 30,
+      "last_week": 30,
+      "peak_position": 30,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Clandestino",
+      "artist": "Shakira & Maluma",
+      "this_week": 31,
+      "last_week": null,
+      "peak_position": 31,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Por Perro",
+      "artist": "Sebastian Yatra Featuring Luis Figueroa & Lary Over",
+      "this_week": 32,
+      "last_week": 34,
+      "peak_position": 32,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Tu Postura",
+      "artist": "Banda Sinaloense MS de Sergio Lizarraga",
+      "this_week": 33,
+      "last_week": 29,
+      "peak_position": 8,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Privilegio",
+      "artist": "Banda Rancho Viejo de Julio Aramburo La Bandononon Desde El Ion de Los Peraza",
+      "this_week": 34,
+      "last_week": 44,
+      "peak_position": 34,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Nos Fuimos Lejos",
+      "artist": "Descemer Bueno & Enrique Iglesias Featuring El Micha",
+      "this_week": 35,
+      "last_week": 42,
+      "peak_position": 35,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "No Me Acuerdo",
+      "artist": "Thalia & Natti Natasha",
+      "this_week": 36,
+      "last_week": 50,
+      "peak_position": 36,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Hoy Tengo Tiempo (Pinta Sensual)",
+      "artist": "Carlos Vives",
+      "this_week": 37,
+      "last_week": 37,
+      "peak_position": 37,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "En Peligro de Extincion",
+      "artist": "La Adictiva",
+      "this_week": 38,
+      "last_week": 47,
+      "peak_position": 38,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Amarte Duro",
+      "artist": "Victor Manuelle Featuring Farruko",
+      "this_week": 39,
+      "last_week": 46,
+      "peak_position": 39,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Ni Contigo Ni Sin Ti",
+      "artist": "Los Angeles Azules Featuring Pepe Aguilar",
+      "this_week": 40,
+      "last_week": 38,
+      "peak_position": 37,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Solo Yo",
+      "artist": "CNCO",
+      "this_week": 41,
+      "last_week": 27,
+      "peak_position": 25,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Al Cien y Pasadito",
+      "artist": "Jorge Medina",
+      "this_week": 42,
+      "last_week": null,
+      "peak_position": 42,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "El Aroma de Tu Piel",
+      "artist": "Gerardo Ortiz",
+      "this_week": 43,
+      "last_week": 36,
+      "peak_position": 11,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "No Me Chingues La Vida",
+      "artist": "Espinoza Paz",
+      "this_week": 44,
+      "last_week": null,
+      "peak_position": 44,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "La Vida Sin Ti",
+      "artist": "Piso 21",
+      "this_week": 45,
+      "last_week": 49,
+      "peak_position": 45,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Di Que Sientes Tu",
+      "artist": "Chayanne",
+      "this_week": 46,
+      "last_week": 33,
+      "peak_position": 33,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Mitad y Mitad",
+      "artist": "Calibre 50",
+      "this_week": 47,
+      "last_week": 20,
+      "peak_position": 5,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Inolvidable",
+      "artist": "Farruko",
+      "this_week": 48,
+      "last_week": null,
+      "peak_position": 48,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Para No Acordarme de Ella",
+      "artist": "Luis Coronel",
+      "this_week": 49,
+      "last_week": 40,
+      "peak_position": 36,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "1, 2, 3",
+      "artist": "Sofia Reyes Featuring Jason Derulo & De la Ghetto",
+      "this_week": 50,
+      "last_week": 43,
+      "peak_position": 31,
+      "weeks_on_chart": 7,
+      "new": false
+    }
+  ]
+}

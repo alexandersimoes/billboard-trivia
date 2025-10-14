@@ -127,7 +127,8 @@ export default function Home() {
         'rnb': 'r-b-hip-hop-songs',
         'rap': 'rap-song',
         'alternative': 'alternative-airplay',
-        'rock': 'rock-songs'
+        'rock': 'rock-songs',
+        'latin': 'latin-airplay'
       };
 
       const folderName = chartFolders[selectedChart];
@@ -172,7 +173,8 @@ export default function Home() {
       'rnb': 'R&B/Hip-Hop Songs',
       'rap': 'Rap Songs',
       'alternative': 'Alternative Songs',
-      'rock': 'Rock Songs'
+      'rock': 'Rock Songs',
+      'latin': 'Latin'
     };
 
     setStatus(`Loading ${chartNames[selectedChart]}...`);
@@ -189,7 +191,8 @@ export default function Home() {
         'rnb': 'r-b-hip-hop-songs',
         'rap': 'rap-song',
         'alternative': 'alternative-airplay',
-        'rock': 'rock-songs'
+        'rock': 'rock-songs',
+        'latin': 'latin-airplay'
       };
 
       const folderName = chartFolders[selectedChart];
@@ -583,6 +586,7 @@ export default function Home() {
                   <option value="rap" style={{ backgroundColor: '#000' }}>🎙️ RAP</option>
                   <option value="alternative" style={{ backgroundColor: '#000' }}>🎸 ALTERNATIVE</option>
                   <option value="rock" style={{ backgroundColor: '#000' }}>🎧 ROCK</option>
+                  <option value="latin" style={{ backgroundColor: '#000' }}>💃 LATIN</option>
                 </select>
               </div>
 

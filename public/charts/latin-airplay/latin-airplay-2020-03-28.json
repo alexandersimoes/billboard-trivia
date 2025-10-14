@@ -1,0 +1,455 @@
+{
+  "date": "2020-03-28",
+  "data": [
+    {
+      "song": "Subelo (Further Up)",
+      "artist": "Static & Ben El & Pitbull & Chesca",
+      "this_week": 1,
+      "last_week": 8,
+      "peak_position": 1,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Tusa",
+      "artist": "Karol G & Nicki Minaj",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Muevelo",
+      "artist": "Nicky Jam & Daddy Yankee",
+      "this_week": 3,
+      "last_week": 4,
+      "peak_position": 3,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Fantasia",
+      "artist": "Ozuna",
+      "this_week": 4,
+      "last_week": 5,
+      "peak_position": 4,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "RITMO (Bad Boys For Life)",
+      "artist": "Black Eyed Peas X J Balvin",
+      "this_week": 5,
+      "last_week": 6,
+      "peak_position": 1,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Me Gusta",
+      "artist": "Shakira & Anuel AA",
+      "this_week": 6,
+      "last_week": 9,
+      "peak_position": 6,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Vete",
+      "artist": "Bad Bunny",
+      "this_week": 7,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Blanco",
+      "artist": "J Balvin",
+      "this_week": 8,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Que Tire Pa Lante",
+      "artist": "Daddy Yankee",
+      "this_week": 9,
+      "last_week": 7,
+      "peak_position": 1,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Te Quemaste",
+      "artist": "Manuel Turizo & Anuel AA",
+      "this_week": 10,
+      "last_week": 15,
+      "peak_position": 10,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Solo Tu",
+      "artist": "Calibre 50",
+      "this_week": 11,
+      "last_week": 10,
+      "peak_position": 6,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Morado",
+      "artist": "J Balvin",
+      "this_week": 12,
+      "last_week": 13,
+      "peak_position": 12,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Fantasias",
+      "artist": "Rauw Alejandro X Farruko",
+      "this_week": 13,
+      "last_week": 14,
+      "peak_position": 13,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Dormida",
+      "artist": "Edwin Luna y La Trakalosa de Monterrey",
+      "this_week": 14,
+      "last_week": 18,
+      "peak_position": 14,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "KEII",
+      "artist": "Anuel AA",
+      "this_week": 15,
+      "last_week": 17,
+      "peak_position": 15,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Carita de Inocente",
+      "artist": "Prince Royce",
+      "this_week": 16,
+      "last_week": 26,
+      "peak_position": 16,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Tiburones",
+      "artist": "Ricky Martin",
+      "this_week": 17,
+      "last_week": 24,
+      "peak_position": 17,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Palabra de Hombre",
+      "artist": "El Fantasma",
+      "this_week": 18,
+      "last_week": 25,
+      "peak_position": 18,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Te Olvide",
+      "artist": "Alejandro Fernandez",
+      "this_week": 19,
+      "last_week": 20,
+      "peak_position": 19,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "La Mejor Version de Mi",
+      "artist": "Natti Natasha & Romeo Santos",
+      "this_week": 20,
+      "last_week": 16,
+      "peak_position": 5,
+      "weeks_on_chart": 25,
+      "new": false
+    },
+    {
+      "song": "Que Pena",
+      "artist": "Maluma x J Balvin",
+      "this_week": 21,
+      "last_week": 12,
+      "peak_position": 1,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Definitivamente",
+      "artist": "Daddy Yankee & Sech",
+      "this_week": 22,
+      "last_week": 22,
+      "peak_position": 22,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Vallenato Apretao",
+      "artist": "Silvestre Dangond",
+      "this_week": 23,
+      "last_week": 27,
+      "peak_position": 23,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Lo Que Te Di",
+      "artist": "Marc Anthony",
+      "this_week": 24,
+      "last_week": 33,
+      "peak_position": 15,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Escondidos",
+      "artist": "La Adictiva",
+      "this_week": 25,
+      "last_week": 19,
+      "peak_position": 1,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Me Quedare Contigo",
+      "artist": "Pitbull & Ne-Yo Featuring Lenier & El Micha",
+      "this_week": 26,
+      "last_week": 11,
+      "peak_position": 11,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Pegao",
+      "artist": "CNCO & Manuel Turizo",
+      "this_week": 27,
+      "last_week": 28,
+      "peak_position": 24,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Adicto",
+      "artist": "Tainy, Anuel AA & Ozuna",
+      "this_week": 28,
+      "last_week": 32,
+      "peak_position": 25,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Mia Desde Siempre",
+      "artist": "La Arrolladora Banda el Limon de Rene Camacho",
+      "this_week": 29,
+      "last_week": 23,
+      "peak_position": 15,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Sigues Con El",
+      "artist": "Arcangel x Romeo x Sech",
+      "this_week": 30,
+      "last_week": 30,
+      "peak_position": 22,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Girl",
+      "artist": "Myke Towers",
+      "this_week": 31,
+      "last_week": 34,
+      "peak_position": 31,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Yo Ya No Vuelvo Contigo",
+      "artist": "Lenin Ramirez Featuring Grupo Firme",
+      "this_week": 32,
+      "last_week": 38,
+      "peak_position": 32,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "No Es Que Me Gustes",
+      "artist": "Luis Coronel & La Septima Banda",
+      "this_week": 33,
+      "last_week": 35,
+      "peak_position": 33,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "En Honor A Ti",
+      "artist": "La Maquinaria Nortena Featuring Grupo Firme",
+      "this_week": 34,
+      "last_week": 39,
+      "peak_position": 34,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Si Me Dices Que Si",
+      "artist": "Reik, Farruko & Camilo",
+      "this_week": 35,
+      "last_week": 42,
+      "peak_position": 35,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Vanidosa",
+      "artist": "Espinoza Paz",
+      "this_week": 36,
+      "last_week": 37,
+      "peak_position": 36,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Si Te Vas",
+      "artist": "Sech x Ozuna",
+      "this_week": 37,
+      "last_week": 31,
+      "peak_position": 30,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Un Baile Mas",
+      "artist": "Ivy Queen",
+      "this_week": 38,
+      "last_week": 40,
+      "peak_position": 33,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Se Me Olvido",
+      "artist": "Christian Nodal",
+      "this_week": 39,
+      "last_week": null,
+      "peak_position": 39,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Me Enamore",
+      "artist": "Jay Wheeler",
+      "this_week": 40,
+      "last_week": null,
+      "peak_position": 40,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Asi Asi",
+      "artist": "Farina x Maluma",
+      "this_week": 41,
+      "last_week": 44,
+      "peak_position": 41,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Easy",
+      "artist": "Jhay Cortez X Ozuna",
+      "this_week": 42,
+      "last_week": 46,
+      "peak_position": 42,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "En Boca de Todos",
+      "artist": "T3r Elemento",
+      "this_week": 43,
+      "last_week": 47,
+      "peak_position": 31,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Despacio",
+      "artist": "Natti Natasha, Nicky Jam, Myke Towers, Manuel Turizo, DJ Luian & Mambo Kingz",
+      "this_week": 44,
+      "last_week": null,
+      "peak_position": 44,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Perriando",
+      "artist": "Reykon",
+      "this_week": 45,
+      "last_week": 29,
+      "peak_position": 21,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "La Buena Vida",
+      "artist": "Los Tucanes de Tijuana",
+      "this_week": 46,
+      "last_week": null,
+      "peak_position": 46,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Mas Te Recuerdo",
+      "artist": "Banda Nortena",
+      "this_week": 47,
+      "last_week": 41,
+      "peak_position": 15,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Maldad",
+      "artist": "Steve Aoki & Maluma",
+      "this_week": 48,
+      "last_week": 49,
+      "peak_position": 48,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Cada Vez Te Extrano Mas",
+      "artist": "Grupo Firme Featuring El Yaki Luis Alfonso Partida",
+      "this_week": 49,
+      "last_week": 48,
+      "peak_position": 17,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Acariname",
+      "artist": "Los Angeles Azules, Julieta Venegas & Juan Ingaramo",
+      "this_week": 50,
+      "last_week": 36,
+      "peak_position": 11,
+      "weeks_on_chart": 20,
+      "new": false
+    }
+  ]
+}

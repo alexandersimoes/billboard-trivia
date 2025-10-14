@@ -153,6 +153,7 @@ export default function Leaderboard() {
                       'rap': '🎙️',
                       'alternative': '🎸',
                       'rock': '🎧',
+                      'latin': '💃',
                       'other': '🎵'
                     };
 

@@ -1,0 +1,365 @@
+{
+  "date": "1999-05-15",
+  "data": [
+    {
+      "song": "Livin' La Vida Loca",
+      "artist": "Ricky Martin",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Pintame",
+      "artist": "Elvis Crespo",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Si Te Pudiera Mentir",
+      "artist": "Marco Antonio Solis",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "El Niagara En Bicicleta",
+      "artist": "Juan Luis Guerra 440",
+      "this_week": 4,
+      "last_week": 5,
+      "peak_position": 4,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Inevitable",
+      "artist": "Shakira",
+      "this_week": 5,
+      "last_week": 4,
+      "peak_position": 3,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Me Voy A Quitar De En Medio",
+      "artist": "Vicente Fernandez",
+      "this_week": 6,
+      "last_week": 9,
+      "peak_position": 4,
+      "weeks_on_chart": 40,
+      "new": false
+    },
+    {
+      "song": "Loco",
+      "artist": "Alejandro Fernandez",
+      "this_week": 7,
+      "last_week": 11,
+      "peak_position": 7,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Necesito Decirte",
+      "artist": "Conjunto Primavera",
+      "this_week": 8,
+      "last_week": 8,
+      "peak_position": 6,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Amor Platonico",
+      "artist": "Los Tucanes de Tijuana",
+      "this_week": 9,
+      "last_week": 13,
+      "peak_position": 9,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Me Estoy Acostumbrando A Ti",
+      "artist": "Pepe Aguilar",
+      "this_week": 10,
+      "last_week": 6,
+      "peak_position": 6,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Por Mujeres Como Tu",
+      "artist": "Tito Rojas",
+      "this_week": 11,
+      "last_week": 10,
+      "peak_position": 3,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Tu",
+      "artist": "Noelia",
+      "this_week": 12,
+      "last_week": 16,
+      "peak_position": 5,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Quien Te Robo El Corazon?",
+      "artist": "Ednita Nazario",
+      "this_week": 13,
+      "last_week": 14,
+      "peak_position": 11,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Dejaria Todo",
+      "artist": "Chayanne",
+      "this_week": 14,
+      "last_week": 17,
+      "peak_position": 1,
+      "weeks_on_chart": 27,
+      "new": false
+    },
+    {
+      "song": "Una Voz En El Alma",
+      "artist": "Millie",
+      "this_week": 15,
+      "last_week": 7,
+      "peak_position": 3,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Crei",
+      "artist": "Tiranos del Norte",
+      "this_week": 16,
+      "last_week": 18,
+      "peak_position": 2,
+      "weeks_on_chart": 25,
+      "new": false
+    },
+    {
+      "song": "Entrega Total",
+      "artist": "Tiranos del Norte",
+      "this_week": 17,
+      "last_week": 20,
+      "peak_position": 11,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Que Bonito",
+      "artist": "Los Mismos",
+      "this_week": 18,
+      "last_week": 19,
+      "peak_position": 14,
+      "weeks_on_chart": 28,
+      "new": false
+    },
+    {
+      "song": "Me Estoy Volviendo Loco",
+      "artist": "Jordi",
+      "this_week": 19,
+      "last_week": 12,
+      "peak_position": 9,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Sublime Mujer",
+      "artist": "Vicente Fernandez",
+      "this_week": 20,
+      "last_week": 22,
+      "peak_position": 20,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Agua",
+      "artist": "Jarabe de Palo",
+      "this_week": 21,
+      "last_week": 15,
+      "peak_position": 14,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Para Toda La Vida",
+      "artist": "Rocio Durcal",
+      "this_week": 22,
+      "last_week": 24,
+      "peak_position": 22,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "No Me Ames",
+      "artist": "Jennifer Lopez With Marc Anthony",
+      "this_week": 23,
+      "last_week": null,
+      "peak_position": 23,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "De Que Vale Ser Un Rey",
+      "artist": "Jerry Rivera",
+      "this_week": 24,
+      "last_week": 33,
+      "peak_position": 24,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "No Sabes Como Duele",
+      "artist": "Marc Anthony",
+      "this_week": 25,
+      "last_week": 21,
+      "peak_position": 18,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Una Pagina Mas",
+      "artist": "Ezequiel Pena",
+      "this_week": 26,
+      "last_week": 27,
+      "peak_position": 16,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Volvere",
+      "artist": "DLG",
+      "this_week": 27,
+      "last_week": null,
+      "peak_position": 27,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Si Tu Quisieras",
+      "artist": "Luis Fonsi",
+      "this_week": 28,
+      "last_week": null,
+      "peak_position": 28,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Tiembla Mi Piel",
+      "artist": "Javier",
+      "this_week": 29,
+      "last_week": 25,
+      "peak_position": 20,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Busco Una Mujer",
+      "artist": "Carlos Ponce",
+      "this_week": 30,
+      "last_week": 28,
+      "peak_position": 26,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Perdedor",
+      "artist": "Intocable",
+      "this_week": 31,
+      "last_week": 30,
+      "peak_position": 30,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Los Hombres No Deben Llorar",
+      "artist": "Banda Maguey",
+      "this_week": 32,
+      "last_week": null,
+      "peak_position": 32,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Nunca Te Olvidare",
+      "artist": "Enrique Iglesias",
+      "this_week": 33,
+      "last_week": 23,
+      "peak_position": 1,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "No Puedo Olvidar",
+      "artist": "MDO",
+      "this_week": 34,
+      "last_week": null,
+      "peak_position": 1,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Dime",
+      "artist": "Yolandita Monge",
+      "this_week": 35,
+      "last_week": null,
+      "peak_position": 35,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Solo Una Patada",
+      "artist": "Ramon Ayala y sus Bravos del Norte",
+      "this_week": 36,
+      "last_week": 38,
+      "peak_position": 33,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Ese",
+      "artist": "Jerry Rivera",
+      "this_week": 37,
+      "last_week": 31,
+      "peak_position": 1,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "C'est La Vie",
+      "artist": "B*Witched",
+      "this_week": 38,
+      "last_week": null,
+      "peak_position": 32,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Enganame",
+      "artist": "Olga Tanon",
+      "this_week": 39,
+      "last_week": 35,
+      "peak_position": 35,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "El Disgusto",
+      "artist": "Julio Preciado Y Su Banda Perla del Pacifico",
+      "this_week": 40,
+      "last_week": null,
+      "peak_position": 40,
+      "weeks_on_chart": 1,
+      "new": true
+    }
+  ]
+}

@@ -1,0 +1,365 @@
+{
+  "date": "1997-12-27",
+  "data": [
+    {
+      "song": "En El Jardin",
+      "artist": "Alejandro Fernandez Featuring Gloria Estefan",
+      "this_week": 1,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Y Hubo Alguien",
+      "artist": "Marc Anthony",
+      "this_week": 2,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Si Tu Supieras",
+      "artist": "Alejandro Fernandez",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Nos Estorbo La Ropa",
+      "artist": "Vicente Fernandez",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "A Pesar De Todos",
+      "artist": "Ana Gabriel",
+      "this_week": 5,
+      "last_week": 13,
+      "peak_position": 5,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "La Venia Bendita",
+      "artist": "Marco Antonio Solis",
+      "this_week": 6,
+      "last_week": 7,
+      "peak_position": 1,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Contigo (Estar Contigo)",
+      "artist": "Luis Miguel",
+      "this_week": 7,
+      "last_week": 10,
+      "peak_position": 7,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Te Sigo Amando",
+      "artist": "Juan Gabriel",
+      "this_week": 8,
+      "last_week": 8,
+      "peak_position": 1,
+      "weeks_on_chart": 30,
+      "new": false
+    },
+    {
+      "song": "Hasta Manana",
+      "artist": "Limite",
+      "this_week": 9,
+      "last_week": 14,
+      "peak_position": 9,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Lo Mejor De Mi",
+      "artist": "Cristian",
+      "this_week": 10,
+      "last_week": 6,
+      "peak_position": 1,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Que Se Te Olvido",
+      "artist": "La Original Banda el Limon de Salvador Lizarraga",
+      "this_week": 11,
+      "last_week": 17,
+      "peak_position": 11,
+      "weeks_on_chart": 23,
+      "new": false
+    },
+    {
+      "song": "Ritmo Navideno",
+      "artist": "Los Tucanes de Tijuana",
+      "this_week": 12,
+      "last_week": null,
+      "peak_position": 12,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Quiero Estar Contigo",
+      "artist": "Gisselle",
+      "this_week": 13,
+      "last_week": 5,
+      "peak_position": 5,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Me Miras Y Te Miro",
+      "artist": "Grupo Mania",
+      "this_week": 14,
+      "last_week": 12,
+      "peak_position": 6,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Es Asi",
+      "artist": "Ricardo Montaner",
+      "this_week": 15,
+      "last_week": 11,
+      "peak_position": 5,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "El Reloj",
+      "artist": "Luis Miguel",
+      "this_week": 16,
+      "last_week": 9,
+      "peak_position": 2,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Si Tu Me Amaras",
+      "artist": "Cristian",
+      "this_week": 17,
+      "last_week": 20,
+      "peak_position": 17,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Nadie Se Muere",
+      "artist": "La Makina",
+      "this_week": 18,
+      "last_week": 16,
+      "peak_position": 16,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Lluvia Cae",
+      "artist": "Enrique Iglesias",
+      "this_week": 19,
+      "last_week": 29,
+      "peak_position": 19,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "No Voy A Dejarte Ir",
+      "artist": "Domingo Quinones",
+      "this_week": 20,
+      "last_week": 15,
+      "peak_position": 6,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Asi Es La Mujer",
+      "artist": "Victor Manuelle",
+      "this_week": 21,
+      "last_week": 19,
+      "peak_position": 19,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Despacito",
+      "artist": "Pedro Fernandez",
+      "this_week": 22,
+      "last_week": 23,
+      "peak_position": 22,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "La Temporada Es Buena",
+      "artist": "Los Tigres del Norte",
+      "this_week": 23,
+      "last_week": 18,
+      "peak_position": 18,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Subidon",
+      "artist": "Fey",
+      "this_week": 24,
+      "last_week": 21,
+      "peak_position": 20,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Donde Estas?",
+      "artist": "Intocable",
+      "this_week": 25,
+      "last_week": 28,
+      "peak_position": 25,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Como El Primer Dia",
+      "artist": "Banda El Recodo de Cruz Lizarraga",
+      "this_week": 26,
+      "last_week": 24,
+      "peak_position": 24,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Acabo De Enterarme",
+      "artist": "Dinastia Nortena",
+      "this_week": 27,
+      "last_week": 33,
+      "peak_position": 27,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Es Verdad",
+      "artist": "Los Tucanes de Tijuana",
+      "this_week": 28,
+      "last_week": 26,
+      "peak_position": 8,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Antifaz",
+      "artist": "Dayanara",
+      "this_week": 29,
+      "last_week": 27,
+      "peak_position": 23,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Por Debajo De La Mesa",
+      "artist": "Luis Miguel",
+      "this_week": 30,
+      "last_week": 22,
+      "peak_position": 1,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Le Pedire",
+      "artist": "Bobby Pulido",
+      "this_week": 31,
+      "last_week": 32,
+      "peak_position": 28,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Acepta Mi Error",
+      "artist": "Los Temerarios",
+      "this_week": 32,
+      "last_week": 31,
+      "peak_position": 8,
+      "weeks_on_chart": 25,
+      "new": false
+    },
+    {
+      "song": "Navidad Sin Ti",
+      "artist": "Los Bukis",
+      "this_week": 33,
+      "last_week": null,
+      "peak_position": 13,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Voy A Pintar Mi Raya",
+      "artist": "Banda Arkangel R-15",
+      "this_week": 34,
+      "last_week": 36,
+      "peak_position": 34,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Como Te Voy A Olvidar",
+      "artist": "Los Angeles Azules",
+      "this_week": 35,
+      "last_week": null,
+      "peak_position": 7,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "O Soy O Fui",
+      "artist": "Marco Antonio Solis",
+      "this_week": 36,
+      "last_week": 34,
+      "peak_position": 3,
+      "weeks_on_chart": 25,
+      "new": false
+    },
+    {
+      "song": "Me Enamore",
+      "artist": "Chichi Peralta + Son Familia",
+      "this_week": 37,
+      "last_week": null,
+      "peak_position": 37,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Nube Viajera",
+      "artist": "Alejandro Fernandez",
+      "this_week": 38,
+      "last_week": 30,
+      "peak_position": 9,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Que Se Lo Lleve El Rio",
+      "artist": "Gilberto Santa Rosa",
+      "this_week": 39,
+      "last_week": null,
+      "peak_position": 39,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Cuanto Amor Me Das [Quanto Amore Sei]",
+      "artist": "Eros Ramazzotti",
+      "this_week": 40,
+      "last_week": 37,
+      "peak_position": 34,
+      "weeks_on_chart": 4,
+      "new": false
+    }
+  ]
+}

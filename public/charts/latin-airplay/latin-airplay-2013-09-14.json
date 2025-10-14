@@ -1,0 +1,455 @@
+{
+  "date": "2013-09-14",
+  "data": [
+    {
+      "song": "Loco",
+      "artist": "Enrique Iglesias Featuring Romeo Santos",
+      "this_week": 1,
+      "last_week": null,
+      "peak_position": 1,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Darte Un Beso",
+      "artist": "Prince Royce",
+      "this_week": 2,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Vivir Mi Vida",
+      "artist": "Marc Anthony",
+      "this_week": 3,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Propuesta Indecente",
+      "artist": "Romeo Santos",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "El Ruido de Tus Zapatos",
+      "artist": "La Arrolladora Banda el Limon de Rene Camacho",
+      "this_week": 5,
+      "last_week": 3,
+      "peak_position": 2,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Hable de Ti",
+      "artist": "Yandel",
+      "this_week": 6,
+      "last_week": 6,
+      "peak_position": 5,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Me Enamore",
+      "artist": "Roberto Tapia",
+      "this_week": 7,
+      "last_week": 8,
+      "peak_position": 7,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Bailar Contigo",
+      "artist": "Carlos Vives",
+      "this_week": 8,
+      "last_week": 5,
+      "peak_position": 4,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Carnaval",
+      "artist": "Tito \"El Bambino\" El Patron",
+      "this_week": 9,
+      "last_week": 11,
+      "peak_position": 9,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Me Gustas Mucho",
+      "artist": "Codigo FN",
+      "this_week": 10,
+      "last_week": 7,
+      "peak_position": 7,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "La Fory Fay",
+      "artist": "Julion Alvarez y Su Norteno Banda",
+      "this_week": 11,
+      "last_week": 10,
+      "peak_position": 5,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Rehabilitado",
+      "artist": "Los Tucanes de Tijuana",
+      "this_week": 12,
+      "last_week": 9,
+      "peak_position": 5,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Ni Que Estuvieras Tan Buena",
+      "artist": "Calibre 50",
+      "this_week": 13,
+      "last_week": 15,
+      "peak_position": 13,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Come With Me",
+      "artist": "Ricky Martin",
+      "this_week": 14,
+      "last_week": 18,
+      "peak_position": 14,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Mi Razon de Ser",
+      "artist": "Banda Sinaloense MS de Sergio Lizarraga",
+      "this_week": 15,
+      "last_week": 17,
+      "peak_position": 15,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Limbo",
+      "artist": "Daddy Yankee",
+      "this_week": 16,
+      "last_week": 14,
+      "peak_position": 2,
+      "weeks_on_chart": 46,
+      "new": false
+    },
+    {
+      "song": "Sin Ti",
+      "artist": "Chino & Nacho",
+      "this_week": 17,
+      "last_week": 16,
+      "peak_position": 7,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Mi Nina Traviesa",
+      "artist": "Luis Coronel",
+      "this_week": 18,
+      "last_week": 19,
+      "peak_position": 13,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Yo Te Lo Dije",
+      "artist": "J Balvin",
+      "this_week": 19,
+      "last_week": 13,
+      "peak_position": 13,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Y Te Vas",
+      "artist": "Banda Carnaval",
+      "this_week": 20,
+      "last_week": 12,
+      "peak_position": 2,
+      "weeks_on_chart": 26,
+      "new": false
+    },
+    {
+      "song": "Ando Por Las Nubes",
+      "artist": "Victor Manuelle",
+      "this_week": 21,
+      "last_week": 21,
+      "peak_position": 20,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Mi Ultimo Deseo",
+      "artist": "Banda los Recoditos",
+      "this_week": 22,
+      "last_week": 23,
+      "peak_position": 22,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Live It Up",
+      "artist": "Jennifer Lopez Featuring Pitbull",
+      "this_week": 23,
+      "last_week": 22,
+      "peak_position": 22,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Blurred Lines",
+      "artist": "Robin Thicke Featuring T.I. + Pharrell",
+      "this_week": 24,
+      "last_week": 20,
+      "peak_position": 13,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Muchas Gracias",
+      "artist": "La Adictiva Banda San Jose de Mesillas",
+      "this_week": 25,
+      "last_week": 26,
+      "peak_position": 25,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Be My Baby",
+      "artist": "Leslie Grace",
+      "this_week": 26,
+      "last_week": 24,
+      "peak_position": 8,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Hoy Tengo Ganas De Ti",
+      "artist": "Alejandro Fernandez / Christina Aguilera",
+      "this_week": 27,
+      "last_week": 28,
+      "peak_position": 27,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "I Love It",
+      "artist": "Jencarlos Canela",
+      "this_week": 28,
+      "last_week": 32,
+      "peak_position": 28,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Manana Voy A Conquistarla",
+      "artist": "Gerardo Ortiz",
+      "this_week": 29,
+      "last_week": 27,
+      "peak_position": 27,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "El Bueno y El Malo",
+      "artist": "Colmillo Norteno Featuring Banda Tierra Sagrada",
+      "this_week": 30,
+      "last_week": 37,
+      "peak_position": 30,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Puno de Diamantes",
+      "artist": "Duelo",
+      "this_week": 31,
+      "last_week": 25,
+      "peak_position": 8,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Muchacho de Campo",
+      "artist": "Voz de Mando",
+      "this_week": 32,
+      "last_week": 33,
+      "peak_position": 32,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Me Interesas",
+      "artist": "Noel Torres",
+      "this_week": 33,
+      "last_week": 36,
+      "peak_position": 33,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "A Mi Me Pasa Igual",
+      "artist": "Los Elegidos",
+      "this_week": 34,
+      "last_week": 29,
+      "peak_position": 25,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "La Noche de Los 2",
+      "artist": "Daddy Yankee Featuring Natalia Jimenez",
+      "this_week": 35,
+      "last_week": 34,
+      "peak_position": 23,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Zapatito Roto",
+      "artist": "Plan B Featuring Tego Calderon",
+      "this_week": 36,
+      "last_week": 30,
+      "peak_position": 24,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "So What",
+      "artist": "Sie7e",
+      "this_week": 37,
+      "last_week": 35,
+      "peak_position": 35,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Cuando Estas de Buenas",
+      "artist": "Pesado",
+      "this_week": 38,
+      "last_week": 42,
+      "peak_position": 38,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Mi Bello Angel",
+      "artist": "Los Primos MX",
+      "this_week": 39,
+      "last_week": 39,
+      "peak_position": 37,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Borracho de Amor",
+      "artist": "Los Buitres de Culiacan Sinaloa",
+      "this_week": 40,
+      "last_week": 40,
+      "peak_position": 22,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "The Way",
+      "artist": "Ariana Grande Featuring Mac Miller",
+      "this_week": 41,
+      "last_week": 31,
+      "peak_position": 23,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Buen Perdedor",
+      "artist": "La Maquinaria Nortena",
+      "this_week": 42,
+      "last_week": 43,
+      "peak_position": 42,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Un Viejo Amor",
+      "artist": "N'Klabe",
+      "this_week": 43,
+      "last_week": null,
+      "peak_position": 43,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "La Noche",
+      "artist": "Sandoval",
+      "this_week": 44,
+      "last_week": 50,
+      "peak_position": 44,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "A La Basura",
+      "artist": "El Trono de Mexico",
+      "this_week": 45,
+      "last_week": 38,
+      "peak_position": 20,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Mal de Amores",
+      "artist": "Juan Magan",
+      "this_week": 46,
+      "last_week": 41,
+      "peak_position": 41,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "#FiebreDeAmor",
+      "artist": "Pedro Capo",
+      "this_week": 47,
+      "last_week": 45,
+      "peak_position": 44,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Sin Ti",
+      "artist": "Samo",
+      "this_week": 48,
+      "last_week": null,
+      "peak_position": 48,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Te Gusta",
+      "artist": "Grupo Treo Featuring Elijah King",
+      "this_week": 49,
+      "last_week": null,
+      "peak_position": 37,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Treasure",
+      "artist": "Bruno Mars",
+      "this_week": 50,
+      "last_week": 46,
+      "peak_position": 29,
+      "weeks_on_chart": 9,
+      "new": false
+    }
+  ]
+}

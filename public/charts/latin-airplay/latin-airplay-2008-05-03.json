@@ -1,0 +1,455 @@
+{
+  "date": "2008-05-03",
+  "data": [
+    {
+      "song": "Si No Te Hubieras Ido",
+      "artist": "Mana",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Te Quiero",
+      "artist": "Flex",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Donde Estan Corazon",
+      "artist": "Enrique Iglesias",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Gotas De Agua Dulce",
+      "artist": "Juanes",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 1,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Ahora Es",
+      "artist": "Wisin & Yandel",
+      "this_week": 5,
+      "last_week": 8,
+      "peak_position": 5,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Te Llore",
+      "artist": "Conjunto Primavera",
+      "this_week": 6,
+      "last_week": 5,
+      "peak_position": 2,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Me Enamora",
+      "artist": "Juanes",
+      "this_week": 7,
+      "last_week": 6,
+      "peak_position": 1,
+      "weeks_on_chart": 32,
+      "new": false
+    },
+    {
+      "song": "El Perdedor",
+      "artist": "Aventura",
+      "this_week": 8,
+      "last_week": 9,
+      "peak_position": 5,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Sobre Mis Pies",
+      "artist": "La Arrolladora Banda el Limon de Rene Camacho",
+      "this_week": 9,
+      "last_week": 7,
+      "peak_position": 3,
+      "weeks_on_chart": 26,
+      "new": false
+    },
+    {
+      "song": "Estos Celos",
+      "artist": "Vicente Fernandez",
+      "this_week": 10,
+      "last_week": 10,
+      "peak_position": 3,
+      "weeks_on_chart": 35,
+      "new": false
+    },
+    {
+      "song": "Cada Que...",
+      "artist": "Belanova",
+      "this_week": 11,
+      "last_week": 12,
+      "peak_position": 11,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "El Vaso Derrama",
+      "artist": "El Potro de Sinaloa",
+      "this_week": 12,
+      "last_week": 18,
+      "peak_position": 12,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "La Derrota",
+      "artist": "Vicente Fernandez",
+      "this_week": 13,
+      "last_week": 16,
+      "peak_position": 13,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Un Buen Perdedor",
+      "artist": "K-Paz With Franco De Vita",
+      "this_week": 14,
+      "last_week": 13,
+      "peak_position": 2,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Por Quien Me Dejas",
+      "artist": "Los Creadorez del Pasito Duranguense de Alfredo Ramirez",
+      "this_week": 15,
+      "last_week": 17,
+      "peak_position": 9,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Conteo Regresivo",
+      "artist": "Gilberto Santa Rosa",
+      "this_week": 16,
+      "last_week": 11,
+      "peak_position": 7,
+      "weeks_on_chart": 26,
+      "new": false
+    },
+    {
+      "song": "Si Te Agarran Las Ganas (Cierra Los Ojos)",
+      "artist": "El Chapo de Sinaloa",
+      "this_week": 17,
+      "last_week": 15,
+      "peak_position": 7,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Tomame O Dejame",
+      "artist": "Banda El Recodo de Cruz Lizarraga",
+      "this_week": 18,
+      "last_week": 14,
+      "peak_position": 8,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "La Vecina",
+      "artist": "Angel & Khriz",
+      "this_week": 19,
+      "last_week": 23,
+      "peak_position": 15,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Amantes Escondidos",
+      "artist": "German Montero",
+      "this_week": 20,
+      "last_week": 21,
+      "peak_position": 20,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Pegadito",
+      "artist": "Tommy Torres",
+      "this_week": 21,
+      "last_week": 30,
+      "peak_position": 21,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Ahora Entendi",
+      "artist": "Yuridia",
+      "this_week": 22,
+      "last_week": 20,
+      "peak_position": 16,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Hasta El Dia De Hoy",
+      "artist": "Dareyes de La Sierra",
+      "this_week": 23,
+      "last_week": 19,
+      "peak_position": 19,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Sin Tu Amor",
+      "artist": "Alacranes Musical",
+      "this_week": 24,
+      "last_week": 24,
+      "peak_position": 9,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Te Quiero Mucho",
+      "artist": "Patrulla 81",
+      "this_week": 25,
+      "last_week": 22,
+      "peak_position": 15,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Rumbo Al Sur",
+      "artist": "Los Tigres del Norte",
+      "this_week": 26,
+      "last_week": 27,
+      "peak_position": 13,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Te Amo",
+      "artist": "Los Horoscopos de Durango",
+      "this_week": 27,
+      "last_week": 33,
+      "peak_position": 27,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Calabria 2007",
+      "artist": "Enur Featuring Natasja",
+      "this_week": 28,
+      "last_week": 29,
+      "peak_position": 28,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Yo Quiero",
+      "artist": "Camila",
+      "this_week": 29,
+      "last_week": 28,
+      "peak_position": 12,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "No Me Digas Que No",
+      "artist": "Xtreme Featuring Adrienne",
+      "this_week": 30,
+      "last_week": 46,
+      "peak_position": 26,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Como En Los Buenos Tiempos",
+      "artist": "Grupo Montez de Durango",
+      "this_week": 31,
+      "last_week": 36,
+      "peak_position": 24,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Inolvidable",
+      "artist": "Jenni Rivera",
+      "this_week": 32,
+      "last_week": 26,
+      "peak_position": 26,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Sin Perdon",
+      "artist": "Hector Acosta \"El Torito\"",
+      "this_week": 33,
+      "last_week": 31,
+      "peak_position": 26,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "De Que Me Presumes",
+      "artist": "Lupillo Rivera",
+      "this_week": 34,
+      "last_week": 45,
+      "peak_position": 34,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Me Muero",
+      "artist": "Diana Reyes",
+      "this_week": 35,
+      "last_week": 32,
+      "peak_position": 29,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Permitame",
+      "artist": "Tony Dize",
+      "this_week": 36,
+      "last_week": 42,
+      "peak_position": 36,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Tal Vez",
+      "artist": "Ponzona Musical",
+      "this_week": 37,
+      "last_week": 39,
+      "peak_position": 35,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Amiga Por Favor",
+      "artist": "Pedro Fernandez",
+      "this_week": 38,
+      "last_week": 35,
+      "peak_position": 34,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Llegaste Tu",
+      "artist": "Jesse & Joy",
+      "this_week": 39,
+      "last_week": 34,
+      "peak_position": 34,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Amor Mortal",
+      "artist": "Los Inquietos del Norte",
+      "this_week": 40,
+      "last_week": 40,
+      "peak_position": 40,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Don't Stop The Music",
+      "artist": "Rihanna",
+      "this_week": 41,
+      "last_week": 37,
+      "peak_position": 35,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Como Un Lobo",
+      "artist": "Miguel Bose Featuring Bimba Bose",
+      "this_week": 42,
+      "last_week": 38,
+      "peak_position": 38,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Enredame",
+      "artist": "Fonseca",
+      "this_week": 43,
+      "last_week": null,
+      "peak_position": 43,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Amor Desperdiciado",
+      "artist": "Frank Reyes",
+      "this_week": 44,
+      "last_week": 41,
+      "peak_position": 41,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Eres",
+      "artist": "Alejandro Fernandez",
+      "this_week": 45,
+      "last_week": null,
+      "peak_position": 45,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Perdono Y Olvido",
+      "artist": "Pepe Aguilar",
+      "this_week": 46,
+      "last_week": null,
+      "peak_position": 46,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Empezar Desde Cero",
+      "artist": "RBD",
+      "this_week": 47,
+      "last_week": 47,
+      "peak_position": 47,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Si Tu Te Atreves",
+      "artist": "Luis Miguel",
+      "this_week": 48,
+      "last_week": 50,
+      "peak_position": 23,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "El Proximo Tonto",
+      "artist": "Banda Machos",
+      "this_week": 49,
+      "last_week": null,
+      "peak_position": 49,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Ella Menea",
+      "artist": "NG2",
+      "this_week": 50,
+      "last_week": 43,
+      "peak_position": 40,
+      "weeks_on_chart": 7,
+      "new": false
+    }
+  ]
+}

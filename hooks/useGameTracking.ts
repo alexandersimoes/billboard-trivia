@@ -177,6 +177,7 @@ export function useGameTracking() {
       'rap': 'rap',
       'alternative': 'alternative',
       'rock': 'rock',
+      'latin': 'latin',
     };
     return genreMap[chartType] || 'other';
   };

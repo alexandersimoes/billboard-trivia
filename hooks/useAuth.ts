@@ -56,23 +56,21 @@ export function useAuth() {
   }, []);
 
   const signInWithGoogle = async () => {
-    // Determine the redirect URL based on environment
-    // let redirectUrl = 'https://alexandersimoes.github.io/billboard-trivia/';
-    // if (typeof window !== 'undefined') {
-    //   // Use localhost for development, production URL otherwise
-    //   if (window.location.hostname === 'localhost') {
-    //     redirectUrl = 'http://localhost:3000/billboard-trivia/';
-    //   }
-    // }
+    const redirectUrl = 'https://alexandersimoes.github.io/billboard-trivia/';
+
+    console.log('Signing in with redirect URL:', redirectUrl);
+    console.log('Current location:', window.location.href);
 
     const { error } = await supabase.auth.signInWithOAuth({
       provider: 'google',
       options: {
-        redirectTo: "https://alexandersimoes.github.io/billboard-trivia/"
+        redirectTo: redirectUrl
       }
     });
     if (error) {
       console.error('Google sign-in error:', error);
+    } else {
+      console.log('OAuth initiated successfully');
     }
   };
 

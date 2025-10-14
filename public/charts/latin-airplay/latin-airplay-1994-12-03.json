@@ -1,0 +1,365 @@
+{
+  "date": "1994-12-03",
+  "data": [
+    {
+      "song": "La Media Vuelta",
+      "artist": "Luis Miguel",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "No Me Queda Mas",
+      "artist": "Selena",
+      "this_week": 2,
+      "last_week": 5,
+      "peak_position": 2,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Me Duele Estar Solo",
+      "artist": "La Mafia",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 3,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Ni El Primero Ni El Ultimo",
+      "artist": "Los Rehenes",
+      "this_week": 4,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Te Amo, Te Amo, Te Amo",
+      "artist": "Sparx",
+      "this_week": 5,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "El Puchoncito",
+      "artist": "Banda Machos",
+      "this_week": 6,
+      "last_week": 7,
+      "peak_position": 5,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Bidi Bidi Bom Bom",
+      "artist": "Selena",
+      "this_week": 7,
+      "last_week": 6,
+      "peak_position": 1,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Tragos Amargos",
+      "artist": "Tiranos del Norte",
+      "this_week": 8,
+      "last_week": 19,
+      "peak_position": 8,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Quiero Que Me Hagas El Amor",
+      "artist": "Ednita Nazario",
+      "this_week": 9,
+      "last_week": 12,
+      "peak_position": 9,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "A Pesar De Todo",
+      "artist": "Alejandro Fernandez",
+      "this_week": 10,
+      "last_week": 17,
+      "peak_position": 10,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Asi Es La Vida",
+      "artist": "Luis Enrique",
+      "this_week": 11,
+      "last_week": 15,
+      "peak_position": 11,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "No, No Y No",
+      "artist": "Vicente Fernandez",
+      "this_week": 12,
+      "last_week": 13,
+      "peak_position": 12,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "La Nina Fresa",
+      "artist": "Banda Z",
+      "this_week": 13,
+      "last_week": 9,
+      "peak_position": 9,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Lentamente",
+      "artist": "Juan Gabriel",
+      "this_week": 14,
+      "last_week": 16,
+      "peak_position": 14,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Tu Lo Decidiste",
+      "artist": "Ana Gabriel",
+      "this_week": 15,
+      "last_week": 8,
+      "peak_position": 7,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Mi Forma De Sentir",
+      "artist": "Pedro Fernandez",
+      "this_week": 16,
+      "last_week": 11,
+      "peak_position": 11,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Quiero Volverte A Ver",
+      "artist": "Fama",
+      "this_week": 17,
+      "last_week": 26,
+      "peak_position": 17,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Para Que",
+      "artist": "Grupo Mojado",
+      "this_week": 18,
+      "last_week": 14,
+      "peak_position": 12,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Vivire",
+      "artist": "Juan Luis Guerra 440",
+      "this_week": 19,
+      "last_week": 10,
+      "peak_position": 8,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Te Amare Un Millon De Veces",
+      "artist": "Fandango USA",
+      "this_week": 20,
+      "last_week": 18,
+      "peak_position": 14,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "El Lloron",
+      "artist": "Los Reyes Locos",
+      "this_week": 21,
+      "last_week": 21,
+      "peak_position": 21,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Siempre Contigo",
+      "artist": "Lucero",
+      "this_week": 22,
+      "last_week": 37,
+      "peak_position": 22,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Yo Tu Dueno",
+      "artist": "Los Fugitivos",
+      "this_week": 23,
+      "last_week": 24,
+      "peak_position": 23,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Querida",
+      "artist": "Chayanne",
+      "this_week": 24,
+      "last_week": 34,
+      "peak_position": 24,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "A Capa Y Espada",
+      "artist": "Industria del Amor",
+      "this_week": 25,
+      "last_week": 20,
+      "peak_position": 13,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Ven A Mi",
+      "artist": "Jay Perez",
+      "this_week": 26,
+      "last_week": null,
+      "peak_position": 26,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Swing Latino",
+      "artist": "Banda Blanca",
+      "this_week": 27,
+      "last_week": 36,
+      "peak_position": 27,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Linda Chaparrita",
+      "artist": "La Diferenzia",
+      "this_week": 28,
+      "last_week": null,
+      "peak_position": 28,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Vida",
+      "artist": "La Mafia",
+      "this_week": 29,
+      "last_week": 30,
+      "peak_position": 28,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Aunque Lo Dudes",
+      "artist": "Lalo Rodriguez",
+      "this_week": 30,
+      "last_week": 40,
+      "peak_position": 30,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Ramito De Violetas",
+      "artist": "Banda El Mexicano",
+      "this_week": 31,
+      "last_week": 32,
+      "peak_position": 31,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Te Amo",
+      "artist": "Los Mier",
+      "this_week": 32,
+      "last_week": 38,
+      "peak_position": 32,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Si Lo Quieres",
+      "artist": "La Diferenzia",
+      "this_week": 33,
+      "last_week": 23,
+      "peak_position": 17,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "En Las Nubes",
+      "artist": "Edgar Joel",
+      "this_week": 34,
+      "last_week": 27,
+      "peak_position": 16,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Nada",
+      "artist": "Ana Barbara",
+      "this_week": 35,
+      "last_week": 22,
+      "peak_position": 17,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Mi Pequeno Amor",
+      "artist": "Los Fantasmas del Caribe",
+      "this_week": 36,
+      "last_week": null,
+      "peak_position": 36,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Ojos Para Ti",
+      "artist": "Stephanie Lynn & High Energy",
+      "this_week": 37,
+      "last_week": null,
+      "peak_position": 37,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Lagrimas Al Recordar",
+      "artist": "Los Caminantes",
+      "this_week": 38,
+      "last_week": 25,
+      "peak_position": 20,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Estoy En El Proceso De Olvidarte",
+      "artist": "Tony Vega",
+      "this_week": 39,
+      "last_week": null,
+      "peak_position": 39,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "No Mas Boleros",
+      "artist": "Los Yonic's",
+      "this_week": 40,
+      "last_week": 29,
+      "peak_position": 18,
+      "weeks_on_chart": 4,
+      "new": false
+    }
+  ]
+}

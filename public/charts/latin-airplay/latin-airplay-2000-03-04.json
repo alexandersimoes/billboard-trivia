@@ -1,0 +1,365 @@
+{
+  "date": "2000-03-04",
+  "data": [
+    {
+      "song": "Fruta Fresca",
+      "artist": "Carlos Vives",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Que Alguien Me Diga",
+      "artist": "Gilberto Santa Rosa",
+      "this_week": 2,
+      "last_week": 3,
+      "peak_position": 2,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Desnuda",
+      "artist": "Ricardo Arjona",
+      "this_week": 3,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Solo Tu",
+      "artist": "Jaci Velasquez",
+      "this_week": 4,
+      "last_week": 10,
+      "peak_position": 4,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Alguna Vez",
+      "artist": "Cristian",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 2,
+      "weeks_on_chart": 27,
+      "new": false
+    },
+    {
+      "song": "El Liston De Tu Pelo",
+      "artist": "Los Angeles Azules",
+      "this_week": 6,
+      "last_week": 6,
+      "peak_position": 5,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Morir De Amor",
+      "artist": "Conjunto Primavera",
+      "this_week": 7,
+      "last_week": 8,
+      "peak_position": 7,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Si No Te Hubieras Ido",
+      "artist": "Marco Antonio Solis",
+      "this_week": 8,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Dimelo [I Need To Know]",
+      "artist": "Marc Anthony",
+      "this_week": 9,
+      "last_week": 7,
+      "peak_position": 1,
+      "weeks_on_chart": 26,
+      "new": false
+    },
+    {
+      "song": "Sentirme Vivo",
+      "artist": "Emmanuel",
+      "this_week": 10,
+      "last_week": 11,
+      "peak_position": 10,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Atado A Tu Amor",
+      "artist": "Chayanne",
+      "this_week": 11,
+      "last_week": 13,
+      "peak_position": 8,
+      "weeks_on_chart": 30,
+      "new": false
+    },
+    {
+      "song": "Te Quiero Mucho",
+      "artist": "Los Rieleros del Norte",
+      "this_week": 12,
+      "last_week": 12,
+      "peak_position": 1,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Donde Esta El Amor",
+      "artist": "Charlie Zaa",
+      "this_week": 13,
+      "last_week": 18,
+      "peak_position": 13,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Te Ofrezco Un Corazon",
+      "artist": "Banda El Recodo de Cruz Lizarraga",
+      "this_week": 14,
+      "last_week": 9,
+      "peak_position": 4,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Ando Amanecido",
+      "artist": "Los Tigres del Norte",
+      "this_week": 15,
+      "last_week": 16,
+      "peak_position": 15,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Tus Reproches",
+      "artist": "Los Sementales De Nuevo Leon",
+      "this_week": 16,
+      "last_week": 23,
+      "peak_position": 16,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Sufro",
+      "artist": "El Coyote y su Banda Tierra Santa",
+      "this_week": 17,
+      "last_week": 21,
+      "peak_position": 17,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Perdoname",
+      "artist": "Pepe Aguilar",
+      "this_week": 18,
+      "last_week": 22,
+      "peak_position": 10,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Bajo La Lluvia",
+      "artist": "Grupo Mania",
+      "this_week": 19,
+      "last_week": 15,
+      "peak_position": 3,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Anillo Grabado",
+      "artist": "Tiranos del Norte",
+      "this_week": 20,
+      "last_week": 27,
+      "peak_position": 16,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Las Heladas",
+      "artist": "Los Tucanes de Tijuana",
+      "this_week": 21,
+      "last_week": 20,
+      "peak_position": 15,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Te Hice Mal",
+      "artist": "Los Temerarios",
+      "this_week": 22,
+      "last_week": 14,
+      "peak_position": 14,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Busca Otro Amor",
+      "artist": "Polo Urias y Su Maquina Nortena",
+      "this_week": 23,
+      "last_week": 26,
+      "peak_position": 23,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Dormir Contigo",
+      "artist": "Luis Miguel",
+      "this_week": 24,
+      "last_week": 17,
+      "peak_position": 11,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Pero Dile",
+      "artist": "Victor Manuelle",
+      "this_week": 25,
+      "last_week": 19,
+      "peak_position": 3,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Tres Regalos",
+      "artist": "Vicente Fernandez",
+      "this_week": 26,
+      "last_week": 40,
+      "peak_position": 26,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Escuchame",
+      "artist": "Carlos Ponce",
+      "this_week": 27,
+      "last_week": 30,
+      "peak_position": 1,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Que Locura Enamorarme De Ti",
+      "artist": "Eddie Santiago Y Huey Dunbar",
+      "this_week": 28,
+      "last_week": 24,
+      "peak_position": 22,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Aqui, Pero Alla",
+      "artist": "Jose Pena Suazo Y Su Banda Gorda",
+      "this_week": 29,
+      "last_week": 38,
+      "peak_position": 29,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Ojos Negros",
+      "artist": "Ricardo Montaner Con La London Metropolitan Orchestra",
+      "this_week": 30,
+      "last_week": 39,
+      "peak_position": 30,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "A Puro Dolor",
+      "artist": "Son by Four",
+      "this_week": 31,
+      "last_week": null,
+      "peak_position": 31,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "En Toda La Chapa",
+      "artist": "Banda Machos",
+      "this_week": 32,
+      "last_week": 37,
+      "peak_position": 32,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "No Le Rueges",
+      "artist": "Conjunto Primavera",
+      "this_week": 33,
+      "last_week": 29,
+      "peak_position": 12,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Cachito",
+      "artist": "Mana",
+      "this_week": 34,
+      "last_week": 32,
+      "peak_position": 24,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Siento",
+      "artist": "Los Hermanos Rosario",
+      "this_week": 35,
+      "last_week": 28,
+      "peak_position": 18,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Porque Te Quise",
+      "artist": "Joan Sebastian",
+      "this_week": 36,
+      "last_week": 35,
+      "peak_position": 30,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Ritmo Total [Rhythm Divine]",
+      "artist": "Enrique Iglesias",
+      "this_week": 37,
+      "last_week": 25,
+      "peak_position": 1,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Dos Gotas De Agua",
+      "artist": "Banda Maguey",
+      "this_week": 38,
+      "last_week": 31,
+      "peak_position": 19,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Que Voy A Hacer Sin Ti",
+      "artist": "Pablo Montero",
+      "this_week": 39,
+      "last_week": 34,
+      "peak_position": 34,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Volver A Amar",
+      "artist": "Cristian",
+      "this_week": 40,
+      "last_week": null,
+      "peak_position": 40,
+      "weeks_on_chart": 1,
+      "new": true
+    }
+  ]
+}

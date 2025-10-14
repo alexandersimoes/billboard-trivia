@@ -1,0 +1,365 @@
+{
+  "date": "2000-08-26",
+  "data": [
+    {
+      "song": "A Puro Dolor",
+      "artist": "Son by Four",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 26,
+      "new": false
+    },
+    {
+      "song": "Jurame",
+      "artist": "Gisselle",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Imaginame Sin Ti [Imagine Me Without You]",
+      "artist": "Luis Fonsi",
+      "this_week": 3,
+      "last_week": 7,
+      "peak_position": 3,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Si Te Vas",
+      "artist": "Alejandro Fernandez",
+      "this_week": 4,
+      "last_week": 5,
+      "peak_position": 4,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Secreto de Amor",
+      "artist": "Joan Sebastian",
+      "this_week": 5,
+      "last_week": 4,
+      "peak_position": 3,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Muy Dentro De Mi [You Sang To Me]",
+      "artist": "Marc Anthony",
+      "this_week": 6,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Por Siempre Tu [I Turn To You]",
+      "artist": "Christina Aguilera",
+      "this_week": 7,
+      "last_week": 6,
+      "peak_position": 6,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Gozar La Vida",
+      "artist": "Julio Iglesias",
+      "this_week": 8,
+      "last_week": 16,
+      "peak_position": 8,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Como Me Duele Perderte",
+      "artist": "Gloria Estefan",
+      "this_week": 9,
+      "last_week": 9,
+      "peak_position": 9,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Yo Se Que Te Acordaras",
+      "artist": "Banda El Recodo de Cruz Lizarraga",
+      "this_week": 10,
+      "last_week": 8,
+      "peak_position": 6,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "En Cada Gota De Mi Sangre",
+      "artist": "Conjunto Primavera",
+      "this_week": 11,
+      "last_week": 17,
+      "peak_position": 11,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Donde Esta La Vida",
+      "artist": "Francisco Cespedes",
+      "this_week": 12,
+      "last_week": 10,
+      "peak_position": 7,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Lo Hare Por Ti",
+      "artist": "Paulina Rubio",
+      "this_week": 13,
+      "last_week": 14,
+      "peak_position": 13,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Historia Entre Tus Dedos",
+      "artist": "Mickey Taveras",
+      "this_week": 14,
+      "last_week": 11,
+      "peak_position": 11,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Por Amarte Asi",
+      "artist": "Cristian",
+      "this_week": 15,
+      "last_week": 18,
+      "peak_position": 15,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Como Duele",
+      "artist": "Victor Manuelle",
+      "this_week": 16,
+      "last_week": 13,
+      "peak_position": 13,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Cuando El Amor Se Dana",
+      "artist": "Rikarena",
+      "this_week": 17,
+      "last_week": 27,
+      "peak_position": 16,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "No Puedo Olvidar Tu Voz",
+      "artist": "El Coyote y su Banda Tierra Santa",
+      "this_week": 18,
+      "last_week": 12,
+      "peak_position": 12,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Y Sigues Siendo Tu [You're Still The One]",
+      "artist": "Rogelio Martinez \"EL RM\"",
+      "this_week": 19,
+      "last_week": 19,
+      "peak_position": 19,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Eras Todo Para Mi",
+      "artist": "Los Temerarios",
+      "this_week": 20,
+      "last_week": 28,
+      "peak_position": 20,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Cuando Una Mujer",
+      "artist": "Melina Leon",
+      "this_week": 21,
+      "last_week": null,
+      "peak_position": 21,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Por Tu Amor",
+      "artist": "Charlie Zaa",
+      "this_week": 22,
+      "last_week": 15,
+      "peak_position": 12,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Prision De Amor",
+      "artist": "Los Tigres del Norte",
+      "this_week": 23,
+      "last_week": 25,
+      "peak_position": 17,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Mentirosa",
+      "artist": "Los Rieleros del Norte",
+      "this_week": 24,
+      "last_week": null,
+      "peak_position": 24,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Lobo Herido",
+      "artist": "Vicente Fernandez",
+      "this_week": 25,
+      "last_week": 20,
+      "peak_position": 13,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "A Escondidas",
+      "artist": "Emanuel Ortega",
+      "this_week": 26,
+      "last_week": null,
+      "peak_position": 26,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Acariciame",
+      "artist": "Limite",
+      "this_week": 27,
+      "last_week": 21,
+      "peak_position": 16,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Mi Nina",
+      "artist": "Los Toros Band",
+      "this_week": 28,
+      "last_week": 31,
+      "peak_position": 28,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Cuando",
+      "artist": "Ricardo Arjona",
+      "this_week": 29,
+      "last_week": null,
+      "peak_position": 29,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Como Tu Me Quiere' A Mi",
+      "artist": "Limi-T 21",
+      "this_week": 30,
+      "last_week": null,
+      "peak_position": 16,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Volver A Amar",
+      "artist": "Cristian",
+      "this_week": 31,
+      "last_week": 32,
+      "peak_position": 4,
+      "weeks_on_chart": 26,
+      "new": false
+    },
+    {
+      "song": "Asi [Stop]",
+      "artist": "Jon Secada",
+      "this_week": 32,
+      "last_week": null,
+      "peak_position": 32,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Entre Tu Y Yo",
+      "artist": "Jyve V",
+      "this_week": 33,
+      "last_week": 34,
+      "peak_position": 24,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Corazon De Melao",
+      "artist": "Emmanuel",
+      "this_week": 34,
+      "last_week": 36,
+      "peak_position": 12,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Muevelo",
+      "artist": "Rey Ruiz",
+      "this_week": 35,
+      "last_week": null,
+      "peak_position": 35,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "En Que Trabaja El Muchacho",
+      "artist": "Los Huracanes del Norte",
+      "this_week": 36,
+      "last_week": 35,
+      "peak_position": 34,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Entre El Mar Y Una Estrella",
+      "artist": "Thalia",
+      "this_week": 37,
+      "last_week": 22,
+      "peak_position": 1,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Me Caiste Del Cielo",
+      "artist": "Julio Preciado Y Su Banda Perla del Pacifico",
+      "this_week": 38,
+      "last_week": 24,
+      "peak_position": 21,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Donde E' Que E'",
+      "artist": "Fernando Echavarria",
+      "this_week": 39,
+      "last_week": null,
+      "peak_position": 39,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Para Que Quieres Que Vuelva",
+      "artist": "Polo Urias y Su Maquina Nortena",
+      "this_week": 40,
+      "last_week": 33,
+      "peak_position": 33,
+      "weeks_on_chart": 2,
+      "new": false
+    }
+  ]
+}

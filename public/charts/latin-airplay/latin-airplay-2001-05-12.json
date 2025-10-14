@@ -1,0 +1,365 @@
+{
+  "date": "2001-05-12",
+  "data": [
+    {
+      "song": "Quiero",
+      "artist": "Jerry Rivera",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Abrazame Muy Fuerte",
+      "artist": "Juan Gabriel",
+      "this_week": 2,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Solo Quiero Amarte",
+      "artist": "Ricky Martin",
+      "this_week": 3,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "No Te Podias Quedar",
+      "artist": "Conjunto Primavera",
+      "this_week": 4,
+      "last_week": 5,
+      "peak_position": 4,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Y Llegaste Tu",
+      "artist": "Banda El Recodo de Cruz Lizarraga",
+      "this_week": 5,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "La Bomba",
+      "artist": "Azul Azul",
+      "this_week": 6,
+      "last_week": 11,
+      "peak_position": 4,
+      "weeks_on_chart": 28,
+      "new": false
+    },
+    {
+      "song": "Tu Recuerdo",
+      "artist": "Ilegales",
+      "this_week": 7,
+      "last_week": 6,
+      "peak_position": 4,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Pero No Me Ama",
+      "artist": "Gilberto Santa Rosa",
+      "this_week": 8,
+      "last_week": 7,
+      "peak_position": 7,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "El Amor Sonado",
+      "artist": "Los Tucanes de Tijuana",
+      "this_week": 9,
+      "last_week": 8,
+      "peak_position": 6,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Y Yo Sigo Aqui",
+      "artist": "Paulina Rubio",
+      "this_week": 10,
+      "last_week": 10,
+      "peak_position": 3,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Por Amarte Asi",
+      "artist": "Cristian",
+      "this_week": 11,
+      "last_week": 9,
+      "peak_position": 3,
+      "weeks_on_chart": 41,
+      "new": false
+    },
+    {
+      "song": "Despreciado",
+      "artist": "Lupillo Rivera",
+      "this_week": 12,
+      "last_week": 13,
+      "peak_position": 11,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Candela",
+      "artist": "Chayanne",
+      "this_week": 13,
+      "last_week": 12,
+      "peak_position": 11,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Te Quise Olvidar",
+      "artist": "MDO",
+      "this_week": 14,
+      "last_week": 14,
+      "peak_position": 1,
+      "weeks_on_chart": 29,
+      "new": false
+    },
+    {
+      "song": "Me Declaro Culpable",
+      "artist": "Los Tigres del Norte",
+      "this_week": 15,
+      "last_week": 17,
+      "peak_position": 15,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Infiel",
+      "artist": "Rocio Durcal",
+      "this_week": 16,
+      "last_week": 18,
+      "peak_position": 3,
+      "weeks_on_chart": 28,
+      "new": false
+    },
+    {
+      "song": "Amame",
+      "artist": "Rogelio Martinez \"EL RM\"",
+      "this_week": 17,
+      "last_week": 20,
+      "peak_position": 17,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Me Da Lo Mismo",
+      "artist": "Victor Manuelle",
+      "this_week": 18,
+      "last_week": 26,
+      "peak_position": 5,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Yo Te Amo",
+      "artist": "Chayanne",
+      "this_week": 19,
+      "last_week": 16,
+      "peak_position": 1,
+      "weeks_on_chart": 31,
+      "new": false
+    },
+    {
+      "song": "Esclavo Y Amo",
+      "artist": "Pepe Aguilar",
+      "this_week": 20,
+      "last_week": 21,
+      "peak_position": 20,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "La Clave Del Amor",
+      "artist": "Ricardo Montaner",
+      "this_week": 21,
+      "last_week": 19,
+      "peak_position": 12,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Sigue Sin Mi",
+      "artist": "Marco Antonio Solis",
+      "this_week": 22,
+      "last_week": 24,
+      "peak_position": 22,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Que Me Vas A Dar",
+      "artist": "La Arrolladora Banda el Limon de Rene Camacho",
+      "this_week": 23,
+      "last_week": 22,
+      "peak_position": 21,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Caracolito",
+      "artist": "Grupo Mania",
+      "this_week": 24,
+      "last_week": 23,
+      "peak_position": 23,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Entre Tu Y Mil Mares",
+      "artist": "Laura Pausini",
+      "this_week": 25,
+      "last_week": 30,
+      "peak_position": 13,
+      "weeks_on_chart": 25,
+      "new": false
+    },
+    {
+      "song": "Ni Que Valieras Tanto",
+      "artist": "El Poder del Norte",
+      "this_week": 26,
+      "last_week": 31,
+      "peak_position": 26,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Yo Si Me Enamore",
+      "artist": "Huey Dunbar",
+      "this_week": 27,
+      "last_week": 15,
+      "peak_position": 15,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Ensename A Olvidarte",
+      "artist": "Intocable",
+      "this_week": 28,
+      "last_week": 29,
+      "peak_position": 7,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Toque De Amor",
+      "artist": "Limite",
+      "this_week": 29,
+      "last_week": 28,
+      "peak_position": 28,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Yo No Soy Esa Mujer",
+      "artist": "Paulina Rubio",
+      "this_week": 30,
+      "last_week": null,
+      "peak_position": 30,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "La Silla Vacia",
+      "artist": "Julio Preciado Y Su Banda Perla del Pacifico",
+      "this_week": 31,
+      "last_week": null,
+      "peak_position": 28,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Deja",
+      "artist": "Banda El Recodo de Cruz Lizarraga",
+      "this_week": 32,
+      "last_week": 25,
+      "peak_position": 9,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Enloqueceme",
+      "artist": "OV7",
+      "this_week": 33,
+      "last_week": null,
+      "peak_position": 26,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Disculpe Usted",
+      "artist": "Los Humildes",
+      "this_week": 34,
+      "last_week": 27,
+      "peak_position": 12,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "De Vuelta Y Vuelta",
+      "artist": "Jarabe de Palo",
+      "this_week": 35,
+      "last_week": 37,
+      "peak_position": 35,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Quiero Decirte Que Te Amo",
+      "artist": "Laura Pausini",
+      "this_week": 36,
+      "last_week": 38,
+      "peak_position": 36,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Un Sueno",
+      "artist": "Los Angeles de Charly",
+      "this_week": 37,
+      "last_week": 36,
+      "peak_position": 12,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Por Bien De Los Dos",
+      "artist": "Polo Urias y Su Maquina Nortena",
+      "this_week": 38,
+      "last_week": null,
+      "peak_position": 38,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Cuando Seas Mia",
+      "artist": "Son by Four",
+      "this_week": 39,
+      "last_week": 35,
+      "peak_position": 1,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Cuando",
+      "artist": "Ricardo Arjona",
+      "this_week": 40,
+      "last_week": 40,
+      "peak_position": 1,
+      "weeks_on_chart": 26,
+      "new": false
+    }
+  ]
+}

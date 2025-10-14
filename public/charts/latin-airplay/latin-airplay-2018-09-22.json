@@ -1,0 +1,455 @@
+{
+  "date": "2018-09-22",
+  "data": [
+    {
+      "song": "Hoy Tengo Tiempo (Pinta Sensual)",
+      "artist": "Carlos Vives",
+      "this_week": 1,
+      "last_week": 10,
+      "peak_position": 1,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "X",
+      "artist": "Nicky Jam x J Balvin",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 28,
+      "new": false
+    },
+    {
+      "song": "Te Bote",
+      "artist": "Casper Magico, Nio Garcia, Darell, Nicky Jam, Ozuna & Bad Bunny",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 2,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Calypso",
+      "artist": "Luis Fonsi & Stefflon Don Or Karol G",
+      "this_week": 4,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Unica",
+      "artist": "Ozuna",
+      "this_week": 5,
+      "last_week": 4,
+      "peak_position": 1,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Sin Pijama",
+      "artist": "Becky G + Natti Natasha",
+      "this_week": 6,
+      "last_week": 5,
+      "peak_position": 1,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Clandestino",
+      "artist": "Shakira & Maluma",
+      "this_week": 7,
+      "last_week": 11,
+      "peak_position": 7,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Egoista",
+      "artist": "Gerardo Ortiz",
+      "this_week": 8,
+      "last_week": 8,
+      "peak_position": 8,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Vaina Loca",
+      "artist": "Ozuna x Manuel Turizo",
+      "this_week": 9,
+      "last_week": 19,
+      "peak_position": 9,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Me Niego",
+      "artist": "Reik Featuring Ozuna & Wisin",
+      "this_week": 10,
+      "last_week": 6,
+      "peak_position": 1,
+      "weeks_on_chart": 30,
+      "new": false
+    },
+    {
+      "song": "No Es Justo",
+      "artist": "J Balvin & Zion & Lennox",
+      "this_week": 11,
+      "last_week": 9,
+      "peak_position": 9,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Mi Sorpresa Fuiste Tu",
+      "artist": "Calibre 50",
+      "this_week": 12,
+      "last_week": 7,
+      "peak_position": 7,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Dura",
+      "artist": "Daddy Yankee",
+      "this_week": 13,
+      "last_week": 12,
+      "peak_position": 1,
+      "weeks_on_chart": 33,
+      "new": false
+    },
+    {
+      "song": "En Peligro de Extincion",
+      "artist": "La Adictiva",
+      "this_week": 14,
+      "last_week": 13,
+      "peak_position": 11,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "I Like It",
+      "artist": "Cardi B, Bad Bunny & J Balvin",
+      "this_week": 15,
+      "last_week": 16,
+      "peak_position": 7,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Te Falle",
+      "artist": "Christian Nodal",
+      "this_week": 16,
+      "last_week": 14,
+      "peak_position": 10,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Zum Zum",
+      "artist": "Daddy Yankee x RKM & Ken-Y x Arcangel",
+      "this_week": 17,
+      "last_week": 20,
+      "peak_position": 17,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "El Prestamo",
+      "artist": "Maluma",
+      "this_week": 18,
+      "last_week": 17,
+      "peak_position": 1,
+      "weeks_on_chart": 26,
+      "new": false
+    },
+    {
+      "song": "No Me Acuerdo",
+      "artist": "Thalia & Natti Natasha",
+      "this_week": 19,
+      "last_week": 21,
+      "peak_position": 19,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Que Bonito Es Querer",
+      "artist": "Ulices Chaidez y Sus Plebes",
+      "this_week": 20,
+      "last_week": 18,
+      "peak_position": 8,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Se Vuelve Loca",
+      "artist": "CNCO",
+      "this_week": 21,
+      "last_week": 38,
+      "peak_position": 21,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Mejor Me Alejo",
+      "artist": "Banda Sinaloense MS de Sergio Lizarraga",
+      "this_week": 22,
+      "last_week": 23,
+      "peak_position": 22,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Quisiera Alejarme",
+      "artist": "Wisin Featuring Ozuna",
+      "this_week": 23,
+      "last_week": 22,
+      "peak_position": 1,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Dinero",
+      "artist": "Jennifer Lopez Featuring DJ Khaled & Cardi B",
+      "this_week": 24,
+      "last_week": 26,
+      "peak_position": 24,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Madura",
+      "artist": "Cosculluela + Bad Bunny",
+      "this_week": 25,
+      "last_week": 25,
+      "peak_position": 25,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Donde Estaras",
+      "artist": "Raymix",
+      "this_week": 26,
+      "last_week": 27,
+      "peak_position": 25,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Mi Cama",
+      "artist": "Karol G & J Balvin Featuring Nicky Jam",
+      "this_week": 27,
+      "last_week": 15,
+      "peak_position": 1,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Antecedentes de Culpa",
+      "artist": "Alfredo Olivas",
+      "this_week": 28,
+      "last_week": 24,
+      "peak_position": 24,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Estamos Bien",
+      "artist": "Bad Bunny",
+      "this_week": 29,
+      "last_week": 31,
+      "peak_position": 29,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "En El Camino",
+      "artist": "El Fantasma",
+      "this_week": 30,
+      "last_week": 28,
+      "peak_position": 28,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Justicia",
+      "artist": "Silvestre Dangond & Natti Natasha",
+      "this_week": 31,
+      "last_week": 34,
+      "peak_position": 31,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Amigos Con Derechos",
+      "artist": "Reik & Maluma",
+      "this_week": 32,
+      "last_week": 39,
+      "peak_position": 32,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Mala Mia",
+      "artist": "Maluma",
+      "this_week": 33,
+      "last_week": 42,
+      "peak_position": 33,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Quien Sabe",
+      "artist": "Natti Natasha",
+      "this_week": 34,
+      "last_week": 30,
+      "peak_position": 30,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "La Vida Sin Ti",
+      "artist": "Piso 21",
+      "this_week": 35,
+      "last_week": 32,
+      "peak_position": 25,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Inolvidable",
+      "artist": "Farruko",
+      "this_week": 36,
+      "last_week": 33,
+      "peak_position": 24,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Centavito",
+      "artist": "Romeo Santos",
+      "this_week": 37,
+      "last_week": null,
+      "peak_position": 37,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Todo El Amor",
+      "artist": "De la Ghetto, Wisin & Maluma",
+      "this_week": 38,
+      "last_week": 29,
+      "peak_position": 24,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Al Cien y Pasadito",
+      "artist": "Jorge Medina",
+      "this_week": 39,
+      "last_week": 37,
+      "peak_position": 32,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Porque Me Celas?",
+      "artist": "La Septima Banda",
+      "this_week": 40,
+      "last_week": 44,
+      "peak_position": 40,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Ni Contigo Ni Sin Ti",
+      "artist": "Los Angeles Azules Featuring Pepe Aguilar",
+      "this_week": 41,
+      "last_week": 40,
+      "peak_position": 26,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Para Crear Un Sonador",
+      "artist": "Duelo",
+      "this_week": 42,
+      "last_week": 43,
+      "peak_position": 42,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "No Quiero Amarte",
+      "artist": "Justin Quiles Featuring Zion & Lennox",
+      "this_week": 43,
+      "last_week": 45,
+      "peak_position": 41,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Pa Dentro",
+      "artist": "Juanes",
+      "this_week": 44,
+      "last_week": 35,
+      "peak_position": 26,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Con El Alma Bohemia",
+      "artist": "Los Huracanes del Norte",
+      "this_week": 45,
+      "last_week": 47,
+      "peak_position": 45,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Calma",
+      "artist": "Pedro Capo X Farruko",
+      "this_week": 46,
+      "last_week": null,
+      "peak_position": 46,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Corazon Con Candado",
+      "artist": "Raulin Rodriguez",
+      "this_week": 47,
+      "last_week": 46,
+      "peak_position": 46,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "El Pisto Es Primero",
+      "artist": "Chuy Lizarraga y Su Banda Tierra Sinaloense",
+      "this_week": 48,
+      "last_week": 41,
+      "peak_position": 41,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Hola",
+      "artist": "Zion & Lennox",
+      "this_week": 49,
+      "last_week": null,
+      "peak_position": 49,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Hipocrita",
+      "artist": "Anuel AA Featuring Zion",
+      "this_week": 50,
+      "last_week": 36,
+      "peak_position": 36,
+      "weeks_on_chart": 5,
+      "new": false
+    }
+  ]
+}
