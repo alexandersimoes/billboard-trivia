@@ -56,10 +56,19 @@ export function useAuth() {
   }, []);
 
   const signInWithGoogle = async () => {
+    // Determine the redirect URL based on environment
+    let redirectUrl = 'https://alexandersimoes.github.io/billboard-trivia/';
+    if (typeof window !== 'undefined') {
+      // Use localhost for development, production URL otherwise
+      if (window.location.hostname === 'localhost') {
+        redirectUrl = 'http://localhost:3000/billboard-trivia/';
+      }
+    }
+
     const { error } = await supabase.auth.signInWithOAuth({
       provider: 'google',
       options: {
-        redirectTo: typeof window !== 'undefined' ? `${window.location.origin}/billboard-trivia/` : undefined
+        redirectTo: redirectUrl
       }
     });
     if (error) {
