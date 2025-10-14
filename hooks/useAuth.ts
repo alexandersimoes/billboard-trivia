@@ -41,8 +41,13 @@ export function useAuth() {
     }, 5000);
 
     // Check active sessions and sets the user
-    supabase.auth.getSession()
+    console.log('Starting getSession...');
+    const sessionPromise = supabase.auth.getSession();
+    console.log('getSession promise created:', sessionPromise);
+
+    sessionPromise
       .then(({ data: { session } }) => {
+        console.log('getSession resolved:', session);
         clearTimeout(timeoutId);
         if (session?.user) {
           ensureProfile(session.user);
@@ -51,6 +56,7 @@ export function useAuth() {
         setLoading(false);
       })
       .catch((error) => {
+        console.error('getSession rejected:', error);
         clearTimeout(timeoutId);
         console.error('Error getting session:', error);
         setUser(null);
