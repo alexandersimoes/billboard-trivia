@@ -1,0 +1,365 @@
+{
+  "date": "2022-06-04",
+  "data": [
+    {
+      "song": "Love Brand New",
+      "artist": "Bob Moses",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Wild Child",
+      "artist": "The Black Keys",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "A Little Bit Of Love",
+      "artist": "Weezer",
+      "this_week": 3,
+      "last_week": 4,
+      "peak_position": 3,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Toxic",
+      "artist": "BoyWithUke",
+      "this_week": 4,
+      "last_week": 5,
+      "peak_position": 4,
+      "weeks_on_chart": 27,
+      "new": false
+    },
+    {
+      "song": "Where We Are",
+      "artist": "The Lumineers",
+      "this_week": 5,
+      "last_week": 7,
+      "peak_position": 5,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Enemy",
+      "artist": "Imagine Dragons X JID",
+      "this_week": 6,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 29,
+      "new": false
+    },
+    {
+      "song": "Black Summer",
+      "artist": "Red Hot Chili Peppers",
+      "this_week": 7,
+      "last_week": 6,
+      "peak_position": 1,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Loved You A Little",
+      "artist": "The Maine / Taking Back Sunday / Charlotte Sands",
+      "this_week": 8,
+      "last_week": 9,
+      "peak_position": 8,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Mystery",
+      "artist": "Turnstile",
+      "this_week": 9,
+      "last_week": 8,
+      "peak_position": 8,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "My Love",
+      "artist": "Florence + the Machine",
+      "this_week": 10,
+      "last_week": 10,
+      "peak_position": 10,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "I'll Call You Mine",
+      "artist": "girl in red",
+      "this_week": 11,
+      "last_week": 12,
+      "peak_position": 11,
+      "weeks_on_chart": 28,
+      "new": false
+    },
+    {
+      "song": "Bones",
+      "artist": "Imagine Dragons",
+      "this_week": 12,
+      "last_week": 13,
+      "peak_position": 12,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "The Foundations Of Decay",
+      "artist": "My Chemical Romance",
+      "this_week": 13,
+      "last_week": 16,
+      "peak_position": 13,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Beggin'",
+      "artist": "Maneskin",
+      "this_week": 14,
+      "last_week": 11,
+      "peak_position": 1,
+      "weeks_on_chart": 41,
+      "new": false
+    },
+    {
+      "song": "Supermodel",
+      "artist": "Maneskin",
+      "this_week": 15,
+      "last_week": 28,
+      "peak_position": 15,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "On My Knees",
+      "artist": "Rufus Du Sol",
+      "this_week": 16,
+      "last_week": 15,
+      "peak_position": 15,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "The Funeral",
+      "artist": "YUNGBLUD",
+      "this_week": 17,
+      "last_week": 17,
+      "peak_position": 17,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Ramon Ayala",
+      "artist": "Giovannie & The Hired Guns",
+      "this_week": 18,
+      "last_week": 18,
+      "peak_position": 18,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Seventeen Going Under",
+      "artist": "Sam Fender",
+      "this_week": 19,
+      "last_week": 21,
+      "peak_position": 19,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "What's The Trick?",
+      "artist": "Jack White",
+      "this_week": 20,
+      "last_week": 23,
+      "peak_position": 20,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "In The Mirror",
+      "artist": "The Interrupters",
+      "this_week": 21,
+      "last_week": 24,
+      "peak_position": 21,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Virginia (Wind In The Night)",
+      "artist": "The Head And The Heart",
+      "this_week": 22,
+      "last_week": 22,
+      "peak_position": 20,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "What, Me Worry?",
+      "artist": "Portugal. The Man",
+      "this_week": 23,
+      "last_week": 19,
+      "peak_position": 4,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Clarity",
+      "artist": "Vance Joy",
+      "this_week": 24,
+      "last_week": 27,
+      "peak_position": 24,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Synchronize",
+      "artist": "Milky Chance",
+      "this_week": 25,
+      "last_week": 26,
+      "peak_position": 25,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Unconditional I (Lookout Kid)",
+      "artist": "Arcade Fire",
+      "this_week": 26,
+      "last_week": 29,
+      "peak_position": 26,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Keep It Up",
+      "artist": "Rex Orange County",
+      "this_week": 27,
+      "last_week": 20,
+      "peak_position": 16,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Shut Off The Lights",
+      "artist": "Bastille",
+      "this_week": 28,
+      "last_week": 30,
+      "peak_position": 24,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Hayloft II",
+      "artist": "Mother Mother",
+      "this_week": 29,
+      "last_week": 34,
+      "peak_position": 29,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "I Can't Help But Feel",
+      "artist": "Surfaces",
+      "this_week": 30,
+      "last_week": 35,
+      "peak_position": 30,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Behind Your Walls",
+      "artist": "The Offspring",
+      "this_week": 31,
+      "last_week": 33,
+      "peak_position": 31,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Dead Man Walking",
+      "artist": "Jelly Roll",
+      "this_week": 32,
+      "last_week": 32,
+      "peak_position": 29,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Beds Are Burning",
+      "artist": "AWOLNATION Featuring Tim McIlrath",
+      "this_week": 33,
+      "last_week": 25,
+      "peak_position": 25,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Won't Stand Down",
+      "artist": "Muse",
+      "this_week": 34,
+      "last_week": 31,
+      "peak_position": 3,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Compliance",
+      "artist": "Muse",
+      "this_week": 35,
+      "last_week": null,
+      "peak_position": 35,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Giants",
+      "artist": "Walk the Moon",
+      "this_week": 36,
+      "last_week": null,
+      "peak_position": 36,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Tek It",
+      "artist": "Cafune",
+      "this_week": 37,
+      "last_week": 37,
+      "peak_position": 29,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "The Last Man On Earth",
+      "artist": "Wolf Alice",
+      "this_week": 38,
+      "last_week": null,
+      "peak_position": 38,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Settling",
+      "artist": "Ripe",
+      "this_week": 39,
+      "last_week": 38,
+      "peak_position": 38,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Faith",
+      "artist": "Culture Wars",
+      "this_week": 40,
+      "last_week": 39,
+      "peak_position": 34,
+      "weeks_on_chart": 13,
+      "new": false
+    }
+  ]
+}

@@ -1,0 +1,365 @@
+{
+  "date": "2018-03-24",
+  "data": [
+    {
+      "song": "Whatever It Takes",
+      "artist": "Imagine Dragons",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Live In The Moment",
+      "artist": "Portugal. The Man",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Sober Up",
+      "artist": "AJR Featuring Rivers Cuomo",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Sit Next To Me",
+      "artist": "Foster the People",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 28,
+      "new": false
+    },
+    {
+      "song": "Run For Cover",
+      "artist": "The Killers",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 5,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Broken",
+      "artist": "lovelytheband",
+      "this_week": 6,
+      "last_week": 7,
+      "peak_position": 6,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "One Foot",
+      "artist": "Walk the Moon",
+      "this_week": 7,
+      "last_week": 6,
+      "peak_position": 1,
+      "weeks_on_chart": 25,
+      "new": false
+    },
+    {
+      "song": "Thought Contagion",
+      "artist": "Muse",
+      "this_week": 8,
+      "last_week": 9,
+      "peak_position": 8,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "No Roots",
+      "artist": "Alice Merton",
+      "this_week": 9,
+      "last_week": 8,
+      "peak_position": 1,
+      "weeks_on_chart": 30,
+      "new": false
+    },
+    {
+      "song": "Two High",
+      "artist": "Moon Taxi",
+      "this_week": 10,
+      "last_week": 11,
+      "peak_position": 10,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Dangerous Night",
+      "artist": "Thirty Seconds To Mars",
+      "this_week": 11,
+      "last_week": 12,
+      "peak_position": 11,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "The Gold",
+      "artist": "Manchester Orchestra",
+      "this_week": 12,
+      "last_week": 14,
+      "peak_position": 12,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Handyman",
+      "artist": "AWOLNATION",
+      "this_week": 13,
+      "last_week": 15,
+      "peak_position": 13,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Up All Night",
+      "artist": "Beck",
+      "this_week": 14,
+      "last_week": 13,
+      "peak_position": 1,
+      "weeks_on_chart": 28,
+      "new": false
+    },
+    {
+      "song": "&Run",
+      "artist": "Sir Sly",
+      "this_week": 15,
+      "last_week": 16,
+      "peak_position": 15,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Saturday Sun",
+      "artist": "Vance Joy",
+      "this_week": 16,
+      "last_week": 17,
+      "peak_position": 16,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Get Out",
+      "artist": "Chvrches",
+      "this_week": 17,
+      "last_week": 18,
+      "peak_position": 17,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Celebrate",
+      "artist": "Dirty Heads Featuring The Unlikely Candidates",
+      "this_week": 18,
+      "last_week": 19,
+      "peak_position": 18,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "House On Fire",
+      "artist": "Rise Against",
+      "this_week": 19,
+      "last_week": 21,
+      "peak_position": 19,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "You Worry Me",
+      "artist": "Nathaniel Rateliff & The Night Sweats",
+      "this_week": 20,
+      "last_week": 20,
+      "peak_position": 20,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Doubt",
+      "artist": "Joywave",
+      "this_week": 21,
+      "last_week": 24,
+      "peak_position": 21,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Favorite Color Is Blue",
+      "artist": "Robert DeLong + k.flay",
+      "this_week": 22,
+      "last_week": 31,
+      "peak_position": 22,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Best Friend",
+      "artist": "Sofi Tukker Featuring NERVO, The Knocks & Alisa Ueno",
+      "this_week": 23,
+      "last_week": 25,
+      "peak_position": 15,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Scary Love",
+      "artist": "The Neighbourhood",
+      "this_week": 24,
+      "last_week": 22,
+      "peak_position": 22,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "I Feel Like I'm Drowning",
+      "artist": "Two Feet",
+      "this_week": 25,
+      "last_week": 29,
+      "peak_position": 25,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Los Ageless",
+      "artist": "St. Vincent",
+      "this_week": 26,
+      "last_week": 23,
+      "peak_position": 23,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Going To Mars",
+      "artist": "Judah & The Lion",
+      "this_week": 27,
+      "last_week": 27,
+      "peak_position": 27,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "I Hope You're Happy",
+      "artist": "Blue October",
+      "this_week": 28,
+      "last_week": 32,
+      "peak_position": 28,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Everybody Wants To Be Famous",
+      "artist": "Superorganism",
+      "this_week": 29,
+      "last_week": 33,
+      "peak_position": 29,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Sorry",
+      "artist": "Nothing But Thieves",
+      "this_week": 30,
+      "last_week": 35,
+      "peak_position": 30,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Over And Over And Over",
+      "artist": "Jack White",
+      "this_week": 31,
+      "last_week": 36,
+      "peak_position": 31,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Astronaut (Something About Your Love)",
+      "artist": "Mansionair",
+      "this_week": 32,
+      "last_week": 34,
+      "peak_position": 30,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "We Fight",
+      "artist": "Dashboard Confessional",
+      "this_week": 33,
+      "last_week": 30,
+      "peak_position": 14,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "White Flag",
+      "artist": "Bishop Briggs",
+      "this_week": 34,
+      "last_week": null,
+      "peak_position": 34,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Happy Hour",
+      "artist": "Weezer",
+      "this_week": 35,
+      "last_week": 28,
+      "peak_position": 9,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Can't Deny Me",
+      "artist": "Pearl Jam",
+      "this_week": 36,
+      "last_week": null,
+      "peak_position": 36,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Everybody's Lonely",
+      "artist": "Jukebox The Ghost",
+      "this_week": 37,
+      "last_week": 40,
+      "peak_position": 37,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Connected By Love",
+      "artist": "Jack White",
+      "this_week": 38,
+      "last_week": 26,
+      "peak_position": 18,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Where's My Love",
+      "artist": "SYML",
+      "this_week": 39,
+      "last_week": 37,
+      "peak_position": 37,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "I Love You, Will You Marry Me",
+      "artist": "YUNGBLUD",
+      "this_week": 40,
+      "last_week": null,
+      "peak_position": 40,
+      "weeks_on_chart": 1,
+      "new": true
+    }
+  ]
+}

@@ -1,0 +1,365 @@
+{
+  "date": "2021-06-26",
+  "data": [
+    {
+      "song": "Follow You",
+      "artist": "Imagine Dragons",
+      "this_week": 1,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Shy Away",
+      "artist": "Twenty One Pilots",
+      "this_week": 2,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Way Less Sad",
+      "artist": "AJR",
+      "this_week": 3,
+      "last_week": 4,
+      "peak_position": 3,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "All My Favorite Songs",
+      "artist": "Weezer",
+      "this_week": 4,
+      "last_week": 3,
+      "peak_position": 3,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Once In A Lifetime",
+      "artist": "All Time Low",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 5,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Higher Power",
+      "artist": "Coldplay",
+      "this_week": 6,
+      "last_week": 6,
+      "peak_position": 4,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Serotonin",
+      "artist": "girl in red",
+      "this_week": 7,
+      "last_week": 7,
+      "peak_position": 7,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "We Are Between",
+      "artist": "Modest Mouse",
+      "this_week": 8,
+      "last_week": 8,
+      "peak_position": 8,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Monsters",
+      "artist": "All Time Low Featuring Blackbear",
+      "this_week": 9,
+      "last_week": 9,
+      "peak_position": 1,
+      "weeks_on_chart": 57,
+      "new": false
+    },
+    {
+      "song": "Happy Endings",
+      "artist": "Mike Shinoda Featuring iann dior & UPSAHL",
+      "this_week": 10,
+      "last_week": 11,
+      "peak_position": 10,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "My Ex's Best Friend",
+      "artist": "Machine Gun Kelly X Blackbear",
+      "this_week": 11,
+      "last_week": 10,
+      "peak_position": 1,
+      "weeks_on_chart": 35,
+      "new": false
+    },
+    {
+      "song": "Nowhere Generation",
+      "artist": "Rise Against",
+      "this_week": 12,
+      "last_week": 12,
+      "peak_position": 12,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Your Power",
+      "artist": "Billie Eilish",
+      "this_week": 13,
+      "last_week": 13,
+      "peak_position": 12,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Without You",
+      "artist": "The Kid LAROI",
+      "this_week": 14,
+      "last_week": 14,
+      "peak_position": 6,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Let The Bad Times Roll",
+      "artist": "The Offspring",
+      "this_week": 15,
+      "last_week": 15,
+      "peak_position": 15,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Stop Making This Hurt",
+      "artist": "Bleachers",
+      "this_week": 16,
+      "last_week": 17,
+      "peak_position": 16,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Love Race",
+      "artist": "Machine Gun Kelly Featuring Kellin Quinn",
+      "this_week": 17,
+      "last_week": 16,
+      "peak_position": 16,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "1 Last Cigarette",
+      "artist": "The Band CAMINO",
+      "this_week": 18,
+      "last_week": 18,
+      "peak_position": 18,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Sticky",
+      "artist": "The Maine",
+      "this_week": 19,
+      "last_week": 22,
+      "peak_position": 19,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "He Said, She Said",
+      "artist": "Chvrches",
+      "this_week": 20,
+      "last_week": 20,
+      "peak_position": 20,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Typhoons",
+      "artist": "Royal Blood",
+      "this_week": 21,
+      "last_week": 21,
+      "peak_position": 20,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Missing Piece",
+      "artist": "Vance Joy",
+      "this_week": 22,
+      "last_week": 23,
+      "peak_position": 22,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Bed Head",
+      "artist": "Manchester Orchestra",
+      "this_week": 23,
+      "last_week": 24,
+      "peak_position": 23,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "What You Say",
+      "artist": "Cold War Kids",
+      "this_week": 24,
+      "last_week": null,
+      "peak_position": 24,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Colors",
+      "artist": "Black Pumas",
+      "this_week": 25,
+      "last_week": 19,
+      "peak_position": 10,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Saturday",
+      "artist": "Twenty One Pilots",
+      "this_week": 26,
+      "last_week": null,
+      "peak_position": 26,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Hollywood Sucks//",
+      "artist": "KennyHoopla X Travis Barker",
+      "this_week": 27,
+      "last_week": 25,
+      "peak_position": 25,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Solar Power",
+      "artist": "Lorde",
+      "this_week": 28,
+      "last_week": null,
+      "peak_position": 28,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Stargazing",
+      "artist": "The Neighbourhood",
+      "this_week": 29,
+      "last_week": 30,
+      "peak_position": 27,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Crawling Kingsnake",
+      "artist": "The Black Keys",
+      "this_week": 30,
+      "last_week": 28,
+      "peak_position": 27,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Brutal",
+      "artist": "Olivia Rodrigo",
+      "this_week": 31,
+      "last_week": 29,
+      "peak_position": 29,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Cloud 9",
+      "artist": "Beach Bunny",
+      "this_week": 32,
+      "last_week": 31,
+      "peak_position": 28,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Making A Fire",
+      "artist": "Foo Fighters",
+      "this_week": 33,
+      "last_week": null,
+      "peak_position": 33,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Palm Reader",
+      "artist": "Dreamers, Big Boi & UPSAHL",
+      "this_week": 34,
+      "last_week": 38,
+      "peak_position": 34,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Bad Dream",
+      "artist": "Cannons",
+      "this_week": 35,
+      "last_week": 37,
+      "peak_position": 34,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Every Window Is A Mirror",
+      "artist": "Joywave",
+      "this_week": 36,
+      "last_week": 32,
+      "peak_position": 32,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Look Alive",
+      "artist": "Black Pistol Fire",
+      "this_week": 37,
+      "last_week": 33,
+      "peak_position": 32,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Games",
+      "artist": "Tessa Violet & lovelytheband",
+      "this_week": 38,
+      "last_week": 35,
+      "peak_position": 35,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Freaks",
+      "artist": "Surf Curse",
+      "this_week": 39,
+      "last_week": 34,
+      "peak_position": 33,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Vertigo",
+      "artist": "Alice Merton",
+      "this_week": 40,
+      "last_week": 39,
+      "peak_position": 35,
+      "weeks_on_chart": 6,
+      "new": false
+    }
+  ]
+}

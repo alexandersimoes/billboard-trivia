@@ -1,0 +1,365 @@
+{
+  "date": "2018-12-22",
+  "data": [
+    {
+      "song": "High Hopes",
+      "artist": "Panic! At The Disco",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "My Blood",
+      "artist": "Twenty One Pilots",
+      "this_week": 2,
+      "last_week": 3,
+      "peak_position": 2,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Happier",
+      "artist": "Marshmello & Bastille",
+      "this_week": 3,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Guiding Light",
+      "artist": "Mumford & Sons",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "You're Somebody Else",
+      "artist": "flora cash",
+      "this_week": 5,
+      "last_week": 7,
+      "peak_position": 5,
+      "weeks_on_chart": 28,
+      "new": false
+    },
+    {
+      "song": "Natural",
+      "artist": "Imagine Dragons",
+      "this_week": 6,
+      "last_week": 5,
+      "peak_position": 1,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Broken",
+      "artist": "lovelytheband",
+      "this_week": 7,
+      "last_week": 6,
+      "peak_position": 1,
+      "weeks_on_chart": 56,
+      "new": false
+    },
+    {
+      "song": "You Should See Me In A Crown",
+      "artist": "Billie Eilish",
+      "this_week": 8,
+      "last_week": 9,
+      "peak_position": 8,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Pressure",
+      "artist": "Muse",
+      "this_week": 9,
+      "last_week": 11,
+      "peak_position": 9,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "These Are My Friends",
+      "artist": "lovelytheband",
+      "this_week": 10,
+      "last_week": 12,
+      "peak_position": 10,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Can't Knock The Hustle",
+      "artist": "Weezer",
+      "this_week": 11,
+      "last_week": 13,
+      "peak_position": 11,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Love It If We Made It",
+      "artist": "The 1975",
+      "this_week": 12,
+      "last_week": 16,
+      "peak_position": 12,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Superposition",
+      "artist": "Young the Giant",
+      "this_week": 13,
+      "last_week": 17,
+      "peak_position": 13,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "She's Kerosene",
+      "artist": "The Interrupters",
+      "this_week": 14,
+      "last_week": 8,
+      "peak_position": 4,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "\"99\"",
+      "artist": "Barns Courtney",
+      "this_week": 15,
+      "last_week": 18,
+      "peak_position": 15,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Back Down",
+      "artist": "Bob Moses",
+      "this_week": 16,
+      "last_week": 20,
+      "peak_position": 16,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "All My Friends",
+      "artist": "The Revivalists",
+      "this_week": 17,
+      "last_week": 10,
+      "peak_position": 7,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Worst Nites",
+      "artist": "Foster the People",
+      "this_week": 18,
+      "last_week": 21,
+      "peak_position": 18,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Every Step That I Take",
+      "artist": "Tom Morello Featuring Portugal. The Man And Whethan",
+      "this_week": 19,
+      "last_week": 27,
+      "peak_position": 19,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Fast Talk",
+      "artist": "Houses",
+      "this_week": 20,
+      "last_week": 22,
+      "peak_position": 20,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Home",
+      "artist": "morgxn Featuring Walk the Moon",
+      "this_week": 21,
+      "last_week": 24,
+      "peak_position": 21,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Make It Up As I Go",
+      "artist": "Mike Shinoda Featuring k.flay",
+      "this_week": 22,
+      "last_week": 25,
+      "peak_position": 22,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Northern Lights",
+      "artist": "Death Cab for Cutie",
+      "this_week": 23,
+      "last_week": 26,
+      "peak_position": 23,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Ghost",
+      "artist": "Badflower",
+      "this_week": 24,
+      "last_week": 29,
+      "peak_position": 24,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Shame",
+      "artist": "Elle King",
+      "this_week": 25,
+      "last_week": 19,
+      "peak_position": 15,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Get Up",
+      "artist": "Shinedown",
+      "this_week": 26,
+      "last_week": 31,
+      "peak_position": 26,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Trampoline",
+      "artist": "SHAED",
+      "this_week": 27,
+      "last_week": 33,
+      "peak_position": 27,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Daylight",
+      "artist": "Blue October",
+      "this_week": 28,
+      "last_week": 30,
+      "peak_position": 26,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Soul Train",
+      "artist": "Just Loud Featuring Debbie Harry",
+      "this_week": 29,
+      "last_week": 35,
+      "peak_position": 29,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "April In Houston",
+      "artist": "SWMRS",
+      "this_week": 30,
+      "last_week": null,
+      "peak_position": 30,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Clean Eyes",
+      "artist": "SYML",
+      "this_week": 31,
+      "last_week": 34,
+      "peak_position": 31,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Good Morning",
+      "artist": "Max Frost",
+      "this_week": 32,
+      "last_week": 32,
+      "peak_position": 32,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Salvation",
+      "artist": "The Strumbellas",
+      "this_week": 33,
+      "last_week": null,
+      "peak_position": 33,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "You're The One",
+      "artist": "Greta Van Fleet",
+      "this_week": 34,
+      "last_week": null,
+      "peak_position": 34,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "S.O.S. (Sawed Off Shotgun)",
+      "artist": "The Glorious Sons",
+      "this_week": 35,
+      "last_week": 38,
+      "peak_position": 35,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Thru These Tears",
+      "artist": "LANY",
+      "this_week": 36,
+      "last_week": 40,
+      "peak_position": 36,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Black Holes (Solid Ground)",
+      "artist": "The Blue Stones",
+      "this_week": 37,
+      "last_week": 37,
+      "peak_position": 34,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Wicked Heart",
+      "artist": "Sublime with Rome",
+      "this_week": 38,
+      "last_week": 39,
+      "peak_position": 38,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "First Person On Earth",
+      "artist": "Robert DeLong",
+      "this_week": 39,
+      "last_week": null,
+      "peak_position": 39,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Baby",
+      "artist": "Bishop Briggs",
+      "this_week": 40,
+      "last_week": 36,
+      "peak_position": 29,
+      "weeks_on_chart": 12,
+      "new": false
+    }
+  ]
+}

@@ -2,6 +2,9 @@
 
 import { useState, useEffect, useRef } from 'react';
 import { Audiowide } from 'next/font/google';
+import { useGameTracking } from '@/hooks/useGameTracking';
+import { useAuth } from '@/hooks/useAuth';
+import Link from 'next/link';
 
 const audiowide = Audiowide({ weight: '400', subsets: ['latin'] });
 
@@ -26,6 +29,12 @@ function normalize(s: string) {
     .replace(/[^\w\s]/g, '')
     .replace(/\s+/g, ' ')
     .trim();
+}
+
+function getWeekNumber(date: Date): number {
+  const firstDayOfYear = new Date(date.getFullYear(), 0, 1);
+  const pastDaysOfYear = (date.getTime() - firstDayOfYear.getTime()) / 86400000;
+  return Math.ceil((pastDaysOfYear + firstDayOfYear.getDay() + 1) / 7);
 }
 
 async function findITunesPreviewUrl(
@@ -94,6 +103,9 @@ export default function Home() {
   const audioRef = useRef<HTMLAudioElement>(null);
   const timerRef = useRef<NodeJS.Timeout | null>(null);
   const roundStartTimeRef = useRef<number>(0);
+
+  const { startGameRound, recordGuess, endGameRound } = useGameTracking();
+  const { user, loading: authLoading, signInWithGoogle, signOut } = useAuth();
 
   // Fetch valid dates when chart changes
   useEffect(() => {
@@ -204,6 +216,14 @@ export default function Home() {
       setCorrectCount(0);
       setGameComplete(false);
       setGameState('playing');
+
+      // Start tracking game round
+      if (selectedWeek) {
+        const [year, month, day] = selectedWeek.split('-').map(Number);
+        const weekNumber = getWeekNumber(new Date(year, month - 1, day));
+        await startGameRound(selectedChart, year, weekNumber, selectedWeek);
+      }
+
       loadRound(gameTracks, 0, chartData);
     } catch (err) {
       setStatus('Error loading chart data');
@@ -326,7 +346,7 @@ export default function Home() {
     }
   };
 
-  const handleAnswer = (track: Track) => {
+  const handleAnswer = async (track: Track) => {
     if (answered) return;
 
     // Clear the timer
@@ -338,27 +358,31 @@ export default function Home() {
     const correctTrack = tracks[currentRound];
     setSelectedAnswer(options.indexOf(track));
 
+    // Calculate time and points
+    const timeElapsedMs = Date.now() - roundStartTimeRef.current;
+    const timeElapsedSec = timeElapsedMs / 1000;
+    const cappedTime = Math.min(timeElapsedSec, 30);
+    const points = track === correctTrack ? Math.max(1, Math.round(100 - (cappedTime / 30) * 99)) : 0;
+
     if (track === correctTrack) {
-      // Calculate points based on actual time elapsed (faster = more points)
-      const timeElapsedMs = Date.now() - roundStartTimeRef.current;
-      const timeElapsedSec = timeElapsedMs / 1000;
-      // Cap at 30 seconds, calculate points: 0s = 100pts, 30s = 1pt
-      const cappedTime = Math.min(timeElapsedSec, 30);
-      const points = Math.max(1, Math.round(100 - (cappedTime / 30) * 99));
       setRoundPoints(points);
       setScore(score + points);
       setCorrectCount(correctCount + 1);
       setStatus(`✓ Correct! +${points} points (${cappedTime.toFixed(1)}s)`);
     } else {
+      setRoundPoints(0);
       setStatus(`✗ Wrong! It was "${correctTrack.song}" by ${correctTrack.artist}`);
     }
+
+    // Record guess in Supabase
+    await recordGuess(currentRound, correctTrack, track, options, timeElapsedMs, points);
 
     if (audioRef.current) {
       audioRef.current.pause();
     }
   };
 
-  const nextRound = () => {
+  const nextRound = async () => {
     // Clear timer when moving to next round
     if (timerRef.current) {
       clearInterval(timerRef.current);
@@ -370,6 +394,9 @@ export default function Home() {
     } else {
       setGameComplete(true);
       setStatus(`Game Over! Final Score: ${score}`);
+
+      // End game tracking
+      await endGameRound(score, correctCount, tracks.length);
     }
   };
 
@@ -450,6 +477,65 @@ export default function Home() {
   return (
     <div className="min-h-screen p-3 sm:p-6 md:p-8 relative overflow-hidden">
       <audio ref={audioRef} />
+
+      {/* Auth button - top right */}
+      <div className="absolute top-4 right-4 z-20">
+        {!authLoading && (
+          user ? (
+            <div className="relative group">
+              <Link
+                href="/games"
+                className="w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold transition-all overflow-hidden block"
+                style={{
+                  backgroundColor: 'rgba(75, 0, 130, 0.8)',
+                  color: '#C0C0C0',
+                  border: '2px solid rgba(192, 192, 192, 0.5)',
+                  backdropFilter: 'blur(10px)',
+                }}
+              >
+                {(user.user_metadata?.avatar_url || user.user_metadata?.picture) ? (
+                  <img
+                    src={user.user_metadata?.picture || user.user_metadata?.avatar_url}
+                    alt="User avatar"
+                    className="w-full h-full object-cover"
+                  />
+                ) : (
+                  <span>
+                    {user.user_metadata?.full_name?.[0]?.toUpperCase() ||
+                     user.user_metadata?.name?.[0]?.toUpperCase() ||
+                     user.email?.[0]?.toUpperCase() ||
+                     '?'}
+                  </span>
+                )}
+              </Link>
+              <div
+                className="absolute top-12 right-0 px-3 py-2 rounded-lg text-xs font-semibold whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"
+                style={{
+                  backgroundColor: 'rgba(75, 0, 130, 0.95)',
+                  color: '#C0C0C0',
+                  border: '1px solid rgba(192, 192, 192, 0.3)',
+                  backdropFilter: 'blur(10px)',
+                }}
+              >
+                View my games
+              </div>
+            </div>
+          ) : (
+            <button
+              onClick={signInWithGoogle}
+              className="px-3 py-2 rounded-lg text-xs font-semibold transition-all hover:scale-105"
+              style={{
+                backgroundColor: 'rgba(75, 0, 130, 0.5)',
+                color: '#C0C0C0',
+                border: '1px solid rgba(192, 192, 192, 0.3)',
+                backdropFilter: 'blur(10px)',
+              }}
+            >
+              Sign In
+            </button>
+          )
+        )}
+      </div>
 
       {/* Constellation lines */}
       <div className="constellation-line" style={{ top: '20%', left: '10%', width: '30%', transform: 'rotate(45deg)' }} />
@@ -848,6 +934,22 @@ export default function Home() {
             )}
           </div>
         )}
+
+        {/* Footer */}
+        <footer className="mt-12 pb-6 text-center">
+          <Link
+            href="/leaderboard"
+            className="inline-block px-4 py-2 rounded-lg text-sm font-semibold transition-all hover:scale-105"
+            style={{
+              backgroundColor: 'rgba(75, 0, 130, 0.3)',
+              color: '#C0C0C0',
+              border: '1px solid rgba(192, 192, 192, 0.2)',
+              backdropFilter: 'blur(10px)',
+            }}
+          >
+            🏆 View Leaderboard
+          </Link>
+        </footer>
       </div>
     </div>
   );
