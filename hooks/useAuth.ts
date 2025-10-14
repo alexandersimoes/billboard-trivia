@@ -34,19 +34,34 @@ export function useAuth() {
   };
 
   useEffect(() => {
-    // Timeout fallback - if auth doesn't respond in 5 seconds, stop loading
+    let mounted = true;
+
+    // Timeout fallback - if auth doesn't respond in 3 seconds, stop loading
     const timeoutId = setTimeout(() => {
       console.warn('Auth loading timeout - stopping');
+      if (mounted) {
+        setLoading(false);
+      }
+    }, 3000);
+
+    // Listen for changes on auth state (this fires immediately with current session)
+    const { data: { subscription } } = supabase.auth.onAuthStateChange(async (event, session) => {
+      console.log('Auth state change:', event, session);
+      if (!mounted) return;
+
+      clearTimeout(timeoutId);
+
+      if (session?.user) {
+        await ensureProfile(session.user);
+      }
+      setUser(session?.user ?? null);
       setLoading(false);
-    }, 5000);
+    });
 
-    // Check active sessions and sets the user
-    console.log('Starting getSession...');
-    const sessionPromise = supabase.auth.getSession();
-    console.log('getSession promise created:', sessionPromise);
-
-    sessionPromise
+    // Also try getSession as a backup (but don't wait for it)
+    supabase.auth.getSession()
       .then(({ data: { session } }) => {
+        if (!mounted) return;
         console.log('getSession resolved:', session);
         clearTimeout(timeoutId);
         if (session?.user) {
@@ -56,23 +71,11 @@ export function useAuth() {
         setLoading(false);
       })
       .catch((error) => {
-        console.error('getSession rejected:', error);
-        clearTimeout(timeoutId);
-        console.error('Error getting session:', error);
-        setUser(null);
-        setLoading(false);
+        console.error('getSession error:', error);
       });
 
-    // Listen for changes on auth state (sign in, sign out, etc.)
-    const { data: { subscription } } = supabase.auth.onAuthStateChange(async (_event, session) => {
-      if (session?.user) {
-        await ensureProfile(session.user);
-      }
-      setUser(session?.user ?? null);
-      setLoading(false);
-    });
-
     return () => {
+      mounted = false;
       clearTimeout(timeoutId);
       subscription.unsubscribe();
     };
