@@ -9,12 +9,19 @@ export function useAuth() {
   // Ensure profile exists for user
   const ensureProfile = async (user: User) => {
     try {
-      // Check if profile exists
-      const { data: existingProfile } = await supabase
+      // Check if profile exists with a timeout
+      const profileCheck = supabase
         .from('profiles')
         .select('user_id')
         .eq('user_id', user.id)
         .single();
+
+      const { data: existingProfile } = await Promise.race([
+        profileCheck,
+        new Promise((_, reject) =>
+          setTimeout(() => reject(new Error('Profile check timeout')), 2000)
+        )
+      ]) as any;
 
       if (!existingProfile) {
         // Create profile with username from Google metadata
@@ -30,6 +37,7 @@ export function useAuth() {
       }
     } catch (error) {
       console.error('Error ensuring profile:', error);
+      // Don't block auth if profile check fails
     }
   };
 
@@ -38,37 +46,41 @@ export function useAuth() {
 
     // Timeout fallback - if auth doesn't respond in 3 seconds, stop loading
     const timeoutId = setTimeout(() => {
-      console.warn('Auth loading timeout - stopping');
       if (mounted) {
         setLoading(false);
       }
     }, 3000);
 
     // Listen for changes on auth state (this fires immediately with current session)
-    const { data: { subscription } } = supabase.auth.onAuthStateChange(async (event, session) => {
-      console.log('Auth state change:', event, session);
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((event, session) => {
       if (!mounted) return;
 
       clearTimeout(timeoutId);
 
-      if (session?.user) {
-        await ensureProfile(session.user);
-      }
+      // Set user and stop loading immediately
       setUser(session?.user ?? null);
       setLoading(false);
+
+      // Ensure profile exists in background (don't block UI)
+      if (session?.user) {
+        ensureProfile(session.user);
+      }
     });
 
     // Also try getSession as a backup (but don't wait for it)
     supabase.auth.getSession()
       .then(({ data: { session } }) => {
         if (!mounted) return;
-        console.log('getSession resolved:', session);
         clearTimeout(timeoutId);
+
+        // Set user and stop loading immediately
+        setUser(session?.user ?? null);
+        setLoading(false);
+
+        // Ensure profile exists in background
         if (session?.user) {
           ensureProfile(session.user);
         }
-        setUser(session?.user ?? null);
-        setLoading(false);
       })
       .catch((error) => {
         console.error('getSession error:', error);
