@@ -1,0 +1,230 @@
+{
+  "date": "2011-11-19",
+  "data": [
+    {
+      "song": "Headlines",
+      "artist": "Drake",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "She Will",
+      "artist": "Lil Wayne Featuring Drake",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Ni**as in Paris",
+      "artist": "Jay Z Kanye West",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 3,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Work Out",
+      "artist": "J. Cole",
+      "this_week": 4,
+      "last_week": 6,
+      "peak_position": 4,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "That Way",
+      "artist": "Wale Featuring Jeremih & Rick Ross",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 5,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Marvin & Chardonnay",
+      "artist": "Big Sean Featuring Kanye West & Roscoe Dash",
+      "this_week": 6,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Body 2 Body",
+      "artist": "Ace Hood Featuring Chris Brown",
+      "this_week": 7,
+      "last_week": 8,
+      "peak_position": 7,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "I'm On One",
+      "artist": "DJ Khaled Featuring Drake, Rick Ross & Lil Wayne",
+      "this_week": 8,
+      "last_week": 7,
+      "peak_position": 1,
+      "weeks_on_chart": 25,
+      "new": false
+    },
+    {
+      "song": "Fly",
+      "artist": "Nicki Minaj Featuring Rihanna",
+      "this_week": 9,
+      "last_week": 10,
+      "peak_position": 9,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Dance (A$$)",
+      "artist": "Big Sean Featuring Nicki Minaj",
+      "this_week": 10,
+      "last_week": 13,
+      "peak_position": 10,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Sexy And I Know It",
+      "artist": "LMFAO",
+      "this_week": 11,
+      "last_week": 11,
+      "peak_position": 11,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Otis",
+      "artist": "Jay Z Kanye West Featuring Otis Redding",
+      "this_week": 12,
+      "last_week": 9,
+      "peak_position": 2,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Lotus Flower Bomb",
+      "artist": "Wale Featuring Miguel",
+      "this_week": 13,
+      "last_week": 18,
+      "peak_position": 13,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Give Me Everything",
+      "artist": "Pitbull Featuring Ne-Yo, Afrojack & Nayer",
+      "this_week": 14,
+      "last_week": 15,
+      "peak_position": 4,
+      "weeks_on_chart": 30,
+      "new": false
+    },
+    {
+      "song": "Lighters",
+      "artist": "Bad Meets Evil Featuring Bruno Mars",
+      "this_week": 15,
+      "last_week": 12,
+      "peak_position": 6,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Make Me Proud",
+      "artist": "Drake Featuring Nicki Minaj",
+      "this_week": 16,
+      "last_week": 19,
+      "peak_position": 16,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Party Rock Anthem",
+      "artist": "LMFAO Featuring Lauren Bennett & GoonRock",
+      "this_week": 17,
+      "last_week": 14,
+      "peak_position": 4,
+      "weeks_on_chart": 27,
+      "new": false
+    },
+    {
+      "song": "You The Boss",
+      "artist": "Rick Ross Featuring Nicki Minaj",
+      "this_week": 18,
+      "last_week": 20,
+      "peak_position": 18,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Tony Montana",
+      "artist": "Future",
+      "this_week": 19,
+      "last_week": 21,
+      "peak_position": 19,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Super Bass",
+      "artist": "Nicki Minaj",
+      "this_week": 20,
+      "last_week": 16,
+      "peak_position": 2,
+      "weeks_on_chart": 27,
+      "new": false
+    },
+    {
+      "song": "Ima Boss",
+      "artist": "Meek Mill Featuring T.I., Birdman, Lil Wayne, DJ Khaled, Rick Ross & Swizz Beatz",
+      "this_week": 21,
+      "last_week": 17,
+      "peak_position": 17,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Good Feeling",
+      "artist": "Flo Rida",
+      "this_week": 22,
+      "last_week": null,
+      "peak_position": 22,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Fly Together",
+      "artist": "Red Cafe Featuring Ryan Leslie & Rick Ross",
+      "this_week": 23,
+      "last_week": 25,
+      "peak_position": 23,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Better With The Lights Off",
+      "artist": "New Boyz Featuring Chris Brown",
+      "this_week": 24,
+      "last_week": 22,
+      "peak_position": 13,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "I'm Flexin'",
+      "artist": "T.I. Featuring Big K.R.I.T.",
+      "this_week": 25,
+      "last_week": 23,
+      "peak_position": 23,
+      "weeks_on_chart": 4,
+      "new": false
+    }
+  ]
+}

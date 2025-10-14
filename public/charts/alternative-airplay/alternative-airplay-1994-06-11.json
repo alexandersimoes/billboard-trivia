@@ -1,0 +1,275 @@
+{
+  "date": "1994-06-11",
+  "data": [
+    {
+      "song": "Longview",
+      "artist": "Green Day",
+      "this_week": 1,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Fall Down",
+      "artist": "Toad The Wet Sprocket",
+      "this_week": 2,
+      "last_week": 4,
+      "peak_position": 2,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Selling The Drama",
+      "artist": "Live",
+      "this_week": 3,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Night In My Veins",
+      "artist": "Pretenders",
+      "this_week": 4,
+      "last_week": 3,
+      "peak_position": 2,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Shine",
+      "artist": "Collective Soul",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 5,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Black Hole Sun",
+      "artist": "Soundgarden",
+      "this_week": 6,
+      "last_week": 6,
+      "peak_position": 4,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Big Empty",
+      "artist": "Stone Temple Pilots",
+      "this_week": 7,
+      "last_week": 9,
+      "peak_position": 7,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Come Out And Play (Keep 'Em Separated)",
+      "artist": "The Offspring",
+      "this_week": 8,
+      "last_week": 17,
+      "peak_position": 8,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Round Here",
+      "artist": "Counting Crows",
+      "this_week": 9,
+      "last_week": 7,
+      "peak_position": 7,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Always",
+      "artist": "Erasure",
+      "this_week": 10,
+      "last_week": 8,
+      "peak_position": 8,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Closer",
+      "artist": "Nine Inch Nails",
+      "this_week": 11,
+      "last_week": 11,
+      "peak_position": 11,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Breakin' Up",
+      "artist": "Violent Femmes",
+      "this_week": 12,
+      "last_week": 15,
+      "peak_position": 12,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Until I Fall Away",
+      "artist": "Gin Blossoms",
+      "this_week": 13,
+      "last_week": 16,
+      "peak_position": 13,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Cornflake Girl",
+      "artist": "Tori Amos",
+      "this_week": 14,
+      "last_week": 12,
+      "peak_position": 12,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Bull In The Heather",
+      "artist": "Sonic Youth",
+      "this_week": 15,
+      "last_week": 27,
+      "peak_position": 15,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Girls & Boys",
+      "artist": "Blur",
+      "this_week": 16,
+      "last_week": 21,
+      "peak_position": 16,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Possession",
+      "artist": "Sarah McLachlan",
+      "this_week": 17,
+      "last_week": 10,
+      "peak_position": 4,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Miss World",
+      "artist": "Hole",
+      "this_week": 18,
+      "last_week": 13,
+      "peak_position": 13,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Backwater",
+      "artist": "Meat Puppets",
+      "this_week": 19,
+      "last_week": 14,
+      "peak_position": 11,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Here We Go",
+      "artist": "Stakka Bo",
+      "this_week": 20,
+      "last_week": 23,
+      "peak_position": 20,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Say Something",
+      "artist": "James",
+      "this_week": 21,
+      "last_week": 19,
+      "peak_position": 19,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Cleopatra's Cat",
+      "artist": "Spin Doctors",
+      "this_week": 22,
+      "last_week": 28,
+      "peak_position": 22,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Bizarre Love Triangle",
+      "artist": "FRENTE!",
+      "this_week": 23,
+      "last_week": 18,
+      "peak_position": 10,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Angels",
+      "artist": "David Byrne",
+      "this_week": 24,
+      "last_week": 29,
+      "peak_position": 24,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Disarm",
+      "artist": "The Smashing Pumpkins",
+      "this_week": 25,
+      "last_week": 25,
+      "peak_position": 8,
+      "weeks_on_chart": 26,
+      "new": false
+    },
+    {
+      "song": "Cut Your Hair",
+      "artist": "Pavement",
+      "this_week": 26,
+      "last_week": 20,
+      "peak_position": 10,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Afternoons & Coffeespoons",
+      "artist": "Crash Test Dummies",
+      "this_week": 27,
+      "last_week": null,
+      "peak_position": 27,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Prayer For The Dying",
+      "artist": "Seal",
+      "this_week": 28,
+      "last_week": null,
+      "peak_position": 28,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Hey!",
+      "artist": "Boingo",
+      "this_week": 29,
+      "last_week": null,
+      "peak_position": 29,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Gentleman Who Fell",
+      "artist": "Milla",
+      "this_week": 30,
+      "last_week": 24,
+      "peak_position": 21,
+      "weeks_on_chart": 7,
+      "new": false
+    }
+  ]
+}

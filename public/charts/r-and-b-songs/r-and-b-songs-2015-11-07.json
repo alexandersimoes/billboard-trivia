@@ -1,0 +1,230 @@
+{
+  "date": "2015-11-07",
+  "data": [
+    {
+      "song": "The Hills",
+      "artist": "The Weeknd",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Can't Feel My Face",
+      "artist": "The Weeknd",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Here",
+      "artist": "Alessia Cara",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 3,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Liquor",
+      "artist": "Chris Brown",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Don't",
+      "artist": "Bryson Tiller",
+      "this_week": 5,
+      "last_week": 6,
+      "peak_position": 5,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "The Fix",
+      "artist": "Nelly Featuring Jeremih",
+      "this_week": 6,
+      "last_week": 5,
+      "peak_position": 5,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Say It",
+      "artist": "Tory Lanez",
+      "this_week": 7,
+      "last_week": null,
+      "peak_position": 7,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Tell Your Friends",
+      "artist": "The Weeknd",
+      "this_week": 8,
+      "last_week": 8,
+      "peak_position": 6,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "I'm Up",
+      "artist": "Omarion Featuring Kid Ink & French Montana",
+      "this_week": 9,
+      "last_week": 10,
+      "peak_position": 9,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Acquainted",
+      "artist": "The Weeknd",
+      "this_week": 10,
+      "last_week": 7,
+      "peak_position": 7,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Exchange",
+      "artist": "Bryson Tiller",
+      "this_week": 11,
+      "last_week": 11,
+      "peak_position": 11,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "About You",
+      "artist": "Trey Songz",
+      "this_week": 12,
+      "last_week": 9,
+      "peak_position": 8,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Dark Times",
+      "artist": "The Weeknd Featuring Ed Sheeran",
+      "this_week": 13,
+      "last_week": 12,
+      "peak_position": 11,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "No Sleeep",
+      "artist": "Janet Featuring J. Cole",
+      "this_week": 14,
+      "last_week": 13,
+      "peak_position": 7,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Gold Slugs",
+      "artist": "DJ Khaled Featuring Chris Brown, August Alsina & Fetty Wap",
+      "this_week": 15,
+      "last_week": null,
+      "peak_position": 15,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Simple Things",
+      "artist": "Miguel Featuring Chris Brown & Future",
+      "this_week": 16,
+      "last_week": null,
+      "peak_position": 16,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "You Mine",
+      "artist": "DJ Khaled Featuring Trey Songz, Future & Jeremih",
+      "this_week": 17,
+      "last_week": null,
+      "peak_position": 17,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Real Life",
+      "artist": "The Weeknd",
+      "this_week": 18,
+      "last_week": 15,
+      "peak_position": 9,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Paradise",
+      "artist": "Jeremih",
+      "this_week": 19,
+      "last_week": 14,
+      "peak_position": 14,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "L$D",
+      "artist": "A$AP Rocky",
+      "this_week": 20,
+      "last_week": 19,
+      "peak_position": 8,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Prisoner",
+      "artist": "The Weeknd Featuring Lana Del Rey",
+      "this_week": 21,
+      "last_week": 16,
+      "peak_position": 4,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Shameless",
+      "artist": "The Weeknd",
+      "this_week": 22,
+      "last_week": 17,
+      "peak_position": 11,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Wanna Be Happy?",
+      "artist": "Kirk Franklin",
+      "this_week": 23,
+      "last_week": 20,
+      "peak_position": 20,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Just Right For Me",
+      "artist": "Monica Featuring Lil Wayne",
+      "this_week": 24,
+      "last_week": 22,
+      "peak_position": 22,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Shame",
+      "artist": "Tyrese",
+      "this_week": 25,
+      "last_week": 21,
+      "peak_position": 10,
+      "weeks_on_chart": 20,
+      "new": false
+    }
+  ]
+}

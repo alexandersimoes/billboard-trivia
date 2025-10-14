@@ -1,0 +1,455 @@
+{
+  "date": "2000-12-02",
+  "data": [
+    {
+      "song": "Baby If You're Ready",
+      "artist": "Snoop Dogg Presents Doggys Angels Featuring LaToya",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Souljas",
+      "artist": "Master P",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "It's OK",
+      "artist": "Slimm Calhoun Featuring Andre 3000",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Cross The Border",
+      "artist": "Philly's Most Wanted",
+      "this_week": 4,
+      "last_week": 5,
+      "peak_position": 4,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "R.N.S.",
+      "artist": "Freddie Foxxx Bumpy Knuckles",
+      "this_week": 5,
+      "last_week": null,
+      "peak_position": 5,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "He Did That",
+      "artist": "Silkk the Shocker Featuring Master P And Mac",
+      "this_week": 6,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "I Just Wanna Love U (Give It 2 Me)",
+      "artist": "Jay-Z",
+      "this_week": 7,
+      "last_week": 6,
+      "peak_position": 4,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "W.O.E. Is Me (World Of Entertainment)",
+      "artist": "Jurassic 5",
+      "this_week": 8,
+      "last_week": null,
+      "peak_position": 8,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "That Smut",
+      "artist": "Smut Peddlers",
+      "this_week": 9,
+      "last_week": null,
+      "peak_position": 9,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Bounce With Me",
+      "artist": "Lil Bow Wow Featuring Xscape",
+      "this_week": 10,
+      "last_week": 7,
+      "peak_position": 1,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Big Doe",
+      "artist": "Suicide",
+      "this_week": 11,
+      "last_week": 9,
+      "peak_position": 6,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "What's Your Fantasy",
+      "artist": "Ludacris Featuring Shawnna",
+      "this_week": 12,
+      "last_week": 13,
+      "peak_position": 12,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Move Somethin'",
+      "artist": "Talib Kweli & Hi-Tek",
+      "this_week": 13,
+      "last_week": 8,
+      "peak_position": 1,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Flawless",
+      "artist": "Phife Dawg",
+      "this_week": 14,
+      "last_week": 20,
+      "peak_position": 4,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Protect Ya Neck (The Jump Off)",
+      "artist": "Wu-Tang Clan",
+      "this_week": 15,
+      "last_week": 10,
+      "peak_position": 9,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Callin' Me",
+      "artist": "Lil' Zane Featuring 112",
+      "this_week": 16,
+      "last_week": 14,
+      "peak_position": 1,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Keep It Thoro",
+      "artist": "Prodigy",
+      "this_week": 17,
+      "last_week": 36,
+      "peak_position": 17,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Shake Ya Ass",
+      "artist": "Mystikal",
+      "this_week": 18,
+      "last_week": 15,
+      "peak_position": 7,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "911",
+      "artist": "Wyclef Jean Featuring Mary J. Blige",
+      "this_week": 19,
+      "last_week": null,
+      "peak_position": 19,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Bow Wow (That's My Name)",
+      "artist": "Lil Bow Wow",
+      "this_week": 20,
+      "last_week": 41,
+      "peak_position": 20,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Do You",
+      "artist": "Funkmaster Flex Featuring DMX",
+      "this_week": 21,
+      "last_week": 22,
+      "peak_position": 21,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "You Nasty",
+      "artist": "Too $hort",
+      "this_week": 22,
+      "last_week": 17,
+      "peak_position": 6,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Shake It Like A Dog",
+      "artist": "Kane & Abel Featuring PNC And 5th Ward Weebie",
+      "this_week": 23,
+      "last_week": 11,
+      "peak_position": 5,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "How Many Licks?",
+      "artist": "Lil' Kim Featuring Sisqo",
+      "this_week": 24,
+      "last_week": null,
+      "peak_position": 24,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "6 Feet Underground",
+      "artist": "Ja Rule",
+      "this_week": 25,
+      "last_week": 39,
+      "peak_position": 25,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Cherchez LaGhost",
+      "artist": "Ghostface Killah",
+      "this_week": 26,
+      "last_week": 16,
+      "peak_position": 3,
+      "weeks_on_chart": 23,
+      "new": false
+    },
+    {
+      "song": "Long Dough",
+      "artist": "Big Shank Featuring Make It Hot And Kidd",
+      "this_week": 27,
+      "last_week": null,
+      "peak_position": 27,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "WHOA! Lil' Mama...",
+      "artist": "X-Con",
+      "this_week": 28,
+      "last_week": 23,
+      "peak_position": 19,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "I Like Dem Girlz",
+      "artist": "Lil Jon & The East Side Boyz",
+      "this_week": 29,
+      "last_week": 27,
+      "peak_position": 3,
+      "weeks_on_chart": 35,
+      "new": false
+    },
+    {
+      "song": "Yeah That's Us",
+      "artist": "Major Figgas",
+      "this_week": 30,
+      "last_week": 19,
+      "peak_position": 2,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Yes Sir",
+      "artist": "Dro",
+      "this_week": 31,
+      "last_week": null,
+      "peak_position": 31,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Connect",
+      "artist": "DJ Hurricane With Xzibit, Big Gipp and Pharoahe Monch",
+      "this_week": 32,
+      "last_week": 24,
+      "peak_position": 5,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Between Me And You",
+      "artist": "Ja Rule Featuring Christina Milian",
+      "this_week": 33,
+      "last_week": 18,
+      "peak_position": 11,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Where I Wanna Be",
+      "artist": "Damizza Presents Shade Sheist Featuring Nate Dogg & Kurupt",
+      "this_week": 34,
+      "last_week": 34,
+      "peak_position": 34,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Bad Boyz",
+      "artist": "Shyne Featuring Barrington Levy",
+      "this_week": 35,
+      "last_week": 28,
+      "peak_position": 11,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Even If",
+      "artist": "Method Man",
+      "this_week": 36,
+      "last_week": 25,
+      "peak_position": 25,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Fire It Up",
+      "artist": "Self",
+      "this_week": 37,
+      "last_week": 12,
+      "peak_position": 9,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Ooohweee",
+      "artist": "Sub-Urban",
+      "this_week": 38,
+      "last_week": null,
+      "peak_position": 38,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Ms. Fat Booty 2",
+      "artist": "Mos Def Featuring Ghostface Killah",
+      "this_week": 39,
+      "last_week": 40,
+      "peak_position": 15,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Hardware",
+      "artist": "Black Thought",
+      "this_week": 40,
+      "last_week": null,
+      "peak_position": 40,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "That's Gangsta",
+      "artist": "Shyne",
+      "this_week": 41,
+      "last_week": null,
+      "peak_position": 28,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Ballers (Up In Here)",
+      "artist": "Ram Squad Featuring Ereks XL And Wiz Gam",
+      "this_week": 42,
+      "last_week": 29,
+      "peak_position": 17,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "The Light",
+      "artist": "Common",
+      "this_week": 43,
+      "last_week": 26,
+      "peak_position": 13,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "You And Me",
+      "artist": "LL Cool J Featuring Kelly Price",
+      "this_week": 44,
+      "last_week": null,
+      "peak_position": 44,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Flowers For The Dead",
+      "artist": "Cuban Link",
+      "this_week": 45,
+      "last_week": 32,
+      "peak_position": 2,
+      "weeks_on_chart": 25,
+      "new": false
+    },
+    {
+      "song": "Da Bridge 2001",
+      "artist": "QB Finest",
+      "this_week": 46,
+      "last_week": 30,
+      "peak_position": 26,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Ya Style",
+      "artist": "Sylk-E. Fyne Featuring Snoop Dogg & Bizzy Bone",
+      "this_week": 47,
+      "last_week": 31,
+      "peak_position": 22,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "How About Some Hardcore",
+      "artist": "M.O.P.",
+      "this_week": 48,
+      "last_week": null,
+      "peak_position": 36,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Flamboyant",
+      "artist": "Big L",
+      "this_week": 49,
+      "last_week": 44,
+      "peak_position": 1,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Come Ride With Me",
+      "artist": "Jahari",
+      "this_week": 50,
+      "last_week": 21,
+      "peak_position": 9,
+      "weeks_on_chart": 15,
+      "new": false
+    }
+  ]
+}

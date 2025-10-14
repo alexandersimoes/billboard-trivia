@@ -1,0 +1,230 @@
+{
+  "date": "2004-07-03",
+  "data": [
+    {
+      "song": "Slow Motion",
+      "artist": "Juvenile Featuring Soulja Slim",
+      "this_week": 1,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Overnight Celebrity",
+      "artist": "Twista",
+      "this_week": 2,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Freek-A-Leek",
+      "artist": "Petey Pablo",
+      "this_week": 3,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "On Fire",
+      "artist": "Lloyd Banks",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Jesus Walks",
+      "artist": "Kanye West",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 5,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Roses",
+      "artist": "OutKast",
+      "this_week": 6,
+      "last_week": 6,
+      "peak_position": 5,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Lean Back",
+      "artist": "Terror Squad",
+      "this_week": 7,
+      "last_week": 18,
+      "peak_position": 7,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "All Falls Down",
+      "artist": "Kanye West Featuring Syleena Johnson",
+      "this_week": 8,
+      "last_week": 7,
+      "peak_position": 2,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Welcome Back",
+      "artist": "Mase",
+      "this_week": 9,
+      "last_week": 8,
+      "peak_position": 8,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "I Like That",
+      "artist": "Houston Featuring Chingy, Nate Dogg & I-20",
+      "this_week": 10,
+      "last_week": 15,
+      "peak_position": 10,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "99 Problems",
+      "artist": "Jay-Z",
+      "this_week": 11,
+      "last_week": 10,
+      "peak_position": 10,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Sunshine",
+      "artist": "Lil' Flip Featuring Lea",
+      "this_week": 12,
+      "last_week": 17,
+      "peak_position": 12,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Dirt Off Your Shoulder",
+      "artist": "Jay-Z",
+      "this_week": 13,
+      "last_week": 13,
+      "peak_position": 2,
+      "weeks_on_chart": 26,
+      "new": false
+    },
+    {
+      "song": "Culo",
+      "artist": "Pitbull Featuring Lil Jon",
+      "this_week": 14,
+      "last_week": 11,
+      "peak_position": 11,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Whats Happnin!",
+      "artist": "Ying Yang Twins Featuring Trick Daddy",
+      "this_week": 15,
+      "last_week": 16,
+      "peak_position": 15,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Tipsy",
+      "artist": "J-Kwon",
+      "this_week": 16,
+      "last_week": 12,
+      "peak_position": 1,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Game Over (Flip)",
+      "artist": "Lil' Flip",
+      "this_week": 17,
+      "last_week": 9,
+      "peak_position": 4,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "So Sexy",
+      "artist": "Twista Featuring R. Kelly",
+      "this_week": 18,
+      "last_week": 21,
+      "peak_position": 18,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Dude",
+      "artist": "Beenie Man Featuring Ms. Thing",
+      "this_week": 19,
+      "last_week": 14,
+      "peak_position": 12,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Got It Twisted",
+      "artist": "Mobb Deep",
+      "this_week": 20,
+      "last_week": 20,
+      "peak_position": 19,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Jook Gal (Wine Wine)",
+      "artist": "Elephant Man",
+      "this_week": 21,
+      "last_week": 19,
+      "peak_position": 15,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Selfish",
+      "artist": "Slum Village Featuring Kanye West & John Legend",
+      "this_week": 22,
+      "last_week": 23,
+      "peak_position": 22,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "You Don't Want Drama",
+      "artist": "8Ball & MJG Featuring P. Diddy",
+      "this_week": 23,
+      "last_week": 22,
+      "peak_position": 22,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Freaks",
+      "artist": "Play-N-Skillz Featuring Krayzie Bone & Adina Howard",
+      "this_week": 24,
+      "last_week": 24,
+      "peak_position": 24,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Get No Better",
+      "artist": "Cassidy Featuring Mashonda",
+      "this_week": 25,
+      "last_week": null,
+      "peak_position": 25,
+      "weeks_on_chart": 2,
+      "new": false
+    }
+  ]
+}

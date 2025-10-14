@@ -1,0 +1,455 @@
+{
+  "date": "1995-03-18",
+  "data": [
+    {
+      "song": "Big Poppa/Warning",
+      "artist": "The Notorious B.I.G.",
+      "this_week": 1,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Dear Mama/Old School",
+      "artist": "2Pac",
+      "this_week": 2,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Get Down",
+      "artist": "Craig Mack",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 2,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Mad Izm",
+      "artist": "Channel Live",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 3,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Brooklyn Zoo",
+      "artist": "Ol' Dirty Bastard",
+      "this_week": 5,
+      "last_week": 6,
+      "peak_position": 5,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Foe The Love Of $",
+      "artist": "Bone Thugs-N-Harmony Featuring Eazy-E",
+      "this_week": 6,
+      "last_week": 5,
+      "peak_position": 4,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Get Lifted",
+      "artist": "Keith Murray",
+      "this_week": 7,
+      "last_week": 12,
+      "peak_position": 7,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Shook Ones Part II",
+      "artist": "Mobb Deep",
+      "this_week": 8,
+      "last_week": 8,
+      "peak_position": 7,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "People Don't Believe",
+      "artist": "Scarface Feat. Ice Cube",
+      "this_week": 9,
+      "last_week": 10,
+      "peak_position": 9,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "1-Luv",
+      "artist": "E-40 (Featuring Leviti)",
+      "this_week": 10,
+      "last_week": 7,
+      "peak_position": 4,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Tour",
+      "artist": "Capleton",
+      "this_week": 11,
+      "last_week": 9,
+      "peak_position": 8,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Whutcha Want?",
+      "artist": "Nine",
+      "this_week": 12,
+      "last_week": 11,
+      "peak_position": 3,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Kitty Kitty",
+      "artist": "69 Boyz",
+      "this_week": 13,
+      "last_week": 14,
+      "peak_position": 6,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Nika",
+      "artist": "Vicious",
+      "this_week": 14,
+      "last_week": 15,
+      "peak_position": 9,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Tootsee Roll",
+      "artist": "69 Boyz",
+      "this_week": 15,
+      "last_week": 13,
+      "peak_position": 1,
+      "weeks_on_chart": 42,
+      "new": false
+    },
+    {
+      "song": "Oh Yeah!",
+      "artist": "Rottin Razkals",
+      "this_week": 16,
+      "last_week": 20,
+      "peak_position": 14,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Sittin' In My Car",
+      "artist": "Slick Rick Featuring Doug E. Fresh",
+      "this_week": 17,
+      "last_week": 22,
+      "peak_position": 17,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "No Hook",
+      "artist": "Shaquille O'Neal Feat. Prince Rakeem The RZA & Method Man",
+      "this_week": 18,
+      "last_week": 16,
+      "peak_position": 16,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Rodeo",
+      "artist": "95 South",
+      "this_week": 19,
+      "last_week": 19,
+      "peak_position": 12,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Cocktales",
+      "artist": "Too $hort",
+      "this_week": 20,
+      "last_week": 17,
+      "peak_position": 3,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Can't Wait",
+      "artist": "Redman",
+      "this_week": 21,
+      "last_week": 18,
+      "peak_position": 11,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Bring The Pain",
+      "artist": "Method Man",
+      "this_week": 22,
+      "last_week": 21,
+      "peak_position": 4,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Supa Star",
+      "artist": "Group Home",
+      "this_week": 23,
+      "last_week": 29,
+      "peak_position": 19,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Keep Their Heads Ringin' (From \"Friday\")",
+      "artist": "Dr. Dre",
+      "this_week": 24,
+      "last_week": null,
+      "peak_position": 24,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Cradle To The Grave",
+      "artist": "Thug Life",
+      "this_week": 25,
+      "last_week": 32,
+      "peak_position": 25,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Tha Butterfly",
+      "artist": "Way 2 Real",
+      "this_week": 26,
+      "last_week": 24,
+      "peak_position": 15,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "I Never Seen A Man Cry (I Seen A Man Die)",
+      "artist": "Scarface",
+      "this_week": 27,
+      "last_week": 23,
+      "peak_position": 2,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Safe + Sound",
+      "artist": "DJ Quik",
+      "this_week": 28,
+      "last_week": null,
+      "peak_position": 28,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Ooh Lawd (Party People)",
+      "artist": "DJ Smurf And P.M.H.I.",
+      "this_week": 29,
+      "last_week": 28,
+      "peak_position": 28,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Pimp Of The Year",
+      "artist": "Dru Down",
+      "this_week": 30,
+      "last_week": 33,
+      "peak_position": 14,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Thuggish Ruggish Bone",
+      "artist": "Bone Thugs-N-Harmony",
+      "this_week": 31,
+      "last_week": 25,
+      "peak_position": 2,
+      "weeks_on_chart": 31,
+      "new": false
+    },
+    {
+      "song": "Flava In Ya Ear",
+      "artist": "Craig Mack",
+      "this_week": 32,
+      "last_week": 26,
+      "peak_position": 1,
+      "weeks_on_chart": 32,
+      "new": false
+    },
+    {
+      "song": "Boriquas On Da Set",
+      "artist": "Frankie Cutlass",
+      "this_week": 33,
+      "last_week": null,
+      "peak_position": 33,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Proceed I",
+      "artist": "The Roots",
+      "this_week": 34,
+      "last_week": 31,
+      "peak_position": 13,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Playaz Club",
+      "artist": "Rappin' 4-Tay",
+      "this_week": 35,
+      "last_week": 40,
+      "peak_position": 10,
+      "weeks_on_chart": 27,
+      "new": false
+    },
+    {
+      "song": "What I'm After",
+      "artist": "Lords Of The Underground",
+      "this_week": 36,
+      "last_week": 48,
+      "peak_position": 36,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Daaam!",
+      "artist": "Tha Alkaholiks",
+      "this_week": 37,
+      "last_week": 30,
+      "peak_position": 20,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Heaven & Hell",
+      "artist": "Raekwon Feat. Ghost Face Killer",
+      "this_week": 38,
+      "last_week": 36,
+      "peak_position": 21,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Put It On",
+      "artist": "Big L",
+      "this_week": 39,
+      "last_week": 39,
+      "peak_position": 39,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Record Jock",
+      "artist": "Dana Dane",
+      "this_week": 40,
+      "last_week": 27,
+      "peak_position": 11,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Ride Out",
+      "artist": "D.J. Trans",
+      "this_week": 41,
+      "last_week": 34,
+      "peak_position": 23,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Black Coffee",
+      "artist": "Heavy D & The Boyz",
+      "this_week": 42,
+      "last_week": 38,
+      "peak_position": 4,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Remember We",
+      "artist": "Bush Babees",
+      "this_week": 43,
+      "last_week": 44,
+      "peak_position": 34,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Sex Wit You",
+      "artist": "Heavy D & The Boyz",
+      "this_week": 44,
+      "last_week": 49,
+      "peak_position": 44,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Nuttin But Flavor",
+      "artist": "Funkmaster Flex & The Ghetto Celebs",
+      "this_week": 45,
+      "last_week": 42,
+      "peak_position": 20,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Release Yo' Delf",
+      "artist": "Method Man",
+      "this_week": 46,
+      "last_week": 47,
+      "peak_position": 28,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Party",
+      "artist": "Dis `N' Dat",
+      "this_week": 47,
+      "last_week": 35,
+      "peak_position": 11,
+      "weeks_on_chart": 27,
+      "new": false
+    },
+    {
+      "song": "Mad Props",
+      "artist": "Da Youngsta's",
+      "this_week": 48,
+      "last_week": 46,
+      "peak_position": 36,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Hold On",
+      "artist": "Brand Nubian",
+      "this_week": 49,
+      "last_week": 50,
+      "peak_position": 39,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Take It Easy",
+      "artist": "Mad Lion",
+      "this_week": 50,
+      "last_week": 43,
+      "peak_position": 5,
+      "weeks_on_chart": 37,
+      "new": false
+    }
+  ]
+}

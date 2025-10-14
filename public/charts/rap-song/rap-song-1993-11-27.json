@@ -1,0 +1,275 @@
+{
+  "date": "1993-11-27",
+  "data": [
+    {
+      "song": "Shoop",
+      "artist": "Salt-N-Pepa",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Real Muthaphuckkin G's",
+      "artist": "Eazy-E",
+      "this_week": 2,
+      "last_week": 7,
+      "peak_position": 2,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Let Me Ride",
+      "artist": "Dr. Dre",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 3,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Young Girl Bluez",
+      "artist": "Biz Markie",
+      "this_week": 4,
+      "last_week": 6,
+      "peak_position": 4,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Shifftee",
+      "artist": "Onyx",
+      "this_week": 5,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Nutin' Ta Lose",
+      "artist": "Dred Scott",
+      "this_week": 6,
+      "last_week": 9,
+      "peak_position": 6,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Outta Here",
+      "artist": "KRS-One",
+      "this_week": 7,
+      "last_week": 5,
+      "peak_position": 5,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "I'm Real",
+      "artist": "Kris Kross",
+      "this_week": 8,
+      "last_week": 10,
+      "peak_position": 8,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "(I Know I Got) Skillz",
+      "artist": "Shaquille O'Neal",
+      "this_week": 9,
+      "last_week": 13,
+      "peak_position": 9,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Stay Real",
+      "artist": "Erick Sermon",
+      "this_week": 10,
+      "last_week": 4,
+      "peak_position": 1,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "69",
+      "artist": "Father",
+      "this_week": 11,
+      "last_week": 25,
+      "peak_position": 11,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Freakit",
+      "artist": "Das EFX",
+      "this_week": 12,
+      "last_week": 21,
+      "peak_position": 12,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Award Tour",
+      "artist": "A Tribe Called Quest",
+      "this_week": 13,
+      "last_week": 16,
+      "peak_position": 13,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Paint The White House Black",
+      "artist": "George Clinton",
+      "this_week": 14,
+      "last_week": 8,
+      "peak_position": 7,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Keep Ya Head Up",
+      "artist": "2Pac",
+      "this_week": 15,
+      "last_week": 23,
+      "peak_position": 15,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Brooklyn Bounce",
+      "artist": "Daddy-O",
+      "this_week": 16,
+      "last_week": 18,
+      "peak_position": 16,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Method Man",
+      "artist": "Wu-Tang Clan",
+      "this_week": 17,
+      "last_week": 20,
+      "peak_position": 17,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "93 'Til Infinity",
+      "artist": "Souls Of Mischief",
+      "this_week": 18,
+      "last_week": 15,
+      "peak_position": 11,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Tight",
+      "artist": "M.C. Breed",
+      "this_week": 19,
+      "last_week": null,
+      "peak_position": 19,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Wild Brooklyn Bandits",
+      "artist": "Black Maddness",
+      "this_week": 20,
+      "last_week": 17,
+      "peak_position": 17,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Think (About It)",
+      "artist": "Patra (Featuring Lyn Collins)",
+      "this_week": 21,
+      "last_week": null,
+      "peak_position": 21,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Skinny Dip (Got It Goin' On)",
+      "artist": "ED O.G & DA Bulldogs",
+      "this_week": 22,
+      "last_week": 19,
+      "peak_position": 19,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "What's Next?",
+      "artist": "Leaders Of The New School",
+      "this_week": 23,
+      "last_week": 12,
+      "peak_position": 1,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Is It Alright?",
+      "artist": "Rumpletilskinz",
+      "this_week": 24,
+      "last_week": null,
+      "peak_position": 24,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Now I Feel Ya",
+      "artist": "Scarface",
+      "this_week": 25,
+      "last_week": null,
+      "peak_position": 25,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Mad Flavaz",
+      "artist": "Shadz Of Lingo",
+      "this_week": 26,
+      "last_week": null,
+      "peak_position": 26,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Don't Sleep On A Hizzo",
+      "artist": "Poison Clan",
+      "this_week": 27,
+      "last_week": 14,
+      "peak_position": 11,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Wild Child",
+      "artist": "Da Youngsta's",
+      "this_week": 28,
+      "last_week": null,
+      "peak_position": 28,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Pops Got To Go",
+      "artist": "Code Blue Posse",
+      "this_week": 29,
+      "last_week": null,
+      "peak_position": 29,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Stand By Your Man",
+      "artist": "LL Cool J",
+      "this_week": 30,
+      "last_week": 24,
+      "peak_position": 24,
+      "weeks_on_chart": 2,
+      "new": false
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "date": "2017-05-20",
+  "data": [
+    {
+      "song": "That's What I Like",
+      "artist": "Bruno Mars",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 23,
+      "new": false
+    },
+    {
+      "song": "Location",
+      "artist": "Khalid",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Passionfruit",
+      "artist": "Drake",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 3,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "I Feel It Coming",
+      "artist": "The Weeknd Featuring Daft Punk",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 2,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Slide",
+      "artist": "Calvin Harris Featuring Frank Ocean & Migos",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 5,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "24K Magic",
+      "artist": "Bruno Mars",
+      "this_week": 6,
+      "last_week": 6,
+      "peak_position": 2,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Redbone",
+      "artist": "Childish Gambino",
+      "this_week": 7,
+      "last_week": 7,
+      "peak_position": 7,
+      "weeks_on_chart": 23,
+      "new": false
+    },
+    {
+      "song": "Good Life",
+      "artist": "G-Eazy & Kehlani",
+      "this_week": 8,
+      "last_week": 9,
+      "peak_position": 8,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Shining",
+      "artist": "DJ Khaled Featuring Beyonce & JAY Z",
+      "this_week": 9,
+      "last_week": 8,
+      "peak_position": 8,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Losin Control",
+      "artist": "Russ",
+      "this_week": 10,
+      "last_week": 11,
+      "peak_position": 10,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Party",
+      "artist": "Chris Brown Featuring Usher & Gucci Mane",
+      "this_week": 11,
+      "last_week": 10,
+      "peak_position": 6,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Privacy",
+      "artist": "Chris Brown",
+      "this_week": 12,
+      "last_week": 14,
+      "peak_position": 12,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Do Re Mi",
+      "artist": "Blackbear",
+      "this_week": 13,
+      "last_week": 12,
+      "peak_position": 12,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Selfish",
+      "artist": "Future Featuring Rihanna",
+      "this_week": 14,
+      "last_week": 13,
+      "peak_position": 7,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Teenage Fever",
+      "artist": "Drake",
+      "this_week": 15,
+      "last_week": 15,
+      "peak_position": 7,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Blem",
+      "artist": "Drake",
+      "this_week": 16,
+      "last_week": 16,
+      "peak_position": 8,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Nobody Else But You",
+      "artist": "Trey Songz",
+      "this_week": 17,
+      "last_week": 17,
+      "peak_position": 16,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "I Think Of You",
+      "artist": "Jeremih Featuring Chris Brown & Big Sean",
+      "this_week": 18,
+      "last_week": 24,
+      "peak_position": 18,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "U + Me (Love Lesson)",
+      "artist": "Mary J. Blige",
+      "this_week": 19,
+      "last_week": 25,
+      "peak_position": 19,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Reminder",
+      "artist": "The Weeknd",
+      "this_week": 20,
+      "last_week": 20,
+      "peak_position": 7,
+      "weeks_on_chart": 23,
+      "new": false
+    },
+    {
+      "song": "Saved",
+      "artist": "Khalid",
+      "this_week": 21,
+      "last_week": 22,
+      "peak_position": 18,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "idfc",
+      "artist": "Blackbear",
+      "this_week": 22,
+      "last_week": 23,
+      "peak_position": 19,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Get It Together",
+      "artist": "Drake Featuring Jorja Smith & Black Coffee",
+      "this_week": 23,
+      "last_week": 19,
+      "peak_position": 9,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Distraction",
+      "artist": "Kehlani",
+      "this_week": 24,
+      "last_week": 21,
+      "peak_position": 13,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Young Dumb & Broke",
+      "artist": "Khalid",
+      "this_week": 25,
+      "last_week": null,
+      "peak_position": 25,
+      "weeks_on_chart": 2,
+      "new": false
+    }
+  ]
+}

@@ -1,0 +1,365 @@
+{
+  "date": "2004-02-14",
+  "data": [
+    {
+      "song": "Hit That",
+      "artist": "The Offspring",
+      "this_week": 1,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Numb",
+      "artist": "Linkin Park",
+      "this_week": 2,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Megalomaniac",
+      "artist": "Incubus",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 3,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Are You Gonna Be My Girl",
+      "artist": "Jet",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 3,
+      "weeks_on_chart": 23,
+      "new": false
+    },
+    {
+      "song": "I Am The Highway",
+      "artist": "Audioslave",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 5,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "(I Hate) Everything About You",
+      "artist": "Three Days Grace",
+      "this_week": 6,
+      "last_week": 6,
+      "peak_position": 2,
+      "weeks_on_chart": 31,
+      "new": false
+    },
+    {
+      "song": "Figured You Out",
+      "artist": "Nickelback",
+      "this_week": 7,
+      "last_week": 8,
+      "peak_position": 7,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Last Train Home",
+      "artist": "Lostprophets",
+      "this_week": 8,
+      "last_week": 9,
+      "peak_position": 8,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Meant To Live",
+      "artist": "Switchfoot",
+      "this_week": 9,
+      "last_week": 7,
+      "peak_position": 5,
+      "weeks_on_chart": 28,
+      "new": false
+    },
+    {
+      "song": "How About You",
+      "artist": "Staind",
+      "this_week": 10,
+      "last_week": 10,
+      "peak_position": 10,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "One Thing",
+      "artist": "Finger Eleven",
+      "this_week": 11,
+      "last_week": 12,
+      "peak_position": 11,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "I Miss You",
+      "artist": "blink-182",
+      "this_week": 12,
+      "last_week": 19,
+      "peak_position": 12,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Until The Day I Die",
+      "artist": "Story of the Year",
+      "this_week": 13,
+      "last_week": 14,
+      "peak_position": 13,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "I Believe In A Thing Called Love",
+      "artist": "The Darkness",
+      "this_week": 14,
+      "last_week": 15,
+      "peak_position": 14,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Darling Nikki",
+      "artist": "Foo Fighters",
+      "this_week": 15,
+      "last_week": 18,
+      "peak_position": 15,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "The Outsider",
+      "artist": "A Perfect Circle",
+      "this_week": 16,
+      "last_week": 20,
+      "peak_position": 16,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Feeling This",
+      "artist": "blink-182",
+      "this_week": 17,
+      "last_week": 11,
+      "peak_position": 2,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Silver And Cold",
+      "artist": "AFI",
+      "this_week": 18,
+      "last_week": 22,
+      "peak_position": 18,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Behind Blue Eyes",
+      "artist": "Limp Bizkit",
+      "this_week": 19,
+      "last_week": 23,
+      "peak_position": 19,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Mono",
+      "artist": "Courtney Love",
+      "this_week": 20,
+      "last_week": 25,
+      "peak_position": 20,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Closure",
+      "artist": "Chevelle",
+      "this_week": 21,
+      "last_week": 13,
+      "peak_position": 11,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Fortune Faded",
+      "artist": "Red Hot Chili Peppers",
+      "this_week": 22,
+      "last_week": 16,
+      "peak_position": 8,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Away From Me",
+      "artist": "Puddle of Mudd",
+      "this_week": 23,
+      "last_week": 21,
+      "peak_position": 5,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Ocean Avenue",
+      "artist": "Yellowcard",
+      "this_week": 24,
+      "last_week": 27,
+      "peak_position": 24,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Love Song",
+      "artist": "311",
+      "this_week": 25,
+      "last_week": null,
+      "peak_position": 25,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Born Too Slow",
+      "artist": "The Crystal Method",
+      "this_week": 26,
+      "last_week": 26,
+      "peak_position": 26,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Echo",
+      "artist": "Trapt",
+      "this_week": 27,
+      "last_week": 32,
+      "peak_position": 27,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "I Just Don't Know What To Do With Myself",
+      "artist": "The White Stripes",
+      "this_week": 28,
+      "last_week": 29,
+      "peak_position": 28,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Out Of Control",
+      "artist": "Hoobastank",
+      "this_week": 29,
+      "last_week": 24,
+      "peak_position": 9,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Re-Align",
+      "artist": "Godsmack",
+      "this_week": 30,
+      "last_week": 31,
+      "peak_position": 30,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Nowhere Kids",
+      "artist": "Smile Empty Soul",
+      "this_week": 31,
+      "last_week": 28,
+      "peak_position": 27,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "It's My Life",
+      "artist": "No Doubt",
+      "this_week": 32,
+      "last_week": 34,
+      "peak_position": 32,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Million Miles",
+      "artist": "Fuel",
+      "this_week": 33,
+      "last_week": 33,
+      "peak_position": 33,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Away From The Sun",
+      "artist": "3 Doors Down",
+      "this_week": 34,
+      "last_week": 37,
+      "peak_position": 34,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Big Brat",
+      "artist": "Phantom Planet",
+      "this_week": 35,
+      "last_week": null,
+      "peak_position": 35,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "The Reason",
+      "artist": "Hoobastank",
+      "this_week": 36,
+      "last_week": null,
+      "peak_position": 36,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Reptilia",
+      "artist": "The Strokes",
+      "this_week": 37,
+      "last_week": 40,
+      "peak_position": 37,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Sunday",
+      "artist": "Lo-Pro",
+      "this_week": 38,
+      "last_week": null,
+      "peak_position": 38,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Hey Ya!",
+      "artist": "OutKast",
+      "this_week": 39,
+      "last_week": 35,
+      "peak_position": 16,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Rapid Hope Loss",
+      "artist": "Dashboard Confessional",
+      "this_week": 40,
+      "last_week": 38,
+      "peak_position": 37,
+      "weeks_on_chart": 3,
+      "new": false
+    }
+  ]
+}

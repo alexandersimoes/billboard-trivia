@@ -1,0 +1,275 @@
+{
+  "date": "1992-12-19",
+  "data": [
+    {
+      "song": "Steam",
+      "artist": "Peter Gabriel",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Not Sleeping Around",
+      "artist": "Ned's Atomic Dustbin",
+      "this_week": 2,
+      "last_week": 4,
+      "peak_position": 2,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Trout",
+      "artist": "Neneh Cherry",
+      "this_week": 3,
+      "last_week": 5,
+      "peak_position": 3,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Somebody To Shove",
+      "artist": "Soul Asylum",
+      "this_week": 4,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Ignoreland",
+      "artist": "R.E.M.",
+      "this_week": 5,
+      "last_week": 6,
+      "peak_position": 5,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Taste It",
+      "artist": "INXS",
+      "this_week": 6,
+      "last_week": 7,
+      "peak_position": 5,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Love",
+      "artist": "The Sundays",
+      "this_week": 7,
+      "last_week": 3,
+      "peak_position": 2,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Dizz Knee Land",
+      "artist": "dada",
+      "this_week": 8,
+      "last_week": 9,
+      "peak_position": 8,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Mrs. Robinson",
+      "artist": "The Lemonheads",
+      "this_week": 9,
+      "last_week": 8,
+      "peak_position": 8,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Behind The Sun",
+      "artist": "Red Hot Chili Peppers",
+      "this_week": 10,
+      "last_week": 10,
+      "peak_position": 10,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Eastern Bloc",
+      "artist": "Thomas Dolby",
+      "this_week": 11,
+      "last_week": 12,
+      "peak_position": 11,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Get Out Of Control",
+      "artist": "Daniel Ash",
+      "this_week": 12,
+      "last_week": 11,
+      "peak_position": 11,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Iron Lion Zion",
+      "artist": "Bob Marley",
+      "this_week": 13,
+      "last_week": 13,
+      "peak_position": 11,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Candy Everybody Wants",
+      "artist": "10,000 Maniacs",
+      "this_week": 14,
+      "last_week": 14,
+      "peak_position": 14,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "99.9 F",
+      "artist": "Suzanne Vega",
+      "this_week": 15,
+      "last_week": 15,
+      "peak_position": 15,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Love U More",
+      "artist": "Sunscreem",
+      "this_week": 16,
+      "last_week": 23,
+      "peak_position": 16,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Temple Of Dreams",
+      "artist": "Messiah",
+      "this_week": 17,
+      "last_week": 19,
+      "peak_position": 17,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Josephina",
+      "artist": "Gene Loves Jezebel",
+      "this_week": 18,
+      "last_week": 18,
+      "peak_position": 18,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Souled Out",
+      "artist": "Supreme Love Gods",
+      "this_week": 19,
+      "last_week": 16,
+      "peak_position": 16,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Tones Of Home",
+      "artist": "Blind Melon",
+      "this_week": 20,
+      "last_week": 22,
+      "peak_position": 20,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "These Are Days",
+      "artist": "10,000 Maniacs",
+      "this_week": 21,
+      "last_week": 17,
+      "peak_position": 1,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Who's Gonna Ride Your Wild Horses",
+      "artist": "U2",
+      "this_week": 22,
+      "last_week": 21,
+      "peak_position": 7,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Two Worlds Collide",
+      "artist": "Inspiral Carpets",
+      "this_week": 23,
+      "last_week": 24,
+      "peak_position": 23,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Nearly Lost You",
+      "artist": "Screaming Trees",
+      "this_week": 24,
+      "last_week": 25,
+      "peak_position": 5,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Uh Huh Oh Yeh",
+      "artist": "Paul Weller",
+      "this_week": 25,
+      "last_week": 20,
+      "peak_position": 10,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Waterfall",
+      "artist": "Riverside",
+      "this_week": 26,
+      "last_week": null,
+      "peak_position": 26,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Round Of Blues",
+      "artist": "Shawn Colvin",
+      "this_week": 27,
+      "last_week": 26,
+      "peak_position": 26,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Long Way Down",
+      "artist": "Michael Penn",
+      "this_week": 28,
+      "last_week": null,
+      "peak_position": 28,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Waiting For The Sun",
+      "artist": "The Jayhawks",
+      "this_week": 29,
+      "last_week": null,
+      "peak_position": 29,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "They're Here",
+      "artist": "EMF",
+      "this_week": 30,
+      "last_week": 27,
+      "peak_position": 27,
+      "weeks_on_chart": 2,
+      "new": false
+    }
+  ]
+}

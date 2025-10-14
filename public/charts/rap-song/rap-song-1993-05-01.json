@@ -1,0 +1,275 @@
+{
+  "date": "1993-05-01",
+  "data": [
+    {
+      "song": "Down With The King",
+      "artist": "Run-D.M.C.",
+      "this_week": 1,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "It Was A Good Day",
+      "artist": "Ice Cube",
+      "this_week": 2,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Funky Child",
+      "artist": "Lords Of The Underground",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 3,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "How I'm Comin'",
+      "artist": "LL Cool J",
+      "this_week": 4,
+      "last_week": 6,
+      "peak_position": 4,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Typical Reasons (Swing My Way)",
+      "artist": "Prince Markie Dee And The Soul Convention",
+      "this_week": 5,
+      "last_week": 7,
+      "peak_position": 5,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Peace Treaty",
+      "artist": "Kam",
+      "this_week": 6,
+      "last_week": 9,
+      "peak_position": 6,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Born 2 B.R.E.E.D.",
+      "artist": "Monie Love",
+      "this_week": 7,
+      "last_week": 8,
+      "peak_position": 7,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Roll Wit Tha Flavor",
+      "artist": "The Flavor Unit MC's",
+      "this_week": 8,
+      "last_week": 13,
+      "peak_position": 8,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Crooked Officer",
+      "artist": "Geto Boys",
+      "this_week": 9,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "I Get Wrecked",
+      "artist": "Tim Dog",
+      "this_week": 10,
+      "last_week": 11,
+      "peak_position": 10,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Bow Wow Wow",
+      "artist": "Funkdoobiest",
+      "this_week": 11,
+      "last_week": 18,
+      "peak_position": 11,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Time 4 Sum Aksion",
+      "artist": "Redman",
+      "this_week": 12,
+      "last_week": 5,
+      "peak_position": 1,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Love Me Or Leave Me Alone",
+      "artist": "Brand Nubian",
+      "this_week": 13,
+      "last_week": 17,
+      "peak_position": 13,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Wreckx Shop",
+      "artist": "Wreckx-N-Effect",
+      "this_week": 14,
+      "last_week": 20,
+      "peak_position": 14,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Tick Tock",
+      "artist": "Kilo",
+      "this_week": 15,
+      "last_week": 22,
+      "peak_position": 15,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Off & On",
+      "artist": "Trends Of Culture",
+      "this_week": 16,
+      "last_week": 23,
+      "peak_position": 16,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Flip Da Script",
+      "artist": "Da King & I",
+      "this_week": 17,
+      "last_week": 14,
+      "peak_position": 14,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Nuthin' But A \"G\" Thang",
+      "artist": "Dr. Dre",
+      "this_week": 18,
+      "last_week": 15,
+      "peak_position": 1,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Deeper",
+      "artist": "Boss",
+      "this_week": 19,
+      "last_week": 25,
+      "peak_position": 19,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Throw Your Gunz",
+      "artist": "Onyx",
+      "this_week": 20,
+      "last_week": 10,
+      "peak_position": 1,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Crewz Pop",
+      "artist": "Da Youngsta's",
+      "this_week": 21,
+      "last_week": 27,
+      "peak_position": 21,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Lots Of Lovin",
+      "artist": "Pete Rock & C.L. Smooth",
+      "this_week": 22,
+      "last_week": 28,
+      "peak_position": 22,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Get The Point",
+      "artist": "C.E.B.",
+      "this_week": 23,
+      "last_week": 19,
+      "peak_position": 5,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Hip Hop Hooray",
+      "artist": "Naughty by Nature",
+      "this_week": 24,
+      "last_week": 21,
+      "peak_position": 3,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Breaker 1/9",
+      "artist": "Common Sense",
+      "this_week": 25,
+      "last_week": 12,
+      "peak_position": 10,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Gunshot",
+      "artist": "Kenny Dope",
+      "this_week": 26,
+      "last_week": 29,
+      "peak_position": 26,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Passin' Me By",
+      "artist": "The Pharcyde",
+      "this_week": 27,
+      "last_week": null,
+      "peak_position": 27,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Sally Got A One Track Mind",
+      "artist": "Diamond & Psychotic Neurotics",
+      "this_week": 28,
+      "last_week": 16,
+      "peak_position": 12,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Truthful",
+      "artist": "Heavy D & The Boyz",
+      "this_week": 29,
+      "last_week": null,
+      "peak_position": 29,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Ill Street Blues",
+      "artist": "Kool G Rap & D.J. Polo",
+      "this_week": 30,
+      "last_week": 26,
+      "peak_position": 26,
+      "weeks_on_chart": 5,
+      "new": false
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "date": "2012-03-31",
+  "data": [
+    {
+      "song": "The Motto",
+      "artist": "Drake Featuring Lil Wayne",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Rack City",
+      "artist": "Tyga",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Take Care",
+      "artist": "Drake Featuring Rihanna",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 3,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Young, Wild & Free",
+      "artist": "Snoop Dogg & Wiz Khalifa Featuring Bruno Mars",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Can't Get Enough",
+      "artist": "J. Cole Featuring Trey Songz",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 5,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Lotus Flower Bomb",
+      "artist": "Wale Featuring Miguel",
+      "this_week": 6,
+      "last_week": 6,
+      "peak_position": 3,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Ni**as in Paris",
+      "artist": "Jay Z Kanye West",
+      "this_week": 7,
+      "last_week": 7,
+      "peak_position": 1,
+      "weeks_on_chart": 30,
+      "new": false
+    },
+    {
+      "song": "Make Me Proud",
+      "artist": "Drake Featuring Nicki Minaj",
+      "this_week": 8,
+      "last_week": 8,
+      "peak_position": 1,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Drank In My Cup",
+      "artist": "Kirko Bangz",
+      "this_week": 9,
+      "last_week": 10,
+      "peak_position": 9,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "UP!",
+      "artist": "LoveRance Featuring IamSu & Skipper or 50 Cent",
+      "this_week": 10,
+      "last_week": 12,
+      "peak_position": 10,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Do It Like You",
+      "artist": "Diggy Featuring Jeremih",
+      "this_week": 11,
+      "last_week": 11,
+      "peak_position": 11,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Dance (A$$)",
+      "artist": "Big Sean Featuring Nicki Minaj",
+      "this_week": 12,
+      "last_week": 13,
+      "peak_position": 2,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Work Out",
+      "artist": "J. Cole",
+      "this_week": 13,
+      "last_week": 9,
+      "peak_position": 3,
+      "weeks_on_chart": 30,
+      "new": false
+    },
+    {
+      "song": "I Do",
+      "artist": "Young Jeezy Featuring Jay-Z & Andre 3000",
+      "this_week": 14,
+      "last_week": 15,
+      "peak_position": 9,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Magic",
+      "artist": "Future Featuring T.I.",
+      "this_week": 15,
+      "last_week": 18,
+      "peak_position": 15,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Another Round",
+      "artist": "Fat Joe Featuring Chris Brown",
+      "this_week": 16,
+      "last_week": 17,
+      "peak_position": 16,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Good Feeling",
+      "artist": "Flo Rida",
+      "this_week": 17,
+      "last_week": 14,
+      "peak_position": 8,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "International Love",
+      "artist": "Pitbull Featuring Chris Brown",
+      "this_week": 18,
+      "last_week": 16,
+      "peak_position": 15,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Ayy Ladies",
+      "artist": "Travis Porter Featuring Tyga",
+      "this_week": 19,
+      "last_week": 19,
+      "peak_position": 19,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Leave You Alone",
+      "artist": "Young Jeezy Featuring Ne-Yo",
+      "this_week": 20,
+      "last_week": 21,
+      "peak_position": 20,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Sabotage",
+      "artist": "Wale Featuring Lloyd",
+      "this_week": 21,
+      "last_week": 22,
+      "peak_position": 21,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Starships",
+      "artist": "Nicki Minaj",
+      "this_week": 22,
+      "last_week": 23,
+      "peak_position": 22,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Gotta Have It",
+      "artist": "Jay Z Kanye West",
+      "this_week": 23,
+      "last_week": 20,
+      "peak_position": 13,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Stay Schemin",
+      "artist": "Rick Ross Featuring Drake & French Montana",
+      "this_week": 24,
+      "last_week": null,
+      "peak_position": 24,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "SupaFreak",
+      "artist": "Young Jeezy Featuring 2 Chainz",
+      "this_week": 25,
+      "last_week": null,
+      "peak_position": 24,
+      "weeks_on_chart": 3,
+      "new": false
+    }
+  ]
+}

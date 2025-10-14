@@ -1,0 +1,275 @@
+{
+  "date": "1992-05-09",
+  "data": [
+    {
+      "song": "Jump",
+      "artist": "Kris Kross",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "They Want EFX",
+      "artist": "Das EFX",
+      "this_week": 2,
+      "last_week": 5,
+      "peak_position": 2,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Tennessee",
+      "artist": "Arrested Development",
+      "this_week": 3,
+      "last_week": 4,
+      "peak_position": 3,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Hand On The Pump",
+      "artist": "Cypress Hill",
+      "this_week": 4,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Helluva",
+      "artist": "Brotherhood Creed",
+      "this_week": 5,
+      "last_week": 6,
+      "peak_position": 3,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Brenda's Got A Baby/If My Homie Calls",
+      "artist": "2Pac",
+      "this_week": 6,
+      "last_week": 3,
+      "peak_position": 3,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Victim Of The Ghetto",
+      "artist": "The College Boyz",
+      "this_week": 7,
+      "last_week": 8,
+      "peak_position": 7,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Age Ain't Nothin' But A #",
+      "artist": "Chi-Ali",
+      "this_week": 8,
+      "last_week": 9,
+      "peak_position": 8,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "One To Grow On",
+      "artist": "UMC's",
+      "this_week": 9,
+      "last_week": 7,
+      "peak_position": 2,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Baby Got Back",
+      "artist": "Sir Mix-A-Lot",
+      "this_week": 10,
+      "last_week": 10,
+      "peak_position": 10,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Hickeys On Your Chest",
+      "artist": "Lil' Shawn",
+      "this_week": 11,
+      "last_week": 11,
+      "peak_position": 11,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Scenario",
+      "artist": "A Tribe Called Quest",
+      "this_week": 12,
+      "last_week": 16,
+      "peak_position": 12,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Sometimes I Rhyme Slow",
+      "artist": "Nice & Smooth",
+      "this_week": 13,
+      "last_week": 14,
+      "peak_position": 13,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "A Minute To Pray And A Second To Die",
+      "artist": "Scarface",
+      "this_week": 14,
+      "last_week": 15,
+      "peak_position": 14,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "If You Want It",
+      "artist": "2nd II None",
+      "this_week": 15,
+      "last_week": 17,
+      "peak_position": 15,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "I Wanna Rock",
+      "artist": "Luke",
+      "this_week": 16,
+      "last_week": 12,
+      "peak_position": 8,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Jiggable Pie",
+      "artist": "AMG",
+      "this_week": 17,
+      "last_week": 13,
+      "peak_position": 11,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Nighttrain",
+      "artist": "Public Enemy",
+      "this_week": 18,
+      "last_week": 21,
+      "peak_position": 18,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Night Shift",
+      "artist": "Positive K",
+      "this_week": 19,
+      "last_week": 20,
+      "peak_position": 19,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "They Reminisce Over You (T.R.O.Y.)",
+      "artist": "Pete Rock & C.L. Smooth",
+      "this_week": 20,
+      "last_week": 25,
+      "peak_position": 20,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "The Jam",
+      "artist": "Shabba Ranks Featuring KRS-1",
+      "this_week": 21,
+      "last_week": 18,
+      "peak_position": 1,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "13 And Good",
+      "artist": "BDP",
+      "this_week": 22,
+      "last_week": 27,
+      "peak_position": 22,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "The Hate That Hate Produced",
+      "artist": "Sister Souljah",
+      "this_week": 23,
+      "last_week": 23,
+      "peak_position": 23,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "My Man's Playing Tricks On Me",
+      "artist": "Ghetto Girlz",
+      "this_week": 24,
+      "last_week": 24,
+      "peak_position": 22,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "The Choice Is Yours",
+      "artist": "Black Sheep",
+      "this_week": 25,
+      "last_week": 22,
+      "peak_position": 1,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Sitting In The Park",
+      "artist": "Hi-C Featuring Tony A",
+      "this_week": 26,
+      "last_week": null,
+      "peak_position": 26,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Juice (Know The Ledge)",
+      "artist": "Eric B. & Rakim",
+      "this_week": 27,
+      "last_week": 19,
+      "peak_position": 7,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Bustin' Out (On Funk)",
+      "artist": "Doug E. Fresh",
+      "this_week": 28,
+      "last_week": null,
+      "peak_position": 28,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "The Lover In You",
+      "artist": "Big Daddy Kane",
+      "this_week": 29,
+      "last_week": 28,
+      "peak_position": 28,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Everybody's Talking About M.C. Brains",
+      "artist": "M.C. Brains",
+      "this_week": 30,
+      "last_week": null,
+      "peak_position": 30,
+      "weeks_on_chart": 1,
+      "new": true
+    }
+  ]
+}

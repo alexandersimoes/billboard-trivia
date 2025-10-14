@@ -1,0 +1,680 @@
+{
+  "date": "1995-10-14",
+  "data": [
+    {
+      "song": "I Like It, I Love It",
+      "artist": "Tim McGraw",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "She's Every Woman",
+      "artist": "Garth Brooks",
+      "this_week": 2,
+      "last_week": 4,
+      "peak_position": 2,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "If The World Had A Front Porch",
+      "artist": "Tracy Lawrence",
+      "this_week": 3,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Better Things To Do",
+      "artist": "Terri Clark",
+      "this_week": 4,
+      "last_week": 5,
+      "peak_position": 4,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "I'm Not Strong Enough To Say No",
+      "artist": "BlackHawk",
+      "this_week": 5,
+      "last_week": 7,
+      "peak_position": 5,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Let's Go To Vegas",
+      "artist": "Faith Hill",
+      "this_week": 6,
+      "last_week": 8,
+      "peak_position": 6,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Dust On The Bottle",
+      "artist": "David Lee Murphy",
+      "this_week": 7,
+      "last_week": 10,
+      "peak_position": 7,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Halfway Down",
+      "artist": "Patty Loveless",
+      "this_week": 8,
+      "last_week": 6,
+      "peak_position": 6,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "One Boy, One Girl",
+      "artist": "Collin Raye",
+      "this_week": 9,
+      "last_week": 3,
+      "peak_position": 2,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "No Man's Land",
+      "artist": "John Michael Montgomery",
+      "this_week": 10,
+      "last_week": 12,
+      "peak_position": 10,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "(This Thing Called) Wantin' And Havin' It All",
+      "artist": "Sawyer Brown",
+      "this_week": 11,
+      "last_week": 13,
+      "peak_position": 11,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Safe In The Arms Of Love",
+      "artist": "Martina McBride",
+      "this_week": 12,
+      "last_week": 14,
+      "peak_position": 12,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Check Yes Or No",
+      "artist": "George Strait",
+      "this_week": 13,
+      "last_week": 23,
+      "peak_position": 13,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "All I Need To Know",
+      "artist": "Kenny Chesney",
+      "this_week": 14,
+      "last_week": 15,
+      "peak_position": 14,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "I Wanna Go Too Far",
+      "artist": "Trisha Yearwood",
+      "this_week": 15,
+      "last_week": 17,
+      "peak_position": 15,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "I Let Her Lie",
+      "artist": "Daryle Singletary",
+      "this_week": 16,
+      "last_week": 18,
+      "peak_position": 16,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Sometimes She Forgets",
+      "artist": "Travis Tritt",
+      "this_week": 17,
+      "last_week": 16,
+      "peak_position": 16,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Whiskey Under The Bridge",
+      "artist": "Brooks & Dunn",
+      "this_week": 18,
+      "last_week": 25,
+      "peak_position": 18,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "The Woman In Me (Needs The Man In You)",
+      "artist": "Shania Twain",
+      "this_week": 19,
+      "last_week": 19,
+      "peak_position": 19,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "On My Own",
+      "artist": "Reba McEntire",
+      "this_week": 20,
+      "last_week": 24,
+      "peak_position": 20,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "If I Was A Drinkin' Man",
+      "artist": "Neal McCoy",
+      "this_week": 21,
+      "last_week": 22,
+      "peak_position": 21,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Who Needs You Baby",
+      "artist": "Clay Walker",
+      "this_week": 22,
+      "last_week": 29,
+      "peak_position": 22,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Life Goes On",
+      "artist": "Little Texas",
+      "this_week": 23,
+      "last_week": 27,
+      "peak_position": 23,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Heaven Bound (I'm Ready)",
+      "artist": "Shenandoah",
+      "this_week": 24,
+      "last_week": 26,
+      "peak_position": 24,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Back In Your Arms Again",
+      "artist": "Lorrie Morgan",
+      "this_week": 25,
+      "last_week": 28,
+      "peak_position": 25,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Don't Stop",
+      "artist": "Wade Hayes",
+      "this_week": 26,
+      "last_week": 11,
+      "peak_position": 10,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "I Will Always Love You",
+      "artist": "Dolly Parton & Vince Gill",
+      "this_week": 27,
+      "last_week": 31,
+      "peak_position": 27,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "I Think About It All The Time",
+      "artist": "John Berry",
+      "this_week": 28,
+      "last_week": 9,
+      "peak_position": 4,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "That's As Close As I'll Get To Loving You",
+      "artist": "Aaron Tippin",
+      "this_week": 29,
+      "last_week": 32,
+      "peak_position": 29,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "One Emotion",
+      "artist": "Clint Black",
+      "this_week": 30,
+      "last_week": 21,
+      "peak_position": 2,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "In Pictures",
+      "artist": "Alabama",
+      "this_week": 31,
+      "last_week": 38,
+      "peak_position": 31,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Should've Asked Her Faster",
+      "artist": "Ty England",
+      "this_week": 32,
+      "last_week": 20,
+      "peak_position": 3,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Not On Your Love",
+      "artist": "Jeff Carson",
+      "this_week": 33,
+      "last_week": 30,
+      "peak_position": 1,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Tequila Talkin'",
+      "artist": "Lonestar",
+      "this_week": 34,
+      "last_week": 33,
+      "peak_position": 33,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Go Rest High On That Mountain",
+      "artist": "Vince Gill",
+      "this_week": 35,
+      "last_week": 36,
+      "peak_position": 35,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "You're Gonna Miss Me When I'm Gone",
+      "artist": "Brooks & Dunn",
+      "this_week": 36,
+      "last_week": 34,
+      "peak_position": 1,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Love Lessons",
+      "artist": "Tracy Byrd",
+      "this_week": 37,
+      "last_week": 43,
+      "peak_position": 37,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "It's Not The End Of The World",
+      "artist": "Emilio",
+      "this_week": 38,
+      "last_week": 45,
+      "peak_position": 38,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Here Comes The Rain",
+      "artist": "The Mavericks",
+      "this_week": 39,
+      "last_week": 42,
+      "peak_position": 39,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "I Want My Goodbye Back",
+      "artist": "Ty Herndon",
+      "this_week": 40,
+      "last_week": 35,
+      "peak_position": 7,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Trouble",
+      "artist": "Mark Chesnutt",
+      "this_week": 41,
+      "last_week": 47,
+      "peak_position": 41,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "She Ain't Your Ordinary Girl",
+      "artist": "Alabama",
+      "this_week": 42,
+      "last_week": 41,
+      "peak_position": 2,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "When A Woman Loves A Man",
+      "artist": "Lee Roy Parnell",
+      "this_week": 43,
+      "last_week": 48,
+      "peak_position": 43,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Born In The Dark",
+      "artist": "Doug Stone",
+      "this_week": 44,
+      "last_week": 52,
+      "peak_position": 44,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "In Between Dances",
+      "artist": "Pam Tillis",
+      "this_week": 45,
+      "last_week": 44,
+      "peak_position": 3,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Deep Down",
+      "artist": "Pam Tillis",
+      "this_week": 46,
+      "last_week": 59,
+      "peak_position": 46,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "That Road Not Taken",
+      "artist": "Joe Diffie",
+      "this_week": 47,
+      "last_week": 40,
+      "peak_position": 40,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Save This One For Me",
+      "artist": "Rick Trevino",
+      "this_week": 48,
+      "last_week": 50,
+      "peak_position": 48,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Anything For Love",
+      "artist": "James House",
+      "this_week": 49,
+      "last_week": 53,
+      "peak_position": 49,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Three Words, Two Hearts, One Night",
+      "artist": "Mark Collie",
+      "this_week": 50,
+      "last_week": 37,
+      "peak_position": 25,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Rub-A-Dubbin'",
+      "artist": "Ken Mellons",
+      "this_week": 51,
+      "last_week": 57,
+      "peak_position": 51,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Big Ol' Truck",
+      "artist": "Toby Keith",
+      "this_week": 52,
+      "last_week": 39,
+      "peak_position": 15,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Rebecca Lynn",
+      "artist": "Bryan White",
+      "this_week": 53,
+      "last_week": 63,
+      "peak_position": 53,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Lead On",
+      "artist": "George Strait",
+      "this_week": 54,
+      "last_week": 51,
+      "peak_position": 7,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "The Car",
+      "artist": "Jeff Carson",
+      "this_week": 55,
+      "last_week": 64,
+      "peak_position": 55,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "I'm A Stranger Here Myself",
+      "artist": "Perfect Stranger",
+      "this_week": 56,
+      "last_week": 55,
+      "peak_position": 55,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Honky Tonk Healin'",
+      "artist": "David Ball",
+      "this_week": 57,
+      "last_week": 58,
+      "peak_position": 57,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Who's Counting",
+      "artist": "Wesley Dennis",
+      "this_week": 58,
+      "last_week": 61,
+      "peak_position": 58,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Nothing",
+      "artist": "Dwight Yoakam",
+      "this_week": 59,
+      "last_week": null,
+      "peak_position": 59,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Bill's Laundromat, Bar And Grill",
+      "artist": "Confederate Railroad",
+      "this_week": 60,
+      "last_week": 56,
+      "peak_position": 54,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Knock, Knock",
+      "artist": "The Hutchens",
+      "this_week": 61,
+      "last_week": 62,
+      "peak_position": 61,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Those Words We Said",
+      "artist": "Kim Richey",
+      "this_week": 62,
+      "last_week": 71,
+      "peak_position": 62,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Feel Like Makin' Love",
+      "artist": "Philip Claypool",
+      "this_week": 63,
+      "last_week": 60,
+      "peak_position": 60,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Life Gets Away",
+      "artist": "Clint Black",
+      "this_week": 64,
+      "last_week": null,
+      "peak_position": 64,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Walking To Jerusalem",
+      "artist": "Tracy Byrd",
+      "this_week": 65,
+      "last_week": 65,
+      "peak_position": 15,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Your Tattoo",
+      "artist": "Sammy Kershaw",
+      "this_week": 66,
+      "last_week": 49,
+      "peak_position": 47,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "The Trouble With Love",
+      "artist": "Rob Crosby",
+      "this_week": 67,
+      "last_week": 67,
+      "peak_position": 67,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Home Alone",
+      "artist": "4 Runner",
+      "this_week": 68,
+      "last_week": null,
+      "peak_position": 68,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "These Arms",
+      "artist": "Baker & Myers",
+      "this_week": 69,
+      "last_week": 69,
+      "peak_position": 69,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "I Just Can't Stand To Be Unhappy",
+      "artist": "Bobbie Cryner",
+      "this_week": 70,
+      "last_week": null,
+      "peak_position": 70,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Any Gal Of Mine",
+      "artist": "Gino The New Guy",
+      "this_week": 71,
+      "last_week": 70,
+      "peak_position": 56,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Heart Half Empty",
+      "artist": "Ty Herndon Featuring Stephanie Bentley",
+      "this_week": 72,
+      "last_week": null,
+      "peak_position": 72,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Every Little Word",
+      "artist": "Hal Ketchum",
+      "this_week": 73,
+      "last_week": 54,
+      "peak_position": 49,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Not Enough Hours In The Night",
+      "artist": "Doug Supernaw",
+      "this_week": 74,
+      "last_week": null,
+      "peak_position": 74,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Party All Night",
+      "artist": "Jeff Foxworthy With Little Texas & S. Rouse",
+      "this_week": 75,
+      "last_week": 66,
+      "peak_position": 53,
+      "weeks_on_chart": 15,
+      "new": false
+    }
+  ]
+}

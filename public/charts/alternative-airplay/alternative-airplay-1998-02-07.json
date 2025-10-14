@@ -1,0 +1,365 @@
+{
+  "date": "1998-02-07",
+  "data": [
+    {
+      "song": "Sex And Candy",
+      "artist": "Marcy Playground",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Time Of Your Life (Good Riddance)",
+      "artist": "Green Day",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Given To Fly",
+      "artist": "Pearl Jam",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 3,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Bitter Sweet Symphony",
+      "artist": "The Verve",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "How's It Going To Be",
+      "artist": "Third Eye Blind",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 5,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Brick",
+      "artist": "Ben Folds Five",
+      "this_week": 6,
+      "last_week": 8,
+      "peak_position": 6,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Clumsy",
+      "artist": "Our Lady Peace",
+      "this_week": 7,
+      "last_week": 9,
+      "peak_position": 7,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "3 AM",
+      "artist": "matchbox 20",
+      "this_week": 8,
+      "last_week": 6,
+      "peak_position": 3,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Touch, Peel And Stand",
+      "artist": "Days Of The New",
+      "this_week": 9,
+      "last_week": 10,
+      "peak_position": 6,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Everything To Everyone",
+      "artist": "Everclear",
+      "this_week": 10,
+      "last_week": 7,
+      "peak_position": 1,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "My Hero",
+      "artist": "Foo Fighters",
+      "this_week": 11,
+      "last_week": 17,
+      "peak_position": 11,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "My Own Prison",
+      "artist": "Creed",
+      "this_week": 12,
+      "last_week": 14,
+      "peak_position": 12,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Dammit (Growing Up)",
+      "artist": "blink-182",
+      "this_week": 13,
+      "last_week": 12,
+      "peak_position": 12,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Walkin' On The Sun",
+      "artist": "Smash Mouth",
+      "this_week": 14,
+      "last_week": 13,
+      "peak_position": 1,
+      "weeks_on_chart": 30,
+      "new": false
+    },
+    {
+      "song": "Mouth",
+      "artist": "Bush",
+      "this_week": 15,
+      "last_week": 11,
+      "peak_position": 5,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Wash It Away",
+      "artist": "Black Lab",
+      "this_week": 16,
+      "last_week": 18,
+      "peak_position": 16,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Brimful Of Asha",
+      "artist": "Cornershop",
+      "this_week": 17,
+      "last_week": 16,
+      "peak_position": 16,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "The Mummers' Dance",
+      "artist": "Loreena McKennitt",
+      "this_week": 18,
+      "last_week": 21,
+      "peak_position": 18,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Everlong",
+      "artist": "Foo Fighters",
+      "this_week": 19,
+      "last_week": 15,
+      "peak_position": 3,
+      "weeks_on_chart": 28,
+      "new": false
+    },
+    {
+      "song": "Sweet Surrender",
+      "artist": "Sarah McLachlan",
+      "this_week": 20,
+      "last_week": 19,
+      "peak_position": 14,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "All Around The World",
+      "artist": "Oasis",
+      "this_week": 21,
+      "last_week": 24,
+      "peak_position": 21,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Deadweight",
+      "artist": "Beck",
+      "this_week": 22,
+      "last_week": 20,
+      "peak_position": 16,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Beautiful Disaster",
+      "artist": "311",
+      "this_week": 23,
+      "last_week": 25,
+      "peak_position": 23,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Karma Police",
+      "artist": "Radiohead",
+      "this_week": 24,
+      "last_week": 27,
+      "peak_position": 24,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Royal Oil",
+      "artist": "The Mighty Mighty Bosstones",
+      "this_week": 25,
+      "last_week": 23,
+      "peak_position": 22,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "I Will Buy You A New Life",
+      "artist": "Everclear",
+      "this_week": 26,
+      "last_week": null,
+      "peak_position": 26,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Tubthumping",
+      "artist": "Chumbawamba",
+      "this_week": 27,
+      "last_week": 22,
+      "peak_position": 1,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Jane Says",
+      "artist": "Jane's Addiction",
+      "this_week": 28,
+      "last_week": 26,
+      "peak_position": 25,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Sunshower",
+      "artist": "Chris Cornell",
+      "this_week": 29,
+      "last_week": 35,
+      "peak_position": 29,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Brian Wilson",
+      "artist": "Barenaked Ladies",
+      "this_week": 30,
+      "last_week": 30,
+      "peak_position": 30,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "The Oaf (My Luck Is Wasted)",
+      "artist": "Big Wreck",
+      "this_week": 31,
+      "last_week": null,
+      "peak_position": 31,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Going Out Of My Head",
+      "artist": "Fatboy Slim",
+      "this_week": 32,
+      "last_week": 28,
+      "peak_position": 28,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Why Can't We Be Friends",
+      "artist": "Smash Mouth",
+      "this_week": 33,
+      "last_week": 39,
+      "peak_position": 33,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Open Up Your Eyes",
+      "artist": "Tonic",
+      "this_week": 34,
+      "last_week": 33,
+      "peak_position": 22,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Hitchin' A Ride",
+      "artist": "Green Day",
+      "this_week": 35,
+      "last_week": 31,
+      "peak_position": 5,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Goodbye",
+      "artist": "Save Ferris",
+      "this_week": 36,
+      "last_week": 32,
+      "peak_position": 32,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Sugar Cane",
+      "artist": "Spacemonkeyz",
+      "this_week": 37,
+      "last_week": 29,
+      "peak_position": 20,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Happy",
+      "artist": "Sister Hazel",
+      "this_week": 38,
+      "last_week": null,
+      "peak_position": 38,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "She Said",
+      "artist": "Collective Soul",
+      "this_week": 39,
+      "last_week": null,
+      "peak_position": 39,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Sunday Shining",
+      "artist": "Finley Quaye",
+      "this_week": 40,
+      "last_week": null,
+      "peak_position": 40,
+      "weeks_on_chart": 1,
+      "new": true
+    }
+  ]
+}

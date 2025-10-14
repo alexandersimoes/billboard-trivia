@@ -1,0 +1,230 @@
+{
+  "date": "2019-11-02",
+  "data": [
+    {
+      "song": "Truth Hurts",
+      "artist": "Lizzo",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 25,
+      "new": false
+    },
+    {
+      "song": "Panini",
+      "artist": "Lil Nas X",
+      "this_week": 2,
+      "last_week": 4,
+      "peak_position": 2,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "HIGHEST IN THE ROOM",
+      "artist": "Travis Scott",
+      "this_week": 3,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Ran$om",
+      "artist": "Lil Tecca",
+      "this_week": 4,
+      "last_week": 3,
+      "peak_position": 2,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Bandit",
+      "artist": "Juice WRLD & YoungBoy Never Broke Again",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 5,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Goodbyes",
+      "artist": "Post Malone Featuring Young Thug",
+      "this_week": 6,
+      "last_week": 6,
+      "peak_position": 2,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Old Town Road",
+      "artist": "Lil Nas X Featuring Billy Ray Cyrus",
+      "this_week": 7,
+      "last_week": 7,
+      "peak_position": 1,
+      "weeks_on_chart": 33,
+      "new": false
+    },
+    {
+      "song": "On Chill",
+      "artist": "Wale Featuring Jeremih",
+      "this_week": 8,
+      "last_week": 8,
+      "peak_position": 8,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Money In The Grave",
+      "artist": "Drake Featuring Rick Ross",
+      "this_week": 9,
+      "last_week": 9,
+      "peak_position": 2,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Ballin'",
+      "artist": "Mustard & Roddy Ricch",
+      "this_week": 10,
+      "last_week": 11,
+      "peak_position": 10,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Baby",
+      "artist": "Lil Baby & DaBaby",
+      "this_week": 11,
+      "last_week": 10,
+      "peak_position": 9,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Hot",
+      "artist": "Young Thug Featuring Gunna",
+      "this_week": 12,
+      "last_week": 13,
+      "peak_position": 11,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Hot Girl Summer",
+      "artist": "Megan Thee Stallion, Nicki Minaj & Ty Dolla $ign",
+      "this_week": 13,
+      "last_week": 12,
+      "peak_position": 5,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Camelot",
+      "artist": "NLE Choppa",
+      "this_week": 14,
+      "last_week": 15,
+      "peak_position": 14,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "My Type",
+      "artist": "Saweetie",
+      "this_week": 15,
+      "last_week": 14,
+      "peak_position": 8,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Time",
+      "artist": "NF",
+      "this_week": 16,
+      "last_week": 18,
+      "peak_position": 16,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "223's",
+      "artist": "YNW Melly & 9lokknine",
+      "this_week": 17,
+      "last_week": 16,
+      "peak_position": 15,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Lonely Child",
+      "artist": "YoungBoy Never Broke Again",
+      "this_week": 18,
+      "last_week": 17,
+      "peak_position": 17,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "BOP",
+      "artist": "DaBaby",
+      "this_week": 19,
+      "last_week": 20,
+      "peak_position": 9,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Hot Girl Bummer",
+      "artist": "Blackbear",
+      "this_week": 20,
+      "last_week": null,
+      "peak_position": 20,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "VIBEZ",
+      "artist": "DaBaby",
+      "this_week": 21,
+      "last_week": 24,
+      "peak_position": 10,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Make No Sense",
+      "artist": "YoungBoy Never Broke Again",
+      "this_week": 22,
+      "last_week": 23,
+      "peak_position": 22,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Baby Sitter",
+      "artist": "DaBaby Featuring Offset",
+      "this_week": 23,
+      "last_week": null,
+      "peak_position": 23,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Cash Shit",
+      "artist": "Megan Thee Stallion Featuring DaBaby",
+      "this_week": 24,
+      "last_week": 25,
+      "peak_position": 14,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Self Control",
+      "artist": "YoungBoy Never Broke Again",
+      "this_week": 25,
+      "last_week": 19,
+      "peak_position": 19,
+      "weeks_on_chart": 2,
+      "new": false
+    }
+  ]
+}

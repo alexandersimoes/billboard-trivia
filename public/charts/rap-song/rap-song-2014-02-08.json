@@ -1,0 +1,230 @@
+{
+  "date": "2014-02-08",
+  "data": [
+    {
+      "song": "Timber",
+      "artist": "Pitbull Featuring Ke$ha",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "The Monster",
+      "artist": "Eminem Featuring Rihanna",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Show Me",
+      "artist": "Kid Ink Featuring Chris Brown",
+      "this_week": 3,
+      "last_week": 4,
+      "peak_position": 3,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "White Walls",
+      "artist": "Macklemore & Ryan Lewis Featuring ScHoolboy Q & Hollis",
+      "this_week": 4,
+      "last_week": 3,
+      "peak_position": 3,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "My Hitta",
+      "artist": "YG Featuring Jeezy & Rich Homie Quan",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 3,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "23",
+      "artist": "Mike Will Made-It Featuring Miley Cyrus, Wiz Khalifa & Juicy J",
+      "this_week": 6,
+      "last_week": 6,
+      "peak_position": 2,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "All Me",
+      "artist": "Drake Featuring 2 Chainz & Big Sean",
+      "this_week": 7,
+      "last_week": 7,
+      "peak_position": 4,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Rap God",
+      "artist": "Eminem",
+      "this_week": 8,
+      "last_week": 8,
+      "peak_position": 1,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "The Language",
+      "artist": "Drake",
+      "this_week": 9,
+      "last_week": 9,
+      "peak_position": 9,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Man Of The Year",
+      "artist": "ScHoolboy Q",
+      "this_week": 10,
+      "last_week": null,
+      "peak_position": 10,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "She Knows",
+      "artist": "J. Cole Featuring Amber Coffman & The Cults",
+      "this_week": 11,
+      "last_week": 11,
+      "peak_position": 11,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Worst Behavior",
+      "artist": "Drake",
+      "this_week": 12,
+      "last_week": 13,
+      "peak_position": 12,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Survival",
+      "artist": "Eminem",
+      "this_week": 13,
+      "last_week": 14,
+      "peak_position": 4,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "How I Feel",
+      "artist": "Flo Rida",
+      "this_week": 14,
+      "last_week": 12,
+      "peak_position": 12,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Honest",
+      "artist": "Future",
+      "this_week": 15,
+      "last_week": 15,
+      "peak_position": 13,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Break The Bank",
+      "artist": "ScHoolboy Q",
+      "this_week": 16,
+      "last_week": null,
+      "peak_position": 16,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "m.A.A.d City",
+      "artist": "Kendrick Lamar Featuring MC Eiht",
+      "this_week": 17,
+      "last_week": 23,
+      "peak_position": 17,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Bound 2",
+      "artist": "Kanye West",
+      "this_week": 18,
+      "last_week": 17,
+      "peak_position": 3,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "From Time",
+      "artist": "Drake Featuring Jhene Aiko",
+      "this_week": 19,
+      "last_week": 24,
+      "peak_position": 18,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Shhh...",
+      "artist": "Future",
+      "this_week": 20,
+      "last_week": 18,
+      "peak_position": 18,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Old School Love",
+      "artist": "Lupe Fiasco Featuring Ed Sheeran",
+      "this_week": 21,
+      "last_week": 16,
+      "peak_position": 16,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Pound Cake / Paris Morton Music 2",
+      "artist": "Drake Featuring Jay-Z",
+      "this_week": 22,
+      "last_week": 20,
+      "peak_position": 17,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "OG Bobby Johnson",
+      "artist": "QUE.",
+      "this_week": 23,
+      "last_week": null,
+      "peak_position": 23,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "I Know",
+      "artist": "Yo Gotti Featuring Rich Homie Quan",
+      "this_week": 24,
+      "last_week": 21,
+      "peak_position": 21,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "V. 3005",
+      "artist": "Childish Gambino",
+      "this_week": 25,
+      "last_week": 22,
+      "peak_position": 22,
+      "weeks_on_chart": 4,
+      "new": false
+    }
+  ]
+}

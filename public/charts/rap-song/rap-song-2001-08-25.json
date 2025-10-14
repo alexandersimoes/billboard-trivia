@@ -1,0 +1,230 @@
+{
+  "date": "2001-08-25",
+  "data": [
+    {
+      "song": "My Projects",
+      "artist": "Coo Coo Cal",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Raise Up",
+      "artist": "Petey Pablo",
+      "this_week": 2,
+      "last_week": 3,
+      "peak_position": 2,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Purple Hills",
+      "artist": "D12",
+      "this_week": 3,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Big Poppa/Warning",
+      "artist": "The Notorious B.I.G.",
+      "this_week": 4,
+      "last_week": 7,
+      "peak_position": 1,
+      "weeks_on_chart": 59,
+      "new": false
+    },
+    {
+      "song": "Let's Get It",
+      "artist": "Three The... G. Dep, P. Diddy & Black Rob",
+      "this_week": 5,
+      "last_week": null,
+      "peak_position": 5,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "We Gonna Make It",
+      "artist": "Jadakiss Featuring Styles & Eve",
+      "this_week": 6,
+      "last_week": null,
+      "peak_position": 6,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "My Baby",
+      "artist": "Lil' Romeo",
+      "this_week": 7,
+      "last_week": 4,
+      "peak_position": 1,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "One More Chance/Stay With Me",
+      "artist": "The Notorious B.I.G.",
+      "this_week": 8,
+      "last_week": 13,
+      "peak_position": 1,
+      "weeks_on_chart": 58,
+      "new": false
+    },
+    {
+      "song": "Oochie Wally",
+      "artist": "QB Finest Featuring Nas & Bravehearts",
+      "this_week": 9,
+      "last_week": 11,
+      "peak_position": 2,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Let's Be Friends",
+      "artist": "TaTa + Brando Featuring Larry Poteat Of The Donz",
+      "this_week": 10,
+      "last_week": 5,
+      "peak_position": 5,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Beanie (Mack B****)",
+      "artist": "Beanie Sigel",
+      "this_week": 11,
+      "last_week": 16,
+      "peak_position": 11,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "None Tonight",
+      "artist": "Lil' Zane",
+      "this_week": 12,
+      "last_week": 10,
+      "peak_position": 2,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "What It Is",
+      "artist": "Violator Featuring Busta Rhymes",
+      "this_week": 13,
+      "last_week": 8,
+      "peak_position": 4,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Let's Get Dirty (I Can't Get In Da Club)",
+      "artist": "Redman Featuring DJ Kool",
+      "this_week": 14,
+      "last_week": 17,
+      "peak_position": 9,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "All My Thugs",
+      "artist": "Young Phantom",
+      "this_week": 15,
+      "last_week": 6,
+      "peak_position": 6,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Call Me E.S.",
+      "artist": "7L & Esoteric",
+      "this_week": 16,
+      "last_week": 12,
+      "peak_position": 3,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Shook Ones Part II",
+      "artist": "Mobb Deep",
+      "this_week": 17,
+      "last_week": null,
+      "peak_position": 7,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Set It Off",
+      "artist": "Juvenile",
+      "this_week": 18,
+      "last_week": null,
+      "peak_position": 18,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Let's Git Doe",
+      "artist": "The Beatnuts Featuring Fatman Scoop",
+      "this_week": 19,
+      "last_week": 21,
+      "peak_position": 19,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Best U Can",
+      "artist": "Tha Liks",
+      "this_week": 20,
+      "last_week": 14,
+      "peak_position": 14,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "50 Playaz Deep",
+      "artist": "Drunken Master Featuring Lola Damone",
+      "this_week": 21,
+      "last_week": null,
+      "peak_position": 21,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Let Me Blow Ya Mind",
+      "artist": "Eve Featuring Gwen Stefani",
+      "this_week": 22,
+      "last_week": null,
+      "peak_position": 10,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Please Don't Mind",
+      "artist": "Philly's Most Wanted Featuring Andre Wilson",
+      "this_week": 23,
+      "last_week": null,
+      "peak_position": 23,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "No Escapin' This",
+      "artist": "The Beatnuts",
+      "this_week": 24,
+      "last_week": null,
+      "peak_position": 12,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Live",
+      "artist": "Joey Chavez Presents The Original Structure Featuring Iriscience",
+      "this_week": 25,
+      "last_week": null,
+      "peak_position": 25,
+      "weeks_on_chart": 4,
+      "new": false
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "date": "2016-11-19",
+  "data": [
+    {
+      "song": "Broccoli",
+      "artist": "D.R.A.M. Featuring Lil Yachty",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Juju On That Beat (TZ Anthem)",
+      "artist": "Zay Hilfigerrr & Zayion McCall",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Black Beatles",
+      "artist": "Rae Sremmurd Featuring Gucci Mane",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 3,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Fake Love",
+      "artist": "Drake",
+      "this_week": 4,
+      "last_week": 5,
+      "peak_position": 4,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "OOOUUU",
+      "artist": "Young M.A",
+      "this_week": 5,
+      "last_week": 4,
+      "peak_position": 3,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Caroline",
+      "artist": "Amine",
+      "this_week": 6,
+      "last_week": 6,
+      "peak_position": 6,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Sneakin'",
+      "artist": "Drake Featuring 21 Savage",
+      "this_week": 7,
+      "last_week": 10,
+      "peak_position": 7,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Sucker For Pain",
+      "artist": "Lil Wayne, Wiz Khalifa & Imagine Dragons With Logic & Ty Dolla $ign Feat. X Ambassadors",
+      "this_week": 8,
+      "last_week": 7,
+      "peak_position": 1,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Chill Bill",
+      "artist": "Rob $tone Featuring J. Davi$ & Spooks",
+      "this_week": 9,
+      "last_week": 11,
+      "peak_position": 7,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Tiimmy Turner",
+      "artist": "Desiigner",
+      "this_week": 10,
+      "last_week": 9,
+      "peak_position": 6,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Do You Mind",
+      "artist": "DJ Khaled Featuring Nicki Minaj, Chris Brown, August Alsina, Jeremih, Future & Rick Ross",
+      "this_week": 11,
+      "last_week": 14,
+      "peak_position": 11,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "No Problem",
+      "artist": "Chance the Rapper Featuring Lil Wayne & 2 Chainz",
+      "this_week": 12,
+      "last_week": 12,
+      "peak_position": 10,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "X",
+      "artist": "21 Savage & Metro Boomin Featuring Future",
+      "this_week": 13,
+      "last_week": 13,
+      "peak_position": 13,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Litty",
+      "artist": "Meek Mill Featuring Tory Lanez",
+      "this_week": 14,
+      "last_week": null,
+      "peak_position": 14,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "1 Night",
+      "artist": "Lil Yachty",
+      "this_week": 15,
+      "last_week": 15,
+      "peak_position": 13,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Pick Up The Phone",
+      "artist": "Young Thug And Travis Scott Featuring Quavo",
+      "this_week": 16,
+      "last_week": 16,
+      "peak_position": 7,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Money Longer",
+      "artist": "Lil Uzi Vert",
+      "this_week": 17,
+      "last_week": 18,
+      "peak_position": 9,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Too Much Sauce",
+      "artist": "DJ Esco Featuring Future & Lil Uzi Vert",
+      "this_week": 18,
+      "last_week": 19,
+      "peak_position": 17,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "For Free",
+      "artist": "DJ Khaled Featuring Drake",
+      "this_week": 19,
+      "last_week": 17,
+      "peak_position": 2,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "You Was Right",
+      "artist": "Lil Uzi Vert",
+      "this_week": 20,
+      "last_week": 20,
+      "peak_position": 19,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Froze",
+      "artist": "Meek Mill Featuring Lil Uzi Vert & Nicki Minaj",
+      "this_week": 21,
+      "last_week": null,
+      "peak_position": 21,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Offended",
+      "artist": "Meek Mill Featuring Young Thug & 21 Savage",
+      "this_week": 22,
+      "last_week": null,
+      "peak_position": 22,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "No Heart",
+      "artist": "21 Savage & Metro Boomin",
+      "this_week": 23,
+      "last_week": 24,
+      "peak_position": 23,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Two Birds, One Stone",
+      "artist": "Drake",
+      "this_week": 24,
+      "last_week": null,
+      "peak_position": 24,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "On The Regular",
+      "artist": "Meek Mill",
+      "this_week": 25,
+      "last_week": null,
+      "peak_position": 25,
+      "weeks_on_chart": 1,
+      "new": true
+    }
+  ]
+}

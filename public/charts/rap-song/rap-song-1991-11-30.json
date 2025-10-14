@@ -1,0 +1,275 @@
+{
+  "date": "1991-11-30",
+  "data": [
+    {
+      "song": "Check The Rhime",
+      "artist": "A Tribe Called Quest",
+      "this_week": 1,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Ain't Gonna Hurt Nobody",
+      "artist": "Kid 'N Play",
+      "this_week": 2,
+      "last_week": 4,
+      "peak_position": 2,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Can't Truss It",
+      "artist": "Public Enemy",
+      "this_week": 3,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "When In Love",
+      "artist": "MC Lyte",
+      "this_week": 4,
+      "last_week": 3,
+      "peak_position": 3,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Pop That Coochie",
+      "artist": "The 2 Live Crew",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 5,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Blue Cheese",
+      "artist": "UMC's",
+      "this_week": 6,
+      "last_week": 7,
+      "peak_position": 6,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Step In The Arena",
+      "artist": "Gang Starr",
+      "this_week": 7,
+      "last_week": 8,
+      "peak_position": 7,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Mind Playing Tricks On Me",
+      "artist": "Geto Boys",
+      "this_week": 8,
+      "last_week": 6,
+      "peak_position": 1,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "The Symphony Pt. II",
+      "artist": "Marley Marl",
+      "this_week": 9,
+      "last_week": 10,
+      "peak_position": 9,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "The Phuncky Feel One/How I Could Just Kill A Man",
+      "artist": "Cypress Hill",
+      "this_week": 10,
+      "last_week": 11,
+      "peak_position": 10,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Just The Two Of Us",
+      "artist": "Chubb Rock",
+      "this_week": 11,
+      "last_week": 15,
+      "peak_position": 11,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Kiss You Back",
+      "artist": "Digital Underground",
+      "this_week": 12,
+      "last_week": 14,
+      "peak_position": 12,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Glory",
+      "artist": "Yomo & Maulkie",
+      "this_week": 13,
+      "last_week": 9,
+      "peak_position": 7,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Is It Good To You",
+      "artist": "Heavy D & The Boyz",
+      "this_week": 14,
+      "last_week": 13,
+      "peak_position": 13,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Lil Trig",
+      "artist": "Hen-Gee & Evil-E",
+      "this_week": 15,
+      "last_week": 19,
+      "peak_position": 15,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Straight Checkn' Em",
+      "artist": "Compton's Most Wanted",
+      "this_week": 16,
+      "last_week": 18,
+      "peak_position": 16,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "O.P.P.",
+      "artist": "Naughty by Nature",
+      "this_week": 17,
+      "last_week": 17,
+      "peak_position": 1,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "1-800-Sky-Talk PIN #110279",
+      "artist": "Candyman",
+      "this_week": 18,
+      "last_week": 22,
+      "peak_position": 18,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "I'll Be There For You",
+      "artist": "Jibri Wise One",
+      "this_week": 19,
+      "last_week": 26,
+      "peak_position": 19,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Flavor Of The Month",
+      "artist": "Black Sheep",
+      "this_week": 20,
+      "last_week": 16,
+      "peak_position": 2,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Shakiyla (JRH)",
+      "artist": "Poor Righteous Teachers",
+      "this_week": 21,
+      "last_week": 24,
+      "peak_position": 21,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "I Wanna B Ure Lover",
+      "artist": "F.S. Effect",
+      "this_week": 22,
+      "last_week": 12,
+      "peak_position": 12,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "2 Legit 2 Quit",
+      "artist": "M.C. Hammer",
+      "this_week": 23,
+      "last_week": null,
+      "peak_position": 23,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Let's Talk About Sex",
+      "artist": "Salt-N-Pepa",
+      "this_week": 24,
+      "last_week": 20,
+      "peak_position": 12,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Portrait Of The Artist As A Hood",
+      "artist": "3rd Bass",
+      "this_week": 25,
+      "last_week": null,
+      "peak_position": 25,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Be A Father To Your Child",
+      "artist": "ED O.G & DA Bulldogs",
+      "this_week": 26,
+      "last_week": 28,
+      "peak_position": 26,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Wildside",
+      "artist": "Marky Mark & The Funky Bunch",
+      "this_week": 27,
+      "last_week": null,
+      "peak_position": 27,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Groove With It",
+      "artist": "Big Daddy Kane",
+      "this_week": 28,
+      "last_week": null,
+      "peak_position": 28,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "25 Ta Life",
+      "artist": "D-Nice",
+      "this_week": 29,
+      "last_week": 23,
+      "peak_position": 23,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Hip Hop Junkies",
+      "artist": "Nice & Smooth",
+      "this_week": 30,
+      "last_week": 21,
+      "peak_position": 5,
+      "weeks_on_chart": 14,
+      "new": false
+    }
+  ]
+}

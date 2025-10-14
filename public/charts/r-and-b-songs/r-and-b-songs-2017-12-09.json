@@ -1,0 +1,230 @@
+{
+  "date": "2017-12-09",
+  "data": [
+    {
+      "song": "Young Dumb & Broke",
+      "artist": "Khalid",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 30,
+      "new": false
+    },
+    {
+      "song": "The Weekend",
+      "artist": "SZA",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Pills And Automobiles",
+      "artist": "Chris Brown Featuring Yo Gotti, A Boogie wit da Hoodie & Kodak Black",
+      "this_week": 3,
+      "last_week": 4,
+      "peak_position": 3,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Wild Thoughts",
+      "artist": "DJ Khaled Featuring Rihanna & Bryson Tiller",
+      "this_week": 4,
+      "last_week": 5,
+      "peak_position": 1,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Sky Walker",
+      "artist": "Miguel Featuring Travis Scott",
+      "this_week": 5,
+      "last_week": 6,
+      "peak_position": 5,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "F**k Love",
+      "artist": "XXXTENTACION Featuring Trippie Redd",
+      "this_week": 6,
+      "last_week": 7,
+      "peak_position": 6,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "When We",
+      "artist": "Tank",
+      "this_week": 7,
+      "last_week": 9,
+      "peak_position": 7,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Questions",
+      "artist": "Chris Brown",
+      "this_week": 8,
+      "last_week": 8,
+      "peak_position": 8,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Faking It",
+      "artist": "Calvin Harris Featuring Kehlani & Lil Yachty",
+      "this_week": 9,
+      "last_week": 11,
+      "peak_position": 9,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "B.E.D.",
+      "artist": "Jacquees",
+      "this_week": 10,
+      "last_week": 10,
+      "peak_position": 9,
+      "weeks_on_chart": 23,
+      "new": false
+    },
+    {
+      "song": "Die For You",
+      "artist": "The Weeknd & Ariana Grande",
+      "this_week": 11,
+      "last_week": 12,
+      "peak_position": 10,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "While We're Young",
+      "artist": "Jhene Aiko",
+      "this_week": 12,
+      "last_week": 13,
+      "peak_position": 12,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Get You",
+      "artist": "Daniel Caesar Featuring Kali Uchis",
+      "this_week": 13,
+      "last_week": 15,
+      "peak_position": 13,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "idfc",
+      "artist": "Blackbear",
+      "this_week": 14,
+      "last_week": 16,
+      "peak_position": 14,
+      "weeks_on_chart": 38,
+      "new": false
+    },
+    {
+      "song": "Feels",
+      "artist": "Calvin Harris Featuring Pharrell Williams, Katy Perry & Big Sean",
+      "this_week": 15,
+      "last_week": 14,
+      "peak_position": 3,
+      "weeks_on_chart": 23,
+      "new": false
+    },
+    {
+      "song": "I Sip",
+      "artist": "Tory Lanez",
+      "this_week": 16,
+      "last_week": null,
+      "peak_position": 16,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Tempo",
+      "artist": "Chris Brown",
+      "this_week": 17,
+      "last_week": 17,
+      "peak_position": 17,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "At The Club",
+      "artist": "Jacquees X DeJ Loaf",
+      "this_week": 18,
+      "last_week": null,
+      "peak_position": 18,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Insecure",
+      "artist": "Jazmine Sullivan X Bryson Tiller",
+      "this_week": 19,
+      "last_week": 20,
+      "peak_position": 19,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Broken Clocks",
+      "artist": "SZA",
+      "this_week": 20,
+      "last_week": 19,
+      "peak_position": 19,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Wife You Up",
+      "artist": "Russ",
+      "this_week": 21,
+      "last_week": 21,
+      "peak_position": 21,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Best Part",
+      "artist": "Daniel Caesar Featuring H.E.R.",
+      "this_week": 22,
+      "last_week": null,
+      "peak_position": 22,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Run Me Dry",
+      "artist": "Bryson Tiller",
+      "this_week": 23,
+      "last_week": 22,
+      "peak_position": 11,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Before I Do",
+      "artist": "Sevyn Streeter",
+      "this_week": 24,
+      "last_week": 23,
+      "peak_position": 19,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Shooters",
+      "artist": "Tory Lanez",
+      "this_week": 25,
+      "last_week": 18,
+      "peak_position": 18,
+      "weeks_on_chart": 5,
+      "new": false
+    }
+  ]
+}

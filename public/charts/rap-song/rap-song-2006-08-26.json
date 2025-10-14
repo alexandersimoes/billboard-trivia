@@ -1,0 +1,230 @@
+{
+  "date": "2006-08-26",
+  "data": [
+    {
+      "song": "Shoulder Lean",
+      "artist": "Young Dro Featuring T.I.",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Pullin' Me Back",
+      "artist": "Chingy Featuring Tyrese",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "(When You Gonna) Give It Up To Me",
+      "artist": "Sean Paul Featuring Keyshia Cole",
+      "this_week": 3,
+      "last_week": 5,
+      "peak_position": 3,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "U And Dat",
+      "artist": "E-40 Featuring T-Pain & Kandi Girl",
+      "this_week": 4,
+      "last_week": 6,
+      "peak_position": 4,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Snap Yo Fingers",
+      "artist": "Lil Jon Featuring E-40 & Sean Paul Of The YoungBloodZ",
+      "this_week": 5,
+      "last_week": 4,
+      "peak_position": 2,
+      "weeks_on_chart": 26,
+      "new": false
+    },
+    {
+      "song": "So What",
+      "artist": "Field Mob Featuring Ciara",
+      "this_week": 6,
+      "last_week": 7,
+      "peak_position": 3,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "I Know You See It",
+      "artist": "Yung Joc Featuring Brandy 'Ms. B.' Hambrick",
+      "this_week": 7,
+      "last_week": 8,
+      "peak_position": 7,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "It's Goin' Down",
+      "artist": "Yung Joc",
+      "this_week": 8,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Why You Wanna",
+      "artist": "T.I.",
+      "this_week": 9,
+      "last_week": 9,
+      "peak_position": 4,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Money Maker",
+      "artist": "Ludacris Featuring Pharrell",
+      "this_week": 10,
+      "last_week": 10,
+      "peak_position": 10,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Ridin'",
+      "artist": "Chamillionaire Featuring Krayzie Bone",
+      "this_week": 11,
+      "last_week": 13,
+      "peak_position": 2,
+      "weeks_on_chart": 25,
+      "new": false
+    },
+    {
+      "song": "Feels So Good",
+      "artist": "Remy Ma Featuring Ne-Yo",
+      "this_week": 12,
+      "last_week": 11,
+      "peak_position": 11,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "What You Know",
+      "artist": "T.I.",
+      "this_week": 13,
+      "last_week": 12,
+      "peak_position": 1,
+      "weeks_on_chart": 26,
+      "new": false
+    },
+    {
+      "song": "Stuntin' Like My Daddy",
+      "artist": "Birdman & Lil Wayne",
+      "this_week": 14,
+      "last_week": 15,
+      "peak_position": 14,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "I Love My B****",
+      "artist": "Busta Rhymes Featuring will.i.am & Kelis",
+      "this_week": 15,
+      "last_week": 14,
+      "peak_position": 8,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Chain Hang Low",
+      "artist": "Jibbs",
+      "this_week": 16,
+      "last_week": 19,
+      "peak_position": 16,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Ghetto Story Chapter 2",
+      "artist": "Cham Featuring Alicia Keys",
+      "this_week": 17,
+      "last_week": 17,
+      "peak_position": 15,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Lean Wit It, Rock Wit It",
+      "artist": "Dem Franchize Boyz Featuring Lil Peanut & Charlay",
+      "this_week": 18,
+      "last_week": 16,
+      "peak_position": 1,
+      "weeks_on_chart": 35,
+      "new": false
+    },
+    {
+      "song": "Come To Me",
+      "artist": "Diddy Featuring Nicole Scherzinger",
+      "this_week": 19,
+      "last_week": 20,
+      "peak_position": 19,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Hands Up",
+      "artist": "Lloyd Banks Featuring 50 Cent",
+      "this_week": 20,
+      "last_week": 25,
+      "peak_position": 20,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Peanut Butter & Jelly",
+      "artist": "Cadillac Don & J-Money",
+      "this_week": 21,
+      "last_week": 23,
+      "peak_position": 20,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Vans",
+      "artist": "The Pack",
+      "this_week": 22,
+      "last_week": 24,
+      "peak_position": 19,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Dutty Wine",
+      "artist": "Tony Matterhorn",
+      "this_week": 23,
+      "last_week": 21,
+      "peak_position": 21,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Walk It Out",
+      "artist": "Unk",
+      "this_week": 24,
+      "last_week": null,
+      "peak_position": 24,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "It's Okay (One Blood)",
+      "artist": "The Game Featuring Junior Reid",
+      "this_week": 25,
+      "last_week": null,
+      "peak_position": 25,
+      "weeks_on_chart": 1,
+      "new": true
+    }
+  ]
+}

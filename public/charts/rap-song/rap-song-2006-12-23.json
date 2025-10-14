@@ -1,0 +1,230 @@
+{
+  "date": "2006-12-23",
+  "data": [
+    {
+      "song": "Shortie Like Mine",
+      "artist": "Bow Wow Featuring Chris Brown & Johnta Austin",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "We Fly High",
+      "artist": "Jim Jones",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Walk It Out",
+      "artist": "Unk",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 2,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "That's That",
+      "artist": "Snoop Dogg Featuring R. Kelly",
+      "this_week": 4,
+      "last_week": 7,
+      "peak_position": 4,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Money Maker",
+      "artist": "Ludacris Featuring Pharrell",
+      "this_week": 5,
+      "last_week": 4,
+      "peak_position": 1,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Money In The Bank",
+      "artist": "Lil Scrappy Featuring Young Buck",
+      "this_week": 6,
+      "last_week": 5,
+      "peak_position": 5,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Make It Rain",
+      "artist": "Fat Joe Featuring Lil Wayne",
+      "this_week": 7,
+      "last_week": 9,
+      "peak_position": 7,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Runaway Love",
+      "artist": "Ludacris Featuring Mary J. Blige",
+      "this_week": 8,
+      "last_week": 8,
+      "peak_position": 8,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Stuntin' Like My Daddy",
+      "artist": "Birdman & Lil Wayne",
+      "this_week": 9,
+      "last_week": 6,
+      "peak_position": 5,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "I Luv It",
+      "artist": "Young Jeezy",
+      "this_week": 10,
+      "last_week": 10,
+      "peak_position": 10,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Show Me What You Got",
+      "artist": "Jay-Z",
+      "this_week": 11,
+      "last_week": 11,
+      "peak_position": 4,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Lost One",
+      "artist": "Jay-Z Featuring Chrisette Michele",
+      "this_week": 12,
+      "last_week": 22,
+      "peak_position": 12,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Come To Me",
+      "artist": "Diddy Featuring Nicole Scherzinger",
+      "this_week": 13,
+      "last_week": 12,
+      "peak_position": 3,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Top Back",
+      "artist": "T.I.",
+      "this_week": 14,
+      "last_week": 15,
+      "peak_position": 14,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Let's Ride",
+      "artist": "The Game",
+      "this_week": 15,
+      "last_week": 14,
+      "peak_position": 14,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Tell Me",
+      "artist": "Diddy Featuring Christina Aguilera",
+      "this_week": 16,
+      "last_week": 17,
+      "peak_position": 16,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Zoom",
+      "artist": "Lil' Boosie Featuring Yung Joc",
+      "this_week": 17,
+      "last_week": 19,
+      "peak_position": 17,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Throw Some D's",
+      "artist": "Rich Boy Featuring Polow Da Don",
+      "this_week": 18,
+      "last_week": 23,
+      "peak_position": 18,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "I Know You See It",
+      "artist": "Yung Joc Featuring Brandy 'Ms. B.' Hambrick",
+      "this_week": 19,
+      "last_week": 18,
+      "peak_position": 2,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Dem Jeans",
+      "artist": "Chingy Featuring Jermaine Dupri",
+      "this_week": 20,
+      "last_week": 21,
+      "peak_position": 19,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Push It",
+      "artist": "Rick Ross",
+      "this_week": 21,
+      "last_week": 16,
+      "peak_position": 10,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Ay Chico (Lengua Afuera)",
+      "artist": "Pitbull",
+      "this_week": 22,
+      "last_week": 24,
+      "peak_position": 22,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Weh Dem A Do",
+      "artist": "Mavado",
+      "this_week": 23,
+      "last_week": 20,
+      "peak_position": 20,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "The Way I Live",
+      "artist": "Baby Boy da Prince Featuring Lil Boosie",
+      "this_week": 24,
+      "last_week": null,
+      "peak_position": 24,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Last Night",
+      "artist": "Diddy Featuring Keyshia Cole",
+      "this_week": 25,
+      "last_week": null,
+      "peak_position": 25,
+      "weeks_on_chart": 1,
+      "new": true
+    }
+  ]
+}

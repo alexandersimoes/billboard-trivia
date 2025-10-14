@@ -1,0 +1,230 @@
+{
+  "date": "2002-01-26",
+  "data": [
+    {
+      "song": "Round And Round",
+      "artist": "Jonell & Method Man",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "That Was Then",
+      "artist": "Roy Jones, Jr. Featuring Dave Hollister, Perion & Hahz The Rippa",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Bunny Hop",
+      "artist": "Da Entourage",
+      "this_week": 3,
+      "last_week": null,
+      "peak_position": 3,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Dansin Wit Wolvez",
+      "artist": "Strik 9ine",
+      "this_week": 4,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Ain't Nobody (We Got It Locked!)",
+      "artist": "The Rawlo Boys Featuring T.O.R.O. & Lil' Smoke",
+      "this_week": 5,
+      "last_week": 8,
+      "peak_position": 4,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Think Big",
+      "artist": "Crimewave",
+      "this_week": 6,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Jump Up In The Air",
+      "artist": "Original P Introducing Hyped Up Westbound Soljaz",
+      "this_week": 7,
+      "last_week": 6,
+      "peak_position": 2,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Buster",
+      "artist": "Dennis Da Menace",
+      "this_week": 8,
+      "last_week": 19,
+      "peak_position": 2,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Ground Zero (In Our Hearts You Will Remain)",
+      "artist": "Cash & Computa",
+      "this_week": 9,
+      "last_week": 5,
+      "peak_position": 2,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Got Ur Self A...",
+      "artist": "Nas",
+      "this_week": 10,
+      "last_week": 13,
+      "peak_position": 2,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "2-Way",
+      "artist": "Rayvon Featuring Shaggy, Ricardo \"Rik Rok\" Ducent, Brian & Tony Gold",
+      "this_week": 11,
+      "last_week": 16,
+      "peak_position": 11,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Can I Get That?!!?",
+      "artist": "Bear Witnez!",
+      "this_week": 12,
+      "last_week": 7,
+      "peak_position": 4,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Playa Playa (Playing The Game Right)",
+      "artist": "Minott Featuring Kurupted Seed",
+      "this_week": 13,
+      "last_week": 10,
+      "peak_position": 8,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Always On Time",
+      "artist": "Ja Rule Featuring Ashanti",
+      "this_week": 14,
+      "last_week": 15,
+      "peak_position": 4,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Special Delivery",
+      "artist": "G. Dep",
+      "this_week": 15,
+      "last_week": null,
+      "peak_position": 3,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Bouncin' Back (Bumpin' Me Against The Wall)",
+      "artist": "Mystikal",
+      "this_week": 16,
+      "last_week": 21,
+      "peak_position": 7,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Pimps/Players",
+      "artist": "Skip Featuring Corey C",
+      "this_week": 17,
+      "last_week": 20,
+      "peak_position": 17,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Young'n (Holla Back)",
+      "artist": "Fabolous",
+      "this_week": 18,
+      "last_week": null,
+      "peak_position": 8,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "We Thuggin'",
+      "artist": "Fat Joe Featuring R. Kelly",
+      "this_week": 19,
+      "last_week": 14,
+      "peak_position": 7,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Burn",
+      "artist": "Mobb Deep Featuring Vita & Noyd",
+      "this_week": 20,
+      "last_week": 25,
+      "peak_position": 14,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Uzi (Pinky Ring)",
+      "artist": "Wu-Tang Clan",
+      "this_week": 21,
+      "last_week": null,
+      "peak_position": 21,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Fatty Girl",
+      "artist": "Ludacris, LL Cool J & Keith Murray",
+      "this_week": 22,
+      "last_week": 9,
+      "peak_position": 6,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Part II",
+      "artist": "Method Man & Redman",
+      "this_week": 23,
+      "last_week": 23,
+      "peak_position": 5,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Lights, Camera, Action!",
+      "artist": "Mr. Cheeks",
+      "this_week": 24,
+      "last_week": 17,
+      "peak_position": 10,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Gotta Have It",
+      "artist": "Chocolate Bandit",
+      "this_week": 25,
+      "last_week": 12,
+      "peak_position": 8,
+      "weeks_on_chart": 12,
+      "new": false
+    }
+  ]
+}

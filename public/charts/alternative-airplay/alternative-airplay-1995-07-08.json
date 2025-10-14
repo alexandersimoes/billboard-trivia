@@ -1,0 +1,365 @@
+{
+  "date": "1995-07-08",
+  "data": [
+    {
+      "song": "Hold Me, Thrill Me, Kiss Me, Kill Me",
+      "artist": "U2",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "You Oughta Know",
+      "artist": "Alanis Morissette",
+      "this_week": 2,
+      "last_week": 7,
+      "peak_position": 2,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "December",
+      "artist": "Collective Soul",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 2,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "All Over You",
+      "artist": "Live",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Misery",
+      "artist": "Soul Asylum",
+      "this_week": 5,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Molly",
+      "artist": "Sponge",
+      "this_week": 6,
+      "last_week": 6,
+      "peak_position": 6,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Little Things",
+      "artist": "Bush",
+      "this_week": 7,
+      "last_week": 5,
+      "peak_position": 4,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Say It Ain't So",
+      "artist": "Weezer",
+      "this_week": 8,
+      "last_week": 10,
+      "peak_position": 8,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "More Human Than Human",
+      "artist": "White Zombie",
+      "this_week": 9,
+      "last_week": 8,
+      "peak_position": 7,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Good",
+      "artist": "Better Than Ezra",
+      "this_week": 10,
+      "last_week": 9,
+      "peak_position": 1,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Hey Man Nice Shot",
+      "artist": "Filter",
+      "this_week": 11,
+      "last_week": 11,
+      "peak_position": 11,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "This Is A Call",
+      "artist": "Foo Fighters",
+      "this_week": 12,
+      "last_week": null,
+      "peak_position": 12,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Stars",
+      "artist": "Hum",
+      "this_week": 13,
+      "last_week": 13,
+      "peak_position": 13,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "I Got A Girl",
+      "artist": "Tripping Daisy",
+      "this_week": 14,
+      "last_week": 20,
+      "peak_position": 14,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Waydown",
+      "artist": "The Catherine Wheel",
+      "this_week": 15,
+      "last_week": 15,
+      "peak_position": 15,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Carnival",
+      "artist": "Natalie Merchant",
+      "this_week": 16,
+      "last_week": 16,
+      "peak_position": 16,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Wynona's Big Brown Beaver",
+      "artist": "Primus",
+      "this_week": 17,
+      "last_week": 19,
+      "peak_position": 17,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Ridiculous Thoughts",
+      "artist": "The Cranberries",
+      "this_week": 18,
+      "last_week": 14,
+      "peak_position": 14,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Smash It Up",
+      "artist": "The Offspring",
+      "this_week": 19,
+      "last_week": 24,
+      "peak_position": 19,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "She",
+      "artist": "Green Day",
+      "this_week": 20,
+      "last_week": 12,
+      "peak_position": 5,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Tomorrow",
+      "artist": "Silverchair",
+      "this_week": 21,
+      "last_week": 26,
+      "peak_position": 21,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Better Than Nothing",
+      "artist": "Jennifer Trynin",
+      "this_week": 22,
+      "last_week": 27,
+      "peak_position": 22,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Sick Of Myself",
+      "artist": "Matthew Sweet",
+      "this_week": 23,
+      "last_week": 18,
+      "peak_position": 2,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Connection",
+      "artist": "Elastica",
+      "this_week": 24,
+      "last_week": 17,
+      "peak_position": 2,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Run-Around",
+      "artist": "Blues Traveler",
+      "this_week": 25,
+      "last_week": 22,
+      "peak_position": 14,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Vow",
+      "artist": "Garbage",
+      "this_week": 26,
+      "last_week": 28,
+      "peak_position": 26,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Hurt",
+      "artist": "Nine Inch Nails",
+      "this_week": 27,
+      "last_week": 23,
+      "peak_position": 8,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Only Wanna Be With You",
+      "artist": "Hootie & The Blowfish",
+      "this_week": 28,
+      "last_week": 31,
+      "peak_position": 28,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "In The Blood",
+      "artist": "Better Than Ezra",
+      "this_week": 29,
+      "last_week": 32,
+      "peak_position": 29,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Fake Plastic Trees",
+      "artist": "Radiohead",
+      "this_week": 30,
+      "last_week": 21,
+      "peak_position": 11,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "River Of Deceit",
+      "artist": "Mad Season",
+      "this_week": 31,
+      "last_week": 30,
+      "peak_position": 9,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Stutter",
+      "artist": "Elastica",
+      "this_week": 32,
+      "last_week": null,
+      "peak_position": 32,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Ants Marching",
+      "artist": "Dave Matthews Band",
+      "this_week": 33,
+      "last_week": 38,
+      "peak_position": 33,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "I'll Be There For You",
+      "artist": "The Rembrandts",
+      "this_week": 34,
+      "last_week": 25,
+      "peak_position": 23,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "What Would You Say",
+      "artist": "Dave Matthews Band",
+      "this_week": 35,
+      "last_week": 34,
+      "peak_position": 11,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "I Kissed A Girl",
+      "artist": "Jill Sobule",
+      "this_week": 36,
+      "last_week": 29,
+      "peak_position": 20,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Lightning Crashes",
+      "artist": "Live",
+      "this_week": 37,
+      "last_week": 33,
+      "peak_position": 1,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Heroin Girl",
+      "artist": "Everclear",
+      "this_week": 38,
+      "last_week": 40,
+      "peak_position": 38,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Strange Currencies",
+      "artist": "R.E.M.",
+      "this_week": 39,
+      "last_week": 35,
+      "peak_position": 14,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Immortality",
+      "artist": "Pearl Jam",
+      "this_week": 40,
+      "last_week": null,
+      "peak_position": 40,
+      "weeks_on_chart": 1,
+      "new": true
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "date": "2017-10-28",
+  "data": [
+    {
+      "song": "Rockstar",
+      "artist": "Post Malone Featuring 21 Savage",
+      "this_week": 1,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Bodak Yellow (Money Moves)",
+      "artist": "Cardi B",
+      "this_week": 2,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "1-800-273-8255",
+      "artist": "Logic Featuring Alessia Cara & Khalid",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 2,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Unforgettable",
+      "artist": "French Montana Featuring Swae Lee",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 1,
+      "weeks_on_chart": 26,
+      "new": false
+    },
+    {
+      "song": "Bank Account",
+      "artist": "21 Savage",
+      "this_week": 5,
+      "last_week": 6,
+      "peak_position": 4,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Rake It Up",
+      "artist": "Yo Gotti Featuring Nicki Minaj",
+      "this_week": 6,
+      "last_week": 5,
+      "peak_position": 3,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "I Get The Bag",
+      "artist": "Gucci Mane Featuring Migos",
+      "this_week": 7,
+      "last_week": 8,
+      "peak_position": 7,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "I Fall Apart",
+      "artist": "Post Malone",
+      "this_week": 8,
+      "last_week": 9,
+      "peak_position": 8,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Gucci Gang",
+      "artist": "Lil Pump",
+      "this_week": 9,
+      "last_week": 12,
+      "peak_position": 9,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Crew",
+      "artist": "GoldLink Featuring Brent Faiyaz & Shy Glizzy",
+      "this_week": 10,
+      "last_week": 11,
+      "peak_position": 10,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Loyalty.",
+      "artist": "Kendrick Lamar Featuring Rihanna",
+      "this_week": 11,
+      "last_week": 10,
+      "peak_position": 6,
+      "weeks_on_chart": 26,
+      "new": false
+    },
+    {
+      "song": "No Limit",
+      "artist": "G-Eazy Featuring A$AP Rocky & Cardi B",
+      "this_week": 12,
+      "last_week": 19,
+      "peak_position": 12,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Butterfly Effect",
+      "artist": "Travis Scott",
+      "this_week": 13,
+      "last_week": 14,
+      "peak_position": 13,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "I'm The One",
+      "artist": "DJ Khaled Featuring Justin Bieber, Quavo, Chance the Rapper & Lil Wayne",
+      "this_week": 14,
+      "last_week": 13,
+      "peak_position": 1,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "The Race",
+      "artist": "Tay-K",
+      "this_week": 15,
+      "last_week": 18,
+      "peak_position": 12,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "The Way Life Goes",
+      "artist": "Lil Uzi Vert Featuring Nicki Minaj",
+      "this_week": 16,
+      "last_week": 17,
+      "peak_position": 12,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Roll In Peace",
+      "artist": "Kodak Black Featuring XXXTENTACION",
+      "this_week": 17,
+      "last_week": 16,
+      "peak_position": 14,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Pills And Automobiles",
+      "artist": "Chris Brown Featuring Yo Gotti, A Boogie wit da Hoodie & Kodak Black",
+      "this_week": 18,
+      "last_week": 24,
+      "peak_position": 18,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Jocelyn Flores",
+      "artist": "XXXTENTACION",
+      "this_week": 19,
+      "last_week": 21,
+      "peak_position": 10,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Transportin'",
+      "artist": "Kodak Black",
+      "this_week": 20,
+      "last_week": 20,
+      "peak_position": 13,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Glorious",
+      "artist": "Macklemore Featuring Skylar Grey",
+      "this_week": 21,
+      "last_week": 15,
+      "peak_position": 12,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Relationship",
+      "artist": "Young Thug Featuring Future",
+      "this_week": 22,
+      "last_week": null,
+      "peak_position": 22,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "It's A Vibe",
+      "artist": "2 Chainz Featuring Ty Dolla $ign, Trey Songz & Jhene Aiko",
+      "this_week": 23,
+      "last_week": 22,
+      "peak_position": 13,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Plain Jane",
+      "artist": "A$AP Ferg Featuring Nicki Minaj",
+      "this_week": 24,
+      "last_week": null,
+      "peak_position": 24,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Sauce It Up",
+      "artist": "Lil Uzi Vert",
+      "this_week": 25,
+      "last_week": null,
+      "peak_position": 15,
+      "weeks_on_chart": 6,
+      "new": false
+    }
+  ]
+}

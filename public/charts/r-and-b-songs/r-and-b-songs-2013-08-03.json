@@ -1,0 +1,230 @@
+{
+  "date": "2013-08-03",
+  "data": [
+    {
+      "song": "Blurred Lines",
+      "artist": "Robin Thicke Featuring T.I. + Pharrell",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Body Party",
+      "artist": "Ciara",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "#Beautiful",
+      "artist": "Mariah Carey Featuring Miguel",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 2,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Take Back The Night",
+      "artist": "Justin Timberlake",
+      "this_week": 4,
+      "last_week": 5,
+      "peak_position": 4,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Suit & Tie",
+      "artist": "Justin Timberlake Featuring JAY Z",
+      "this_week": 5,
+      "last_week": 6,
+      "peak_position": 1,
+      "weeks_on_chart": 28,
+      "new": false
+    },
+    {
+      "song": "Beat It",
+      "artist": "Sean Kingston Featuring Chris Brown & Wiz Khalifa",
+      "this_week": 6,
+      "last_week": 7,
+      "peak_position": 5,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "I'm Out",
+      "artist": "Ciara Featuring Nicki Minaj",
+      "this_week": 7,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "How Many Drinks?",
+      "artist": "Miguel",
+      "this_week": 8,
+      "last_week": 9,
+      "peak_position": 8,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Fine China",
+      "artist": "Chris Brown",
+      "this_week": 9,
+      "last_week": 10,
+      "peak_position": 3,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Without Me",
+      "artist": "Fantasia Featuring Kelly Rowland & Missy Elliott",
+      "this_week": 10,
+      "last_week": 11,
+      "peak_position": 9,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Don't Think They Know",
+      "artist": "Chris Brown Featuring Aaliyah",
+      "this_week": 11,
+      "last_week": 12,
+      "peak_position": 9,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "The One",
+      "artist": "Tamar Braxton",
+      "this_week": 12,
+      "last_week": 14,
+      "peak_position": 10,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Somebody Else",
+      "artist": "Mario Featuring Nicki Minaj",
+      "this_week": 13,
+      "last_week": 13,
+      "peak_position": 13,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Fire We Make",
+      "artist": "Alicia Keys Duet With Maxwell",
+      "this_week": 14,
+      "last_week": 15,
+      "peak_position": 11,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "I Luv This Sh*t",
+      "artist": "August Alsina Featuring Trinidad James",
+      "this_week": 15,
+      "last_week": 19,
+      "peak_position": 15,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "A Couple Of Forevers",
+      "artist": "Chrisette Michele",
+      "this_week": 16,
+      "last_week": 17,
+      "peak_position": 16,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Dirty Laundry",
+      "artist": "Kelly Rowland",
+      "this_week": 17,
+      "last_week": 16,
+      "peak_position": 14,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Age Ain't A Factor",
+      "artist": "Jaheim",
+      "this_week": 18,
+      "last_week": 20,
+      "peak_position": 16,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "V.S.O.P.",
+      "artist": "K. Michelle",
+      "this_week": 19,
+      "last_week": 24,
+      "peak_position": 19,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Best Of Me",
+      "artist": "Anthony Hamilton",
+      "this_week": 20,
+      "last_week": 21,
+      "peak_position": 16,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Lose To Win",
+      "artist": "Fantasia",
+      "this_week": 21,
+      "last_week": 22,
+      "peak_position": 13,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Belong To The World",
+      "artist": "The Weeknd",
+      "this_week": 22,
+      "last_week": null,
+      "peak_position": 22,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "All The Time",
+      "artist": "Jeremih Featuring Lil Wayne & Natasha Mosley",
+      "this_week": 23,
+      "last_week": 25,
+      "peak_position": 17,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "I'd Rather Have A Love",
+      "artist": "Joe",
+      "this_week": 24,
+      "last_week": 23,
+      "peak_position": 18,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Give It 2 U",
+      "artist": "Robin Thicke Featuring Kendrick Lamar",
+      "this_week": 25,
+      "last_week": null,
+      "peak_position": 20,
+      "weeks_on_chart": 2,
+      "new": false
+    }
+  ]
+}

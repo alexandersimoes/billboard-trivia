@@ -1,0 +1,230 @@
+{
+  "date": "2002-11-16",
+  "data": [
+    {
+      "song": "Work It",
+      "artist": "Missy \"Misdemeanor\" Elliott",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Luv U Better",
+      "artist": "LL Cool J",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Gimme The Light",
+      "artist": "Sean Paul",
+      "this_week": 3,
+      "last_week": 4,
+      "peak_position": 3,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Dilemma",
+      "artist": "Nelly Featuring Kelly Rowland",
+      "this_week": 4,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Lose Yourself",
+      "artist": "Eminem",
+      "this_week": 5,
+      "last_week": 6,
+      "peak_position": 5,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "'03 Bonnie & Clyde",
+      "artist": "Jay-Z Featuring Beyonce Knowles",
+      "this_week": 6,
+      "last_week": 7,
+      "peak_position": 6,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Hey Ma",
+      "artist": "Cam'Ron Featuring Juelz Santana, Freekey Zekey & Toya",
+      "this_week": 7,
+      "last_week": 5,
+      "peak_position": 4,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "When The Last Time",
+      "artist": "Clipse",
+      "this_week": 8,
+      "last_week": 9,
+      "peak_position": 8,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Gangsta Lovin'",
+      "artist": "Eve Featuring Alicia Keys",
+      "this_week": 9,
+      "last_week": 8,
+      "peak_position": 2,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Po' Folks",
+      "artist": "Nappy Roots Featuring Anthony Hamilton",
+      "this_week": 10,
+      "last_week": 11,
+      "peak_position": 10,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Air Force Ones",
+      "artist": "Nelly Featuring Kyjuan, Ali & Murphy Lee",
+      "this_week": 11,
+      "last_week": 17,
+      "peak_position": 11,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Move B***h",
+      "artist": "Ludacris Featuring Mystikal & Infamous 2.0",
+      "this_week": 12,
+      "last_week": 10,
+      "peak_position": 3,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "React",
+      "artist": "Erick Sermon Featuring Redman",
+      "this_week": 13,
+      "last_week": 15,
+      "peak_position": 13,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Nothin'",
+      "artist": "N.O.R.E.",
+      "this_week": 14,
+      "last_week": 14,
+      "peak_position": 3,
+      "weeks_on_chart": 26,
+      "new": false
+    },
+    {
+      "song": "Oh Yeah!",
+      "artist": "Big Tymers Featuring Tateeze, Boo & Gotti",
+      "this_week": 15,
+      "last_week": 13,
+      "peak_position": 13,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Trade It All",
+      "artist": "Fabolous Featuring P. Diddy & Jagged Edge",
+      "this_week": 16,
+      "last_week": 12,
+      "peak_position": 8,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Good Times",
+      "artist": "Styles",
+      "this_week": 17,
+      "last_week": 16,
+      "peak_position": 8,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "I Need A Girl (Part Two)",
+      "artist": "P. Diddy & Ginuwine Featuring Loon, Mario Winans & Tammy Ruggeri",
+      "this_week": 18,
+      "last_week": 19,
+      "peak_position": 2,
+      "weeks_on_chart": 25,
+      "new": false
+    },
+    {
+      "song": "Crush Tonight",
+      "artist": "Fat Joe Featuring Ginuwine",
+      "this_week": 19,
+      "last_week": 20,
+      "peak_position": 19,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "The Streets",
+      "artist": "WC Featuring Nate Dogg",
+      "this_week": 20,
+      "last_week": 23,
+      "peak_position": 20,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Cleanin' Out My Closet",
+      "artist": "Eminem",
+      "this_week": 21,
+      "last_week": 18,
+      "peak_position": 5,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Rock The Party",
+      "artist": "Benzino",
+      "this_week": 22,
+      "last_week": 25,
+      "peak_position": 22,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Multiply",
+      "artist": "Xzibit",
+      "this_week": 23,
+      "last_week": 24,
+      "peak_position": 23,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Wanksta",
+      "artist": "50 Cent",
+      "this_week": 24,
+      "last_week": 21,
+      "peak_position": 21,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Thug Lovin'",
+      "artist": "Ja Rule Featuring Bobby Brown",
+      "this_week": 25,
+      "last_week": null,
+      "peak_position": 24,
+      "weeks_on_chart": 2,
+      "new": false
+    }
+  ]
+}

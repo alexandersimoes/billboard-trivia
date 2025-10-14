@@ -1,0 +1,275 @@
+{
+  "date": "1991-09-28",
+  "data": [
+    {
+      "song": "O.P.P.",
+      "artist": "Naughty by Nature",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "F-ck Compton",
+      "artist": "Tim Dog",
+      "this_week": 2,
+      "last_week": 3,
+      "peak_position": 2,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Mind Playing Tricks On Me",
+      "artist": "Geto Boys",
+      "this_week": 3,
+      "last_week": 5,
+      "peak_position": 3,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Ain't Nobody Better",
+      "artist": "Yo-Yo",
+      "this_week": 4,
+      "last_week": 6,
+      "peak_position": 4,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "What Comes Around Goes Around",
+      "artist": "Biz Markie",
+      "this_week": 5,
+      "last_week": 8,
+      "peak_position": 5,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Growin' Up In The Hood",
+      "artist": "Compton's Most Wanted",
+      "this_week": 6,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "If You Wanna Sex Me Up",
+      "artist": "T.C.F.",
+      "this_week": 7,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Sobb Story",
+      "artist": "Leaders Of The New School",
+      "this_week": 8,
+      "last_week": 10,
+      "peak_position": 8,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Hip Hop Junkies",
+      "artist": "Nice & Smooth",
+      "this_week": 9,
+      "last_week": 11,
+      "peak_position": 9,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Get Bizzy",
+      "artist": "Greyson & Jason",
+      "this_week": 10,
+      "last_week": 9,
+      "peak_position": 6,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Flavor Of The Month",
+      "artist": "Black Sheep",
+      "this_week": 11,
+      "last_week": 15,
+      "peak_position": 11,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "The House The Dog Built",
+      "artist": "Jibri Wise One",
+      "this_week": 12,
+      "last_week": 7,
+      "peak_position": 1,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Ain't No Future In Yo' Fronting",
+      "artist": "M.C. Breed & D.F.C.",
+      "this_week": 13,
+      "last_week": 12,
+      "peak_position": 12,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Confused",
+      "artist": "Larry Larr",
+      "this_week": 14,
+      "last_week": 13,
+      "peak_position": 13,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Low Rider (On The Boulevard)",
+      "artist": "Latin Alliance",
+      "this_week": 15,
+      "last_week": 18,
+      "peak_position": 15,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Definition Of A King",
+      "artist": "2 Kings In A Cipher",
+      "this_week": 16,
+      "last_week": 17,
+      "peak_position": 16,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Let's Talk About Sex",
+      "artist": "Salt-N-Pepa",
+      "this_week": 17,
+      "last_week": 22,
+      "peak_position": 17,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Heal Yourself",
+      "artist": "H.E.A.L.",
+      "this_week": 18,
+      "last_week": 28,
+      "peak_position": 18,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Turn It Up",
+      "artist": "Oaktown's 3.5.7",
+      "this_week": 19,
+      "last_week": 19,
+      "peak_position": 19,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Blue Cheese",
+      "artist": "UMC's",
+      "this_week": 20,
+      "last_week": null,
+      "peak_position": 20,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "A Groove (This Is What U Rap 2)",
+      "artist": "The Jaz",
+      "this_week": 21,
+      "last_week": 27,
+      "peak_position": 21,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Now That We Found Love",
+      "artist": "Heavy D & The Boyz",
+      "this_week": 22,
+      "last_week": 14,
+      "peak_position": 4,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "I'm Not Your Puppet",
+      "artist": "Hi-C",
+      "this_week": 23,
+      "last_week": 23,
+      "peak_position": 20,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Here We Go Again",
+      "artist": "Def Jef",
+      "this_week": 24,
+      "last_week": 24,
+      "peak_position": 24,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Tonite",
+      "artist": "DJ Quik",
+      "this_week": 25,
+      "last_week": 16,
+      "peak_position": 3,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "When In Love",
+      "artist": "MC Lyte",
+      "this_week": 26,
+      "last_week": null,
+      "peak_position": 26,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Bitch Betta Have My Money",
+      "artist": "AMG",
+      "this_week": 27,
+      "last_week": 25,
+      "peak_position": 5,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Fly Girl",
+      "artist": "Queen Latifah",
+      "this_week": 28,
+      "last_week": null,
+      "peak_position": 28,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "4 The Funk of It",
+      "artist": "Above The Law",
+      "this_week": 29,
+      "last_week": null,
+      "peak_position": 29,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Ain't Gonna Hurt Nobody",
+      "artist": "Kid 'N Play",
+      "this_week": 30,
+      "last_week": null,
+      "peak_position": 30,
+      "weeks_on_chart": 1,
+      "new": true
+    }
+  ]
+}

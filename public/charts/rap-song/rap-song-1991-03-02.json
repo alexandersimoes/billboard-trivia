@@ -1,0 +1,275 @@
+{
+  "date": "1991-03-02",
+  "data": [
+    {
+      "song": "Treat 'Em Right",
+      "artist": "Chubb Rock",
+      "this_week": 1,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Gold Digger",
+      "artist": "EPMD",
+      "this_week": 2,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Looking At The Front Door",
+      "artist": "Main Source",
+      "this_week": 3,
+      "last_week": 6,
+      "peak_position": 3,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Melt In Your Mouth",
+      "artist": "Candyman",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Stompin' In The 90's",
+      "artist": "Yo-Yo",
+      "this_week": 5,
+      "last_week": 3,
+      "peak_position": 2,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Around The Way Girl",
+      "artist": "LL Cool J",
+      "this_week": 6,
+      "last_week": 5,
+      "peak_position": 1,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Wake Up",
+      "artist": "Brand Nubian",
+      "this_week": 7,
+      "last_week": 7,
+      "peak_position": 7,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Just To Get A Rep",
+      "artist": "Gang Starr",
+      "this_week": 8,
+      "last_week": 10,
+      "peak_position": 8,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Rico Suave",
+      "artist": "Gerardo",
+      "this_week": 9,
+      "last_week": 15,
+      "peak_position": 9,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Can I Kick It?",
+      "artist": "A Tribe Called Quest",
+      "this_week": 10,
+      "last_week": 9,
+      "peak_position": 9,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Something New",
+      "artist": "Grandaddy I.U.",
+      "this_week": 11,
+      "last_week": 16,
+      "peak_position": 11,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Come On, Let's Move It",
+      "artist": "Special Ed",
+      "this_week": 12,
+      "last_week": 20,
+      "peak_position": 12,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Two Minute Brother",
+      "artist": "BWP",
+      "this_week": 13,
+      "last_week": 12,
+      "peak_position": 12,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "What's It All About",
+      "artist": "Run-D.M.C.",
+      "this_week": 14,
+      "last_week": 8,
+      "peak_position": 4,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Change The Style",
+      "artist": "Son Of Bazerk/No Self Control",
+      "this_week": 15,
+      "last_week": 24,
+      "peak_position": 15,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Do You Want Me",
+      "artist": "Salt-N-Pepa",
+      "this_week": 16,
+      "last_week": 23,
+      "peak_position": 16,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Play That Funky Music",
+      "artist": "Vanilla Ice",
+      "this_week": 17,
+      "last_week": 11,
+      "peak_position": 7,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "I'll Do 4 U",
+      "artist": "Father M.C.",
+      "this_week": 18,
+      "last_week": 13,
+      "peak_position": 1,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Dance All Night",
+      "artist": "Poison Clan",
+      "this_week": 19,
+      "last_week": 19,
+      "peak_position": 19,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Wanna Be Dancin' (Buck-Whylin')",
+      "artist": "Terminator X",
+      "this_week": 20,
+      "last_week": 14,
+      "peak_position": 7,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Here Comes The Hammer",
+      "artist": "M.C. Hammer",
+      "this_week": 21,
+      "last_week": 17,
+      "peak_position": 17,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Mind Blowin'",
+      "artist": "The D.O.C.",
+      "this_week": 22,
+      "last_week": 27,
+      "peak_position": 22,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Crumbs On The Table",
+      "artist": "D-Nice",
+      "this_week": 23,
+      "last_week": 22,
+      "peak_position": 17,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Peachfuzz",
+      "artist": "K.M.D.",
+      "this_week": 24,
+      "last_week": 29,
+      "peak_position": 24,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "It's A Shame (My Sister)",
+      "artist": "Monie Love Featuring True Image",
+      "this_week": 25,
+      "last_week": null,
+      "peak_position": 25,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Erase Racism",
+      "artist": "Kool G Rap & D.J. Polo",
+      "this_week": 26,
+      "last_week": 18,
+      "peak_position": 18,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Burn Baby Burn",
+      "artist": "2 Black 2 Strong MMG",
+      "this_week": 27,
+      "last_week": 25,
+      "peak_position": 25,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Oneovdabigboiz",
+      "artist": "Kwame & A New Beginning",
+      "this_week": 28,
+      "last_week": null,
+      "peak_position": 28,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "I Got To Have It",
+      "artist": "ED O.G & DA Bulldogs",
+      "this_week": 29,
+      "last_week": null,
+      "peak_position": 29,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "He's King Of The Hype",
+      "artist": "2 Bigg M.C.",
+      "this_week": 30,
+      "last_week": 26,
+      "peak_position": 22,
+      "weeks_on_chart": 11,
+      "new": false
+    }
+  ]
+}

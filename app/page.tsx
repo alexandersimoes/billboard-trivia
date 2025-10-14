@@ -114,7 +114,7 @@ export default function Home() {
         'country': 'country-songs',
         'rnb': 'r-b-hip-hop-songs',
         'rap': 'rap-song',
-        'alternative': 'hot-alternative-songs',
+        'alternative': 'alternative-airplay',
         'rock': 'rock-songs'
       };
 
@@ -176,7 +176,7 @@ export default function Home() {
         'country': 'country-songs',
         'rnb': 'r-b-hip-hop-songs',
         'rap': 'rap-song',
-        'alternative': 'hot-alternative-songs',
+        'alternative': 'alternative-airplay',
         'rock': 'rock-songs'
       };
 

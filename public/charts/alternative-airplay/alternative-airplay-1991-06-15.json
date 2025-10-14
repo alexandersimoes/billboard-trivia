@@ -1,0 +1,275 @@
+{
+  "date": "1991-06-15",
+  "data": [
+    {
+      "song": "The Other Side Of Summer",
+      "artist": "Elvis Costello",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Get The Message",
+      "artist": "Electronic",
+      "this_week": 2,
+      "last_week": 4,
+      "peak_position": 2,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Kiss Them For Me",
+      "artist": "Siouxsie & The Banshees",
+      "this_week": 3,
+      "last_week": 7,
+      "peak_position": 3,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "There She Goes",
+      "artist": "The La's",
+      "this_week": 4,
+      "last_week": 3,
+      "peak_position": 2,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Obvious Song",
+      "artist": "Joe Jackson",
+      "this_week": 5,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Beautiful Love",
+      "artist": "Julian Cope",
+      "this_week": 6,
+      "last_week": 5,
+      "peak_position": 4,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Texarkana",
+      "artist": "R.E.M.",
+      "this_week": 7,
+      "last_week": 9,
+      "peak_position": 7,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "All Together Now",
+      "artist": "The Farm",
+      "this_week": 8,
+      "last_week": 8,
+      "peak_position": 7,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "American Music",
+      "artist": "Violent Femmes",
+      "this_week": 9,
+      "last_week": 6,
+      "peak_position": 2,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Diane",
+      "artist": "Material Issue",
+      "this_week": 10,
+      "last_week": 11,
+      "peak_position": 10,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Sing Your Life",
+      "artist": "Morrissey",
+      "this_week": 11,
+      "last_week": 13,
+      "peak_position": 11,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "I Believe",
+      "artist": "EMF",
+      "this_week": 12,
+      "last_week": 10,
+      "peak_position": 10,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Chocolate Cake",
+      "artist": "Crowded House",
+      "this_week": 13,
+      "last_week": null,
+      "peak_position": 13,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Shoot You Down",
+      "artist": "Birdland",
+      "this_week": 14,
+      "last_week": 17,
+      "peak_position": 14,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Ripple",
+      "artist": "Jane's Addiction",
+      "this_week": 15,
+      "last_week": 15,
+      "peak_position": 15,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Don't Fix What Ain't Broke",
+      "artist": "Gang Of Four",
+      "this_week": 16,
+      "last_week": 14,
+      "peak_position": 14,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Vote Elvis",
+      "artist": "The Popinjays",
+      "this_week": 17,
+      "last_week": 19,
+      "peak_position": 17,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Heaven (I Want You)",
+      "artist": "Camouflage",
+      "this_week": 18,
+      "last_week": 28,
+      "peak_position": 18,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Woman With The Strength Of. . .",
+      "artist": "Peter Himmelman",
+      "this_week": 19,
+      "last_week": 18,
+      "peak_position": 18,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "See The Lights",
+      "artist": "Simple Minds",
+      "this_week": 20,
+      "last_week": 12,
+      "peak_position": 1,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Caravan",
+      "artist": "Inspiral Carpets",
+      "this_week": 21,
+      "last_week": 22,
+      "peak_position": 21,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Crazy",
+      "artist": "Seal",
+      "this_week": 22,
+      "last_week": null,
+      "peak_position": 22,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Flowers In The Rain",
+      "artist": "Stress",
+      "this_week": 23,
+      "last_week": null,
+      "peak_position": 23,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Sunless Saturday",
+      "artist": "Fishbone",
+      "this_week": 24,
+      "last_week": 21,
+      "peak_position": 7,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Psych Out",
+      "artist": "The Seers",
+      "this_week": 25,
+      "last_week": 16,
+      "peak_position": 16,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Better Back Off",
+      "artist": "Marshall Crenshaw",
+      "this_week": 26,
+      "last_week": null,
+      "peak_position": 26,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Which Way Should I Jump?",
+      "artist": "Milltown Brothers",
+      "this_week": 27,
+      "last_week": null,
+      "peak_position": 27,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Unkind",
+      "artist": "The Mighty Lemon Drops",
+      "this_week": 28,
+      "last_week": 29,
+      "peak_position": 28,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "International Bright Young Thing",
+      "artist": "Jesus Jones",
+      "this_week": 29,
+      "last_week": 27,
+      "peak_position": 6,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Bertha",
+      "artist": "Los Lobos",
+      "this_week": 30,
+      "last_week": 24,
+      "peak_position": 24,
+      "weeks_on_chart": 2,
+      "new": false
+    }
+  ]
+}

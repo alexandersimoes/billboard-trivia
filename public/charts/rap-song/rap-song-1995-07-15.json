@@ -1,0 +1,455 @@
+{
+  "date": "1995-07-15",
+  "data": [
+    {
+      "song": "One More Chance/Stay With Me",
+      "artist": "The Notorious B.I.G.",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "I'll Be There For You/You're All I Need To Get By",
+      "artist": "Method Man Featuring Mary J. Blige",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Feel Me Flow",
+      "artist": "Naughty by Nature",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 3,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "I Got 5 On It",
+      "artist": "Luniz",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Sprinkle Me",
+      "artist": "E-40 (Featuring Suga T)",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 5,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "So Many Tears",
+      "artist": "2Pac",
+      "this_week": 6,
+      "last_week": 18,
+      "peak_position": 6,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Freak Me Baby",
+      "artist": "Dis `N' Dat Feat. 95 South,69 Boyz & K-Nock",
+      "this_week": 7,
+      "last_week": 10,
+      "peak_position": 6,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Keep Their Heads Ringin' (From \"Friday\")",
+      "artist": "Dr. Dre",
+      "this_week": 8,
+      "last_week": 6,
+      "peak_position": 1,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Mind Blowin'",
+      "artist": "Smooth",
+      "this_week": 9,
+      "last_week": 7,
+      "peak_position": 7,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Foe Life",
+      "artist": "Mack 10",
+      "this_week": 10,
+      "last_week": 11,
+      "peak_position": 6,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Give It 2 You",
+      "artist": "Da Brat",
+      "this_week": 11,
+      "last_week": 8,
+      "peak_position": 3,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Sugar Hill",
+      "artist": "AZ",
+      "this_week": 12,
+      "last_week": 23,
+      "peak_position": 12,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Shimmy Shimmy Ya",
+      "artist": "Ol' Dirty Bastard",
+      "this_week": 13,
+      "last_week": 9,
+      "peak_position": 9,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Survival Of The Fittest",
+      "artist": "Mobb Deep",
+      "this_week": 14,
+      "last_week": 12,
+      "peak_position": 10,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "The I.N.C. Ride",
+      "artist": "Masta Ace Incorporated",
+      "this_week": 15,
+      "last_week": 16,
+      "peak_position": 8,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Lifestyles Of The Rich And Shameless",
+      "artist": "Lost Boyz",
+      "this_week": 16,
+      "last_week": 17,
+      "peak_position": 10,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Dear Mama/Old School",
+      "artist": "2Pac",
+      "this_week": 17,
+      "last_week": 15,
+      "peak_position": 1,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "All Glocks Down",
+      "artist": "Heather B.",
+      "this_week": 18,
+      "last_week": 20,
+      "peak_position": 17,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Big Poppa/Warning",
+      "artist": "The Notorious B.I.G.",
+      "this_week": 19,
+      "last_week": 14,
+      "peak_position": 1,
+      "weeks_on_chart": 26,
+      "new": false
+    },
+    {
+      "song": "Neva Go Back",
+      "artist": "Special Ed",
+      "this_week": 20,
+      "last_week": 13,
+      "peak_position": 12,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "I Wish",
+      "artist": "Skee-Lo",
+      "this_week": 21,
+      "last_week": 21,
+      "peak_position": 21,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Hey Lookaway",
+      "artist": "Questionmark Asylum",
+      "this_week": 22,
+      "last_week": 19,
+      "peak_position": 9,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Hey Alright",
+      "artist": "Rottin Razkals",
+      "this_week": 23,
+      "last_week": 27,
+      "peak_position": 23,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Champion",
+      "artist": "Buju Banton",
+      "this_week": 24,
+      "last_week": 26,
+      "peak_position": 23,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "The Points",
+      "artist": "Various Artists",
+      "this_week": 25,
+      "last_week": 25,
+      "peak_position": 16,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Lollipop",
+      "artist": "Mentally Disturbed",
+      "this_week": 26,
+      "last_week": 22,
+      "peak_position": 22,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Death Be The Penalty",
+      "artist": "Shabazz The Disciple",
+      "this_week": 27,
+      "last_week": 30,
+      "peak_position": 27,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Ooh Lawd (Party People)",
+      "artist": "DJ Smurf And P.M.H.I.",
+      "this_week": 28,
+      "last_week": 29,
+      "peak_position": 19,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Tales From The Hood",
+      "artist": "Domino",
+      "this_week": 29,
+      "last_week": 24,
+      "peak_position": 8,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Masta I.C.",
+      "artist": "Mic Geronimo",
+      "this_week": 30,
+      "last_week": 36,
+      "peak_position": 30,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Tootsee Roll",
+      "artist": "69 Boyz",
+      "this_week": 31,
+      "last_week": 39,
+      "peak_position": 1,
+      "weeks_on_chart": 59,
+      "new": false
+    },
+    {
+      "song": "Rodeo",
+      "artist": "95 South",
+      "this_week": 32,
+      "last_week": 28,
+      "peak_position": 11,
+      "weeks_on_chart": 26,
+      "new": false
+    },
+    {
+      "song": "Tour",
+      "artist": "Capleton",
+      "this_week": 33,
+      "last_week": 45,
+      "peak_position": 8,
+      "weeks_on_chart": 25,
+      "new": false
+    },
+    {
+      "song": "Dunkey Kong",
+      "artist": "Kilo",
+      "this_week": 34,
+      "last_week": 40,
+      "peak_position": 34,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "U Better Recognize",
+      "artist": "Sam Sneed Featuring Dr. Dre",
+      "this_week": 35,
+      "last_week": 34,
+      "peak_position": 18,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Brooklyn Zoo",
+      "artist": "Ol' Dirty Bastard",
+      "this_week": 36,
+      "last_week": 46,
+      "peak_position": 5,
+      "weeks_on_chart": 23,
+      "new": false
+    },
+    {
+      "song": "Round & Round",
+      "artist": "Twinz",
+      "this_week": 37,
+      "last_week": 49,
+      "peak_position": 35,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "I Like It (I Wanna Be Where You Are)",
+      "artist": "Grand Puba",
+      "this_week": 38,
+      "last_week": 38,
+      "peak_position": 21,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Own Destiny",
+      "artist": "Mad Lion",
+      "this_week": 39,
+      "last_week": 47,
+      "peak_position": 28,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Caught Up In The Game",
+      "artist": "Bushwackas",
+      "this_week": 40,
+      "last_week": null,
+      "peak_position": 40,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Get Down",
+      "artist": "Craig Mack",
+      "this_week": 41,
+      "last_week": 41,
+      "peak_position": 2,
+      "weeks_on_chart": 29,
+      "new": false
+    },
+    {
+      "song": "Craziest",
+      "artist": "Naughty by Nature",
+      "this_week": 42,
+      "last_week": 31,
+      "peak_position": 5,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Keep It Real",
+      "artist": "Miilkbone",
+      "this_week": 43,
+      "last_week": 32,
+      "peak_position": 32,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Bus Stops",
+      "artist": "The Nonce",
+      "this_week": 44,
+      "last_week": 44,
+      "peak_position": 44,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Elevation (Free My Mind)",
+      "artist": "The B.U.M.S",
+      "this_week": 45,
+      "last_week": null,
+      "peak_position": 34,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Oh Yeah!",
+      "artist": "Rottin Razkals",
+      "this_week": 46,
+      "last_week": 35,
+      "peak_position": 14,
+      "weeks_on_chart": 23,
+      "new": false
+    },
+    {
+      "song": "Summertime In The LBC (From \"The Show\")",
+      "artist": "The Dove Shack",
+      "this_week": 47,
+      "last_week": null,
+      "peak_position": 46,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Among The Walking Dead",
+      "artist": "Scarface",
+      "this_week": 48,
+      "last_week": 42,
+      "peak_position": 14,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Foe The Love Of $",
+      "artist": "Bone Thugs-N-Harmony Featuring Eazy-E",
+      "this_week": 49,
+      "last_week": null,
+      "peak_position": 4,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Rock On",
+      "artist": "Funkdoobiest",
+      "this_week": 50,
+      "last_week": 33,
+      "peak_position": 32,
+      "weeks_on_chart": 6,
+      "new": false
+    }
+  ]
+}

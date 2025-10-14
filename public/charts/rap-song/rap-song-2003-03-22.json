@@ -1,0 +1,230 @@
+{
+  "date": "2003-03-22",
+  "data": [
+    {
+      "song": "In Da Club",
+      "artist": "50 Cent",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Excuse Me Miss",
+      "artist": "Jay-Z",
+      "this_week": 2,
+      "last_week": 5,
+      "peak_position": 2,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Gossip Folks",
+      "artist": "Missy \"Misdemeanor\" Elliott Featuring Ludacris",
+      "this_week": 3,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Wanksta",
+      "artist": "50 Cent",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 3,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Mesmerize",
+      "artist": "Ja Rule Featuring Ashanti",
+      "this_week": 5,
+      "last_week": 3,
+      "peak_position": 2,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Beautiful",
+      "artist": "Snoop Dogg Featuring Pharrell & Uncle Charlie Wilson",
+      "this_week": 6,
+      "last_week": 8,
+      "peak_position": 6,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "The Jump Off",
+      "artist": "Lil' Kim Featuring Mr. Cheeks",
+      "this_week": 7,
+      "last_week": 7,
+      "peak_position": 7,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Sick Of Being Lonely",
+      "artist": "Field Mob",
+      "this_week": 8,
+      "last_week": 6,
+      "peak_position": 5,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "I Can",
+      "artist": "Nas",
+      "this_week": 9,
+      "last_week": 9,
+      "peak_position": 9,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Get Busy",
+      "artist": "Sean Paul",
+      "this_week": 10,
+      "last_week": 10,
+      "peak_position": 10,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "I Know What You Want",
+      "artist": "Busta Rhymes & Mariah Carey Featuring The Flipmode Squad",
+      "this_week": 11,
+      "last_week": 11,
+      "peak_position": 11,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Can't Let You Go",
+      "artist": "Fabolous Featuring Mike Shorey & Lil' Mo",
+      "this_week": 12,
+      "last_week": 16,
+      "peak_position": 12,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "What Happened To That Boy",
+      "artist": "Baby Featuring Clipse",
+      "this_week": 13,
+      "last_week": 12,
+      "peak_position": 11,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Superman",
+      "artist": "Eminem",
+      "this_week": 14,
+      "last_week": 13,
+      "peak_position": 10,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Thugz Mansion",
+      "artist": "2Pac",
+      "this_week": 15,
+      "last_week": 15,
+      "peak_position": 4,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "No Letting Go",
+      "artist": "Wayne Wonder",
+      "this_week": 16,
+      "last_week": 18,
+      "peak_position": 16,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Air Force Ones",
+      "artist": "Nelly Featuring Kyjuan, Ali & Murphy Lee",
+      "this_week": 17,
+      "last_week": 14,
+      "peak_position": 1,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "21 Questions",
+      "artist": "50 Cent Featuring Nate Dogg",
+      "this_week": 18,
+      "last_week": null,
+      "peak_position": 18,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "X Gon' Give It To Ya",
+      "artist": "DMX",
+      "this_week": 19,
+      "last_week": null,
+      "peak_position": 19,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Come Close To Me",
+      "artist": "Common Featuring Mary J. Blige",
+      "this_week": 20,
+      "last_week": 19,
+      "peak_position": 18,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "A.D.I.D.A.S.",
+      "artist": "Killer Mike Featuring Big Boi",
+      "this_week": 21,
+      "last_week": 20,
+      "peak_position": 20,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Tell Me (What's Goin' On)",
+      "artist": "Smilez & Southstar",
+      "this_week": 22,
+      "last_week": 17,
+      "peak_position": 10,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Make It Clap",
+      "artist": "Busta Rhymes Featuring Spliff Star",
+      "this_week": 23,
+      "last_week": 21,
+      "peak_position": 14,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Still Ballin",
+      "artist": "2Pac Featuring Trick Daddy",
+      "this_week": 24,
+      "last_week": null,
+      "peak_position": 24,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "'03 Bonnie & Clyde",
+      "artist": "Jay-Z Featuring Beyonce Knowles",
+      "this_week": 25,
+      "last_week": 23,
+      "peak_position": 2,
+      "weeks_on_chart": 22,
+      "new": false
+    }
+  ]
+}

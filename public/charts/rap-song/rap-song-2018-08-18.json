@@ -1,0 +1,230 @@
+{
+  "date": "2018-08-18",
+  "data": [
+    {
+      "song": "In My Feelings",
+      "artist": "Drake",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "I Like It",
+      "artist": "Cardi B, Bad Bunny & J Balvin",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Sicko Mode",
+      "artist": "Travis Scott",
+      "this_week": 3,
+      "last_week": null,
+      "peak_position": 3,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "FEFE",
+      "artist": "6ix9ine Featuring Nicki Minaj & Murda Beatz",
+      "this_week": 4,
+      "last_week": 3,
+      "peak_position": 3,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Better Now",
+      "artist": "Post Malone",
+      "this_week": 5,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Lucid Dreams",
+      "artist": "Juice WRLD",
+      "this_week": 6,
+      "last_week": 5,
+      "peak_position": 3,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Stargazing",
+      "artist": "Travis Scott",
+      "this_week": 7,
+      "last_week": null,
+      "peak_position": 7,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Taste",
+      "artist": "Tyga Featuring Offset",
+      "this_week": 8,
+      "last_week": 6,
+      "peak_position": 6,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Nice For What",
+      "artist": "Drake",
+      "this_week": 9,
+      "last_week": 7,
+      "peak_position": 1,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Psycho",
+      "artist": "Post Malone Featuring Ty Dolla $ign",
+      "this_week": 10,
+      "last_week": 8,
+      "peak_position": 1,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Big Bank",
+      "artist": "YG Featuring 2 Chainz, Big Sean & Nicki Minaj",
+      "this_week": 11,
+      "last_week": 11,
+      "peak_position": 11,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Yes Indeed",
+      "artist": "Lil Baby & Drake",
+      "this_week": 12,
+      "last_week": 9,
+      "peak_position": 5,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Carousel",
+      "artist": "Travis Scott",
+      "this_week": 13,
+      "last_week": null,
+      "peak_position": 13,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Yosemite",
+      "artist": "Travis Scott",
+      "this_week": 14,
+      "last_week": null,
+      "peak_position": 14,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "R.I.P Screw",
+      "artist": "Travis Scott",
+      "this_week": 15,
+      "last_week": null,
+      "peak_position": 15,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Stop Trying To Be God",
+      "artist": "Travis Scott",
+      "this_week": 16,
+      "last_week": null,
+      "peak_position": 16,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Sad!",
+      "artist": "XXXTENTACION",
+      "this_week": 17,
+      "last_week": 10,
+      "peak_position": 1,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Nonstop",
+      "artist": "Drake",
+      "this_week": 18,
+      "last_week": 12,
+      "peak_position": 2,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "No Bystanders",
+      "artist": "Travis Scott",
+      "this_week": 19,
+      "last_week": null,
+      "peak_position": 19,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "5% Tint",
+      "artist": "Travis Scott",
+      "this_week": 20,
+      "last_week": null,
+      "peak_position": 20,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Can't Say",
+      "artist": "Travis Scott",
+      "this_week": 21,
+      "last_week": null,
+      "peak_position": 21,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "NC-17",
+      "artist": "Travis Scott",
+      "this_week": 22,
+      "last_week": null,
+      "peak_position": 22,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Who? What!",
+      "artist": "Travis Scott",
+      "this_week": 23,
+      "last_week": null,
+      "peak_position": 23,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Skeletons",
+      "artist": "Travis Scott",
+      "this_week": 24,
+      "last_week": null,
+      "peak_position": 24,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Astrothunder",
+      "artist": "Travis Scott",
+      "this_week": 25,
+      "last_week": null,
+      "peak_position": 25,
+      "weeks_on_chart": 1,
+      "new": true
+    }
+  ]
+}

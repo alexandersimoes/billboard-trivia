@@ -1,0 +1,230 @@
+{
+  "date": "2015-01-03",
+  "data": [
+    {
+      "song": "I Don't F**k With You",
+      "artist": "Big Sean Featuring E-40",
+      "this_week": 1,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Only",
+      "artist": "Nicki Minaj Featuring Drake, Lil Wayne & Chris Brown",
+      "this_week": 2,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "No Type",
+      "artist": "Rae Sremmurd",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 2,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Hot Boy",
+      "artist": "Bobby Shmurda",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 1,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "CoCo",
+      "artist": "O.T. Genasis",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 4,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Beg For It",
+      "artist": "Iggy Azalea Featuring M0",
+      "this_week": 6,
+      "last_week": 6,
+      "peak_position": 5,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Black Widow",
+      "artist": "Iggy Azalea Featuring Rita Ora",
+      "this_week": 7,
+      "last_week": 7,
+      "peak_position": 1,
+      "weeks_on_chart": 26,
+      "new": false
+    },
+    {
+      "song": "Feeling Myself",
+      "artist": "Nicki Minaj Featuring Beyonce",
+      "this_week": 8,
+      "last_week": null,
+      "peak_position": 8,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Lifestyle",
+      "artist": "Rich Gang Featuring Young Thug & Rich Homie Quan",
+      "this_week": 9,
+      "last_week": 8,
+      "peak_position": 3,
+      "weeks_on_chart": 25,
+      "new": false
+    },
+    {
+      "song": "Try Me",
+      "artist": "DeJ Loaf",
+      "this_week": 10,
+      "last_week": 10,
+      "peak_position": 9,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Anaconda",
+      "artist": "Nicki Minaj",
+      "this_week": 11,
+      "last_week": 11,
+      "peak_position": 1,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "L.A.LOVE (la la)",
+      "artist": "Fergie",
+      "this_week": 12,
+      "last_week": 9,
+      "peak_position": 5,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Bed Of Lies",
+      "artist": "Nicki Minaj Featuring Skylar Grey",
+      "this_week": 13,
+      "last_week": 23,
+      "peak_position": 13,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "0 To 100 / The Catch Up",
+      "artist": "Drake",
+      "this_week": 14,
+      "last_week": 12,
+      "peak_position": 7,
+      "weeks_on_chart": 23,
+      "new": false
+    },
+    {
+      "song": "No Flex Zone",
+      "artist": "Rae Sremmurd",
+      "this_week": 15,
+      "last_week": 13,
+      "peak_position": 8,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "G.D.F.R.",
+      "artist": "Flo Rida Featuring Sage The Gemini & Lookas",
+      "this_week": 16,
+      "last_week": 15,
+      "peak_position": 15,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Time Of Our Lives",
+      "artist": "Pitbull & Ne-Yo",
+      "this_week": 17,
+      "last_week": 21,
+      "peak_position": 17,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Get On Your Knees",
+      "artist": "Nicki Minaj Featuring Ariana Grande",
+      "this_week": 18,
+      "last_week": null,
+      "peak_position": 18,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Apparently",
+      "artist": "J. Cole",
+      "this_week": 19,
+      "last_week": 19,
+      "peak_position": 19,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Body Language",
+      "artist": "Kid Ink Featuring Usher & Tinashe",
+      "this_week": 20,
+      "last_week": 17,
+      "peak_position": 16,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Fireball",
+      "artist": "Pitbull Featuring John Ryan",
+      "this_week": 21,
+      "last_week": 16,
+      "peak_position": 4,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Wet Dreamz",
+      "artist": "J. Cole",
+      "this_week": 22,
+      "last_week": 14,
+      "peak_position": 14,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "No Role Modelz",
+      "artist": "J. Cole",
+      "this_week": 23,
+      "last_week": 18,
+      "peak_position": 18,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "i",
+      "artist": "Kendrick Lamar",
+      "this_week": 24,
+      "last_week": 22,
+      "peak_position": 8,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "The Body",
+      "artist": "Wale Featuring Jeremih",
+      "this_week": 25,
+      "last_week": null,
+      "peak_position": 24,
+      "weeks_on_chart": 3,
+      "new": false
+    }
+  ]
+}

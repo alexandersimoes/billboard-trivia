@@ -1,0 +1,230 @@
+{
+  "date": "2013-10-12",
+  "data": [
+    {
+      "song": "Holy Grail",
+      "artist": "Jay Z Featuring Justin Timberlake",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "23",
+      "artist": "Mike Will Made-It Featuring Miley Cyrus, Wiz Khalifa & Juicy J",
+      "this_week": 2,
+      "last_week": null,
+      "peak_position": 2,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Berzerk",
+      "artist": "Eminem",
+      "this_week": 3,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "All Me",
+      "artist": "Drake Featuring 2 Chainz & Big Sean",
+      "this_week": 4,
+      "last_week": null,
+      "peak_position": 4,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Crooked Smile",
+      "artist": "J. Cole Featuring TLC",
+      "this_week": 5,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Can't Hold Us",
+      "artist": "Macklemore & Ryan Lewis Featuring Ray Dalton",
+      "this_week": 6,
+      "last_week": 5,
+      "peak_position": 1,
+      "weeks_on_chart": 34,
+      "new": false
+    },
+    {
+      "song": "Same Love",
+      "artist": "Macklemore & Ryan Lewis Featuring Mary Lambert",
+      "this_week": 7,
+      "last_week": 3,
+      "peak_position": 2,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Beware",
+      "artist": "Big Sean Featuring Lil Wayne & Jhene Aiko",
+      "this_week": 8,
+      "last_week": 6,
+      "peak_position": 6,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "The Language",
+      "artist": "Drake",
+      "this_week": 9,
+      "last_week": null,
+      "peak_position": 9,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Gas Pedal",
+      "artist": "Sage The Gemini Featuring IamSu!",
+      "this_week": 10,
+      "last_week": 7,
+      "peak_position": 4,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Type Of Way",
+      "artist": "Rich Homie Quan",
+      "this_week": 11,
+      "last_week": 9,
+      "peak_position": 8,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Furthest Thing",
+      "artist": "Drake",
+      "this_week": 12,
+      "last_week": null,
+      "peak_position": 12,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Power Trip",
+      "artist": "J. Cole Featuring Miguel",
+      "this_week": 13,
+      "last_week": 11,
+      "peak_position": 3,
+      "weeks_on_chart": 33,
+      "new": false
+    },
+    {
+      "song": "Thrift Shop",
+      "artist": "Macklemore & Ryan Lewis Featuring Wanz",
+      "this_week": 14,
+      "last_week": 10,
+      "peak_position": 1,
+      "weeks_on_chart": 52,
+      "new": false
+    },
+    {
+      "song": "Wu-Tang Forever",
+      "artist": "Drake",
+      "this_week": 15,
+      "last_week": 8,
+      "peak_position": 8,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Too Much",
+      "artist": "Drake",
+      "this_week": 16,
+      "last_week": null,
+      "peak_position": 16,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Pound Cake / Paris Morton Music 2",
+      "artist": "Drake Featuring Jay-Z",
+      "this_week": 17,
+      "last_week": null,
+      "peak_position": 17,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "From Time",
+      "artist": "Drake Featuring Jhene Aiko",
+      "this_week": 18,
+      "last_week": null,
+      "peak_position": 18,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Honest",
+      "artist": "Future",
+      "this_week": 19,
+      "last_week": 16,
+      "peak_position": 16,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Red Nose",
+      "artist": "Sage The Gemini",
+      "this_week": 20,
+      "last_week": 12,
+      "peak_position": 10,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Tom Ford",
+      "artist": "Jay-Z",
+      "this_week": 21,
+      "last_week": 13,
+      "peak_position": 8,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "HeadBand",
+      "artist": "B.o.B Featuring 2 Chainz",
+      "this_week": 22,
+      "last_week": 14,
+      "peak_position": 13,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Tuscan Leather",
+      "artist": "Drake",
+      "this_week": 23,
+      "last_week": null,
+      "peak_position": 23,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Come Thru",
+      "artist": "Drake",
+      "this_week": 24,
+      "last_week": null,
+      "peak_position": 24,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Bounce It",
+      "artist": "Juicy J Featuring Wale & Trey Songz",
+      "this_week": 25,
+      "last_week": 19,
+      "peak_position": 19,
+      "weeks_on_chart": 6,
+      "new": false
+    }
+  ]
+}

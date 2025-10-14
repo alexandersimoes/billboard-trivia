@@ -1,0 +1,230 @@
+{
+  "date": "2015-05-16",
+  "data": [
+    {
+      "song": "Earned It (Fifty Shades Of Grey)",
+      "artist": "The Weeknd",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Somebody",
+      "artist": "Natalie La Rose Featuring Jeremih",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Post To Be",
+      "artist": "Omarion Featuring Chris Brown & Jhene Aiko",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 3,
+      "weeks_on_chart": 23,
+      "new": false
+    },
+    {
+      "song": "B**** Better Have My Money",
+      "artist": "Rihanna",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Slow Motion",
+      "artist": "Trey Songz",
+      "this_week": 5,
+      "last_week": 6,
+      "peak_position": 5,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "FourFiveSeconds",
+      "artist": "Rihanna & Kanye West & Paul McCartney",
+      "this_week": 6,
+      "last_week": 5,
+      "peak_position": 1,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Ayo",
+      "artist": "Chris Brown & Tyga",
+      "this_week": 7,
+      "last_week": 7,
+      "peak_position": 4,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "I Don't Mind",
+      "artist": "Usher Featuring Juicy J",
+      "this_week": 8,
+      "last_week": 8,
+      "peak_position": 1,
+      "weeks_on_chart": 26,
+      "new": false
+    },
+    {
+      "song": "I Bet",
+      "artist": "Ciara",
+      "this_week": 9,
+      "last_week": 10,
+      "peak_position": 9,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "7/11",
+      "artist": "Beyonce",
+      "this_week": 10,
+      "last_week": 9,
+      "peak_position": 1,
+      "weeks_on_chart": 23,
+      "new": false
+    },
+    {
+      "song": "Infinity",
+      "artist": "Mariah Carey",
+      "this_week": 11,
+      "last_week": null,
+      "peak_position": 11,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Classic Man",
+      "artist": "Jidenna Featuring Roman Gianarthur",
+      "this_week": 12,
+      "last_week": 12,
+      "peak_position": 12,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "All Hands On Deck",
+      "artist": "Tinashe Featuring Iggy Azalea",
+      "this_week": 13,
+      "last_week": 11,
+      "peak_position": 11,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Planez",
+      "artist": "Jeremih Featuring J. Cole",
+      "this_week": 14,
+      "last_week": 13,
+      "peak_position": 12,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "You Changed Me",
+      "artist": "Jamie Foxx Featuring Chris Brown",
+      "this_week": 15,
+      "last_week": 14,
+      "peak_position": 14,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Every Moment",
+      "artist": "Jodeci",
+      "this_week": 16,
+      "last_week": 15,
+      "peak_position": 15,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Yoga",
+      "artist": "Janelle Monae & Jidenna",
+      "this_week": 17,
+      "last_week": 16,
+      "peak_position": 14,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "What Is Love",
+      "artist": "Empire Cast Featuring V. Bozeman",
+      "this_week": 18,
+      "last_week": 20,
+      "peak_position": 13,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "You're So Beautiful",
+      "artist": "Empire Cast Featuring Jussie Smollett & Yazz",
+      "this_week": 19,
+      "last_week": 18,
+      "peak_position": 10,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Nobody",
+      "artist": "Kem",
+      "this_week": 20,
+      "last_week": 22,
+      "peak_position": 20,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Good Enough",
+      "artist": "Empire Cast Featuring Jussie Smollett",
+      "this_week": 21,
+      "last_week": 19,
+      "peak_position": 13,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Sober",
+      "artist": "Childish Gambino",
+      "this_week": 22,
+      "last_week": 21,
+      "peak_position": 13,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Girl On Fire",
+      "artist": "Koryn Hawthorne",
+      "this_week": 23,
+      "last_week": null,
+      "peak_position": 23,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Conqueror",
+      "artist": "Empire Cast Featuring Estelle & Jussie Smollett",
+      "this_week": 24,
+      "last_week": 17,
+      "peak_position": 8,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Double Tap",
+      "artist": "Jordin Sparks Featuring 2 Chainz",
+      "this_week": 25,
+      "last_week": 25,
+      "peak_position": 25,
+      "weeks_on_chart": 2,
+      "new": false
+    }
+  ]
+}
