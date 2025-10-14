@@ -11,6 +11,7 @@ interface LeaderboardEntry {
   username: string | null;
   genre: string;
   started_at: string;
+  seed: string | null;
   num_correct: number;
   total_points: number;
 }
@@ -25,7 +26,7 @@ export default function Leaderboard() {
         // Get best rounds from all users
         const { data: roundsData, error: roundsError } = await supabase
           .from('game_rounds')
-          .select('total_points, num_correct, genre, started_at, user_id')
+          .select('total_points, num_correct, genre, started_at, seed, user_id')
           .not('ended_at', 'is', null)
           .order('total_points', { ascending: false })
           .limit(100);
@@ -53,6 +54,7 @@ export default function Leaderboard() {
           username: usernameMap.get(row.user_id) || 'Anonymous',
           genre: row.genre,
           started_at: row.started_at,
+          seed: row.seed,
           num_correct: row.num_correct,
           total_points: row.total_points,
         })) || [];
@@ -157,6 +159,20 @@ export default function Leaderboard() {
                       'other': '🎵'
                     };
 
+                    const formatChartWeek = (seedString: string | null) => {
+                      if (!seedString) return null;
+                      const date = new Date(seedString);
+                      const day = date.getDate();
+                      const suffix = day === 1 || day === 21 || day === 31 ? 'st' :
+                                     day === 2 || day === 22 ? 'nd' :
+                                     day === 3 || day === 23 ? 'rd' : 'th';
+                      return date.toLocaleDateString('en-US', {
+                        month: 'short',
+                        day: 'numeric',
+                        year: 'numeric'
+                      }).replace(/(\d+)/, `$1${suffix}`);
+                    };
+
                     const formatDate = (dateString: string) => {
                       const date = new Date(dateString);
                       return date.toLocaleDateString('en-US', {
@@ -178,8 +194,17 @@ export default function Leaderboard() {
                           {entry.username || 'Anonymous'}
                         </td>
                         <td className="py-3 px-2 sm:px-4 text-sm sm:text-base hidden md:table-cell" style={{ color: '#C0C0C0' }}>
-                          <span className="mr-1">{genreEmojis[entry.genre] || '🎵'}</span>
-                          {genreDisplay}
+                          <div>
+                            <div>
+                              <span className="mr-1">{genreEmojis[entry.genre] || '🎵'}</span>
+                              {genreDisplay}
+                            </div>
+                            {formatChartWeek(entry.seed) && (
+                              <div className="text-xs mt-1" style={{ color: 'rgba(192, 192, 192, 0.6)' }}>
+                                Week of {formatChartWeek(entry.seed)}
+                              </div>
+                            )}
+                          </div>
                         </td>
                         <td className="py-3 px-2 sm:px-4 text-sm sm:text-base text-center font-bold" style={{ color: entry.num_correct === 10 ? '#00FF00' : '#C0C0C0' }}>
                           {entry.num_correct}/10

@@ -31,6 +31,62 @@ function normalize(s: string) {
     .trim();
 }
 
+// remove trailing “feat./ft./featuring/with/x …”
+function stripFeaturing(s: string) {
+  return s.replace(
+    /(?:\(|\[|-|\u2013|\u2014)?\s*(?:feat\.?|featuring|ft\.?|with|x)\s+.+?(?:\)|\]|$)/gi,
+    ""
+  ).trim();
+}
+
+function tokens(s: string) {
+  return normalize(stripFeaturing(s)).split(" ").filter(Boolean);
+}
+
+// overlap of target tokens found in candidate (containment, not symmetric)
+function containmentScore(targetTokens: string[], candTokens: string[]) {
+  const setC = new Set(candTokens);
+  let hit = 0;
+  for (const t of targetTokens) if (setC.has(t)) hit++;
+  return targetTokens.length ? hit / targetTokens.length : 0;
+}
+
+// Jaccard (intersection/union) – symmetric
+function jaccardScore(aTokens: string[], bTokens: string[]) {
+  const a = new Set(aTokens);
+  const b = new Set(bTokens);
+  let inter = 0;
+  for (const t of a) if (b.has(t)) inter++;
+  const union = a.size + b.size - inter;
+  return union ? inter / union : 0;
+}
+
+// Lightweight fuzzy similarity for artist names, returns 0..1
+function artistSimilarity(targetArtistRaw: string, candidateArtistRaw: string) {
+  const taNorm = normalize(stripFeaturing(targetArtistRaw));
+  const caNorm = normalize(stripFeaturing(candidateArtistRaw));
+
+  if (!taNorm || !caNorm) return 0;
+
+  if (taNorm === caNorm) return 1;
+
+  // direct containment (handles “fetty wap featuring monty” vs “fetty wap”)
+  if (caNorm.includes(taNorm) || taNorm.includes(caNorm)) return 0.92;
+
+  const ta = tokens(targetArtistRaw);
+  const ca = tokens(candidateArtistRaw);
+
+  const contain = containmentScore(ta, ca);   // prioritize: “are all my target words present?”
+  const jac = jaccardScore(ta, ca);           // tie-breaker when extras differ
+
+  // small bonus if first tokens match (primary artist match)
+  const primaryBoost = (ta[0] && ca[0] && ta[0] === ca[0]) ? 0.08 : 0;
+
+  // blend (weight containment higher than jaccard)
+  return Math.max(0, Math.min(1, 0.7 * contain + 0.3 * jac + primaryBoost));
+}
+
+
 function getWeekNumber(date: Date): number {
   const firstDayOfYear = new Date(date.getFullYear(), 0, 1);
   const pastDaysOfYear = (date.getTime() - firstDayOfYear.getTime()) / 86400000;
@@ -42,7 +98,10 @@ async function findITunesPreviewUrl(
   country = 'US'
 ): Promise<ITunesResult> {
   const term = encodeURIComponent(`${artist} ${song}`);
-  const url = `https://itunes.apple.com/search?term=${term}&entity=song&limit=10&country=${country}`;
+  let url = `https://itunes.apple.com/search?term=${term}&entity=song&limit=10&country=${country}`;
+  if(artist === 'Local H' && song === 'Eddie Vedder') {
+    url = "https://itunes.apple.com/lookup?id=1440923144"
+  }
   const res = await fetch(url);
   if (!res.ok) throw new Error(`iTunes search failed: ${res.status}`);
 
@@ -53,19 +112,33 @@ async function findITunesPreviewUrl(
   const targetSong = normalize(song);
   const targetArtist = normalize(artist);
 
-  const scored = data.results
-    .map((r: any) => {
-      const rSong = normalize(r.trackName || '');
-      const rArtist = normalize(r.artistName || '');
-      let score = 0;
-      if (rSong === targetSong) score += 5;
-      if (rArtist === targetArtist) score += 5;
-      if (/clean/i.test(r.trackName)) score += 1;
-      if (/live|instrumental|karaoke|remix/i.test(r.trackName)) score -= 2;
-      if (r.previewUrl) score += 2;
-      return { r, score };
-    })
-    .sort((a: any, b: any) => b.score - a.score);
+  const scored = data.results.map((r: any) => {
+    const rSong = normalize(r.trackName || "");
+    const rArtist = normalize(r.artistName || "");
+
+    let score = 0;
+
+    // Song matching (keep your exact rule; add a mild fuzzy equality on stripped “(feat …)”)
+    const rSongStripped = normalize(stripFeaturing(r.trackName || ""));
+    const targetSongStripped = normalize(stripFeaturing(song));
+    if (rSong === targetSong) score += 4;
+    else if (rSongStripped === targetSongStripped) score += 3;
+
+    // NEW: fuzzy artist score (0..1) scaled to ~7 points (same cap as your exact rule)
+    const aSim = artistSimilarity(targetArtist, rArtist);
+    score += Math.round(7 * aSim);
+
+    // extras
+    if (/clean/i.test(r.trackName)) score += 1;
+    if (/live|instrumental|karaoke|remix/i.test(r.trackName)) score -= 2;
+    if (r.previewUrl) score += 2;
+
+    // tiny penalty for “Various Artists”
+    if (/^various artists$/i.test(r.artistName || "")) score -= 3;
+
+    return { r, score, aSim };
+  })
+  .sort((a: any, b: any) => b.score - a.score);
 
   const hit = scored.find((x: any) => x.r.previewUrl);
   if (!hit) throw new Error('No previewUrl available in iTunes results');
@@ -670,12 +743,12 @@ export default function Home() {
         )}
 
         {gameState === 'playing' && (
-          <div className="holographic-card rounded-3xl p-3 sm:p-8 md:p-10" style={{
+          <div className="holographic-card rounded-3xl p-3 sm:p-6 md:p-8" style={{
             background: 'linear-gradient(135deg, rgba(75, 0, 130, 0.5) 0%, rgba(255, 0, 0, 0.3) 100%)',
           }}>
             {selectedWeek && (
-              <div className="text-center mb-2 sm:mb-4">
-                <div className="font-bold text-xs sm:text-sm tracking-widest" style={{
+              <div className="text-center mb-1 sm:mb-2">
+                <div className="font-bold text-xs tracking-widest" style={{
                   color: '#C0C0C0',
                   textShadow: '0 0 10px rgba(192, 192, 192, 0.5)'
                 }}>
@@ -687,7 +760,7 @@ export default function Home() {
                 </div>
               </div>
             )}
-            <div className="flex justify-between items-center mb-3 sm:mb-6 font-bold text-base sm:text-xl" style={{ color: '#C0C0C0' }}>
+            <div className="flex justify-between items-center mb-2 sm:mb-4 font-bold text-base sm:text-xl" style={{ color: '#C0C0C0' }}>
               <div className="flex items-center gap-1 sm:gap-2">
                 <span className="text-lg sm:text-2xl">🎯</span>
                 <span>ROUND {currentRound + 1}/{tracks.length}</span>
@@ -699,8 +772,8 @@ export default function Home() {
             </div>
 
             {!loading && !answered && (
-              <div className="mb-3 sm:mb-6 text-center relative">
-                <div className={`${audiowide.className} text-5xl sm:text-7xl font-bold mb-2 sm:mb-4 ${
+              <div className="mb-2 sm:mb-4 text-center relative">
+                <div className={`${audiowide.className} text-4xl sm:text-6xl font-bold mb-1 sm:mb-2 ${
                   timeLeft <= 5 ? 'animate-pulse' : ''
                 }`} style={{
                   color: timeLeft <= 5 ? '#FF0000' : '#C0C0C0',
@@ -708,7 +781,7 @@ export default function Home() {
                 }}>
                   {timeLeft}
                 </div>
-                <div className="w-full rounded-full h-3 sm:h-5 overflow-hidden border-2 relative" style={{
+                <div className="w-full rounded-full h-2 sm:h-4 overflow-hidden border-2 relative" style={{
                   borderColor: '#C0C0C0',
                   backgroundColor: 'rgba(0, 0, 0, 0.5)'
                 }}>
@@ -726,19 +799,19 @@ export default function Home() {
               </div>
             )}
 
-            <div className="mb-3 sm:mb-6 text-center">
-              <div className="font-bold text-base sm:text-xl hidden sm:block" style={{
+            <div className="mb-2 sm:mb-3 text-center">
+              <div className="font-bold text-xs sm:text-sm" style={{
                 color: '#C0C0C0',
                 textShadow: '0 0 10px rgba(192, 192, 192, 0.5)'
               }}>{status}</div>
               {loading && (
-                <div className="text-sm mt-2 animate-pulse" style={{ color: '#C0C0C0' }}>Establishing signal... 📡</div>
+                <div className="text-xs mt-1 animate-pulse" style={{ color: '#C0C0C0' }}>Establishing signal... 📡</div>
               )}
             </div>
 
             {!loading && !gameComplete && (
-              <div className="space-y-3 sm:space-y-4 mb-3 sm:mb-6">
-                <h3 className={`${audiowide.className} text-xl sm:text-3xl font-bold text-center mb-3 sm:mb-6`} style={{
+              <div className="space-y-2 sm:space-y-3 mb-2 sm:mb-4">
+                <h3 className={`${audiowide.className} text-lg sm:text-2xl font-bold text-center mb-2 sm:mb-3`} style={{
                   color: '#C0C0C0',
                   textShadow: '0 0 20px rgba(192, 192, 192, 0.8)'
                 }}>
