@@ -34,14 +34,28 @@ export function useAuth() {
   };
 
   useEffect(() => {
-    // Check active sessions and sets the user
-    supabase.auth.getSession().then(({ data: { session } }) => {
-      if (session?.user) {
-        ensureProfile(session.user);
-      }
-      setUser(session?.user ?? null);
+    // Timeout fallback - if auth doesn't respond in 5 seconds, stop loading
+    const timeoutId = setTimeout(() => {
+      console.warn('Auth loading timeout - stopping');
       setLoading(false);
-    });
+    }, 5000);
+
+    // Check active sessions and sets the user
+    supabase.auth.getSession()
+      .then(({ data: { session } }) => {
+        clearTimeout(timeoutId);
+        if (session?.user) {
+          ensureProfile(session.user);
+        }
+        setUser(session?.user ?? null);
+        setLoading(false);
+      })
+      .catch((error) => {
+        clearTimeout(timeoutId);
+        console.error('Error getting session:', error);
+        setUser(null);
+        setLoading(false);
+      });
 
     // Listen for changes on auth state (sign in, sign out, etc.)
     const { data: { subscription } } = supabase.auth.onAuthStateChange(async (_event, session) => {
@@ -52,7 +66,10 @@ export function useAuth() {
       setLoading(false);
     });
 
-    return () => subscription.unsubscribe();
+    return () => {
+      clearTimeout(timeoutId);
+      subscription.unsubscribe();
+    };
   }, []);
 
   const signInWithGoogle = async () => {
