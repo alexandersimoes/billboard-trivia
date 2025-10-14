@@ -33,8 +33,13 @@ export default function Leaderboard() {
 
         if (roundsError) throw roundsError;
 
+        if (!roundsData || roundsData.length === 0) {
+          setLeaderboard([]);
+          return;
+        }
+
         // Get all unique user IDs
-        const userIds = [...new Set(roundsData?.map(r => r.user_id) || [])];
+        const userIds = [...new Set(roundsData.map(r => r.user_id))];
 
         // Fetch usernames for all users
         const { data: profilesData, error: profilesError } = await supabase
@@ -42,7 +47,10 @@ export default function Leaderboard() {
           .select('user_id, username')
           .in('user_id', userIds);
 
-        if (profilesError) throw profilesError;
+        if (profilesError) {
+          console.error('Error fetching profiles:', profilesError);
+          // Continue anyway with Anonymous usernames
+        }
 
         // Create a map of user_id to username
         const usernameMap = new Map(
@@ -50,14 +58,14 @@ export default function Leaderboard() {
         );
 
         // Transform data to match leaderboard format
-        const data = roundsData?.map((row) => ({
+        const data = roundsData.map((row) => ({
           username: usernameMap.get(row.user_id) || 'Anonymous',
           genre: row.genre,
           started_at: row.started_at,
           seed: row.seed,
           num_correct: row.num_correct,
           total_points: row.total_points,
-        })) || [];
+        }));
 
         setLeaderboard(data);
       } catch (error) {

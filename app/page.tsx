@@ -556,60 +556,70 @@ export default function Home() {
 
       {/* Auth button - top right */}
       <div className="absolute top-4 right-4 z-20">
-        {!authLoading && (
-          user ? (
-            <div className="relative group">
-              <Link
-                href="/games"
-                className="w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold transition-all overflow-hidden block"
-                style={{
-                  backgroundColor: 'rgba(75, 0, 130, 0.8)',
-                  color: '#C0C0C0',
-                  border: '2px solid rgba(192, 192, 192, 0.5)',
-                  backdropFilter: 'blur(10px)',
-                }}
-              >
-                {(user.user_metadata?.avatar_url || user.user_metadata?.picture) ? (
-                  <img
-                    src={user.user_metadata?.picture || user.user_metadata?.avatar_url}
-                    alt="User avatar"
-                    className="w-full h-full object-cover"
-                  />
-                ) : (
-                  <span>
-                    {user.user_metadata?.full_name?.[0]?.toUpperCase() ||
-                     user.user_metadata?.name?.[0]?.toUpperCase() ||
-                     user.email?.[0]?.toUpperCase() ||
-                     '?'}
-                  </span>
-                )}
-              </Link>
-              <div
-                className="absolute top-12 right-0 px-3 py-2 rounded-lg text-xs font-semibold whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"
-                style={{
-                  backgroundColor: 'rgba(75, 0, 130, 0.95)',
-                  color: '#C0C0C0',
-                  border: '1px solid rgba(192, 192, 192, 0.3)',
-                  backdropFilter: 'blur(10px)',
-                }}
-              >
-                View my games
-              </div>
-            </div>
-          ) : (
-            <button
-              onClick={signInWithGoogle}
-              className="px-3 py-2 rounded-lg text-xs font-semibold transition-all hover:scale-105"
+        {authLoading ? (
+          <div
+            className="w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold animate-pulse"
+            style={{
+              backgroundColor: 'rgba(75, 0, 130, 0.8)',
+              color: '#C0C0C0',
+              border: '2px solid rgba(192, 192, 192, 0.5)',
+              backdropFilter: 'blur(10px)',
+            }}
+          >
+            ⋯
+          </div>
+        ) : user ? (
+          <div className="relative group">
+            <Link
+              href="/games"
+              className="w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold transition-all overflow-hidden block"
               style={{
-                backgroundColor: 'rgba(75, 0, 130, 0.5)',
+                backgroundColor: 'rgba(75, 0, 130, 0.8)',
+                color: '#C0C0C0',
+                border: '2px solid rgba(192, 192, 192, 0.5)',
+                backdropFilter: 'blur(10px)',
+              }}
+            >
+              {(user.user_metadata?.avatar_url || user.user_metadata?.picture) ? (
+                <img
+                  src={user.user_metadata?.picture || user.user_metadata?.avatar_url}
+                  alt="User avatar"
+                  className="w-full h-full object-cover"
+                />
+              ) : (
+                <span>
+                  {user.user_metadata?.full_name?.[0]?.toUpperCase() ||
+                   user.user_metadata?.name?.[0]?.toUpperCase() ||
+                   user.email?.[0]?.toUpperCase() ||
+                   '?'}
+                </span>
+              )}
+            </Link>
+            <div
+              className="absolute top-12 right-0 px-3 py-2 rounded-lg text-xs font-semibold whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"
+              style={{
+                backgroundColor: 'rgba(75, 0, 130, 0.95)',
                 color: '#C0C0C0',
                 border: '1px solid rgba(192, 192, 192, 0.3)',
                 backdropFilter: 'blur(10px)',
               }}
             >
-              Sign In
-            </button>
-          )
+              View my games
+            </div>
+          </div>
+        ) : (
+          <button
+            onClick={signInWithGoogle}
+            className="px-3 py-2 rounded-lg text-xs font-semibold transition-all hover:scale-105"
+            style={{
+              backgroundColor: 'rgba(75, 0, 130, 0.5)',
+              color: '#C0C0C0',
+              border: '1px solid rgba(192, 192, 192, 0.3)',
+              backdropFilter: 'blur(10px)',
+            }}
+          >
+            Sign In
+          </button>
         )}
       </div>
 
