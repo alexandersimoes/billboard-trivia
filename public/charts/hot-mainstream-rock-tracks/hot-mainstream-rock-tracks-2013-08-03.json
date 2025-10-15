@@ -1,0 +1,365 @@
+{
+  "date": "2013-08-03",
+  "data": [
+    {
+      "song": "Trenches",
+      "artist": "Pop Evil",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Lift Me Up",
+      "artist": "Five Finger Death Punch Featuring Rob Halford",
+      "this_week": 2,
+      "last_week": 3,
+      "peak_position": 2,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Out Of Time",
+      "artist": "Stone Temple Pilots With Chester Bennington",
+      "this_week": 3,
+      "last_week": 5,
+      "peak_position": 3,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Stone",
+      "artist": "Alice in Chains",
+      "this_week": 4,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "The Hangman's Body Count",
+      "artist": "Volbeat",
+      "this_week": 5,
+      "last_week": 4,
+      "peak_position": 1,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Swerve City",
+      "artist": "Deftones",
+      "this_week": 6,
+      "last_week": 6,
+      "peak_position": 6,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Came Back Haunted",
+      "artist": "Nine Inch Nails",
+      "this_week": 7,
+      "last_week": 7,
+      "peak_position": 7,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Howl",
+      "artist": "Beware Of Darkness",
+      "this_week": 8,
+      "last_week": 9,
+      "peak_position": 8,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Hail To The King",
+      "artist": "Avenged Sevenfold",
+      "this_week": 9,
+      "last_week": null,
+      "peak_position": 9,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "There's No Going Back",
+      "artist": "Sick Puppies",
+      "this_week": 10,
+      "last_week": 10,
+      "peak_position": 10,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Mind Your Manners",
+      "artist": "Pearl Jam",
+      "this_week": 11,
+      "last_week": 23,
+      "peak_position": 11,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Sick Of It",
+      "artist": "Skillet",
+      "this_week": 12,
+      "last_week": 11,
+      "peak_position": 11,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "I'll Follow You",
+      "artist": "Shinedown",
+      "this_week": 13,
+      "last_week": 8,
+      "peak_position": 2,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Radioactive",
+      "artist": "Imagine Dragons",
+      "this_week": 14,
+      "last_week": 12,
+      "peak_position": 11,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Beautiful",
+      "artist": "P.O.D.",
+      "this_week": 15,
+      "last_week": 14,
+      "peak_position": 14,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Asking Too Much",
+      "artist": "All That Remains",
+      "this_week": 16,
+      "last_week": 15,
+      "peak_position": 14,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "What Do You Say",
+      "artist": "Filter",
+      "this_week": 17,
+      "last_week": 16,
+      "peak_position": 16,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Here's To Us",
+      "artist": "Halestorm",
+      "this_week": 18,
+      "last_week": 17,
+      "peak_position": 17,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Halfway There",
+      "artist": "Soundgarden",
+      "this_week": 19,
+      "last_week": 18,
+      "peak_position": 18,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Misery Loves My Company",
+      "artist": "Three Days Grace",
+      "this_week": 20,
+      "last_week": 19,
+      "peak_position": 19,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Fire, Fire",
+      "artist": "Heaven's Basement",
+      "this_week": 21,
+      "last_week": 20,
+      "peak_position": 20,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Leader Of The Broken Hearts",
+      "artist": "Papa Roach",
+      "this_week": 22,
+      "last_week": 21,
+      "peak_position": 21,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Good Man",
+      "artist": "Devour The Day",
+      "this_week": 23,
+      "last_week": 22,
+      "peak_position": 22,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "We're An American Band",
+      "artist": "Rob Zombie",
+      "this_week": 24,
+      "last_week": 24,
+      "peak_position": 24,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "That Day",
+      "artist": "Nonpoint",
+      "this_week": 25,
+      "last_week": 26,
+      "peak_position": 25,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Born To Rise",
+      "artist": "Redlight King",
+      "this_week": 26,
+      "last_week": 28,
+      "peak_position": 26,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "You're Insane",
+      "artist": "Escape The Fate",
+      "this_week": 27,
+      "last_week": 25,
+      "peak_position": 25,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "You Think You Know",
+      "artist": "Device",
+      "this_week": 28,
+      "last_week": 29,
+      "peak_position": 28,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "The Death Of Me",
+      "artist": "Asking Alexandria",
+      "this_week": 29,
+      "last_week": 30,
+      "peak_position": 29,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "America",
+      "artist": "Motionless in White",
+      "this_week": 30,
+      "last_week": 34,
+      "peak_position": 30,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Towers (On My Way)",
+      "artist": "Young Guns",
+      "this_week": 31,
+      "last_week": 31,
+      "peak_position": 31,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Burn It Down",
+      "artist": "Mindset Evolution",
+      "this_week": 32,
+      "last_week": 33,
+      "peak_position": 32,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Love Hate Relationship",
+      "artist": "Trapt",
+      "this_week": 33,
+      "last_week": 32,
+      "peak_position": 32,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "God Is Dead?",
+      "artist": "Black Sabbath",
+      "this_week": 34,
+      "last_week": 27,
+      "peak_position": 7,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Keep On Swinging",
+      "artist": "Rival Sons",
+      "this_week": 35,
+      "last_week": 36,
+      "peak_position": 35,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Aunt Betty",
+      "artist": "Middle Class Rut",
+      "this_week": 36,
+      "last_week": 37,
+      "peak_position": 31,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Breaking Point",
+      "artist": "Bullet for My Valentine",
+      "this_week": 37,
+      "last_week": 39,
+      "peak_position": 37,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Go To Hell, For Heaven's Sake",
+      "artist": "Bring Me the Horizon",
+      "this_week": 38,
+      "last_week": 38,
+      "peak_position": 37,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Up In The Air",
+      "artist": "Thirty Seconds To Mars",
+      "this_week": 39,
+      "last_week": 35,
+      "peak_position": 22,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "First Of The Last",
+      "artist": "Fight Or Flight",
+      "this_week": 40,
+      "last_week": null,
+      "peak_position": 40,
+      "weeks_on_chart": 1,
+      "new": true
+    }
+  ]
+}

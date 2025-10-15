@@ -1,0 +1,365 @@
+{
+  "date": "1987-01-24",
+  "data": [
+    {
+      "song": "My Baby",
+      "artist": "Pretenders",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Livin' On A Prayer",
+      "artist": "Bon Jovi",
+      "this_week": 2,
+      "last_week": 4,
+      "peak_position": 2,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Big Time",
+      "artist": "Peter Gabriel",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 3,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Smoking Gun",
+      "artist": "The Robert Cray Band",
+      "this_week": 4,
+      "last_week": 8,
+      "peak_position": 4,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "The Best Man In The World",
+      "artist": "Ann Wilson",
+      "this_week": 5,
+      "last_week": 9,
+      "peak_position": 5,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "On The Western Skyline",
+      "artist": "Bruce Hornsby",
+      "this_week": 6,
+      "last_week": 6,
+      "peak_position": 6,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "I Wanna Go Back",
+      "artist": "Eddie Money",
+      "this_week": 7,
+      "last_week": 13,
+      "peak_position": 7,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Tearing Us Apart",
+      "artist": "Eric Clapton",
+      "this_week": 8,
+      "last_week": 11,
+      "peak_position": 8,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "It's In The Way You Use It",
+      "artist": "Eric Clapton",
+      "this_week": 9,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Don't Need A Gun",
+      "artist": "Billy Idol",
+      "this_week": 10,
+      "last_week": 10,
+      "peak_position": 10,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Keep Your Hands To Yourself",
+      "artist": "The Georgia Satellites",
+      "this_week": 11,
+      "last_week": 5,
+      "peak_position": 2,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "America",
+      "artist": "KBC Band",
+      "this_week": 12,
+      "last_week": 14,
+      "peak_position": 12,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Cool The Engines",
+      "artist": "Boston",
+      "this_week": 13,
+      "last_week": 7,
+      "peak_position": 4,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Ship Of Fools (Save Me From Tomorrow)",
+      "artist": "World Party",
+      "this_week": 14,
+      "last_week": 18,
+      "peak_position": 14,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Jacob's Ladder",
+      "artist": "Huey Lewis & The News",
+      "this_week": 15,
+      "last_week": 17,
+      "peak_position": 10,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Working At The Factory",
+      "artist": "The Kinks",
+      "this_week": 16,
+      "last_week": 20,
+      "peak_position": 16,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Nobody But You Baby",
+      "artist": "Steve Miller",
+      "this_week": 17,
+      "last_week": 27,
+      "peak_position": 17,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Bad Attitude",
+      "artist": "Deep Purple",
+      "this_week": 18,
+      "last_week": 28,
+      "peak_position": 18,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Golden Ball And Chain",
+      "artist": "Jason & The Scorchers",
+      "this_week": 19,
+      "last_week": 16,
+      "peak_position": 16,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Standing On Higher Ground",
+      "artist": "The Alan Parsons Project",
+      "this_week": 20,
+      "last_week": null,
+      "peak_position": 20,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "We're Ready",
+      "artist": "Boston",
+      "this_week": 21,
+      "last_week": 15,
+      "peak_position": 2,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "The Final Countdown",
+      "artist": "Europe",
+      "this_week": 22,
+      "last_week": 30,
+      "peak_position": 22,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Behind The Wall Of Sleep",
+      "artist": "The Smithereens",
+      "this_week": 23,
+      "last_week": 23,
+      "peak_position": 23,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "I Want To Make The World",
+      "artist": "Steve Miller",
+      "this_week": 24,
+      "last_week": 12,
+      "peak_position": 1,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Mandolin Rain",
+      "artist": "Bruce Hornsby & The Range",
+      "this_week": 25,
+      "last_week": null,
+      "peak_position": 25,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "I'll Be Alright Without You",
+      "artist": "Journey",
+      "this_week": 26,
+      "last_week": 32,
+      "peak_position": 26,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Shakin' Shakin' Shakes",
+      "artist": "Los Lobos",
+      "this_week": 27,
+      "last_week": 43,
+      "peak_position": 27,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Room Full Of Mirrors",
+      "artist": "Pretenders",
+      "this_week": 28,
+      "last_week": 29,
+      "peak_position": 28,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "True To You",
+      "artist": "Ric Ocasek",
+      "this_week": 29,
+      "last_week": 21,
+      "peak_position": 9,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Real Wild Child",
+      "artist": "Iggy Pop",
+      "this_week": 30,
+      "last_week": 34,
+      "peak_position": 30,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Stay The Night",
+      "artist": "Benjamin Orr",
+      "this_week": 31,
+      "last_week": 19,
+      "peak_position": 6,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Ain't So Easy",
+      "artist": "David & David",
+      "this_week": 32,
+      "last_week": 38,
+      "peak_position": 32,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Fire",
+      "artist": "Bruce Springsteen",
+      "this_week": 33,
+      "last_week": 25,
+      "peak_position": 14,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Because The Night",
+      "artist": "Bruce Springsteen",
+      "this_week": 34,
+      "last_week": 22,
+      "peak_position": 22,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Life Is Hard",
+      "artist": "Timbuk 3",
+      "this_week": 35,
+      "last_week": 35,
+      "peak_position": 35,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Wanted Dead Or Alive",
+      "artist": "Bon Jovi",
+      "this_week": 36,
+      "last_week": 33,
+      "peak_position": 13,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Battleship Chains",
+      "artist": "The Georgia Satellites",
+      "this_week": 37,
+      "last_week": null,
+      "peak_position": 37,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Who Owns This Place",
+      "artist": "Don Henley",
+      "this_week": 38,
+      "last_week": 24,
+      "peak_position": 3,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Nobody's Fool",
+      "artist": "Cinderella",
+      "this_week": 39,
+      "last_week": 42,
+      "peak_position": 39,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Power",
+      "artist": "Kansas",
+      "this_week": 40,
+      "last_week": null,
+      "peak_position": 40,
+      "weeks_on_chart": 1,
+      "new": true
+    }
+  ]
+}

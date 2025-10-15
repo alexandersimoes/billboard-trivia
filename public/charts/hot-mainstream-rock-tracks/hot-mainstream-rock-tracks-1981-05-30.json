@@ -1,0 +1,365 @@
+{
+  "date": "1981-05-30",
+  "data": [
+    {
+      "song": "The Waiting",
+      "artist": "Tom Petty And The Heartbreakers",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "In The Air Tonight",
+      "artist": "Phil Collins",
+      "this_week": 2,
+      "last_week": 3,
+      "peak_position": 2,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Find Your Way Back",
+      "artist": "Jefferson Starship",
+      "this_week": 3,
+      "last_week": 6,
+      "peak_position": 3,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Winning",
+      "artist": "Santana",
+      "this_week": 4,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "A Life Of Illusion",
+      "artist": "Joe Walsh",
+      "this_week": 5,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Another Tricky Day",
+      "artist": "The Who",
+      "this_week": 6,
+      "last_week": 8,
+      "peak_position": 6,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Bette Davis Eyes",
+      "artist": "Kim Carnes",
+      "this_week": 7,
+      "last_week": 5,
+      "peak_position": 5,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "This Little Girl",
+      "artist": "Gary U.S. Bonds",
+      "this_week": 8,
+      "last_week": 11,
+      "peak_position": 6,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Dirty Deeds Done Dirt Cheap",
+      "artist": "AC/DC",
+      "this_week": 9,
+      "last_week": 9,
+      "peak_position": 4,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Jessie's Girl",
+      "artist": "Rick Springfield",
+      "this_week": 10,
+      "last_week": 19,
+      "peak_position": 10,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Crazy Train",
+      "artist": "Ozzy Osbourne",
+      "this_week": 11,
+      "last_week": 21,
+      "peak_position": 11,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "The Stroke",
+      "artist": "Billy Squier",
+      "this_week": 12,
+      "last_week": 17,
+      "peak_position": 12,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "MESSAGE OF LOVE",
+      "artist": "Pretenders",
+      "this_week": 13,
+      "last_week": 7,
+      "peak_position": 5,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Tom Sawyer",
+      "artist": "Rush",
+      "this_week": 14,
+      "last_week": 12,
+      "peak_position": 8,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "You Better You Bet",
+      "artist": "The Who",
+      "this_week": 15,
+      "last_week": 10,
+      "peak_position": 1,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "The Breakup Song (They Don't Write 'Em)",
+      "artist": "Greg Kihn Band",
+      "this_week": 16,
+      "last_week": 14,
+      "peak_position": 14,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Hold On Loosely",
+      "artist": "38 Special",
+      "this_week": 17,
+      "last_week": 15,
+      "peak_position": 3,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "A Woman In Love (It's Not Me)",
+      "artist": "Tom Petty And The Heartbreakers",
+      "this_week": 18,
+      "last_week": 13,
+      "peak_position": 13,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "I Missed Again",
+      "artist": "Phil Collins",
+      "this_week": 19,
+      "last_week": 20,
+      "peak_position": 8,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Almost Saturday Night",
+      "artist": "Dave Edmunds",
+      "this_week": 20,
+      "last_week": 24,
+      "peak_position": 20,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Too Much Time On My Hands",
+      "artist": "Styx",
+      "this_week": 21,
+      "last_week": 18,
+      "peak_position": 2,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Limelight",
+      "artist": "Rush",
+      "this_week": 22,
+      "last_week": 23,
+      "peak_position": 4,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Arc Of A Diver",
+      "artist": "Steve Winwood",
+      "this_week": 23,
+      "last_week": 22,
+      "peak_position": 11,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Stranger",
+      "artist": "Jefferson Starship",
+      "this_week": 24,
+      "last_week": 32,
+      "peak_position": 22,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Mean Street",
+      "artist": "Van Halen",
+      "this_week": 25,
+      "last_week": 54,
+      "peak_position": 25,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Nightwatchman",
+      "artist": "Tom Petty And The Heartbreakers",
+      "this_week": 26,
+      "last_week": 57,
+      "peak_position": 26,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Turn Me Loose",
+      "artist": "Loverboy",
+      "this_week": 27,
+      "last_week": 28,
+      "peak_position": 6,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Searchin'",
+      "artist": "Santana",
+      "this_week": 28,
+      "last_week": 30,
+      "peak_position": 26,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Sweetheart",
+      "artist": "Franke & The Knockouts",
+      "this_week": 29,
+      "last_week": 36,
+      "peak_position": 27,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "IN THE DARK",
+      "artist": "Billy Squier",
+      "this_week": 30,
+      "last_week": 29,
+      "peak_position": 25,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Antmusic",
+      "artist": "Adam And The Ants",
+      "this_week": 31,
+      "last_week": 39,
+      "peak_position": 14,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "My Baby",
+      "artist": "Cold Chisel",
+      "this_week": 32,
+      "last_week": 58,
+      "peak_position": 32,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "So This Is Love?",
+      "artist": "Van Halen",
+      "this_week": 33,
+      "last_week": null,
+      "peak_position": 33,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Take It On The Run",
+      "artist": "REO Speedwagon",
+      "this_week": 34,
+      "last_week": 16,
+      "peak_position": 6,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "History Never Repeats",
+      "artist": "Split Enz",
+      "this_week": 35,
+      "last_week": 41,
+      "peak_position": 35,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Jolé Blon",
+      "artist": "Gary U.S. Bonds",
+      "this_week": 36,
+      "last_week": 33,
+      "peak_position": 29,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "I Can't Stand It",
+      "artist": "Eric Clapton And His Band",
+      "this_week": 37,
+      "last_week": 26,
+      "peak_position": 1,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Mercury Blues",
+      "artist": "David Lindley",
+      "this_week": 38,
+      "last_week": 34,
+      "peak_position": 34,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Rock And Roll Dreams Come Through",
+      "artist": "Jim Steinman",
+      "this_week": 39,
+      "last_week": null,
+      "peak_position": 39,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Little Sister",
+      "artist": "Rockpile With Robert Plant",
+      "this_week": 40,
+      "last_week": 25,
+      "peak_position": 8,
+      "weeks_on_chart": 7,
+      "new": false
+    }
+  ]
+}

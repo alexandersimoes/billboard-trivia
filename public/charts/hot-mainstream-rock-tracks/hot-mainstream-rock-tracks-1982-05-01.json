@@ -1,0 +1,365 @@
+{
+  "date": "1982-05-01",
+  "data": [
+    {
+      "song": "HEAT OF THE MOMENT",
+      "artist": "Asia",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "867-5309/JENNY",
+      "artist": "Tommy Tutone",
+      "this_week": 2,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "NO ONE LIKE YOU",
+      "artist": "Scorpions",
+      "this_week": 3,
+      "last_week": 4,
+      "peak_position": 3,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "STILL IN SAIGON",
+      "artist": "The Charlie Daniels Band",
+      "this_week": 4,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "STONE COLD",
+      "artist": "Rainbow",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 5,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "DON't YOU WANT ME",
+      "artist": "The Human League",
+      "this_week": 6,
+      "last_week": 14,
+      "peak_position": 6,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Fantasy",
+      "artist": "Aldo Nova",
+      "this_week": 7,
+      "last_week": 7,
+      "peak_position": 3,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "TESTIFY",
+      "artist": "Greg Kihn",
+      "this_week": 8,
+      "last_week": 21,
+      "peak_position": 8,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "CRIMSON AND CLOVER",
+      "artist": "Joan Jett & The Blackhearts",
+      "this_week": 9,
+      "last_week": 13,
+      "peak_position": 6,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Cat People (Putting Out Fire)",
+      "artist": "David Bowie",
+      "this_week": 10,
+      "last_week": 9,
+      "peak_position": 9,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "(Oh) Pretty Woman",
+      "artist": "Van Halen",
+      "this_week": 11,
+      "last_week": 6,
+      "peak_position": 1,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "ROSANNA",
+      "artist": "Toto",
+      "this_week": 12,
+      "last_week": 27,
+      "peak_position": 12,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Do You Believe In Love",
+      "artist": "Huey Lewis & The News",
+      "this_week": 13,
+      "last_week": 12,
+      "peak_position": 12,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Man On The Corner",
+      "artist": "Genesis",
+      "this_week": 14,
+      "last_week": 47,
+      "peak_position": 14,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "CALLING ALL GIRLS",
+      "artist": "Rick Springfield",
+      "this_week": 15,
+      "last_week": 19,
+      "peak_position": 4,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "RIGHT THE FIRST TIME",
+      "artist": "Gamma",
+      "this_week": 16,
+      "last_week": 10,
+      "peak_position": 10,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "TAINTED LOVE",
+      "artist": "Soft Cell",
+      "this_week": 17,
+      "last_week": 20,
+      "peak_position": 17,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "I'LL DRINK TO YOU",
+      "artist": "Duke Jupiter",
+      "this_week": 18,
+      "last_week": 25,
+      "peak_position": 18,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Hurts So Good",
+      "artist": "John Cougar",
+      "this_week": 19,
+      "last_week": null,
+      "peak_position": 19,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Freeze-frame",
+      "artist": "The J. Geils Band",
+      "this_week": 20,
+      "last_week": 16,
+      "peak_position": 8,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "WHEN IT's OVER",
+      "artist": "Loverboy",
+      "this_week": 21,
+      "last_week": 37,
+      "peak_position": 21,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "CRANK IT UP",
+      "artist": "The Dregs",
+      "this_week": 22,
+      "last_week": 22,
+      "peak_position": 22,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "SOLE SURVIVOR",
+      "artist": "Asia",
+      "this_week": 23,
+      "last_week": 23,
+      "peak_position": 23,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "DON't TALK TO STRANGERS",
+      "artist": "Rick Springfield",
+      "this_week": 24,
+      "last_week": 11,
+      "peak_position": 11,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "I Love Rock 'N' Roll",
+      "artist": "Joan Jett & The Blackhearts",
+      "this_week": 25,
+      "last_week": 17,
+      "peak_position": 1,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "ONLY TIME WILL TELL",
+      "artist": "Asia",
+      "this_week": 26,
+      "last_week": null,
+      "peak_position": 26,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "On A Roll",
+      "artist": "Point Blank",
+      "this_week": 27,
+      "last_week": 41,
+      "peak_position": 27,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Caught Up In You",
+      "artist": "38 Special",
+      "this_week": 28,
+      "last_week": null,
+      "peak_position": 28,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "WORKIN' FOR A LIVIN'",
+      "artist": "Huey Lewis & The News",
+      "this_week": 29,
+      "last_week": 46,
+      "peak_position": 20,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "LONG STICK GOES BOOM",
+      "artist": "Krokus",
+      "this_week": 30,
+      "last_week": null,
+      "peak_position": 30,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "There's Only One Way To Rock",
+      "artist": "Sammy Hagar",
+      "this_week": 31,
+      "last_week": 50,
+      "peak_position": 31,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Roadhouse Blues",
+      "artist": "Blue +yster Cult",
+      "this_week": 32,
+      "last_week": null,
+      "peak_position": 32,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "ONLY THE LONELY",
+      "artist": "The Motels",
+      "this_week": 33,
+      "last_week": null,
+      "peak_position": 33,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "White Noise",
+      "artist": "Jay Ferguson",
+      "this_week": 34,
+      "last_week": 58,
+      "peak_position": 34,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "FROM SMALL THINGS BIG THINGS WILL COME",
+      "artist": "Dave Edmunds",
+      "this_week": 35,
+      "last_week": null,
+      "peak_position": 35,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "FITS YOU GOOD",
+      "artist": "Bryan Adams",
+      "this_week": 36,
+      "last_week": 33,
+      "peak_position": 33,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "TAKE THE 'L'",
+      "artist": "The Motels",
+      "this_week": 37,
+      "last_week": null,
+      "peak_position": 37,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "NEVER HAD IT BETTER",
+      "artist": "Franke & The Knockouts",
+      "this_week": 38,
+      "last_week": 44,
+      "peak_position": 38,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Ebony And Ivory",
+      "artist": "Paul McCartney And Stevie Wonder",
+      "this_week": 39,
+      "last_week": 34,
+      "peak_position": 34,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Don't Let Him Know",
+      "artist": "Prism",
+      "this_week": 40,
+      "last_week": 8,
+      "peak_position": 1,
+      "weeks_on_chart": 15,
+      "new": false
+    }
+  ]
+}

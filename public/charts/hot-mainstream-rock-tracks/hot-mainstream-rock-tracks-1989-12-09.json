@@ -1,0 +1,365 @@
+{
+  "date": "1989-12-09",
+  "data": [
+    {
+      "song": "Pretending",
+      "artist": "Eric Clapton",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Fool For Your Loving",
+      "artist": "Whitesnake",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "A Girl Like You",
+      "artist": "The Smithereens",
+      "this_week": 3,
+      "last_week": 4,
+      "peak_position": 3,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Show Don't Tell",
+      "artist": "Rush",
+      "this_week": 4,
+      "last_week": 3,
+      "peak_position": 3,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Just Between You And Me",
+      "artist": "Lou Gramm",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 4,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Downtown Train",
+      "artist": "Rod Stewart",
+      "this_week": 6,
+      "last_week": 11,
+      "peak_position": 6,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Another Day In Paradise",
+      "artist": "Phil Collins",
+      "this_week": 7,
+      "last_week": 7,
+      "peak_position": 7,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Janie's Got A Gun",
+      "artist": "Aerosmith",
+      "this_week": 8,
+      "last_week": 6,
+      "peak_position": 2,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "I Can't Explain",
+      "artist": "Scorpions",
+      "this_week": 9,
+      "last_week": 13,
+      "peak_position": 9,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Wait For You",
+      "artist": "Bonham",
+      "this_week": 10,
+      "last_week": 9,
+      "peak_position": 9,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Love Song",
+      "artist": "Tesla",
+      "this_week": 11,
+      "last_week": 14,
+      "peak_position": 11,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Terrifying",
+      "artist": "The Rolling Stones",
+      "this_week": 12,
+      "last_week": 16,
+      "peak_position": 12,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Peace In Our Time",
+      "artist": "Eddie Money",
+      "this_week": 13,
+      "last_week": 26,
+      "peak_position": 13,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Foolish Heart",
+      "artist": "Grateful Dead",
+      "this_week": 14,
+      "last_week": 8,
+      "peak_position": 8,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Rock And A Hard Place",
+      "artist": "The Rolling Stones",
+      "this_week": 15,
+      "last_week": 10,
+      "peak_position": 1,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Rockin' In The Free World",
+      "artist": "Neil Young",
+      "this_week": 16,
+      "last_week": 12,
+      "peak_position": 2,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Big Bad Moon",
+      "artist": "Joe Satriani",
+      "this_week": 17,
+      "last_week": 17,
+      "peak_position": 17,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Don't Close Your Eyes",
+      "artist": "Kix",
+      "this_week": 18,
+      "last_week": 20,
+      "peak_position": 16,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Love Is A Long Road",
+      "artist": "Tom Petty",
+      "this_week": 19,
+      "last_week": 15,
+      "peak_position": 7,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Let Me Go",
+      "artist": "Melissa Etheridge",
+      "this_week": 20,
+      "last_week": 28,
+      "peak_position": 20,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Kickstart My Heart",
+      "artist": "Motley Crue",
+      "this_week": 21,
+      "last_week": 23,
+      "peak_position": 21,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Hide Your Heart",
+      "artist": "Kiss",
+      "this_week": 22,
+      "last_week": 25,
+      "peak_position": 22,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Everything You Do",
+      "artist": "Fiona (Duet With Kip Winger)",
+      "this_week": 23,
+      "last_week": 22,
+      "peak_position": 22,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "How Do I Get Close",
+      "artist": "The Kinks",
+      "this_week": 24,
+      "last_week": 21,
+      "peak_position": 21,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Bad Love",
+      "artist": "Eric Clapton",
+      "this_week": 25,
+      "last_week": 29,
+      "peak_position": 25,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "500 Miles",
+      "artist": "Hooters",
+      "this_week": 26,
+      "last_week": 27,
+      "peak_position": 26,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Sold Me Down The River",
+      "artist": "The Alarm",
+      "this_week": 27,
+      "last_week": 19,
+      "peak_position": 2,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "The Last Worthless Evening",
+      "artist": "Don Henley",
+      "this_week": 28,
+      "last_week": 18,
+      "peak_position": 4,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "F.I.N.E.",
+      "artist": "Aerosmith",
+      "this_week": 29,
+      "last_week": 31,
+      "peak_position": 29,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "If Dirt Were Dollars",
+      "artist": "Don Henley",
+      "this_week": 30,
+      "last_week": 49,
+      "peak_position": 30,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Devolution Workin' Man Blues",
+      "artist": "The Alarm",
+      "this_week": 31,
+      "last_week": 38,
+      "peak_position": 31,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Anytime",
+      "artist": "McAuley Schenker Group",
+      "this_week": 32,
+      "last_week": 43,
+      "peak_position": 32,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Run Straight Down",
+      "artist": "Warren Zevon",
+      "this_week": 33,
+      "last_week": 30,
+      "peak_position": 30,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Judgment Day",
+      "artist": "Whitesnake",
+      "this_week": 34,
+      "last_week": 39,
+      "peak_position": 34,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Let Love Rule",
+      "artist": "Lenny Kravitz",
+      "this_week": 35,
+      "last_week": 41,
+      "peak_position": 35,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Too Hot",
+      "artist": "Loverboy",
+      "this_week": 36,
+      "last_week": 50,
+      "peak_position": 36,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Free Fallin'",
+      "artist": "Tom Petty",
+      "this_week": 37,
+      "last_week": 32,
+      "peak_position": 1,
+      "weeks_on_chart": 28,
+      "new": false
+    },
+    {
+      "song": "That's Not Her Style",
+      "artist": "Billy Joel",
+      "this_week": 38,
+      "last_week": 42,
+      "peak_position": 38,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Higher Ground",
+      "artist": "Red Hot Chili Peppers",
+      "this_week": 39,
+      "last_week": 46,
+      "peak_position": 39,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "I Remember You",
+      "artist": "Skid Row",
+      "this_week": 40,
+      "last_week": 47,
+      "peak_position": 40,
+      "weeks_on_chart": 10,
+      "new": false
+    }
+  ]
+}

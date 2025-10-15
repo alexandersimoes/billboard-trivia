@@ -1,0 +1,365 @@
+{
+  "date": "2023-07-08",
+  "data": [
+    {
+      "song": "72 Seasons",
+      "artist": "Metallica",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Rescued",
+      "artist": "Foo Fighters",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Need A Favor",
+      "artist": "Jelly Roll",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 3,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Lowest In Me",
+      "artist": "Staind",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Nobody",
+      "artist": "Avenged Sevenfold",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 4,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Deep End",
+      "artist": "I Prevail",
+      "this_week": 6,
+      "last_week": 6,
+      "peak_position": 6,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Another Celebration At The End Of The World",
+      "artist": "Mammoth WVH",
+      "this_week": 7,
+      "last_week": 7,
+      "peak_position": 7,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Unstoppable",
+      "artist": "Disturbed",
+      "this_week": 8,
+      "last_week": 9,
+      "peak_position": 8,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Hate Me Too",
+      "artist": "From Ashes To New",
+      "this_week": 9,
+      "last_week": 8,
+      "peak_position": 8,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "The Dirt I'm Buried In",
+      "artist": "Avatar",
+      "this_week": 10,
+      "last_week": 11,
+      "peak_position": 10,
+      "weeks_on_chart": 23,
+      "new": false
+    },
+    {
+      "song": "Blood In The Water",
+      "artist": "Ayron Jones",
+      "this_week": 11,
+      "last_week": 10,
+      "peak_position": 10,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Lost",
+      "artist": "Linkin Park",
+      "this_week": 12,
+      "last_week": 12,
+      "peak_position": 1,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Jesus He Knows Me",
+      "artist": "Ghost",
+      "this_week": 13,
+      "last_week": 14,
+      "peak_position": 13,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Meeting The Master",
+      "artist": "Greta Van Fleet",
+      "this_week": 14,
+      "last_week": 13,
+      "peak_position": 12,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "The Death Of Peace Of Mind",
+      "artist": "Bad Omens",
+      "this_week": 15,
+      "last_week": 15,
+      "peak_position": 15,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Beyond",
+      "artist": "Corey Taylor",
+      "this_week": 16,
+      "last_week": 16,
+      "peak_position": 16,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "All Things Must Change",
+      "artist": "Bush",
+      "this_week": 17,
+      "last_week": 17,
+      "peak_position": 17,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Watch Me Burn",
+      "artist": "Atreyu",
+      "this_week": 18,
+      "last_week": 18,
+      "peak_position": 17,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Psycho In My Head",
+      "artist": "Skillet",
+      "this_week": 19,
+      "last_week": 20,
+      "peak_position": 19,
+      "weeks_on_chart": 25,
+      "new": false
+    },
+    {
+      "song": "Skeletons",
+      "artist": "Pop Evil",
+      "this_week": 20,
+      "last_week": 22,
+      "peak_position": 20,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Everything",
+      "artist": "Sevendust",
+      "this_week": 21,
+      "last_week": 21,
+      "peak_position": 21,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Black Thunder",
+      "artist": "The Hu Featuring Serj Tankian & Daniel \"DL\" Laskiewicz",
+      "this_week": 22,
+      "last_week": 23,
+      "peak_position": 22,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Soul On Fire",
+      "artist": "Godsmack",
+      "this_week": 23,
+      "last_week": 19,
+      "peak_position": 2,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Sold Out",
+      "artist": "HARDY",
+      "this_week": 24,
+      "last_week": 26,
+      "peak_position": 24,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Lost",
+      "artist": "Bring Me the Horizon",
+      "this_week": 25,
+      "last_week": 27,
+      "peak_position": 25,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Empires",
+      "artist": "The Smashing Pumpkins",
+      "this_week": 26,
+      "last_week": 24,
+      "peak_position": 24,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Psycho",
+      "artist": "Asking Alexandria",
+      "this_week": 27,
+      "last_week": 37,
+      "peak_position": 27,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Full Disclosure",
+      "artist": "Otherwise",
+      "this_week": 28,
+      "last_week": 25,
+      "peak_position": 24,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Those Days",
+      "artist": "Nickelback",
+      "this_week": 29,
+      "last_week": 28,
+      "peak_position": 23,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Victorious",
+      "artist": "Nita Strauss & DOROTHY",
+      "this_week": 30,
+      "last_week": 31,
+      "peak_position": 30,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Punching Bag",
+      "artist": "Set It Off",
+      "this_week": 31,
+      "last_week": 29,
+      "peak_position": 29,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Safe And Sound",
+      "artist": "Point North x The Ghost Inside",
+      "this_week": 32,
+      "last_week": 32,
+      "peak_position": 32,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Never Ending Moment",
+      "artist": "Des Rocs",
+      "this_week": 33,
+      "last_week": 33,
+      "peak_position": 33,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Numb",
+      "artist": "Sleep Theory",
+      "this_week": 34,
+      "last_week": null,
+      "peak_position": 34,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Two Of Us (Stuck)",
+      "artist": "Theory Of A Deadman",
+      "this_week": 35,
+      "last_week": 35,
+      "peak_position": 34,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Contraband",
+      "artist": "GXTP Featuring Tommy Lee",
+      "this_week": 36,
+      "last_week": 34,
+      "peak_position": 34,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Nervous",
+      "artist": "Black Stone Cherry",
+      "this_week": 37,
+      "last_week": null,
+      "peak_position": 37,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Churn",
+      "artist": "Cairo Knife Fight",
+      "this_week": 38,
+      "last_week": 38,
+      "peak_position": 37,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Together Right",
+      "artist": "Finger Eleven",
+      "this_week": 39,
+      "last_week": 40,
+      "peak_position": 39,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Gimme That Boom",
+      "artist": "Skindred",
+      "this_week": 40,
+      "last_week": null,
+      "peak_position": 40,
+      "weeks_on_chart": 1,
+      "new": true
+    }
+  ]
+}

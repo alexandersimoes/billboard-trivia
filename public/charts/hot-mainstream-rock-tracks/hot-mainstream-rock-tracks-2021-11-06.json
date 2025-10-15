@@ -1,0 +1,365 @@
+{
+  "date": "2021-11-06",
+  "data": [
+    {
+      "song": "Back From The Dead",
+      "artist": "Halestorm",
+      "this_week": 1,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Wasteland",
+      "artist": "Seether",
+      "this_week": 2,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Kill The Noise",
+      "artist": "Papa Roach",
+      "this_week": 3,
+      "last_week": 5,
+      "peak_position": 3,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Alone Again",
+      "artist": "Asking Alexandria",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Survivor",
+      "artist": "Pop Evil",
+      "this_week": 5,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Supercharged",
+      "artist": "Ayron Jones",
+      "this_week": 6,
+      "last_week": 7,
+      "peak_position": 6,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Lifeline",
+      "artist": "Bad Wolves",
+      "this_week": 7,
+      "last_week": 6,
+      "peak_position": 6,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Sane",
+      "artist": "Fozzy",
+      "this_week": 8,
+      "last_week": 8,
+      "peak_position": 8,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Hunter's Moon",
+      "artist": "Ghost",
+      "this_week": 9,
+      "last_week": 15,
+      "peak_position": 9,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Hard Skool",
+      "artist": "Guns N' Roses",
+      "this_week": 10,
+      "last_week": 13,
+      "peak_position": 10,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Shotgun Blues",
+      "artist": "Volbeat",
+      "this_week": 11,
+      "last_week": 14,
+      "peak_position": 11,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Built By Nations",
+      "artist": "Greta Van Fleet",
+      "this_week": 12,
+      "last_week": 12,
+      "peak_position": 12,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Don't Hate Me",
+      "artist": "Badflower",
+      "this_week": 13,
+      "last_week": 11,
+      "peak_position": 11,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Making A Fire",
+      "artist": "Foo Fighters",
+      "this_week": 14,
+      "last_week": 9,
+      "peak_position": 1,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Shoulders",
+      "artist": "Coheed and Cambria",
+      "this_week": 15,
+      "last_week": 17,
+      "peak_position": 15,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Infected",
+      "artist": "Starset",
+      "this_week": 16,
+      "last_week": 19,
+      "peak_position": 16,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Only Love Can Save Me Now",
+      "artist": "The Pretty Reckless Featuring Matt Cameron & Kim Thayil",
+      "this_week": 17,
+      "last_week": 16,
+      "peak_position": 1,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "DiE4u",
+      "artist": "Bring Me the Horizon",
+      "this_week": 18,
+      "last_week": 20,
+      "peak_position": 18,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Dead Inside",
+      "artist": "Nita Strauss & David Draiman",
+      "this_week": 19,
+      "last_week": 27,
+      "peak_position": 19,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Kill Beautiful Things",
+      "artist": "DED",
+      "this_week": 20,
+      "last_week": 21,
+      "peak_position": 20,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "The Wire",
+      "artist": "Dirty Honey",
+      "this_week": 21,
+      "last_week": 23,
+      "peak_position": 21,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Teardrinker",
+      "artist": "Mastodon",
+      "this_week": 22,
+      "last_week": 28,
+      "peak_position": 22,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "The Writing On The Wall",
+      "artist": "Iron Maiden",
+      "this_week": 23,
+      "last_week": 18,
+      "peak_position": 16,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Anarchy",
+      "artist": "Lilith Czar",
+      "this_week": 24,
+      "last_week": 26,
+      "peak_position": 24,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Give Me One Reason",
+      "artist": "Black Stone Cherry",
+      "this_week": 25,
+      "last_week": 25,
+      "peak_position": 25,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "The River Is Rising",
+      "artist": "Slash Featuring Myles Kennedy And The Conspirators",
+      "this_week": 26,
+      "last_week": null,
+      "peak_position": 26,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Feast Of Fire",
+      "artist": "Trivium",
+      "this_week": 27,
+      "last_week": 30,
+      "peak_position": 27,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Brighten",
+      "artist": "Jerry Cantrell",
+      "this_week": 28,
+      "last_week": 29,
+      "peak_position": 28,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Fearless",
+      "artist": "Joyous Wolf",
+      "this_week": 29,
+      "last_week": 31,
+      "peak_position": 29,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Rainy Day",
+      "artist": "Ice Nine Kills",
+      "this_week": 30,
+      "last_week": 35,
+      "peak_position": 30,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Taking Me Back",
+      "artist": "Jack White",
+      "this_week": 31,
+      "last_week": null,
+      "peak_position": 31,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Heroes",
+      "artist": "Dead Sara",
+      "this_week": 32,
+      "last_week": 32,
+      "peak_position": 32,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Surviving The Game",
+      "artist": "Skillet",
+      "this_week": 33,
+      "last_week": 34,
+      "peak_position": 33,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Talking To Ourselves",
+      "artist": "Rise Against",
+      "this_week": 34,
+      "last_week": 33,
+      "peak_position": 33,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Crimson Skies",
+      "artist": "Black Veil Brides",
+      "this_week": 35,
+      "last_week": 36,
+      "peak_position": 35,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "I Wanna Be Your Slave",
+      "artist": "Maneskin",
+      "this_week": 36,
+      "last_week": 37,
+      "peak_position": 36,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "The Comeback",
+      "artist": "All Good Things Featuring Craig Mabbitt Of Escape The Fate",
+      "this_week": 37,
+      "last_week": null,
+      "peak_position": 37,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Scavengers",
+      "artist": "Thrice",
+      "this_week": 38,
+      "last_week": 22,
+      "peak_position": 21,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Going Hunting",
+      "artist": "Avatar",
+      "this_week": 39,
+      "last_week": 39,
+      "peak_position": 39,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "What's Coming To Me",
+      "artist": "DOROTHY",
+      "this_week": 40,
+      "last_week": 38,
+      "peak_position": 35,
+      "weeks_on_chart": 8,
+      "new": false
+    }
+  ]
+}

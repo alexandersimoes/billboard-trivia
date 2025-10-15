@@ -1,0 +1,275 @@
+{
+  "date": "1961-05-01",
+  "data": [
+    {
+      "song": "Don't Worry",
+      "artist": "Marty Robbins",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Hello Walls",
+      "artist": "Faron Young",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Foolin' Around",
+      "artist": "Buck Owens",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 2,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "The Blizzard",
+      "artist": "Jim Reeves",
+      "this_week": 4,
+      "last_week": 5,
+      "peak_position": 4,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "The Window Up Above",
+      "artist": "George Jones",
+      "this_week": 5,
+      "last_week": 4,
+      "peak_position": 2,
+      "weeks_on_chart": 26,
+      "new": false
+    },
+    {
+      "song": "Heart Over Mind",
+      "artist": "Ray Price",
+      "this_week": 6,
+      "last_week": 6,
+      "peak_position": 6,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "I Fall To Pieces",
+      "artist": "Patsy Cline/Jim Reeves",
+      "this_week": 7,
+      "last_week": 13,
+      "peak_position": 7,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "I'll Just Have A Cup Of Coffee (Then I'll Go)",
+      "artist": "Claude Gray",
+      "this_week": 8,
+      "last_week": 8,
+      "peak_position": 4,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Three Hearts In A Tangle",
+      "artist": "Roy Drusky",
+      "this_week": 9,
+      "last_week": 7,
+      "peak_position": 7,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Let Forgiveness In",
+      "artist": "Webb Pierce",
+      "this_week": 10,
+      "last_week": 10,
+      "peak_position": 5,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Please Mr. Kennedy",
+      "artist": "Jim Nesbitt",
+      "this_week": 11,
+      "last_week": 14,
+      "peak_position": 11,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Crazy Bullfrog",
+      "artist": "Lewis Pruitt",
+      "this_week": 12,
+      "last_week": 17,
+      "peak_position": 12,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Odds And Ends (Bits And Pieces)",
+      "artist": "Warren Smith",
+      "this_week": 13,
+      "last_week": 9,
+      "peak_position": 7,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Your Old Love Letters",
+      "artist": "Porter Wagoner",
+      "this_week": 14,
+      "last_week": 11,
+      "peak_position": 10,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Louisiana Man",
+      "artist": "Rusty & Doug Kershaw",
+      "this_week": 15,
+      "last_week": 15,
+      "peak_position": 10,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "I Love You Best Of All",
+      "artist": "The Louvin Brothers",
+      "this_week": 16,
+      "last_week": 16,
+      "peak_position": 14,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "In Memory Of Johnny Horton",
+      "artist": "Johnny Hardy",
+      "this_week": 17,
+      "last_week": 18,
+      "peak_position": 17,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Wings Of A Dove",
+      "artist": "Ferlin Husky",
+      "this_week": 18,
+      "last_week": 12,
+      "peak_position": 1,
+      "weeks_on_chart": 35,
+      "new": false
+    },
+    {
+      "song": "Shorty",
+      "artist": "Jimmy Smart",
+      "this_week": 19,
+      "last_week": 19,
+      "peak_position": 19,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "I'd Rather Loan You Out",
+      "artist": "Roy Drusky",
+      "this_week": 20,
+      "last_week": 27,
+      "peak_position": 10,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "The Twenty-Fourth Hour",
+      "artist": "Ray Price",
+      "this_week": 21,
+      "last_week": 22,
+      "peak_position": 21,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Everybody's Dying For Love",
+      "artist": "Jimmy Newman",
+      "this_week": 22,
+      "last_week": 25,
+      "peak_position": 22,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "I'm Wondering",
+      "artist": "Lou Smith",
+      "this_week": 23,
+      "last_week": 21,
+      "peak_position": 21,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Sleepy-Eyed John",
+      "artist": "Johnny Horton",
+      "this_week": 24,
+      "last_week": 20,
+      "peak_position": 20,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "The Other Cheek",
+      "artist": "Kitty Wells",
+      "this_week": 25,
+      "last_week": null,
+      "peak_position": 19,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Sleep, Baby, Sleep",
+      "artist": "Connie",
+      "this_week": 26,
+      "last_week": 28,
+      "peak_position": 26,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Lonelyville",
+      "artist": "Ray Sanders",
+      "this_week": 27,
+      "last_week": null,
+      "peak_position": 22,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Greener Pastures",
+      "artist": "Stonewall Jackson",
+      "this_week": 28,
+      "last_week": 26,
+      "peak_position": 26,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Kissing My Pillow",
+      "artist": "Rose Maddox",
+      "this_week": 29,
+      "last_week": 24,
+      "peak_position": 14,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "The Hand You're Holding Now",
+      "artist": "Skeeter Davis",
+      "this_week": 30,
+      "last_week": 29,
+      "peak_position": 29,
+      "weeks_on_chart": 2,
+      "new": false
+    }
+  ]
+}

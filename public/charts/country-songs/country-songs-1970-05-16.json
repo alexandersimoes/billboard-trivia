@@ -1,0 +1,680 @@
+{
+  "date": "1970-05-16",
+  "data": [
+    {
+      "song": "My Love",
+      "artist": "Sonny James",
+      "this_week": 1,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Is Anybody Goin' To San Antone",
+      "artist": "Charley Pride",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "I Do My Swinging At Home",
+      "artist": "David Houston",
+      "this_week": 3,
+      "last_week": 4,
+      "peak_position": 3,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "The Pool Shark",
+      "artist": "Dave Dudley",
+      "this_week": 4,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "What Is Truth",
+      "artist": "Johnny Cash",
+      "this_week": 5,
+      "last_week": 8,
+      "peak_position": 5,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Love Is A Sometimes Thing",
+      "artist": "Bill Anderson",
+      "this_week": 6,
+      "last_week": 5,
+      "peak_position": 5,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Stay There 'til I Get There",
+      "artist": "Lynn Anderson",
+      "this_week": 7,
+      "last_week": 10,
+      "peak_position": 7,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Shoeshine Man",
+      "artist": "Tom T. Hall",
+      "this_week": 8,
+      "last_week": 13,
+      "peak_position": 8,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Hello Darlin'",
+      "artist": "Conway Twitty",
+      "this_week": 9,
+      "last_week": 11,
+      "peak_position": 9,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Rise And Shine",
+      "artist": "Tommy Cash",
+      "this_week": 10,
+      "last_week": 9,
+      "peak_position": 9,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Tennessee Bird Walk",
+      "artist": "Jack Blanchard & Misty Morgan",
+      "this_week": 11,
+      "last_week": 6,
+      "peak_position": 1,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "I Know How",
+      "artist": "Loretta Lynn",
+      "this_week": 12,
+      "last_week": 7,
+      "peak_position": 4,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "My Woman, My Woman, My Wife",
+      "artist": "Marty Robbins",
+      "this_week": 13,
+      "last_week": 12,
+      "peak_position": 1,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "You Wouldn't Know Love",
+      "artist": "Ray Price",
+      "this_week": 14,
+      "last_week": 14,
+      "peak_position": 8,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Street Singer",
+      "artist": "Merle Haggard",
+      "this_week": 15,
+      "last_week": 16,
+      "peak_position": 15,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Heart Over Mind",
+      "artist": "Mel Tillis",
+      "this_week": 16,
+      "last_week": 35,
+      "peak_position": 16,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "A Woman Lives For Love",
+      "artist": "Wanda Jackson",
+      "this_week": 17,
+      "last_week": 19,
+      "peak_position": 17,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Singer Of Sad Songs",
+      "artist": "Waylon Jennings",
+      "this_week": 18,
+      "last_week": 21,
+      "peak_position": 18,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Love Hungry",
+      "artist": "Warner Mack",
+      "this_week": 19,
+      "last_week": 22,
+      "peak_position": 19,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Lovin' Man (Oh Pretty Woman)",
+      "artist": "Arlene",
+      "this_week": 20,
+      "last_week": 32,
+      "peak_position": 20,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "She's A Little Bit Country",
+      "artist": "George Hamilton IV",
+      "this_week": 21,
+      "last_week": 43,
+      "peak_position": 21,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Lilacs And Fire",
+      "artist": "George Morgan",
+      "this_week": 22,
+      "last_week": 31,
+      "peak_position": 22,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Don't Take All Your Loving",
+      "artist": "Don Gibson",
+      "this_week": 23,
+      "last_week": 17,
+      "peak_position": 17,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "I Can't Seem To Say Goodbye",
+      "artist": "Jerry Lee Lewis",
+      "this_week": 24,
+      "last_week": 26,
+      "peak_position": 24,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Once More With Feeling",
+      "artist": "Jerry Lee Lewis",
+      "this_week": 25,
+      "last_week": 15,
+      "peak_position": 2,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Oh Happy Day",
+      "artist": "Glen Campbell",
+      "this_week": 26,
+      "last_week": 37,
+      "peak_position": 26,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "I Walked Out On Heaven",
+      "artist": "Hank Williams Jr.",
+      "this_week": 27,
+      "last_week": 24,
+      "peak_position": 12,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Talk About The Good Times",
+      "artist": "Jerry Reed",
+      "this_week": 28,
+      "last_week": 18,
+      "peak_position": 14,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Darling Days",
+      "artist": "Billy Walker",
+      "this_week": 29,
+      "last_week": 23,
+      "peak_position": 23,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Long Long Texas Road",
+      "artist": "Roy Drusky",
+      "this_week": 30,
+      "last_week": 54,
+      "peak_position": 30,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Lord Is That Me",
+      "artist": "Jack Greene",
+      "this_week": 31,
+      "last_week": 29,
+      "peak_position": 16,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "All I Have To Do Is Dream",
+      "artist": "Bobbie Gentry & Glen Campbell",
+      "this_week": 32,
+      "last_week": 20,
+      "peak_position": 6,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Sugar Shack",
+      "artist": "Bobby G. Rice",
+      "this_week": 33,
+      "last_week": 49,
+      "peak_position": 33,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "I've Just Been Wasting My Time",
+      "artist": "John Wesley Ryles, I",
+      "this_week": 34,
+      "last_week": 53,
+      "peak_position": 34,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Togetherness",
+      "artist": "Buck Owens",
+      "this_week": 35,
+      "last_week": 57,
+      "peak_position": 35,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Rock Me Back To Little Rock",
+      "artist": "Jan Howard",
+      "this_week": 36,
+      "last_week": 34,
+      "peak_position": 26,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Pull My String And Wind Me Up",
+      "artist": "Carl Smith",
+      "this_week": 37,
+      "last_week": 25,
+      "peak_position": 18,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Tomorrow Is Forever",
+      "artist": "Porter Wagoner And Dolly Parton",
+      "this_week": 38,
+      "last_week": 28,
+      "peak_position": 9,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Tomorrow Never Comes",
+      "artist": "Slim Whitman",
+      "this_week": 39,
+      "last_week": 42,
+      "peak_position": 39,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "A Woman's Hand",
+      "artist": "Jean Shepard",
+      "this_week": 40,
+      "last_week": 45,
+      "peak_position": 40,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "You And Me Against The World",
+      "artist": "Bobby Lord",
+      "this_week": 41,
+      "last_week": 59,
+      "peak_position": 41,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Where Grass Won't Grow",
+      "artist": "George Jones",
+      "this_week": 42,
+      "last_week": 40,
+      "peak_position": 28,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Little Bit Late",
+      "artist": "Lewie Wickham",
+      "this_week": 43,
+      "last_week": 36,
+      "peak_position": 36,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Little Boy's Prayer",
+      "artist": "Porter Wagoner",
+      "this_week": 44,
+      "last_week": 44,
+      "peak_position": 44,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "All That Keeps Ya Goin'",
+      "artist": "The Glaser Brothers",
+      "this_week": 45,
+      "last_week": 39,
+      "peak_position": 39,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Call Me Gone",
+      "artist": "Stan Hitchcock With Sue Richards",
+      "this_week": 46,
+      "last_week": 51,
+      "peak_position": 46,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Pickin' Wild Mountain Berries",
+      "artist": "Lawanda Lindsey",
+      "this_week": 47,
+      "last_week": 27,
+      "peak_position": 27,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "One More Mountain To Climb",
+      "artist": "Freddie Hart",
+      "this_week": 48,
+      "last_week": 48,
+      "peak_position": 48,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Heavenly Sunshine",
+      "artist": "Ferlin Husky",
+      "this_week": 49,
+      "last_week": null,
+      "peak_position": 49,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Down In New Orleans",
+      "artist": "Buddy Alan",
+      "this_week": 50,
+      "last_week": 60,
+      "peak_position": 50,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Big Wheel Cannonball",
+      "artist": "Dick Curless",
+      "this_week": 51,
+      "last_week": 62,
+      "peak_position": 51,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "You're Gonna Need A Man",
+      "artist": "Johnny Duncan",
+      "this_week": 52,
+      "last_week": 66,
+      "peak_position": 52,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Runnin' Bare",
+      "artist": "Jim Nesbitt",
+      "this_week": 53,
+      "last_week": 30,
+      "peak_position": 20,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "I Know You're Married But I Love You Still",
+      "artist": "Red Sovine",
+      "this_week": 54,
+      "last_week": 52,
+      "peak_position": 52,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "The Lover's Song",
+      "artist": "Ned Miller",
+      "this_week": 55,
+      "last_week": 56,
+      "peak_position": 55,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "I Never Once Stopped Loving You",
+      "artist": "Connie Smith",
+      "this_week": 56,
+      "last_week": null,
+      "peak_position": 56,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Whoever Finds This, I Love You",
+      "artist": "Mac Davis",
+      "this_week": 57,
+      "last_week": 63,
+      "peak_position": 57,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "I'm Leavin' It Up To You",
+      "artist": "Johnny & Jonie Mosby",
+      "this_week": 58,
+      "last_week": 65,
+      "peak_position": 58,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Beneath Still Waters",
+      "artist": "Diana Trask",
+      "this_week": 59,
+      "last_week": 38,
+      "peak_position": 38,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Everything Is Beautiful",
+      "artist": "Ray Stevens",
+      "this_week": 60,
+      "last_week": 64,
+      "peak_position": 60,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "The Cleanest Man In Cincinnati",
+      "artist": "Claude Gray",
+      "this_week": 61,
+      "last_week": 61,
+      "peak_position": 54,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Long Lonesome Highway",
+      "artist": "Michael Parks",
+      "this_week": 62,
+      "last_week": 41,
+      "peak_position": 41,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Still Loving You",
+      "artist": "Bob Luman",
+      "this_week": 63,
+      "last_week": 71,
+      "peak_position": 63,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "The Most Uncomplicated Goodbye I've Ever Heard",
+      "artist": "Henson Cargill",
+      "this_week": 64,
+      "last_week": null,
+      "peak_position": 64,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "If I'd Only Come And Gone",
+      "artist": "Clay Hart",
+      "this_week": 65,
+      "last_week": 69,
+      "peak_position": 65,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "So Much In Love With You",
+      "artist": "David Rogers",
+      "this_week": 66,
+      "last_week": 72,
+      "peak_position": 66,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "A Good Thing",
+      "artist": "Bill Wilbourn & Kathy Morrison",
+      "this_week": 67,
+      "last_week": 67,
+      "peak_position": 67,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "But That's All Right",
+      "artist": "Hank Thompson",
+      "this_week": 68,
+      "last_week": 68,
+      "peak_position": 68,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "You Don't Know Me",
+      "artist": "Ray Pennington",
+      "this_week": 69,
+      "last_week": 70,
+      "peak_position": 69,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "It's Hard To Be A Woman",
+      "artist": "Skeeter Davis",
+      "this_week": 70,
+      "last_week": 73,
+      "peak_position": 70,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Can You Feel It",
+      "artist": "Bobby Goldsboro",
+      "this_week": 71,
+      "last_week": null,
+      "peak_position": 71,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Old Man Willis",
+      "artist": "Nat Stuckey",
+      "this_week": 72,
+      "last_week": null,
+      "peak_position": 72,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Warmth Of The Wine",
+      "artist": "Johnny Bush",
+      "this_week": 73,
+      "last_week": null,
+      "peak_position": 73,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Even The Bad Times Are Good",
+      "artist": "Jerry Wallace",
+      "this_week": 74,
+      "last_week": 74,
+      "peak_position": 74,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "(You've Been Quite A Doll) Raggedy Ann",
+      "artist": "Jimmy Dickens",
+      "this_week": 75,
+      "last_week": 75,
+      "peak_position": 75,
+      "weeks_on_chart": 2,
+      "new": false
+    }
+  ]
+}

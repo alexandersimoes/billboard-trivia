@@ -1,0 +1,365 @@
+{
+  "date": "2002-10-05",
+  "data": [
+    {
+      "song": "Never Again",
+      "artist": "Nickelback",
+      "this_week": 1,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Aerials",
+      "artist": "System of a Down",
+      "this_week": 2,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Prayer",
+      "artist": "Disturbed",
+      "this_week": 3,
+      "last_week": 4,
+      "peak_position": 3,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "By The Way",
+      "artist": "Red Hot Chili Peppers",
+      "this_week": 4,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "She Hates Me",
+      "artist": "Puddle of Mudd",
+      "this_week": 5,
+      "last_week": 7,
+      "peak_position": 5,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Drift & Die",
+      "artist": "Puddle of Mudd",
+      "this_week": 6,
+      "last_week": 5,
+      "peak_position": 1,
+      "weeks_on_chart": 25,
+      "new": false
+    },
+    {
+      "song": "Thoughtless",
+      "artist": "Korn",
+      "this_week": 7,
+      "last_week": 8,
+      "peak_position": 6,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Bother",
+      "artist": "Stone Sour",
+      "this_week": 8,
+      "last_week": 9,
+      "peak_position": 8,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Downfall",
+      "artist": "TRUSTcompany",
+      "this_week": 9,
+      "last_week": 6,
+      "peak_position": 6,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Nothing Could Come Between Us",
+      "artist": "Theory Of A Deadman",
+      "this_week": 10,
+      "last_week": 10,
+      "peak_position": 10,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "The Red",
+      "artist": "Chevelle",
+      "this_week": 11,
+      "last_week": 11,
+      "peak_position": 11,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "I Stand Alone",
+      "artist": "Godsmack",
+      "this_week": 12,
+      "last_week": 12,
+      "peak_position": 1,
+      "weeks_on_chart": 34,
+      "new": false
+    },
+    {
+      "song": "All My Life",
+      "artist": "Foo Fighters",
+      "this_week": 13,
+      "last_week": 13,
+      "peak_position": 13,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "I Am Mine",
+      "artist": "Pearl Jam",
+      "this_week": 14,
+      "last_week": null,
+      "peak_position": 14,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Satellite",
+      "artist": "P.O.D.",
+      "this_week": 15,
+      "last_week": 17,
+      "peak_position": 15,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Demon Speeding",
+      "artist": "Rob Zombie",
+      "this_week": 16,
+      "last_week": 15,
+      "peak_position": 13,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Fine Again",
+      "artist": "Seether",
+      "this_week": 17,
+      "last_week": 20,
+      "peak_position": 17,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "One Last Breath",
+      "artist": "Creed",
+      "this_week": 18,
+      "last_week": 16,
+      "peak_position": 5,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "She Loves Me Not",
+      "artist": "Papa Roach",
+      "this_week": 19,
+      "last_week": 14,
+      "peak_position": 3,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Polyamorous",
+      "artist": "Breaking Benjamin",
+      "this_week": 20,
+      "last_week": 19,
+      "peak_position": 19,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Don't Stop",
+      "artist": "The Rolling Stones",
+      "this_week": 21,
+      "last_week": 22,
+      "peak_position": 21,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Running Away",
+      "artist": "Hoobastank",
+      "this_week": 22,
+      "last_week": 18,
+      "peak_position": 9,
+      "weeks_on_chart": 23,
+      "new": false
+    },
+    {
+      "song": "Always",
+      "artist": "Saliva",
+      "this_week": 23,
+      "last_week": null,
+      "peak_position": 23,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Pitiful",
+      "artist": "Blindside",
+      "this_week": 24,
+      "last_week": 23,
+      "peak_position": 23,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Poem",
+      "artist": "Taproot",
+      "this_week": 25,
+      "last_week": 27,
+      "peak_position": 25,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Not Afraid",
+      "artist": "Earshot",
+      "this_week": 26,
+      "last_week": 33,
+      "peak_position": 26,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Electrical Storm",
+      "artist": "U2",
+      "this_week": 27,
+      "last_week": 28,
+      "peak_position": 27,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "The Last DJ",
+      "artist": "Tom Petty And The Heartbreakers",
+      "this_week": 28,
+      "last_week": 36,
+      "peak_position": 28,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Adrenaline",
+      "artist": "Gavin Rossdale",
+      "this_week": 29,
+      "last_week": 24,
+      "peak_position": 24,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Now",
+      "artist": "Def Leppard",
+      "this_week": 30,
+      "last_week": 26,
+      "peak_position": 26,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Capricorn [A Brand New Name]",
+      "artist": "30 Seconds To Mars",
+      "this_week": 31,
+      "last_week": 32,
+      "peak_position": 31,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Circles",
+      "artist": "Incubus",
+      "this_week": 32,
+      "last_week": 31,
+      "peak_position": 31,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Deny",
+      "artist": "Default",
+      "this_week": 33,
+      "last_week": 21,
+      "peak_position": 7,
+      "weeks_on_chart": 26,
+      "new": false
+    },
+    {
+      "song": "Parabola",
+      "artist": "Tool",
+      "this_week": 34,
+      "last_week": 30,
+      "peak_position": 10,
+      "weeks_on_chart": 25,
+      "new": false
+    },
+    {
+      "song": "When I'm Gone",
+      "artist": "3 Doors Down",
+      "this_week": 35,
+      "last_week": null,
+      "peak_position": 35,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Time And Time Again",
+      "artist": "Papa Roach",
+      "this_week": 36,
+      "last_week": null,
+      "peak_position": 36,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Sore Throat",
+      "artist": "The Color Red",
+      "this_week": 37,
+      "last_week": 35,
+      "peak_position": 34,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Hero",
+      "artist": "Chad Kroeger Featuring Josey Scott",
+      "this_week": 38,
+      "last_week": 34,
+      "peak_position": 1,
+      "weeks_on_chart": 23,
+      "new": false
+    },
+    {
+      "song": "The Rising",
+      "artist": "Bruce Springsteen",
+      "this_week": 39,
+      "last_week": 25,
+      "peak_position": 24,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Get Free",
+      "artist": "The Vines",
+      "this_week": 40,
+      "last_week": 29,
+      "peak_position": 27,
+      "weeks_on_chart": 14,
+      "new": false
+    }
+  ]
+}

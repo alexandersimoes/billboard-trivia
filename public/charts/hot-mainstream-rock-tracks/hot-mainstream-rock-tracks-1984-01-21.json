@@ -1,0 +1,365 @@
+{
+  "date": "1984-01-21",
+  "data": [
+    {
+      "song": "JUMP",
+      "artist": "Van Halen",
+      "this_week": 1,
+      "last_week": 14,
+      "peak_position": 1,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "THAT's ALL",
+      "artist": "Genesis",
+      "this_week": 2,
+      "last_week": 4,
+      "peak_position": 2,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Ask The Lonely",
+      "artist": "Journey",
+      "this_week": 3,
+      "last_week": 8,
+      "peak_position": 3,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "IF I'D BEEN THE ONE",
+      "artist": "Thirty Eight Special",
+      "this_week": 4,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Back Where You Belong",
+      "artist": "Thirty Eight Special",
+      "this_week": 5,
+      "last_week": 9,
+      "peak_position": 5,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "IF LOVE SHOULD GO",
+      "artist": "Streets",
+      "this_week": 6,
+      "last_week": 7,
+      "peak_position": 6,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "PINK HOUSES",
+      "artist": "John Mellencamp",
+      "this_week": 7,
+      "last_week": 3,
+      "peak_position": 3,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "UNION OF THE SNAKE",
+      "artist": "Duran Duran",
+      "this_week": 8,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "REBEL YELL",
+      "artist": "Billy Idol",
+      "this_week": 9,
+      "last_week": 12,
+      "peak_position": 9,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "SHE WAS HOT",
+      "artist": "The Rolling Stones",
+      "this_week": 10,
+      "last_week": 6,
+      "peak_position": 6,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "JUST A JOB TO DO",
+      "artist": "Genesis",
+      "this_week": 11,
+      "last_week": 13,
+      "peak_position": 10,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Nobody Told Me",
+      "artist": "John Lennon",
+      "this_week": 12,
+      "last_week": null,
+      "peak_position": 12,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Changes",
+      "artist": "Yes",
+      "this_week": 13,
+      "last_week": 18,
+      "peak_position": 13,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "TALKING IN YOUR SLEEP",
+      "artist": "The Romantics",
+      "this_week": 14,
+      "last_week": 5,
+      "peak_position": 2,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "CUT LOOSE",
+      "artist": "Paul Rodgers",
+      "this_week": 15,
+      "last_week": 16,
+      "peak_position": 15,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Remember The Nights",
+      "artist": "The Motels",
+      "this_week": 16,
+      "last_week": null,
+      "peak_position": 16,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "NEW MOON ON MONDAY",
+      "artist": "Duran Duran",
+      "this_week": 17,
+      "last_week": null,
+      "peak_position": 17,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "SEND ME AN ANGEL",
+      "artist": "Real Life",
+      "this_week": 18,
+      "last_week": 28,
+      "peak_position": 18,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "THE POLITICS OF DANCING",
+      "artist": "Re-flex",
+      "this_week": 19,
+      "last_week": 36,
+      "peak_position": 19,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "THE SIGN OF FIRE",
+      "artist": "The Fixx",
+      "this_week": 20,
+      "last_week": null,
+      "peak_position": 20,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Girls Just Want To Have Fun",
+      "artist": "Cyndi Lauper",
+      "this_week": 21,
+      "last_week": null,
+      "peak_position": 21,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "It Can Happen",
+      "artist": "Yes",
+      "this_week": 22,
+      "last_week": 15,
+      "peak_position": 14,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Crumblin' Down",
+      "artist": "John Cougar Mellencamp",
+      "this_week": 23,
+      "last_week": 23,
+      "peak_position": 2,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "I WANT A NEW DRUG",
+      "artist": "Huey Lewis & The News",
+      "this_week": 24,
+      "last_week": 25,
+      "peak_position": 7,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "MAJOR TOM (COMING HOME)",
+      "artist": "Peter Schilling",
+      "this_week": 25,
+      "last_week": 21,
+      "peak_position": 8,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "YOU DON't BELIEVE",
+      "artist": "The Alan Parsons Project",
+      "this_week": 26,
+      "last_week": 17,
+      "peak_position": 12,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "PANAMA",
+      "artist": "Van Halen",
+      "this_week": 27,
+      "last_week": null,
+      "peak_position": 27,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "BIG CRASH",
+      "artist": "Eddie Money",
+      "this_week": 28,
+      "last_week": 26,
+      "peak_position": 17,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Bark At The Moon",
+      "artist": "Ozzy Osbourne",
+      "this_week": 29,
+      "last_week": 19,
+      "peak_position": 12,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "ELEVEN O'CLOCK TICK-TOCK",
+      "artist": "U2",
+      "this_week": 30,
+      "last_week": 42,
+      "peak_position": 30,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "STREET OF DREAMS",
+      "artist": "Rainbow",
+      "this_week": 31,
+      "last_week": 29,
+      "peak_position": 2,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Here Comes The Rain Again",
+      "artist": "Eurythmics",
+      "this_week": 32,
+      "last_week": null,
+      "peak_position": 32,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Wrapped Around Your Finger",
+      "artist": "The Police",
+      "this_week": 33,
+      "last_week": null,
+      "peak_position": 9,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "UNDERCOVER OF THE NIGHT",
+      "artist": "The Rolling Stones",
+      "this_week": 34,
+      "last_week": 11,
+      "peak_position": 2,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Owner Of A Lonely Heart",
+      "artist": "Yes",
+      "this_week": 35,
+      "last_week": 10,
+      "peak_position": 1,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "GLORIA",
+      "artist": "The Doors",
+      "this_week": 36,
+      "last_week": 53,
+      "peak_position": 18,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "NEIGHBORHOOD BULLY",
+      "artist": "Bob Dylan",
+      "this_week": 37,
+      "last_week": 45,
+      "peak_position": 37,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "TOO TOUGH",
+      "artist": "The Rolling Stones",
+      "this_week": 38,
+      "last_week": 38,
+      "peak_position": 14,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "MONKEY ON YOUR BACK",
+      "artist": "Aldo Nova",
+      "this_week": 39,
+      "last_week": 24,
+      "peak_position": 12,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "IT's GONNA GET BETTER",
+      "artist": "Genesis",
+      "this_week": 40,
+      "last_week": 51,
+      "peak_position": 16,
+      "weeks_on_chart": 16,
+      "new": false
+    }
+  ]
+}

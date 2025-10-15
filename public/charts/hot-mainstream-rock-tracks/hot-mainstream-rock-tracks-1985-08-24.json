@@ -1,0 +1,365 @@
+{
+  "date": "1985-08-24",
+  "data": [
+    {
+      "song": "Fortress Around Your Heart",
+      "artist": "Sting",
+      "this_week": 1,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Money For Nothing",
+      "artist": "Dire Straits",
+      "this_week": 2,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Lonely Ol' Night",
+      "artist": "John Mellencamp",
+      "this_week": 3,
+      "last_week": 19,
+      "peak_position": 3,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "No Looking Back",
+      "artist": "Michael McDonald",
+      "this_week": 4,
+      "last_week": 6,
+      "peak_position": 4,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Back In Time",
+      "artist": "Huey Lewis & The News",
+      "this_week": 5,
+      "last_week": 11,
+      "peak_position": 5,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Cry",
+      "artist": "Godley & Creme",
+      "this_week": 6,
+      "last_week": 8,
+      "peak_position": 6,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "St. Elmo's Fire (Man In Motion)",
+      "artist": "John Parr",
+      "this_week": 7,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Tonight It's You",
+      "artist": "Cheap Trick",
+      "this_week": 8,
+      "last_week": 12,
+      "peak_position": 8,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Every Step Of The Way",
+      "artist": "John Waite",
+      "this_week": 9,
+      "last_week": 15,
+      "peak_position": 9,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Invincible",
+      "artist": "Pat Benatar",
+      "this_week": 10,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "The Power Of Love",
+      "artist": "Huey Lewis & The News",
+      "this_week": 11,
+      "last_week": 5,
+      "peak_position": 1,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "C-I-T-Y",
+      "artist": "John Cafferty & The Beaver Brown Band",
+      "this_week": 12,
+      "last_week": 9,
+      "peak_position": 9,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Shame",
+      "artist": "The Motels",
+      "this_week": 13,
+      "last_week": 10,
+      "peak_position": 10,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Smokin' In The Boys Room",
+      "artist": "Motley Crue",
+      "this_week": 14,
+      "last_week": 7,
+      "peak_position": 7,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "And She Was",
+      "artist": "Talking Heads",
+      "this_week": 15,
+      "last_week": 18,
+      "peak_position": 15,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Summertime Girls",
+      "artist": "Y&T",
+      "this_week": 16,
+      "last_week": 16,
+      "peak_position": 16,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Head Over Heels",
+      "artist": "Tears for Fears",
+      "this_week": 17,
+      "last_week": 23,
+      "peak_position": 17,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Can't Get There From Here",
+      "artist": "R.E.M.",
+      "this_week": 18,
+      "last_week": 14,
+      "peak_position": 14,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Never Surrender",
+      "artist": "Corey Hart",
+      "this_week": 19,
+      "last_week": 13,
+      "peak_position": 8,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "And We Danced",
+      "artist": "Hooters",
+      "this_week": 20,
+      "last_week": 24,
+      "peak_position": 20,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Four In The Morning",
+      "artist": "Night Ranger",
+      "this_week": 21,
+      "last_week": 31,
+      "peak_position": 21,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Diana",
+      "artist": "Bryan Adams",
+      "this_week": 22,
+      "last_week": 21,
+      "peak_position": 21,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Lie For A Lie",
+      "artist": "Nick Mason & Rick Fenn",
+      "this_week": 23,
+      "last_week": 25,
+      "peak_position": 23,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Gets Us All In The End",
+      "artist": "Jeff Beck",
+      "this_week": 24,
+      "last_week": 28,
+      "peak_position": 24,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Lovin' Every Minute Of It",
+      "artist": "Loverboy",
+      "this_week": 25,
+      "last_week": null,
+      "peak_position": 25,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "You're Only Human (Second Wind)",
+      "artist": "Billy Joel",
+      "this_week": 26,
+      "last_week": 26,
+      "peak_position": 26,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "People Get Ready",
+      "artist": "Jeff Beck & Rod Stewart",
+      "this_week": 27,
+      "last_week": 17,
+      "peak_position": 5,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "What About Love",
+      "artist": "Heart",
+      "this_week": 28,
+      "last_week": 22,
+      "peak_position": 3,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "We Don't Need Another Hero",
+      "artist": "Tina Turner",
+      "this_week": 29,
+      "last_week": 29,
+      "peak_position": 29,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Kayleigh",
+      "artist": "Marillion",
+      "this_week": 30,
+      "last_week": 34,
+      "peak_position": 30,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "One World",
+      "artist": "Dire Straits",
+      "this_week": 31,
+      "last_week": null,
+      "peak_position": 31,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Burning House Of Love",
+      "artist": "X",
+      "this_week": 32,
+      "last_week": 32,
+      "peak_position": 32,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "When Your Heart Is Weak",
+      "artist": "Cock Robin",
+      "this_week": 33,
+      "last_week": null,
+      "peak_position": 33,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Lay It Down",
+      "artist": "Ratt",
+      "this_week": 34,
+      "last_week": 20,
+      "peak_position": 11,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "One In A Million",
+      "artist": "Eddie & The Tide",
+      "this_week": 35,
+      "last_week": null,
+      "peak_position": 35,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Still In Love",
+      "artist": "Taxxi",
+      "this_week": 36,
+      "last_week": 36,
+      "peak_position": 36,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "So Far Away",
+      "artist": "Dire Straits",
+      "this_week": 37,
+      "last_week": 37,
+      "peak_position": 37,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Sixes And Sevens",
+      "artist": "Robert Plant",
+      "this_week": 38,
+      "last_week": 38,
+      "peak_position": 18,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Shout",
+      "artist": "Tears for Fears",
+      "this_week": 39,
+      "last_week": 27,
+      "peak_position": 6,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "I Got You Babe",
+      "artist": "UB40",
+      "this_week": 40,
+      "last_week": 43,
+      "peak_position": 40,
+      "weeks_on_chart": 2,
+      "new": false
+    }
+  ]
+}

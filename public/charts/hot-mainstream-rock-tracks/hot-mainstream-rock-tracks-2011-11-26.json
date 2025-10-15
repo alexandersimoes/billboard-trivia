@@ -1,0 +1,365 @@
+{
+  "date": "2011-11-26",
+  "data": [
+    {
+      "song": "Not Again",
+      "artist": "Staind",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Bottoms Up",
+      "artist": "Nickelback",
+      "this_week": 2,
+      "last_week": 3,
+      "peak_position": 2,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Face To The Floor",
+      "artist": "Chevelle",
+      "this_week": 3,
+      "last_week": 5,
+      "peak_position": 3,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Tonight",
+      "artist": "Seether",
+      "this_week": 4,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "The Sound Of Winter",
+      "artist": "Bush",
+      "this_week": 5,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Monster You Made",
+      "artist": "Pop Evil",
+      "this_week": 6,
+      "last_week": 7,
+      "peak_position": 6,
+      "weeks_on_chart": 23,
+      "new": false
+    },
+    {
+      "song": "Buried Alive",
+      "artist": "Avenged Sevenfold",
+      "this_week": 7,
+      "last_week": 10,
+      "peak_position": 7,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "What You Want",
+      "artist": "Evanescence",
+      "this_week": 8,
+      "last_week": 8,
+      "peak_position": 8,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Walk",
+      "artist": "Foo Fighters",
+      "this_week": 9,
+      "last_week": 6,
+      "peak_position": 1,
+      "weeks_on_chart": 23,
+      "new": false
+    },
+    {
+      "song": "This Is Gonna Hurt",
+      "artist": "Sixx: A.M.",
+      "this_week": 10,
+      "last_week": 11,
+      "peak_position": 10,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Under And Over It",
+      "artist": "Five Finger Death Punch",
+      "this_week": 11,
+      "last_week": 9,
+      "peak_position": 6,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "A Warrior's Call",
+      "artist": "Volbeat",
+      "this_week": 12,
+      "last_week": 12,
+      "peak_position": 12,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "No Matter What",
+      "artist": "Papa Roach",
+      "this_week": 13,
+      "last_week": 14,
+      "peak_position": 13,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "The Collapse",
+      "artist": "Adelitas Way",
+      "this_week": 14,
+      "last_week": 13,
+      "peak_position": 13,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Bitch Came Back",
+      "artist": "Theory Of A Deadman",
+      "this_week": 15,
+      "last_week": 15,
+      "peak_position": 15,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Narcissistic Cannibal",
+      "artist": "Korn Featuring Skrillex & Kill the Noise",
+      "this_week": 16,
+      "last_week": 19,
+      "peak_position": 16,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Curl Of The Burl",
+      "artist": "Mastodon",
+      "this_week": 17,
+      "last_week": 21,
+      "peak_position": 17,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Make It Stop (September's Children)",
+      "artist": "Rise Against",
+      "this_week": 18,
+      "last_week": 16,
+      "peak_position": 16,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Hell",
+      "artist": "Disturbed",
+      "this_week": 19,
+      "last_week": 22,
+      "peak_position": 19,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Get Thru This",
+      "artist": "Art Of Dying",
+      "this_week": 20,
+      "last_week": 20,
+      "peak_position": 20,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "The Adventures Of Rain Dance Maggie",
+      "artist": "Red Hot Chili Peppers",
+      "this_week": 21,
+      "last_week": 17,
+      "peak_position": 2,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "These Days",
+      "artist": "Foo Fighters",
+      "this_week": 22,
+      "last_week": 27,
+      "peak_position": 22,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Kick Ass",
+      "artist": "Egypt Central",
+      "this_week": 23,
+      "last_week": 23,
+      "peak_position": 23,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Undone",
+      "artist": "Aranda",
+      "this_week": 24,
+      "last_week": 24,
+      "peak_position": 24,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Bullet In My Hand",
+      "artist": "Redlight King",
+      "this_week": 25,
+      "last_week": 25,
+      "peak_position": 25,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Monarchy Of Roses",
+      "artist": "Red Hot Chili Peppers",
+      "this_week": 26,
+      "last_week": 26,
+      "peak_position": 26,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Remember Everything",
+      "artist": "Five Finger Death Punch",
+      "this_week": 27,
+      "last_week": 35,
+      "peak_position": 27,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Lonely Boy",
+      "artist": "The Black Keys",
+      "this_week": 28,
+      "last_week": 31,
+      "peak_position": 28,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Thick As Thieves",
+      "artist": "Cavo",
+      "this_week": 29,
+      "last_week": 33,
+      "peak_position": 29,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "The Fire",
+      "artist": "Rev Theory",
+      "this_week": 30,
+      "last_week": 29,
+      "peak_position": 29,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Falling Down",
+      "artist": "Kyng",
+      "this_week": 31,
+      "last_week": 30,
+      "peak_position": 30,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "That Fire",
+      "artist": "Black Tide",
+      "this_week": 32,
+      "last_week": 28,
+      "peak_position": 21,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Public Enemy No. 1",
+      "artist": "Megadeth",
+      "this_week": 33,
+      "last_week": 38,
+      "peak_position": 33,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "The Waiting One",
+      "artist": "All That Remains",
+      "this_week": 34,
+      "last_week": null,
+      "peak_position": 34,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Victim",
+      "artist": "Man Made Machine",
+      "this_week": 35,
+      "last_week": 34,
+      "peak_position": 34,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Get Paid",
+      "artist": "Emphatic",
+      "this_week": 36,
+      "last_week": null,
+      "peak_position": 36,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Race You To The Bottom",
+      "artist": "New Medicine",
+      "this_week": 37,
+      "last_week": 40,
+      "peak_position": 37,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Sail",
+      "artist": "AWOLNATION",
+      "this_week": 38,
+      "last_week": 36,
+      "peak_position": 33,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Trip The Darkness",
+      "artist": "Lacuna Coil",
+      "this_week": 39,
+      "last_week": 37,
+      "peak_position": 37,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Irresistible Force",
+      "artist": "Jane's Addiction",
+      "this_week": 40,
+      "last_week": 32,
+      "peak_position": 23,
+      "weeks_on_chart": 13,
+      "new": false
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "date": "1958-10-20",
+  "data": [
+    {
+      "song": "City Lights",
+      "artist": "Ray Price",
+      "this_week": 1,
+      "last_week": null,
+      "peak_position": 1,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Alone With You",
+      "artist": "Faron Young",
+      "this_week": 2,
+      "last_week": null,
+      "peak_position": 2,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Squaws Along The Yukon",
+      "artist": "Hank Thompson",
+      "this_week": 3,
+      "last_week": null,
+      "peak_position": 3,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Blue Boy",
+      "artist": "Jim Reeves",
+      "this_week": 4,
+      "last_week": null,
+      "peak_position": 4,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "You're The Nearest Thing To Heaven",
+      "artist": "Johnny Cash",
+      "this_week": 5,
+      "last_week": null,
+      "peak_position": 5,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "The Ways Of A Woman In Love",
+      "artist": "Johnny Cash And The Tennessee Two",
+      "this_week": 6,
+      "last_week": null,
+      "peak_position": 6,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Bird Dog",
+      "artist": "The Everly Brothers",
+      "this_week": 7,
+      "last_week": null,
+      "peak_position": 7,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Half A Mind",
+      "artist": "Ernest Tubb",
+      "this_week": 8,
+      "last_week": null,
+      "peak_position": 8,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "All Grown Up",
+      "artist": "Johnny Horton",
+      "this_week": 9,
+      "last_week": null,
+      "peak_position": 9,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Falling Back To You",
+      "artist": "Webb Pierce",
+      "this_week": 10,
+      "last_week": null,
+      "peak_position": 10,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "My Baby's Gone",
+      "artist": "The Louvin Brothers",
+      "this_week": 11,
+      "last_week": null,
+      "peak_position": 11,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Send Me The Pillow You Dream On",
+      "artist": "Hank Locklin",
+      "this_week": 12,
+      "last_week": null,
+      "peak_position": 12,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Tupelo County Jail",
+      "artist": "Webb Pierce",
+      "this_week": 13,
+      "last_week": null,
+      "peak_position": 13,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Give Myself A Party",
+      "artist": "Don Gibson",
+      "this_week": 14,
+      "last_week": null,
+      "peak_position": 14,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "That's The Way I Feel",
+      "artist": "Faron Young",
+      "this_week": 15,
+      "last_week": null,
+      "peak_position": 15,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Talk To Me Lonesome Heart",
+      "artist": "James O'Gwynn",
+      "this_week": 16,
+      "last_week": null,
+      "peak_position": 16,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Pick Me Up On Your Way Down",
+      "artist": "Charlie",
+      "this_week": 17,
+      "last_week": null,
+      "peak_position": 17,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Lonely Island Pearl",
+      "artist": "Johnnie & Jack",
+      "this_week": 18,
+      "last_week": null,
+      "peak_position": 18,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "What Do I Care",
+      "artist": "Johnny Cash",
+      "this_week": 19,
+      "last_week": null,
+      "peak_position": 19,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Touch And Go Heart",
+      "artist": "Kitty Wells",
+      "this_week": 20,
+      "last_week": null,
+      "peak_position": 20,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "The Blues",
+      "artist": "Ernest Tubb",
+      "this_week": 21,
+      "last_week": null,
+      "peak_position": 21,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Hey Sheriff",
+      "artist": "Rusty & Doug Kershaw",
+      "this_week": 22,
+      "last_week": null,
+      "peak_position": 22,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Invitation To The Blues",
+      "artist": "Ray Price",
+      "this_week": 23,
+      "last_week": null,
+      "peak_position": 23,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Would You Care",
+      "artist": "The Browns",
+      "this_week": 24,
+      "last_week": null,
+      "peak_position": 24,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Look Who's Blue",
+      "artist": "Don Gibson",
+      "this_week": 25,
+      "last_week": null,
+      "peak_position": 25,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Blue Blue Day",
+      "artist": "Don Gibson",
+      "this_week": 26,
+      "last_week": null,
+      "peak_position": 26,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Guess Things Happen That Way",
+      "artist": "Johnny Cash And The Tennessee Two",
+      "this_week": 27,
+      "last_week": null,
+      "peak_position": 27,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Hey, Mr. Bluebird",
+      "artist": "Ernest Tubb & The Wilburn Brothers",
+      "this_week": 28,
+      "last_week": null,
+      "peak_position": 28,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "She Was Only Seventeen (He Was One Year More)",
+      "artist": "Marty Robbins",
+      "this_week": 29,
+      "last_week": null,
+      "peak_position": 29,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "All Over Again",
+      "artist": "Johnny Cash",
+      "this_week": 30,
+      "last_week": null,
+      "peak_position": 30,
+      "weeks_on_chart": 1,
+      "new": true
+    }
+  ]
+}

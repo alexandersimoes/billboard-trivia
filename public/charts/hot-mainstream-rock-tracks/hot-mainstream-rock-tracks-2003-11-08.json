@@ -1,0 +1,365 @@
+{
+  "date": "2003-11-08",
+  "data": [
+    {
+      "song": "So Far Away",
+      "artist": "Staind",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Weak And Powerless",
+      "artist": "A Perfect Circle",
+      "this_week": 2,
+      "last_week": 3,
+      "peak_position": 2,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Someday",
+      "artist": "Nickelback",
+      "this_week": 3,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Liberate",
+      "artist": "Disturbed",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Still Frame",
+      "artist": "Trapt",
+      "this_week": 5,
+      "last_week": 7,
+      "peak_position": 5,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Show Me How To Live",
+      "artist": "Audioslave",
+      "this_week": 6,
+      "last_week": 6,
+      "peak_position": 2,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Faint",
+      "artist": "Linkin Park",
+      "this_week": 7,
+      "last_week": 5,
+      "peak_position": 2,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Serenity",
+      "artist": "Godsmack",
+      "this_week": 8,
+      "last_week": 8,
+      "peak_position": 7,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Away From Me",
+      "artist": "Puddle of Mudd",
+      "this_week": 9,
+      "last_week": 11,
+      "peak_position": 9,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Falls On Me",
+      "artist": "Fuel",
+      "this_week": 10,
+      "last_week": 9,
+      "peak_position": 9,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "All In The Suit That You Wear",
+      "artist": "Stone Temple Pilots",
+      "this_week": 11,
+      "last_week": 30,
+      "peak_position": 11,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Seven Nation Army",
+      "artist": "The White Stripes",
+      "this_week": 12,
+      "last_week": 13,
+      "peak_position": 12,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Enemy",
+      "artist": "Sevendust",
+      "this_week": 13,
+      "last_week": 12,
+      "peak_position": 12,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Numb",
+      "artist": "Linkin Park",
+      "this_week": 14,
+      "last_week": 20,
+      "peak_position": 14,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Gasoline",
+      "artist": "Seether",
+      "this_week": 15,
+      "last_week": 14,
+      "peak_position": 14,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Here Without You",
+      "artist": "3 Doors Down",
+      "this_week": 16,
+      "last_week": 16,
+      "peak_position": 14,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Suffocate",
+      "artist": "Cold",
+      "this_week": 17,
+      "last_week": 17,
+      "peak_position": 17,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Bottom Of A Bottle",
+      "artist": "Smile Empty Soul",
+      "this_week": 18,
+      "last_week": 10,
+      "peak_position": 8,
+      "weeks_on_chart": 27,
+      "new": false
+    },
+    {
+      "song": "Headstrong",
+      "artist": "Trapt",
+      "this_week": 19,
+      "last_week": 18,
+      "peak_position": 1,
+      "weeks_on_chart": 55,
+      "new": false
+    },
+    {
+      "song": "I Am The Highway",
+      "artist": "Audioslave",
+      "this_week": 20,
+      "last_week": 21,
+      "peak_position": 20,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Will You",
+      "artist": "P.O.D.",
+      "this_week": 21,
+      "last_week": 19,
+      "peak_position": 19,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "(I Hate) Everything About You",
+      "artist": "Three Days Grace",
+      "this_week": 22,
+      "last_week": 22,
+      "peak_position": 22,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Right Now",
+      "artist": "Korn",
+      "this_week": 23,
+      "last_week": 24,
+      "peak_position": 23,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Closure",
+      "artist": "Chevelle",
+      "this_week": 24,
+      "last_week": 25,
+      "peak_position": 23,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "The Only",
+      "artist": "Static-X",
+      "this_week": 25,
+      "last_week": 23,
+      "peak_position": 23,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Out Of Control",
+      "artist": "Hoobastank",
+      "this_week": 26,
+      "last_week": 28,
+      "peak_position": 26,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Taking My Life Away",
+      "artist": "Default",
+      "this_week": 27,
+      "last_week": 34,
+      "peak_position": 27,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "How Can I Live",
+      "artist": "Ill Nino",
+      "this_week": 28,
+      "last_week": 27,
+      "peak_position": 26,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "World So Cold",
+      "artist": "Mudvayne",
+      "this_week": 29,
+      "last_week": 26,
+      "peak_position": 16,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Seven",
+      "artist": "Revis",
+      "this_week": 30,
+      "last_week": 31,
+      "peak_position": 30,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Are You Gonna Be My Girl",
+      "artist": "Jet",
+      "this_week": 31,
+      "last_week": 29,
+      "peak_position": 29,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Behind Blue Eyes",
+      "artist": "Limp Bizkit",
+      "this_week": 32,
+      "last_week": 39,
+      "peak_position": 32,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Did My Time",
+      "artist": "Korn",
+      "this_week": 33,
+      "last_week": 36,
+      "peak_position": 12,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "45",
+      "artist": "Shinedown",
+      "this_week": 34,
+      "last_week": 40,
+      "peak_position": 34,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "True Nature",
+      "artist": "Jane's Addiction",
+      "this_week": 35,
+      "last_week": 38,
+      "peak_position": 35,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Going Under",
+      "artist": "Evanescence",
+      "this_week": 36,
+      "last_week": 35,
+      "peak_position": 26,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Someday",
+      "artist": "Sloth",
+      "this_week": 37,
+      "last_week": 32,
+      "peak_position": 25,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "One Thing",
+      "artist": "Finger Eleven",
+      "this_week": 38,
+      "last_week": null,
+      "peak_position": 38,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Feel Like Makin Love",
+      "artist": "Kid Rock",
+      "this_week": 39,
+      "last_week": null,
+      "peak_position": 39,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Monsters",
+      "artist": "V Shape Mind",
+      "this_week": 40,
+      "last_week": null,
+      "peak_position": 40,
+      "weeks_on_chart": 1,
+      "new": true
+    }
+  ]
+}

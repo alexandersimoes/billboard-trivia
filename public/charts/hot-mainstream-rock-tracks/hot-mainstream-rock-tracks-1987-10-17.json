@@ -1,0 +1,365 @@
+{
+  "date": "1987-10-17",
+  "data": [
+    {
+      "song": "Brilliant Disguise",
+      "artist": "Bruce Springsteen",
+      "this_week": 1,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Love Will Find A Way",
+      "artist": "Yes",
+      "this_week": 2,
+      "last_week": 4,
+      "peak_position": 2,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "The One I Love",
+      "artist": "R.E.M.",
+      "this_week": 3,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Learning To Fly",
+      "artist": "Pink Floyd",
+      "this_week": 4,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Strap Me In",
+      "artist": "The Cars",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 5,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Time Stand Still",
+      "artist": "Rush",
+      "this_week": 6,
+      "last_week": 12,
+      "peak_position": 6,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "One Slip",
+      "artist": "Pink Floyd",
+      "this_week": 7,
+      "last_week": 9,
+      "peak_position": 7,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Animal",
+      "artist": "Def Leppard",
+      "this_week": 8,
+      "last_week": 6,
+      "peak_position": 5,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Throwaway",
+      "artist": "Mick Jagger",
+      "this_week": 9,
+      "last_week": 19,
+      "peak_position": 9,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Steel Monkey",
+      "artist": "Jethro Tull",
+      "this_week": 10,
+      "last_week": 11,
+      "peak_position": 10,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Rhythm Of Love",
+      "artist": "Yes",
+      "this_week": 11,
+      "last_week": 23,
+      "peak_position": 11,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Truck Drivin' Man",
+      "artist": "Lynyrd Skynyrd",
+      "this_week": 12,
+      "last_week": 13,
+      "peak_position": 12,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Is This Love",
+      "artist": "Whitesnake",
+      "this_week": 13,
+      "last_week": 14,
+      "peak_position": 13,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Hard Times For An Honest Man",
+      "artist": "John Mellencamp",
+      "this_week": 14,
+      "last_week": 10,
+      "peak_position": 10,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Tunnel Of Love",
+      "artist": "Bruce Springsteen",
+      "this_week": 15,
+      "last_week": null,
+      "peak_position": 15,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Rag Doll",
+      "artist": "Aerosmith",
+      "this_week": 16,
+      "last_week": 16,
+      "peak_position": 16,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Crazy",
+      "artist": "Icehouse",
+      "this_week": 17,
+      "last_week": 21,
+      "peak_position": 17,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Why Won't You Stay",
+      "artist": "Melvin James",
+      "this_week": 18,
+      "last_week": 18,
+      "peak_position": 17,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Boys Night Out",
+      "artist": "Timothy B. Schmit",
+      "this_week": 19,
+      "last_week": 17,
+      "peak_position": 17,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Satellite",
+      "artist": "Hooters",
+      "this_week": 20,
+      "last_week": 15,
+      "peak_position": 13,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "We'll Be Together",
+      "artist": "Sting",
+      "this_week": 21,
+      "last_week": 32,
+      "peak_position": 21,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Hourglass",
+      "artist": "Squeeze",
+      "this_week": 22,
+      "last_week": 24,
+      "peak_position": 22,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Dude (Looks Like A Lady)",
+      "artist": "Aerosmith",
+      "this_week": 23,
+      "last_week": 7,
+      "peak_position": 4,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Force 10",
+      "artist": "Rush",
+      "this_week": 24,
+      "last_week": 8,
+      "peak_position": 3,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Showdown At Big Sky",
+      "artist": "Robbie Robertson",
+      "this_week": 25,
+      "last_week": null,
+      "peak_position": 25,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Cherry Bomb",
+      "artist": "John Mellencamp",
+      "this_week": 26,
+      "last_week": 37,
+      "peak_position": 26,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Only Love",
+      "artist": "BoDeans",
+      "this_week": 27,
+      "last_week": 34,
+      "peak_position": 27,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Spare Parts",
+      "artist": "Bruce Springsteen",
+      "this_week": 28,
+      "last_week": null,
+      "peak_position": 28,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Valerie",
+      "artist": "Steve Winwood",
+      "this_week": 29,
+      "last_week": 35,
+      "peak_position": 29,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Farm On The Freeway",
+      "artist": "Jethro Tull",
+      "this_week": 30,
+      "last_week": 41,
+      "peak_position": 30,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Eagles Fly",
+      "artist": "Sammy Hagar",
+      "this_week": 31,
+      "last_week": 47,
+      "peak_position": 31,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Paper In Fire",
+      "artist": "John Mellencamp",
+      "this_week": 32,
+      "last_week": 22,
+      "peak_position": 1,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Kick The Wall",
+      "artist": "Jimmy Davis & Junction",
+      "this_week": 33,
+      "last_week": 42,
+      "peak_position": 33,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Gettysburg",
+      "artist": "The Brandos",
+      "this_week": 34,
+      "last_week": 36,
+      "peak_position": 34,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Come On, Let's Go",
+      "artist": "Los Lobos",
+      "this_week": 35,
+      "last_week": 33,
+      "peak_position": 33,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Like Dreamers Do",
+      "artist": "The Radiators",
+      "this_week": 36,
+      "last_week": null,
+      "peak_position": 36,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "You Are The Girl",
+      "artist": "The Cars",
+      "this_week": 37,
+      "last_week": 25,
+      "peak_position": 2,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Mony Mony \"Live\"",
+      "artist": "Billy Idol",
+      "this_week": 38,
+      "last_week": 30,
+      "peak_position": 27,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Hell In A Bucket",
+      "artist": "Grateful Dead",
+      "this_week": 39,
+      "last_week": 28,
+      "peak_position": 3,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "I Don't Mind At All",
+      "artist": "Bourgeois Tagg",
+      "this_week": 40,
+      "last_week": null,
+      "peak_position": 40,
+      "weeks_on_chart": 1,
+      "new": true
+    }
+  ]
+}

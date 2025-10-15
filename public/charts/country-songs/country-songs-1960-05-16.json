@@ -1,0 +1,275 @@
+{
+  "date": "1960-05-16",
+  "data": [
+    {
+      "song": "Please Help Me, I'm Falling",
+      "artist": "Hank Locklin",
+      "this_week": 1,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "He'll Have To Go",
+      "artist": "Jim Reeves",
+      "this_week": 2,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Just One Time",
+      "artist": "Don Gibson",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 2,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Above And Beyond",
+      "artist": "Buck Owens",
+      "this_week": 4,
+      "last_week": 5,
+      "peak_position": 4,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Another",
+      "artist": "Roy Drusky",
+      "this_week": 5,
+      "last_week": 4,
+      "peak_position": 2,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Big Iron",
+      "artist": "Marty Robbins",
+      "this_week": 6,
+      "last_week": 6,
+      "peak_position": 5,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "One More Time",
+      "artist": "Ray Price",
+      "this_week": 7,
+      "last_week": 8,
+      "peak_position": 7,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Why I'm Walkin'",
+      "artist": "Stonewall Jackson",
+      "this_week": 8,
+      "last_week": 9,
+      "peak_position": 8,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Sink The Bismark",
+      "artist": "Johnny Horton",
+      "this_week": 9,
+      "last_week": 7,
+      "peak_position": 6,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "A Six Pack To Go",
+      "artist": "Hank Thompson",
+      "this_week": 10,
+      "last_week": 10,
+      "peak_position": 10,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Left To Right",
+      "artist": "Kitty Wells",
+      "this_week": 11,
+      "last_week": 11,
+      "peak_position": 11,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Seasons Of My Heart",
+      "artist": "Johnny Cash",
+      "this_week": 12,
+      "last_week": 18,
+      "peak_position": 12,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Your Old Used To Be",
+      "artist": "Faron Young",
+      "this_week": 13,
+      "last_week": 13,
+      "peak_position": 13,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Family Bible",
+      "artist": "Claude Gray",
+      "this_week": 14,
+      "last_week": 12,
+      "peak_position": 10,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Pinball Machine",
+      "artist": "Lonnie Irving",
+      "this_week": 15,
+      "last_week": 14,
+      "peak_position": 13,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Life Of A Poor Boy",
+      "artist": "Stonewall Jackson",
+      "this_week": 16,
+      "last_week": 15,
+      "peak_position": 15,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "(Doin' The) Lovers Leap",
+      "artist": "Webb Pierce",
+      "this_week": 17,
+      "last_week": 19,
+      "peak_position": 17,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Smiling Bill McCall",
+      "artist": "Johnny Cash",
+      "this_week": 18,
+      "last_week": 20,
+      "peak_position": 18,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "You're The Only Good Thing (That's Happened To Me)",
+      "artist": "George Morgan",
+      "this_week": 19,
+      "last_week": 17,
+      "peak_position": 4,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "How Far To Little Rock",
+      "artist": "The Stanley Brothers",
+      "this_week": 20,
+      "last_week": 24,
+      "peak_position": 17,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Wishful Thinking",
+      "artist": "Wynn Stewart",
+      "this_week": 21,
+      "last_week": 16,
+      "peak_position": 5,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "The Old Lamplighter",
+      "artist": "The Browns Featuring Jim Edward Brown",
+      "this_week": 22,
+      "last_week": 22,
+      "peak_position": 20,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Accidently On Purpose",
+      "artist": "George Jones",
+      "this_week": 23,
+      "last_week": 21,
+      "peak_position": 19,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "The Key's In The Mailbox",
+      "artist": "Freddie Hart",
+      "this_week": 24,
+      "last_week": 23,
+      "peak_position": 23,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Who Will Buy The Wine",
+      "artist": "Charlie",
+      "this_week": 25,
+      "last_week": null,
+      "peak_position": 25,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Johnny, My Love (Grandma's Diary)",
+      "artist": "Wilma Lee & Stoney Cooper",
+      "this_week": 26,
+      "last_week": null,
+      "peak_position": 26,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Lonesome Road Blues",
+      "artist": "The Jimmies",
+      "this_week": 27,
+      "last_week": null,
+      "peak_position": 27,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Jenny Lou",
+      "artist": "Sonny James",
+      "this_week": 28,
+      "last_week": 25,
+      "peak_position": 25,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "He'll Have To Stay",
+      "artist": "Jeanne Black",
+      "this_week": 29,
+      "last_week": 26,
+      "peak_position": 26,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Timbrook",
+      "artist": "Lewis Pruitt",
+      "this_week": 30,
+      "last_week": 29,
+      "peak_position": 10,
+      "weeks_on_chart": 21,
+      "new": false
+    }
+  ]
+}

@@ -1,0 +1,365 @@
+{
+  "date": "1998-12-26",
+  "data": [
+    {
+      "song": "Turn The Page",
+      "artist": "Metallica",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Fly Away",
+      "artist": "Lenny Kravitz",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Kickin' My Heart Around",
+      "artist": "The Black Crowes",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 3,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Slide",
+      "artist": "Goo Goo Dolls",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Psycho Man",
+      "artist": "Black Sabbath",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 3,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Dragula",
+      "artist": "Rob Zombie",
+      "this_week": 6,
+      "last_week": 6,
+      "peak_position": 6,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Pretty Fly (For A White Guy)",
+      "artist": "The Offspring",
+      "this_week": 7,
+      "last_week": 7,
+      "peak_position": 7,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Still Rainin'",
+      "artist": "Jonny Lang",
+      "this_week": 8,
+      "last_week": 9,
+      "peak_position": 8,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Celebrity Skin",
+      "artist": "Hole",
+      "this_week": 9,
+      "last_week": 8,
+      "peak_position": 4,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "What It's Like",
+      "artist": "Everlast",
+      "this_week": 10,
+      "last_week": 12,
+      "peak_position": 10,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "What's This Life For",
+      "artist": "Creed",
+      "this_week": 11,
+      "last_week": 10,
+      "peak_position": 1,
+      "weeks_on_chart": 28,
+      "new": false
+    },
+    {
+      "song": "Got You (Where I Want You)",
+      "artist": "The Flys",
+      "this_week": 12,
+      "last_week": 11,
+      "peak_position": 11,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Everything Is Broken",
+      "artist": "The Kenny Wayne Shepherd Band",
+      "this_week": 13,
+      "last_week": 13,
+      "peak_position": 13,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Whatever",
+      "artist": "Godsmack",
+      "this_week": 14,
+      "last_week": 15,
+      "peak_position": 14,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Inside Out",
+      "artist": "Eve 6",
+      "this_week": 15,
+      "last_week": 14,
+      "peak_position": 5,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Bittersweet",
+      "artist": "Fuel",
+      "this_week": 16,
+      "last_week": 16,
+      "peak_position": 16,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "One",
+      "artist": "Creed",
+      "this_week": 17,
+      "last_week": 32,
+      "peak_position": 17,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Surefire (Never Enough)",
+      "artist": "Econoline Crush",
+      "this_week": 18,
+      "last_week": 19,
+      "peak_position": 18,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Soft",
+      "artist": "Second Coming",
+      "this_week": 19,
+      "last_week": 18,
+      "peak_position": 16,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Powertrip",
+      "artist": "Monster Magnet",
+      "this_week": 20,
+      "last_week": 24,
+      "peak_position": 20,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Free",
+      "artist": "Train",
+      "this_week": 21,
+      "last_week": 25,
+      "peak_position": 21,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "10,000 Horses",
+      "artist": "Candlebox",
+      "this_week": 22,
+      "last_week": 17,
+      "peak_position": 13,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Another Brick In The Wall (Part 2)",
+      "artist": "Class Of '99",
+      "this_week": 23,
+      "last_week": null,
+      "peak_position": 23,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Elderly Woman Behind The Counter In A Small Town (Live)",
+      "artist": "Pearl Jam",
+      "this_week": 24,
+      "last_week": 21,
+      "peak_position": 21,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Got The Life",
+      "artist": "Korn",
+      "this_week": 25,
+      "last_week": 20,
+      "peak_position": 15,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Psycho Circus",
+      "artist": "Kiss",
+      "this_week": 26,
+      "last_week": 23,
+      "peak_position": 1,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "You Wanted The Best",
+      "artist": "Kiss",
+      "this_week": 27,
+      "last_week": 27,
+      "peak_position": 27,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "The Dope Show",
+      "artist": "Marilyn Manson",
+      "this_week": 28,
+      "last_week": 22,
+      "peak_position": 12,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Leech",
+      "artist": "Eve 6",
+      "this_week": 29,
+      "last_week": 35,
+      "peak_position": 29,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Super Breakdown",
+      "artist": "Sprung Monkey",
+      "this_week": 30,
+      "last_week": 31,
+      "peak_position": 30,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Handslide",
+      "artist": "Pushmonkey",
+      "this_week": 31,
+      "last_week": 26,
+      "peak_position": 26,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Bitch",
+      "artist": "Sevendust",
+      "this_week": 32,
+      "last_week": 30,
+      "peak_position": 30,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Gimme Shelter (Live)",
+      "artist": "The Rolling Stones",
+      "this_week": 33,
+      "last_week": 29,
+      "peak_position": 29,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Every Little Thing Counts",
+      "artist": "Janus Stark",
+      "this_week": 34,
+      "last_week": 33,
+      "peak_position": 32,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "I Am The Bullgod",
+      "artist": "Kid Rock",
+      "this_week": 35,
+      "last_week": 39,
+      "peak_position": 34,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Dickeye",
+      "artist": "Jerry Cantrell",
+      "this_week": 36,
+      "last_week": null,
+      "peak_position": 36,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "The Spirit Of Radio (Live)",
+      "artist": "Rush",
+      "this_week": 37,
+      "last_week": 28,
+      "peak_position": 27,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Turn It Up!",
+      "artist": "Moon Dog Mane",
+      "this_week": 38,
+      "last_week": null,
+      "peak_position": 38,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Nobody Knows",
+      "artist": "Addict",
+      "this_week": 39,
+      "last_week": null,
+      "peak_position": 39,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Prophecy",
+      "artist": "Remy Zero",
+      "this_week": 40,
+      "last_week": null,
+      "peak_position": 40,
+      "weeks_on_chart": 1,
+      "new": true
+    }
+  ]
+}

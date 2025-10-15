@@ -198,10 +198,10 @@ export default function Home() {
       // Other charts use local files - fetch the directory listing
       const chartFolders: Record<string, string> = {
         'country': 'country-songs',
-        'rnb': 'r-b-hip-hop-songs',
+        'rnb': 'r-and-b-songs',
         'rap': 'rap-song',
         'alternative': 'alternative-airplay',
-        'rock': 'rock-songs',
+        'rock': 'hot-mainstream-rock-tracks',
         'latin': 'latin-airplay'
       };
 
@@ -265,7 +265,7 @@ export default function Home() {
         'rnb': 'r-b-hip-hop-songs',
         'rap': 'rap-song',
         'alternative': 'alternative-airplay',
-        'rock': 'rock-songs',
+        'rock': 'hot-mainstream-rock-tracks',
         'latin': 'latin-airplay'
       };
 

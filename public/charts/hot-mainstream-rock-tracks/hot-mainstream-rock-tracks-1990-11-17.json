@@ -1,0 +1,365 @@
+{
+  "date": "1990-11-17",
+  "data": [
+    {
+      "song": "Hard To Handle",
+      "artist": "The Black Crowes",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "She's My Baby",
+      "artist": "Traveling Wilburys",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "One And Only Man",
+      "artist": "Steve Winwood",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 3,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "My Head's In Mississippi",
+      "artist": "ZZ Top",
+      "this_week": 4,
+      "last_week": 14,
+      "peak_position": 4,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Something To Believe In",
+      "artist": "Poison",
+      "this_week": 5,
+      "last_week": 8,
+      "peak_position": 5,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "High Enough",
+      "artist": "Damn Yankees",
+      "this_week": 6,
+      "last_week": 5,
+      "peak_position": 2,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "King Of Dreams",
+      "artist": "Deep Purple",
+      "this_week": 7,
+      "last_week": 6,
+      "peak_position": 6,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Tease Me, Please Me",
+      "artist": "Scorpions",
+      "this_week": 8,
+      "last_week": 11,
+      "peak_position": 8,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Still Got The Blues",
+      "artist": "Gary Moore",
+      "this_week": 9,
+      "last_week": 13,
+      "peak_position": 9,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Travelling Riverside Blues",
+      "artist": "Led Zeppelin",
+      "this_week": 10,
+      "last_week": 7,
+      "peak_position": 7,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "If You Needed Somebody",
+      "artist": "Bad Company",
+      "this_week": 11,
+      "last_week": 16,
+      "peak_position": 11,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Concrete And Steel",
+      "artist": "ZZ Top",
+      "this_week": 12,
+      "last_week": 4,
+      "peak_position": 1,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Disappear",
+      "artist": "INXS",
+      "this_week": 13,
+      "last_week": 22,
+      "peak_position": 13,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Love That Never Dies",
+      "artist": "The Byrds",
+      "this_week": 14,
+      "last_week": 18,
+      "peak_position": 14,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Miles Away",
+      "artist": "Winger",
+      "this_week": 15,
+      "last_week": 15,
+      "peak_position": 15,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "You're Amazing",
+      "artist": "Robert Palmer",
+      "this_week": 16,
+      "last_week": null,
+      "peak_position": 16,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Cliffs Of Dover",
+      "artist": "Eric Johnson",
+      "this_week": 17,
+      "last_week": 9,
+      "peak_position": 5,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Can't Find My Way Home",
+      "artist": "House Of Lords",
+      "this_week": 18,
+      "last_week": 12,
+      "peak_position": 10,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "The Road",
+      "artist": "The Alarm",
+      "this_week": 19,
+      "last_week": 19,
+      "peak_position": 19,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Shelter Me",
+      "artist": "Cinderella",
+      "this_week": 20,
+      "last_week": null,
+      "peak_position": 20,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Telephone Song",
+      "artist": "Vaughan Brothers",
+      "this_week": 21,
+      "last_week": 28,
+      "peak_position": 21,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "For You",
+      "artist": "The Outfield",
+      "this_week": 22,
+      "last_week": 29,
+      "peak_position": 22,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Keep On Loving Me Baby",
+      "artist": "Colin James",
+      "this_week": 23,
+      "last_week": 26,
+      "peak_position": 23,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Moneytalks",
+      "artist": "AC/DC",
+      "this_week": 24,
+      "last_week": 45,
+      "peak_position": 24,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "The Obvious Child",
+      "artist": "Paul Simon",
+      "this_week": 25,
+      "last_week": 21,
+      "peak_position": 21,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Stranded",
+      "artist": "Heart",
+      "this_week": 26,
+      "last_week": 25,
+      "peak_position": 25,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Miracle (From \"Young Guns II\")",
+      "artist": "Jon Bon Jovi",
+      "this_week": 27,
+      "last_week": 20,
+      "peak_position": 20,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "New York Minute",
+      "artist": "Don Henley",
+      "this_week": 28,
+      "last_week": 35,
+      "peak_position": 28,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Thunderstruck",
+      "artist": "AC/DC",
+      "this_week": 29,
+      "last_week": 10,
+      "peak_position": 5,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Give It To Me Good",
+      "artist": "Trixter",
+      "this_week": 30,
+      "last_week": 32,
+      "peak_position": 30,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Last Plane Out",
+      "artist": "Toy Matinee",
+      "this_week": 31,
+      "last_week": 23,
+      "peak_position": 23,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "It's Love",
+      "artist": "King's X",
+      "this_week": 32,
+      "last_week": 44,
+      "peak_position": 32,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Empire",
+      "artist": "Queensryche",
+      "this_week": 33,
+      "last_week": 27,
+      "peak_position": 22,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Night And Day",
+      "artist": "U2",
+      "this_week": 34,
+      "last_week": 43,
+      "peak_position": 34,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Birthday",
+      "artist": "Paul McCartney",
+      "this_week": 35,
+      "last_week": 38,
+      "peak_position": 35,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Mama Help Me",
+      "artist": "Edie Brickell & New Bohemians",
+      "this_week": 36,
+      "last_week": null,
+      "peak_position": 36,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Just The Way It Is, Baby",
+      "artist": "The Rembrandts",
+      "this_week": 37,
+      "last_week": 41,
+      "peak_position": 37,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Wicked Sensation",
+      "artist": "Lynch Mob",
+      "this_week": 38,
+      "last_week": null,
+      "peak_position": 38,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Been Caught Stealing",
+      "artist": "Jane's Addiction",
+      "this_week": 39,
+      "last_week": 49,
+      "peak_position": 39,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Love Is The Ritual",
+      "artist": "Styx",
+      "this_week": 40,
+      "last_week": 17,
+      "peak_position": 9,
+      "weeks_on_chart": 8,
+      "new": false
+    }
+  ]
+}

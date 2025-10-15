@@ -1,0 +1,275 @@
+{
+  "date": "1959-07-27",
+  "data": [
+    {
+      "song": "Waterloo",
+      "artist": "Stonewall Jackson",
+      "this_week": 1,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "The Battle Of New Orleans",
+      "artist": "Johnny Horton",
+      "this_week": 2,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Heartaches By The Number",
+      "artist": "Ray Price",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 2,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Big Midnight Special",
+      "artist": "Wilma Lee & Stoney Cooper",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Tennessee Stud",
+      "artist": "Eddy Arnold",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 5,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Somebody's Back In Town",
+      "artist": "Wilburn Brothers",
+      "this_week": 6,
+      "last_week": 7,
+      "peak_position": 6,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Chasin' A Rainbow",
+      "artist": "Hank Snow",
+      "this_week": 7,
+      "last_week": 6,
+      "peak_position": 6,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Black Land Farmer",
+      "artist": "Frankie Miller",
+      "this_week": 8,
+      "last_week": 8,
+      "peak_position": 5,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "The Long Black Veil",
+      "artist": "Lefty Frizzell",
+      "this_week": 9,
+      "last_week": 10,
+      "peak_position": 6,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Who Shot Sam",
+      "artist": "George Jones",
+      "this_week": 10,
+      "last_week": 16,
+      "peak_position": 10,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "I Ain't Never",
+      "artist": "Webb Pierce",
+      "this_week": 11,
+      "last_week": 23,
+      "peak_position": 11,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Cabin In The Hills",
+      "artist": "Flatt & Scruggs",
+      "this_week": 12,
+      "last_week": 11,
+      "peak_position": 11,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Your Wild Life's Gonna Get You Down",
+      "artist": "Kitty Wells",
+      "this_week": 13,
+      "last_week": 14,
+      "peak_position": 13,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Ten Thousand Drums",
+      "artist": "Carl Smith",
+      "this_week": 14,
+      "last_week": 17,
+      "peak_position": 14,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Home",
+      "artist": "Jim Reeves",
+      "this_week": 15,
+      "last_week": 9,
+      "peak_position": 2,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Katy Too",
+      "artist": "Johnny Cash And The Tennessee Two",
+      "this_week": 16,
+      "last_week": 21,
+      "peak_position": 16,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Half-Breed",
+      "artist": "Marvin Rainwater",
+      "this_week": 17,
+      "last_week": 19,
+      "peak_position": 17,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Am I That Easy To Forget",
+      "artist": "Carl Belew",
+      "this_week": 18,
+      "last_week": 13,
+      "peak_position": 9,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Ninety-Nine",
+      "artist": "Bill Anderson",
+      "this_week": 19,
+      "last_week": 20,
+      "peak_position": 19,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Country Girl",
+      "artist": "Faron Young",
+      "this_week": 20,
+      "last_week": 28,
+      "peak_position": 20,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Lonesome Old House",
+      "artist": "Don Gibson",
+      "this_week": 21,
+      "last_week": 18,
+      "peak_position": 11,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Grin And Bear It",
+      "artist": "Jimmy Newman",
+      "this_week": 22,
+      "last_week": null,
+      "peak_position": 22,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Draggin' The River",
+      "artist": "Ferlin Husky",
+      "this_week": 23,
+      "last_week": 12,
+      "peak_position": 11,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "White Lightning",
+      "artist": "George Jones",
+      "this_week": 24,
+      "last_week": 15,
+      "peak_position": 1,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Partners",
+      "artist": "Jim Reeves",
+      "this_week": 25,
+      "last_week": null,
+      "peak_position": 25,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "I'll Catch You When You Fall",
+      "artist": "Charlie",
+      "this_week": 26,
+      "last_week": 24,
+      "peak_position": 16,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Hearts Are Lonely",
+      "artist": "Phil Sullivan",
+      "this_week": 27,
+      "last_week": null,
+      "peak_position": 26,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "I Hear You Talkin'",
+      "artist": "Faron Young",
+      "this_week": 28,
+      "last_week": null,
+      "peak_position": 28,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Set Him Free",
+      "artist": "Skeeter Davis",
+      "this_week": 29,
+      "last_week": 29,
+      "peak_position": 5,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "You Take The Table And I'll Take The Chairs",
+      "artist": "Bob Gallion",
+      "this_week": 30,
+      "last_week": null,
+      "peak_position": 18,
+      "weeks_on_chart": 8,
+      "new": false
+    }
+  ]
+}

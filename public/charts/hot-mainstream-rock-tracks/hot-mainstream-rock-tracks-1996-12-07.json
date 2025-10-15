@@ -1,0 +1,365 @@
+{
+  "date": "1996-12-07",
+  "data": [
+    {
+      "song": "Hero Of The Day",
+      "artist": "Metallica",
+      "this_week": 1,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Me Wise Magic",
+      "artist": "Van Halen",
+      "this_week": 2,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Swallowed",
+      "artist": "Bush",
+      "this_week": 3,
+      "last_week": 4,
+      "peak_position": 3,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Lady Picture Show",
+      "artist": "Stone Temple Pilots",
+      "this_week": 4,
+      "last_week": 6,
+      "peak_position": 4,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Open Up Your Eyes",
+      "artist": "Tonic",
+      "this_week": 5,
+      "last_week": 3,
+      "peak_position": 2,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Blow Up The Outside World",
+      "artist": "Soundgarden",
+      "this_week": 6,
+      "last_week": 7,
+      "peak_position": 6,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Angels Of The Silences",
+      "artist": "Counting Crows",
+      "this_week": 7,
+      "last_week": 5,
+      "peak_position": 4,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Bittersweet Me",
+      "artist": "R.E.M.",
+      "this_week": 8,
+      "last_week": 9,
+      "peak_position": 7,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Climb That Hill",
+      "artist": "Tom Petty And The Heartbreakers",
+      "this_week": 9,
+      "last_week": 8,
+      "peak_position": 6,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Long Day",
+      "artist": "matchbox 20",
+      "this_week": 10,
+      "last_week": 13,
+      "peak_position": 10,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Free",
+      "artist": "Phish",
+      "this_week": 11,
+      "last_week": 12,
+      "peak_position": 11,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Bound For The Floor",
+      "artist": "Local H",
+      "this_week": 12,
+      "last_week": 15,
+      "peak_position": 12,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Muzzle",
+      "artist": "The Smashing Pumpkins",
+      "this_week": 13,
+      "last_week": 10,
+      "peak_position": 10,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Half The World",
+      "artist": "Rush",
+      "this_week": 14,
+      "last_week": 20,
+      "peak_position": 14,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Looking For",
+      "artist": "Stir",
+      "this_week": 15,
+      "last_week": 19,
+      "peak_position": 15,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Burden In My Hand",
+      "artist": "Soundgarden",
+      "this_week": 16,
+      "last_week": 14,
+      "peak_position": 1,
+      "weeks_on_chart": 26,
+      "new": false
+    },
+    {
+      "song": "Hail Hail",
+      "artist": "Pearl Jam",
+      "this_week": 17,
+      "last_week": 11,
+      "peak_position": 9,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "I Was Wrong",
+      "artist": "Social Distortion",
+      "this_week": 18,
+      "last_week": 17,
+      "peak_position": 12,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "What I Got",
+      "artist": "Sublime",
+      "this_week": 19,
+      "last_week": 24,
+      "peak_position": 19,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Stinkfist",
+      "artist": "Tool",
+      "this_week": 20,
+      "last_week": 18,
+      "peak_position": 18,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Lie On Lie",
+      "artist": "Chalk FarM",
+      "this_week": 21,
+      "last_week": 16,
+      "peak_position": 13,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Grow Your Own",
+      "artist": "Darlahood",
+      "this_week": 22,
+      "last_week": 21,
+      "peak_position": 21,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "One Headlight",
+      "artist": "The Wallflowers",
+      "this_week": 23,
+      "last_week": 28,
+      "peak_position": 23,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Would?",
+      "artist": "Alice in Chains",
+      "this_week": 24,
+      "last_week": 23,
+      "peak_position": 23,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Over Now",
+      "artist": "Alice in Chains",
+      "this_week": 25,
+      "last_week": 22,
+      "peak_position": 4,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Shame",
+      "artist": "Stabbing Westward",
+      "this_week": 26,
+      "last_week": 25,
+      "peak_position": 7,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Have You Seen Mary",
+      "artist": "Sponge",
+      "this_week": 27,
+      "last_week": 30,
+      "peak_position": 27,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Desperately Wanting",
+      "artist": "Better Than Ezra",
+      "this_week": 28,
+      "last_week": 32,
+      "peak_position": 28,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Just Another Day",
+      "artist": "John Mellencamp",
+      "this_week": 29,
+      "last_week": 39,
+      "peak_position": 29,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "The Beautiful People",
+      "artist": "Marilyn Manson",
+      "this_week": 30,
+      "last_week": 29,
+      "peak_position": 29,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Mach 5",
+      "artist": "The Presidents Of The United States Of America",
+      "this_week": 31,
+      "last_week": 35,
+      "peak_position": 31,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Walk On Water",
+      "artist": "Ozzy Osbourne",
+      "this_week": 32,
+      "last_week": 31,
+      "peak_position": 31,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Drowning In A Daydream",
+      "artist": "Corrosion of Conformity",
+      "this_week": 33,
+      "last_week": 34,
+      "peak_position": 33,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Charlie Brown's Parents",
+      "artist": "Dishwalla",
+      "this_week": 34,
+      "last_week": 26,
+      "peak_position": 24,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Bang Bang",
+      "artist": "ZZ Top",
+      "this_week": 35,
+      "last_week": 37,
+      "peak_position": 35,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Trip Free Life",
+      "artist": "The Hazies",
+      "this_week": 36,
+      "last_week": null,
+      "peak_position": 36,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Blackberry",
+      "artist": "The Black Crowes",
+      "this_week": 37,
+      "last_week": 27,
+      "peak_position": 6,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Message Of Love",
+      "artist": "Journey",
+      "this_week": 38,
+      "last_week": 33,
+      "peak_position": 18,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Father",
+      "artist": "The Why Store",
+      "this_week": 39,
+      "last_week": null,
+      "peak_position": 39,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Can't Get This Stuff No More",
+      "artist": "Van Halen",
+      "this_week": 40,
+      "last_week": null,
+      "peak_position": 39,
+      "weeks_on_chart": 2,
+      "new": false
+    }
+  ]
+}

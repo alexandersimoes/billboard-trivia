@@ -1,0 +1,905 @@
+{
+  "date": "1987-07-18",
+  "data": [
+    {
+      "song": "I Know Where I'm Going",
+      "artist": "The Judds",
+      "this_week": 1,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "The Weekend",
+      "artist": "Steve Wariner",
+      "this_week": 2,
+      "last_week": 3,
+      "peak_position": 2,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Love Someone Like Me",
+      "artist": "Holly Dunn",
+      "this_week": 3,
+      "last_week": 5,
+      "peak_position": 3,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Snap Your Fingers",
+      "artist": "Ronnie Milsap",
+      "this_week": 4,
+      "last_week": 6,
+      "peak_position": 4,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "One Promise Too Late",
+      "artist": "Reba McEntire",
+      "this_week": 5,
+      "last_week": 8,
+      "peak_position": 5,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Someone",
+      "artist": "Lee Greenwood",
+      "this_week": 6,
+      "last_week": 9,
+      "peak_position": 6,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "All My Ex's Live In Texas",
+      "artist": "George Strait",
+      "this_week": 7,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "80's Ladies",
+      "artist": "K.T. Oslin",
+      "this_week": 8,
+      "last_week": 13,
+      "peak_position": 8,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Oh Heart",
+      "artist": "Baillie and the Boys",
+      "this_week": 9,
+      "last_week": 11,
+      "peak_position": 9,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Love Can't Ever Get Better Than This",
+      "artist": "Ricky Skaggs & Sharon White",
+      "this_week": 10,
+      "last_week": 12,
+      "peak_position": 10,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Cinderella",
+      "artist": "Vince Gill",
+      "this_week": 11,
+      "last_week": 15,
+      "peak_position": 11,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "A Long Line Of Love",
+      "artist": "Michael Martin Murphey",
+      "this_week": 12,
+      "last_week": 16,
+      "peak_position": 12,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Whiskey, If You Were A Woman",
+      "artist": "Highway 101",
+      "this_week": 13,
+      "last_week": 17,
+      "peak_position": 13,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Telling Me Lies",
+      "artist": "Dolly Parton, Linda Ronstadt, Emmylou Harris",
+      "this_week": 14,
+      "last_week": 18,
+      "peak_position": 14,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Another World",
+      "artist": "Crystal Gayle And Gary Morris",
+      "this_week": 15,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Fallin' Out",
+      "artist": "Waylon Jennings",
+      "this_week": 16,
+      "last_week": 19,
+      "peak_position": 16,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Why Does It Have To Be (Wrong Or Right)",
+      "artist": "Restless Heart",
+      "this_week": 17,
+      "last_week": 20,
+      "peak_position": 17,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Crime Of Passion",
+      "artist": "Ricky Van Shelton",
+      "this_week": 18,
+      "last_week": 7,
+      "peak_position": 7,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Born To Boogie",
+      "artist": "Hank Williams Jr.",
+      "this_week": 19,
+      "last_week": 22,
+      "peak_position": 19,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Are You Still In Love With Me",
+      "artist": "Anne Murray",
+      "this_week": 20,
+      "last_week": 21,
+      "peak_position": 20,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Train Of Memories",
+      "artist": "Kathy Mattea",
+      "this_week": 21,
+      "last_week": 23,
+      "peak_position": 21,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Brilliant Conversationalist",
+      "artist": "T. Graham Brown",
+      "this_week": 22,
+      "last_week": 24,
+      "peak_position": 22,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "She's Too Good To Be True",
+      "artist": "Exile",
+      "this_week": 23,
+      "last_week": 25,
+      "peak_position": 23,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Forever And Ever, Amen",
+      "artist": "Randy Travis",
+      "this_week": 24,
+      "last_week": 14,
+      "peak_position": 1,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Make No Mistake, She's Mine",
+      "artist": "Kenny Rogers & Ronnie Milsap",
+      "this_week": 25,
+      "last_week": 27,
+      "peak_position": 25,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "I'll Never Be In Love Again",
+      "artist": "Don Williams",
+      "this_week": 26,
+      "last_week": 29,
+      "peak_position": 26,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "This Crazy Love",
+      "artist": "The Oak Ridge Boys",
+      "this_week": 27,
+      "last_week": 30,
+      "peak_position": 27,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Put Me Out Of My Misery",
+      "artist": "Tom Wopat",
+      "this_week": 28,
+      "last_week": 28,
+      "peak_position": 28,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Why I Don't Know",
+      "artist": "Lyle Lovett",
+      "this_week": 29,
+      "last_week": 33,
+      "peak_position": 29,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Three Time Loser",
+      "artist": "Dan Seals",
+      "this_week": 30,
+      "last_week": 36,
+      "peak_position": 30,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "The Hand That Rocks The Cradle",
+      "artist": "Glen Campbell",
+      "this_week": 31,
+      "last_week": 35,
+      "peak_position": 31,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "House Of Blue Lights",
+      "artist": "Asleep At The Wheel",
+      "this_week": 32,
+      "last_week": 34,
+      "peak_position": 32,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "I'll Be The One",
+      "artist": "The Statler Brothers",
+      "this_week": 33,
+      "last_week": 39,
+      "peak_position": 33,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "You Again",
+      "artist": "The Forester Sisters",
+      "this_week": 34,
+      "last_week": 41,
+      "peak_position": 34,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Nowhere Road",
+      "artist": "Steve Earle",
+      "this_week": 35,
+      "last_week": 38,
+      "peak_position": 35,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Ponies",
+      "artist": "Michael Johnson",
+      "this_week": 36,
+      "last_week": 37,
+      "peak_position": 36,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "That Was A Close One",
+      "artist": "Earl Thomas Conley",
+      "this_week": 37,
+      "last_week": 10,
+      "peak_position": 1,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "I'll Be Your Baby Tonight",
+      "artist": "Judy Rodman",
+      "this_week": 38,
+      "last_week": 42,
+      "peak_position": 38,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "I Turn To You",
+      "artist": "George Jones",
+      "this_week": 39,
+      "last_week": 26,
+      "peak_position": 26,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "The Way We Make A Broken Heart",
+      "artist": "Rosanne Cash",
+      "this_week": 40,
+      "last_week": 45,
+      "peak_position": 40,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "'Til The Old Wears Off",
+      "artist": "The Shooters",
+      "this_week": 41,
+      "last_week": 43,
+      "peak_position": 41,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Daddies Need To Grow Up Too",
+      "artist": "The O'Kanes",
+      "this_week": 42,
+      "last_week": 47,
+      "peak_position": 42,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Fishin' In The Dark",
+      "artist": "Nitty Gritty Dirt Band",
+      "this_week": 43,
+      "last_week": 60,
+      "peak_position": 43,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Child Support",
+      "artist": "Barbara Mandrell",
+      "this_week": 44,
+      "last_week": 51,
+      "peak_position": 44,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Love You Ain't Seen The Last Of Me",
+      "artist": "John Schneider",
+      "this_week": 45,
+      "last_week": 32,
+      "peak_position": 6,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Members Only",
+      "artist": "Donna Fargo And Billy Joe Royal",
+      "this_week": 46,
+      "last_week": 53,
+      "peak_position": 46,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "After All",
+      "artist": "Patty Loveless",
+      "this_week": 47,
+      "last_week": 52,
+      "peak_position": 47,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Island In The Sea",
+      "artist": "Willie Nelson",
+      "this_week": 48,
+      "last_week": 56,
+      "peak_position": 48,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "It's Only Over For You",
+      "artist": "Tanya Tucker",
+      "this_week": 49,
+      "last_week": 40,
+      "peak_position": 8,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Crazy Over You",
+      "artist": "Foster & Lloyd",
+      "this_week": 50,
+      "last_week": 61,
+      "peak_position": 50,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "I Want To Know You Before We Make Love",
+      "artist": "Conway Twitty",
+      "this_week": 51,
+      "last_week": 62,
+      "peak_position": 51,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Hymne",
+      "artist": "Joe Kenyon",
+      "this_week": 52,
+      "last_week": 58,
+      "peak_position": 52,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "You Lay A Lotta Love On Me",
+      "artist": "The Wrays",
+      "this_week": 53,
+      "last_week": 48,
+      "peak_position": 48,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Chains Of Gold",
+      "artist": "Sweethearts Of The Rodeo",
+      "this_week": 54,
+      "last_week": 31,
+      "peak_position": 4,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "The First Cut Is The Deepest",
+      "artist": "Ride The River",
+      "this_week": 55,
+      "last_week": 57,
+      "peak_position": 55,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Love Reunited",
+      "artist": "The Desert Rose Band",
+      "this_week": 56,
+      "last_week": 68,
+      "peak_position": 56,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "What A Girl Next Door Could Do",
+      "artist": "Girls Next Door",
+      "this_week": 57,
+      "last_week": 64,
+      "peak_position": 57,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Mama's Rockin' Chair",
+      "artist": "John Conlee",
+      "this_week": 58,
+      "last_week": null,
+      "peak_position": 58,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Til' I'm Too Old To Die Young",
+      "artist": "Moe Bandy",
+      "this_week": 59,
+      "last_week": 46,
+      "peak_position": 6,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Looking For You",
+      "artist": "Rodney Crowell",
+      "this_week": 60,
+      "last_week": 59,
+      "peak_position": 59,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Make A Living Out Of Loving You",
+      "artist": "Razorback",
+      "this_week": 61,
+      "last_week": 63,
+      "peak_position": 61,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "You're Never Too Old For Young Love",
+      "artist": "Eddy Raven",
+      "this_week": 62,
+      "last_week": 49,
+      "peak_position": 3,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Too Old To Grow Up Now",
+      "artist": "Pake McEntire",
+      "this_week": 63,
+      "last_week": 54,
+      "peak_position": 46,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Call Me A Fool",
+      "artist": "Dana McVicker",
+      "this_week": 64,
+      "last_week": 67,
+      "peak_position": 64,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "I Need To Be Loved Again",
+      "artist": "Liz Boardo",
+      "this_week": 65,
+      "last_week": 69,
+      "peak_position": 65,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Bringin' The House Down",
+      "artist": "Shurfire",
+      "this_week": 66,
+      "last_week": 73,
+      "peak_position": 66,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "You're My First Lady",
+      "artist": "T.G. Sheppard",
+      "this_week": 67,
+      "last_week": 44,
+      "peak_position": 2,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Someday My Ship Will Sail",
+      "artist": "Emmylou Harris",
+      "this_week": 68,
+      "last_week": 77,
+      "peak_position": 68,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Midnight Blue",
+      "artist": "John Wesley Ryles",
+      "this_week": 69,
+      "last_week": 66,
+      "peak_position": 36,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Dancin' With Myself Tonight",
+      "artist": "The Kendalls",
+      "this_week": 70,
+      "last_week": 78,
+      "peak_position": 70,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Make Me Late For Work Today",
+      "artist": "Ronnie McDowell",
+      "this_week": 71,
+      "last_week": 55,
+      "peak_position": 55,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "First Time Caller",
+      "artist": "Juice Newton",
+      "this_week": 72,
+      "last_week": null,
+      "peak_position": 72,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Nobody Should Have To Love This Way",
+      "artist": "Crystal Gayle",
+      "this_week": 73,
+      "last_week": null,
+      "peak_position": 73,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "If You Still Want A Fool Around",
+      "artist": "Charley Pride",
+      "this_week": 74,
+      "last_week": null,
+      "peak_position": 74,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "I Grow Old To Fast (And Smart Too Slow)",
+      "artist": "Johnny Paycheck",
+      "this_week": 75,
+      "last_week": 80,
+      "peak_position": 75,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Anger & Tears",
+      "artist": "Mel McDaniel",
+      "this_week": 76,
+      "last_week": 71,
+      "peak_position": 49,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Little Sister",
+      "artist": "Dwight Yoakam",
+      "this_week": 77,
+      "last_week": 50,
+      "peak_position": 7,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Waitin' Up",
+      "artist": "George Highfill",
+      "this_week": 78,
+      "last_week": null,
+      "peak_position": 78,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "When The Right One Comes Along",
+      "artist": "John Schneider",
+      "this_week": 79,
+      "last_week": null,
+      "peak_position": 79,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "From Time To Time (It Feels Like Love Again)",
+      "artist": "Larry Gatlin & Janie Frickie",
+      "this_week": 80,
+      "last_week": 65,
+      "peak_position": 21,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Domestic Life",
+      "artist": "John Conlee",
+      "this_week": 81,
+      "last_week": 74,
+      "peak_position": 4,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "I Talked A Lot About Leaving",
+      "artist": "Larry Boone",
+      "this_week": 82,
+      "last_week": 72,
+      "peak_position": 52,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Two Kinds Of Women",
+      "artist": "The Diamonds",
+      "this_week": 83,
+      "last_week": 85,
+      "peak_position": 83,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Geronimo's Cadillac",
+      "artist": "Jeff Stevens And The Bullets",
+      "this_week": 84,
+      "last_week": null,
+      "peak_position": 84,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "She Don't Love You",
+      "artist": "Susie Allanson",
+      "this_week": 85,
+      "last_week": 70,
+      "peak_position": 70,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Baby's Got A Hold On Me",
+      "artist": "Nitty Gritty Dirt Band",
+      "this_week": 86,
+      "last_week": 75,
+      "peak_position": 2,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "It Takes A Little Rain",
+      "artist": "The Oak Ridge Boys",
+      "this_week": 87,
+      "last_week": 79,
+      "peak_position": 1,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "The Moon Is Still Over Her Shoulder",
+      "artist": "Michael Johnson",
+      "this_week": 88,
+      "last_week": 86,
+      "peak_position": 1,
+      "weeks_on_chart": 25,
+      "new": false
+    },
+    {
+      "song": "Julia",
+      "artist": "Conway Twitty",
+      "this_week": 89,
+      "last_week": 81,
+      "peak_position": 2,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Have I Got Some Blues For You",
+      "artist": "Charley Pride",
+      "this_week": 90,
+      "last_week": 83,
+      "peak_position": 14,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Don't Touch Me There",
+      "artist": "Charly McClain",
+      "this_week": 91,
+      "last_week": 89,
+      "peak_position": 20,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Don't It Make You Wanta Go Home",
+      "artist": "Butch Baker",
+      "this_week": 92,
+      "last_week": 88,
+      "peak_position": 51,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Moonwalkin'",
+      "artist": "Don Malena",
+      "this_week": 93,
+      "last_week": 76,
+      "peak_position": 76,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Old Bridges Burn Slow",
+      "artist": "Billy Joe Royal",
+      "this_week": 94,
+      "last_week": 93,
+      "peak_position": 11,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "American Me",
+      "artist": "Schuyler, Knobloch And Bickhardt",
+      "this_week": 95,
+      "last_week": 82,
+      "peak_position": 16,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Too Many Rivers",
+      "artist": "The Forester Sisters",
+      "this_week": 96,
+      "last_week": 95,
+      "peak_position": 5,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "3935 West End Avenue",
+      "artist": "Mason Dixon",
+      "this_week": 97,
+      "last_week": 84,
+      "peak_position": 39,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Saving The Honey For The Honeymoon",
+      "artist": "Sawyer Brown",
+      "this_week": 98,
+      "last_week": 97,
+      "peak_position": 58,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "You're The Power",
+      "artist": "Kathy Mattea",
+      "this_week": 99,
+      "last_week": 98,
+      "peak_position": 5,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Ashes Of Love",
+      "artist": "The Desert Rose Band",
+      "this_week": 100,
+      "last_week": 99,
+      "peak_position": 26,
+      "weeks_on_chart": 18,
+      "new": false
+    }
+  ]
+}

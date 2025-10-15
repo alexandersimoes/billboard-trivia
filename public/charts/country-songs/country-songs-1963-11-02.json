@@ -1,0 +1,266 @@
+{
+  "date": "1963-11-02",
+  "data": [
+    {
+      "song": "Love's Gonna Live Here",
+      "artist": "Buck Owens",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Talk Back Trembling Lips",
+      "artist": "Ernest",
+      "this_week": 2,
+      "last_week": 4,
+      "peak_position": 1,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "8 X 10",
+      "artist": "Bill Anderson",
+      "this_week": 3,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Make The World Go Away",
+      "artist": "Ray Price",
+      "this_week": 4,
+      "last_week": 3,
+      "peak_position": 2,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Abilene",
+      "artist": "George Hamilton IV",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 1,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "You Comb Her Hair",
+      "artist": "George Jones",
+      "this_week": 6,
+      "last_week": 7,
+      "peak_position": 5,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Cowboy Boots",
+      "artist": "Dave Dudley",
+      "this_week": 7,
+      "last_week": 18,
+      "peak_position": 7,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Mountain Of Love",
+      "artist": "David Houston",
+      "this_week": 8,
+      "last_week": 8,
+      "peak_position": 8,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Faded Love",
+      "artist": "Patsy Cline",
+      "this_week": 9,
+      "last_week": 10,
+      "peak_position": 7,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Thanks A Lot",
+      "artist": "Ernest Tubb",
+      "this_week": 10,
+      "last_week": 11,
+      "peak_position": 10,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Ring Of Fire",
+      "artist": "Johnny Cash",
+      "this_week": 11,
+      "last_week": 9,
+      "peak_position": 1,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Tell Her So",
+      "artist": "Wilburn Brothers",
+      "this_week": 12,
+      "last_week": 15,
+      "peak_position": 12,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "We've Got Something In Common",
+      "artist": "Faron Young",
+      "this_week": 13,
+      "last_week": 20,
+      "peak_position": 13,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Your Best Friend And Me",
+      "artist": "Mac Wiseman",
+      "this_week": 14,
+      "last_week": 12,
+      "peak_position": 12,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "We Must Have Been Out Of Our Minds",
+      "artist": "George Jones & Melba Montgomery",
+      "this_week": 15,
+      "last_week": 13,
+      "peak_position": 3,
+      "weeks_on_chart": 27,
+      "new": false
+    },
+    {
+      "song": "Happy To Be Unhappy",
+      "artist": "Gary Buck",
+      "this_week": 16,
+      "last_week": 14,
+      "peak_position": 11,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Call Me Mr. Brown",
+      "artist": "Skeets McDonald",
+      "this_week": 18,
+      "last_week": 19,
+      "peak_position": 14,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Ninety Miles An Hour (Down A Dead End Street)",
+      "artist": "Hank Snow",
+      "this_week": 19,
+      "last_week": 23,
+      "peak_position": 19,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Not So Long Ago",
+      "artist": "Marty Robbins",
+      "this_week": 20,
+      "last_week": 21,
+      "peak_position": 13,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "500 Miles Away From Home",
+      "artist": "Bobby Bare",
+      "this_week": 21,
+      "last_week": 25,
+      "peak_position": 21,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Detroit City",
+      "artist": "Bobby Bare",
+      "this_week": 22,
+      "last_week": 17,
+      "peak_position": 6,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "If The Back Door Could Talk",
+      "artist": "Webb Pierce",
+      "this_week": 23,
+      "last_week": 22,
+      "peak_position": 22,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "I Can't Stay Mad At You",
+      "artist": "Skeeter Davis",
+      "this_week": 24,
+      "last_week": 24,
+      "peak_position": 23,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "That's Why I Sing In A Honky Tonk",
+      "artist": "Warren Smith",
+      "this_week": 25,
+      "last_week": null,
+      "peak_position": 25,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Too In Love",
+      "artist": "Hank Thompson",
+      "this_week": 26,
+      "last_week": 27,
+      "peak_position": 22,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Who's Been Cheatin' Who",
+      "artist": "Johnny & Jonie Mosby",
+      "this_week": 27,
+      "last_week": null,
+      "peak_position": 27,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Guilty",
+      "artist": "Jim Reeves",
+      "this_week": 28,
+      "last_week": 6,
+      "peak_position": 3,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Tie My Hunting Dog Down, Jed",
+      "artist": "Arthur",
+      "this_week": 29,
+      "last_week": 29,
+      "peak_position": 29,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Three Sheets In The Wind",
+      "artist": "Johnny Bond",
+      "this_week": 30,
+      "last_week": null,
+      "peak_position": 30,
+      "weeks_on_chart": 1,
+      "new": true
+    }
+  ]
+}

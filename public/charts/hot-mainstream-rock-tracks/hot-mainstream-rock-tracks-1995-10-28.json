@@ -1,0 +1,365 @@
+{
+  "date": "1995-10-28",
+  "data": [
+    {
+      "song": "Hard As A Rock",
+      "artist": "AC/DC",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Name",
+      "artist": "Goo Goo Dolls",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Comedown",
+      "artist": "Bush",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 2,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Perry Mason",
+      "artist": "Ozzy Osbourne",
+      "this_week": 4,
+      "last_week": 6,
+      "peak_position": 4,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Tomorrow",
+      "artist": "Silverchair",
+      "this_week": 5,
+      "last_week": 4,
+      "peak_position": 1,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Simple Lessons",
+      "artist": "Candlebox",
+      "this_week": 6,
+      "last_week": 5,
+      "peak_position": 5,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "My Friends",
+      "artist": "Red Hot Chili Peppers",
+      "this_week": 7,
+      "last_week": 13,
+      "peak_position": 7,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Lump",
+      "artist": "The Presidents Of The United States Of America",
+      "this_week": 8,
+      "last_week": 8,
+      "peak_position": 8,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Geek Stink Breath",
+      "artist": "Green Day",
+      "this_week": 9,
+      "last_week": 14,
+      "peak_position": 9,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Possum Kingdom",
+      "artist": "Toadies",
+      "this_week": 10,
+      "last_week": 11,
+      "peak_position": 9,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Your Little Secret",
+      "artist": "Melissa Etheridge",
+      "this_week": 11,
+      "last_week": null,
+      "peak_position": 11,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Cumbersome",
+      "artist": "Seven Mary Three",
+      "this_week": 12,
+      "last_week": 18,
+      "peak_position": 12,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Grind",
+      "artist": "Alice in Chains",
+      "this_week": 13,
+      "last_week": 38,
+      "peak_position": 13,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Hand In My Pocket",
+      "artist": "Alanis Morissette",
+      "this_week": 14,
+      "last_week": 19,
+      "peak_position": 14,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "And Fools Shine On",
+      "artist": "Brother Cane",
+      "this_week": 15,
+      "last_week": 10,
+      "peak_position": 1,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "In The Blood",
+      "artist": "Better Than Ezra",
+      "this_week": 16,
+      "last_week": 9,
+      "peak_position": 6,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Til I Hear It From You",
+      "artist": "Gin Blossoms",
+      "this_week": 17,
+      "last_week": 15,
+      "peak_position": 4,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Bullet With Butterfly Wings",
+      "artist": "The Smashing Pumpkins",
+      "this_week": 18,
+      "last_week": 36,
+      "peak_position": 18,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Smashing Young Man",
+      "artist": "Collective Soul",
+      "this_week": 19,
+      "last_week": 12,
+      "peak_position": 8,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "You Oughta Know",
+      "artist": "Alanis Morissette",
+      "this_week": 20,
+      "last_week": 17,
+      "peak_position": 3,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "I'll Stick Around",
+      "artist": "Foo Fighters",
+      "this_week": 21,
+      "last_week": 22,
+      "peak_position": 21,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Scum",
+      "artist": "Meat Puppets",
+      "this_week": 22,
+      "last_week": 20,
+      "peak_position": 20,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Rock And Roll Is Dead",
+      "artist": "Lenny Kravitz",
+      "this_week": 23,
+      "last_week": 7,
+      "peak_position": 4,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Just Like Anyone",
+      "artist": "Soul Asylum",
+      "this_week": 24,
+      "last_week": 16,
+      "peak_position": 11,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Hook",
+      "artist": "Blues Traveler",
+      "this_week": 25,
+      "last_week": 23,
+      "peak_position": 23,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Good Intentions",
+      "artist": "Toad The Wet Sprocket",
+      "this_week": 26,
+      "last_week": 35,
+      "peak_position": 26,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Rainin'",
+      "artist": "Sponge",
+      "this_week": 27,
+      "last_week": 28,
+      "peak_position": 27,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "All Over You",
+      "artist": "Live",
+      "this_week": 28,
+      "last_week": 24,
+      "peak_position": 2,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Drowning",
+      "artist": "Hootie & The Blowfish",
+      "this_week": 29,
+      "last_week": 31,
+      "peak_position": 29,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Warped",
+      "artist": "Red Hot Chili Peppers",
+      "this_week": 30,
+      "last_week": 21,
+      "peak_position": 13,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Solitude",
+      "artist": "Edwin McCain",
+      "this_week": 31,
+      "last_week": 25,
+      "peak_position": 25,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Only Wanna Be With You",
+      "artist": "Hootie & The Blowfish",
+      "this_week": 32,
+      "last_week": 30,
+      "peak_position": 2,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Immortality",
+      "artist": "Pearl Jam",
+      "this_week": 33,
+      "last_week": 29,
+      "peak_position": 10,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "The Break",
+      "artist": "Urge Overkill",
+      "this_week": 34,
+      "last_week": 39,
+      "peak_position": 34,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Run-Around",
+      "artist": "Blues Traveler",
+      "this_week": 35,
+      "last_week": 26,
+      "peak_position": 13,
+      "weeks_on_chart": 25,
+      "new": false
+    },
+    {
+      "song": "Little Things",
+      "artist": "Bush",
+      "this_week": 36,
+      "last_week": 34,
+      "peak_position": 6,
+      "weeks_on_chart": 26,
+      "new": false
+    },
+    {
+      "song": "Ants Marching",
+      "artist": "Dave Matthews Band",
+      "this_week": 37,
+      "last_week": 27,
+      "peak_position": 18,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Deja Voodoo",
+      "artist": "Kenny Wayne Shepherd",
+      "this_week": 38,
+      "last_week": null,
+      "peak_position": 38,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Breadmaker",
+      "artist": "Brother Cane",
+      "this_week": 39,
+      "last_week": null,
+      "peak_position": 39,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Electric Head Pt. 2 (The Ecstasy)",
+      "artist": "White Zombie",
+      "this_week": 40,
+      "last_week": 32,
+      "peak_position": 27,
+      "weeks_on_chart": 8,
+      "new": false
+    }
+  ]
+}

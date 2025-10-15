@@ -1,0 +1,365 @@
+{
+  "date": "1992-02-01",
+  "data": [
+    {
+      "song": "Mysterious Ways",
+      "artist": "U2",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Right Now",
+      "artist": "Van Halen",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 26,
+      "new": false
+    },
+    {
+      "song": "I Can't Dance",
+      "artist": "Genesis",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 3,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "King's Highway",
+      "artist": "Tom Petty And The Heartbreakers",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Ghost Of A Chance",
+      "artist": "Rush",
+      "this_week": 5,
+      "last_week": 8,
+      "peak_position": 5,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "There Will Never Be Another Tonight",
+      "artist": "Bryan Adams",
+      "this_week": 6,
+      "last_week": 6,
+      "peak_position": 6,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Smells Like Teen Spirit",
+      "artist": "Nirvana",
+      "this_week": 7,
+      "last_week": 9,
+      "peak_position": 7,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Love & Happiness",
+      "artist": "John Mellencamp",
+      "this_week": 8,
+      "last_week": 5,
+      "peak_position": 5,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "The Sky Is Crying",
+      "artist": "Stevie Ray Vaughan And Double Trouble",
+      "this_week": 9,
+      "last_week": 10,
+      "peak_position": 2,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "The Unforgiven",
+      "artist": "Metallica",
+      "this_week": 10,
+      "last_week": 14,
+      "peak_position": 10,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "She Takes My Breath Away",
+      "artist": "Eddie Money",
+      "this_week": 11,
+      "last_week": 7,
+      "peak_position": 5,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Mama, I'm Coming Home",
+      "artist": "Ozzy Osbourne",
+      "this_week": 12,
+      "last_week": 21,
+      "peak_position": 12,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Take A Chance",
+      "artist": "Bob Seger & The Silver Bullet Band",
+      "this_week": 13,
+      "last_week": 12,
+      "peak_position": 10,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Tears In Heaven",
+      "artist": "Eric Clapton",
+      "this_week": 14,
+      "last_week": 17,
+      "peak_position": 14,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Again Tonight",
+      "artist": "John Mellencamp",
+      "this_week": 15,
+      "last_week": 42,
+      "peak_position": 15,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Top Of The World",
+      "artist": "Van Halen",
+      "this_week": 16,
+      "last_week": 15,
+      "peak_position": 1,
+      "weeks_on_chart": 31,
+      "new": false
+    },
+    {
+      "song": "Heavy Fuel",
+      "artist": "Dire Straits",
+      "this_week": 17,
+      "last_week": 11,
+      "peak_position": 1,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Another Rainy Night (Without You)",
+      "artist": "Queensryche",
+      "this_week": 18,
+      "last_week": 13,
+      "peak_position": 7,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Call It What You Want",
+      "artist": "Tesla",
+      "this_week": 19,
+      "last_week": 19,
+      "peak_position": 19,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "The Bug",
+      "artist": "Dire Straits",
+      "this_week": 20,
+      "last_week": 33,
+      "peak_position": 20,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "November Rain",
+      "artist": "Guns N' Roses",
+      "this_week": 21,
+      "last_week": 16,
+      "peak_position": 15,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Empty Arms",
+      "artist": "Stevie Ray Vaughan And Double Trouble",
+      "this_week": 22,
+      "last_week": 23,
+      "peak_position": 22,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Roll The Bones",
+      "artist": "Rush",
+      "this_week": 23,
+      "last_week": 18,
+      "peak_position": 9,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Wild On The Run",
+      "artist": "Tall Stories",
+      "this_week": 24,
+      "last_week": 22,
+      "peak_position": 22,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Hit Between The Eyes (From \"Freejack\")",
+      "artist": "Scorpions",
+      "this_week": 25,
+      "last_week": 34,
+      "peak_position": 25,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "I've Got A Lot To Learn About Love",
+      "artist": "The Storm",
+      "this_week": 26,
+      "last_week": 20,
+      "peak_position": 6,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Alive",
+      "artist": "Pearl Jam",
+      "this_week": 27,
+      "last_week": 29,
+      "peak_position": 27,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "No More Tears",
+      "artist": "Ozzy Osbourne",
+      "this_week": 28,
+      "last_week": 24,
+      "peak_position": 10,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Painless",
+      "artist": "Baby Animals",
+      "this_week": 29,
+      "last_week": 31,
+      "peak_position": 29,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "To Be With You",
+      "artist": "Mr. Big",
+      "this_week": 30,
+      "last_week": 26,
+      "peak_position": 19,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Levon",
+      "artist": "Jon Bon Jovi",
+      "this_week": 31,
+      "last_week": 27,
+      "peak_position": 27,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Into The Great Wide Open",
+      "artist": "Tom Petty And The Heartbreakers",
+      "this_week": 32,
+      "last_week": 25,
+      "peak_position": 4,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Until The End Of The World",
+      "artist": "U2",
+      "this_week": 33,
+      "last_week": null,
+      "peak_position": 33,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Wasted Time",
+      "artist": "Skid Row",
+      "this_week": 34,
+      "last_week": 30,
+      "peak_position": 30,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Get A Leg Up",
+      "artist": "John Mellencamp",
+      "this_week": 35,
+      "last_week": 28,
+      "peak_position": 1,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Love Walked In",
+      "artist": "Thunder",
+      "this_week": 36,
+      "last_week": 32,
+      "peak_position": 31,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Come As You Are",
+      "artist": "Nirvana",
+      "this_week": 37,
+      "last_week": 45,
+      "peak_position": 37,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Jesus He Knows Me",
+      "artist": "Genesis",
+      "this_week": 38,
+      "last_week": 35,
+      "peak_position": 35,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Everything About You",
+      "artist": "Ugly Kid Joe",
+      "this_week": 39,
+      "last_week": null,
+      "peak_position": 39,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Show Me The Way",
+      "artist": "The Storm",
+      "this_week": 40,
+      "last_week": 48,
+      "peak_position": 40,
+      "weeks_on_chart": 2,
+      "new": false
+    }
+  ]
+}

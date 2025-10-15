@@ -1,0 +1,365 @@
+{
+  "date": "1999-12-18",
+  "data": [
+    {
+      "song": "Higher",
+      "artist": "Creed",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Learn To Fly",
+      "artist": "Foo Fighters",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "No Leaf Clover",
+      "artist": "Metallica",
+      "this_week": 3,
+      "last_week": 4,
+      "peak_position": 3,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "The Chemicals Between Us",
+      "artist": "Bush",
+      "this_week": 4,
+      "last_week": 3,
+      "peak_position": 3,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "The Dolphin's Cry",
+      "artist": "Live",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 2,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Take A Picture",
+      "artist": "Filter",
+      "this_week": 6,
+      "last_week": 8,
+      "peak_position": 6,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "In 2 Deep",
+      "artist": "The Kenny Wayne Shepherd Band",
+      "this_week": 7,
+      "last_week": 6,
+      "peak_position": 5,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Down",
+      "artist": "Stone Temple Pilots",
+      "this_week": 8,
+      "last_week": 7,
+      "peak_position": 5,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Put Your Lights On",
+      "artist": "Santana Featuring Everlast",
+      "this_week": 9,
+      "last_week": 9,
+      "peak_position": 8,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Re-arranged",
+      "artist": "Limp Bizkit",
+      "this_week": 10,
+      "last_week": 10,
+      "peak_position": 8,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Falling Away From Me",
+      "artist": "Korn",
+      "this_week": 11,
+      "last_week": 15,
+      "peak_position": 11,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Mudshovel",
+      "artist": "Staind",
+      "this_week": 12,
+      "last_week": 13,
+      "peak_position": 10,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Guerrilla Radio",
+      "artist": "Rage Against the Machine",
+      "this_week": 13,
+      "last_week": 14,
+      "peak_position": 12,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Keep Away",
+      "artist": "Godsmack",
+      "this_week": 14,
+      "last_week": 12,
+      "peak_position": 5,
+      "weeks_on_chart": 33,
+      "new": false
+    },
+    {
+      "song": "Fear The Voices",
+      "artist": "Alice in Chains",
+      "this_week": 15,
+      "last_week": 11,
+      "peak_position": 11,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Breadline",
+      "artist": "Megadeth",
+      "this_week": 16,
+      "last_week": 24,
+      "peak_position": 16,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Around The World",
+      "artist": "Red Hot Chili Peppers",
+      "this_week": 17,
+      "last_week": 16,
+      "peak_position": 16,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Voodoo",
+      "artist": "Godsmack",
+      "this_week": 18,
+      "last_week": 18,
+      "peak_position": 18,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Scar Tissue",
+      "artist": "Red Hot Chili Peppers",
+      "this_week": 19,
+      "last_week": 19,
+      "peak_position": 1,
+      "weeks_on_chart": 29,
+      "new": false
+    },
+    {
+      "song": "Push It",
+      "artist": "Static-X",
+      "this_week": 20,
+      "last_week": 23,
+      "peak_position": 20,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Knock Down Walls",
+      "artist": "Tonic",
+      "this_week": 21,
+      "last_week": 22,
+      "peak_position": 21,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Enemy",
+      "artist": "Days Of The New",
+      "this_week": 22,
+      "last_week": 17,
+      "peak_position": 2,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "She's Got Issues",
+      "artist": "The Offspring",
+      "this_week": 23,
+      "last_week": 21,
+      "peak_position": 21,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Denial",
+      "artist": "Sevendust",
+      "this_week": 24,
+      "last_week": 20,
+      "peak_position": 14,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Simon Says",
+      "artist": "Drain STH",
+      "this_week": 25,
+      "last_week": 27,
+      "peak_position": 25,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Preacher Man",
+      "artist": "Lynyrd Skynyrd",
+      "this_week": 26,
+      "last_week": 26,
+      "peak_position": 26,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Smooth",
+      "artist": "Santana Featuring Rob Thomas",
+      "this_week": 27,
+      "last_week": 25,
+      "peak_position": 10,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Sugar",
+      "artist": "System of a Down",
+      "this_week": 28,
+      "last_week": 29,
+      "peak_position": 28,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "True Friends",
+      "artist": "Shannon Curfman",
+      "this_week": 29,
+      "last_week": 30,
+      "peak_position": 29,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Pardon Me",
+      "artist": "Incubus",
+      "this_week": 30,
+      "last_week": 33,
+      "peak_position": 30,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Paper Sun",
+      "artist": "Def Leppard",
+      "this_week": 31,
+      "last_week": 28,
+      "peak_position": 11,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Nobody's Real",
+      "artist": "Powerman 5000",
+      "this_week": 32,
+      "last_week": null,
+      "peak_position": 32,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Open Your Eyes",
+      "artist": "Guano Apes",
+      "this_week": 33,
+      "last_week": 36,
+      "peak_position": 33,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Life Jacket",
+      "artist": "Simon Says",
+      "this_week": 34,
+      "last_week": null,
+      "peak_position": 34,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "When Worlds Collide",
+      "artist": "Powerman 5000",
+      "this_week": 35,
+      "last_week": 31,
+      "peak_position": 16,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Anything",
+      "artist": "Third Eye Blind",
+      "this_week": 36,
+      "last_week": null,
+      "peak_position": 36,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "No Tears Left",
+      "artist": "Crosby, Stills, Nash & Young",
+      "this_week": 37,
+      "last_week": 34,
+      "peak_position": 34,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Hanginaround",
+      "artist": "Counting Crows",
+      "this_week": 38,
+      "last_week": 40,
+      "peak_position": 38,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Cowboy",
+      "artist": "Kid Rock",
+      "this_week": 39,
+      "last_week": 32,
+      "peak_position": 10,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Dead Again",
+      "artist": "Buckcherry",
+      "this_week": 40,
+      "last_week": 38,
+      "peak_position": 38,
+      "weeks_on_chart": 3,
+      "new": false
+    }
+  ]
+}

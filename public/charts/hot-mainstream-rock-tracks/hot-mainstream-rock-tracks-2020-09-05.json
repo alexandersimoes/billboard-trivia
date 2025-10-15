@@ -1,0 +1,365 @@
+{
+  "date": "2020-09-05",
+  "data": [
+    {
+      "song": "All Within My Hands",
+      "artist": "Metallica And San Francisco Symphony",
+      "this_week": 1,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Atlas Falls",
+      "artist": "Shinedown",
+      "this_week": 2,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Dangerous",
+      "artist": "Seether",
+      "this_week": 3,
+      "last_week": 4,
+      "peak_position": 3,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Death By Rock And Roll",
+      "artist": "The Pretty Reckless",
+      "this_week": 4,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Patience",
+      "artist": "Chris Cornell",
+      "this_week": 5,
+      "last_week": 7,
+      "peak_position": 5,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Wolf Totem",
+      "artist": "The Hu Featuring Jacoby Shaddix",
+      "this_week": 6,
+      "last_week": 6,
+      "peak_position": 6,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Black Eyes Blue",
+      "artist": "Corey Taylor",
+      "this_week": 7,
+      "last_week": 9,
+      "peak_position": 7,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "A Little Bit Off",
+      "artist": "Five Finger Death Punch",
+      "this_week": 8,
+      "last_week": 5,
+      "peak_position": 1,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Work",
+      "artist": "Pop Evil",
+      "this_week": 9,
+      "last_week": 8,
+      "peak_position": 8,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Trials",
+      "artist": "Starset",
+      "this_week": 10,
+      "last_week": 10,
+      "peak_position": 10,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Panic",
+      "artist": "From Ashes To New",
+      "this_week": 11,
+      "last_week": 13,
+      "peak_position": 11,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "30",
+      "artist": "Badflower",
+      "this_week": 12,
+      "last_week": 15,
+      "peak_position": 12,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Dear Agony (Aurora Version)",
+      "artist": "Breaking Benjamin & Lacey Sturm",
+      "this_week": 13,
+      "last_week": 16,
+      "peak_position": 13,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Flowers On A Grave",
+      "artist": "Bush",
+      "this_week": 14,
+      "last_week": 11,
+      "peak_position": 10,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Every Time You Leave",
+      "artist": "I Prevail Featuring Delaney Jane",
+      "this_week": 15,
+      "last_week": 17,
+      "peak_position": 15,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "The Day I Tried To Live",
+      "artist": "Sevendust",
+      "this_week": 16,
+      "last_week": 18,
+      "peak_position": 16,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "We Are Chaos",
+      "artist": "Marilyn Manson",
+      "this_week": 17,
+      "last_week": 22,
+      "peak_position": 17,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "World Keeps Spinning",
+      "artist": "Theory Of A Deadman",
+      "this_week": 18,
+      "last_week": 14,
+      "peak_position": 13,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Parasite Eve",
+      "artist": "Bring Me the Horizon",
+      "this_week": 19,
+      "last_week": 20,
+      "peak_position": 19,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Hero",
+      "artist": "Weezer",
+      "this_week": 20,
+      "last_week": 21,
+      "peak_position": 20,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Ohms",
+      "artist": "Deftones",
+      "this_week": 21,
+      "last_week": 36,
+      "peak_position": 21,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Somebody That I Used To Know",
+      "artist": "Three Days Grace",
+      "this_week": 22,
+      "last_week": 23,
+      "peak_position": 22,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Take Me Away",
+      "artist": "Ayron Jones",
+      "this_week": 23,
+      "last_week": 24,
+      "peak_position": 23,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Gasoline",
+      "artist": "Crobot",
+      "this_week": 24,
+      "last_week": 25,
+      "peak_position": 24,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Learn To Walk Again",
+      "artist": "Bad Wolves",
+      "this_week": 25,
+      "last_week": 28,
+      "peak_position": 25,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Sunshine",
+      "artist": "The Black Moods",
+      "this_week": 26,
+      "last_week": 19,
+      "peak_position": 16,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "The Shift",
+      "artist": "10 Years",
+      "this_week": 27,
+      "last_week": 26,
+      "peak_position": 26,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Hometown",
+      "artist": "cleopatrick",
+      "this_week": 28,
+      "last_week": 27,
+      "peak_position": 27,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Fly On The Wall",
+      "artist": "The Violent",
+      "this_week": 29,
+      "last_week": 29,
+      "peak_position": 29,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Colossus",
+      "artist": "Avatar",
+      "this_week": 30,
+      "last_week": 31,
+      "peak_position": 30,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Bleed Into Me",
+      "artist": "Trivium",
+      "this_week": 31,
+      "last_week": 30,
+      "peak_position": 28,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Maybe It's Time",
+      "artist": "Sixx:A.M. Presents: Artists For Recovery Featuring Corey Taylor, Joe Elliott, Brantley Gilbert, Ivan Moody, Slash, AWOLNATION & Tommy Vext",
+      "this_week": 32,
+      "last_week": null,
+      "peak_position": 32,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "B12",
+      "artist": "Grey Daze",
+      "this_week": 33,
+      "last_week": 32,
+      "peak_position": 32,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Limits",
+      "artist": "Bad Omens",
+      "this_week": 34,
+      "last_week": 33,
+      "peak_position": 33,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Use My Voice",
+      "artist": "Evanescence",
+      "this_week": 35,
+      "last_week": null,
+      "peak_position": 35,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "As Above, So Below",
+      "artist": "In This Moment",
+      "this_week": 36,
+      "last_week": 35,
+      "peak_position": 35,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Headspace",
+      "artist": "Fame On Fire Featuring POORSTACY",
+      "this_week": 37,
+      "last_week": 34,
+      "peak_position": 34,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "World On Fire",
+      "artist": "Daughtry",
+      "this_week": 38,
+      "last_week": 38,
+      "peak_position": 38,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Forget Me Not",
+      "artist": "Another Day Dawns",
+      "this_week": 39,
+      "last_week": 40,
+      "peak_position": 39,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Good Ol' Days",
+      "artist": "STONE HORSES",
+      "this_week": 40,
+      "last_week": null,
+      "peak_position": 40,
+      "weeks_on_chart": 1,
+      "new": true
+    }
+  ]
+}

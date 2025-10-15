@@ -1,0 +1,365 @@
+{
+  "date": "1990-06-02",
+  "data": [
+    {
+      "song": "Doubleback",
+      "artist": "ZZ Top",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Cradle Of Love",
+      "artist": "Billy Idol",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Baby, It's Tonight",
+      "artist": "Jude Cole",
+      "this_week": 3,
+      "last_week": 4,
+      "peak_position": 3,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Wild Child",
+      "artist": "Heart",
+      "this_week": 4,
+      "last_week": 6,
+      "peak_position": 4,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Texas Twister",
+      "artist": "Little Feat",
+      "this_week": 5,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Yer So Bad",
+      "artist": "Tom Petty",
+      "this_week": 6,
+      "last_week": 5,
+      "peak_position": 5,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "I'll See You In My Dreams",
+      "artist": "Giant",
+      "this_week": 7,
+      "last_week": 9,
+      "peak_position": 7,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Tie Dye On The Highway",
+      "artist": "Robert Plant",
+      "this_week": 8,
+      "last_week": 7,
+      "peak_position": 6,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Never Do That",
+      "artist": "Pretenders",
+      "this_week": 9,
+      "last_week": 10,
+      "peak_position": 9,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Before You Accuse Me",
+      "artist": "Eric Clapton",
+      "this_week": 10,
+      "last_week": 11,
+      "peak_position": 10,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Holy Water",
+      "artist": "Bad Company",
+      "this_week": 11,
+      "last_week": null,
+      "peak_position": 11,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Love Is Dangerous",
+      "artist": "Fleetwood Mac",
+      "this_week": 12,
+      "last_week": 13,
+      "peak_position": 12,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Forgotten Years",
+      "artist": "Midnight Oil",
+      "this_week": 13,
+      "last_week": 14,
+      "peak_position": 13,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "I Think I Love You Too Much",
+      "artist": "The Jeff Healey Band",
+      "this_week": 14,
+      "last_week": 29,
+      "peak_position": 14,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "7 O'Clock",
+      "artist": "The London Quireboys",
+      "this_week": 15,
+      "last_week": 15,
+      "peak_position": 15,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Coming Of Age",
+      "artist": "Damn Yankees",
+      "this_week": 16,
+      "last_week": 8,
+      "peak_position": 1,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Now You're Gone",
+      "artist": "Whitesnake",
+      "this_week": 17,
+      "last_week": 18,
+      "peak_position": 17,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "This & That",
+      "artist": "Michael Penn",
+      "this_week": 18,
+      "last_week": 16,
+      "peak_position": 16,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Kiss This Thing Goodbye",
+      "artist": "Del Amitri",
+      "this_week": 19,
+      "last_week": 17,
+      "peak_position": 17,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "All Lips N' Hips",
+      "artist": "Electric Boys",
+      "this_week": 20,
+      "last_week": 20,
+      "peak_position": 20,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Jealous Again",
+      "artist": "The Black Crowes",
+      "this_week": 21,
+      "last_week": 12,
+      "peak_position": 5,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Stranger Than Paradise",
+      "artist": "Sleeze Beez",
+      "this_week": 22,
+      "last_week": 21,
+      "peak_position": 21,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Walks Like A Woman",
+      "artist": "Baton Rouge",
+      "this_week": 23,
+      "last_week": 28,
+      "peak_position": 23,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Love Is",
+      "artist": "Alannah Myles",
+      "this_week": 24,
+      "last_week": 19,
+      "peak_position": 19,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Don't Go Away Mad (Just Go Away)",
+      "artist": "Motley Crue",
+      "this_week": 25,
+      "last_week": 27,
+      "peak_position": 25,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "The Ballad Of Jayne",
+      "artist": "L.A. Guns",
+      "this_week": 26,
+      "last_week": 25,
+      "peak_position": 25,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Hungry",
+      "artist": "Lita Ford",
+      "this_week": 27,
+      "last_week": 34,
+      "peak_position": 27,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Chain Of Fools",
+      "artist": "Little Caesar",
+      "this_week": 28,
+      "last_week": 32,
+      "peak_position": 28,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Pretty Pink Rose",
+      "artist": "Adrian Belew And David Bowie",
+      "this_week": 29,
+      "last_week": 30,
+      "peak_position": 29,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Every Little Thing",
+      "artist": "Jeff Lynne",
+      "this_week": 30,
+      "last_week": null,
+      "peak_position": 30,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Way Down Now",
+      "artist": "World Party",
+      "this_week": 31,
+      "last_week": 38,
+      "peak_position": 31,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "High Landrons",
+      "artist": "Eric Johnson",
+      "this_week": 32,
+      "last_week": 31,
+      "peak_position": 31,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Drop The Gun",
+      "artist": "Kings Of The Sun",
+      "this_week": 33,
+      "last_week": 36,
+      "peak_position": 33,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "All For You",
+      "artist": "David Baerwald",
+      "this_week": 34,
+      "last_week": 43,
+      "peak_position": 34,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "No Alibis",
+      "artist": "Eric Clapton",
+      "this_week": 35,
+      "last_week": 33,
+      "peak_position": 4,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Hurting Kind",
+      "artist": "Robert Plant",
+      "this_week": 36,
+      "last_week": 23,
+      "peak_position": 1,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Superconductor",
+      "artist": "Rush",
+      "this_week": 37,
+      "last_week": 41,
+      "peak_position": 37,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Don't Be Afraid Of The Dark",
+      "artist": "Y&T",
+      "this_week": 38,
+      "last_week": 50,
+      "peak_position": 38,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Yesterday Girl",
+      "artist": "The Smithereens",
+      "this_week": 39,
+      "last_week": 46,
+      "peak_position": 39,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "The Emperor's New Clothes",
+      "artist": "Sinead O'Connor",
+      "this_week": 40,
+      "last_week": 48,
+      "peak_position": 40,
+      "weeks_on_chart": 2,
+      "new": false
+    }
+  ]
+}

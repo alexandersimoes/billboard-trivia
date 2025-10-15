@@ -1,0 +1,275 @@
+{
+  "date": "1962-08-04",
+  "data": [
+    {
+      "song": "Wolverton Mountain",
+      "artist": "Claude King",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Adios Amigo",
+      "artist": "Jim Reeves",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "She Thinks I Still Care",
+      "artist": "George Jones",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Trouble's Back In Town",
+      "artist": "Wilburn Brothers",
+      "this_week": 4,
+      "last_week": 5,
+      "peak_position": 4,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "The Comeback",
+      "artist": "Faron Young",
+      "this_week": 5,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "A Little Heartache",
+      "artist": "Eddy Arnold",
+      "this_week": 6,
+      "last_week": 6,
+      "peak_position": 6,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "It Keeps Right On A-Hurtin'",
+      "artist": "Johnny Tillotson",
+      "this_week": 7,
+      "last_week": 9,
+      "peak_position": 7,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "In The Jailhouse Now",
+      "artist": "Johnny Cash",
+      "this_week": 8,
+      "last_week": 13,
+      "peak_position": 8,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Success",
+      "artist": "Loretta Lynn",
+      "this_week": 9,
+      "last_week": 12,
+      "peak_position": 9,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Take Time",
+      "artist": "Webb Pierce",
+      "this_week": 10,
+      "last_week": 14,
+      "peak_position": 7,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "When I Get Thru With You (You'll Love Me Too)",
+      "artist": "Patsy Cline",
+      "this_week": 11,
+      "last_week": 15,
+      "peak_position": 10,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Crazy Wild Desire",
+      "artist": "Webb Pierce",
+      "this_week": 12,
+      "last_week": 8,
+      "peak_position": 8,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Waltz Of The Angels",
+      "artist": "George Jones & Margie Singleton",
+      "this_week": 13,
+      "last_week": 17,
+      "peak_position": 11,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "We're Gonna Go Fishin'",
+      "artist": "Hank Locklin",
+      "this_week": 14,
+      "last_week": 19,
+      "peak_position": 14,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "I Can Mend Your Broken Heart",
+      "artist": "Don Gibson",
+      "this_week": 15,
+      "last_week": 7,
+      "peak_position": 5,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Cold Dark Waters",
+      "artist": "Porter Wagoner",
+      "this_week": 16,
+      "last_week": 10,
+      "peak_position": 10,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Leona",
+      "artist": "Stonewall Jackson",
+      "this_week": 17,
+      "last_week": 20,
+      "peak_position": 17,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Mama Sang A Song",
+      "artist": "Bill Anderson",
+      "this_week": 18,
+      "last_week": 28,
+      "peak_position": 18,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Touch Me",
+      "artist": "Willie Nelson",
+      "this_week": 19,
+      "last_week": 18,
+      "peak_position": 7,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Open Pit Mine",
+      "artist": "George Jones",
+      "this_week": 20,
+      "last_week": 21,
+      "peak_position": 20,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "One Look At Heaven",
+      "artist": "Stonewall Jackson",
+      "this_week": 21,
+      "last_week": 11,
+      "peak_position": 11,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Charlie's Shoes",
+      "artist": "Billy Walker",
+      "this_week": 22,
+      "last_week": 16,
+      "peak_position": 1,
+      "weeks_on_chart": 23,
+      "new": false
+    },
+    {
+      "song": "Everybody But Me",
+      "artist": "Ernest",
+      "this_week": 23,
+      "last_week": 22,
+      "peak_position": 22,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Save The Last Dance For Me",
+      "artist": "Buck Owens",
+      "this_week": 24,
+      "last_week": 26,
+      "peak_position": 24,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Where The Old Red River Flows",
+      "artist": "Jimmie Davis",
+      "this_week": 25,
+      "last_week": 25,
+      "peak_position": 15,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Will Your Lawyer Talk To God",
+      "artist": "Kitty Wells",
+      "this_week": 26,
+      "last_week": null,
+      "peak_position": 26,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "After Loving You",
+      "artist": "Eddy Arnold",
+      "this_week": 27,
+      "last_week": null,
+      "peak_position": 27,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "You Take The Future (And I'll Take The Past)",
+      "artist": "Hank Snow",
+      "this_week": 28,
+      "last_week": 23,
+      "peak_position": 15,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Devil Woman",
+      "artist": "Marty Robbins",
+      "this_week": 29,
+      "last_week": null,
+      "peak_position": 29,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Somebody Save Me",
+      "artist": "Ferlin Husky",
+      "this_week": 30,
+      "last_week": 24,
+      "peak_position": 16,
+      "weeks_on_chart": 11,
+      "new": false
+    }
+  ]
+}

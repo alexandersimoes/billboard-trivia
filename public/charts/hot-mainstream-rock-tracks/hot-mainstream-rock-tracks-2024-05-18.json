@@ -1,0 +1,365 @@
+{
+  "date": "2024-05-18",
+  "data": [
+    {
+      "song": "Screaming Suicide",
+      "artist": "Metallica",
+      "this_week": 1,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "I Was Alive",
+      "artist": "Beartooth",
+      "this_week": 2,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "If It Doesn't Hurt",
+      "artist": "Nothing More",
+      "this_week": 3,
+      "last_week": 4,
+      "peak_position": 3,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Truth",
+      "artist": "Godsmack",
+      "this_week": 4,
+      "last_week": 5,
+      "peak_position": 4,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "This Is The Way",
+      "artist": "Five Finger Death Punch Featuring DMX",
+      "this_week": 5,
+      "last_week": 6,
+      "peak_position": 5,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Dilemma",
+      "artist": "Green Day",
+      "this_week": 6,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "I Am The Lightning",
+      "artist": "Des Rocs",
+      "this_week": 7,
+      "last_week": 7,
+      "peak_position": 7,
+      "weeks_on_chart": 25,
+      "new": false
+    },
+    {
+      "song": "Barely Breathing",
+      "artist": "From Ashes To New Featuring Against The Current",
+      "this_week": 8,
+      "last_week": 9,
+      "peak_position": 8,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Running In Circles",
+      "artist": "Dead Poet Society",
+      "this_week": 9,
+      "last_week": 10,
+      "peak_position": 9,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Rockstar",
+      "artist": "HARDY",
+      "this_week": 10,
+      "last_week": 11,
+      "peak_position": 10,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Crack Cocaine",
+      "artist": "Billy Morrison With Ozzy Osbourne & Steve Stevens",
+      "this_week": 11,
+      "last_week": 14,
+      "peak_position": 11,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "S!CK",
+      "artist": "The Warning",
+      "this_week": 12,
+      "last_week": 12,
+      "peak_position": 12,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Friendly Fire",
+      "artist": "Linkin Park",
+      "this_week": 13,
+      "last_week": 8,
+      "peak_position": 1,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Fallout",
+      "artist": "Sleep Theory",
+      "this_week": 14,
+      "last_week": 15,
+      "peak_position": 14,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Pieces",
+      "artist": "Daughtry",
+      "this_week": 15,
+      "last_week": 17,
+      "peak_position": 15,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Dogs Of War",
+      "artist": "Motley Crue",
+      "this_week": 16,
+      "last_week": 19,
+      "peak_position": 16,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Dark Matter",
+      "artist": "Pearl Jam",
+      "this_week": 17,
+      "last_week": 16,
+      "peak_position": 1,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "The Glass",
+      "artist": "Foo Fighters",
+      "this_week": 18,
+      "last_week": 13,
+      "peak_position": 1,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "When The Pain Comes",
+      "artist": "Black Stone Cherry",
+      "this_week": 19,
+      "last_week": 20,
+      "peak_position": 18,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "V.A.N",
+      "artist": "Bad Omens & Poppy",
+      "this_week": 20,
+      "last_week": 22,
+      "peak_position": 20,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Magnetic",
+      "artist": "Wage War",
+      "this_week": 21,
+      "last_week": 21,
+      "peak_position": 21,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Wreckage",
+      "artist": "Pearl Jam",
+      "this_week": 22,
+      "last_week": 25,
+      "peak_position": 22,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Landmines",
+      "artist": "Sum 41",
+      "this_week": 23,
+      "last_week": 23,
+      "peak_position": 21,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Dreamstate",
+      "artist": "Dayseeker",
+      "this_week": 24,
+      "last_week": 24,
+      "peak_position": 23,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Nightmare (The Devil)",
+      "artist": "Fame On Fire",
+      "this_week": 25,
+      "last_week": 26,
+      "peak_position": 25,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Crown Of Horns",
+      "artist": "Judas Priest",
+      "this_week": 26,
+      "last_week": 27,
+      "peak_position": 24,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Dark Void",
+      "artist": "Asking Alexandria",
+      "this_week": 27,
+      "last_week": 18,
+      "peak_position": 6,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Better Days",
+      "artist": "Staind Featuring Dorothy",
+      "this_week": 28,
+      "last_week": 30,
+      "peak_position": 28,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Afraid To Die",
+      "artist": "P.O.D. Featuring Tatiana Shmayluk",
+      "this_week": 29,
+      "last_week": 29,
+      "peak_position": 28,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Closure",
+      "artist": "The Plot In You",
+      "this_week": 30,
+      "last_week": 28,
+      "peak_position": 28,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Savage",
+      "artist": "Tim Montana",
+      "this_week": 31,
+      "last_week": 39,
+      "peak_position": 31,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Fake Ass Friends",
+      "artist": "Set It Off",
+      "this_week": 32,
+      "last_week": 32,
+      "peak_position": 31,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Wash It Away",
+      "artist": "The Ghost Inside",
+      "this_week": 33,
+      "last_week": 34,
+      "peak_position": 33,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Dead To Me",
+      "artist": "Palaye Royale",
+      "this_week": 34,
+      "last_week": 36,
+      "peak_position": 34,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Headspace Holiday",
+      "artist": "Keith Wallen",
+      "this_week": 35,
+      "last_week": 35,
+      "peak_position": 30,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Coming Home (Ballad Of The Shire)",
+      "artist": "Dirty Honey",
+      "this_week": 36,
+      "last_week": 38,
+      "peak_position": 32,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Bleeders",
+      "artist": "Black Veil Brides",
+      "this_week": 37,
+      "last_week": null,
+      "peak_position": 37,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Neon Pill",
+      "artist": "Cage the Elephant",
+      "this_week": 38,
+      "last_week": 31,
+      "peak_position": 25,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Forever Sleep",
+      "artist": "Moon Fever",
+      "this_week": 39,
+      "last_week": 40,
+      "peak_position": 38,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Hurts To Be Human",
+      "artist": "Lines Of Loyalty",
+      "this_week": 40,
+      "last_week": null,
+      "peak_position": 38,
+      "weeks_on_chart": 5,
+      "new": false
+    }
+  ]
+}

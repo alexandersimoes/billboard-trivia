@@ -1,0 +1,365 @@
+{
+  "date": "1984-02-11",
+  "data": [
+    {
+      "song": "JUMP",
+      "artist": "Van Halen",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "MIDDLE OF THE ROAD",
+      "artist": "Pretenders",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Nobody Told Me",
+      "artist": "John Lennon",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 3,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "NEW MOON ON MONDAY",
+      "artist": "Duran Duran",
+      "this_week": 4,
+      "last_week": 6,
+      "peak_position": 4,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "It Can Happen",
+      "artist": "Yes",
+      "this_week": 5,
+      "last_week": 16,
+      "peak_position": 5,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "PANAMA",
+      "artist": "Van Halen",
+      "this_week": 6,
+      "last_week": 14,
+      "peak_position": 6,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "PINK HOUSES",
+      "artist": "John Mellencamp",
+      "this_week": 7,
+      "last_week": 7,
+      "peak_position": 3,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "THAT's ALL",
+      "artist": "Genesis",
+      "this_week": 8,
+      "last_week": 5,
+      "peak_position": 2,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Back Where You Belong",
+      "artist": "Thirty Eight Special",
+      "this_week": 9,
+      "last_week": 15,
+      "peak_position": 5,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "SHE WAS HOT",
+      "artist": "The Rolling Stones",
+      "this_week": 10,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Changes",
+      "artist": "Yes",
+      "this_week": 11,
+      "last_week": 11,
+      "peak_position": 10,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Ask The Lonely",
+      "artist": "Journey",
+      "this_week": 12,
+      "last_week": 9,
+      "peak_position": 3,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Heaven",
+      "artist": "Bryan Adams",
+      "this_week": 13,
+      "last_week": 32,
+      "peak_position": 13,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "RUNNER",
+      "artist": "Manfred Mann's Earth Band",
+      "this_week": 14,
+      "last_week": 29,
+      "peak_position": 14,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "REBEL YELL",
+      "artist": "Billy Idol",
+      "this_week": 15,
+      "last_week": 13,
+      "peak_position": 9,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "GOT A HOLD ON ME",
+      "artist": "Christine McVie",
+      "this_week": 16,
+      "last_week": 33,
+      "peak_position": 16,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "I WANT A NEW DRUG",
+      "artist": "Huey Lewis & The News",
+      "this_week": 17,
+      "last_week": 17,
+      "peak_position": 7,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Owner Of A Lonely Heart",
+      "artist": "Yes",
+      "this_week": 18,
+      "last_week": 10,
+      "peak_position": 1,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Looks That Kill",
+      "artist": "Motley Crue",
+      "this_week": 19,
+      "last_week": 18,
+      "peak_position": 15,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Here Comes The Rain Again",
+      "artist": "Eurythmics",
+      "this_week": 20,
+      "last_week": 27,
+      "peak_position": 20,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "LEAVE IT",
+      "artist": "Yes",
+      "this_week": 21,
+      "last_week": null,
+      "peak_position": 21,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "SHOOTING SHARK",
+      "artist": "Blue Oyster Cult",
+      "this_week": 22,
+      "last_week": 25,
+      "peak_position": 16,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "I GUESS THAT's WHY THEY CALL IT THE BLUES",
+      "artist": "Elton John",
+      "this_week": 23,
+      "last_week": 22,
+      "peak_position": 22,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Hot For Teacher",
+      "artist": "Van Halen",
+      "this_week": 24,
+      "last_week": 40,
+      "peak_position": 24,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "RUNAWAY",
+      "artist": "Bon Jovi",
+      "this_week": 25,
+      "last_week": null,
+      "peak_position": 25,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "TAKE ME AWAY",
+      "artist": "Blue Oyster Cult",
+      "this_week": 26,
+      "last_week": 31,
+      "peak_position": 11,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Remember The Nights",
+      "artist": "The Motels",
+      "this_week": 27,
+      "last_week": 12,
+      "peak_position": 12,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "I'LL WAIT",
+      "artist": "Van Halen",
+      "this_week": 28,
+      "last_week": 19,
+      "peak_position": 19,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Time The Avenger",
+      "artist": "Pretenders",
+      "this_week": 29,
+      "last_week": 20,
+      "peak_position": 20,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "CRY BABY",
+      "artist": "Utopia",
+      "this_week": 30,
+      "last_week": null,
+      "peak_position": 30,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "GIRLS",
+      "artist": "Dwight Twilley",
+      "this_week": 31,
+      "last_week": null,
+      "peak_position": 31,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Nightbird",
+      "artist": "Stevie Nicks",
+      "this_week": 32,
+      "last_week": null,
+      "peak_position": 32,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "DON't WANNA LET YOU GO",
+      "artist": "Quiet Riot",
+      "this_week": 33,
+      "last_week": null,
+      "peak_position": 33,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "I'm STEPPIN' OUT",
+      "artist": "John Lennon",
+      "this_week": 34,
+      "last_week": null,
+      "peak_position": 34,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Bark At The Moon",
+      "artist": "Ozzy Osbourne",
+      "this_week": 35,
+      "last_week": 37,
+      "peak_position": 12,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "SEND ME AN ANGEL",
+      "artist": "Real Life",
+      "this_week": 36,
+      "last_week": 57,
+      "peak_position": 18,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Wrapped Around Your Finger",
+      "artist": "The Police",
+      "this_week": 37,
+      "last_week": 38,
+      "peak_position": 9,
+      "weeks_on_chart": 23,
+      "new": false
+    },
+    {
+      "song": "PLAY GUITAR",
+      "artist": "John Mellencamp",
+      "this_week": 38,
+      "last_week": 34,
+      "peak_position": 34,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "JUST A JOB TO DO",
+      "artist": "Genesis",
+      "this_week": 39,
+      "last_week": 23,
+      "peak_position": 10,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Girls Just Want To Have Fun",
+      "artist": "Cyndi Lauper",
+      "this_week": 40,
+      "last_week": 26,
+      "peak_position": 21,
+      "weeks_on_chart": 4,
+      "new": false
+    }
+  ]
+}
