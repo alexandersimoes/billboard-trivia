@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { supabase } from '@/lib/supabaseClient';
+import { useAuth } from '@/hooks/useAuth';
 import { Audiowide } from 'next/font/google';
 import Link from 'next/link';
 
@@ -17,6 +18,7 @@ interface LeaderboardEntry {
 }
 
 export default function Leaderboard() {
+  const { user } = useAuth();
   const [leaderboard, setLeaderboard] = useState<LeaderboardEntry[]>([]);
   const [loading, setLoading] = useState(true);
 
@@ -95,32 +97,82 @@ export default function Leaderboard() {
       backgroundSize: '200% 200%, 200% 200%, 200% 200%, 200% 200%, 200% 200%, 200% 200%, 200% 200%, 100% 100%, 100% 100%',
       backgroundAttachment: 'fixed',
     }}>
-      {/* Back button - top left */}
-      <div className="absolute top-4 left-4 z-20">
-        <Link
-          href="/"
-          className="px-3 py-2 rounded-lg text-xs font-semibold transition-all hover:scale-105"
-          style={{
-            backgroundColor: 'rgba(75, 0, 130, 0.5)',
-            color: '#C0C0C0',
-            border: '1px solid rgba(192, 192, 192, 0.3)',
-            backdropFilter: 'blur(10px)',
-          }}
-        >
-          ← Back
-        </Link>
-      </div>
-
       {/* Constellation lines */}
       <div className="constellation-line" style={{ top: '20%', left: '10%', width: '30%', transform: 'rotate(45deg)' }} />
       <div className="constellation-line" style={{ top: '60%', right: '15%', width: '25%', transform: 'rotate(-30deg)' }} />
       <div className="constellation-line" style={{ bottom: '30%', left: '25%', width: '40%', transform: 'rotate(15deg)' }} />
 
       <div className="max-w-4xl mx-auto relative z-10">
-        <h1 className={`${audiowide.className} text-4xl sm:text-5xl md:text-6xl font-bold text-center mb-8 sm:mb-12 metallic-text`} style={{
-          textShadow: '0 0 30px rgba(192, 192, 192, 0.8), 0 0 60px rgba(75, 0, 130, 0.6)'
+        {/* Header with logo and icons */}
+        <div className="flex items-center justify-between mb-4 sm:mb-6 relative z-20">
+          <Link
+            href="/"
+            className={`${audiowide.className} text-xl sm:text-2xl md:text-3xl font-bold metallic-text cursor-pointer transition-all hover:scale-105`}
+            style={{
+              textShadow: '0 0 20px rgba(192, 192, 192, 0.8), 0 0 40px rgba(75, 0, 130, 0.6)'
+            }}
+          >
+            🚀 TUNETRIVIA 🎸
+          </Link>
+
+          {/* Icons - right side */}
+          <div className="flex items-center gap-2 sm:gap-3 flex-shrink-0">
+            {/* Leaderboard button (current page indicator) */}
+            <div className="relative group">
+              <div
+                className="w-10 h-10 sm:w-12 sm:h-12 rounded-full flex items-center justify-center"
+                style={{
+                  backgroundColor: 'rgba(255, 215, 0, 0.3)',
+                  color: '#FFD700',
+                  border: '2px solid rgba(255, 215, 0, 0.6)',
+                  backdropFilter: 'blur(10px)',
+                }}
+              >
+                <svg className="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+                </svg>
+              </div>
+            </div>
+
+            {/* User/Auth button with circular icon */}
+            {user ? (
+              <Link
+                href="/games"
+                className="w-10 h-10 sm:w-12 sm:h-12 rounded-full flex items-center justify-center overflow-hidden transition-all hover:scale-105"
+                style={{
+                  backgroundColor: 'rgba(75, 0, 130, 0.8)',
+                  border: '2px solid rgba(192, 192, 192, 0.5)',
+                  backdropFilter: 'blur(10px)',
+                }}
+              >
+                <img
+                  src={user.user_metadata?.picture}
+                  alt="User avatar"
+                  className="w-full h-full object-cover"
+                />
+              </Link>
+            ) : (
+              <div
+                className="w-10 h-10 sm:w-12 sm:h-12 rounded-full flex items-center justify-center transition-all"
+                style={{
+                  backgroundColor: 'rgba(75, 0, 130, 0.8)',
+                  color: '#C0C0C0',
+                  border: '2px solid rgba(192, 192, 192, 0.5)',
+                  backdropFilter: 'blur(10px)',
+                }}
+              >
+                <svg className="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                </svg>
+              </div>
+            )}
+          </div>
+        </div>
+
+        <h1 className={`${audiowide.className} text-xl sm:text-2xl md:text-3xl font-bold text-center mb-6 sm:mb-8 metallic-text`} style={{
+          textShadow: '0 0 20px rgba(192, 192, 192, 0.8), 0 0 40px rgba(75, 0, 130, 0.6)'
         }}>
-          🏆 LEADERBOARD 🏆
+          🏆 LEADERBOARD
         </h1>
 
         <div className="holographic-card rounded-3xl p-4 sm:p-6 md:p-8" style={{

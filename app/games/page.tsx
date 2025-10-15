@@ -101,48 +101,83 @@ export default function Games() {
       backgroundSize: '200% 200%, 200% 200%, 200% 200%, 200% 200%, 200% 200%, 200% 200%, 200% 200%, 100% 100%, 100% 100%',
       backgroundAttachment: 'fixed',
     }}>
-      {/* Back button - top left */}
-      <div className="absolute top-4 left-4 z-20">
-        <Link
-          href="/"
-          className="px-3 py-2 rounded-lg text-xs font-semibold transition-all hover:scale-105"
-          style={{
-            backgroundColor: 'rgba(75, 0, 130, 0.5)',
-            color: '#C0C0C0',
-            border: '1px solid rgba(192, 192, 192, 0.3)',
-            backdropFilter: 'blur(10px)',
-          }}
-        >
-          ← Back
-        </Link>
-      </div>
-
-      {/* Sign out button - top right */}
-      <div className="absolute top-4 right-4 z-20">
-        <button
-          onClick={signOut}
-          className="px-3 py-2 rounded-lg text-xs font-semibold transition-all hover:scale-105"
-          style={{
-            backgroundColor: 'rgba(75, 0, 130, 0.5)',
-            color: '#C0C0C0',
-            border: '1px solid rgba(192, 192, 192, 0.3)',
-            backdropFilter: 'blur(10px)',
-          }}
-        >
-          Sign Out
-        </button>
-      </div>
-
       {/* Constellation lines */}
       <div className="constellation-line" style={{ top: '20%', left: '10%', width: '30%', transform: 'rotate(45deg)' }} />
       <div className="constellation-line" style={{ top: '60%', right: '15%', width: '25%', transform: 'rotate(-30deg)' }} />
       <div className="constellation-line" style={{ bottom: '30%', left: '25%', width: '40%', transform: 'rotate(15deg)' }} />
 
       <div className="max-w-4xl mx-auto relative z-10">
-        <h1 className={`${audiowide.className} text-4xl sm:text-5xl md:text-6xl font-bold text-center mb-8 sm:mb-12 metallic-text`} style={{
-          textShadow: '0 0 30px rgba(192, 192, 192, 0.8), 0 0 60px rgba(75, 0, 130, 0.6)'
+        {/* Header with logo and icons */}
+        <div className="flex items-center justify-between mb-4 sm:mb-6 relative z-20">
+          <Link
+            href="/"
+            className={`${audiowide.className} text-xl sm:text-2xl md:text-3xl font-bold metallic-text cursor-pointer transition-all hover:scale-105`}
+            style={{
+              textShadow: '0 0 20px rgba(192, 192, 192, 0.8), 0 0 40px rgba(75, 0, 130, 0.6)'
+            }}
+          >
+            🚀 TUNETRIVIA 🎸
+          </Link>
+
+          {/* Icons - right side */}
+          <div className="flex items-center gap-2 sm:gap-3 flex-shrink-0">
+            {/* Leaderboard button */}
+            <div className="relative group">
+              <Link
+                href="/leaderboard"
+                className="w-10 h-10 sm:w-12 sm:h-12 rounded-full flex items-center justify-center transition-all hover:scale-105"
+                style={{
+                  backgroundColor: 'rgba(75, 0, 130, 0.8)',
+                  color: '#C0C0C0',
+                  border: '2px solid rgba(192, 192, 192, 0.5)',
+                  backdropFilter: 'blur(10px)',
+                }}
+              >
+                <svg className="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+                </svg>
+              </Link>
+            </div>
+
+            {/* User/Auth button with circular icon */}
+            <div className="relative group">
+              <div
+                className="w-10 h-10 sm:w-12 sm:h-12 rounded-full flex items-center justify-center overflow-hidden"
+                style={{
+                  backgroundColor: 'rgba(255, 215, 0, 0.3)',
+                  border: '2px solid rgba(255, 215, 0, 0.6)',
+                  backdropFilter: 'blur(10px)',
+                }}
+              >
+                <img
+                  src={user.user_metadata?.picture}
+                  alt="User avatar"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              {/* Sign out tooltip */}
+              <div className="absolute top-full right-0 mt-2 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+                <button
+                  onClick={signOut}
+                  className="px-3 py-1 rounded-lg text-xs font-semibold whitespace-nowrap pointer-events-auto"
+                  style={{
+                    backgroundColor: 'rgba(75, 0, 130, 0.9)',
+                    color: '#C0C0C0',
+                    border: '1px solid rgba(192, 192, 192, 0.3)',
+                    backdropFilter: 'blur(10px)',
+                  }}
+                >
+                  Sign Out
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h1 className={`${audiowide.className} text-xl sm:text-2xl md:text-3xl font-bold text-center mb-6 sm:mb-8 metallic-text`} style={{
+          textShadow: '0 0 20px rgba(192, 192, 192, 0.8), 0 0 40px rgba(75, 0, 130, 0.6)'
         }}>
-          🎮 MY GAMES 🎮
+          🎮 MY GAMES
         </h1>
 
         <div className="holographic-card rounded-3xl p-4 sm:p-6 md:p-8" style={{

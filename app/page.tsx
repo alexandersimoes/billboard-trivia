@@ -176,6 +176,7 @@ export default function Home() {
   const audioRef = useRef<HTMLAudioElement>(null);
   const timerRef = useRef<NodeJS.Timeout | null>(null);
   const roundStartTimeRef = useRef<number>(0);
+  const [showAuthOverlay, setShowAuthOverlay] = useState(false);
 
   const { startGameRound, recordGuess, endGameRound } = useGameTracking();
   const { user, loading: authLoading, signInWithGoogle, signOut } = useAuth();
@@ -554,25 +555,25 @@ export default function Home() {
     <div className="min-h-screen p-3 sm:p-6 md:p-8 relative overflow-hidden">
       <audio ref={audioRef} />
 
-      {/* Auth button - top right */}
-      <div className="absolute top-4 right-4 z-20">
-        {authLoading ? (
-          <div
-            className="w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold animate-pulse"
-            style={{
-              backgroundColor: 'rgba(75, 0, 130, 0.8)',
-              color: '#C0C0C0',
-              border: '2px solid rgba(192, 192, 192, 0.5)',
-              backdropFilter: 'blur(10px)',
-            }}
-          >
-            ⋯
-          </div>
-        ) : user ? (
+      {/* Header with logo and icons */}
+      <div className="flex items-center justify-between mb-4 sm:mb-6 relative z-20">
+        <h1
+          onClick={handleTitleClick}
+          className={`${audiowide.className} text-xl sm:text-2xl md:text-3xl font-bold metallic-text cursor-pointer transition-all hover:scale-105`}
+          style={{
+            textShadow: '0 0 20px rgba(192, 192, 192, 0.8), 0 0 40px rgba(75, 0, 130, 0.6)'
+          }}
+        >
+          🚀 TUNETRIVIA 🎸
+        </h1>
+
+        {/* Icons - right side */}
+        <div className="flex items-center gap-2 sm:gap-3 flex-shrink-0">
+          {/* Leaderboard button */}
           <div className="relative group">
             <Link
-              href="/games"
-              className="w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold transition-all overflow-hidden block"
+              href="/leaderboard"
+              className="w-10 h-10 sm:w-12 sm:h-12 rounded-full flex items-center justify-center transition-all hover:scale-105"
               style={{
                 backgroundColor: 'rgba(75, 0, 130, 0.8)',
                 color: '#C0C0C0',
@@ -580,23 +581,12 @@ export default function Home() {
                 backdropFilter: 'blur(10px)',
               }}
             >
-              {(user.user_metadata?.avatar_url || user.user_metadata?.picture) ? (
-                <img
-                  src={user.user_metadata?.picture || user.user_metadata?.avatar_url}
-                  alt="User avatar"
-                  className="w-full h-full object-cover"
-                />
-              ) : (
-                <span>
-                  {user.user_metadata?.full_name?.[0]?.toUpperCase() ||
-                   user.user_metadata?.name?.[0]?.toUpperCase() ||
-                   user.email?.[0]?.toUpperCase() ||
-                   '?'}
-                </span>
-              )}
+              <svg className="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+              </svg>
             </Link>
             <div
-              className="absolute top-12 right-0 px-3 py-2 rounded-lg text-xs font-semibold whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"
+              className="absolute top-14 right-0 px-3 py-2 rounded-lg text-xs font-semibold whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"
               style={{
                 backgroundColor: 'rgba(75, 0, 130, 0.95)',
                 color: '#C0C0C0',
@@ -604,23 +594,77 @@ export default function Home() {
                 backdropFilter: 'blur(10px)',
               }}
             >
-              View my games
+              Leaderboard
             </div>
           </div>
-        ) : (
-          <button
-            onClick={signInWithGoogle}
-            className="px-3 py-2 rounded-lg text-xs font-semibold transition-all hover:scale-105"
-            style={{
-              backgroundColor: 'rgba(75, 0, 130, 0.5)',
-              color: '#C0C0C0',
-              border: '1px solid rgba(192, 192, 192, 0.3)',
-              backdropFilter: 'blur(10px)',
-            }}
-          >
-            Sign In
-          </button>
-        )}
+
+          {/* User/Auth button */}
+          {authLoading ? (
+            <div
+              className="w-10 h-10 sm:w-12 sm:h-12 rounded-full flex items-center justify-center text-sm font-bold animate-pulse"
+              style={{
+                backgroundColor: 'rgba(75, 0, 130, 0.8)',
+                color: '#C0C0C0',
+                border: '2px solid rgba(192, 192, 192, 0.5)',
+                backdropFilter: 'blur(10px)',
+              }}
+            >
+              ⋯
+            </div>
+          ) : (
+            <div className="relative group">
+              <button
+                onClick={user ? undefined : signInWithGoogle}
+                className="w-10 h-10 sm:w-12 sm:h-12 rounded-full flex items-center justify-center text-sm font-bold transition-all overflow-hidden hover:scale-105"
+                style={{
+                  backgroundColor: 'rgba(75, 0, 130, 0.8)',
+                  color: '#C0C0C0',
+                  border: '2px solid rgba(192, 192, 192, 0.5)',
+                  backdropFilter: 'blur(10px)',
+                  cursor: user ? 'default' : 'pointer',
+                }}
+              >
+                {user ? (
+                  (user.user_metadata?.avatar_url || user.user_metadata?.picture) ? (
+                    <Link href="/games" className="w-full h-full flex items-center justify-center">
+                      <img
+                        src={user.user_metadata?.picture || user.user_metadata?.avatar_url}
+                        alt="User avatar"
+                        className="w-full h-full object-cover"
+                      />
+                    </Link>
+                  ) : (
+                    <Link href="/games" className="w-full h-full flex items-center justify-center">
+                      <span>
+                        {user.user_metadata?.full_name?.[0]?.toUpperCase() ||
+                         user.user_metadata?.name?.[0]?.toUpperCase() ||
+                         user.email?.[0]?.toUpperCase() ||
+                         '?'}
+                      </span>
+                    </Link>
+                  )
+                ) : (
+                  <svg className="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                  </svg>
+                )}
+              </button>
+              {user && (
+                <div
+                  className="absolute top-14 right-0 px-3 py-2 rounded-lg text-xs font-semibold whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"
+                  style={{
+                    backgroundColor: 'rgba(75, 0, 130, 0.95)',
+                    color: '#C0C0C0',
+                    border: '1px solid rgba(192, 192, 192, 0.3)',
+                    backdropFilter: 'blur(10px)',
+                  }}
+                >
+                  View my games
+                </div>
+              )}
+            </div>
+          )}
+        </div>
       </div>
 
       {/* Constellation lines */}
@@ -629,15 +673,6 @@ export default function Home() {
       <div className="constellation-line" style={{ bottom: '30%', left: '25%', width: '40%', transform: 'rotate(15deg)' }} />
 
       <div className="max-w-5xl mx-auto relative z-10">
-        <h1
-          onClick={handleTitleClick}
-          className={`${audiowide.className} text-4xl sm:text-5xl md:text-7xl font-bold text-center mb-6 sm:mb-8 md:mb-12 metallic-text cursor-pointer transition-all hover:scale-105`}
-          style={{
-            textShadow: '0 0 30px rgba(192, 192, 192, 0.8), 0 0 60px rgba(75, 0, 130, 0.6)'
-          }}
-        >
-          🚀 TUNETRIVIA 🎸
-        </h1>
 
         {gameState === 'select' && (
           <div className="holographic-card rounded-3xl p-8 sm:p-10 md:p-12 relative" style={{
@@ -653,10 +688,12 @@ export default function Home() {
             <div className="space-y-6">
               <div>
                 <label className="block font-bold text-xl mb-3 text-silver-300" style={{ color: '#C0C0C0' }}>⚡ CHART TYPE</label>
+
+                {/* Mobile: dropdown */}
                 <select
                   value={selectedChart}
                   onChange={(e) => setSelectedChart(e.target.value)}
-                  className="w-full p-4 rounded-xl border-2 font-semibold text-lg focus:outline-none focus:ring-4 focus:ring-red-500 rocket-button"
+                  className="md:hidden w-full p-4 rounded-xl border-2 font-semibold text-lg focus:outline-none focus:ring-4 focus:ring-red-500 rocket-button"
                   style={{
                     backgroundColor: 'rgba(75, 0, 130, 0.6)',
                     color: '#C0C0C0',
@@ -664,13 +701,41 @@ export default function Home() {
                   }}
                 >
                   <option value="hot-100" style={{ backgroundColor: '#000' }}>🔥 HOT 100</option>
+                  <option value="rock" style={{ backgroundColor: '#000' }}>🎧 ROCK</option>
                   <option value="country" style={{ backgroundColor: '#000' }}>🤠 COUNTRY</option>
                   <option value="rnb" style={{ backgroundColor: '#000' }}>🎤 R&B/HIP-HOP</option>
                   <option value="rap" style={{ backgroundColor: '#000' }}>🎙️ RAP</option>
                   <option value="alternative" style={{ backgroundColor: '#000' }}>🎸 ALTERNATIVE</option>
-                  <option value="rock" style={{ backgroundColor: '#000' }}>🎧 ROCK</option>
                   <option value="latin" style={{ backgroundColor: '#000' }}>💃 LATIN</option>
                 </select>
+
+                {/* Desktop: grid of buttons */}
+                <div className="hidden md:flex md:flex-wrap gap-2">
+                  {[
+                    { id: 'hot-100', emoji: '🔥', name: 'HOT 100' },
+                    { id: 'rock', emoji: '🎧', name: 'ROCK' },
+                    { id: 'country', emoji: '🤠', name: 'COUNTRY' },
+                    { id: 'rnb', emoji: '🎤', name: 'R&B' },
+                    { id: 'rap', emoji: '🎙️', name: 'RAP' },
+                    { id: 'alternative', emoji: '🎸', name: 'ALT' },
+                    { id: 'latin', emoji: '💃', name: 'LATIN' },
+                  ].map((chart) => (
+                    <button
+                      key={chart.id}
+                      onClick={() => setSelectedChart(chart.id)}
+                      className="w-20 h-20 lg:w-24 lg:h-24 rounded-lg border-2 font-bold transition-all hover:scale-105 flex flex-col items-center justify-center gap-0.5"
+                      style={{
+                        backgroundColor: selectedChart === chart.id ? 'rgba(75, 0, 130, 0.8)' : 'rgba(75, 0, 130, 0.4)',
+                        color: '#C0C0C0',
+                        borderColor: selectedChart === chart.id ? '#C0C0C0' : 'rgba(192, 192, 192, 0.5)',
+                        boxShadow: selectedChart === chart.id ? '0 0 20px rgba(192, 192, 192, 0.4)' : 'none',
+                      }}
+                    >
+                      <span className="text-3xl lg:text-4xl">{chart.emoji}</span>
+                      <span className="text-[9px] lg:text-[10px] text-center leading-tight px-1">{chart.name}</span>
+                    </button>
+                  ))}
+                </div>
               </div>
 
               <div>
@@ -719,7 +784,13 @@ export default function Home() {
 
               {selectedWeek && (
                 <button
-                  onClick={startGame}
+                  onClick={() => {
+                    if (!user) {
+                      setShowAuthOverlay(true);
+                    } else {
+                      startGame();
+                    }
+                  }}
                   className={`${audiowide.className} w-full py-5 rounded-2xl text-3xl font-bold rocket-button relative overflow-hidden`}
                   style={{
                     background: 'linear-gradient(135deg, #4B0082 0%, #FF0000 100%)',
@@ -1038,6 +1109,104 @@ export default function Home() {
           </Link>
         </footer>
       </div>
+
+      {/* Auth Overlay */}
+      {showAuthOverlay && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center p-3"
+          style={{
+            backgroundColor: 'rgba(0, 0, 0, 0.85)',
+            backdropFilter: 'blur(10px)',
+          }}
+        >
+          <div
+            className="relative max-w-md w-full rounded-2xl p-6 sm:p-8"
+            style={{
+              background: 'linear-gradient(135deg, rgba(75, 0, 130, 0.95) 0%, rgba(0, 0, 0, 0.95) 100%)',
+              border: '2px solid rgba(192, 192, 192, 0.3)',
+              boxShadow: '0 0 60px rgba(75, 0, 130, 0.8)',
+            }}
+          >
+            {/* Close button */}
+            <button
+              onClick={() => setShowAuthOverlay(false)}
+              className="absolute top-3 right-3 text-xl transition-all hover:scale-110"
+              style={{ color: '#C0C0C0' }}
+            >
+              ×
+            </button>
+
+            <h2
+              className={`${audiowide.className} text-xl sm:text-2xl font-bold text-center mb-4 metallic-text`}
+              style={{
+                textShadow: '0 0 20px rgba(192, 192, 192, 0.8)',
+              }}
+            >
+              🎵 Level Up Your Music Game
+            </h2>
+
+            <p className="text-center mb-6 text-sm sm:text-base" style={{ color: '#C0C0C0', lineHeight: '1.5' }}>
+              Keep your progress safe, compete on the leaderboard, and track your stats—all for free
+            </p>
+
+            <div className="space-y-4 mb-6">
+              <div className="flex items-start gap-3">
+                <span className="text-xl">💾</span>
+                <div>
+                  <h3 className="font-bold mb-0.5 text-sm" style={{ color: '#C0C0C0' }}>Save Your Progress</h3>
+                  <p className="text-xs" style={{ color: 'rgba(192, 192, 192, 0.7)' }}>Never lose your scores or stats</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-3">
+                <span className="text-xl">🏆</span>
+                <div>
+                  <h3 className="font-bold mb-0.5 text-sm" style={{ color: '#C0C0C0' }}>Compete on Leaderboard</h3>
+                  <p className="text-xs" style={{ color: 'rgba(192, 192, 192, 0.7)' }}>See how you rank against others</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-3">
+                <span className="text-xl">📊</span>
+                <div>
+                  <h3 className="font-bold mb-0.5 text-sm" style={{ color: '#C0C0C0' }}>Track Your Stats</h3>
+                  <p className="text-xs" style={{ color: 'rgba(192, 192, 192, 0.7)' }}>Review your game history anytime</p>
+                </div>
+              </div>
+            </div>
+
+            <button
+              onClick={signInWithGoogle}
+              className={`${audiowide.className} w-full py-3 sm:py-4 rounded-xl font-bold text-base sm:text-lg transition-all hover:scale-105 mb-3`}
+              style={{
+                background: 'linear-gradient(135deg, #4B0082 0%, #FF0000 100%)',
+                color: '#C0C0C0',
+                border: '2px solid #C0C0C0',
+                boxShadow: '0 0 20px rgba(255, 0, 0, 0.4)',
+              }}
+            >
+              Continue with Google
+            </button>
+
+            <button
+              onClick={() => {
+                setShowAuthOverlay(false);
+                startGame();
+              }}
+              className={`${audiowide.className} w-full py-3 sm:py-4 rounded-xl font-bold text-base sm:text-lg transition-all hover:scale-105`}
+              style={{
+                background: 'transparent',
+                color: 'rgba(192, 192, 192, 0.7)',
+                border: '2px solid rgba(192, 192, 192, 0.3)',
+              }}
+            >
+              Continue without signing in
+            </button>
+
+            <p className="text-center text-xs mt-4" style={{ color: 'rgba(192, 192, 192, 0.5)' }}>
+              By signing up, you agree to save your game data
+            </p>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
