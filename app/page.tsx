@@ -477,8 +477,8 @@ export default function Home() {
       }));
 
       // Deduplicate songs by song+artist combination
-      const uniqueSongs = new Map<string, any>();
-      chartData.forEach(track => {
+      const uniqueSongs = new Map<string, Track>();
+      chartData.forEach((track: Track) => {
         const key = `${track.song}-${track.artist}`;
         if (!uniqueSongs.has(key)) {
           uniqueSongs.set(key, track);
@@ -575,8 +575,8 @@ export default function Home() {
       }));
 
       // Deduplicate songs by song+artist combination
-      const uniqueSongs = new Map<string, any>();
-      chartData.forEach(track => {
+      const uniqueSongs = new Map<string, Track>();
+      chartData.forEach((track: Track) => {
         const key = `${track.song}-${track.artist}`;
         if (!uniqueSongs.has(key)) {
           uniqueSongs.set(key, track);
