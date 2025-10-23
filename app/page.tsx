@@ -433,7 +433,7 @@ export default function Home() {
       const chartSlugMap: Record<string, string> = {
         'hot-100': 'hot-100',
         'country': 'country-songs',
-        'rnb': 'r-b-hip-hop-songs',
+        'rnb': 'r-and-b-songs',
         'rap': 'rap-song',
         'alternative': 'alternative-airplay',
         'rock': 'hot-mainstream-rock-tracks',
@@ -560,7 +560,7 @@ export default function Home() {
       const chartSlugMap: Record<string, string> = {
         'hot-100': 'hot-100',
         'country': 'country-songs',
-        'rnb': 'r-b-hip-hop-songs',
+        'rnb': 'r-and-b-songs',
         'rap': 'rap-song',
         'alternative': 'alternative-airplay',
         'rock': 'hot-mainstream-rock-tracks',
