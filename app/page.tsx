@@ -16,6 +16,7 @@ interface Track {
   last_week: number | null;
   peak_position: number;
   weeks_on_chart: number;
+  chartDate?: string;
 }
 
 interface ITunesResult {
@@ -443,40 +444,14 @@ export default function Home() {
       const chartSlug = chartSlugMap[selectedChart];
       console.log('chartSlug:', chartSlug);
 
-      // Build query using the view
-      let query = supabase
-        .from('v_chart_entries')
-        .select('*')
-        .eq('chart', chartSlug);
-
-      console.log('Base query created');
-
-      // Apply decade filter if specified
-      if (startYear !== null && endYear !== null) {
-        query = query
-          .gte('date', `${startYear}-01-01`)
-          .lt('date', `${endYear}-01-01`);
-        console.log(`Date range filter: ${startYear}-01-01 to ${endYear}-01-01`);
-      } else {
-        console.log('No date filter (ALL decades)');
-      }
-
-      // Apply difficulty filter
-      if (difficulty === 'easy') {
-        query = query.lte('this_week', 10).gt('weeks_on_chart', 20);
-        console.log('Difficulty: easy (rank <= 10 AND weeks_on_chart > 20)');
-      } else if (difficulty === 'medium') {
-        query = query.lte('this_week', 20);
-        console.log('Difficulty: medium (rank <= 20)');
-      } else {
-        // Hard: bottom of the chart (ranks 21-100) AND less than 4 weeks on chart
-        query = query.gt('this_week', 20).lt('weeks_on_chart', 4);
-        console.log('Difficulty: hard (rank > 20 AND weeks_on_chart < 4)');
-      }
-
-      console.log('Executing query...');
-      // Get a larger sample since we're pulling from entire decade
-      const { data: songs, error } = await query.limit(200);
+      // Use RPC function to get random songs efficiently
+      const { data: songs, error } = await supabase.rpc('get_random_songs', {
+        p_chart: chartSlug,
+        p_difficulty: difficulty,
+        p_start_year: startYear,
+        p_end_year: endYear,
+        p_limit: 200
+      });
 
       console.log('Query result:', { songCount: songs?.length, error });
 
@@ -497,6 +472,7 @@ export default function Home() {
         last_week: s.last_week,
         peak_position: s.peak_position,
         weeks_on_chart: s.weeks_on_chart,
+        chartDate: s.date,
         new: s.is_new || false
       }));
 
@@ -594,6 +570,7 @@ export default function Home() {
         last_week: s.last_week,
         peak_position: s.peak_position,
         weeks_on_chart: s.weeks_on_chart,
+        chartDate: s.date,
         new: s.is_new || false
       }));
 
@@ -1498,8 +1475,20 @@ export default function Home() {
                         {tracks[currentRound].artist}
                       </p>
                       <div className="grid grid-cols-2 gap-3 sm:gap-4 md:gap-5">
+                        {playMode === 'quick' && tracks[currentRound].chartDate && (
+                          <div className="col-span-2">
+                            <div className="text-xs sm:text-sm uppercase tracking-wider mb-1" style={{ color: '#C0C0C0' }}>Chart Week</div>
+                            <div className="text-base sm:text-lg md:text-xl font-bold" style={{ color: '#C0C0C0' }}>
+                              {new Date(tracks[currentRound].chartDate).toLocaleDateString('en-US', {
+                                year: 'numeric',
+                                month: 'long',
+                                day: 'numeric'
+                              })}
+                            </div>
+                          </div>
+                        )}
                         <div>
-                          <div className="text-xs sm:text-sm uppercase tracking-wider mb-1" style={{ color: '#C0C0C0' }}>Billboard Position</div>
+                          <div className="text-xs sm:text-sm uppercase tracking-wider mb-1" style={{ color: '#C0C0C0' }}>Chart Position</div>
                           <div className="text-xl sm:text-2xl md:text-3xl font-bold flex items-center gap-2 metallic-text">
                             #{tracks[currentRound].this_week}
                             {tracks[currentRound].last_week !== null && (

@@ -13,8 +13,8 @@ const exo = Exo({
 });
 
 export const metadata: Metadata = {
-  title: "TuneTrivia - Galactic Rock Odyssey",
-  description: "Blast off through Billboard hits from any week since 1958",
+  title: "TuneTrivia - Music Challenge Game",
+  description: "Test your music knowledge! Guess songs from 30-second previews across all genres - Pop, Rock, Country, R&B, Rap, Alternative, and Latin. Play quick challenges or pick specific chart weeks from decades of hits.",
   icons: [
     {
       rel: 'icon',
