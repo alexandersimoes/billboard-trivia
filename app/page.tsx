@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from 'react';
 import { Audiowide } from 'next/font/google';
 import { useGameTracking } from '@/hooks/useGameTracking';
 import { useAuth } from '@/hooks/useAuth';
+import { supabase } from '@/lib/supabaseClient';
 import Link from 'next/link';
 
 const audiowide = Audiowide({ weight: '400', subsets: ['latin'] });
@@ -102,6 +103,9 @@ async function findITunesPreviewUrl(
   if(artist === 'Local H' && song === 'Eddie Vedder') {
     url = "https://itunes.apple.com/lookup?id=1440923144"
   }
+  if(artist === 'The West Coast Rap All-Stars' && song === "We're All In The Same Gang") {
+    throw new Error('No previewUrl available in iTunes results');
+  }
   const res = await fetch(url);
   if (!res.ok) throw new Error(`iTunes search failed: ${res.status}`);
 
@@ -150,7 +154,10 @@ async function findITunesPreviewUrl(
 }
 
 export default function Home() {
+  const [playMode, setPlayMode] = useState<'quick' | 'specific'>('quick');
   const [selectedChart, setSelectedChart] = useState<string>('hot-100');
+  const [difficulty, setDifficulty] = useState<'easy' | 'medium' | 'hard'>('medium');
+  const [selectedDecade, setSelectedDecade] = useState<string>('all');
   const [validDates, setValidDates] = useState<string[]>([]);
   const [years, setYears] = useState<number[]>([]);
   const [selectedYear, setSelectedYear] = useState<number | null>(null);
@@ -176,69 +183,237 @@ export default function Home() {
   const audioRef = useRef<HTMLAudioElement>(null);
   const timerRef = useRef<NodeJS.Timeout | null>(null);
   const roundStartTimeRef = useRef<number>(0);
+  const answeredRef = useRef<boolean>(false);
+  const currentTrackRef = useRef<Track | null>(null);
   const [showAuthOverlay, setShowAuthOverlay] = useState(false);
 
   const { startGameRound, recordGuess, endGameRound } = useGameTracking();
   const { user, loading: authLoading, signInWithGoogle, signOut } = useAuth();
 
+  // Get available decades from years
+  const getDecades = (years: number[]): string[] => {
+    const decades = new Set<string>();
+    years.forEach(year => {
+      const decade = Math.floor(year / 10) * 10;
+      decades.add(`${decade}s`);
+    });
+    return Array.from(decades).sort((a, b) => {
+      const aNum = parseInt(a);
+      const bNum = parseInt(b);
+      return bNum - aNum;
+    });
+  };
+
+  const [availableDecades, setAvailableDecades] = useState<string[]>([]);
+
   // Fetch valid dates when chart changes
   useEffect(() => {
-    if (selectedChart === 'hot-100') {
-      // Hot 100 uses the external GitHub repo
-      fetch('https://raw.githubusercontent.com/mhollingshead/billboard-hot-100/main/valid_dates.json')
-        .then(res => res.json())
-        .then((dates: string[]) => {
-          setValidDates(dates);
-          const uniqueYears = Array.from(new Set(dates.map(d => parseInt(d.split('-')[0]))));
-          setYears(uniqueYears.sort((a, b) => b - a));
-          setSelectedYear(null);
-          setSelectedWeek(null);
-        });
-    } else {
-      // Other charts use local files - fetch the directory listing
-      const chartFolders: Record<string, string> = {
-        'country': 'country-songs',
-        'rnb': 'r-and-b-songs',
-        'rap': 'rap-song',
-        'alternative': 'alternative-airplay',
-        'rock': 'hot-mainstream-rock-tracks',
-        'latin': 'latin-airplay'
-      };
+    async function fetchValidDates() {
+      try {
+        // Map chart type to database slug
+        // Note: These must match exactly what's in the database
+        const chartSlugMap: Record<string, string> = {
+          'hot-100': 'hot-100',
+          'country': 'country-songs',
+          'rnb': 'r-and-b-songs',
+          'rap': 'rap-song',
+          'alternative': 'alternative-airplay',
+          'rock': 'hot-mainstream-rock-tracks',
+          'latin': 'latin-airplay'
+        };
 
-      const folderName = chartFolders[selectedChart];
+        const chartSlug = chartSlugMap[selectedChart];
+        console.log('Fetching data for chart:', selectedChart, 'with slug:', chartSlug);
 
-      // For now, we'll need to manually list available dates or fetch from a local JSON
-      // Since we can't list directory contents via HTTP, you'll need to create a valid-dates.json
-      // file for each chart type. For demonstration, using empty array:
-      fetch(`/billboard-trivia/charts/${folderName}/valid-dates.json`)
-        .then(res => res.json())
-        .then((dates: string[]) => {
-          setValidDates(dates);
-          const uniqueYears = Array.from(new Set(dates.map(d => parseInt(d.split('-')[0]))));
-          setYears(uniqueYears.sort((a, b) => b - a));
-          setSelectedYear(null);
-          setSelectedWeek(null);
-        })
-        .catch(() => {
-          // If valid-dates.json doesn't exist, set empty
-          setValidDates([]);
-          setYears([]);
+        // Use RPC function to get date range in a single query
+        const { data: rangeData, error: rangeError } = await supabase.rpc('get_chart_date_range', {
+          p_chart: chartSlug
         });
+
+        if (rangeError || !rangeData || rangeData.length === 0 || !rangeData[0].min_date || !rangeData[0].max_date) {
+          console.error('Error fetching date range from database:', rangeError);
+
+          // Fallback: use the old two-query approach
+          const { data: minMaxData, error: minMaxError } = await supabase
+            .from('v_chart_entries')
+            .select('date')
+            .eq('chart', chartSlug)
+            .order('date', { ascending: true })
+            .limit(1);
+
+          const { data: maxData, error: maxError } = await supabase
+            .from('v_chart_entries')
+            .select('date')
+            .eq('chart', chartSlug)
+            .order('date', { ascending: false })
+            .limit(1);
+
+          if (minMaxError || maxError || !minMaxData || !maxData || minMaxData.length === 0 || maxData.length === 0) {
+            console.error('Fallback also failed:', minMaxError || maxError);
+            if (playMode === 'quick') {
+              setAvailableDecades([]);
+            } else {
+              setValidDates([]);
+              setYears([]);
+            }
+            return;
+          }
+
+          rangeData[0] = {
+            min_date: minMaxData[0].date,
+            max_date: maxData[0].date
+          };
+        }
+
+        const minYear = parseInt(rangeData[0].min_date.split('-')[0]);
+        const maxYear = parseInt(rangeData[0].max_date.split('-')[0]);
+
+        console.log(`Date range for ${chartSlug}: ${minYear} - ${maxYear}`);
+
+        // Generate all years in the range
+        const allYears = [];
+        for (let year = minYear; year <= maxYear; year++) {
+          allYears.push(year);
+        }
+
+        if (playMode === 'quick') {
+          setAvailableDecades(getDecades(allYears));
+          setSelectedDecade('all');
+        } else {
+          setYears(allYears.sort((a, b) => b - a));
+        }
+
+        setSelectedYear(null);
+        setSelectedWeek(null);
+      } catch (err) {
+        console.error('Error in fetchValidDates:', err);
+        setValidDates([]);
+        setYears([]);
+        setAvailableDecades([]);
+      }
     }
-  }, [selectedChart]);
+
+    fetchValidDates();
+  }, [selectedChart, playMode]);
 
   // Update available weeks when year is selected
   useEffect(() => {
-    if (selectedYear) {
-      const weeks = validDates.filter(d => d.startsWith(`${selectedYear}-`));
-      setAvailableWeeks(weeks.sort().reverse());
-      setSelectedWeek(null);
+    async function fetchWeeksForYear() {
+      if (!selectedYear) return;
+
+      try {
+        const chartSlugMap: Record<string, string> = {
+          'hot-100': 'hot-100',
+          'country': 'country-songs',
+          'rnb': 'r-and-b-songs',
+          'rap': 'rap-song',
+          'alternative': 'alternative-airplay',
+          'rock': 'hot-mainstream-rock-tracks',
+          'latin': 'latin-airplay'
+        };
+
+        const chartSlug = chartSlugMap[selectedChart];
+
+        // Use a PostgreSQL query to get distinct dates efficiently
+        const { data, error } = await supabase.rpc('get_distinct_dates', {
+          p_chart: chartSlug,
+          p_year: selectedYear
+        });
+
+        if (error) {
+          console.error('RPC error fetching weeks for year:', error);
+          console.error('Trying fallback method...');
+
+          // Fallback: Use a more efficient approach - group by date on the client side
+          // but fetch in batches to get all dates
+          const dateSet = new Set<string>();
+          let offset = 0;
+          const batchSize = 1000;
+          let hasMore = true;
+
+          while (hasMore) {
+            const { data: batchData, error: batchError } = await supabase
+              .from('v_chart_entries')
+              .select('date')
+              .eq('chart', chartSlug)
+              .gte('date', `${selectedYear}-01-01`)
+              .lt('date', `${selectedYear + 1}-01-01`)
+              .range(offset, offset + batchSize - 1);
+
+            if (batchError) {
+              console.error('Error fetching batch:', batchError);
+              break;
+            }
+
+            if (!batchData || batchData.length === 0) {
+              hasMore = false;
+              break;
+            }
+
+            // Add dates to set
+            batchData.forEach((row: any) => {
+              if (row.date) {
+                dateSet.add(row.date);
+              }
+            });
+
+            // If we got fewer rows than batch size, we're done
+            if (batchData.length < batchSize) {
+              hasMore = false;
+            } else {
+              offset += batchSize;
+            }
+
+            // Safety: if we have all 52 weeks, we can stop
+            if (dateSet.size >= 52) {
+              hasMore = false;
+            }
+          }
+
+          console.log(`Found ${dateSet.size} unique dates for year ${selectedYear}`);
+          const sortedDates = Array.from(dateSet).sort((a, b) => b.localeCompare(a));
+
+          setAvailableWeeks(sortedDates);
+          setSelectedWeek(null);
+          return;
+        }
+
+        // RPC returned distinct dates
+        console.log(`RPC returned ${data?.length} distinct dates for ${selectedYear}`);
+        const sortedDates = data.map((row: any) => row.date).sort((a: string, b: string) => b.localeCompare(a));
+        setAvailableWeeks(sortedDates);
+        setSelectedWeek(null);
+      } catch (err) {
+        console.error('Error in fetchWeeksForYear:', err);
+        setAvailableWeeks([]);
+      }
     }
-  }, [selectedYear, validDates]);
+
+    fetchWeeksForYear();
+  }, [selectedYear, selectedChart]);
+
+  const startQuickPlay = async () => {
+    console.log('startQuickPlay called');
+    console.log('selectedDecade:', selectedDecade);
+    console.log('selectedChart:', selectedChart);
+    console.log('difficulty:', difficulty);
+
+    // Don't need to pick a specific week - we'll query all weeks in the decade
+    if (selectedDecade === 'all') {
+      await startGameWithDecade(null, null);
+    } else {
+      const decadeNum = parseInt(selectedDecade);
+      await startGameWithDecade(decadeNum, decadeNum + 10);
+    }
+  };
 
   const startGame = async () => {
     if (!selectedWeek) return;
+    await startGameWithWeek(selectedWeek);
+  };
 
+  const startGameWithDecade = async (startYear: number | null, endYear: number | null) => {
+    console.log('startGameWithDecade called', { startYear, endYear });
     setGameState('loading');
 
     const chartNames: Record<string, string> = {
@@ -253,14 +428,10 @@ export default function Home() {
 
     setStatus(`Loading ${chartNames[selectedChart]}...`);
 
-    let fetchUrl: string;
-
-    if (selectedChart === 'hot-100') {
-      // Hot 100 uses external GitHub repo
-      fetchUrl = `https://raw.githubusercontent.com/mhollingshead/billboard-hot-100/main/date/${selectedWeek}.json`;
-    } else {
-      // Other charts use local files
-      const chartFolders: Record<string, string> = {
+    try {
+      // Map chart type to database slug
+      const chartSlugMap: Record<string, string> = {
+        'hot-100': 'hot-100',
         'country': 'country-songs',
         'rnb': 'r-b-hip-hop-songs',
         'rap': 'rap-song',
@@ -269,23 +440,84 @@ export default function Home() {
         'latin': 'latin-airplay'
       };
 
-      const folderName = chartFolders[selectedChart];
-      fetchUrl = `/billboard-trivia/charts/${folderName}/${folderName}-${selectedWeek}.json`;
-    }
+      const chartSlug = chartSlugMap[selectedChart];
+      console.log('chartSlug:', chartSlug);
 
-    try {
-      const res = await fetch(fetchUrl);
-      const response = await res.json();
+      // Build query using the view
+      let query = supabase
+        .from('v_chart_entries')
+        .select('*')
+        .eq('chart', chartSlug);
 
-      // Extract the data array from the response
-      const chartData = response.data || response;
+      console.log('Base query created');
 
-      // Store all 100 tracks for wrong answer pool
-      setAllChartTracks(chartData);
+      // Apply decade filter if specified
+      if (startYear !== null && endYear !== null) {
+        query = query
+          .gte('date', `${startYear}-01-01`)
+          .lt('date', `${endYear}-01-01`);
+        console.log(`Date range filter: ${startYear}-01-01 to ${endYear}-01-01`);
+      } else {
+        console.log('No date filter (ALL decades)');
+      }
+
+      // Apply difficulty filter
+      if (difficulty === 'easy') {
+        query = query.lte('this_week', 10).gt('weeks_on_chart', 20);
+        console.log('Difficulty: easy (rank <= 10 AND weeks_on_chart > 20)');
+      } else if (difficulty === 'medium') {
+        query = query.lte('this_week', 20);
+        console.log('Difficulty: medium (rank <= 20)');
+      } else {
+        // Hard: bottom of the chart (ranks 21-100) AND less than 4 weeks on chart
+        query = query.gt('this_week', 20).lt('weeks_on_chart', 4);
+        console.log('Difficulty: hard (rank > 20 AND weeks_on_chart < 4)');
+      }
+
+      console.log('Executing query...');
+      // Get a larger sample since we're pulling from entire decade
+      const { data: songs, error } = await query.limit(200);
+
+      console.log('Query result:', { songCount: songs?.length, error });
+
+      if (error) {
+        console.error('Supabase error:', error);
+        throw error;
+      }
+
+      if (!songs || songs.length === 0) {
+        throw new Error('No songs found for this selection');
+      }
+
+      // Transform Supabase data to match existing Track interface
+      const chartData = songs.map((s: any) => ({
+        song: s.song,
+        artist: s.artist,
+        this_week: s.this_week,
+        last_week: s.last_week,
+        peak_position: s.peak_position,
+        weeks_on_chart: s.weeks_on_chart,
+        new: s.is_new || false
+      }));
+
+      // Deduplicate songs by song+artist combination
+      const uniqueSongs = new Map<string, any>();
+      chartData.forEach(track => {
+        const key = `${track.song}-${track.artist}`;
+        if (!uniqueSongs.has(key)) {
+          uniqueSongs.set(key, track);
+        }
+      });
+      const deduplicatedData = Array.from(uniqueSongs.values());
+      console.log(`Deduplicated: ${chartData.length} -> ${deduplicatedData.length} unique songs`);
+
+      // Store all tracks for wrong answer pool
+      setAllChartTracks(deduplicatedData);
 
       // Shuffle and pick 10 unique random tracks for the game
-      const shuffled = [...chartData].sort(() => Math.random() - 0.5);
+      const shuffled = [...deduplicatedData].sort(() => Math.random() - 0.5);
       const gameTracks = shuffled.slice(0, 10);
+      console.log('Selected game tracks:', gameTracks.length);
       setTracks(gameTracks);
       setUsedTracks(new Set());
       setCurrentRound(0);
@@ -294,16 +526,118 @@ export default function Home() {
       setGameComplete(false);
       setGameState('playing');
 
-      // Start tracking game round
-      if (selectedWeek) {
-        const [year, month, day] = selectedWeek.split('-').map(Number);
-        const weekNumber = getWeekNumber(new Date(year, month - 1, day));
-        await startGameRound(selectedChart, year, weekNumber, selectedWeek);
-      }
+      // Start tracking game round - quick play mode
+      await startGameRound(selectedChart, 'quick', {
+        difficulty,
+        decadeStart: startYear,
+      });
 
-      loadRound(gameTracks, 0, chartData);
+      loadRound(gameTracks, 0, deduplicatedData);
     } catch (err) {
       setStatus('Error loading chart data');
+      console.error(err);
+      setGameState('select');
+    }
+  };
+
+  const startGameWithWeek = async (weekDate: string) => {
+    setGameState('loading');
+
+    const chartNames: Record<string, string> = {
+      'hot-100': 'Billboard Hot 100',
+      'country': 'Country Songs',
+      'rnb': 'R&B/Hip-Hop Songs',
+      'rap': 'Rap Songs',
+      'alternative': 'Alternative Songs',
+      'rock': 'Rock Songs',
+      'latin': 'Latin'
+    };
+
+    setStatus(`Loading ${chartNames[selectedChart]}...`);
+
+    try {
+      // Map chart type to database slug
+      const chartSlugMap: Record<string, string> = {
+        'hot-100': 'hot-100',
+        'country': 'country-songs',
+        'rnb': 'r-b-hip-hop-songs',
+        'rap': 'rap-song',
+        'alternative': 'alternative-airplay',
+        'rock': 'hot-mainstream-rock-tracks',
+        'latin': 'latin-airplay'
+      };
+
+      const chartSlug = chartSlugMap[selectedChart];
+
+      // Build query using the view
+      const { data: songs, error } = await supabase
+        .from('v_chart_entries')
+        .select('*')
+        .eq('chart', chartSlug)
+        .eq('date', weekDate)
+        .limit(100);
+
+      if (error) {
+        console.error('Supabase error:', error);
+        throw error;
+      }
+
+      if (!songs || songs.length === 0) {
+        throw new Error('No songs found for this selection');
+      }
+
+      // Transform Supabase data to match existing Track interface
+      const chartData = songs.map((s: any) => ({
+        song: s.song,
+        artist: s.artist,
+        this_week: s.this_week,
+        last_week: s.last_week,
+        peak_position: s.peak_position,
+        weeks_on_chart: s.weeks_on_chart,
+        new: s.is_new || false
+      }));
+
+      // Deduplicate songs by song+artist combination
+      const uniqueSongs = new Map<string, any>();
+      chartData.forEach(track => {
+        const key = `${track.song}-${track.artist}`;
+        if (!uniqueSongs.has(key)) {
+          uniqueSongs.set(key, track);
+        }
+      });
+      const deduplicatedData = Array.from(uniqueSongs.values());
+      console.log(`Deduplicated: ${chartData.length} -> ${deduplicatedData.length} unique songs`);
+
+      // Store all tracks for wrong answer pool
+      setAllChartTracks(deduplicatedData);
+
+      // Shuffle and pick 10 unique random tracks for the game
+      const shuffled = [...deduplicatedData].sort(() => Math.random() - 0.5);
+      const gameTracks = shuffled.slice(0, 10);
+      console.log('Selected game tracks:', gameTracks.length);
+      setTracks(gameTracks);
+      setUsedTracks(new Set());
+      setCurrentRound(0);
+      setScore(0);
+      setCorrectCount(0);
+      setGameComplete(false);
+      setGameState('playing');
+
+      // Start tracking game round - classic mode
+      if (weekDate) {
+        const [year, month, day] = weekDate.split('-').map(Number);
+        const weekNumber = getWeekNumber(new Date(year, month - 1, day));
+        await startGameRound(selectedChart, 'classic', {
+          chartYear: year,
+          chartWeek: weekNumber,
+          selectedWeek: weekDate,
+        });
+      }
+
+      loadRound(gameTracks, 0, deduplicatedData);
+    } catch (err) {
+      setStatus('Error loading chart data');
+      console.error(err);
       setGameState('select');
     }
   };
@@ -311,6 +645,7 @@ export default function Home() {
   const loadRound = async (allTracks: Track[], roundNum: number, chartPool?: Track[], retryCount = 0) => {
     setLoading(true);
     setAnswered(false);
+    answeredRef.current = false;
     setSelectedAnswer(null);
     setTimeLeft(30);
     setRoundPoints(0);
@@ -322,6 +657,7 @@ export default function Home() {
     }
 
     const currentTrack = allTracks[roundNum];
+    currentTrackRef.current = currentTrack;
     const trackKey = `${currentTrack.song}-${currentTrack.artist}`;
 
     // Check if we've already used this track
@@ -369,11 +705,12 @@ export default function Home() {
             if (timerRef.current) clearInterval(timerRef.current);
             // Auto-skip if time runs out
             setTimeout(() => {
-              if (!answered) {
+              if (!answeredRef.current && currentTrackRef.current) {
                 setAnswered(true);
+                answeredRef.current = true;
                 setSelectedAnswer(null);
                 setRoundPoints(0);
-                setStatus(`⏱ Time's up! It was "${currentTrack.song}" by ${currentTrack.artist}`);
+                setStatus(`⏱ Time's up! It was "${currentTrackRef.current.song}" by ${currentTrackRef.current.artist}`);
                 if (audioRef.current) audioRef.current.pause();
               }
             }, 100);
@@ -432,20 +769,39 @@ export default function Home() {
     }
 
     setAnswered(true);
+    answeredRef.current = true;
     const correctTrack = tracks[currentRound];
     setSelectedAnswer(options.indexOf(track));
 
-    // Calculate time and points
+    // Calculate base points (1-100 based on time)
     const timeElapsedMs = Date.now() - roundStartTimeRef.current;
     const timeElapsedSec = timeElapsedMs / 1000;
     const cappedTime = Math.min(timeElapsedSec, 30);
-    const points = track === correctTrack ? Math.max(1, Math.round(100 - (cappedTime / 30) * 99)) : 0;
+    const basePoints = track === correctTrack ? Math.max(1, Math.round(100 - (cappedTime / 30) * 99)) : 0;
+
+    // Apply difficulty multiplier (only for Quick Play mode)
+    let difficultyMultiplier = 1.0;
+    if (playMode === 'quick') {
+      if (difficulty === 'easy') {
+        difficultyMultiplier = 1.0;
+      } else if (difficulty === 'medium') {
+        difficultyMultiplier = 1.5;
+      } else if (difficulty === 'hard') {
+        difficultyMultiplier = 2.5;
+      }
+    }
+
+    const points = Math.round(basePoints * difficultyMultiplier);
 
     if (track === correctTrack) {
       setRoundPoints(points);
       setScore(score + points);
       setCorrectCount(correctCount + 1);
-      setStatus(`✓ Correct! +${points} points (${cappedTime.toFixed(1)}s)`);
+      if (playMode === 'quick' && difficultyMultiplier > 1) {
+        setStatus(`✓ Correct! +${points} points (${cappedTime.toFixed(1)}s) [${difficultyMultiplier}x ${difficulty}]`);
+      } else {
+        setStatus(`✓ Correct! +${points} points (${cappedTime.toFixed(1)}s)`);
+      }
     } else {
       setRoundPoints(0);
       setStatus(`✗ Wrong! It was "${correctTrack.song}" by ${correctTrack.artist}`);
@@ -678,16 +1034,44 @@ export default function Home() {
           <div className="holographic-card rounded-3xl p-8 sm:p-10 md:p-12 relative" style={{
             background: 'linear-gradient(135deg, rgba(75, 0, 130, 0.4) 0%, rgba(255, 0, 0, 0.2) 100%)',
           }}>
-            <h2 className={`${audiowide.className} text-3xl sm:text-4xl font-bold text-center mb-8 text-silver-400`} style={{
+            <h2 className={`${audiowide.className} text-3xl sm:text-4xl font-bold text-center mb-6 text-silver-400`} style={{
               color: '#C0C0C0',
               textShadow: '0 0 20px rgba(192, 192, 192, 0.8)'
             }}>
               LAUNCH SEQUENCE
             </h2>
 
+            {/* Mode Toggle */}
+            <div className="flex gap-2 mb-8 justify-center">
+              <button
+                onClick={() => setPlayMode('quick')}
+                className={`px-6 py-3 rounded-xl font-bold text-sm transition-all hover:scale-105`}
+                style={{
+                  backgroundColor: playMode === 'quick' ? 'rgba(75, 0, 130, 0.8)' : 'rgba(75, 0, 130, 0.3)',
+                  color: '#C0C0C0',
+                  border: playMode === 'quick' ? '2px solid #C0C0C0' : '2px solid rgba(192, 192, 192, 0.3)',
+                  boxShadow: playMode === 'quick' ? '0 0 15px rgba(192, 192, 192, 0.3)' : 'none',
+                }}
+              >
+                ⚡ QUICK PLAY
+              </button>
+              <button
+                onClick={() => setPlayMode('specific')}
+                className={`px-6 py-3 rounded-xl font-bold text-sm transition-all hover:scale-105`}
+                style={{
+                  backgroundColor: playMode === 'specific' ? 'rgba(75, 0, 130, 0.8)' : 'rgba(75, 0, 130, 0.3)',
+                  color: '#C0C0C0',
+                  border: playMode === 'specific' ? '2px solid #C0C0C0' : '2px solid rgba(192, 192, 192, 0.3)',
+                  boxShadow: playMode === 'specific' ? '0 0 15px rgba(192, 192, 192, 0.3)' : 'none',
+                }}
+              >
+                🎯 SPECIFIC CHART
+              </button>
+            </div>
+
             <div className="space-y-6">
               <div>
-                <label className="block font-bold text-xl mb-3 text-silver-300" style={{ color: '#C0C0C0' }}>⚡ CHART TYPE</label>
+                <label className="block font-bold text-xl mb-3 text-silver-300" style={{ color: '#C0C0C0' }}>⚡ GENRE</label>
 
                 {/* Mobile: dropdown */}
                 <select
@@ -700,7 +1084,7 @@ export default function Home() {
                     borderColor: '#C0C0C0'
                   }}
                 >
-                  <option value="hot-100" style={{ backgroundColor: '#000' }}>🔥 HOT 100</option>
+                  <option value="hot-100" style={{ backgroundColor: '#000' }}>🔥 Pop</option>
                   <option value="rock" style={{ backgroundColor: '#000' }}>🎧 ROCK</option>
                   <option value="country" style={{ backgroundColor: '#000' }}>🤠 COUNTRY</option>
                   <option value="rnb" style={{ backgroundColor: '#000' }}>🎤 R&B/HIP-HOP</option>
@@ -712,7 +1096,7 @@ export default function Home() {
                 {/* Desktop: grid of buttons */}
                 <div className="hidden md:flex md:flex-wrap gap-2">
                   {[
-                    { id: 'hot-100', emoji: '🔥', name: 'HOT 100' },
+                    { id: 'hot-100', emoji: '🔥', name: 'POP' },
                     { id: 'rock', emoji: '🎧', name: 'ROCK' },
                     { id: 'country', emoji: '🤠', name: 'COUNTRY' },
                     { id: 'rnb', emoji: '🎤', name: 'R&B' },
@@ -738,69 +1122,183 @@ export default function Home() {
                 </div>
               </div>
 
-              <div>
-                <label className="block font-bold text-xl mb-3 text-silver-300" style={{ color: '#C0C0C0' }}>📅 YEAR</label>
-                <select
-                  value={selectedYear || ''}
-                  onChange={(e) => setSelectedYear(parseInt(e.target.value))}
-                  className="w-full p-4 rounded-xl border-2 font-semibold text-lg focus:outline-none focus:ring-4 focus:ring-red-500 rocket-button"
-                  style={{
-                    backgroundColor: 'rgba(75, 0, 130, 0.6)',
-                    color: '#C0C0C0',
-                    borderColor: '#C0C0C0'
-                  }}
-                >
-                  <option value="" style={{ backgroundColor: '#000' }}>SELECT YEAR...</option>
-                  {years.map(year => (
-                    <option key={year} value={year} style={{ backgroundColor: '#000' }}>
-                      {year}
-                    </option>
-                  ))}
-                </select>
-              </div>
+              {/* Quick Play Mode */}
+              {playMode === 'quick' && (
+                <>
+                  <div>
+                    <label className="block font-bold text-xl mb-3 text-silver-300" style={{ color: '#C0C0C0' }}>🎚️ DIFFICULTY</label>
+                    <div className="flex items-center gap-4">
+                      {['easy', 'medium', 'hard'].map((level) => (
+                        <button
+                          key={level}
+                          onClick={() => setDifficulty(level as 'easy' | 'medium' | 'hard')}
+                          className="flex-1 py-3 rounded-xl font-bold text-sm transition-all hover:scale-105"
+                          style={{
+                            backgroundColor: difficulty === level ? 'rgba(75, 0, 130, 0.8)' : 'rgba(75, 0, 130, 0.4)',
+                            color: '#C0C0C0',
+                            borderWidth: '2px',
+                            borderStyle: 'solid',
+                            borderColor: difficulty === level ? '#C0C0C0' : 'rgba(192, 192, 192, 0.5)',
+                            boxShadow: difficulty === level ? '0 0 15px rgba(192, 192, 192, 0.3)' : 'none',
+                          }}
+                        >
+                          {level.toUpperCase()}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
 
-              {selectedYear && (
-                <div>
-                  <label className="block font-bold text-xl mb-3 text-silver-300" style={{ color: '#C0C0C0' }}>🗓️ WEEK</label>
-                  <select
-                    value={selectedWeek || ''}
-                    onChange={(e) => setSelectedWeek(e.target.value)}
-                    className="w-full p-4 rounded-xl border-2 font-semibold text-lg focus:outline-none focus:ring-4 focus:ring-red-500 rocket-button"
+                  <div>
+                    <label className="block font-bold text-xl mb-3 text-silver-300" style={{ color: '#C0C0C0' }}>📅 DECADE</label>
+
+                    {/* Mobile: dropdown */}
+                    <select
+                      value={selectedDecade}
+                      onChange={(e) => setSelectedDecade(e.target.value)}
+                      className="md:hidden w-full p-4 rounded-xl border-2 font-semibold text-lg focus:outline-none focus:ring-4 focus:ring-red-500 rocket-button"
+                      style={{
+                        backgroundColor: 'rgba(75, 0, 130, 0.6)',
+                        color: '#C0C0C0',
+                        borderColor: '#C0C0C0'
+                      }}
+                    >
+                      <option value="all" style={{ backgroundColor: '#000' }}>ALL DECADES</option>
+                      {availableDecades.map(decade => (
+                        <option key={decade} value={decade.replace('s', '')} style={{ backgroundColor: '#000' }}>
+                          {decade}
+                        </option>
+                      ))}
+                    </select>
+
+                    {/* Desktop: grid of buttons */}
+                    <div className="hidden md:flex md:flex-wrap gap-2">
+                      <button
+                        onClick={() => setSelectedDecade('all')}
+                        className="w-20 h-20 lg:w-24 lg:h-24 rounded-lg border-2 font-bold transition-all hover:scale-105 flex flex-col items-center justify-center gap-0.5"
+                        style={{
+                          backgroundColor: selectedDecade === 'all' ? 'rgba(75, 0, 130, 0.8)' : 'rgba(75, 0, 130, 0.4)',
+                          color: '#C0C0C0',
+                          borderColor: selectedDecade === 'all' ? '#C0C0C0' : 'rgba(192, 192, 192, 0.5)',
+                          boxShadow: selectedDecade === 'all' ? '0 0 20px rgba(192, 192, 192, 0.4)' : 'none',
+                        }}
+                      >
+                        <span className="text-3xl lg:text-4xl">🌍</span>
+                        <span className="text-[9px] lg:text-[10px] text-center leading-tight px-1">ALL</span>
+                      </button>
+                      {availableDecades.map((decade) => {
+                        const decadeNum = decade.replace('s', '');
+                        const shortDecade = decadeNum.slice(-2);
+                        return (
+                          <button
+                            key={decade}
+                            onClick={() => setSelectedDecade(decadeNum)}
+                            className="w-20 h-20 lg:w-24 lg:h-24 rounded-lg border-2 font-bold transition-all hover:scale-105 flex flex-col items-center justify-center gap-0.5"
+                            style={{
+                              backgroundColor: selectedDecade === decadeNum ? 'rgba(75, 0, 130, 0.8)' : 'rgba(75, 0, 130, 0.4)',
+                              color: '#C0C0C0',
+                              borderColor: selectedDecade === decadeNum ? '#C0C0C0' : 'rgba(192, 192, 192, 0.5)',
+                              boxShadow: selectedDecade === decadeNum ? '0 0 20px rgba(192, 192, 192, 0.4)' : 'none',
+                            }}
+                          >
+                            <span className="text-3xl lg:text-4xl font-bold">'{shortDecade}</span>
+                            <span className="text-[9px] lg:text-[10px] text-center leading-tight px-1">{decade}</span>
+                          </button>
+                        );
+                      })}
+                    </div>
+                  </div>
+
+                  <button
+                    onClick={() => {
+                      if (!user) {
+                        console.log('No user, showing auth overlay');
+                        setShowAuthOverlay(true);
+                      } else {
+                        console.log('User exists, starting quick play');
+                        startQuickPlay();
+                      }
+                    }}
+                    className={`${audiowide.className} w-full py-5 rounded-2xl text-3xl font-bold rocket-button relative overflow-hidden`}
                     style={{
-                      backgroundColor: 'rgba(75, 0, 130, 0.6)',
+                      background: 'linear-gradient(135deg, #4B0082 0%, #FF0000 100%)',
                       color: '#C0C0C0',
-                      borderColor: '#C0C0C0'
+                      border: '3px solid #C0C0C0',
+                      boxShadow: '0 0 30px rgba(255, 0, 0, 0.6)'
                     }}
                   >
-                    <option value="" style={{ backgroundColor: '#000' }}>SELECT WEEK...</option>
-                    {availableWeeks.map(week => (
-                      <option key={week} value={week} style={{ backgroundColor: '#000' }}>
-                        {week}
-                      </option>
-                    ))}
-                  </select>
-                </div>
+                    🚀 START!
+                  </button>
+                </>
               )}
 
-              {selectedWeek && (
-                <button
-                  onClick={() => {
-                    if (!user) {
-                      setShowAuthOverlay(true);
-                    } else {
-                      startGame();
-                    }
-                  }}
-                  className={`${audiowide.className} w-full py-5 rounded-2xl text-3xl font-bold rocket-button relative overflow-hidden`}
-                  style={{
-                    background: 'linear-gradient(135deg, #4B0082 0%, #FF0000 100%)',
-                    color: '#C0C0C0',
-                    border: '3px solid #C0C0C0',
-                    boxShadow: '0 0 30px rgba(255, 0, 0, 0.6)'
-                  }}
-                >
-                  🚀 IGNITE!
-                </button>
+              {/* Specific Chart Mode */}
+              {playMode === 'specific' && (
+                <>
+                  <div>
+                    <label className="block font-bold text-xl mb-3 text-silver-300" style={{ color: '#C0C0C0' }}>📅 YEAR</label>
+                    <select
+                      value={selectedYear || ''}
+                      onChange={(e) => setSelectedYear(parseInt(e.target.value))}
+                      className="w-full p-4 rounded-xl border-2 font-semibold text-lg focus:outline-none focus:ring-4 focus:ring-red-500 rocket-button"
+                      style={{
+                        backgroundColor: 'rgba(75, 0, 130, 0.6)',
+                        color: '#C0C0C0',
+                        borderColor: '#C0C0C0'
+                      }}
+                    >
+                      <option value="" style={{ backgroundColor: '#000' }}>SELECT YEAR...</option>
+                      {years.map(year => (
+                        <option key={year} value={year} style={{ backgroundColor: '#000' }}>
+                          {year}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+
+                  {selectedYear && (
+                    <div>
+                      <label className="block font-bold text-xl mb-3 text-silver-300" style={{ color: '#C0C0C0' }}>🗓️ WEEK</label>
+                      <select
+                        value={selectedWeek || ''}
+                        onChange={(e) => setSelectedWeek(e.target.value)}
+                        className="w-full p-4 rounded-xl border-2 font-semibold text-lg focus:outline-none focus:ring-4 focus:ring-red-500 rocket-button"
+                        style={{
+                          backgroundColor: 'rgba(75, 0, 130, 0.6)',
+                          color: '#C0C0C0',
+                          borderColor: '#C0C0C0'
+                        }}
+                      >
+                        <option value="" style={{ backgroundColor: '#000' }}>SELECT WEEK...</option>
+                        {availableWeeks.map(week => (
+                          <option key={week} value={week} style={{ backgroundColor: '#000' }}>
+                            {week}
+                          </option>
+                        ))}
+                      </select>
+                    </div>
+                  )}
+
+                  {selectedWeek && (
+                    <button
+                      onClick={() => {
+                        if (!user) {
+                          setShowAuthOverlay(true);
+                        } else {
+                          startGame();
+                        }
+                      }}
+                      className={`${audiowide.className} w-full py-5 rounded-2xl text-3xl font-bold rocket-button relative overflow-hidden`}
+                      style={{
+                        background: 'linear-gradient(135deg, #4B0082 0%, #FF0000 100%)',
+                        color: '#C0C0C0',
+                        border: '3px solid #C0C0C0',
+                        boxShadow: '0 0 30px rgba(255, 0, 0, 0.6)'
+                      }}
+                    >
+                      🚀 START!
+                    </button>
+                  )}
+                </>
               )}
             </div>
           </div>
@@ -845,6 +1343,19 @@ export default function Home() {
               <div className="flex items-center gap-1 sm:gap-2">
                 <span className="text-lg sm:text-2xl">🎯</span>
                 <span>ROUND {currentRound + 1}/{tracks.length}</span>
+                {playMode === 'quick' && (
+                  <span className="text-xs sm:text-sm px-2 py-1 rounded ml-1 sm:ml-2" style={{
+                    background: difficulty === 'hard' ? 'linear-gradient(135deg, #FF0000 0%, #FF6B00 100%)' :
+                               difficulty === 'medium' ? 'linear-gradient(135deg, #FFD700 0%, #FFA500 100%)' :
+                               'linear-gradient(135deg, #00FF00 0%, #00AA00 100%)',
+                    color: difficulty === 'easy' ? '#000' : '#FFF',
+                    boxShadow: difficulty === 'hard' ? '0 0 10px rgba(255, 0, 0, 0.5)' :
+                               difficulty === 'medium' ? '0 0 10px rgba(255, 215, 0, 0.5)' :
+                               '0 0 10px rgba(0, 255, 0, 0.5)',
+                  }}>
+                    {difficulty === 'hard' ? '2.5x' : difficulty === 'medium' ? '1.5x' : '1x'}
+                  </span>
+                )}
               </div>
               <div className="flex items-center gap-1 sm:gap-2 text-lg sm:text-2xl">
                 <span className="animate-pulse">⭐</span>
@@ -1075,39 +1586,56 @@ export default function Home() {
                     {correctCount < tracks.length * 0.5 && "Keep practicing!"}
                   </div>
                 </div>
-                <button
-                  onClick={resetGame}
-                  className="px-8 sm:px-10 py-4 sm:py-5 rounded-2xl text-lg sm:text-xl font-bold transition-all rocket-button border-3"
-                  style={{
-                    background: 'linear-gradient(135deg, rgba(75, 0, 130, 0.8) 0%, rgba(255, 0, 0, 0.8) 100%)',
-                    color: '#C0C0C0',
-                    border: '3px solid #C0C0C0',
-                    boxShadow: '0 0 20px rgba(192, 192, 192, 0.4)',
-                    fontFamily: 'Audiowide, sans-serif',
-                  }}
-                >
-                  🚀 PLAY AGAIN
-                </button>
+                <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
+                  <button
+                    onClick={resetGame}
+                    className="flex-1 px-8 sm:px-10 py-4 sm:py-5 rounded-2xl text-lg sm:text-xl font-bold transition-all rocket-button border-3"
+                    style={{
+                      background: 'linear-gradient(135deg, rgba(75, 0, 130, 0.8) 0%, rgba(255, 0, 0, 0.8) 100%)',
+                      color: '#C0C0C0',
+                      border: '3px solid #C0C0C0',
+                      boxShadow: '0 0 20px rgba(192, 192, 192, 0.4)',
+                      fontFamily: 'Audiowide, sans-serif',
+                    }}
+                  >
+                    🚀 PLAY AGAIN
+                  </button>
+                  <Link
+                    href="/leaderboard"
+                    className="flex-1 px-8 sm:px-10 py-4 sm:py-5 rounded-2xl text-lg sm:text-xl font-bold transition-all rocket-button border-3 flex items-center justify-center"
+                    style={{
+                      background: 'linear-gradient(135deg, rgba(255, 215, 0, 0.8) 0%, rgba(255, 140, 0, 0.8) 100%)',
+                      color: '#000',
+                      border: '3px solid #FFD700',
+                      boxShadow: '0 0 20px rgba(255, 215, 0, 0.4)',
+                      fontFamily: 'Audiowide, sans-serif',
+                    }}
+                  >
+                    🏆 VIEW LEADERBOARD
+                  </Link>
+                </div>
               </div>
             )}
           </div>
         )}
 
-        {/* Footer */}
-        <footer className="mt-12 pb-6 text-center">
-          <Link
-            href="/leaderboard"
-            className="inline-block px-4 py-2 rounded-lg text-sm font-semibold transition-all hover:scale-105"
-            style={{
-              backgroundColor: 'rgba(75, 0, 130, 0.3)',
-              color: '#C0C0C0',
-              border: '1px solid rgba(192, 192, 192, 0.2)',
-              backdropFilter: 'blur(10px)',
-            }}
-          >
-            🏆 View Leaderboard
-          </Link>
-        </footer>
+        {/* Footer - only show when not in game complete state */}
+        {!gameComplete && (
+          <footer className="mt-12 pb-6 text-center">
+            <Link
+              href="/leaderboard"
+              className="inline-block px-4 py-2 rounded-lg text-sm font-semibold transition-all hover:scale-105"
+              style={{
+                backgroundColor: 'rgba(75, 0, 130, 0.3)',
+                color: '#C0C0C0',
+                border: '1px solid rgba(192, 192, 192, 0.2)',
+                backdropFilter: 'blur(10px)',
+              }}
+            >
+              🏆 View Leaderboard
+            </Link>
+          </footer>
+        )}
       </div>
 
       {/* Auth Overlay */}
@@ -1188,8 +1716,13 @@ export default function Home() {
 
             <button
               onClick={() => {
+                console.log('Continue without signing in clicked, playMode:', playMode);
                 setShowAuthOverlay(false);
-                startGame();
+                if (playMode === 'quick') {
+                  startQuickPlay();
+                } else {
+                  startGame();
+                }
               }}
               className={`${audiowide.className} w-full py-3 sm:py-4 rounded-xl font-bold text-base sm:text-lg transition-all hover:scale-105`}
               style={{

@@ -33,23 +33,45 @@ export function useGameTracking() {
   // Start a new game round
   const startGameRound = async (
     genre: string,
-    chartYear: number,
-    chartWeek: number,
-    selectedWeek: string
+    mode: 'classic' | 'quick',
+    options: {
+      chartYear?: number;
+      chartWeek?: number;
+      selectedWeek?: string;
+      difficulty?: 'easy' | 'medium' | 'hard';
+      decadeStart?: number | null;
+    }
   ): Promise<string | null> => {
     if (!currentUserId) return null;
 
     try {
+      // Generate a random seed for tracking
+      const seed = options.selectedWeek || generateSeed();
+
+      // Build the insert object based on mode
+      const insertData: any = {
+        user_id: currentUserId,
+        mode,
+        genre: mapGenre(genre),
+        seed,
+        started_at: new Date().toISOString(),
+      };
+
+      if (mode === 'classic') {
+        // Classic mode: store chart_year and chart_week
+        insertData.chart_year = options.chartYear;
+        insertData.chart_week = options.chartWeek;
+      } else if (mode === 'quick') {
+        // Quick play mode: store difficulty and optionally decade_start
+        insertData.difficulty = options.difficulty;
+        if (options.decadeStart !== null && options.decadeStart !== undefined) {
+          insertData.decade_start = options.decadeStart;
+        }
+      }
+
       const { data, error } = await supabase
         .from('game_rounds')
-        .insert({
-          user_id: currentUserId,
-          genre: mapGenre(genre),
-          chart_year: chartYear,
-          chart_week: chartWeek,
-          seed: selectedWeek,
-          started_at: new Date().toISOString(),
-        })
+        .insert(insertData)
         .select()
         .single();
 
@@ -60,6 +82,16 @@ export function useGameTracking() {
       console.error('Error starting game round:', error);
       return null;
     }
+  };
+
+  // Generate a random seed (4 alphanumeric characters)
+  const generateSeed = (): string => {
+    const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    let seed = '';
+    for (let i = 0; i < 4; i++) {
+      seed += chars.charAt(Math.floor(Math.random() * chars.length));
+    }
+    return seed;
   };
 
   // Record a guess

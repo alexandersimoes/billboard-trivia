@@ -11,9 +11,12 @@ const audiowide = Audiowide({ weight: '400', subsets: ['latin'] });
 
 interface GameRound {
   id: string;
+  mode: 'classic' | 'quick';
   genre: string;
-  chart_year: number;
-  chart_week: number;
+  chart_year?: number;
+  chart_week?: number;
+  difficulty?: 'easy' | 'medium' | 'hard';
+  decade_start?: number;
   started_at: string;
   ended_at: string | null;
   total_points: number;
@@ -207,14 +210,30 @@ export default function Games() {
                 >
                   <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
                     <div className="flex-1">
-                      <div className="flex items-center gap-2 mb-2">
+                      <div className="flex items-center gap-2 mb-2 flex-wrap">
                         <span className="text-2xl">{genreEmojis[game.genre] || '🎵'}</span>
                         <span className="font-bold text-lg capitalize" style={{ color: '#C0C0C0' }}>
                           {game.genre === 'rnb' ? 'R&B/Hip-Hop' : game.genre}
                         </span>
-                        <span className="text-sm" style={{ color: '#C0C0C0' }}>
-                          Week {game.chart_week}, {game.chart_year}
-                        </span>
+                        {game.mode === 'classic' ? (
+                          <span className="text-sm" style={{ color: '#C0C0C0' }}>
+                            Week {game.chart_week}, {game.chart_year}
+                          </span>
+                        ) : (
+                          <span className="text-sm flex items-center gap-1" style={{ color: '#C0C0C0' }}>
+                            <span className="px-2 py-0.5 rounded" style={{
+                              backgroundColor: 'rgba(75, 0, 130, 0.5)',
+                              fontSize: '0.7rem',
+                              textTransform: 'uppercase'
+                            }}>
+                              {game.difficulty}
+                            </span>
+                            {game.decade_start && (
+                              <span>• {game.decade_start}s</span>
+                            )}
+                            {!game.decade_start && <span>• All Time</span>}
+                          </span>
+                        )}
                       </div>
                       <div className="text-xs" style={{ color: 'rgba(192, 192, 192, 0.7)' }}>
                         {formatDate(game.started_at)}

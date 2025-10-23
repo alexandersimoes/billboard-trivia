@@ -15,21 +15,32 @@ interface LeaderboardEntry {
   seed: string | null;
   num_correct: number;
   total_points: number;
+  mode: 'classic' | 'quick';
+  difficulty: 'easy' | 'medium' | 'hard' | null;
+  decade_start: number | null;
 }
 
 export default function Leaderboard() {
   const { user } = useAuth();
   const [leaderboard, setLeaderboard] = useState<LeaderboardEntry[]>([]);
   const [loading, setLoading] = useState(true);
+  const [modeFilter, setModeFilter] = useState<'all' | 'classic' | 'quick'>('all');
 
   useEffect(() => {
     async function fetchLeaderboard() {
       try {
         // Get best rounds from all users
-        const { data: roundsData, error: roundsError } = await supabase
+        let query = supabase
           .from('game_rounds')
-          .select('total_points, num_correct, genre, started_at, seed, user_id')
-          .not('ended_at', 'is', null)
+          .select('total_points, num_correct, genre, started_at, seed, user_id, mode, difficulty, decade_start')
+          .not('ended_at', 'is', null);
+
+        // Apply mode filter
+        if (modeFilter !== 'all') {
+          query = query.eq('mode', modeFilter);
+        }
+
+        const { data: roundsData, error: roundsError } = await query
           .order('total_points', { ascending: false })
           .limit(100);
 
@@ -67,6 +78,9 @@ export default function Leaderboard() {
           seed: row.seed,
           num_correct: row.num_correct,
           total_points: row.total_points,
+          mode: row.mode,
+          difficulty: row.difficulty,
+          decade_start: row.decade_start,
         }));
 
         setLeaderboard(data);
@@ -78,7 +92,7 @@ export default function Leaderboard() {
     }
 
     fetchLeaderboard();
-  }, []);
+  }, [modeFilter]);
 
   return (
     <div className="min-h-screen p-3 sm:p-6 md:p-8 relative overflow-hidden" style={{
@@ -175,6 +189,52 @@ export default function Leaderboard() {
           🏆 LEADERBOARD
         </h1>
 
+        {/* Mode Filter Tabs */}
+        <div className="flex justify-center gap-2 sm:gap-4 mb-6">
+          <button
+            onClick={() => setModeFilter('all')}
+            className={`px-4 sm:px-6 py-2 sm:py-3 rounded-xl font-bold text-sm sm:text-base transition-all ${
+              modeFilter === 'all'
+                ? 'bg-gradient-to-r from-purple-600 to-blue-600 text-white scale-105'
+                : 'bg-white/10 text-gray-400 hover:bg-white/20'
+            }`}
+            style={{
+              backdropFilter: 'blur(10px)',
+              border: modeFilter === 'all' ? '2px solid rgba(192, 192, 192, 0.5)' : '2px solid transparent',
+            }}
+          >
+            🌟 All
+          </button>
+          <button
+            onClick={() => setModeFilter('classic')}
+            className={`px-4 sm:px-6 py-2 sm:py-3 rounded-xl font-bold text-sm sm:text-base transition-all ${
+              modeFilter === 'classic'
+                ? 'bg-gradient-to-r from-purple-600 to-blue-600 text-white scale-105'
+                : 'bg-white/10 text-gray-400 hover:bg-white/20'
+            }`}
+            style={{
+              backdropFilter: 'blur(10px)',
+              border: modeFilter === 'classic' ? '2px solid rgba(192, 192, 192, 0.5)' : '2px solid transparent',
+            }}
+          >
+            📅 Classic
+          </button>
+          <button
+            onClick={() => setModeFilter('quick')}
+            className={`px-4 sm:px-6 py-2 sm:py-3 rounded-xl font-bold text-sm sm:text-base transition-all ${
+              modeFilter === 'quick'
+                ? 'bg-gradient-to-r from-purple-600 to-blue-600 text-white scale-105'
+                : 'bg-white/10 text-gray-400 hover:bg-white/20'
+            }`}
+            style={{
+              backdropFilter: 'blur(10px)',
+              border: modeFilter === 'quick' ? '2px solid rgba(192, 192, 192, 0.5)' : '2px solid transparent',
+            }}
+          >
+            ⚡ Quick Play
+          </button>
+        </div>
+
         <div className="holographic-card rounded-3xl p-4 sm:p-6 md:p-8" style={{
           background: 'linear-gradient(135deg, rgba(75, 0, 130, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%)',
         }}>
@@ -259,9 +319,23 @@ export default function Leaderboard() {
                               <span className="mr-1">{genreEmojis[entry.genre] || '🎵'}</span>
                               {genreDisplay}
                             </div>
-                            {formatChartWeek(entry.seed) && (
+                            {entry.mode === 'classic' && formatChartWeek(entry.seed) && (
                               <div className="text-xs mt-1" style={{ color: 'rgba(192, 192, 192, 0.6)' }}>
                                 Week of {formatChartWeek(entry.seed)}
+                              </div>
+                            )}
+                            {entry.mode === 'quick' && (
+                              <div className="text-xs mt-1" style={{ color: 'rgba(192, 192, 192, 0.6)' }}>
+                                {entry.difficulty && (
+                                  <span className="capitalize mr-2">
+                                    {entry.difficulty === 'easy' ? '🟢 Easy' :
+                                     entry.difficulty === 'medium' ? '🟡 Medium' :
+                                     '🔴 Hard'}
+                                  </span>
+                                )}
+                                {entry.decade_start && (
+                                  <span>📅 {entry.decade_start}s</span>
+                                )}
                               </div>
                             )}
                           </div>

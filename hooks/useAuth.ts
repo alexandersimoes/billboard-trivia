@@ -94,7 +94,10 @@ export function useAuth() {
   }, []);
 
   const signInWithGoogle = async () => {
-    const redirectUrl = 'https://alexandersimoes.github.io/billboard-trivia/';
+    // Dynamically determine redirect URL based on environment
+    const redirectUrl = window.location.origin.includes('localhost')
+      ? 'http://localhost:3000/billboard-trivia/'
+      : 'https://alexandersimoes.github.io/billboard-trivia/';
 
     console.log('Signing in with redirect URL:', redirectUrl);
     console.log('Current location:', window.location.href);

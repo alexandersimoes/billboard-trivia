@@ -21,9 +21,12 @@ export interface Profile {
 export interface GameRound {
   id: string;
   user_id: string;
+  mode: 'classic' | 'quick';
   genre: string;
-  chart_year: number;
-  chart_week: number;
+  chart_year?: number;
+  chart_week?: number;
+  difficulty?: 'easy' | 'medium' | 'hard';
+  decade_start?: number;
   seed: string | null;
   started_at: string;
   ended_at: string | null;

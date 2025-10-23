@@ -58,7 +58,7 @@ def export_chart(chart_slug: str, week: str, out_path: str | None, timeout: floa
   # If no output path provided, build one
   if not out_path:
     safe_chart = chart_slug.replace("/", "-")
-    out_path = f"{safe_chart}-{chart.date}.json"
+    out_path = f"public/charts/hot-100/{safe_chart}-{chart.date}.json"
     # Avoid accidental overwrite
     if os.path.exists(out_path):
       n = 1
