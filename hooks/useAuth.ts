@@ -5,14 +5,16 @@ import type { User } from '@supabase/supabase-js';
 export function useAuth() {
   const [user, setUser] = useState<User | null>(null);
   const [loading, setLoading] = useState(true);
+  const [isNewUser, setIsNewUser] = useState(false);
+  const [newUserProfile, setNewUserProfile] = useState<{ username: string; display_name: string } | null>(null);
 
   // Ensure profile exists for user
-  const ensureProfile = async (user: User) => {
+  const ensureProfile = async (user: User): Promise<{ username: string; display_name: string } | null> => {
     try {
       // Check if profile exists with a timeout
       const profileCheck = supabase
         .from('profiles')
-        .select('user_id')
+        .select('user_id, username, display_name')
         .eq('user_id', user.id)
         .single();
 
@@ -25,19 +27,53 @@ export function useAuth() {
 
       if (!existingProfile) {
         // Create profile with username from Google metadata
-        const username = user.user_metadata?.name ||
+        let username = user.user_metadata?.name ||
                         user.user_metadata?.full_name ||
                         user.email?.split('@')[0] ||
                         'User';
 
-        await supabase.from('profiles').insert({
-          user_id: user.id,
-          username: username,
-        });
+        // If username conflicts, append a unique identifier
+        let attempt = 0;
+        let insertError = null;
+
+        while (attempt < 5) {
+          const usernameToTry = attempt === 0 ? username : `${username}_${user.id.slice(0, 4)}`;
+
+          const { error } = await supabase.from('profiles').insert({
+            user_id: user.id,
+            username: usernameToTry,
+            display_name: username, // Keep display_name as the clean version
+          });
+
+          if (!error) {
+            // Success! Mark as new user to trigger welcome modal
+            const profile = { username: usernameToTry, display_name: username };
+            setNewUserProfile(profile);
+            setIsNewUser(true);
+            return profile;
+          }
+
+          // If it's a duplicate key error, try with modified username
+          if (error.code === '23505') {
+            attempt++;
+            insertError = error;
+            continue;
+          }
+
+          // If it's a different error, log and return null
+          console.error('Error inserting profile:', error);
+          return null;
+        }
+
+        console.error('Failed to insert profile after multiple attempts:', insertError);
+        return null;
       }
+
+      return existingProfile;
     } catch (error) {
       console.error('Error ensuring profile:', error);
       // Don't block auth if profile check fails
+      return null;
     }
   };
 
@@ -122,10 +158,18 @@ export function useAuth() {
     }
   };
 
+  const dismissNewUserModal = () => {
+    setIsNewUser(false);
+    setNewUserProfile(null);
+  };
+
   return {
     user,
     loading,
+    isNewUser,
+    newUserProfile,
     signInWithGoogle,
     signOut,
+    dismissNewUserModal,
   };
 }

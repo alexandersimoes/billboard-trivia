@@ -189,7 +189,10 @@ export default function Home() {
   const [showAuthOverlay, setShowAuthOverlay] = useState(false);
 
   const { startGameRound, recordGuess, endGameRound } = useGameTracking();
-  const { user, loading: authLoading, signInWithGoogle, signOut } = useAuth();
+  const { user, loading: authLoading, isNewUser, newUserProfile, signInWithGoogle, signOut, dismissNewUserModal } = useAuth();
+  const [showWelcomeModal, setShowWelcomeModal] = useState(false);
+  const [welcomeDisplayName, setWelcomeDisplayName] = useState('');
+  const [savingWelcome, setSavingWelcome] = useState(false);
 
   // Get available decades from years
   const getDecades = (years: number[]): string[] => {
@@ -206,6 +209,45 @@ export default function Home() {
   };
 
   const [availableDecades, setAvailableDecades] = useState<string[]>([]);
+
+  // Show welcome modal for new users
+  useEffect(() => {
+    if (isNewUser && newUserProfile) {
+      const name = newUserProfile.display_name || newUserProfile.username || '';
+      setWelcomeDisplayName(name);
+      setShowWelcomeModal(true);
+    }
+  }, [isNewUser, newUserProfile]);
+
+  const handleWelcomeSave = async () => {
+    if (!user) return;
+
+    const trimmedName = welcomeDisplayName.trim();
+    if (!trimmedName) return;
+
+    setSavingWelcome(true);
+
+    try {
+      const { error } = await supabase
+        .from('profiles')
+        .update({ display_name: trimmedName })
+        .eq('user_id', user.id);
+
+      if (error) throw error;
+
+      setShowWelcomeModal(false);
+      dismissNewUserModal();
+    } catch (error) {
+      console.error('Error updating display name:', error);
+    } finally {
+      setSavingWelcome(false);
+    }
+  };
+
+  const handleWelcomeSkip = () => {
+    setShowWelcomeModal(false);
+    dismissNewUserModal();
+  };
 
   // Fetch valid dates when chart changes
   useEffect(() => {
@@ -624,7 +666,7 @@ export default function Home() {
     setAnswered(false);
     answeredRef.current = false;
     setSelectedAnswer(null);
-    setTimeLeft(30);
+    setTimeLeft(difficulty === 'hard' ? 10 : difficulty === 'medium' ? 20 : 30);
     setRoundPoints(0);
     setStatus('Searching for preview...');
 
@@ -959,7 +1001,7 @@ export default function Home() {
               >
                 {user ? (
                   (user.user_metadata?.avatar_url || user.user_metadata?.picture) ? (
-                    <Link href="/games" className="w-full h-full flex items-center justify-center">
+                    <Link href="/account" className="w-full h-full flex items-center justify-center">
                       <img
                         src={user.user_metadata?.picture || user.user_metadata?.avatar_url}
                         alt="User avatar"
@@ -967,7 +1009,7 @@ export default function Home() {
                       />
                     </Link>
                   ) : (
-                    <Link href="/games" className="w-full h-full flex items-center justify-center">
+                    <Link href="/account" className="w-full h-full flex items-center justify-center">
                       <span>
                         {user.user_metadata?.full_name?.[0]?.toUpperCase() ||
                          user.user_metadata?.name?.[0]?.toUpperCase() ||
@@ -1357,7 +1399,7 @@ export default function Home() {
                   <div
                     className="h-full transition-all duration-1000 relative"
                     style={{
-                      width: `${(timeLeft / 30) * 100}%`,
+                      width: `${(timeLeft / (difficulty === 'hard' ? 10 : difficulty === 'medium' ? 20 : 30)) * 100}%`,
                       background: timeLeft <= 5
                         ? 'linear-gradient(90deg, #FF0000 0%, #FF6B00 100%)'
                         : 'linear-gradient(90deg, #4B0082 0%, #C0C0C0 100%)',
@@ -1628,6 +1670,86 @@ export default function Home() {
       </div>
 
       {/* Auth Overlay */}
+      {/* Welcome Modal for New Users */}
+      {showWelcomeModal && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center p-3"
+          style={{
+            backgroundColor: 'rgba(0, 0, 0, 0.85)',
+            backdropFilter: 'blur(10px)',
+          }}
+        >
+          <div
+            className="relative max-w-md w-full rounded-2xl p-6 sm:p-8"
+            style={{
+              background: 'linear-gradient(135deg, rgba(75, 0, 130, 0.95) 0%, rgba(0, 0, 0, 0.95) 100%)',
+              border: '2px solid rgba(192, 192, 192, 0.3)',
+              boxShadow: '0 0 60px rgba(75, 0, 130, 0.8)',
+            }}
+          >
+            <h2
+              className={`${audiowide.className} text-xl sm:text-2xl font-bold text-center mb-4 metallic-text`}
+              style={{
+                textShadow: '0 0 20px rgba(192, 192, 192, 0.8)',
+              }}
+            >
+              🎉 Welcome to TuneTrivia!
+            </h2>
+
+            <p className="text-center mb-6" style={{ color: '#C0C0C0' }}>
+              You'll appear on the leaderboard as:
+            </p>
+
+            <div className="mb-6">
+              <input
+                type="text"
+                value={welcomeDisplayName}
+                onChange={(e) => setWelcomeDisplayName(e.target.value)}
+                maxLength={50}
+                className="w-full px-4 py-3 rounded-xl text-white text-center text-lg font-bold outline-none transition-all"
+                style={{
+                  backgroundColor: 'rgba(0, 0, 0, 0.4)',
+                  border: '2px solid rgba(192, 192, 192, 0.3)',
+                }}
+                onFocus={(e) => {
+                  e.target.style.borderColor = 'rgba(192, 192, 192, 0.6)';
+                }}
+                onBlur={(e) => {
+                  e.target.style.borderColor = 'rgba(192, 192, 192, 0.3)';
+                }}
+              />
+              <div className="text-xs mt-2 text-center" style={{ color: 'rgba(192, 192, 192, 0.5)' }}>
+                {welcomeDisplayName.length}/50 characters
+              </div>
+            </div>
+
+            <div className="flex flex-col gap-3">
+              <button
+                onClick={handleWelcomeSave}
+                disabled={savingWelcome || !welcomeDisplayName.trim()}
+                className={`${audiowide.className} w-full py-3 rounded-xl font-bold transition-all hover:scale-105`}
+                style={{
+                  background: 'linear-gradient(135deg, #4B0082 0%, #8A2BE2 100%)',
+                  color: '#C0C0C0',
+                  border: '2px solid #C0C0C0',
+                  opacity: savingWelcome || !welcomeDisplayName.trim() ? 0.5 : 1,
+                }}
+              >
+                {savingWelcome ? 'Saving...' : 'Looks Good!'}
+              </button>
+              <button
+                onClick={handleWelcomeSkip}
+                disabled={savingWelcome}
+                className="text-sm transition-all hover:scale-105"
+                style={{ color: 'rgba(192, 192, 192, 0.6)' }}
+              >
+                I'll change it later
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
       {showAuthOverlay && (
         <div
           className="fixed inset-0 z-50 flex items-center justify-center p-3"

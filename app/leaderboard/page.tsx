@@ -33,7 +33,8 @@ export default function Leaderboard() {
         let query = supabase
           .from('game_rounds')
           .select('total_points, num_correct, genre, started_at, seed, user_id, mode, difficulty, decade_start')
-          .not('ended_at', 'is', null);
+          .not('ended_at', 'is', null)
+          .gt('num_correct', 0); // Only show games with at least 1 correct answer
 
         // Apply mode filter
         if (modeFilter !== 'all') {
@@ -57,7 +58,7 @@ export default function Leaderboard() {
         // Fetch usernames for all users
         const { data: profilesData, error: profilesError } = await supabase
           .from('profiles')
-          .select('user_id, username')
+          .select('user_id, username, display_name')
           .in('user_id', userIds);
 
         if (profilesError) {
@@ -65,9 +66,9 @@ export default function Leaderboard() {
           // Continue anyway with Anonymous usernames
         }
 
-        // Create a map of user_id to username
+        // Create a map of user_id to display_name (fallback to username)
         const usernameMap = new Map(
-          profilesData?.map(p => [p.user_id, p.username]) || []
+          profilesData?.map(p => [p.user_id, p.display_name || p.username]) || []
         );
 
         // Transform data to match leaderboard format
@@ -151,7 +152,7 @@ export default function Leaderboard() {
             {/* User/Auth button with circular icon */}
             {user ? (
               <Link
-                href="/games"
+                href="/account"
                 className="w-10 h-10 sm:w-12 sm:h-12 rounded-full flex items-center justify-center overflow-hidden transition-all hover:scale-105"
                 style={{
                   backgroundColor: 'rgba(75, 0, 130, 0.8)',
