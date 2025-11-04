@@ -18,12 +18,12 @@ export const metadata: Metadata = {
   icons: [
     {
       rel: 'icon',
-      url: '/billboard-trivia/favicon.ico',
+      url: '/favicon.ico',
       media: '(prefers-color-scheme: light)',
     },
     {
       rel: 'icon',
-      url: '/billboard-trivia/favicon-dark.ico',
+      url: '/favicon-dark.ico',
       media: '(prefers-color-scheme: dark)',
     },
   ],

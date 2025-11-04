@@ -46,7 +46,7 @@ To track user-specific data, you need to enable Google OAuth:
    - Go to Credentials > Create Credentials > OAuth 2.0 Client ID
    - Add authorized redirect URIs:
      - `https://your-project-ref.supabase.co/auth/v1/callback`
-     - For local testing: `http://localhost:3000/billboard-trivia/?redirected=true`
+     - For local testing: `http://localhost:3000/?redirected=true`
    - Copy the Client ID and Client Secret
 4. Paste the credentials in Supabase Google provider settings
 5. Save the configuration
