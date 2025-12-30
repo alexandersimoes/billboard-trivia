@@ -1632,7 +1632,7 @@ export default function Home() {
                     🚀 PLAY AGAIN
                   </button>
                   <Link
-                    href="/leaderboard"
+                    href="/leaderboard?highlight=me"
                     className="flex-1 px-8 sm:px-10 py-4 sm:py-5 rounded-2xl text-lg sm:text-xl font-bold transition-all rocket-button border-3 flex items-center justify-center"
                     style={{
                       background: 'linear-gradient(135deg, rgba(255, 215, 0, 0.8) 0%, rgba(255, 140, 0, 0.8) 100%)',

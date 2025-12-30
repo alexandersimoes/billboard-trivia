@@ -1,10 +1,11 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { supabase } from '@/lib/supabaseClient';
 import { useAuth } from '@/hooks/useAuth';
 import { Audiowide } from 'next/font/google';
 import Link from 'next/link';
+import { useSearchParams } from 'next/navigation';
 
 const audiowide = Audiowide({ weight: '400', subsets: ['latin'] });
 
@@ -15,6 +16,7 @@ interface LeaderboardEntry {
   seed: string | null;
   num_correct: number;
   total_points: number;
+  user_id: string;
   mode: 'classic' | 'quick';
   difficulty: 'easy' | 'medium' | 'hard' | null;
   decade_start: number | null;
@@ -25,6 +27,10 @@ export default function Leaderboard() {
   const [leaderboard, setLeaderboard] = useState<LeaderboardEntry[]>([]);
   const [loading, setLoading] = useState(true);
   const [modeFilter, setModeFilter] = useState<'all' | 'classic' | 'quick'>('all');
+  const [highlightIndex, setHighlightIndex] = useState<number | null>(null);
+  const rowRefs = useRef<(HTMLTableRowElement | null)[]>([]);
+  const searchParams = useSearchParams();
+  const shouldHighlight = searchParams.get('highlight') === 'me';
 
   useEffect(() => {
     async function fetchLeaderboard() {
@@ -79,6 +85,7 @@ export default function Leaderboard() {
           seed: row.seed,
           num_correct: row.num_correct,
           total_points: row.total_points,
+          user_id: row.user_id,
           mode: row.mode,
           difficulty: row.difficulty,
           decade_start: row.decade_start,
@@ -94,6 +101,19 @@ export default function Leaderboard() {
 
     fetchLeaderboard();
   }, [modeFilter]);
+
+  useEffect(() => {
+    if (!shouldHighlight || !user || leaderboard.length === 0) return;
+    const idx = leaderboard.findIndex(entry => entry.user_id === user.id);
+    if (idx === -1) return;
+    setHighlightIndex(idx);
+    const row = rowRefs.current[idx];
+    if (row) {
+      row.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+    const timeoutId = window.setTimeout(() => setHighlightIndex(null), 6000);
+    return () => window.clearTimeout(timeoutId);
+  }, [shouldHighlight, user, leaderboard]);
 
   return (
     <div className="min-h-screen p-3 sm:p-6 md:p-8 relative overflow-hidden" style={{
@@ -306,8 +326,15 @@ export default function Leaderboard() {
                     const genreDisplay = entry.genre === 'rnb' ? 'R&B/Hip-Hop' :
                                         entry.genre.charAt(0).toUpperCase() + entry.genre.slice(1);
 
+                    const isHighlight = highlightIndex === index;
+
                     return (
-                      <tr key={index} className="border-b transition-all hover:bg-white/5" style={{ borderColor: 'rgba(192, 192, 192, 0.1)' }}>
+                      <tr
+                        key={index}
+                        ref={(el) => { rowRefs.current[index] = el; }}
+                        className={`border-b transition-all hover:bg-white/5 ${isHighlight ? 'leaderboard-highlight' : ''}`}
+                        style={{ borderColor: 'rgba(192, 192, 192, 0.1)' }}
+                      >
                         <td className="py-3 px-2 sm:px-4 text-sm sm:text-base font-bold" style={{ color: '#C0C0C0' }}>
                           {rankEmoji} {index + 1}
                         </td>
@@ -359,6 +386,17 @@ export default function Leaderboard() {
           )}
         </div>
       </div>
+      <style jsx>{`
+        .leaderboard-highlight {
+          animation: leaderboardPulse 1.8s ease-in-out 3;
+          background: rgba(255, 215, 0, 0.12);
+        }
+        @keyframes leaderboardPulse {
+          0% { box-shadow: 0 0 0 rgba(255, 215, 0, 0.0); }
+          50% { box-shadow: 0 0 20px rgba(255, 215, 0, 0.6); }
+          100% { box-shadow: 0 0 0 rgba(255, 215, 0, 0.0); }
+        }
+      `}</style>
     </div>
   );
 }

@@ -14,6 +14,8 @@ Examples:
 
   # Year-end charts: list available years (best-effort)
   python billboard_weeks.py --chart alternative-songs --year-end
+
+  Use this to get the valid dates for a chart: https://raw.githubusercontent.com/mhollingshead/billboard-hot-100/main/valid_dates.json
 """
 
 import argparse
