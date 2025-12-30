@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
+import { Suspense, useEffect, useRef, useState } from 'react';
 import { supabase } from '@/lib/supabaseClient';
 import { useAuth } from '@/hooks/useAuth';
 import { Audiowide } from 'next/font/google';
@@ -22,15 +22,13 @@ interface LeaderboardEntry {
   decade_start: number | null;
 }
 
-export default function Leaderboard() {
+function LeaderboardContent({ shouldHighlight }: { shouldHighlight: boolean }) {
   const { user } = useAuth();
   const [leaderboard, setLeaderboard] = useState<LeaderboardEntry[]>([]);
   const [loading, setLoading] = useState(true);
   const [modeFilter, setModeFilter] = useState<'all' | 'classic' | 'quick'>('all');
   const [highlightIndex, setHighlightIndex] = useState<number | null>(null);
   const rowRefs = useRef<(HTMLTableRowElement | null)[]>([]);
-  const searchParams = useSearchParams();
-  const shouldHighlight = searchParams.get('highlight') === 'me';
 
   useEffect(() => {
     async function fetchLeaderboard() {
@@ -398,5 +396,19 @@ export default function Leaderboard() {
         }
       `}</style>
     </div>
+  );
+}
+
+function LeaderboardWithParams() {
+  const searchParams = useSearchParams();
+  const shouldHighlight = searchParams.get('highlight') === 'me';
+  return <LeaderboardContent shouldHighlight={shouldHighlight} />;
+}
+
+export default function Leaderboard() {
+  return (
+    <Suspense fallback={<div className="min-h-screen" style={{ backgroundColor: '#000000' }} />}>
+      <LeaderboardWithParams />
+    </Suspense>
   );
 }
