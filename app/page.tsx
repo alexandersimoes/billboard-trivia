@@ -180,6 +180,7 @@ export default function Home() {
   const [timeLeft, setTimeLeft] = useState(30);
   const [roundPoints, setRoundPoints] = useState(0);
   const [currentArtwork, setCurrentArtwork] = useState<string | null>(null);
+  const [lastRoundId, setLastRoundId] = useState<string | null>(null);
 
   const audioRef = useRef<HTMLAudioElement>(null);
   const timerRef = useRef<NodeJS.Timeout | null>(null);
@@ -848,7 +849,8 @@ export default function Home() {
       setStatus(`Game Over! Final Score: ${score}`);
 
       // End game tracking
-      await endGameRound(score, correctCount, tracks.length);
+      const completedRoundId = await endGameRound(score, correctCount, tracks.length);
+      setLastRoundId(completedRoundId);
     }
   };
 
@@ -866,6 +868,7 @@ export default function Home() {
     setCorrectCount(0);
     setUsedTracks(new Set());
     setGameComplete(false);
+    setLastRoundId(null);
     if (audioRef.current) {
       audioRef.current.pause();
       audioRef.current.src = '';
@@ -1632,7 +1635,7 @@ export default function Home() {
                     🚀 PLAY AGAIN
                   </button>
                   <Link
-                    href="/leaderboard?highlight=me"
+                    href={lastRoundId ? `/leaderboard?roundId=${encodeURIComponent(lastRoundId)}` : '/leaderboard?highlight=me'}
                     className="flex-1 px-8 sm:px-10 py-4 sm:py-5 rounded-2xl text-lg sm:text-xl font-bold transition-all rocket-button border-3 flex items-center justify-center"
                     style={{
                       background: 'linear-gradient(135deg, rgba(255, 215, 0, 0.8) 0%, rgba(255, 140, 0, 0.8) 100%)',

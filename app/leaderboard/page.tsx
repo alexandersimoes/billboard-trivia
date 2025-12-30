@@ -10,6 +10,7 @@ import { useSearchParams } from 'next/navigation';
 const audiowide = Audiowide({ weight: '400', subsets: ['latin'] });
 
 interface LeaderboardEntry {
+  id: string;
   username: string | null;
   genre: string;
   started_at: string;
@@ -22,7 +23,7 @@ interface LeaderboardEntry {
   decade_start: number | null;
 }
 
-function LeaderboardContent({ shouldHighlight }: { shouldHighlight: boolean }) {
+function LeaderboardContent({ shouldHighlight, roundId }: { shouldHighlight: boolean; roundId: string | null }) {
   const { user } = useAuth();
   const [leaderboard, setLeaderboard] = useState<LeaderboardEntry[]>([]);
   const [loading, setLoading] = useState(true);
@@ -36,7 +37,7 @@ function LeaderboardContent({ shouldHighlight }: { shouldHighlight: boolean }) {
         // Get best rounds from all users
         let query = supabase
           .from('game_rounds')
-          .select('total_points, num_correct, genre, started_at, seed, user_id, mode, difficulty, decade_start')
+          .select('id, total_points, num_correct, genre, started_at, seed, user_id, mode, difficulty, decade_start')
           .not('ended_at', 'is', null)
           .gt('num_correct', 0); // Only show games with at least 1 correct answer
 
@@ -77,6 +78,7 @@ function LeaderboardContent({ shouldHighlight }: { shouldHighlight: boolean }) {
 
         // Transform data to match leaderboard format
         const data = roundsData.map((row) => ({
+          id: row.id,
           username: usernameMap.get(row.user_id) || 'Anonymous',
           genre: row.genre,
           started_at: row.started_at,
@@ -101,8 +103,13 @@ function LeaderboardContent({ shouldHighlight }: { shouldHighlight: boolean }) {
   }, [modeFilter]);
 
   useEffect(() => {
-    if (!shouldHighlight || !user || leaderboard.length === 0) return;
-    const idx = leaderboard.findIndex(entry => entry.user_id === user.id);
+    if (leaderboard.length === 0) return;
+    let idx = -1;
+    if (roundId) {
+      idx = leaderboard.findIndex(entry => entry.id === roundId);
+    } else if (shouldHighlight && user) {
+      idx = leaderboard.findIndex(entry => entry.user_id === user.id);
+    }
     if (idx === -1) return;
     setHighlightIndex(idx);
     const row = rowRefs.current[idx];
@@ -111,7 +118,7 @@ function LeaderboardContent({ shouldHighlight }: { shouldHighlight: boolean }) {
     }
     const timeoutId = window.setTimeout(() => setHighlightIndex(null), 6000);
     return () => window.clearTimeout(timeoutId);
-  }, [shouldHighlight, user, leaderboard]);
+  }, [shouldHighlight, user, leaderboard, roundId]);
 
   return (
     <div className="min-h-screen p-3 sm:p-6 md:p-8 relative overflow-hidden" style={{
@@ -402,7 +409,8 @@ function LeaderboardContent({ shouldHighlight }: { shouldHighlight: boolean }) {
 function LeaderboardWithParams() {
   const searchParams = useSearchParams();
   const shouldHighlight = searchParams.get('highlight') === 'me';
-  return <LeaderboardContent shouldHighlight={shouldHighlight} />;
+  const roundId = searchParams.get('roundId');
+  return <LeaderboardContent shouldHighlight={shouldHighlight} roundId={roundId} />;
 }
 
 export default function Leaderboard() {

@@ -131,11 +131,12 @@ export function useGameTracking() {
     totalPoints: number,
     numCorrect: number,
     totalQuestions: number
-  ): Promise<void> => {
-    if (!currentRoundId.current || !currentUserId) return;
+  ): Promise<string | null> => {
+    if (!currentRoundId.current || !currentUserId) return null;
 
     try {
       const result = numCorrect === totalQuestions ? 'win' : 'loss';
+      const roundId = currentRoundId.current;
 
       // Update game round
       await supabase
@@ -146,14 +147,16 @@ export function useGameTracking() {
           num_correct: numCorrect,
           result,
         })
-        .eq('id', currentRoundId.current);
+        .eq('id', roundId);
 
       // Update user stats
       await updateUserStats(totalPoints, result);
 
       currentRoundId.current = null;
+      return roundId;
     } catch (error) {
       console.error('Error ending game round:', error);
+      return null;
     }
   };
 
