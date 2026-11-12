@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>TuneTrivia</title>
+  <rect width="64" height="64" rx="14" fill="#1b2552"/>
+  <path d="M12 54V28a20 20 0 0 1 40 0v26Z" fill="#ff7a45"/>
+  <path d="M17 54V28a15 15 0 0 1 30 0v26Z" fill="#1b2552"/>
+  <path d="M33 20v21.5a7 5.5-20 1 1-4-5V20Zm0 0c0 7 12 5 9 16 0-6-7-5-9-9Z" fill="#f6ead6"/>
+</svg>

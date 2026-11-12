@@ -1,0 +1,455 @@
+{
+  "date": "2022-04-16",
+  "data": [
+    {
+      "song": "Cold Heart (PNAU Remix)",
+      "artist": "Elton John & Dua Lipa",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 34,
+      "new": false
+    },
+    {
+      "song": "The Motto",
+      "artist": "Tiesto & Ava Max",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Pepas",
+      "artist": "Farruko",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 40,
+      "new": false
+    },
+    {
+      "song": "When I'm Gone",
+      "artist": "Alesso / Katy Perry",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Do It To It",
+      "artist": "Acraze Featuring Cherish",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 3,
+      "weeks_on_chart": 33,
+      "new": false
+    },
+    {
+      "song": "Dancing Feet",
+      "artist": "Kygo Featuring DNCE",
+      "this_week": 6,
+      "last_week": 7,
+      "peak_position": 6,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Where Are You Now",
+      "artist": "Lost Frequencies & Calum Scott",
+      "this_week": 7,
+      "last_week": 6,
+      "peak_position": 6,
+      "weeks_on_chart": 36,
+      "new": false
+    },
+    {
+      "song": "El Incomprendido",
+      "artist": "Farruko, Victor Cardenas & DJ Adoni",
+      "this_week": 8,
+      "last_week": 8,
+      "peak_position": 4,
+      "weeks_on_chart": 27,
+      "new": false
+    },
+    {
+      "song": "Don't Forget My Love",
+      "artist": "Diplo & Miguel",
+      "this_week": 9,
+      "last_week": 11,
+      "peak_position": 8,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Frozen",
+      "artist": "Madonna vs. Sickick",
+      "this_week": 10,
+      "last_week": 12,
+      "peak_position": 10,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "You Were Loved",
+      "artist": "Gryffin & OneRepublic",
+      "this_week": 11,
+      "last_week": null,
+      "peak_position": 11,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Moth To A Flame",
+      "artist": "Swedish House Mafia & The Weeknd",
+      "this_week": 12,
+      "last_week": 10,
+      "peak_position": 2,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "SG",
+      "artist": "DJ Snake, Ozuna, Lisa & Megan Thee Stallion",
+      "this_week": 13,
+      "last_week": 9,
+      "peak_position": 4,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "What Would You Do?",
+      "artist": "Joel Corry, David Guetta & Bryson Tiller",
+      "this_week": 14,
+      "last_week": 13,
+      "peak_position": 12,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Love Brand New",
+      "artist": "Bob Moses",
+      "this_week": 15,
+      "last_week": 17,
+      "peak_position": 15,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Broken In All The Right Places",
+      "artist": "Lost Kings Featuring Mod Sun",
+      "this_week": 16,
+      "last_week": 24,
+      "peak_position": 16,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Escape",
+      "artist": "Kx5 Featuring Hayla",
+      "this_week": 17,
+      "last_week": 19,
+      "peak_position": 13,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Beg For You",
+      "artist": "Charli xcx Featuring Rina Sawayama",
+      "this_week": 18,
+      "last_week": 14,
+      "peak_position": 10,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Tell It To My Heart",
+      "artist": "Meduza Featuring Hozier",
+      "this_week": 19,
+      "last_week": 22,
+      "peak_position": 10,
+      "weeks_on_chart": 23,
+      "new": false
+    },
+    {
+      "song": "The Last Goodbye",
+      "artist": "ODESZA Featuring Bettye LaVette",
+      "this_week": 20,
+      "last_week": 16,
+      "peak_position": 10,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Where Did You Go?",
+      "artist": "Jax Jones Featuring MNEK",
+      "this_week": 21,
+      "last_week": 23,
+      "peak_position": 14,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "iPad",
+      "artist": "The Chainsmokers",
+      "this_week": 22,
+      "last_week": 18,
+      "peak_position": 6,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Everything But You",
+      "artist": "Clean Bandit Featuring A7S",
+      "this_week": 23,
+      "last_week": 20,
+      "peak_position": 20,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Sirens",
+      "artist": "Flume Featuring Caroline Polachek",
+      "this_week": 24,
+      "last_week": null,
+      "peak_position": 24,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Sahara",
+      "artist": "Hensonn",
+      "this_week": 25,
+      "last_week": 26,
+      "peak_position": 16,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Follow",
+      "artist": "Martin Garrix & Zedd",
+      "this_week": 26,
+      "last_week": 15,
+      "peak_position": 15,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Story Of My Life",
+      "artist": "Illenium, Sueco & Trippie Redd",
+      "this_week": 27,
+      "last_week": 27,
+      "peak_position": 11,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Intimidated",
+      "artist": "Kaytranada Featuring H.E.R.",
+      "this_week": 28,
+      "last_week": 28,
+      "peak_position": 9,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Run Into Trouble",
+      "artist": "Alok & Bastille",
+      "this_week": 29,
+      "last_week": null,
+      "peak_position": 29,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Move Your Body",
+      "artist": "Ownboss & SEVEK",
+      "this_week": 30,
+      "last_week": 31,
+      "peak_position": 26,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Human",
+      "artist": "John Summit Featuring Echoes",
+      "this_week": 31,
+      "last_week": 32,
+      "peak_position": 26,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Love Letter",
+      "artist": "ODESZA Featuring The Knocks",
+      "this_week": 32,
+      "last_week": 21,
+      "peak_position": 21,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Don't Wake Me Up",
+      "artist": "Jonas Blue & Why Don't We",
+      "this_week": 33,
+      "last_week": 33,
+      "peak_position": 13,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Follow Me",
+      "artist": "Sam Feldt x Rita Ora",
+      "this_week": 34,
+      "last_week": 29,
+      "peak_position": 15,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Redlight",
+      "artist": "Swedish House Mafia & Sting",
+      "this_week": 35,
+      "last_week": 36,
+      "peak_position": 20,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Original Sin",
+      "artist": "Sofi Tukker",
+      "this_week": 36,
+      "last_week": 37,
+      "peak_position": 25,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Limitless",
+      "artist": "Martin Garrix & Mesto",
+      "this_week": 37,
+      "last_week": null,
+      "peak_position": 37,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Say Nothing",
+      "artist": "Flume Featuring MAY-A",
+      "this_week": 38,
+      "last_week": 34,
+      "peak_position": 12,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Better Now",
+      "artist": "ODESZA Featuring MARO",
+      "this_week": 39,
+      "last_week": 30,
+      "peak_position": 19,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Waterfall",
+      "artist": "Disclosure X RAYE",
+      "this_week": 40,
+      "last_week": 25,
+      "peak_position": 25,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Run",
+      "artist": "Becky Hill + Galantis",
+      "this_week": 41,
+      "last_week": 41,
+      "peak_position": 17,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Heart So Big",
+      "artist": "Matoma & A R I Z O N A",
+      "this_week": 42,
+      "last_week": null,
+      "peak_position": 42,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Down Under",
+      "artist": "Luude Featuring Colin Hay",
+      "this_week": 43,
+      "last_week": 38,
+      "peak_position": 20,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Hallucination",
+      "artist": "Regard x Years & Years",
+      "this_week": 44,
+      "last_week": 39,
+      "peak_position": 28,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Hits 2021 (Mashup)",
+      "artist": "Trinix",
+      "this_week": 45,
+      "last_week": 46,
+      "peak_position": 41,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Into The Unknown",
+      "artist": "Hardwell",
+      "this_week": 46,
+      "last_week": null,
+      "peak_position": 46,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Discoteca",
+      "artist": "IAmChino x Pitbull",
+      "this_week": 47,
+      "last_week": 45,
+      "peak_position": 29,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Good Luck",
+      "artist": "Mabel X Jax Jones X Galantis",
+      "this_week": 48,
+      "last_week": 40,
+      "peak_position": 22,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Shinigami Eyes",
+      "artist": "Grimes",
+      "this_week": 49,
+      "last_week": 43,
+      "peak_position": 12,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Belly Dancer",
+      "artist": "Imanbek & BYOR",
+      "this_week": 50,
+      "last_week": 47,
+      "peak_position": 47,
+      "weeks_on_chart": 2,
+      "new": false
+    }
+  ]
+}

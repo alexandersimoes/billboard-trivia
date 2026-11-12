@@ -1,59 +1,34 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Audiowide, Exo } from 'next/font/google';
+import { Gloock, Instrument_Sans } from 'next/font/google';
+import Scene from '@/components/Scene';
+import GoogleAnalytics from '@/components/GoogleAnalytics';
+import { SITE_URL } from '@/lib/seo';
 
-const audiowide = Audiowide({
-  subsets: ['latin'],
-  weight: ['400'],
-});
-
-const exo = Exo({
-  subsets: ['latin'],
-  weight: ['400', '600', '800'],
-});
+const display = Gloock({ subsets: ['latin'], weight: '400', variable: '--font-display' });
+const body = Instrument_Sans({ subsets: ['latin'], variable: '--font-body' });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: "TuneTrivia - Music Challenge Game",
-  description: "Test your music knowledge! Guess songs from 30-second previews across all genres - Pop, Rock, Country, R&B, Rap, Alternative, and Latin. Play quick challenges or pick specific chart weeks from decades of hits.",
-  icons: [
-    {
-      rel: 'icon',
-      url: '/favicon.ico',
-      media: '(prefers-color-scheme: light)',
-    },
-    {
-      rel: 'icon',
-      url: '/favicon-dark.ico',
-      media: '(prefers-color-scheme: dark)',
-    },
-  ],
+  description: "Test your music knowledge! Guess songs from short previews across Pop, Rock, Country, R&B, Rap, Alternative, Dance, Latin, and the Billboard and Spotify streaming charts. Play quick challenges or pick a specific chart week from decades of hits.",
+  icons: {
+    icon: [
+      { url: '/favicon.ico?v=2', sizes: '16x16 32x32 48x48' },
+      { url: '/favicon.svg?v=2', type: 'image/svg+xml', sizes: 'any' },
+    ],
+    apple: [{ url: '/apple-touch-icon.png?v=2', sizes: '180x180', type: 'image/png' }],
+  },
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en">
-      <body className={`${exo.className} antialiased min-h-screen`} style={{
-        backgroundColor: '#000000',
-        backgroundImage: `
-          radial-gradient(2px 2px at 20% 30%, white, transparent),
-          radial-gradient(2px 2px at 60% 70%, white, transparent),
-          radial-gradient(1px 1px at 50% 50%, white, transparent),
-          radial-gradient(1px 1px at 80% 10%, white, transparent),
-          radial-gradient(2px 2px at 90% 60%, white, transparent),
-          radial-gradient(1px 1px at 33% 80%, white, transparent),
-          radial-gradient(2px 2px at 15% 75%, white, transparent),
-          radial-gradient(circle at 50% 50%, rgba(75, 0, 130, 0.3) 0%, transparent 50%),
-          radial-gradient(circle at 80% 20%, rgba(255, 0, 0, 0.2) 0%, transparent 50%)
-        `,
-        backgroundSize: '200% 200%, 200% 200%, 200% 200%, 200% 200%, 200% 200%, 200% 200%, 200% 200%, 100% 100%, 100% 100%',
-        backgroundAttachment: 'fixed',
-      }}>
-        <div className={audiowide.className} style={{ display: 'none' }} />
+    <html lang="en" data-theme="dusk" className={`${display.variable} ${body.variable}`}>
+      <body className={`${body.className} antialiased`}>
+        <a href="#main-content" className="skip-link">Skip to content</a>
+        <Scene />
         {children}
+        <GoogleAnalytics />
       </body>
     </html>
   );

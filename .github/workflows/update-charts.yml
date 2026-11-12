@@ -1,0 +1,41 @@
+name: Update charts
+
+# Billboard publishes new weekly charts on Tuesdays; Spotify's weekly chart lands on
+# Fridays. Each is followed by a retry day. The script only writes when a chart has a
+# week that Supabase is missing, so extra runs are harmless.
+on:
+  schedule:
+    - cron: "0 16 * * 2,3,5,6" # 16:00 UTC Tue, Wed, Fri, Sat
+  workflow_dispatch:
+    inputs:
+      args:
+        description: "Extra arguments for update_charts.mjs (e.g. --chart hot-100 --since 2026-01-03)"
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+
+concurrency:
+  group: update-charts
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - run: npm ci
+
+      - name: Fetch and ingest missing chart weeks
+        run: node scripts/update_charts.mjs ${{ inputs.args }}
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE: ${{ secrets.SUPABASE_SERVICE_ROLE }}

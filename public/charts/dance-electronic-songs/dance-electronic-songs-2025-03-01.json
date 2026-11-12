@@ -1,0 +1,230 @@
+{
+  "date": "2025-03-01",
+  "data": [
+    {
+      "song": "Miles On It",
+      "artist": "Marshmello & Kane Brown",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 30,
+      "new": false
+    },
+    {
+      "song": "Forever Young",
+      "artist": "David Guetta, Alphaville & Ava Max",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "The Days",
+      "artist": "CHRYSTAL",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 2,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Slow Motion",
+      "artist": "Marshmello X Jonas Brothers",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Chess",
+      "artist": "joyful",
+      "this_week": 5,
+      "last_week": 7,
+      "peak_position": 5,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Move",
+      "artist": "Adam Port & Stryv Featuring Malachiii",
+      "this_week": 6,
+      "last_week": 6,
+      "peak_position": 4,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Under Your Spell",
+      "artist": "Snow Strippers",
+      "this_week": 7,
+      "last_week": 8,
+      "peak_position": 5,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Did I Tell U That I Miss U",
+      "artist": "adore",
+      "this_week": 8,
+      "last_week": 10,
+      "peak_position": 7,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Neverender",
+      "artist": "Justice & Tame Impala",
+      "this_week": 9,
+      "last_week": 9,
+      "peak_position": 8,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Dreamin'",
+      "artist": "Dom Dolla Featuring Daya",
+      "this_week": 10,
+      "last_week": 5,
+      "peak_position": 5,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "New Jeans (Jersey Club)",
+      "artist": "Dxrkaii & Jiandro",
+      "this_week": 11,
+      "last_week": 11,
+      "peak_position": 9,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Nunca Muda?",
+      "artist": "Scythermane & NXGHT!",
+      "this_week": 12,
+      "last_week": 12,
+      "peak_position": 12,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "HGT (Hostile Government Takeover) (EDM Remix)",
+      "artist": "AGiftFromTodd & Vinny Marchi",
+      "this_week": 13,
+      "last_week": null,
+      "peak_position": 13,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Chasing Paradise",
+      "artist": "Kygo With OneRepublic",
+      "this_week": 14,
+      "last_week": 15,
+      "peak_position": 6,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Focus",
+      "artist": "John Summit Featuring CLOVES",
+      "this_week": 15,
+      "last_week": 14,
+      "peak_position": 5,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Funk Do Bounce",
+      "artist": "Ariis",
+      "this_week": 16,
+      "last_week": 16,
+      "peak_position": 10,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "I Only Smoke When I Drink",
+      "artist": "nimino",
+      "this_week": 17,
+      "last_week": 17,
+      "peak_position": 15,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Somedays",
+      "artist": "Sonny Fodera, Jazzy & D.O.D",
+      "this_week": 18,
+      "last_week": 19,
+      "peak_position": 16,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Want To Love",
+      "artist": "Aloboi",
+      "this_week": 19,
+      "last_week": 18,
+      "peak_position": 14,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Dirty Cash (Money Talks)",
+      "artist": "PAWSA & The Adventures Of Stevie V",
+      "this_week": 20,
+      "last_week": 20,
+      "peak_position": 18,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Tell You Straight",
+      "artist": "jigitz",
+      "this_week": 21,
+      "last_week": null,
+      "peak_position": 21,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Stephanie",
+      "artist": "Cloonee, Young M.A & InntRaw",
+      "this_week": 22,
+      "last_week": 21,
+      "peak_position": 21,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Don't Stop",
+      "artist": "GLXXMSTRIDER",
+      "this_week": 23,
+      "last_week": 24,
+      "peak_position": 22,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Spooky",
+      "artist": "fennecxx & DJ ALEX",
+      "this_week": 24,
+      "last_week": 22,
+      "peak_position": 14,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Funk de Beleza",
+      "artist": "Nateki & Scythermane",
+      "this_week": 25,
+      "last_week": null,
+      "peak_position": 25,
+      "weeks_on_chart": 1,
+      "new": true
+    }
+  ]
+}

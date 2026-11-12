@@ -1,0 +1,230 @@
+{
+  "date": "2026-09-12",
+  "data": [
+    {
+      "song": "Janice STFU",
+      "artist": "Drake",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Dead Fresh",
+      "artist": "Lil Baby",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Spend Dat",
+      "artist": "Yung Miami",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 2,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Cinderella",
+      "artist": "Mac Miller Featuring Ty Dolla $ign",
+      "this_week": 4,
+      "last_week": 5,
+      "peak_position": 3,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Shabang",
+      "artist": "Drake",
+      "this_week": 5,
+      "last_week": 4,
+      "peak_position": 2,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Piece Of Your Love",
+      "artist": "Rod Wave",
+      "this_week": 6,
+      "last_week": null,
+      "peak_position": 6,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "AH HA",
+      "artist": "Cardi B",
+      "this_week": 7,
+      "last_week": 7,
+      "peak_position": 3,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Raindance",
+      "artist": "Dave & Tems",
+      "this_week": 8,
+      "last_week": 6,
+      "peak_position": 6,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Hustle",
+      "artist": "Rod Wave",
+      "this_week": 9,
+      "last_week": 25,
+      "peak_position": 9,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Take Care",
+      "artist": "Rod Wave",
+      "this_week": 10,
+      "last_week": null,
+      "peak_position": 10,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "War Wounds",
+      "artist": "Rod Wave",
+      "this_week": 11,
+      "last_week": null,
+      "peak_position": 11,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "I Am",
+      "artist": "Rod Wave",
+      "this_week": 12,
+      "last_week": null,
+      "peak_position": 12,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Ghetto Love Story",
+      "artist": "BabyChiefDoit",
+      "this_week": 13,
+      "last_week": 8,
+      "peak_position": 7,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Dope Girl",
+      "artist": "Rod Wave",
+      "this_week": 14,
+      "last_week": null,
+      "peak_position": 14,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Keep Dancing",
+      "artist": "Rod Wave Featuring Hazlett",
+      "this_week": 15,
+      "last_week": null,
+      "peak_position": 15,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Look At Me Momma",
+      "artist": "Rod Wave",
+      "this_week": 16,
+      "last_week": null,
+      "peak_position": 16,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Not New To It",
+      "artist": "Rod Wave",
+      "this_week": 17,
+      "last_week": null,
+      "peak_position": 17,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Kiss Me Interlude",
+      "artist": "Rod Wave",
+      "this_week": 18,
+      "last_week": null,
+      "peak_position": 18,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "WTF GOIN",
+      "artist": "Belly Gang Kushington & 21 Savage",
+      "this_week": 19,
+      "last_week": 9,
+      "peak_position": 9,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Venusian",
+      "artist": "Rod Wave Featuring Hazlett",
+      "this_week": 20,
+      "last_week": null,
+      "peak_position": 20,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "TP",
+      "artist": "Rod Wave",
+      "this_week": 21,
+      "last_week": null,
+      "peak_position": 21,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "2017 (Streamer U)",
+      "artist": "Rod Wave Featuring Aimee Carty",
+      "this_week": 22,
+      "last_week": null,
+      "peak_position": 22,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "LaCosa Nostra",
+      "artist": "Rod Wave",
+      "this_week": 23,
+      "last_week": null,
+      "peak_position": 23,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Mainstay",
+      "artist": "Rod Wave Featuring Luv Von",
+      "this_week": 24,
+      "last_week": null,
+      "peak_position": 24,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Lost And Insecure",
+      "artist": "Rod Wave",
+      "this_week": 25,
+      "last_week": null,
+      "peak_position": 25,
+      "weeks_on_chart": 1,
+      "new": true
+    }
+  ]
+}

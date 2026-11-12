@@ -1,0 +1,455 @@
+{
+  "date": "2018-01-06",
+  "data": [
+    {
+      "song": "Rockstar",
+      "artist": "Post Malone Featuring 21 Savage",
+      "this_week": 1,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Perfect",
+      "artist": "Ed Sheeran Duet With Beyonce",
+      "this_week": 2,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Gucci Gang",
+      "artist": "Lil Pump",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 2,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "No Limit",
+      "artist": "G-Eazy Featuring A$AP Rocky & Cardi B",
+      "this_week": 4,
+      "last_week": 7,
+      "peak_position": 4,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Havana",
+      "artist": "Camila Cabello Featuring Young Thug",
+      "this_week": 5,
+      "last_week": 4,
+      "peak_position": 3,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Gummo",
+      "artist": "6ix9ine",
+      "this_week": 6,
+      "last_week": 6,
+      "peak_position": 5,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "MotorSport",
+      "artist": "Migos, Nicki Minaj & Cardi B",
+      "this_week": 7,
+      "last_week": 5,
+      "peak_position": 5,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "All I Want For Christmas Is You",
+      "artist": "Mariah Carey",
+      "this_week": 8,
+      "last_week": 8,
+      "peak_position": 7,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Bodak Yellow (Money Moves)",
+      "artist": "Cardi B",
+      "this_week": 9,
+      "last_week": 9,
+      "peak_position": 1,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "I Fall Apart",
+      "artist": "Post Malone",
+      "this_week": 10,
+      "last_week": 10,
+      "peak_position": 9,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Bartier Cardi",
+      "artist": "Cardi B Featuring 21 Savage",
+      "this_week": 11,
+      "last_week": null,
+      "peak_position": 11,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Bank Account",
+      "artist": "21 Savage",
+      "this_week": 12,
+      "last_week": 16,
+      "peak_position": 3,
+      "weeks_on_chart": 25,
+      "new": false
+    },
+    {
+      "song": "It's The Most Wonderful Time Of The Year",
+      "artist": "Andy Williams",
+      "this_week": 13,
+      "last_week": 19,
+      "peak_position": 13,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Too Good At Goodbyes",
+      "artist": "Sam Smith",
+      "this_week": 14,
+      "last_week": 12,
+      "peak_position": 5,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Love.",
+      "artist": "Kendrick Lamar Featuring Zacari",
+      "this_week": 15,
+      "last_week": null,
+      "peak_position": 10,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Rockin' Around The Christmas Tree",
+      "artist": "Brenda Lee",
+      "this_week": 16,
+      "last_week": 27,
+      "peak_position": 16,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "I Get The Bag",
+      "artist": "Gucci Mane Featuring Migos",
+      "this_week": 17,
+      "last_week": 14,
+      "peak_position": 4,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "The Way Life Goes",
+      "artist": "Lil Uzi Vert Featuring Nicki Minaj",
+      "this_week": 18,
+      "last_week": 13,
+      "peak_position": 12,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "The Weekend",
+      "artist": "SZA",
+      "this_week": 19,
+      "last_week": 24,
+      "peak_position": 19,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "The Christmas Song (Merry Christmas To You)",
+      "artist": "Nat \"King\" Cole",
+      "this_week": 20,
+      "last_week": 31,
+      "peak_position": 20,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Plain Jane",
+      "artist": "A$AP Ferg Featuring Nicki Minaj",
+      "this_week": 21,
+      "last_week": 20,
+      "peak_position": 20,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Him & I",
+      "artist": "G-Eazy & Halsey",
+      "this_week": 22,
+      "last_week": 11,
+      "peak_position": 11,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Young Dumb & Broke",
+      "artist": "Khalid",
+      "this_week": 23,
+      "last_week": 22,
+      "peak_position": 11,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Despacito",
+      "artist": "Luis Fonsi & Daddy Yankee Featuring Justin Bieber",
+      "this_week": 24,
+      "last_week": 29,
+      "peak_position": 1,
+      "weeks_on_chart": 45,
+      "new": false
+    },
+    {
+      "song": "A Holly Jolly Christmas",
+      "artist": "Burl Ives",
+      "this_week": 25,
+      "last_week": 35,
+      "peak_position": 25,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Let You Down",
+      "artist": "NF",
+      "this_week": 26,
+      "last_week": 21,
+      "peak_position": 16,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Thunder",
+      "artist": "Imagine Dragons",
+      "this_week": 27,
+      "last_week": 23,
+      "peak_position": 18,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "New Rules",
+      "artist": "Dua Lipa",
+      "this_week": 28,
+      "last_week": 28,
+      "peak_position": 14,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Bad At Love",
+      "artist": "Halsey",
+      "this_week": 29,
+      "last_week": 26,
+      "peak_position": 26,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Ric Flair Drip",
+      "artist": "Offset & Metro Boomin",
+      "this_week": 30,
+      "last_week": 18,
+      "peak_position": 17,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Rudolph The Red-Nosed Reindeer",
+      "artist": "Gene Autry & The Pinafores",
+      "this_week": 31,
+      "last_week": 50,
+      "peak_position": 31,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Rubbin Off The Paint",
+      "artist": "YBN Nahmir",
+      "this_week": 32,
+      "last_week": 30,
+      "peak_position": 17,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Silence",
+      "artist": "Marshmello Featuring Khalid",
+      "this_week": 33,
+      "last_week": 17,
+      "peak_position": 15,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Roll In Peace",
+      "artist": "Kodak Black Featuring XXXTENTACION",
+      "this_week": 34,
+      "last_week": 32,
+      "peak_position": 23,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Mi Gente",
+      "artist": "J Balvin & Willy William Featuring Beyonce",
+      "this_week": 35,
+      "last_week": 33,
+      "peak_position": 5,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Shape Of You",
+      "artist": "Ed Sheeran",
+      "this_week": 36,
+      "last_week": 36,
+      "peak_position": 1,
+      "weeks_on_chart": 51,
+      "new": false
+    },
+    {
+      "song": "XO TOUR Llif3",
+      "artist": "Lil Uzi Vert",
+      "this_week": 37,
+      "last_week": 37,
+      "peak_position": 2,
+      "weeks_on_chart": 40,
+      "new": false
+    },
+    {
+      "song": "Congratulations",
+      "artist": "Post Malone Featuring Quavo",
+      "this_week": 38,
+      "last_week": 34,
+      "peak_position": 4,
+      "weeks_on_chart": 49,
+      "new": false
+    },
+    {
+      "song": "Feliz Navidad",
+      "artist": "Jose Feliciano",
+      "this_week": 39,
+      "last_week": null,
+      "peak_position": 39,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Believer",
+      "artist": "Imagine Dragons",
+      "this_week": 40,
+      "last_week": 48,
+      "peak_position": 13,
+      "weeks_on_chart": 33,
+      "new": false
+    },
+    {
+      "song": "La Modelo",
+      "artist": "Ozuna x Cardi B",
+      "this_week": 41,
+      "last_week": null,
+      "peak_position": 41,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Kooda",
+      "artist": "6ix9ine",
+      "this_week": 42,
+      "last_week": 25,
+      "peak_position": 20,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Sorry Not Sorry",
+      "artist": "Demi Lovato",
+      "this_week": 43,
+      "last_week": 44,
+      "peak_position": 12,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Last Christmas",
+      "artist": "Wham!",
+      "this_week": 44,
+      "last_week": 49,
+      "peak_position": 22,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Modern Slavery",
+      "artist": "Huncho Jack",
+      "this_week": 45,
+      "last_week": null,
+      "peak_position": 45,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "The Race",
+      "artist": "Tay-K",
+      "this_week": 46,
+      "last_week": 46,
+      "peak_position": 18,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Jingle Bell Rock",
+      "artist": "Bobby Helms",
+      "this_week": 47,
+      "last_week": null,
+      "peak_position": 23,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Candy Paint",
+      "artist": "Post Malone",
+      "this_week": 48,
+      "last_week": 38,
+      "peak_position": 38,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Humble.",
+      "artist": "Kendrick Lamar",
+      "this_week": 49,
+      "last_week": 43,
+      "peak_position": 1,
+      "weeks_on_chart": 39,
+      "new": false
+    },
+    {
+      "song": "Meant To Be",
+      "artist": "Bebe Rexha & Florida Georgia Line",
+      "this_week": 50,
+      "last_week": 40,
+      "peak_position": 39,
+      "weeks_on_chart": 5,
+      "new": false
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "date": "2025-05-31",
+  "data": [
+    {
+      "song": "Miles On It",
+      "artist": "Marshmello & Kane Brown",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 43,
+      "new": false
+    },
+    {
+      "song": "The Days",
+      "artist": "CHRYSTAL",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Passo Bem Solto",
+      "artist": "ATLXS",
+      "this_week": 3,
+      "last_week": 4,
+      "peak_position": 3,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Blessings",
+      "artist": "Calvin Harris Featuring Clementine Douglas",
+      "this_week": 4,
+      "last_week": 3,
+      "peak_position": 3,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Assumptions",
+      "artist": "Sam Gellaitry",
+      "this_week": 5,
+      "last_week": null,
+      "peak_position": 5,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Montagem Tomada",
+      "artist": "MXZI",
+      "this_week": 6,
+      "last_week": 5,
+      "peak_position": 4,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Neverender",
+      "artist": "Justice & Tame Impala",
+      "this_week": 7,
+      "last_week": 7,
+      "peak_position": 5,
+      "weeks_on_chart": 34,
+      "new": false
+    },
+    {
+      "song": "Forever Young",
+      "artist": "David Guetta, Alphaville & Ava Max",
+      "this_week": 8,
+      "last_week": 6,
+      "peak_position": 2,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Move",
+      "artist": "Adam Port & Stryv Featuring Malachiii",
+      "this_week": 9,
+      "last_week": 8,
+      "peak_position": 4,
+      "weeks_on_chart": 37,
+      "new": false
+    },
+    {
+      "song": "Slow Motion",
+      "artist": "Marshmello X Jonas Brothers",
+      "this_week": 10,
+      "last_week": 10,
+      "peak_position": 4,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Heavy Love",
+      "artist": "Odetari",
+      "this_week": 11,
+      "last_week": 9,
+      "peak_position": 7,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "In My Arms",
+      "artist": "Illenium & HAYLA",
+      "this_week": 12,
+      "last_week": null,
+      "peak_position": 12,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Luna Bala",
+      "artist": "Yb Wasg'ood & Ariis",
+      "this_week": 13,
+      "last_week": 12,
+      "peak_position": 12,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Los Voltaje",
+      "artist": "Sayfalse, Yb Wasg'Ood & Ariis",
+      "this_week": 14,
+      "last_week": 18,
+      "peak_position": 14,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Apaga La Luz",
+      "artist": "ROZ & Peso Pluma",
+      "this_week": 15,
+      "last_week": null,
+      "peak_position": 15,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Silence (John Summit Remix)",
+      "artist": "Delerium & Sarah McLachlan",
+      "this_week": 16,
+      "last_week": null,
+      "peak_position": 16,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Let's Ride Away",
+      "artist": "Avicii Featuring Elle King",
+      "this_week": 17,
+      "last_week": null,
+      "peak_position": 17,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Forget Tonight",
+      "artist": "Steve Aoki X Tyler Hubbard",
+      "this_week": 18,
+      "last_week": null,
+      "peak_position": 18,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Cora de Hielo",
+      "artist": "ROZ, Natt Calma & Mau Moctezuma",
+      "this_week": 19,
+      "last_week": 23,
+      "peak_position": 19,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Dreamin'",
+      "artist": "Dom Dolla Featuring Daya",
+      "this_week": 20,
+      "last_week": 13,
+      "peak_position": 5,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Nunca Muda?",
+      "artist": "Scythermane & NXGHT!",
+      "this_week": 21,
+      "last_week": 15,
+      "peak_position": 9,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Focus",
+      "artist": "John Summit Featuring CLOVES",
+      "this_week": 22,
+      "last_week": 14,
+      "peak_position": 5,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "No Room For A Saint",
+      "artist": "Dom Dolla Featuring Nathan Nicholson",
+      "this_week": 23,
+      "last_week": null,
+      "peak_position": 23,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Light Years",
+      "artist": "John Summit Featuring Inez",
+      "this_week": 24,
+      "last_week": 16,
+      "peak_position": 4,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "flashes",
+      "artist": "ROZ & Yng Lvcas",
+      "this_week": 25,
+      "last_week": 21,
+      "peak_position": 10,
+      "weeks_on_chart": 9,
+      "new": false
+    }
+  ]
+}

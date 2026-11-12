@@ -1,0 +1,455 @@
+{
+  "date": "2025-12-20",
+  "data": [
+    {
+      "song": "Se Lo Juro Mor",
+      "artist": "Feid",
+      "this_week": 1,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "I Want It That Way",
+      "artist": "Prince Royce",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Que Me Quiera Ma",
+      "artist": "Marc Anthony x Wisin",
+      "this_week": 3,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Modo Dificil",
+      "artist": "Grupo Firme X Grupo Frontera",
+      "this_week": 4,
+      "last_week": 6,
+      "peak_position": 4,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Lokita Por Mi",
+      "artist": "Romeo Santos & Prince Royce",
+      "this_week": 5,
+      "last_week": null,
+      "peak_position": 5,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Sin Ti",
+      "artist": "Morat & Jay Wheeler",
+      "this_week": 6,
+      "last_week": 18,
+      "peak_position": 6,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Coleccionando Heridas",
+      "artist": "Karol G & Marco Antonio Solis",
+      "this_week": 7,
+      "last_week": 13,
+      "peak_position": 7,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "No Capea",
+      "artist": "Xavi x Grupo Frontera",
+      "this_week": 8,
+      "last_week": 5,
+      "peak_position": 3,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Amor",
+      "artist": "Emmanuel Cortes",
+      "this_week": 9,
+      "last_week": 10,
+      "peak_position": 6,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Seguro Le Dolio",
+      "artist": "Banda MS x Fuerza Regida",
+      "this_week": 10,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "La Maiquina del Tiempo",
+      "artist": "Josi Cuen & Jorge Medina",
+      "this_week": 11,
+      "last_week": 12,
+      "peak_position": 11,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Que Bello",
+      "artist": "Grupo Canaveral de Humberto Pabon & Marisela",
+      "this_week": 12,
+      "last_week": 14,
+      "peak_position": 3,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Rigo Campos",
+      "artist": "Los Tucanes de Tijuana & Chalino Sanchez",
+      "this_week": 13,
+      "last_week": 19,
+      "peak_position": 13,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Bzrp Music Sessions, Vol. 0/66",
+      "artist": "Bizarrap & Daddy Yankee",
+      "this_week": 14,
+      "last_week": 21,
+      "peak_position": 14,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "El Vino de Tu Boca",
+      "artist": "Alejandro Sanz & Carin Leon",
+      "this_week": 15,
+      "last_week": 11,
+      "peak_position": 11,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Besito En La Frente",
+      "artist": "Rauw Alejandro",
+      "this_week": 16,
+      "last_week": 7,
+      "peak_position": 7,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "El Viaje de Mi Vida",
+      "artist": "Enigma Norteno & Los Mentados de Culiacan",
+      "this_week": 17,
+      "last_week": 8,
+      "peak_position": 8,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Eres",
+      "artist": "Joss Favela & Alfredo Olivas",
+      "this_week": 18,
+      "last_week": 15,
+      "peak_position": 15,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Donde",
+      "artist": "Kapo & Ryan Castro",
+      "this_week": 19,
+      "last_week": 17,
+      "peak_position": 17,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "La Loteria",
+      "artist": "El Fantasma",
+      "this_week": 20,
+      "last_week": 9,
+      "peak_position": 3,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Perfumito Nuevo",
+      "artist": "Bad Bunny & RaiNao",
+      "this_week": 21,
+      "last_week": 22,
+      "peak_position": 21,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Dem Bow",
+      "artist": "Natti Natasha & Nando Boom",
+      "this_week": 22,
+      "last_week": 20,
+      "peak_position": 16,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Confidencial",
+      "artist": "Grupo Arriesgado x Oscar Ortiz",
+      "this_week": 23,
+      "last_week": 24,
+      "peak_position": 23,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Monterrey",
+      "artist": "Grupo Frontera",
+      "this_week": 24,
+      "last_week": 35,
+      "peak_position": 24,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Mejor Nadota",
+      "artist": "Banda La Chacaloza de Jerez Zacatecas",
+      "this_week": 25,
+      "last_week": 33,
+      "peak_position": 25,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Verano Rosa",
+      "artist": "Karol G & Feid",
+      "this_week": 26,
+      "last_week": 16,
+      "peak_position": 1,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Mirame Ahora",
+      "artist": "Manuel Turizo",
+      "this_week": 27,
+      "last_week": 25,
+      "peak_position": 23,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Amistad",
+      "artist": "Blessd & Ovy On The Drums",
+      "this_week": 28,
+      "last_week": 29,
+      "peak_position": 28,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Si Sabes Contar",
+      "artist": "Los Angeles Azules, Luck Ra & Yami Safdie",
+      "this_week": 29,
+      "last_week": 42,
+      "peak_position": 29,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Una Noche Contigo",
+      "artist": "La Arrolladora Banda El Limon & Juanes",
+      "this_week": 30,
+      "last_week": 31,
+      "peak_position": 30,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Hips Don't Lie (Spotify Anniversary Version)",
+      "artist": "Shakira, Ed Sheeran & Beele",
+      "this_week": 31,
+      "last_week": 28,
+      "peak_position": 27,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Tengo Celos",
+      "artist": "Myke Towers",
+      "this_week": 32,
+      "last_week": 30,
+      "peak_position": 1,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "PR En Navidad",
+      "artist": "Victor Manuelle",
+      "this_week": 33,
+      "last_week": 36,
+      "peak_position": 33,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "A Medio Vivir",
+      "artist": "Ricky Martin & Carin Leon",
+      "this_week": 34,
+      "last_week": 32,
+      "peak_position": 27,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "El Troquero",
+      "artist": "Los Dos Carnales",
+      "this_week": 35,
+      "last_week": 37,
+      "peak_position": 35,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Solo Tu",
+      "artist": "Banda El Recodo de Cruz Lizarraga",
+      "this_week": 36,
+      "last_week": 45,
+      "peak_position": 36,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Cancion Para Regresar",
+      "artist": "Sebastian Yatra, Lucho RK, Belinda & Gente De Zona",
+      "this_week": 37,
+      "last_week": 44,
+      "peak_position": 37,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Bronceador",
+      "artist": "Maluma",
+      "this_week": 38,
+      "last_week": 26,
+      "peak_position": 1,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "La Perla",
+      "artist": "ROSALIA & Yahritza y Su Esencia",
+      "this_week": 39,
+      "last_week": 49,
+      "peak_position": 39,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Del Signo Libra",
+      "artist": "La Expancion + Keith Nieto",
+      "this_week": 40,
+      "last_week": 43,
+      "peak_position": 40,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "OE OE",
+      "artist": "Farruko & Louis BPM",
+      "this_week": 41,
+      "last_week": 34,
+      "peak_position": 27,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Conmigo Sin Ti",
+      "artist": "Matisse X Cristian Castro",
+      "this_week": 42,
+      "last_week": null,
+      "peak_position": 42,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Ojitos Mentirosos",
+      "artist": "Chino Pacas",
+      "this_week": 43,
+      "last_week": null,
+      "peak_position": 41,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Portate Bonito",
+      "artist": "Anuel AA X Blessd",
+      "this_week": 44,
+      "last_week": 27,
+      "peak_position": 1,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Temporal",
+      "artist": "Tito El Bambino & Farruko",
+      "this_week": 45,
+      "last_week": null,
+      "peak_position": 45,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Dificile",
+      "artist": "Venesti X Mike Bahia",
+      "this_week": 46,
+      "last_week": 40,
+      "peak_position": 1,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Ojitos Mexicanos",
+      "artist": "Thalia",
+      "this_week": 47,
+      "last_week": null,
+      "peak_position": 47,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Corazon",
+      "artist": "Danny Ocean",
+      "this_week": 48,
+      "last_week": 46,
+      "peak_position": 38,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Selfie",
+      "artist": "La Fiera de Ojinaga",
+      "this_week": 49,
+      "last_week": 47,
+      "peak_position": 3,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "No Tengo Mucho",
+      "artist": "Gerardo Diaz y Su Gerarquia",
+      "this_week": 50,
+      "last_week": null,
+      "peak_position": 50,
+      "weeks_on_chart": 1,
+      "new": true
+    }
+  ]
+}

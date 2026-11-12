@@ -1,0 +1,230 @@
+{
+  "date": "2026-08-29",
+  "data": [
+    {
+      "song": "Janice STFU",
+      "artist": "Drake",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Dead Fresh",
+      "artist": "Lil Baby",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Spend Dat",
+      "artist": "Yung Miami",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 2,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Shabang",
+      "artist": "Drake",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 2,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Cinderella",
+      "artist": "Mac Miller Featuring Ty Dolla $ign",
+      "this_week": 5,
+      "last_week": 6,
+      "peak_position": 3,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "AH HA",
+      "artist": "Cardi B",
+      "this_week": 6,
+      "last_week": 5,
+      "peak_position": 3,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Raindance",
+      "artist": "Dave & Tems",
+      "this_week": 7,
+      "last_week": 8,
+      "peak_position": 7,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Ghetto Love Story",
+      "artist": "BabyChiefDoit",
+      "this_week": 8,
+      "last_week": 10,
+      "peak_position": 7,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Reap What You Sow",
+      "artist": "Pooh Shiesty",
+      "this_week": 9,
+      "last_week": 9,
+      "peak_position": 9,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Ran To Atlanta",
+      "artist": "Drake Featuring Future & Molly Santana",
+      "this_week": 10,
+      "last_week": 14,
+      "peak_position": 2,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Last Man Breathin",
+      "artist": "Pooh Shiesty",
+      "this_week": 11,
+      "last_week": 7,
+      "peak_position": 7,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "National Treasures",
+      "artist": "Drake",
+      "this_week": 12,
+      "last_week": 18,
+      "peak_position": 5,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Motion Party",
+      "artist": "BossMan Dlow",
+      "this_week": 13,
+      "last_week": 15,
+      "peak_position": 5,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "2 Hard 4 The Radio",
+      "artist": "Drake",
+      "this_week": 14,
+      "last_week": 12,
+      "peak_position": 6,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Whisper My Name",
+      "artist": "Drake",
+      "this_week": 15,
+      "last_week": 17,
+      "peak_position": 3,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "California Girls",
+      "artist": "Future",
+      "this_week": 16,
+      "last_week": 16,
+      "peak_position": 3,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Ever Since U Left Me (I Went Deaf)",
+      "artist": "French Montana & Max B",
+      "this_week": 17,
+      "last_week": 21,
+      "peak_position": 10,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "I'm Back",
+      "artist": "Pooh Shiesty",
+      "this_week": 18,
+      "last_week": 11,
+      "peak_position": 11,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Freaked Out",
+      "artist": "Fat Papi",
+      "this_week": 19,
+      "last_week": 24,
+      "peak_position": 15,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "500 Horses",
+      "artist": "Nipsey Hussle & Bino Rideaux",
+      "this_week": 20,
+      "last_week": null,
+      "peak_position": 20,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "WTF GOIN",
+      "artist": "Belly Gang Kushington & 21 Savage",
+      "this_week": 21,
+      "last_week": null,
+      "peak_position": 21,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Okayyy",
+      "artist": "Latto Featuring Doja Cat",
+      "this_week": 22,
+      "last_week": null,
+      "peak_position": 18,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Around Me",
+      "artist": "Noodah05",
+      "this_week": 23,
+      "last_week": null,
+      "peak_position": 23,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Federal Reality",
+      "artist": "Pooh Shiesty",
+      "this_week": 24,
+      "last_week": 13,
+      "peak_position": 13,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Pink Blush",
+      "artist": "Dolly Babe Featuring Megan Thee Stallion",
+      "this_week": 25,
+      "last_week": null,
+      "peak_position": 25,
+      "weeks_on_chart": 1,
+      "new": true
+    }
+  ]
+}

@@ -1,0 +1,455 @@
+{
+  "date": "2024-09-21",
+  "data": [
+    {
+      "song": "Miles On It",
+      "artist": "Marshmello & Kane Brown",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "360",
+      "artist": "Charli xcx",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Guess",
+      "artist": "Charli xcx Featuring Billie Eilish",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Apple",
+      "artist": "Charli xcx",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Houdini",
+      "artist": "Dua Lipa",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 1,
+      "weeks_on_chart": 44,
+      "new": false
+    },
+    {
+      "song": "I Don't Wanna Wait",
+      "artist": "David Guetta & OneRepublic",
+      "this_week": 6,
+      "last_week": 6,
+      "peak_position": 4,
+      "weeks_on_chart": 23,
+      "new": false
+    },
+    {
+      "song": "Illusion",
+      "artist": "Dua Lipa",
+      "this_week": 7,
+      "last_week": 7,
+      "peak_position": 1,
+      "weeks_on_chart": 23,
+      "new": false
+    },
+    {
+      "song": "Keep Up",
+      "artist": "Odetari",
+      "this_week": 8,
+      "last_week": 12,
+      "peak_position": 8,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "365",
+      "artist": "Charli xcx Featuring Shygirl",
+      "this_week": 9,
+      "last_week": 8,
+      "peak_position": 8,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Joyride",
+      "artist": "Kesha",
+      "this_week": 10,
+      "last_week": 11,
+      "peak_position": 6,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Move",
+      "artist": "Adam Port & Stryv Featuring Malachiii",
+      "this_week": 11,
+      "last_week": 9,
+      "peak_position": 9,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Stumblin' In",
+      "artist": "CYRIL",
+      "this_week": 12,
+      "last_week": 14,
+      "peak_position": 11,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Girl, So Confusing",
+      "artist": "Charli xcx With Lorde",
+      "this_week": 13,
+      "last_week": 13,
+      "peak_position": 3,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Bulletproof",
+      "artist": "La Roux",
+      "this_week": 14,
+      "last_week": 15,
+      "peak_position": 10,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "I Like It",
+      "artist": "Alesso & Nate Smith",
+      "this_week": 15,
+      "last_week": 16,
+      "peak_position": 14,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Talk Talk",
+      "artist": "Charli xcx Featuring Troye Sivan",
+      "this_week": 16,
+      "last_week": 25,
+      "peak_position": 5,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Just Stand There",
+      "artist": "Fred again.. & SOAK",
+      "this_week": 17,
+      "last_week": null,
+      "peak_position": 17,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Black Friday (Pretty Like The Sun)",
+      "artist": "Lost Frequencies & Tom Odell",
+      "this_week": 18,
+      "last_week": 17,
+      "peak_position": 17,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Places To Be",
+      "artist": "Fred again.., Anderson . Paak & CHIKA",
+      "this_week": 19,
+      "last_week": 41,
+      "peak_position": 10,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Addicted",
+      "artist": "ZERB, The Chainsmokers & Ink",
+      "this_week": 20,
+      "last_week": 18,
+      "peak_position": 10,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Let's Go Back",
+      "artist": "Jungle",
+      "this_week": 21,
+      "last_week": null,
+      "peak_position": 21,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Adore U",
+      "artist": "Fred again..",
+      "this_week": 22,
+      "last_week": null,
+      "peak_position": 16,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Ten",
+      "artist": "Fred again.. & Jozzy",
+      "this_week": 23,
+      "last_week": null,
+      "peak_position": 17,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Don't Lie",
+      "artist": "The Chainsmokers & Kim Petras",
+      "this_week": 24,
+      "last_week": null,
+      "peak_position": 24,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "X-Slide",
+      "artist": "2KE & 808iuli",
+      "this_week": 25,
+      "last_week": 22,
+      "peak_position": 22,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Club Classics",
+      "artist": "Charli xcx Featuring Bb trickz",
+      "this_week": 26,
+      "last_week": 21,
+      "peak_position": 11,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Glow",
+      "artist": "Fred again.., Duskus, Four Tet & Skrillex",
+      "this_week": 27,
+      "last_week": null,
+      "peak_position": 27,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Sympathy Is A Knife",
+      "artist": "Charli xcx Featuring Ariana Grande",
+      "this_week": 28,
+      "last_week": 20,
+      "peak_position": 10,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Fear Less",
+      "artist": "Fred again.. & Sampha",
+      "this_week": 29,
+      "last_week": null,
+      "peak_position": 29,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "I Only Smoke When I Drink",
+      "artist": "nimino",
+      "this_week": 30,
+      "last_week": 27,
+      "peak_position": 27,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Never Going Home Tonight",
+      "artist": "David Guetta & Alesso Featuring Madison Love",
+      "this_week": 31,
+      "last_week": null,
+      "peak_position": 31,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "I Adore You",
+      "artist": "HUGEL X Topic X Arash Featuring Daecolm",
+      "this_week": 32,
+      "last_week": 29,
+      "peak_position": 29,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Go Back",
+      "artist": "John Summit, Sub Focus & Julia Church",
+      "this_week": 33,
+      "last_week": 24,
+      "peak_position": 12,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Thick Of It All",
+      "artist": "Alan Walker, Joe Jonas & Julia Michaels",
+      "this_week": 34,
+      "last_week": null,
+      "peak_position": 34,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Under Your Spell",
+      "artist": "Snow Strippers",
+      "this_week": 35,
+      "last_week": 38,
+      "peak_position": 35,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "B2B",
+      "artist": "Charli xcx Featuring Tinashe",
+      "this_week": 36,
+      "last_week": 28,
+      "peak_position": 19,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Peace U Need",
+      "artist": "Fred again.. & Joy Anonymous",
+      "this_week": 37,
+      "last_week": null,
+      "peak_position": 37,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Love Potions",
+      "artist": "BJ Lips & princess paparazzi",
+      "this_week": 38,
+      "last_week": 33,
+      "peak_position": 33,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Sideways",
+      "artist": "Gordo & Drake",
+      "this_week": 39,
+      "last_week": 30,
+      "peak_position": 7,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Backseat",
+      "artist": "Fred again.., The Japanese House & Scott Hardkiss",
+      "this_week": 40,
+      "last_week": null,
+      "peak_position": 40,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Glory",
+      "artist": "Ogryzek",
+      "this_week": 41,
+      "last_week": 42,
+      "peak_position": 41,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Gas Pedal",
+      "artist": "John Summit, Subtronics & Tape B Featuring Sage The Gemni",
+      "this_week": 42,
+      "last_week": 19,
+      "peak_position": 19,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "My Oh My",
+      "artist": "Ava Max",
+      "this_week": 43,
+      "last_week": 40,
+      "peak_position": 13,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Aura",
+      "artist": "Ogryzek",
+      "this_week": 44,
+      "last_week": 47,
+      "peak_position": 44,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Finally",
+      "artist": "Swedish House Mafia & Alicia Keys",
+      "this_week": 45,
+      "last_week": 26,
+      "peak_position": 26,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Everything Is Romantic",
+      "artist": "Charli xcx Featuring Caroline Polachek",
+      "this_week": 46,
+      "last_week": 34,
+      "peak_position": 14,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Girl$",
+      "artist": "Dom Dolla",
+      "this_week": 47,
+      "last_week": 35,
+      "peak_position": 23,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Lobster",
+      "artist": "RJ Pasin",
+      "this_week": 48,
+      "last_week": 45,
+      "peak_position": 45,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Teka",
+      "artist": "DJ Snake & Peso Pluma",
+      "this_week": 49,
+      "last_week": 32,
+      "peak_position": 11,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "wutiwant",
+      "artist": "saraunh0ly",
+      "this_week": 50,
+      "last_week": 39,
+      "peak_position": 39,
+      "weeks_on_chart": 3,
+      "new": false
+    }
+  ]
+}

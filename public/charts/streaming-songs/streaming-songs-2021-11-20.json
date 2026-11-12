@@ -1,0 +1,455 @@
+{
+  "date": "2021-11-20",
+  "data": [
+    {
+      "song": "Easy On Me",
+      "artist": "Adele",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "No Love",
+      "artist": "Summer Walker & SZA",
+      "this_week": 2,
+      "last_week": null,
+      "peak_position": 2,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Smokin Out The Window",
+      "artist": "Silk Sonic (Bruno Mars & Anderson .Paak)",
+      "this_week": 3,
+      "last_week": null,
+      "peak_position": 3,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Escape Plan",
+      "artist": "Travis Scott",
+      "this_week": 4,
+      "last_week": null,
+      "peak_position": 4,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "One Right Now",
+      "artist": "Post Malone & The Weeknd",
+      "this_week": 5,
+      "last_week": null,
+      "peak_position": 5,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Industry Baby",
+      "artist": "Lil Nas X & Jack Harlow",
+      "this_week": 6,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Stay",
+      "artist": "The Kid Laroi & Justin Bieber",
+      "this_week": 7,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Knife Talk",
+      "artist": "Drake Featuring 21 Savage & Project Pat",
+      "this_week": 8,
+      "last_week": 7,
+      "peak_position": 2,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Bitter",
+      "artist": "Summer Walker & Cardi B",
+      "this_week": 9,
+      "last_week": null,
+      "peak_position": 9,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Heat Waves",
+      "artist": "Glass Animals",
+      "this_week": 10,
+      "last_week": 5,
+      "peak_position": 5,
+      "weeks_on_chart": 33,
+      "new": false
+    },
+    {
+      "song": "Shivers",
+      "artist": "Ed Sheeran",
+      "this_week": 11,
+      "last_week": 6,
+      "peak_position": 6,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Mafia",
+      "artist": "Travis Scott",
+      "this_week": 12,
+      "last_week": null,
+      "peak_position": 12,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Way 2 Sexy",
+      "artist": "Drake Featuring Future & Young Thug",
+      "this_week": 13,
+      "last_week": 4,
+      "peak_position": 1,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Fancy Like",
+      "artist": "Walker Hayes",
+      "this_week": 14,
+      "last_week": 9,
+      "peak_position": 5,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Who Want Smoke??",
+      "artist": "Nardo Wick Featuring G Herbo, Lil Durk & 21 Savage",
+      "this_week": 15,
+      "last_week": 8,
+      "peak_position": 6,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Throw It Away",
+      "artist": "Summer Walker",
+      "this_week": 16,
+      "last_week": null,
+      "peak_position": 16,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Reciprocate",
+      "artist": "Summer Walker",
+      "this_week": 17,
+      "last_week": null,
+      "peak_position": 17,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Ex For A Reason",
+      "artist": "Summer Walker & JT",
+      "this_week": 18,
+      "last_week": null,
+      "peak_position": 18,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Toxic",
+      "artist": "Summer Walker Featuring Lil Durk",
+      "this_week": 19,
+      "last_week": null,
+      "peak_position": 19,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Bad Habits",
+      "artist": "Ed Sheeran",
+      "this_week": 20,
+      "last_week": 10,
+      "peak_position": 4,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Unloyal",
+      "artist": "Summer Walker & Ari Lennox",
+      "this_week": 21,
+      "last_week": null,
+      "peak_position": 21,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Need To Know",
+      "artist": "Doja Cat",
+      "this_week": 22,
+      "last_week": 12,
+      "peak_position": 3,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "You Don't Know Me",
+      "artist": "Summer Walker",
+      "this_week": 23,
+      "last_week": null,
+      "peak_position": 23,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Meet Me At Our Spot",
+      "artist": "THE ANXIETY: WILLOW & Tyler Cole",
+      "this_week": 24,
+      "last_week": 13,
+      "peak_position": 11,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Constant Bulls**t",
+      "artist": "Summer Walker",
+      "this_week": 25,
+      "last_week": null,
+      "peak_position": 25,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Happier Than Ever",
+      "artist": "Billie Eilish",
+      "this_week": 26,
+      "last_week": 15,
+      "peak_position": 3,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Better Days",
+      "artist": "NEIKED X Mae Muller X Polo G",
+      "this_week": 27,
+      "last_week": 14,
+      "peak_position": 13,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Insane",
+      "artist": "Summer Walker",
+      "this_week": 28,
+      "last_week": null,
+      "peak_position": 28,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Love Nwantiti (Ah Ah Ah)",
+      "artist": "CKay",
+      "this_week": 29,
+      "last_week": 16,
+      "peak_position": 9,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Circus",
+      "artist": "Summer Walker",
+      "this_week": 30,
+      "last_week": null,
+      "peak_position": 30,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Cold Heart (PNAU Remix)",
+      "artist": "Elton John & Dua Lipa",
+      "this_week": 31,
+      "last_week": 23,
+      "peak_position": 22,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "4th Baby Mama",
+      "artist": "Summer Walker",
+      "this_week": 32,
+      "last_week": null,
+      "peak_position": 32,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Switch A N*gga Out",
+      "artist": "Summer Walker",
+      "this_week": 33,
+      "last_week": null,
+      "peak_position": 33,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Closure",
+      "artist": "Summer Walker",
+      "this_week": 34,
+      "last_week": null,
+      "peak_position": 34,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Levitating",
+      "artist": "Dua Lipa",
+      "this_week": 35,
+      "last_week": 19,
+      "peak_position": 3,
+      "weeks_on_chart": 50,
+      "new": false
+    },
+    {
+      "song": "Good 4 U",
+      "artist": "Olivia Rodrigo",
+      "this_week": 36,
+      "last_week": 20,
+      "peak_position": 1,
+      "weeks_on_chart": 26,
+      "new": false
+    },
+    {
+      "song": "Kiss Me More",
+      "artist": "Doja Cat Featuring SZA",
+      "this_week": 37,
+      "last_week": 18,
+      "peak_position": 2,
+      "weeks_on_chart": 31,
+      "new": false
+    },
+    {
+      "song": "Save Your Tears",
+      "artist": "The Weeknd & Ariana Grande",
+      "this_week": 38,
+      "last_week": 28,
+      "peak_position": 2,
+      "weeks_on_chart": 45,
+      "new": false
+    },
+    {
+      "song": "Buy Dirt",
+      "artist": "Jordan Davis Featuring Luke Bryan",
+      "this_week": 39,
+      "last_week": 27,
+      "peak_position": 27,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Pepas",
+      "artist": "Farruko",
+      "this_week": 40,
+      "last_week": 22,
+      "peak_position": 12,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "If I Didn't Love You",
+      "artist": "Jason Aldean & Carrie Underwood",
+      "this_week": 41,
+      "last_week": 29,
+      "peak_position": 24,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "You Right",
+      "artist": "Doja Cat & The Weeknd",
+      "this_week": 42,
+      "last_week": 30,
+      "peak_position": 4,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Chasing After You",
+      "artist": "Ryan Hurd With Maren Morris",
+      "this_week": 43,
+      "last_week": 31,
+      "peak_position": 22,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "All I Want For Christmas Is You",
+      "artist": "Mariah Carey",
+      "this_week": 44,
+      "last_week": null,
+      "peak_position": 1,
+      "weeks_on_chart": 40,
+      "new": false
+    },
+    {
+      "song": "Girls Want Girls",
+      "artist": "Drake Featuring Lil Baby",
+      "this_week": 45,
+      "last_week": 24,
+      "peak_position": 2,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Session 33",
+      "artist": "Summer Walker",
+      "this_week": 46,
+      "last_week": null,
+      "peak_position": 46,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Essence",
+      "artist": "Wizkid Featuring Tems",
+      "this_week": 47,
+      "last_week": 33,
+      "peak_position": 11,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Screwin",
+      "artist": "Summer Walker & Omarion",
+      "this_week": 48,
+      "last_week": null,
+      "peak_position": 48,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "You Should Probably Leave",
+      "artist": "Chris Stapleton",
+      "this_week": 49,
+      "last_week": 44,
+      "peak_position": 39,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Blinding Lights",
+      "artist": "The Weeknd",
+      "this_week": 50,
+      "last_week": 25,
+      "peak_position": 1,
+      "weeks_on_chart": 94,
+      "new": false
+    }
+  ]
+}

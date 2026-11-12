@@ -1,0 +1,455 @@
+{
+  "date": "2025-09-20",
+  "data": [
+    {
+      "song": "Golden",
+      "artist": "HUNTR/X: EJAE, Audrey Nuna & REI AMI",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Ordinary",
+      "artist": "Alex Warren",
+      "this_week": 2,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 28,
+      "new": false
+    },
+    {
+      "song": "Your Idol",
+      "artist": "Saja Boys: Andrew Choi, Neckwav, Danny Chung, Kevin Woo & samUIL Lee",
+      "this_week": 3,
+      "last_week": 4,
+      "peak_position": 3,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Soda Pop",
+      "artist": "Saja Boys: Andrew Choi, Neckwav, Danny Chung, Kevin Woo & samUIL Lee",
+      "this_week": 4,
+      "last_week": 6,
+      "peak_position": 4,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "How It's Done",
+      "artist": "HUNTR/X: EJAE, Audrey Nuna & REI AMI",
+      "this_week": 5,
+      "last_week": 7,
+      "peak_position": 5,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Tears",
+      "artist": "Sabrina Carpenter",
+      "this_week": 6,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "What It Sounds Like",
+      "artist": "HUNTR/X: EJAE, Audrey Nuna & REI AMI",
+      "this_week": 7,
+      "last_week": 12,
+      "peak_position": 7,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Takedown",
+      "artist": "HUNTR/X: EJAE, Audrey Nuna & REI AMI",
+      "this_week": 8,
+      "last_week": 18,
+      "peak_position": 8,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "What I Want",
+      "artist": "Morgan Wallen Featuring Tate McRae",
+      "this_week": 9,
+      "last_week": 14,
+      "peak_position": 1,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Manchild",
+      "artist": "Sabrina Carpenter",
+      "this_week": 10,
+      "last_week": 5,
+      "peak_position": 1,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Free",
+      "artist": "Rumi & JINU: EJAE & Andrew Choi",
+      "this_week": 11,
+      "last_week": 19,
+      "peak_position": 8,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "I Got Better",
+      "artist": "Morgan Wallen",
+      "this_week": 12,
+      "last_week": 21,
+      "peak_position": 4,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Nobody's Son",
+      "artist": "Sabrina Carpenter",
+      "this_week": 13,
+      "last_week": 8,
+      "peak_position": 8,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "When Did You Get Hot?",
+      "artist": "Sabrina Carpenter",
+      "this_week": 14,
+      "last_week": 10,
+      "peak_position": 10,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Back To Friends",
+      "artist": "sombr",
+      "this_week": 15,
+      "last_week": 27,
+      "peak_position": 15,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Somebody Loves Me",
+      "artist": "PARTYNEXTDOOR, Drake & Cash Cobain",
+      "this_week": 16,
+      "last_week": null,
+      "peak_position": 16,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Lose Control",
+      "artist": "Teddy Swims",
+      "this_week": 17,
+      "last_week": 25,
+      "peak_position": 3,
+      "weeks_on_chart": 93,
+      "new": false
+    },
+    {
+      "song": "I'm The Problem",
+      "artist": "Morgan Wallen",
+      "this_week": 18,
+      "last_week": 23,
+      "peak_position": 1,
+      "weeks_on_chart": 32,
+      "new": false
+    },
+    {
+      "song": "Daisies",
+      "artist": "Justin Bieber",
+      "this_week": 19,
+      "last_week": 26,
+      "peak_position": 1,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Just In Case",
+      "artist": "Morgan Wallen",
+      "this_week": 20,
+      "last_week": 22,
+      "peak_position": 2,
+      "weeks_on_chart": 25,
+      "new": false
+    },
+    {
+      "song": "House Tour",
+      "artist": "Sabrina Carpenter",
+      "this_week": 21,
+      "last_week": 15,
+      "peak_position": 15,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Man I Need",
+      "artist": "Olivia Dean",
+      "this_week": 22,
+      "last_week": 43,
+      "peak_position": 22,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Beautiful Things",
+      "artist": "Benson Boone",
+      "this_week": 23,
+      "last_week": 30,
+      "peak_position": 1,
+      "weeks_on_chart": 85,
+      "new": false
+    },
+    {
+      "song": "Love Me Not",
+      "artist": "Ravyn Lenae",
+      "this_week": 24,
+      "last_week": 29,
+      "peak_position": 10,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "All The Way",
+      "artist": "BigXthaPlug Featuring Bailey Zimmerman",
+      "this_week": 25,
+      "last_week": 28,
+      "peak_position": 1,
+      "weeks_on_chart": 23,
+      "new": false
+    },
+    {
+      "song": "Go Go Juice",
+      "artist": "Sabrina Carpenter",
+      "this_week": 26,
+      "last_week": 13,
+      "peak_position": 13,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "No One Noticed",
+      "artist": "The Marias",
+      "this_week": 27,
+      "last_week": 35,
+      "peak_position": 11,
+      "weeks_on_chart": 38,
+      "new": false
+    },
+    {
+      "song": "My Man On Willpower",
+      "artist": "Sabrina Carpenter",
+      "this_week": 28,
+      "last_week": 9,
+      "peak_position": 9,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Undressed",
+      "artist": "sombr",
+      "this_week": 29,
+      "last_week": 41,
+      "peak_position": 20,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "A Bar Song (Tipsy)",
+      "artist": "Shaboozey",
+      "this_week": 30,
+      "last_week": 31,
+      "peak_position": 1,
+      "weeks_on_chart": 73,
+      "new": false
+    },
+    {
+      "song": "Sugar Talking",
+      "artist": "Sabrina Carpenter",
+      "this_week": 31,
+      "last_week": 11,
+      "peak_position": 11,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Yukon",
+      "artist": "Justin Bieber",
+      "this_week": 32,
+      "last_week": 36,
+      "peak_position": 7,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Folded",
+      "artist": "Kehlani",
+      "this_week": 33,
+      "last_week": 40,
+      "peak_position": 25,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Goodbye",
+      "artist": "Sabrina Carpenter",
+      "this_week": 34,
+      "last_week": 20,
+      "peak_position": 20,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "I Had Some Help",
+      "artist": "Post Malone Featuring Morgan Wallen",
+      "this_week": 35,
+      "last_week": 32,
+      "peak_position": 1,
+      "weeks_on_chart": 69,
+      "new": false
+    },
+    {
+      "song": "Die With A Smile",
+      "artist": "Lady Gaga & Bruno Mars",
+      "this_week": 36,
+      "last_week": 42,
+      "peak_position": 1,
+      "weeks_on_chart": 56,
+      "new": false
+    },
+    {
+      "song": "12 To 12",
+      "artist": "sombr",
+      "this_week": 37,
+      "last_week": null,
+      "peak_position": 37,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Never Getting Laid",
+      "artist": "Sabrina Carpenter",
+      "this_week": 38,
+      "last_week": 16,
+      "peak_position": 16,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "The Dead Dance",
+      "artist": "Lady Gaga",
+      "this_week": 39,
+      "last_week": null,
+      "peak_position": 39,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Pink Pony Club",
+      "artist": "Chappell Roan",
+      "this_week": 40,
+      "last_week": 37,
+      "peak_position": 6,
+      "weeks_on_chart": 51,
+      "new": false
+    },
+    {
+      "song": "Birds Of A Feather",
+      "artist": "Billie Eilish",
+      "this_week": 41,
+      "last_week": 49,
+      "peak_position": 2,
+      "weeks_on_chart": 69,
+      "new": false
+    },
+    {
+      "song": "Sugar On My Tongue",
+      "artist": "Tyler, The Creator",
+      "this_week": 42,
+      "last_week": 48,
+      "peak_position": 21,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Dreams",
+      "artist": "Fleetwood Mac",
+      "this_week": 43,
+      "last_week": 33,
+      "peak_position": 6,
+      "weeks_on_chart": 34,
+      "new": false
+    },
+    {
+      "song": "No Broke Boys",
+      "artist": "Disco Lines & Tinashe",
+      "this_week": 44,
+      "last_week": 47,
+      "peak_position": 39,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Hell At Night",
+      "artist": "BigXthaPlug Featuring Ella Langley",
+      "this_week": 45,
+      "last_week": 34,
+      "peak_position": 17,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Iris",
+      "artist": "Goo Goo Dolls",
+      "this_week": 46,
+      "last_week": 44,
+      "peak_position": 39,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Something In The Orange",
+      "artist": "Zach Bryan",
+      "this_week": 47,
+      "last_week": null,
+      "peak_position": 3,
+      "weeks_on_chart": 148,
+      "new": false
+    },
+    {
+      "song": "Mutt",
+      "artist": "Leon Thomas",
+      "this_week": 48,
+      "last_week": null,
+      "peak_position": 13,
+      "weeks_on_chart": 23,
+      "new": false
+    },
+    {
+      "song": "It Depends",
+      "artist": "Chris Brown Featuring Bryson Tiller",
+      "this_week": 49,
+      "last_week": 38,
+      "peak_position": 19,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Takedown",
+      "artist": "JEONGYEON, JIHYO & CHAEYOUNG Of TWICE",
+      "this_week": 50,
+      "last_week": 46,
+      "peak_position": 37,
+      "weeks_on_chart": 4,
+      "new": false
+    }
+  ]
+}

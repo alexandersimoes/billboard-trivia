@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { supabase } from '@/lib/supabaseClient';
-import type { User } from '@supabase/supabase-js';
+import { chartById } from '@/lib/charts';
 
 interface Track {
   song: string;
@@ -42,6 +42,7 @@ export function useGameTracking() {
       decadeStart?: number | null;
     }
   ): Promise<string | null> => {
+    currentRoundId.current = null;
     if (!currentUserId) return null;
 
     try {
@@ -69,11 +70,21 @@ export function useGameTracking() {
         }
       }
 
-      const { data, error } = await supabase
+      let { data, error } = await supabase
         .from('game_rounds')
         .insert(insertData)
         .select()
         .single();
+
+      // Until migrations/add_new_chart_genres.sql has been run, the genre check
+      // constraint rejects the newer charts. Save the round as 'other' rather than lose it.
+      if (error?.code === '23514' && insertData.genre !== 'other') {
+        ({ data, error } = await supabase
+          .from('game_rounds')
+          .insert({ ...insertData, genre: 'other' })
+          .select()
+          .single());
+      }
 
       if (error) throw error;
       currentRoundId.current = data.id;
@@ -139,7 +150,7 @@ export function useGameTracking() {
       const roundId = currentRoundId.current;
 
       // Update game round
-      await supabase
+      const { error } = await supabase
         .from('game_rounds')
         .update({
           ended_at: new Date().toISOString(),
@@ -148,11 +159,12 @@ export function useGameTracking() {
           result,
         })
         .eq('id', roundId);
+      if (error) throw error;
 
       // Update user stats
       await updateUserStats(totalPoints, result);
 
-      currentRoundId.current = null;
+      if (currentRoundId.current === roundId) currentRoundId.current = null;
       return roundId;
     } catch (error) {
       console.error('Error ending game round:', error);
@@ -203,19 +215,8 @@ export function useGameTracking() {
     }
   };
 
-  // Map chart type to genre
-  const mapGenre = (chartType: string): string => {
-    const genreMap: Record<string, string> = {
-      'hot-100': 'pop',
-      'country': 'country',
-      'rnb': 'rnb',
-      'rap': 'rap',
-      'alternative': 'alternative',
-      'rock': 'rock',
-      'latin': 'latin',
-    };
-    return genreMap[chartType] || 'other';
-  };
+  // Map the app's chart id to the genre stored on game_rounds
+  const mapGenre = (chartId: string): string => chartById(chartId).genre;
 
   return {
     startGameRound,

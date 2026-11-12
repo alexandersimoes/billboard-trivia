@@ -1,0 +1,455 @@
+{
+  "date": "2026-06-27",
+  "data": [
+    {
+      "song": "Stupid Song",
+      "artist": "Olivia Rodrigo",
+      "this_week": 1,
+      "last_week": null,
+      "peak_position": 1,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Choosin' Texas",
+      "artist": "Ella Langley",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 35,
+      "new": false
+    },
+    {
+      "song": "The Cure",
+      "artist": "Olivia Rodrigo",
+      "this_week": 3,
+      "last_week": 9,
+      "peak_position": 3,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Drop Dead",
+      "artist": "Olivia Rodrigo",
+      "this_week": 4,
+      "last_week": 18,
+      "peak_position": 1,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Honeybee",
+      "artist": "Olivia Rodrigo",
+      "this_week": 5,
+      "last_week": null,
+      "peak_position": 5,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Janice STFU",
+      "artist": "Drake",
+      "this_week": 6,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "I Knew It, I Knew You",
+      "artist": "Taylor Swift",
+      "this_week": 7,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Maggots For Brains",
+      "artist": "Olivia Rodrigo",
+      "this_week": 8,
+      "last_week": null,
+      "peak_position": 8,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Hate That I Made You Love Me",
+      "artist": "Ariana Grande",
+      "this_week": 9,
+      "last_week": 4,
+      "peak_position": 3,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Be Her",
+      "artist": "Ella Langley",
+      "this_week": 10,
+      "last_week": 5,
+      "peak_position": 2,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "My Way",
+      "artist": "Olivia Rodrigo",
+      "this_week": 11,
+      "last_week": null,
+      "peak_position": 11,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Begged",
+      "artist": "Olivia Rodrigo",
+      "this_week": 12,
+      "last_week": null,
+      "peak_position": 12,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "What's Wrong With Me",
+      "artist": "Olivia Rodrigo & Robert Smith",
+      "this_week": 13,
+      "last_week": null,
+      "peak_position": 13,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "u + me = <3",
+      "artist": "Olivia Rodrigo",
+      "this_week": 14,
+      "last_week": null,
+      "peak_position": 14,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Expectations",
+      "artist": "Olivia Rodrigo & Chappell Roan",
+      "this_week": 15,
+      "last_week": null,
+      "peak_position": 15,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Less",
+      "artist": "Olivia Rodrigo",
+      "this_week": 16,
+      "last_week": null,
+      "peak_position": 16,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Purple",
+      "artist": "Olivia Rodrigo",
+      "this_week": 17,
+      "last_week": null,
+      "peak_position": 17,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "I Can't Love You Anymore",
+      "artist": "Ella Langley & Morgan Wallen",
+      "this_week": 18,
+      "last_week": 7,
+      "peak_position": 3,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Boston",
+      "artist": "Stella Lefty",
+      "this_week": 19,
+      "last_week": 8,
+      "peak_position": 8,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Cigarette Smoke",
+      "artist": "Olivia Rodrigo",
+      "this_week": 20,
+      "last_week": null,
+      "peak_position": 20,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Shabang",
+      "artist": "Drake",
+      "this_week": 21,
+      "last_week": 6,
+      "peak_position": 3,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Billie Jean",
+      "artist": "Michael Jackson",
+      "this_week": 22,
+      "last_week": 10,
+      "peak_position": 2,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Earrings",
+      "artist": "Malcolm Todd",
+      "this_week": 23,
+      "last_week": 12,
+      "peak_position": 10,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Cinderella",
+      "artist": "Mac Miller Featuring Ty Dolla $ign",
+      "this_week": 24,
+      "last_week": 19,
+      "peak_position": 19,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Man I Need",
+      "artist": "Olivia Dean",
+      "this_week": 25,
+      "last_week": 14,
+      "peak_position": 3,
+      "weeks_on_chart": 41,
+      "new": false
+    },
+    {
+      "song": "Ordinary",
+      "artist": "Alex Warren",
+      "this_week": 26,
+      "last_week": 17,
+      "peak_position": 1,
+      "weeks_on_chart": 67,
+      "new": false
+    },
+    {
+      "song": "Chicago",
+      "artist": "Michael Jackson",
+      "this_week": 27,
+      "last_week": 16,
+      "peak_position": 16,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Ran To Atlanta",
+      "artist": "Drake Featuring Future & Molly Santana",
+      "this_week": 28,
+      "last_week": 11,
+      "peak_position": 2,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Iconic By Mistake",
+      "artist": "Le Sserafim, ILLIT & KATSEYE",
+      "this_week": 29,
+      "last_week": null,
+      "peak_position": 29,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Dracula",
+      "artist": "Tame Impala & JENNIE",
+      "this_week": 30,
+      "last_week": 20,
+      "peak_position": 6,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Whisper My Name",
+      "artist": "Drake",
+      "this_week": 31,
+      "last_week": 13,
+      "peak_position": 3,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "I Got Better",
+      "artist": "Morgan Wallen",
+      "this_week": 32,
+      "last_week": 24,
+      "peak_position": 4,
+      "weeks_on_chart": 55,
+      "new": false
+    },
+    {
+      "song": "Beat It",
+      "artist": "Michael Jackson",
+      "this_week": 33,
+      "last_week": 22,
+      "peak_position": 15,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Weren't For The Wind",
+      "artist": "Ella Langley",
+      "this_week": 34,
+      "last_week": 21,
+      "peak_position": 20,
+      "weeks_on_chart": 37,
+      "new": false
+    },
+    {
+      "song": "Loving Life Again",
+      "artist": "Ella Langley",
+      "this_week": 35,
+      "last_week": 23,
+      "peak_position": 6,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Babydoll",
+      "artist": "Dominic Fike",
+      "this_week": 36,
+      "last_week": 25,
+      "peak_position": 4,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "I'm The Problem",
+      "artist": "Morgan Wallen",
+      "this_week": 37,
+      "last_week": 26,
+      "peak_position": 1,
+      "weeks_on_chart": 68,
+      "new": false
+    },
+    {
+      "song": "National Treasures",
+      "artist": "Drake",
+      "this_week": 38,
+      "last_week": 15,
+      "peak_position": 5,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Dreams",
+      "artist": "Fleetwood Mac",
+      "this_week": 39,
+      "last_week": 27,
+      "peak_position": 6,
+      "weeks_on_chart": 69,
+      "new": false
+    },
+    {
+      "song": "Mr. Brightside",
+      "artist": "The Killers",
+      "this_week": 40,
+      "last_week": 28,
+      "peak_position": 26,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Human Nature",
+      "artist": "Michael Jackson",
+      "this_week": 41,
+      "last_week": 29,
+      "peak_position": 9,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Golden",
+      "artist": "HUNTR/X: EJAE, Audrey Nuna & REI AMI",
+      "this_week": 42,
+      "last_week": 31,
+      "peak_position": 1,
+      "weeks_on_chart": 50,
+      "new": false
+    },
+    {
+      "song": "Spend Dat",
+      "artist": "Yung Miami",
+      "this_week": 43,
+      "last_week": 43,
+      "peak_position": 43,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "So Easy (To Fall In Love)",
+      "artist": "Olivia Dean",
+      "this_week": 44,
+      "last_week": 32,
+      "peak_position": 9,
+      "weeks_on_chart": 33,
+      "new": false
+    },
+    {
+      "song": "Daisies",
+      "artist": "Justin Bieber",
+      "this_week": 45,
+      "last_week": 36,
+      "peak_position": 1,
+      "weeks_on_chart": 25,
+      "new": false
+    },
+    {
+      "song": "E85",
+      "artist": "Don Toliver",
+      "this_week": 46,
+      "last_week": 34,
+      "peak_position": 7,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Freakin' Out",
+      "artist": "Dexter And The Moonrocks",
+      "this_week": 47,
+      "last_week": 38,
+      "peak_position": 23,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Stateside",
+      "artist": "PinkPantheress With Zara Larsson",
+      "this_week": 48,
+      "last_week": 35,
+      "peak_position": 2,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "I Had Some Help",
+      "artist": "Post Malone Featuring Morgan Wallen",
+      "this_week": 49,
+      "last_week": 41,
+      "peak_position": 1,
+      "weeks_on_chart": 92,
+      "new": false
+    },
+    {
+      "song": "Be By You",
+      "artist": "Luke Combs",
+      "this_week": 50,
+      "last_week": 42,
+      "peak_position": 5,
+      "weeks_on_chart": 17,
+      "new": false
+    }
+  ]
+}

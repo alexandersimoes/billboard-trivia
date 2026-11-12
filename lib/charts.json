@@ -1,0 +1,13 @@
+[
+  { "id": "hot-100", "slug": "hot-100", "source": "billboard", "genre": "pop", "name": "Pop", "label": "Billboard Hot 100", "blurb": "The all-genre hit parade", "since": "1958-08-04", "theme": "parlor" },
+  { "id": "streaming", "slug": "streaming-songs", "source": "billboard", "genre": "streaming", "name": "Streaming", "label": "Billboard Streaming Songs", "blurb": "Most-streamed songs in the U.S.", "since": "2013-01-19", "theme": "velvet" },
+  { "id": "spotify", "slug": "spotify-global", "source": "spotify", "genre": "spotify", "name": "Spotify", "label": "Spotify Weekly Top Songs: Global", "blurb": "What the whole world has on repeat", "since": "2016-12-29", "theme": "evergreen" },
+  { "id": "global", "slug": "billboard-global-200", "source": "billboard", "genre": "global", "name": "Global", "label": "Billboard Global 200", "blurb": "Hits from 200+ territories", "since": "2020-09-19", "theme": "harbor" },
+  { "id": "rock", "slug": "hot-mainstream-rock-tracks", "source": "billboard", "genre": "rock", "name": "Rock", "label": "Mainstream Rock Airplay", "blurb": "Loud guitars, big choruses", "since": "1981-03-21", "theme": "garage" },
+  { "id": "alternative", "slug": "alternative-airplay", "source": "billboard", "genre": "alternative", "name": "Alternative", "label": "Alternative Airplay", "blurb": "Left of the dial", "since": "1988-09-10", "theme": "rain" },
+  { "id": "country", "slug": "country-songs", "source": "billboard", "genre": "country", "name": "Country", "label": "Hot Country Songs", "blurb": "Three chords and the truth", "since": "1958-10-20", "theme": "prairie" },
+  { "id": "rnb", "slug": "r-and-b-songs", "source": "billboard", "genre": "rnb", "name": "R&B", "label": "Hot R&B Songs", "blurb": "Slow jams and smooth grooves", "since": "2012-10-20", "theme": "neon" },
+  { "id": "rap", "slug": "rap-song", "source": "billboard", "genre": "rap", "name": "Rap", "label": "Hot Rap Songs", "blurb": "Bars, beats and bravado", "since": "1989-03-11", "theme": "brownstone" },
+  { "id": "dance", "slug": "dance-electronic-songs", "source": "billboard", "genre": "dance", "name": "Dance", "label": "Hot Dance/Electronic Songs", "blurb": "Four on the floor", "since": "2013-01-26", "theme": "disco" },
+  { "id": "latin", "slug": "latin-airplay", "source": "billboard", "genre": "latin", "name": "Latin", "label": "Latin Airplay", "blurb": "Reggaeton, regional and beyond", "since": "1994-11-12", "theme": "plaza" }
+]

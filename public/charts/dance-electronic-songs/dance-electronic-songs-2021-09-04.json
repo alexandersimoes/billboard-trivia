@@ -1,0 +1,455 @@
+{
+  "date": "2021-09-04",
+  "data": [
+    {
+      "song": "Pepas",
+      "artist": "Farruko",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "You",
+      "artist": "Regard x Troye Sivan x Tate McRae",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "In Da Getto",
+      "artist": "J Balvin & Skrillex",
+      "this_week": 3,
+      "last_week": 4,
+      "peak_position": 2,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Cold Heart (PNAU Remix)",
+      "artist": "Elton John & Dua Lipa",
+      "this_week": 4,
+      "last_week": 3,
+      "peak_position": 3,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Roses (Imanbek Remix)",
+      "artist": "Saint Jhn",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 1,
+      "weeks_on_chart": 76,
+      "new": false
+    },
+    {
+      "song": "Goosebumps",
+      "artist": "Travis Scott & HVME",
+      "this_week": 6,
+      "last_week": 7,
+      "peak_position": 1,
+      "weeks_on_chart": 41,
+      "new": false
+    },
+    {
+      "song": "The Business",
+      "artist": "Tiesto",
+      "this_week": 7,
+      "last_week": 8,
+      "peak_position": 2,
+      "weeks_on_chart": 48,
+      "new": false
+    },
+    {
+      "song": "Don't Be Shy",
+      "artist": "Tiesto & Karol G",
+      "this_week": 8,
+      "last_week": 6,
+      "peak_position": 6,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Love Tonight",
+      "artist": "Shouse",
+      "this_week": 9,
+      "last_week": 10,
+      "peak_position": 8,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Heartbreak Anthem",
+      "artist": "Galantis, David Guetta & Little Mix",
+      "this_week": 10,
+      "last_week": 11,
+      "peak_position": 6,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Chasing Stars",
+      "artist": "Alesso, Marshmello & James Bay",
+      "this_week": 11,
+      "last_week": null,
+      "peak_position": 11,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "You Are My High",
+      "artist": "DJ Snake",
+      "this_week": 12,
+      "last_week": 44,
+      "peak_position": 12,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Love Me Now",
+      "artist": "Kygo Featuring Zoe Wees",
+      "this_week": 13,
+      "last_week": 9,
+      "peak_position": 9,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "En Mi Cuarto",
+      "artist": "Jhay Cortez & Skrillex",
+      "this_week": 14,
+      "last_week": 13,
+      "peak_position": 8,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Out Out",
+      "artist": "Joel Corry, Jax Jones, Charli xcx & Saweetie",
+      "this_week": 15,
+      "last_week": 12,
+      "peak_position": 12,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "By Your Side",
+      "artist": "Calvin Harris Featuring Tom Grennan",
+      "this_week": 16,
+      "last_week": 17,
+      "peak_position": 6,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Lifetime",
+      "artist": "Swedish House Mafia Featuring Ty Dolla $ign & 070 Shake",
+      "this_week": 17,
+      "last_week": 16,
+      "peak_position": 9,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "I Feel Good",
+      "artist": "Pitbull Featuring Anthony Watts & DJWS",
+      "this_week": 18,
+      "last_week": null,
+      "peak_position": 18,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Bed",
+      "artist": "Joel Corry X RAYE X David Guetta",
+      "this_week": 19,
+      "last_week": 15,
+      "peak_position": 7,
+      "weeks_on_chart": 26,
+      "new": false
+    },
+    {
+      "song": "Remember",
+      "artist": "Becky Hill & David Guetta",
+      "this_week": 20,
+      "last_week": 21,
+      "peak_position": 14,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Rasputin",
+      "artist": "Majestic X Boney M.",
+      "this_week": 21,
+      "last_week": 18,
+      "peak_position": 11,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Blame Myself",
+      "artist": "Illenium & Tori Kelly",
+      "this_week": 22,
+      "last_week": 20,
+      "peak_position": 9,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Where Are You Now",
+      "artist": "Lost Frequencies & Calum Scott",
+      "this_week": 23,
+      "last_week": 25,
+      "peak_position": 23,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Stupid Feelings",
+      "artist": "220 KID & LANY",
+      "this_week": 24,
+      "last_week": 23,
+      "peak_position": 14,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Love Runs Out",
+      "artist": "Martin Garrix Featuring G-Eazy & Sasha Alex Sloan",
+      "this_week": 25,
+      "last_week": 22,
+      "peak_position": 10,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "You For Me",
+      "artist": "Sigala. x Rita Ora",
+      "this_week": 26,
+      "last_week": 26,
+      "peak_position": 17,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Sweet Dreams",
+      "artist": "Alan Walker & Imanbek",
+      "this_week": 27,
+      "last_week": 27,
+      "peak_position": 18,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Runaway",
+      "artist": "R3hab X Sigala X JP Cooper",
+      "this_week": 28,
+      "last_week": null,
+      "peak_position": 28,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Run It",
+      "artist": "DJ Snake, Rick Ross & Rich Brian",
+      "this_week": 29,
+      "last_week": 14,
+      "peak_position": 14,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Sideways",
+      "artist": "Illenium, Valerie Broussard & Nurko",
+      "this_week": 30,
+      "last_week": 28,
+      "peak_position": 10,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "In My Arms",
+      "artist": "Disclosure",
+      "this_week": 31,
+      "last_week": null,
+      "peak_position": 31,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Next To Me",
+      "artist": "Rufus Du Sol",
+      "this_week": 32,
+      "last_week": 19,
+      "peak_position": 19,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Believe Me",
+      "artist": "Navos",
+      "this_week": 33,
+      "last_week": null,
+      "peak_position": 33,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Chain My Heart",
+      "artist": "Topic X Bebe Rexha",
+      "this_week": 34,
+      "last_week": 32,
+      "peak_position": 16,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Drive",
+      "artist": "Clean Bandit x Wes Nelson x Topic",
+      "this_week": 35,
+      "last_week": 31,
+      "peak_position": 25,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "If You Really Love Me (How Will I Know)",
+      "artist": "David Guetta x MistaJam x John Newman",
+      "this_week": 36,
+      "last_week": 36,
+      "peak_position": 19,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "In Heat.",
+      "artist": "Hentai Xander",
+      "this_week": 37,
+      "last_week": 38,
+      "peak_position": 30,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Hear Me Say",
+      "artist": "Jonas Blue & Leon",
+      "this_week": 38,
+      "last_week": 34,
+      "peak_position": 19,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Just Feels Tight",
+      "artist": "FISHER",
+      "this_week": 39,
+      "last_week": 37,
+      "peak_position": 20,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Hate U Cuz I Don't",
+      "artist": "Louis the Child & Bea Miller",
+      "this_week": 40,
+      "last_week": 24,
+      "peak_position": 24,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "When The Summer Dies",
+      "artist": "Deadmau5 & Lights",
+      "this_week": 41,
+      "last_week": 45,
+      "peak_position": 24,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Supersonic (My Existence)",
+      "artist": "Skrillex, Noisia, josh pan & Dylan Brady",
+      "this_week": 42,
+      "last_week": 47,
+      "peak_position": 13,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "We Are The People",
+      "artist": "Martin Garrix Featuring Bono & The Edge",
+      "this_week": 43,
+      "last_week": 42,
+      "peak_position": 12,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Seven Nation Army (The Glitch Mob Remix)",
+      "artist": "The White Stripes",
+      "this_week": 44,
+      "last_week": 49,
+      "peak_position": 34,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Do It To It",
+      "artist": "Acraze Featuring Cherish",
+      "this_week": 45,
+      "last_week": null,
+      "peak_position": 45,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Best Is Yet To Come",
+      "artist": "Gryffin & Kyle Reynolds",
+      "this_week": 46,
+      "last_week": 48,
+      "peak_position": 14,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Summer Feeling",
+      "artist": "Matoma & Jonah Kagen",
+      "this_week": 47,
+      "last_week": null,
+      "peak_position": 47,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Alive",
+      "artist": "Rufus Du Sol",
+      "this_week": 48,
+      "last_week": 33,
+      "peak_position": 23,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Shockwave",
+      "artist": "Marshmello",
+      "this_week": 49,
+      "last_week": 46,
+      "peak_position": 11,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Matter Of Time",
+      "artist": "Vandelux Featuring Alex Maher",
+      "this_week": 50,
+      "last_week": 43,
+      "peak_position": 30,
+      "weeks_on_chart": 8,
+      "new": false
+    }
+  ]
+}

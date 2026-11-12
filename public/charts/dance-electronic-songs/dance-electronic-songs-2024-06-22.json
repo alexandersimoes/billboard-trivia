@@ -1,0 +1,455 @@
+{
+  "date": "2024-06-22",
+  "data": [
+    {
+      "song": "Miles On It",
+      "artist": "Marshmello & Kane Brown",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Illusion",
+      "artist": "Dua Lipa",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "360",
+      "artist": "Charli xcx",
+      "this_week": 3,
+      "last_week": 7,
+      "peak_position": 3,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Houdini",
+      "artist": "Dua Lipa",
+      "this_week": 4,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 31,
+      "new": false
+    },
+    {
+      "song": "Talk Talk",
+      "artist": "Charli xcx Featuring Troye Sivan",
+      "this_week": 5,
+      "last_week": null,
+      "peak_position": 5,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "I Don't Wanna Wait",
+      "artist": "David Guetta & OneRepublic",
+      "this_week": 6,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Von Dutch",
+      "artist": "Charli xcx",
+      "this_week": 7,
+      "last_week": 25,
+      "peak_position": 7,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Training Season",
+      "artist": "Dua Lipa",
+      "this_week": 8,
+      "last_week": 5,
+      "peak_position": 2,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Yes, And?",
+      "artist": "Ariana Grande",
+      "this_week": 9,
+      "last_week": 6,
+      "peak_position": 1,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Sympathy Is A Knife",
+      "artist": "Charli xcx Featuring Ariana Grande",
+      "this_week": 10,
+      "last_week": null,
+      "peak_position": 10,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Club Classics",
+      "artist": "Charli xcx Featuring Bb trickz",
+      "this_week": 11,
+      "last_week": null,
+      "peak_position": 11,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Witchy",
+      "artist": "Kaytranada Featuring Childish Gambino",
+      "this_week": 12,
+      "last_week": null,
+      "peak_position": 12,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "365",
+      "artist": "Charli xcx Featuring Shygirl",
+      "this_week": 13,
+      "last_week": null,
+      "peak_position": 13,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Everything Is Romantic",
+      "artist": "Charli xcx Featuring Caroline Polachek",
+      "this_week": 14,
+      "last_week": null,
+      "peak_position": 14,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Whatever",
+      "artist": "Kygo With Ava Max",
+      "this_week": 15,
+      "last_week": 9,
+      "peak_position": 6,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Islands (Kompa Pasion)",
+      "artist": "frozy & Tomo",
+      "this_week": 16,
+      "last_week": 15,
+      "peak_position": 15,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Contigo",
+      "artist": "Karol G & Tiesto",
+      "this_week": 17,
+      "last_week": 11,
+      "peak_position": 5,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Murder On The Dancefloor",
+      "artist": "Sophie Ellis-Bextor",
+      "this_week": 18,
+      "last_week": 12,
+      "peak_position": 3,
+      "weeks_on_chart": 25,
+      "new": false
+    },
+    {
+      "song": "I Might Say Something Stupid",
+      "artist": "Charli xcx Featuring The 1975 & Jon Hopkins",
+      "this_week": 19,
+      "last_week": null,
+      "peak_position": 19,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "B2B",
+      "artist": "Charli xcx Featuring Tinashe",
+      "this_week": 20,
+      "last_week": null,
+      "peak_position": 20,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Rewind",
+      "artist": "Charli xcx Featuring BLADEE",
+      "this_week": 21,
+      "last_week": null,
+      "peak_position": 21,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Mean Girls",
+      "artist": "Charli xcx Featuring Julian Casablancas",
+      "this_week": 22,
+      "last_week": null,
+      "peak_position": 22,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Girl$",
+      "artist": "Dom Dolla",
+      "this_week": 23,
+      "last_week": null,
+      "peak_position": 23,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Girl, So Confusing",
+      "artist": "Charli xcx With Lorde",
+      "this_week": 24,
+      "last_week": null,
+      "peak_position": 24,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Apple",
+      "artist": "Charli xcx",
+      "this_week": 25,
+      "last_week": null,
+      "peak_position": 25,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Addicted",
+      "artist": "ZERB, The Chainsmokers & Ink",
+      "this_week": 26,
+      "last_week": 14,
+      "peak_position": 10,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "So I",
+      "artist": "Charli xcx Featuring A.G. Cook",
+      "this_week": 27,
+      "last_week": null,
+      "peak_position": 27,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Go Back",
+      "artist": "John Summit, Sub Focus & Julia Church",
+      "this_week": 28,
+      "last_week": 13,
+      "peak_position": 12,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Places To Be",
+      "artist": "Fred again.., Anderson . Paak & CHIKA",
+      "this_week": 29,
+      "last_week": 10,
+      "peak_position": 10,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Feel A Way",
+      "artist": "Kaytranada Featuring Don Toliver",
+      "this_week": 30,
+      "last_week": null,
+      "peak_position": 30,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "I Think About It All The Time",
+      "artist": "Charli xcx Featuring Bon Iver",
+      "this_week": 31,
+      "last_week": null,
+      "peak_position": 31,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "These Words",
+      "artist": "Badger & Natasha Bedingfield",
+      "this_week": 32,
+      "last_week": 18,
+      "peak_position": 12,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Pedro",
+      "artist": "Jaxomy, Agatino Romero & Raffaella Carra",
+      "this_week": 33,
+      "last_week": 17,
+      "peak_position": 12,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "She's Gone, Dance On",
+      "artist": "Disclosure",
+      "this_week": 34,
+      "last_week": 16,
+      "peak_position": 16,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Drip Sweat",
+      "artist": "Kaytranada Featuring Channel Tres",
+      "this_week": 35,
+      "last_week": null,
+      "peak_position": 35,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Stumblin' In",
+      "artist": "CYRIL",
+      "this_week": 36,
+      "last_week": 22,
+      "peak_position": 22,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Spring Breakers",
+      "artist": "Charli xcx Featuring Kesha",
+      "this_week": 37,
+      "last_week": null,
+      "peak_position": 37,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Spit It Out",
+      "artist": "Kaytranada Featuring Rochelle Jordan",
+      "this_week": 38,
+      "last_week": null,
+      "peak_position": 38,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Shiver",
+      "artist": "John Summit & Hayla",
+      "this_week": 39,
+      "last_week": 20,
+      "peak_position": 8,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Snap My Finger",
+      "artist": "Kaytranada Featuring PinkPantheress",
+      "this_week": 40,
+      "last_week": null,
+      "peak_position": 40,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Man In Finance (G6 Trust Fund)",
+      "artist": "Girl On Couch & Billen Ted",
+      "this_week": 41,
+      "last_week": null,
+      "peak_position": 41,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Guess",
+      "artist": "Charli xcx Featuring Billie Eilish",
+      "this_week": 42,
+      "last_week": null,
+      "peak_position": 42,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Chase It (Mmm Da Da Da)",
+      "artist": "Bebe Rexha",
+      "this_week": 43,
+      "last_week": 23,
+      "peak_position": 14,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Call U Up",
+      "artist": "Kaytranada Featuring Lou Phelps",
+      "this_week": 44,
+      "last_week": null,
+      "peak_position": 44,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "For Life",
+      "artist": "Kygo With Zak Abel & Nile Rodgers",
+      "this_week": 45,
+      "last_week": 24,
+      "peak_position": 13,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Don't Speak",
+      "artist": "Marshmello & Sabrina Claudio",
+      "this_week": 46,
+      "last_week": null,
+      "peak_position": 46,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Weird",
+      "artist": "Kaytranada Featuring Durand Bernarr",
+      "this_week": 47,
+      "last_week": null,
+      "peak_position": 47,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Do 2 Me",
+      "artist": "Kaytranada Featuring Anderson .Paak & SiR",
+      "this_week": 48,
+      "last_week": null,
+      "peak_position": 48,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Insane",
+      "artist": "Black Gryph0n & Baasik",
+      "this_week": 49,
+      "last_week": 27,
+      "peak_position": 9,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Pressure",
+      "artist": "Kaytranada",
+      "this_week": 50,
+      "last_week": null,
+      "peak_position": 50,
+      "weeks_on_chart": 1,
+      "new": true
+    }
+  ]
+}

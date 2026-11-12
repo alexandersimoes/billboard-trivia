@@ -1,0 +1,1805 @@
+{
+  "date": "2021-11-13",
+  "data": [
+    {
+      "song": "Easy On Me",
+      "artist": "Adele",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Stay",
+      "artist": "The Kid Laroi & Justin Bieber",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Shivers",
+      "artist": "Ed Sheeran",
+      "this_week": 3,
+      "last_week": 6,
+      "peak_position": 3,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Bad Habits",
+      "artist": "Ed Sheeran",
+      "this_week": 4,
+      "last_week": 7,
+      "peak_position": 1,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Love Nwantiti (Ah Ah Ah)",
+      "artist": "CKay",
+      "this_week": 5,
+      "last_week": 3,
+      "peak_position": 2,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Industry Baby",
+      "artist": "Lil Nas X & Jack Harlow",
+      "this_week": 6,
+      "last_week": 4,
+      "peak_position": 2,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Cold Heart (PNAU Remix)",
+      "artist": "Elton John & Dua Lipa",
+      "this_week": 7,
+      "last_week": 5,
+      "peak_position": 5,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Heat Waves",
+      "artist": "Glass Animals",
+      "this_week": 8,
+      "last_week": 8,
+      "peak_position": 6,
+      "weeks_on_chart": 44,
+      "new": false
+    },
+    {
+      "song": "Pepas",
+      "artist": "Farruko",
+      "this_week": 9,
+      "last_week": 11,
+      "peak_position": 7,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "My Universe",
+      "artist": "Coldplay x BTS",
+      "this_week": 10,
+      "last_week": 9,
+      "peak_position": 1,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Overpass Graffiti",
+      "artist": "Ed Sheeran",
+      "this_week": 11,
+      "last_week": null,
+      "peak_position": 11,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Money",
+      "artist": "LISA",
+      "this_week": 12,
+      "last_week": 12,
+      "peak_position": 10,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Happier Than Ever",
+      "artist": "Billie Eilish",
+      "this_week": 13,
+      "last_week": 13,
+      "peak_position": 6,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Levitating",
+      "artist": "Dua Lipa",
+      "this_week": 14,
+      "last_week": 14,
+      "peak_position": 2,
+      "weeks_on_chart": 57,
+      "new": false
+    },
+    {
+      "song": "Moth To A Flame",
+      "artist": "Swedish House Mafia & The Weeknd",
+      "this_week": 15,
+      "last_week": 10,
+      "peak_position": 10,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Save Your Tears",
+      "artist": "The Weeknd & Ariana Grande",
+      "this_week": 16,
+      "last_week": 15,
+      "peak_position": 1,
+      "weeks_on_chart": 44,
+      "new": false
+    },
+    {
+      "song": "Need To Know",
+      "artist": "Doja Cat",
+      "this_week": 17,
+      "last_week": 18,
+      "peak_position": 6,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Woman",
+      "artist": "Doja Cat",
+      "this_week": 18,
+      "last_week": 16,
+      "peak_position": 11,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Good 4 U",
+      "artist": "Olivia Rodrigo",
+      "this_week": 19,
+      "last_week": 17,
+      "peak_position": 1,
+      "weeks_on_chart": 25,
+      "new": false
+    },
+    {
+      "song": "Blinding Lights",
+      "artist": "The Weeknd",
+      "this_week": 20,
+      "last_week": 26,
+      "peak_position": 2,
+      "weeks_on_chart": 61,
+      "new": false
+    },
+    {
+      "song": "Beggin'",
+      "artist": "Maneskin",
+      "this_week": 21,
+      "last_week": 21,
+      "peak_position": 3,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Thats What I Want",
+      "artist": "Lil Nas X",
+      "this_week": 22,
+      "last_week": 20,
+      "peak_position": 4,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Meet Me At Our Spot",
+      "artist": "THE ANXIETY: WILLOW & Tyler Cole",
+      "this_week": 23,
+      "last_week": 22,
+      "peak_position": 22,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Kiss Me More",
+      "artist": "Doja Cat Featuring SZA",
+      "this_week": 24,
+      "last_week": 23,
+      "peak_position": 3,
+      "weeks_on_chart": 30,
+      "new": false
+    },
+    {
+      "song": "Butter",
+      "artist": "BTS",
+      "this_week": 25,
+      "last_week": 25,
+      "peak_position": 1,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Way 2 Sexy",
+      "artist": "Drake Featuring Future & Young Thug",
+      "this_week": 26,
+      "last_week": 24,
+      "peak_position": 2,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Montero (Call Me By Your Name)",
+      "artist": "Lil Nas X",
+      "this_week": 27,
+      "last_week": 27,
+      "peak_position": 1,
+      "weeks_on_chart": 32,
+      "new": false
+    },
+    {
+      "song": "Thriller",
+      "artist": "Michael Jackson",
+      "this_week": 28,
+      "last_week": 109,
+      "peak_position": 28,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Love Tonight",
+      "artist": "Shouse",
+      "this_week": 29,
+      "last_week": 33,
+      "peak_position": 20,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Ghost",
+      "artist": "Justin Bieber",
+      "this_week": 30,
+      "last_week": 34,
+      "peak_position": 30,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Lo Siento BB:/",
+      "artist": "Tainy, Bad Bunny & Julieta Venegas",
+      "this_week": 31,
+      "last_week": 28,
+      "peak_position": 12,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Knife Talk",
+      "artist": "Drake Featuring 21 Savage & Project Pat",
+      "this_week": 32,
+      "last_week": 29,
+      "peak_position": 6,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Better Days",
+      "artist": "NEIKED X Mae Muller X Polo G",
+      "this_week": 33,
+      "last_week": 38,
+      "peak_position": 33,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Life Goes On",
+      "artist": "Oliver Tree",
+      "this_week": 34,
+      "last_week": 31,
+      "peak_position": 26,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Somebody's Watching Me",
+      "artist": "Rockwell",
+      "this_week": 35,
+      "last_week": 86,
+      "peak_position": 35,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Fancy Like",
+      "artist": "Walker Hayes",
+      "this_week": 36,
+      "last_week": 30,
+      "peak_position": 25,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Traitor",
+      "artist": "Olivia Rodrigo",
+      "this_week": 37,
+      "last_week": 32,
+      "peak_position": 7,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Yonaguni",
+      "artist": "Bad Bunny",
+      "this_week": 38,
+      "last_week": 36,
+      "peak_position": 3,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Perfect",
+      "artist": "Ed Sheeran",
+      "this_week": 39,
+      "last_week": 40,
+      "peak_position": 30,
+      "weeks_on_chart": 61,
+      "new": false
+    },
+    {
+      "song": "Where Are You Now",
+      "artist": "Lost Frequencies & Calum Scott",
+      "this_week": 40,
+      "last_week": 43,
+      "peak_position": 40,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "The Feels",
+      "artist": "Twice",
+      "this_week": 41,
+      "last_week": 39,
+      "peak_position": 12,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Peaches",
+      "artist": "Justin Bieber Featuring Daniel Caesar & Giveon",
+      "this_week": 42,
+      "last_week": 37,
+      "peak_position": 1,
+      "weeks_on_chart": 33,
+      "new": false
+    },
+    {
+      "song": "Dynamite",
+      "artist": "BTS",
+      "this_week": 43,
+      "last_week": 41,
+      "peak_position": 1,
+      "weeks_on_chart": 61,
+      "new": false
+    },
+    {
+      "song": "Take My Breath",
+      "artist": "The Weeknd",
+      "this_week": 44,
+      "last_week": 35,
+      "peak_position": 5,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Todo de Ti",
+      "artist": "Rauw Alejandro",
+      "this_week": 45,
+      "last_week": 42,
+      "peak_position": 3,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Ghostbusters",
+      "artist": "Ray Parker Jr.",
+      "this_week": 46,
+      "last_week": null,
+      "peak_position": 46,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Volvi",
+      "artist": "Aventura x Bad Bunny",
+      "this_week": 47,
+      "last_week": 45,
+      "peak_position": 11,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "First Times",
+      "artist": "Ed Sheeran",
+      "this_week": 48,
+      "last_week": null,
+      "peak_position": 48,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Permission To Dance",
+      "artist": "BTS",
+      "this_week": 49,
+      "last_week": 47,
+      "peak_position": 1,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "You Right",
+      "artist": "Doja Cat & The Weeknd",
+      "this_week": 50,
+      "last_week": 53,
+      "peak_position": 12,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Fair Trade",
+      "artist": "Drake Featuring Travis Scott",
+      "this_week": 51,
+      "last_week": 44,
+      "peak_position": 4,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Girls Want Girls",
+      "artist": "Drake Featuring Lil Baby",
+      "this_week": 52,
+      "last_week": 48,
+      "peak_position": 3,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Who Want Smoke??",
+      "artist": "Nardo Wick Featuring G Herbo, Lil Durk & 21 Savage",
+      "this_week": 53,
+      "last_week": 49,
+      "peak_position": 37,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Monster Mash",
+      "artist": "Bobby \"Boris\" Pickett And The Crypt-Kickers",
+      "this_week": 54,
+      "last_week": null,
+      "peak_position": 54,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Shape Of You",
+      "artist": "Ed Sheeran",
+      "this_week": 55,
+      "last_week": 56,
+      "peak_position": 55,
+      "weeks_on_chart": 61,
+      "new": false
+    },
+    {
+      "song": "Dance Monkey",
+      "artist": "Tones And I",
+      "this_week": 56,
+      "last_week": 57,
+      "peak_position": 16,
+      "weeks_on_chart": 61,
+      "new": false
+    },
+    {
+      "song": "Astronaut In The Ocean",
+      "artist": "Masked Wolf",
+      "this_week": 57,
+      "last_week": 54,
+      "peak_position": 3,
+      "weeks_on_chart": 41,
+      "new": false
+    },
+    {
+      "song": "Sweater Weather",
+      "artist": "The Neighbourhood",
+      "this_week": 58,
+      "last_week": 55,
+      "peak_position": 55,
+      "weeks_on_chart": 58,
+      "new": false
+    },
+    {
+      "song": "Visiting Hours",
+      "artist": "Ed Sheeran",
+      "this_week": 59,
+      "last_week": null,
+      "peak_position": 21,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "2step",
+      "artist": "Ed Sheeran Featuring Lil Baby",
+      "this_week": 60,
+      "last_week": null,
+      "peak_position": 60,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Praise God",
+      "artist": "Kanye West",
+      "this_week": 61,
+      "last_week": 67,
+      "peak_position": 17,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Out Out",
+      "artist": "Joel Corry, Jax Jones, Charli xcx & Saweetie",
+      "this_week": 62,
+      "last_week": 58,
+      "peak_position": 52,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Don't Be Shy",
+      "artist": "Tiesto & Karol G",
+      "this_week": 63,
+      "last_week": 61,
+      "peak_position": 55,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Someone You Loved",
+      "artist": "Lewis Capaldi",
+      "this_week": 64,
+      "last_week": 62,
+      "peak_position": 24,
+      "weeks_on_chart": 61,
+      "new": false
+    },
+    {
+      "song": "Someone Like You",
+      "artist": "Adele",
+      "this_week": 65,
+      "last_week": 46,
+      "peak_position": 33,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "This Is Halloween",
+      "artist": "The Citizens of Halloween",
+      "this_week": 66,
+      "last_week": null,
+      "peak_position": 66,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Watermelon Sugar",
+      "artist": "Harry Styles",
+      "this_week": 67,
+      "last_week": 64,
+      "peak_position": 9,
+      "weeks_on_chart": 61,
+      "new": false
+    },
+    {
+      "song": "Tides",
+      "artist": "Ed Sheeran",
+      "this_week": 68,
+      "last_week": null,
+      "peak_position": 68,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Drivers License",
+      "artist": "Olivia Rodrigo",
+      "this_week": 69,
+      "last_week": 63,
+      "peak_position": 1,
+      "weeks_on_chart": 43,
+      "new": false
+    },
+    {
+      "song": "Believer",
+      "artist": "Imagine Dragons",
+      "this_week": 70,
+      "last_week": 72,
+      "peak_position": 52,
+      "weeks_on_chart": 61,
+      "new": false
+    },
+    {
+      "song": "Dakiti",
+      "artist": "Bad Bunny & Jhay Cortez",
+      "this_week": 71,
+      "last_week": 75,
+      "peak_position": 1,
+      "weeks_on_chart": 53,
+      "new": false
+    },
+    {
+      "song": "Baby Shark",
+      "artist": "Pinkfong",
+      "this_week": 72,
+      "last_week": 82,
+      "peak_position": 38,
+      "weeks_on_chart": 60,
+      "new": false
+    },
+    {
+      "song": "Leave The Door Open",
+      "artist": "Silk Sonic (Bruno Mars & Anderson .Paak)",
+      "this_week": 73,
+      "last_week": 65,
+      "peak_position": 2,
+      "weeks_on_chart": 35,
+      "new": false
+    },
+    {
+      "song": "SG",
+      "artist": "DJ Snake, Ozuna, Lisa & Megan Thee Stallion",
+      "this_week": 74,
+      "last_week": 19,
+      "peak_position": 19,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Mood",
+      "artist": "24kGoldn Featuring iann dior",
+      "this_week": 75,
+      "last_week": 70,
+      "peak_position": 2,
+      "weeks_on_chart": 61,
+      "new": false
+    },
+    {
+      "song": "When We Were Young",
+      "artist": "Adele",
+      "this_week": 76,
+      "last_week": 50,
+      "peak_position": 37,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Rolling In The Deep",
+      "artist": "Adele",
+      "this_week": 77,
+      "last_week": 52,
+      "peak_position": 42,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "In Da Getto",
+      "artist": "J Balvin & Skrillex",
+      "this_week": 78,
+      "last_week": 66,
+      "peak_position": 39,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Sobrio",
+      "artist": "Maluma",
+      "this_week": 79,
+      "last_week": 74,
+      "peak_position": 52,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Sunflower (Spider-Man: Into The Spider-Verse)",
+      "artist": "Post Malone & Swae Lee",
+      "this_week": 80,
+      "last_week": 80,
+      "peak_position": 47,
+      "weeks_on_chart": 61,
+      "new": false
+    },
+    {
+      "song": "Nostalgico",
+      "artist": "Rvssian, Rauw Alejandro & Chris Brown",
+      "this_week": 81,
+      "last_week": 85,
+      "peak_position": 81,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Indigo",
+      "artist": "Camilo y Evaluna",
+      "this_week": 82,
+      "last_week": 51,
+      "peak_position": 48,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Ghost Town",
+      "artist": "Benson Boone",
+      "this_week": 83,
+      "last_week": 131,
+      "peak_position": 83,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Essence",
+      "artist": "Wizkid Featuring Justin Bieber & Tems",
+      "this_week": 84,
+      "last_week": 71,
+      "peak_position": 28,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "I Wanna Be Your Slave",
+      "artist": "Maneskin",
+      "this_week": 85,
+      "last_week": 69,
+      "peak_position": 13,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "AM",
+      "artist": "Nio Garcia X J Balvin X Bad Bunny",
+      "this_week": 86,
+      "last_week": 77,
+      "peak_position": 10,
+      "weeks_on_chart": 30,
+      "new": false
+    },
+    {
+      "song": "Get Into It (Yuh)",
+      "artist": "Doja Cat",
+      "this_week": 87,
+      "last_week": 76,
+      "peak_position": 41,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Don't Start Now",
+      "artist": "Dua Lipa",
+      "this_week": 88,
+      "last_week": 84,
+      "peak_position": 30,
+      "weeks_on_chart": 61,
+      "new": false
+    },
+    {
+      "song": "Lalisa",
+      "artist": "LISA",
+      "this_week": 89,
+      "last_week": 60,
+      "peak_position": 2,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Toxic",
+      "artist": "BoyWithUke",
+      "this_week": 90,
+      "last_week": null,
+      "peak_position": 90,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Love Again",
+      "artist": "Dua Lipa",
+      "this_week": 91,
+      "last_week": 79,
+      "peak_position": 59,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Bad Guy",
+      "artist": "Billie Eilish",
+      "this_week": 92,
+      "last_week": 107,
+      "peak_position": 54,
+      "weeks_on_chart": 61,
+      "new": false
+    },
+    {
+      "song": "Que Mas Pues?",
+      "artist": "J Balvin & Maria Becerra",
+      "this_week": 93,
+      "last_week": 81,
+      "peak_position": 17,
+      "weeks_on_chart": 23,
+      "new": false
+    },
+    {
+      "song": "Enemy",
+      "artist": "Imagine Dragons X JID",
+      "this_week": 94,
+      "last_week": null,
+      "peak_position": 94,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Lovely",
+      "artist": "Billie Eilish & Khalid",
+      "this_week": 95,
+      "last_week": 90,
+      "peak_position": 70,
+      "weeks_on_chart": 61,
+      "new": false
+    },
+    {
+      "song": "Acapulco",
+      "artist": "Jason Derulo",
+      "this_week": 96,
+      "last_week": 93,
+      "peak_position": 93,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Coracao Cachorro",
+      "artist": "Avine Vinny E Matheus Fernandes",
+      "this_week": 97,
+      "last_week": 96,
+      "peak_position": 96,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Shallow",
+      "artist": "Lady Gaga & Bradley Cooper",
+      "this_week": 98,
+      "last_week": 94,
+      "peak_position": 59,
+      "weeks_on_chart": 61,
+      "new": false
+    },
+    {
+      "song": "The Joker And The Queen",
+      "artist": "Ed Sheeran Featuring Taylor Swift",
+      "this_week": 99,
+      "last_week": null,
+      "peak_position": 99,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Bubbly",
+      "artist": "Young Thug With Drake & Travis Scott",
+      "this_week": 100,
+      "last_week": 59,
+      "peak_position": 25,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Collide",
+      "artist": "Ed Sheeran",
+      "this_week": 101,
+      "last_week": null,
+      "peak_position": 101,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Don't Go Yet",
+      "artist": "Camila Cabello",
+      "this_week": 102,
+      "last_week": 89,
+      "peak_position": 28,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Volando",
+      "artist": "Mora, Bad Bunny & Sech",
+      "this_week": 103,
+      "last_week": 101,
+      "peak_position": 27,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "The Business",
+      "artist": "Tiesto",
+      "this_week": 104,
+      "last_week": 100,
+      "peak_position": 12,
+      "weeks_on_chart": 52,
+      "new": false
+    },
+    {
+      "song": "All I Want For Christmas Is You",
+      "artist": "Mariah Carey",
+      "this_week": 105,
+      "last_week": null,
+      "peak_position": 1,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Leave Your Life",
+      "artist": "Ed Sheeran",
+      "this_week": 106,
+      "last_week": null,
+      "peak_position": 106,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Leave Before You Love Me",
+      "artist": "Marshmello X Jonas Brothers",
+      "this_week": 107,
+      "last_week": 88,
+      "peak_position": 40,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Deja Vu",
+      "artist": "Olivia Rodrigo",
+      "this_week": 108,
+      "last_week": 91,
+      "peak_position": 3,
+      "weeks_on_chart": 31,
+      "new": false
+    },
+    {
+      "song": "Savage",
+      "artist": "Aespa",
+      "this_week": 109,
+      "last_week": 97,
+      "peak_position": 39,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Ley Seca",
+      "artist": "Jhay Cortez & Anuel AA",
+      "this_week": 110,
+      "last_week": 104,
+      "peak_position": 79,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "2055",
+      "artist": "Sleepy Hallow",
+      "this_week": 111,
+      "last_week": 95,
+      "peak_position": 37,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Family Ties",
+      "artist": "Baby Keem & Kendrick Lamar",
+      "this_week": 112,
+      "last_week": 99,
+      "peak_position": 25,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Circles",
+      "artist": "Post Malone",
+      "this_week": 113,
+      "last_week": 105,
+      "peak_position": 49,
+      "weeks_on_chart": 61,
+      "new": false
+    },
+    {
+      "song": "WFM",
+      "artist": "RealestK",
+      "this_week": 114,
+      "last_week": 73,
+      "peak_position": 56,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Bohemian Rhapsody",
+      "artist": "Queen",
+      "this_week": 115,
+      "last_week": 115,
+      "peak_position": 101,
+      "weeks_on_chart": 57,
+      "new": false
+    },
+    {
+      "song": "Curame",
+      "artist": "Rauw Alejandro",
+      "this_week": 116,
+      "last_week": 110,
+      "peak_position": 71,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Buy Dirt",
+      "artist": "Jordan Davis Featuring Luke Bryan",
+      "this_week": 117,
+      "last_week": 130,
+      "peak_position": 117,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Stop The Rain",
+      "artist": "Ed Sheeran",
+      "this_week": 118,
+      "last_week": null,
+      "peak_position": 118,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Careless Whisper",
+      "artist": "Wham! Featuring George Michael",
+      "this_week": 119,
+      "last_week": 158,
+      "peak_position": 119,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Spooky, Scary Skeletons",
+      "artist": "Andrew Gold",
+      "this_week": 120,
+      "last_week": null,
+      "peak_position": 120,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Demon High",
+      "artist": "Lil Uzi Vert",
+      "this_week": 121,
+      "last_week": null,
+      "peak_position": 121,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Without You",
+      "artist": "The Kid Laroi",
+      "this_week": 122,
+      "last_week": 106,
+      "peak_position": 10,
+      "weeks_on_chart": 50,
+      "new": false
+    },
+    {
+      "song": "Classic",
+      "artist": "MKTO",
+      "this_week": 123,
+      "last_week": 116,
+      "peak_position": 116,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Bored",
+      "artist": "Billie Eilish",
+      "this_week": 124,
+      "last_week": 102,
+      "peak_position": 75,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Closer",
+      "artist": "The Chainsmokers Featuring Halsey",
+      "this_week": 125,
+      "last_week": 125,
+      "peak_position": 100,
+      "weeks_on_chart": 57,
+      "new": false
+    },
+    {
+      "song": "Dreams",
+      "artist": "Fleetwood Mac",
+      "this_week": 126,
+      "last_week": 123,
+      "peak_position": 10,
+      "weeks_on_chart": 58,
+      "new": false
+    },
+    {
+      "song": "Roses",
+      "artist": "Saint Jhn",
+      "this_week": 127,
+      "last_week": 126,
+      "peak_position": 14,
+      "weeks_on_chart": 61,
+      "new": false
+    },
+    {
+      "song": "I Love You So",
+      "artist": "The Walters",
+      "this_week": 128,
+      "last_week": 108,
+      "peak_position": 108,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Take Me To Church",
+      "artist": "Hozier",
+      "this_week": 129,
+      "last_week": 127,
+      "peak_position": 127,
+      "weeks_on_chart": 43,
+      "new": false
+    },
+    {
+      "song": "Love In The Dark",
+      "artist": "Adele",
+      "this_week": 130,
+      "last_week": 87,
+      "peak_position": 54,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Hurricane",
+      "artist": "Kanye West",
+      "this_week": 131,
+      "last_week": 103,
+      "peak_position": 5,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Positions",
+      "artist": "Ariana Grande",
+      "this_week": 132,
+      "last_week": 139,
+      "peak_position": 1,
+      "weeks_on_chart": 54,
+      "new": false
+    },
+    {
+      "song": "Gangsta's Paradise",
+      "artist": "Coolio Featuring L.V.",
+      "this_week": 133,
+      "last_week": 129,
+      "peak_position": 113,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Love In Slow Motion",
+      "artist": "Ed Sheeran",
+      "this_week": 134,
+      "last_week": null,
+      "peak_position": 134,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "If I Didn't Love You",
+      "artist": "Jason Aldean & Carrie Underwood",
+      "this_week": 135,
+      "last_week": 114,
+      "peak_position": 44,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Sad Girlz Luv Money",
+      "artist": "Amaarae & Moliy Featuring Kali Uchis",
+      "this_week": 136,
+      "last_week": null,
+      "peak_position": 136,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Something Just Like This",
+      "artist": "The Chainsmokers & Coldplay",
+      "this_week": 137,
+      "last_week": 120,
+      "peak_position": 120,
+      "weeks_on_chart": 47,
+      "new": false
+    },
+    {
+      "song": "Before You Go",
+      "artist": "Lewis Capaldi",
+      "this_week": 138,
+      "last_week": 128,
+      "peak_position": 32,
+      "weeks_on_chart": 61,
+      "new": false
+    },
+    {
+      "song": "Counting Stars",
+      "artist": "OneRepublic",
+      "this_week": 139,
+      "last_week": 132,
+      "peak_position": 120,
+      "weeks_on_chart": 39,
+      "new": false
+    },
+    {
+      "song": "Yellow",
+      "artist": "Coldplay",
+      "this_week": 140,
+      "last_week": 119,
+      "peak_position": 105,
+      "weeks_on_chart": 33,
+      "new": false
+    },
+    {
+      "song": "Mr. Brightside",
+      "artist": "The Killers",
+      "this_week": 141,
+      "last_week": 152,
+      "peak_position": 141,
+      "weeks_on_chart": 23,
+      "new": false
+    },
+    {
+      "song": "Highway To Hell",
+      "artist": "AC/DC",
+      "this_week": 142,
+      "last_week": null,
+      "peak_position": 142,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "No Role Modelz",
+      "artist": "J. Cole",
+      "this_week": 143,
+      "last_week": 137,
+      "peak_position": 114,
+      "weeks_on_chart": 25,
+      "new": false
+    },
+    {
+      "song": "Cry Baby",
+      "artist": "Official HIGE DANdism",
+      "this_week": 144,
+      "last_week": 143,
+      "peak_position": 114,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "All Of Me",
+      "artist": "John Legend",
+      "this_week": 145,
+      "last_week": 134,
+      "peak_position": 97,
+      "weeks_on_chart": 59,
+      "new": false
+    },
+    {
+      "song": "Old Town Road",
+      "artist": "Lil Nas X Featuring Billy Ray Cyrus",
+      "this_week": 146,
+      "last_week": 135,
+      "peak_position": 70,
+      "weeks_on_chart": 61,
+      "new": false
+    },
+    {
+      "song": "Billie Jean",
+      "artist": "Michael Jackson",
+      "this_week": 147,
+      "last_week": 167,
+      "peak_position": 147,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Beautiful Mistakes",
+      "artist": "Maroon 5 Featuring Megan Thee Stallion",
+      "this_week": 148,
+      "last_week": 121,
+      "peak_position": 24,
+      "weeks_on_chart": 35,
+      "new": false
+    },
+    {
+      "song": "A-O-K",
+      "artist": "Tai Verdes",
+      "this_week": 149,
+      "last_week": 122,
+      "peak_position": 86,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Do It To It",
+      "artist": "Acraze Featuring Cherish",
+      "this_week": 150,
+      "last_week": null,
+      "peak_position": 150,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Somebody That I Used To Know",
+      "artist": "Gotye Featuring Kimbra",
+      "this_week": 151,
+      "last_week": 147,
+      "peak_position": 141,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Friday",
+      "artist": "Riton X Nightcrawlers Featuring Mufasa & Hypeman",
+      "this_week": 152,
+      "last_week": 140,
+      "peak_position": 18,
+      "weeks_on_chart": 37,
+      "new": false
+    },
+    {
+      "song": "Rapstar",
+      "artist": "Polo G",
+      "this_week": 153,
+      "last_week": 144,
+      "peak_position": 3,
+      "weeks_on_chart": 30,
+      "new": false
+    },
+    {
+      "song": "Jugaste y Sufri",
+      "artist": "Eslabon Armado Featuring DannyLux",
+      "this_week": 154,
+      "last_week": 133,
+      "peak_position": 111,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Another Love",
+      "artist": "Tom Odell",
+      "this_week": 155,
+      "last_week": 146,
+      "peak_position": 99,
+      "weeks_on_chart": 29,
+      "new": false
+    },
+    {
+      "song": "Have Mercy",
+      "artist": "Chloe",
+      "this_week": 156,
+      "last_week": 124,
+      "peak_position": 45,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Starboy",
+      "artist": "The Weeknd Featuring Daft Punk",
+      "this_week": 157,
+      "last_week": 163,
+      "peak_position": 52,
+      "weeks_on_chart": 26,
+      "new": false
+    },
+    {
+      "song": "Goosebumps",
+      "artist": "Travis Scott & HVME",
+      "this_week": 158,
+      "last_week": 157,
+      "peak_position": 15,
+      "weeks_on_chart": 45,
+      "new": false
+    },
+    {
+      "song": "Dictadura",
+      "artist": "Anuel AA",
+      "this_week": 159,
+      "last_week": null,
+      "peak_position": 159,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Goosebumps",
+      "artist": "Travis Scott",
+      "this_week": 160,
+      "last_week": 161,
+      "peak_position": 102,
+      "weeks_on_chart": 58,
+      "new": false
+    },
+    {
+      "song": "Falling",
+      "artist": "Harry Styles",
+      "this_week": 161,
+      "last_week": null,
+      "peak_position": 132,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Arranhao",
+      "artist": "Henrique & Juliano",
+      "this_week": 162,
+      "last_week": 145,
+      "peak_position": 129,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Say You Won't Let Go",
+      "artist": "James Arthur",
+      "this_week": 163,
+      "last_week": 150,
+      "peak_position": 96,
+      "weeks_on_chart": 56,
+      "new": false
+    },
+    {
+      "song": "I Guess I'm In Love",
+      "artist": "Clinton Kane",
+      "this_week": 164,
+      "last_week": 151,
+      "peak_position": 61,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Streets",
+      "artist": "Doja Cat",
+      "this_week": 165,
+      "last_week": 153,
+      "peak_position": 8,
+      "weeks_on_chart": 43,
+      "new": false
+    },
+    {
+      "song": "Arcade",
+      "artist": "Duncan Laurence",
+      "this_week": 166,
+      "last_week": 141,
+      "peak_position": 36,
+      "weeks_on_chart": 40,
+      "new": false
+    },
+    {
+      "song": "Despacito",
+      "artist": "Luis Fonsi & Daddy Yankee Featuring Justin Bieber",
+      "this_week": 167,
+      "last_week": 162,
+      "peak_position": 114,
+      "weeks_on_chart": 57,
+      "new": false
+    },
+    {
+      "song": "Chasing After You",
+      "artist": "Ryan Hurd With Maren Morris",
+      "this_week": 168,
+      "last_week": 136,
+      "peak_position": 118,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Ain't Shit",
+      "artist": "Doja Cat",
+      "this_week": 169,
+      "last_week": 138,
+      "peak_position": 24,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Without Me",
+      "artist": "Eminem",
+      "this_week": 170,
+      "last_week": 169,
+      "peak_position": 169,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Smells Like Teen Spirit",
+      "artist": "Nirvana",
+      "this_week": 171,
+      "last_week": 159,
+      "peak_position": 92,
+      "weeks_on_chart": 44,
+      "new": false
+    },
+    {
+      "song": "Esta Danada",
+      "artist": "Ivan Cornejo",
+      "this_week": 172,
+      "last_week": 112,
+      "peak_position": 73,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Heartbreak Anniversary",
+      "artist": "Giveon",
+      "this_week": 173,
+      "last_week": 142,
+      "peak_position": 10,
+      "weeks_on_chart": 38,
+      "new": false
+    },
+    {
+      "song": "Tiroteo",
+      "artist": "Marc Segui & Pol Granch & Rauw Alejandro",
+      "this_week": 174,
+      "last_week": 154,
+      "peak_position": 63,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Senorita",
+      "artist": "Shawn Mendes & Camila Cabello",
+      "this_week": 175,
+      "last_week": 160,
+      "peak_position": 67,
+      "weeks_on_chart": 61,
+      "new": false
+    },
+    {
+      "song": "Yoru Ni Kakeru",
+      "artist": "YOASOBI",
+      "this_week": 176,
+      "last_week": 168,
+      "peak_position": 16,
+      "weeks_on_chart": 61,
+      "new": false
+    },
+    {
+      "song": "Thinking Out Loud",
+      "artist": "Ed Sheeran",
+      "this_week": 177,
+      "last_week": 165,
+      "peak_position": 103,
+      "weeks_on_chart": 52,
+      "new": false
+    },
+    {
+      "song": "Hello",
+      "artist": "Adele",
+      "this_week": 178,
+      "last_week": 113,
+      "peak_position": 71,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "You Are The Reason",
+      "artist": "Calum Scott & Leona Lewis",
+      "this_week": 179,
+      "last_week": 164,
+      "peak_position": 156,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Whats Poppin",
+      "artist": "Jack Harlow Featuring DaBaby, Tory Lanez & Lil Wayne",
+      "this_week": 180,
+      "last_week": 166,
+      "peak_position": 17,
+      "weeks_on_chart": 61,
+      "new": false
+    },
+    {
+      "song": "Sharing Locations",
+      "artist": "Meek Mill Featuring Lil Baby & Lil Durk",
+      "this_week": 181,
+      "last_week": 149,
+      "peak_position": 42,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Nuestra Cancion",
+      "artist": "Monsieur Perine Featuring Vicente Garcia",
+      "this_week": 182,
+      "last_week": null,
+      "peak_position": 182,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Dark Red",
+      "artist": "Steve Lacy",
+      "this_week": 183,
+      "last_week": 175,
+      "peak_position": 132,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Chosen",
+      "artist": "Blxst & Tyga Featuring Ty Dolla $ign",
+      "this_week": 184,
+      "last_week": 156,
+      "peak_position": 101,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "XOXO",
+      "artist": "JEON SOMI",
+      "this_week": 185,
+      "last_week": null,
+      "peak_position": 185,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Memories",
+      "artist": "Maroon 5",
+      "this_week": 186,
+      "last_week": 171,
+      "peak_position": 71,
+      "weeks_on_chart": 61,
+      "new": false
+    },
+    {
+      "song": "Fiel",
+      "artist": "Los Legendarios, Wisin & Jhay Cortez",
+      "this_week": 187,
+      "last_week": 176,
+      "peak_position": 13,
+      "weeks_on_chart": 34,
+      "new": false
+    },
+    {
+      "song": "Photograph",
+      "artist": "Ed Sheeran",
+      "this_week": 188,
+      "last_week": 189,
+      "peak_position": 186,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Don't Stop Believin'",
+      "artist": "Journey",
+      "this_week": 189,
+      "last_week": 177,
+      "peak_position": 125,
+      "weeks_on_chart": 55,
+      "new": false
+    },
+    {
+      "song": "Set Fire To The Rain",
+      "artist": "Adele",
+      "this_week": 190,
+      "last_week": 111,
+      "peak_position": 64,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Take On Me",
+      "artist": "a-ha",
+      "this_week": 191,
+      "last_week": 200,
+      "peak_position": 162,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Suiheisen",
+      "artist": "back number",
+      "this_week": 192,
+      "last_week": 181,
+      "peak_position": 123,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "34+35",
+      "artist": "Ariana Grande",
+      "this_week": 193,
+      "last_week": 174,
+      "peak_position": 2,
+      "weeks_on_chart": 53,
+      "new": false
+    },
+    {
+      "song": "Send My Love (To Your New Lover)",
+      "artist": "Adele",
+      "this_week": 194,
+      "last_week": 117,
+      "peak_position": 79,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Another One Bites The Dust",
+      "artist": "Queen",
+      "this_week": 195,
+      "last_week": 198,
+      "peak_position": 159,
+      "weeks_on_chart": 26,
+      "new": false
+    },
+    {
+      "song": "You Broke Me First.",
+      "artist": "Tate McRae",
+      "this_week": 196,
+      "last_week": 173,
+      "peak_position": 16,
+      "weeks_on_chart": 60,
+      "new": false
+    },
+    {
+      "song": "Tell It To My Heart",
+      "artist": "Meduza Featuring Hozier",
+      "this_week": 197,
+      "last_week": null,
+      "peak_position": 197,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Favorite",
+      "artist": "NCT 127",
+      "this_week": 198,
+      "last_week": 186,
+      "peak_position": 186,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "The Nights",
+      "artist": "Avicii",
+      "this_week": 199,
+      "last_week": 199,
+      "peak_position": 177,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Thunderstruck",
+      "artist": "AC/DC",
+      "this_week": 200,
+      "last_week": 190,
+      "peak_position": 167,
+      "weeks_on_chart": 32,
+      "new": false
+    }
+  ]
+}

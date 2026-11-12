@@ -1,0 +1,455 @@
+{
+  "date": "2014-11-15",
+  "data": [
+    {
+      "song": "Rather Be",
+      "artist": "Clean Bandit Featuring Jess Glynne",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 39,
+      "new": false
+    },
+    {
+      "song": "Blame",
+      "artist": "Calvin Harris Featuring John Newman",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Waves",
+      "artist": "Mr. Probz",
+      "this_week": 3,
+      "last_week": 4,
+      "peak_position": 3,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Break Free",
+      "artist": "Ariana Grande Featuring Zedd",
+      "this_week": 4,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "A Sky Full Of Stars",
+      "artist": "Coldplay",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 3,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Turn Down For What",
+      "artist": "DJ Snake & Lil Jon",
+      "this_week": 6,
+      "last_week": 6,
+      "peak_position": 1,
+      "weeks_on_chart": 47,
+      "new": false
+    },
+    {
+      "song": "Heroes (We Could Be)",
+      "artist": "Alesso Featuring Tove Lo",
+      "this_week": 7,
+      "last_week": 8,
+      "peak_position": 7,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Summer",
+      "artist": "Calvin Harris",
+      "this_week": 8,
+      "last_week": 9,
+      "peak_position": 1,
+      "weeks_on_chart": 34,
+      "new": false
+    },
+    {
+      "song": "Dangerous",
+      "artist": "David Guetta Featuring Sam Martin",
+      "this_week": 9,
+      "last_week": 11,
+      "peak_position": 9,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Hideaway",
+      "artist": "Kiesza",
+      "this_week": 10,
+      "last_week": 10,
+      "peak_position": 7,
+      "weeks_on_chart": 28,
+      "new": false
+    },
+    {
+      "song": "Outside",
+      "artist": "Calvin Harris Featuring Ellie Goulding",
+      "this_week": 11,
+      "last_week": 7,
+      "peak_position": 7,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Prayer In C",
+      "artist": "Lillywood & Robin Schulz",
+      "this_week": 12,
+      "last_week": 13,
+      "peak_position": 11,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Open Wide",
+      "artist": "Calvin Harris Featuring Big Sean",
+      "this_week": 13,
+      "last_week": null,
+      "peak_position": 13,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "The Days",
+      "artist": "Avicii",
+      "this_week": 14,
+      "last_week": 12,
+      "peak_position": 8,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Faded",
+      "artist": "Zhu",
+      "this_week": 15,
+      "last_week": 14,
+      "peak_position": 14,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Bend Ova",
+      "artist": "Lil Jon Featuring Tyga",
+      "this_week": 16,
+      "last_week": 16,
+      "peak_position": 10,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Ghost",
+      "artist": "Mystery Skulls",
+      "this_week": 17,
+      "last_week": null,
+      "peak_position": 17,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Delirious (Boneless)",
+      "artist": "Steve Aoki, Chris Lake & Tujamo Featuring Kid Ink",
+      "this_week": 18,
+      "last_week": 15,
+      "peak_position": 9,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Kanye",
+      "artist": "The Chainsmokers Featuring Siren",
+      "this_week": 19,
+      "last_week": 17,
+      "peak_position": 16,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Runaway (U & I)",
+      "artist": "Galantis",
+      "this_week": 20,
+      "last_week": 20,
+      "peak_position": 20,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Lovers On The Sun",
+      "artist": "David Guetta Featuring Sam Martin",
+      "this_week": 21,
+      "last_week": 18,
+      "peak_position": 12,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Blind Heart",
+      "artist": "Cazzette Featuring Terri B!",
+      "this_week": 22,
+      "last_week": 23,
+      "peak_position": 22,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Hangover",
+      "artist": "PSY Featuring Snoop Dogg",
+      "this_week": 23,
+      "last_week": 21,
+      "peak_position": 4,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Slow Acid",
+      "artist": "Calvin Harris",
+      "this_week": 24,
+      "last_week": 19,
+      "peak_position": 19,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "When We Were Young",
+      "artist": "Dillon Francis & Sultan & Ned Shepard Featuring The Chain Gang of 1974",
+      "this_week": 25,
+      "last_week": 35,
+      "peak_position": 25,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Elevation",
+      "artist": "Erasure",
+      "this_week": 26,
+      "last_week": 25,
+      "peak_position": 25,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Won't Look Back",
+      "artist": "Duke Dumont",
+      "this_week": 27,
+      "last_week": 27,
+      "peak_position": 19,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Say My Name",
+      "artist": "ODESZA Featuring Zyra",
+      "this_week": 28,
+      "last_week": 24,
+      "peak_position": 24,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Lionhearted",
+      "artist": "Porter Robinson Featuring Urban Cone",
+      "this_week": 29,
+      "last_week": 33,
+      "peak_position": 27,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "One Life",
+      "artist": "Chris Willis & Joachim Garraud",
+      "this_week": 30,
+      "last_week": 29,
+      "peak_position": 29,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Nobody To Love",
+      "artist": "Sigma",
+      "this_week": 31,
+      "last_week": 31,
+      "peak_position": 29,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Hustlin'",
+      "artist": "Vassy, Crazibiza And Dave Aude",
+      "this_week": 32,
+      "last_week": 37,
+      "peak_position": 32,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Take U There",
+      "artist": "Skrillex & Diplo Featuring Kiesza",
+      "this_week": 33,
+      "last_week": 28,
+      "peak_position": 19,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Surrender",
+      "artist": "Cash Cash",
+      "this_week": 34,
+      "last_week": 30,
+      "peak_position": 21,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Turn Up The Speakers",
+      "artist": "Afrojack & Martin Garrix",
+      "this_week": 35,
+      "last_week": 26,
+      "peak_position": 20,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Freaks",
+      "artist": "Timmy Trumpet And Savage",
+      "this_week": 36,
+      "last_week": null,
+      "peak_position": 36,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Papaoutai",
+      "artist": "Stromae",
+      "this_week": 37,
+      "last_week": 32,
+      "peak_position": 25,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Hyper Love",
+      "artist": "Ferry Corsten Featuring Nat Dunn",
+      "this_week": 38,
+      "last_week": 38,
+      "peak_position": 21,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Rock This Party",
+      "artist": "Fuzztroniks",
+      "this_week": 39,
+      "last_week": 45,
+      "peak_position": 39,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Gold Skies",
+      "artist": "Sander Van Doorn, Martin Garrix, DVBBS Featuring Aleesia",
+      "this_week": 40,
+      "last_week": 39,
+      "peak_position": 30,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Angel",
+      "artist": "Ono",
+      "this_week": 41,
+      "last_week": 22,
+      "peak_position": 22,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Real Love",
+      "artist": "Clean Bandit & Jess Glynne",
+      "this_week": 42,
+      "last_week": 34,
+      "peak_position": 34,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Wasted Love",
+      "artist": "Steve Angello Featuring Dougy",
+      "this_week": 43,
+      "last_week": 36,
+      "peak_position": 26,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Tommy's Theme",
+      "artist": "Noisia",
+      "this_week": 44,
+      "last_week": 47,
+      "peak_position": 44,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Love In The Middle Of A Firefight",
+      "artist": "Dillon Francis Featuring Brendon Urie",
+      "this_week": 45,
+      "last_week": null,
+      "peak_position": 45,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Up All Night",
+      "artist": "Arty Featuring Angel Taylor",
+      "this_week": 46,
+      "last_week": 42,
+      "peak_position": 41,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Set Me Free",
+      "artist": "Dillon Francis & Martin Garrix",
+      "this_week": 47,
+      "last_week": null,
+      "peak_position": 24,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Tremor (Sensation 2014 Anthem)",
+      "artist": "Dimitri Vegas & Martin Garrix & Like Mike",
+      "this_week": 48,
+      "last_week": 46,
+      "peak_position": 39,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "I Wanna Feel",
+      "artist": "Secondcity",
+      "this_week": 49,
+      "last_week": 40,
+      "peak_position": 25,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Gecko (Overdrive)",
+      "artist": "Oliver Heldens X Becky Hill",
+      "this_week": 50,
+      "last_week": 41,
+      "peak_position": 33,
+      "weeks_on_chart": 16,
+      "new": false
+    }
+  ]
+}

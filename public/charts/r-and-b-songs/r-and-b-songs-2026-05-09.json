@@ -1,0 +1,230 @@
+{
+  "date": "2026-05-09",
+  "data": [
+    {
+      "song": "I Just Might",
+      "artist": "Bruno Mars",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Folded",
+      "artist": "Kehlani",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 46,
+      "new": false
+    },
+    {
+      "song": "Yukon",
+      "artist": "Justin Bieber",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 42,
+      "new": false
+    },
+    {
+      "song": "Billie Jean",
+      "artist": "Michael Jackson",
+      "this_week": 4,
+      "last_week": null,
+      "peak_position": 4,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Beat It",
+      "artist": "Michael Jackson",
+      "this_week": 5,
+      "last_week": null,
+      "peak_position": 5,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Human Nature",
+      "artist": "Michael Jackson",
+      "this_week": 6,
+      "last_week": null,
+      "peak_position": 6,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Don't Stop 'Til You Get Enough",
+      "artist": "Michael Jackson",
+      "this_week": 7,
+      "last_week": null,
+      "peak_position": 7,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Rock With You",
+      "artist": "Michael Jackson",
+      "this_week": 8,
+      "last_week": null,
+      "peak_position": 8,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Confident",
+      "artist": "Justin Bieber Featuring Chance the Rapper",
+      "this_week": 9,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 26,
+      "new": false
+    },
+    {
+      "song": "P.Y.T. (Pretty Young Thing)",
+      "artist": "Michael Jackson",
+      "this_week": 10,
+      "last_week": null,
+      "peak_position": 10,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Shoulda Never",
+      "artist": "Kehlani Featuring Usher",
+      "this_week": 11,
+      "last_week": null,
+      "peak_position": 11,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "What You Need",
+      "artist": "Tems",
+      "this_week": 12,
+      "last_week": 5,
+      "peak_position": 4,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Obvious",
+      "artist": "Chris Brown",
+      "this_week": 13,
+      "last_week": 6,
+      "peak_position": 5,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Anotha Luva",
+      "artist": "Kehlani Featuring Lil Wayne",
+      "this_week": 14,
+      "last_week": null,
+      "peak_position": 14,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "I Need You",
+      "artist": "Kehlani Featuring Brandy",
+      "this_week": 15,
+      "last_week": null,
+      "peak_position": 15,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Noble",
+      "artist": "F3miii",
+      "this_week": 16,
+      "last_week": 9,
+      "peak_position": 9,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Oooh",
+      "artist": "Kehlani",
+      "this_week": 17,
+      "last_week": null,
+      "peak_position": 17,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Out The Window",
+      "artist": "Kehlani",
+      "this_week": 18,
+      "last_week": 24,
+      "peak_position": 7,
+      "weeks_on_chart": 25,
+      "new": false
+    },
+    {
+      "song": "Butterflies.",
+      "artist": "Brent Faiyaz",
+      "this_week": 19,
+      "last_week": 7,
+      "peak_position": 5,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "No Such Thing",
+      "artist": "Kehlani Featuring Clipse",
+      "this_week": 20,
+      "last_week": null,
+      "peak_position": 20,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Pocket",
+      "artist": "Kehlani Featuring Cardi B",
+      "this_week": 21,
+      "last_week": null,
+      "peak_position": 21,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Back And Forth",
+      "artist": "Kehlani Featuring Missy Elliott",
+      "this_week": 22,
+      "last_week": 19,
+      "peak_position": 10,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Sweet Nuthins",
+      "artist": "Kehlani Featuring Leon Thomas",
+      "this_week": 23,
+      "last_week": null,
+      "peak_position": 23,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Lights On",
+      "artist": "Kehlani Featuring Big Sean",
+      "this_week": 24,
+      "last_week": null,
+      "peak_position": 24,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Still",
+      "artist": "Kehlani",
+      "this_week": 25,
+      "last_week": null,
+      "peak_position": 25,
+      "weeks_on_chart": 1,
+      "new": true
+    }
+  ]
+}

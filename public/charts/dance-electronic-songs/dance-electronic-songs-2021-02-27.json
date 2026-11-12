@@ -1,0 +1,455 @@
+{
+  "date": "2021-02-27",
+  "data": [
+    {
+      "song": "Goosebumps",
+      "artist": "Travis Scott & HVME",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "ily",
+      "artist": "Surf Mesa Featuring Emilee",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 50,
+      "new": false
+    },
+    {
+      "song": "Roses (Imanbek Remix)",
+      "artist": "Saint Jhn",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 49,
+      "new": false
+    },
+    {
+      "song": "The Business",
+      "artist": "Tiesto",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Rain On Me",
+      "artist": "Lady Gaga & Ariana Grande",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 1,
+      "weeks_on_chart": 40,
+      "new": false
+    },
+    {
+      "song": "Paradise",
+      "artist": "Meduza & Dermot Kennedy",
+      "this_week": 6,
+      "last_week": 6,
+      "peak_position": 6,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Lasting Lover",
+      "artist": "Sigala. & James Arthur",
+      "this_week": 7,
+      "last_week": 7,
+      "peak_position": 7,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "Head & Heart",
+      "artist": "Joel Corry X MNEK",
+      "this_week": 8,
+      "last_week": 8,
+      "peak_position": 3,
+      "weeks_on_chart": 33,
+      "new": false
+    },
+    {
+      "song": "Higher",
+      "artist": "Clean Bandit Featuring iann dior",
+      "this_week": 9,
+      "last_week": 9,
+      "peak_position": 9,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Rasputin",
+      "artist": "Boney M.",
+      "this_week": 10,
+      "last_week": null,
+      "peak_position": 10,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Big",
+      "artist": "Rita Ora x David Guetta x Imanbek Featuring Gunna",
+      "this_week": 11,
+      "last_week": null,
+      "peak_position": 11,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Your Love (9PM)",
+      "artist": "ATB x Topic x A7S",
+      "this_week": 12,
+      "last_week": 13,
+      "peak_position": 12,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "OK Not To Be OK",
+      "artist": "Marshmello & Demi Lovato",
+      "this_week": 13,
+      "last_week": 12,
+      "peak_position": 2,
+      "weeks_on_chart": 24,
+      "new": false
+    },
+    {
+      "song": "I Want Love",
+      "artist": "Gryffin & Two Feet",
+      "this_week": 14,
+      "last_week": null,
+      "peak_position": 14,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Pressure",
+      "artist": "Martin Garrix Featuring Tove Lo",
+      "this_week": 15,
+      "last_week": 10,
+      "peak_position": 10,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Nobody",
+      "artist": "NOTD & Catello",
+      "this_week": 16,
+      "last_week": 14,
+      "peak_position": 13,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Opportunities (Let's Make Lots Of Money)",
+      "artist": "Pet Shop Boys",
+      "this_week": 17,
+      "last_week": null,
+      "peak_position": 17,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Floating Through Space",
+      "artist": "Sia X David Guetta",
+      "this_week": 18,
+      "last_week": 11,
+      "peak_position": 11,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Goodbye",
+      "artist": "Imanbek & GOODBOYS",
+      "this_week": 19,
+      "last_week": 26,
+      "peak_position": 19,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Nightlight",
+      "artist": "Illenium",
+      "this_week": 20,
+      "last_week": 16,
+      "peak_position": 8,
+      "weeks_on_chart": 25,
+      "new": false
+    },
+    {
+      "song": "That Kind Of Woman (Jacques Lu Cont Remix)",
+      "artist": "Dua Lipa + The Blessed Madonna",
+      "this_week": 21,
+      "last_week": null,
+      "peak_position": 21,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Jenny (I Wanna Ruin Our Friendship)",
+      "artist": "Studio Killers",
+      "this_week": 22,
+      "last_week": 15,
+      "peak_position": 7,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Stronger",
+      "artist": "Sam Feldt Featuring Kesha",
+      "this_week": 23,
+      "last_week": 21,
+      "peak_position": 13,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Lovefool",
+      "artist": "twocolors",
+      "this_week": 24,
+      "last_week": 18,
+      "peak_position": 17,
+      "weeks_on_chart": 25,
+      "new": false
+    },
+    {
+      "song": "Hate You + Love You",
+      "artist": "Cheat Codes & AJ Mitchell",
+      "this_week": 25,
+      "last_week": 20,
+      "peak_position": 20,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Hearts On Fire",
+      "artist": "Illenium, Dabin & Lights",
+      "this_week": 26,
+      "last_week": 19,
+      "peak_position": 11,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Turn Back Time",
+      "artist": "Diplo + Sonny Fodera",
+      "this_week": 27,
+      "last_week": 17,
+      "peak_position": 17,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Look At The Sky",
+      "artist": "Porter Robinson",
+      "this_week": 28,
+      "last_week": 22,
+      "peak_position": 12,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "New Love",
+      "artist": "Silk City Featuring Ellie Goulding",
+      "this_week": 29,
+      "last_week": 24,
+      "peak_position": 12,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Dandelion",
+      "artist": "Galantis & JVKE",
+      "this_week": 30,
+      "last_week": 25,
+      "peak_position": 19,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Safe With Me",
+      "artist": "Gryffin & Audrey Mika",
+      "this_week": 31,
+      "last_week": 23,
+      "peak_position": 13,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Too Much",
+      "artist": "Marshmello & Imanbek Featuring Usher",
+      "this_week": 32,
+      "last_week": 27,
+      "peak_position": 8,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Friday",
+      "artist": "Riton X Nightcrawlers Featuring Mufasa & Hypeman",
+      "this_week": 33,
+      "last_week": 34,
+      "peak_position": 33,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "I Miss U",
+      "artist": "Jax Jones & Au/Ra",
+      "this_week": 34,
+      "last_week": 30,
+      "peak_position": 13,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Don't Play",
+      "artist": "Anne-Marie x KSI x Digital Farm Animals",
+      "this_week": 35,
+      "last_week": 37,
+      "peak_position": 12,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "All About You",
+      "artist": "The Knocks Featuring Foster the People",
+      "this_week": 36,
+      "last_week": 33,
+      "peak_position": 26,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Inside Out",
+      "artist": "Zedd & Griff",
+      "this_week": 37,
+      "last_week": 48,
+      "peak_position": 12,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "UK, Hun? (United Kingdolls)",
+      "artist": "The Cast Of RuPaul's Drag Race UK, Season 2",
+      "this_week": 38,
+      "last_week": null,
+      "peak_position": 38,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "You've Done Enough",
+      "artist": "Gorgon City + DRAMA",
+      "this_week": 39,
+      "last_week": 36,
+      "peak_position": 30,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "2 Phut Hon",
+      "artist": "Phao",
+      "this_week": 40,
+      "last_week": 39,
+      "peak_position": 39,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Come Back Home",
+      "artist": "Petey Martin Featuring Lauren Daigle",
+      "this_week": 41,
+      "last_week": 28,
+      "peak_position": 18,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Like Gold",
+      "artist": "Loud Luxury & Frank Walker Featuring Stephen Puth",
+      "this_week": 42,
+      "last_week": 44,
+      "peak_position": 26,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Regardless",
+      "artist": "RAYE & Rudimental",
+      "this_week": 43,
+      "last_week": 42,
+      "peak_position": 35,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "All We Got",
+      "artist": "Robin Schulz Featuring Kiddo",
+      "this_week": 44,
+      "last_week": 40,
+      "peak_position": 20,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Deep End",
+      "artist": "John Summit",
+      "this_week": 45,
+      "last_week": 46,
+      "peak_position": 26,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "One More",
+      "artist": "Sg Lewis & Nile Rodgers",
+      "this_week": 46,
+      "last_week": 31,
+      "peak_position": 31,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Lovelife",
+      "artist": "Benny Benassi & Jeremih",
+      "this_week": 47,
+      "last_week": null,
+      "peak_position": 28,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Ones You Miss",
+      "artist": "R3hab",
+      "this_week": 48,
+      "last_week": 35,
+      "peak_position": 30,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Violence",
+      "artist": "Grimes & i_o",
+      "this_week": 49,
+      "last_week": 43,
+      "peak_position": 19,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Stay",
+      "artist": "Cheat Codes & Bryce Vine",
+      "this_week": 50,
+      "last_week": 50,
+      "peak_position": 19,
+      "weeks_on_chart": 15,
+      "new": false
+    }
+  ]
+}

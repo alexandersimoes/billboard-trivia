@@ -1,0 +1,365 @@
+{
+  "date": "2026-11-14",
+  "data": [
+    {
+      "song": "R.I.P.",
+      "artist": "Motionless in White Featuring Skylar Grey",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Happy Feels Like",
+      "artist": "Ninth Key",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Nails In The Coffin",
+      "artist": "Five Finger Death Punch",
+      "this_week": 3,
+      "last_week": 5,
+      "peak_position": 3,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Beaches In Tennessee",
+      "artist": "Cage the Elephant",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Window",
+      "artist": "Foo Fighters",
+      "this_week": 5,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Dominate",
+      "artist": "Three Days Grace",
+      "this_week": 6,
+      "last_week": 10,
+      "peak_position": 6,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Do It For The Love",
+      "artist": "Letdown.",
+      "this_week": 7,
+      "last_week": 7,
+      "peak_position": 7,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Ghosts",
+      "artist": "Staind",
+      "this_week": 8,
+      "last_week": 13,
+      "peak_position": 8,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Crying Fire",
+      "artist": "Avatar",
+      "this_week": 9,
+      "last_week": 8,
+      "peak_position": 8,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Tell Me When You've Had Enough",
+      "artist": "Evanescence",
+      "this_week": 10,
+      "last_week": 9,
+      "peak_position": 9,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "See U in Hell",
+      "artist": "Papa Roach & Hanumankind",
+      "this_week": 11,
+      "last_week": 6,
+      "peak_position": 3,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "I Want To Believe",
+      "artist": "In This Moment Featuring Dayseeker",
+      "this_week": 12,
+      "last_week": 16,
+      "peak_position": 12,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Cold",
+      "artist": "Dead Poet Society",
+      "this_week": 13,
+      "last_week": 14,
+      "peak_position": 13,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Ten Over Ten",
+      "artist": "Royal Blood",
+      "this_week": 14,
+      "last_week": 18,
+      "peak_position": 14,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Rattle The Cage",
+      "artist": "Nickelback Featuring John 5",
+      "this_week": 15,
+      "last_week": 15,
+      "peak_position": 1,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Tear It Down",
+      "artist": "Greta Van Fleet",
+      "this_week": 16,
+      "last_week": 19,
+      "peak_position": 16,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Die For You",
+      "artist": "From Ashes To New",
+      "this_week": 17,
+      "last_week": 11,
+      "peak_position": 1,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Beautiful Again",
+      "artist": "Beartooth",
+      "this_week": 18,
+      "last_week": 20,
+      "peak_position": 18,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Blindfold",
+      "artist": "Wage War",
+      "this_week": 19,
+      "last_week": 17,
+      "peak_position": 14,
+      "weeks_on_chart": 23,
+      "new": false
+    },
+    {
+      "song": "Mourning",
+      "artist": "Spiritbox",
+      "this_week": 20,
+      "last_week": 23,
+      "peak_position": 20,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Machine",
+      "artist": "Architects",
+      "this_week": 21,
+      "last_week": 21,
+      "peak_position": 21,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Jolene",
+      "artist": "Bad Wolves With Dolly Parton",
+      "this_week": 22,
+      "last_week": 24,
+      "peak_position": 22,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Young Again",
+      "artist": "Shinedown",
+      "this_week": 23,
+      "last_week": 22,
+      "peak_position": 1,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Crestfallen",
+      "artist": "Imminence",
+      "this_week": 24,
+      "last_week": 27,
+      "peak_position": 24,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Bury Me",
+      "artist": "Moon Fever",
+      "this_week": 25,
+      "last_week": 26,
+      "peak_position": 24,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Black Stars",
+      "artist": "The Smashing Pumpkins",
+      "this_week": 26,
+      "last_week": 31,
+      "peak_position": 26,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Flying Blind",
+      "artist": "Slash Featuring Myles Kennedy And The Conspirators",
+      "this_week": 27,
+      "last_week": 29,
+      "peak_position": 27,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Cut",
+      "artist": "Black Veil Brides & Lilith Czar",
+      "this_week": 28,
+      "last_week": 28,
+      "peak_position": 28,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Lights Out",
+      "artist": "Dirty Honey",
+      "this_week": 29,
+      "last_week": 33,
+      "peak_position": 29,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Last Breath",
+      "artist": "Nevertel",
+      "this_week": 30,
+      "last_week": 30,
+      "peak_position": 30,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Shapeshift",
+      "artist": "Dayseeker",
+      "this_week": 31,
+      "last_week": 38,
+      "peak_position": 31,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Blame It On The Wind",
+      "artist": "Butcher Babies",
+      "this_week": 32,
+      "last_week": 34,
+      "peak_position": 32,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "a n n 1 h 1 l a t 1 0 n",
+      "artist": "Starset",
+      "this_week": 33,
+      "last_week": 32,
+      "peak_position": 32,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Bite My Tongue",
+      "artist": "The Warning",
+      "this_week": 34,
+      "last_week": 35,
+      "peak_position": 34,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Take Me As I Am",
+      "artist": "Billy Morrison",
+      "this_week": 35,
+      "last_week": 37,
+      "peak_position": 35,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Red Alert",
+      "artist": "Catch Your Breath",
+      "this_week": 36,
+      "last_week": 36,
+      "peak_position": 36,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Sleepwalker",
+      "artist": "PRESIDENT",
+      "this_week": 37,
+      "last_week": 39,
+      "peak_position": 37,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Giving In",
+      "artist": "Sleep Theory",
+      "this_week": 38,
+      "last_week": null,
+      "peak_position": 38,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Alone On Your Planet",
+      "artist": "The Haunt",
+      "this_week": 39,
+      "last_week": null,
+      "peak_position": 39,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Ozzy's Song",
+      "artist": "Black Label Society",
+      "this_week": 40,
+      "last_week": null,
+      "peak_position": 40,
+      "weeks_on_chart": 1,
+      "new": true
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "date": "2025-12-27",
+  "data": [
+    {
+      "song": "FDO",
+      "artist": "Pooh Shiesty",
+      "this_week": 1,
+      "last_week": null,
+      "peak_position": 1,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Mr Recoup",
+      "artist": "21 Savage & Drake",
+      "this_week": 2,
+      "last_week": null,
+      "peak_position": 2,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "wgft",
+      "artist": "Gunna Featuring Burna Boy",
+      "this_week": 3,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Hell At Night",
+      "artist": "BigXthaPlug Featuring Ella Langley",
+      "this_week": 4,
+      "last_week": 3,
+      "peak_position": 2,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Shot Callin",
+      "artist": "YoungBoy Never Broke Again",
+      "this_week": 5,
+      "last_week": 4,
+      "peak_position": 2,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "All The Way",
+      "artist": "BigXthaPlug Featuring Bailey Zimmerman",
+      "this_week": 6,
+      "last_week": 5,
+      "peak_position": 1,
+      "weeks_on_chart": 37,
+      "new": false
+    },
+    {
+      "song": "HA",
+      "artist": "21 Savage",
+      "this_week": 7,
+      "last_week": null,
+      "peak_position": 7,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Take Me Thru Dere",
+      "artist": "Metro Boomin, Quavo, Breskii & YKNIECE",
+      "this_week": 8,
+      "last_week": 7,
+      "peak_position": 6,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "ErrTime",
+      "artist": "Cardi B",
+      "this_week": 9,
+      "last_week": 8,
+      "peak_position": 4,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Where You From",
+      "artist": "21 Savage",
+      "this_week": 10,
+      "last_week": null,
+      "peak_position": 10,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Stepbrothers",
+      "artist": "21 Savage & Young Nudy",
+      "this_week": 11,
+      "last_week": null,
+      "peak_position": 11,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Dog $hit",
+      "artist": "21 Savage & GloRilla",
+      "this_week": 12,
+      "last_week": null,
+      "peak_position": 12,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "4 Raws",
+      "artist": "EsDeeKid",
+      "this_week": 13,
+      "last_week": 11,
+      "peak_position": 11,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "3am",
+      "artist": "Loe Shimmy & Don Toliver",
+      "this_week": 14,
+      "last_week": 9,
+      "peak_position": 9,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Phantom",
+      "artist": "EsDeeKid & Rico Ace",
+      "this_week": 15,
+      "last_week": 16,
+      "peak_position": 15,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Pop It",
+      "artist": "21 Savage & Latto",
+      "this_week": 16,
+      "last_week": null,
+      "peak_position": 16,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "The Acronym",
+      "artist": "Ken Carson & Destroy Lonely",
+      "this_week": 17,
+      "last_week": null,
+      "peak_position": 17,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Code Of Honor",
+      "artist": "21 Savage & G Herbo",
+      "this_week": 18,
+      "last_week": null,
+      "peak_position": 18,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Come N Go",
+      "artist": "Yeat",
+      "this_week": 19,
+      "last_week": 10,
+      "peak_position": 10,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "J.O.W.Y.H (JUMP OUT)",
+      "artist": "21 Savage",
+      "this_week": 20,
+      "last_week": null,
+      "peak_position": 20,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Don't Kill The Party",
+      "artist": "Ty Dolla $ign Featuring Quavo & Juicy J",
+      "this_week": 21,
+      "last_week": null,
+      "peak_position": 21,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "What You Is",
+      "artist": "YoungBoy Never Broke Again & Mellow Rackz",
+      "this_week": 22,
+      "last_week": 12,
+      "peak_position": 9,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "Fear",
+      "artist": "NF",
+      "this_week": 23,
+      "last_week": 13,
+      "peak_position": 2,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Cup Full",
+      "artist": "21 Savage",
+      "this_week": 24,
+      "last_week": null,
+      "peak_position": 24,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "I Wish",
+      "artist": "21 Savage & Jawan Harris",
+      "this_week": 25,
+      "last_week": null,
+      "peak_position": 25,
+      "weeks_on_chart": 1,
+      "new": true
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "date": "2026-02-21",
+  "data": [
+    {
+      "song": "Two Six",
+      "artist": "J. Cole",
+      "this_week": 1,
+      "last_week": null,
+      "peak_position": 1,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "E85",
+      "artist": "Don Toliver",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Body",
+      "artist": "Don Toliver",
+      "this_week": 3,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "What You Saying",
+      "artist": "Lil Uzi Vert",
+      "this_week": 4,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Safety",
+      "artist": "J. Cole",
+      "this_week": 5,
+      "last_week": null,
+      "peak_position": 5,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Poor Thang",
+      "artist": "J. Cole",
+      "this_week": 6,
+      "last_week": null,
+      "peak_position": 6,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Who TF Iz U",
+      "artist": "J. Cole",
+      "this_week": 7,
+      "last_week": null,
+      "peak_position": 7,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Run A Train",
+      "artist": "J. Cole & Future",
+      "this_week": 8,
+      "last_week": null,
+      "peak_position": 8,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Bunce Road Blues",
+      "artist": "J. Cole, Tems & Future",
+      "this_week": 9,
+      "last_week": null,
+      "peak_position": 9,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Legacy",
+      "artist": "J. Cole & PJ",
+      "this_week": 10,
+      "last_week": null,
+      "peak_position": 10,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "The Let Out",
+      "artist": "J. Cole",
+      "this_week": 11,
+      "last_week": null,
+      "peak_position": 11,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Drum N Bass",
+      "artist": "J. Cole",
+      "this_week": 12,
+      "last_week": null,
+      "peak_position": 12,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Let 'Em Know",
+      "artist": "T.I.",
+      "this_week": 13,
+      "last_week": 14,
+      "peak_position": 13,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Bombs In The Ville/Hit The Gas",
+      "artist": "J. Cole",
+      "this_week": 14,
+      "last_week": null,
+      "peak_position": 14,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Secondhand",
+      "artist": "Don Toliver Featuring Rema",
+      "this_week": 15,
+      "last_week": 5,
+      "peak_position": 5,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "ATM",
+      "artist": "Don Toliver",
+      "this_week": 16,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Hell At Night",
+      "artist": "BigXthaPlug Featuring Ella Langley",
+      "this_week": 17,
+      "last_week": 15,
+      "peak_position": 2,
+      "weeks_on_chart": 27,
+      "new": false
+    },
+    {
+      "song": "39 Intro",
+      "artist": "J. Cole",
+      "this_week": 18,
+      "last_week": null,
+      "peak_position": 18,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Old Dog",
+      "artist": "J. Cole & Petey Pablo",
+      "this_week": 19,
+      "last_week": null,
+      "peak_position": 19,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "The Fall-Off Is Inevitable",
+      "artist": "J. Cole",
+      "this_week": 20,
+      "last_week": null,
+      "peak_position": 20,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "The Villest",
+      "artist": "J. Cole & Erykah Badu",
+      "this_week": 21,
+      "last_week": null,
+      "peak_position": 21,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Life Sentence",
+      "artist": "J. Cole",
+      "this_week": 22,
+      "last_week": null,
+      "peak_position": 22,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Lonely At The Top",
+      "artist": "J. Cole",
+      "this_week": 23,
+      "last_week": null,
+      "peak_position": 23,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Rendezvous",
+      "artist": "Don Toliver Featuring Yeat",
+      "this_week": 24,
+      "last_week": 6,
+      "peak_position": 6,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Only You",
+      "artist": "J. Cole & Burna Boy",
+      "this_week": 25,
+      "last_week": null,
+      "peak_position": 25,
+      "weeks_on_chart": 1,
+      "new": true
+    }
+  ]
+}

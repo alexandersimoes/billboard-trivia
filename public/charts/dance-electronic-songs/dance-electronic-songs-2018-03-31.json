@@ -1,0 +1,455 @@
+{
+  "date": "2018-03-31",
+  "data": [
+    {
+      "song": "The Middle",
+      "artist": "Zedd, Maren Morris & Grey",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Wolves",
+      "artist": "Selena Gomez X Marshmello",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Something Just Like This",
+      "artist": "The Chainsmokers & Coldplay",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 1,
+      "weeks_on_chart": 57,
+      "new": false
+    },
+    {
+      "song": "Let Me Go",
+      "artist": "Hailee Steinfeld & Alesso Featuring Florida Georgia Line & WATT",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 2,
+      "weeks_on_chart": 28,
+      "new": false
+    },
+    {
+      "song": "Everybody Hates Me",
+      "artist": "The Chainsmokers",
+      "this_week": 5,
+      "last_week": null,
+      "peak_position": 5,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Silence",
+      "artist": "Marshmello Featuring Khalid",
+      "this_week": 6,
+      "last_week": 5,
+      "peak_position": 1,
+      "weeks_on_chart": 32,
+      "new": false
+    },
+    {
+      "song": "Remind Me To Forget",
+      "artist": "Kygo Featuring Miguel",
+      "this_week": 7,
+      "last_week": null,
+      "peak_position": 7,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "No Promises",
+      "artist": "Cheat Codes Featuring Demi Lovato",
+      "this_week": 8,
+      "last_week": 6,
+      "peak_position": 2,
+      "weeks_on_chart": 51,
+      "new": false
+    },
+    {
+      "song": "Mad Love",
+      "artist": "Sean Paul + David Guetta Featuring Becky G",
+      "this_week": 9,
+      "last_week": 10,
+      "peak_position": 9,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Like I Do",
+      "artist": "David Guetta, Martin Garrix & Brooks",
+      "this_week": 10,
+      "last_week": 8,
+      "peak_position": 8,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "I Miss You",
+      "artist": "Clean Bandit Featuring Julia Michaels",
+      "this_week": 11,
+      "last_week": 9,
+      "peak_position": 6,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Alien",
+      "artist": "Sabrina Carpenter & Jonas Blue",
+      "this_week": 12,
+      "last_week": null,
+      "peak_position": 12,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Breathe",
+      "artist": "Jax Jones Featuring Ina Wroldsen",
+      "this_week": 13,
+      "last_week": 13,
+      "peak_position": 12,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Miss You",
+      "artist": "Cashmere Cat, Major Lazer & Tory Lanez",
+      "this_week": 14,
+      "last_week": 11,
+      "peak_position": 10,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Best Friend",
+      "artist": "Sofi Tukker Featuring NERVO, The Knocks & Alisa Ueno",
+      "this_week": 15,
+      "last_week": 12,
+      "peak_position": 5,
+      "weeks_on_chart": 23,
+      "new": false
+    },
+    {
+      "song": "Fly",
+      "artist": "Marshmello Featuring Leah Culver",
+      "this_week": 16,
+      "last_week": 7,
+      "peak_position": 7,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "So Far Away",
+      "artist": "Martin Garrix & David Guetta Featuring Jamie Scott & Romy Dya",
+      "this_week": 17,
+      "last_week": 14,
+      "peak_position": 11,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Kitty Girl",
+      "artist": "RuPaul Feautring The Cast Of RuPaul's Drag Race All Stars, Season 3",
+      "this_week": 18,
+      "last_week": null,
+      "peak_position": 18,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "I Wanna Know",
+      "artist": "RL Grime Featuring Daya",
+      "this_week": 19,
+      "last_week": null,
+      "peak_position": 19,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Body",
+      "artist": "Loud Luxury Featuring Brando",
+      "this_week": 20,
+      "last_week": 17,
+      "peak_position": 17,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Feels Great",
+      "artist": "Cheat Codes Featuring Fetty Wap & CVBZ",
+      "this_week": 21,
+      "last_week": 16,
+      "peak_position": 9,
+      "weeks_on_chart": 23,
+      "new": false
+    },
+    {
+      "song": "Azukita",
+      "artist": "Steve Aoki, Daddy Yankee, Play-N-Skillz & Elvis Crespo",
+      "this_week": 22,
+      "last_week": 18,
+      "peak_position": 16,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "All Falls Down",
+      "artist": "Alan Walker, Noah Cyrus & Digital Farm Animals",
+      "this_week": 23,
+      "last_week": 15,
+      "peak_position": 11,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "Boom",
+      "artist": "Tiesto, Gucci Mane & Sevenn",
+      "this_week": 24,
+      "last_week": 27,
+      "peak_position": 19,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Get It Right",
+      "artist": "Diplo Featuring Mo",
+      "this_week": 25,
+      "last_week": 21,
+      "peak_position": 12,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Magenta Riddim",
+      "artist": "DJ Snake",
+      "this_week": 26,
+      "last_week": 23,
+      "peak_position": 20,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "17",
+      "artist": "MK",
+      "this_week": 27,
+      "last_week": 26,
+      "peak_position": 26,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "You're Good For Me",
+      "artist": "Tony Moran Featuring Kimberly Davis",
+      "this_week": 28,
+      "last_week": 28,
+      "peak_position": 28,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Dreamer",
+      "artist": "Axwell & Ingrosso Featuring Trevor Guthrie",
+      "this_week": 29,
+      "last_week": 22,
+      "peak_position": 16,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Stranger Things",
+      "artist": "Kygo Featuring OneRepublic",
+      "this_week": 30,
+      "last_week": 25,
+      "peak_position": 13,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Crazy Enough",
+      "artist": "Joe Bermudez Featuring Louise Carver",
+      "this_week": 31,
+      "last_week": 31,
+      "peak_position": 31,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "I Am House",
+      "artist": "Crystal Waters, Sted-E & Hybrid Heights",
+      "this_week": 32,
+      "last_week": 37,
+      "peak_position": 32,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Nuh Ready Nuh Ready",
+      "artist": "Calvin Harris Featuring PARTYNEXTDOOR",
+      "this_week": 33,
+      "last_week": 29,
+      "peak_position": 11,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Lie",
+      "artist": "Shallou Featuring RIAH",
+      "this_week": 34,
+      "last_week": 32,
+      "peak_position": 32,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Sanctify",
+      "artist": "Years & Years",
+      "this_week": 35,
+      "last_week": 19,
+      "peak_position": 19,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Lullaby",
+      "artist": "R3hab & Mike Williams",
+      "this_week": 36,
+      "last_week": 38,
+      "peak_position": 27,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "My Life",
+      "artist": "Zhu & Tame Impala",
+      "this_week": 37,
+      "last_week": 20,
+      "peak_position": 20,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "High",
+      "artist": "Whethan & Dua Lipa",
+      "this_week": 38,
+      "last_week": 30,
+      "peak_position": 12,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "All Night",
+      "artist": "Steve Aoki & Lauren Jauregui",
+      "this_week": 39,
+      "last_week": 48,
+      "peak_position": 9,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Dirty Sexy Money",
+      "artist": "David Guetta & Afrojack Featuring Charli xcx And French Montana",
+      "this_week": 40,
+      "last_week": 36,
+      "peak_position": 13,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Lost",
+      "artist": "Vassy & Afrojack Featuring Oliver Rosa",
+      "this_week": 41,
+      "last_week": 43,
+      "peak_position": 41,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Ride Or Die",
+      "artist": "The Knocks Featuring Foster the People",
+      "this_week": 42,
+      "last_week": null,
+      "peak_position": 42,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Hearts Ain't Gonna Lie",
+      "artist": "Arlissa & Jonas Blue",
+      "this_week": 43,
+      "last_week": null,
+      "peak_position": 43,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Be Like You",
+      "artist": "Whethan Featuring Broods",
+      "this_week": 44,
+      "last_week": null,
+      "peak_position": 44,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Lullaby",
+      "artist": "Sigala. & Paloma Faith",
+      "this_week": 45,
+      "last_week": 42,
+      "peak_position": 42,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "The Wave",
+      "artist": "R3hab x Lia Marie Johnson",
+      "this_week": 46,
+      "last_week": 40,
+      "peak_position": 33,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Blocks",
+      "artist": "Marshmello",
+      "this_week": 47,
+      "last_week": 39,
+      "peak_position": 25,
+      "weeks_on_chart": 18,
+      "new": false
+    },
+    {
+      "song": "Runnin' 2018",
+      "artist": "Mark Picchiotti Presents Basstoy Featuring Dana Divine",
+      "this_week": 48,
+      "last_week": 45,
+      "peak_position": 45,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Shake Something",
+      "artist": "Louis the Child Featuring Joey Purp",
+      "this_week": 49,
+      "last_week": 41,
+      "peak_position": 41,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Cold",
+      "artist": "Ralphi Rosario Featuring Donna Blakely",
+      "this_week": 50,
+      "last_week": 33,
+      "peak_position": 27,
+      "weeks_on_chart": 7,
+      "new": false
+    }
+  ]
+}

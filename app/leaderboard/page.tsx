@@ -1,422 +1,208 @@
 'use client';
 
-import { Suspense, useEffect, useRef, useState } from 'react';
-import { supabase } from '@/lib/supabaseClient';
-import { useAuth } from '@/hooks/useAuth';
-import { Audiowide } from 'next/font/google';
+import { Suspense, useEffect, useMemo, useRef, useState } from 'react';
 import Link from 'next/link';
-import { useSearchParams } from 'next/navigation';
+import { useRouter, useSearchParams } from 'next/navigation';
+import { useAuth } from '@/hooks/useAuth';
+import SiteHeader from '@/components/SiteHeader';
+import { CHARTS, genreName } from '@/lib/charts';
+import { filterRounds, METRICS, rankGames, rankPlayers, startOfWeek, type BoardFilters, type LeaderboardRound, type PlayerMetric, type RankedEntry } from '@/lib/leaderboard';
+import { loadLeaderboard } from '@/lib/load-leaderboard';
 
-const audiowide = Audiowide({ weight: '400', subsets: ['latin'] });
-
-interface LeaderboardEntry {
-  id: string;
-  username: string | null;
-  genre: string;
-  started_at: string;
-  seed: string | null;
-  num_correct: number;
-  total_points: number;
-  user_id: string;
-  mode: 'classic' | 'quick';
-  difficulty: 'easy' | 'medium' | 'hard' | null;
-  decade_start: number | null;
+type Settings = BoardFilters & { board: 'players' | 'games'; metric: PlayerMetric };
+const DEFAULTS: Settings = { board: 'players', metric: 'best-five', period: 'all', genre: 'all', mode: 'all', difficulty: 'all' };
+function readSettings(params: { get: (name: string) => string | null }): Settings {
+  const board = params.get('board');
+  const metric = params.get('metric');
+  const mode = params.get('mode');
+  const difficulty = params.get('difficulty');
+  const genre = params.get('genre');
+  return {
+    board: board === 'games' || (!board && (params.get('roundId') || params.get('highlight') === 'me')) ? 'games' : 'players',
+    metric: metric === 'total' || metric === 'average' ? metric : 'best-five',
+    period: params.get('period') === 'week' ? 'week' : 'all',
+    genre: genre && (CHARTS.some(chart => chart.genre === genre) || genre === 'other') ? genre : 'all',
+    mode: mode === 'quick' || mode === 'classic' ? mode : 'all',
+    difficulty: mode !== 'classic' && (difficulty === 'easy' || difficulty === 'medium' || difficulty === 'hard') ? difficulty : 'all',
+  };
 }
+const number = (value: number) => value.toLocaleString('en-US', { maximumFractionDigits: 1 });
+const shortDate = (value: string) => new Date(value).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
 
-function LeaderboardContent({ shouldHighlight, roundId }: { shouldHighlight: boolean; roundId: string | null }) {
-  const { user } = useAuth();
-  const [leaderboard, setLeaderboard] = useState<LeaderboardEntry[]>([]);
+function LeaderboardContent() {
+  const router = useRouter();
+  const params = useSearchParams();
+  const { user, loading: authLoading, signInWithGoogle } = useAuth();
+  const [settings, setSettings] = useState<Settings>(() => readSettings(params));
+  const [rounds, setRounds] = useState<LeaderboardRound[]>([]);
+  const [names, setNames] = useState<Record<string, string>>({});
   const [loading, setLoading] = useState(true);
-  const [modeFilter, setModeFilter] = useState<'all' | 'classic' | 'quick'>('all');
-  const [highlightIndex, setHighlightIndex] = useState<number | null>(null);
-  const rowRefs = useRef<(HTMLTableRowElement | null)[]>([]);
+  const [error, setError] = useState('');
+  const [profilesUnavailable, setProfilesUnavailable] = useState(false);
+  const [refresh, setRefresh] = useState(0);
+  const [snapshot, setSnapshot] = useState(() => new Date());
+  const focusRow = useRef<HTMLTableRowElement>(null);
+  const roundId = params.get('roundId');
+  const highlightMe = params.get('highlight') === 'me';
+  const wantsFocus = Boolean(roundId || highlightMe);
 
   useEffect(() => {
-    async function fetchLeaderboard() {
-      try {
-        // Get best rounds from all users
-        let query = supabase
-          .from('game_rounds')
-          .select('id, total_points, num_correct, genre, started_at, seed, user_id, mode, difficulty, decade_start')
-          .not('ended_at', 'is', null)
-          .gt('num_correct', 0); // Only show games with at least 1 correct answer
-
-        // Apply mode filter
-        if (modeFilter !== 'all') {
-          query = query.eq('mode', modeFilter);
-        }
-
-        const { data: roundsData, error: roundsError } = await query
-          .order('total_points', { ascending: false })
-          .limit(100);
-
-        if (roundsError) throw roundsError;
-
-        if (!roundsData || roundsData.length === 0) {
-          setLeaderboard([]);
-          return;
-        }
-
-        // Get all unique user IDs
-        const userIds = [...new Set(roundsData.map(r => r.user_id))];
-
-        // Fetch usernames for all users
-        const { data: profilesData, error: profilesError } = await supabase
-          .from('profiles')
-          .select('user_id, username, display_name')
-          .in('user_id', userIds);
-
-        if (profilesError) {
-          console.error('Error fetching profiles:', profilesError);
-          // Continue anyway with Anonymous usernames
-        }
-
-        // Create a map of user_id to display_name (fallback to username)
-        const usernameMap = new Map(
-          profilesData?.map(p => [p.user_id, p.display_name || p.username]) || []
-        );
-
-        // Transform data to match leaderboard format
-        const data = roundsData.map((row) => ({
-          id: row.id,
-          username: usernameMap.get(row.user_id) || 'Anonymous',
-          genre: row.genre,
-          started_at: row.started_at,
-          seed: row.seed,
-          num_correct: row.num_correct,
-          total_points: row.total_points,
-          user_id: row.user_id,
-          mode: row.mode,
-          difficulty: row.difficulty,
-          decade_start: row.decade_start,
-        }));
-
-        setLeaderboard(data);
-      } catch (error) {
-        console.error('Error fetching leaderboard:', error);
-      } finally {
-        setLoading(false);
-      }
-    }
-
-    fetchLeaderboard();
-  }, [modeFilter]);
+    const controller = new AbortController();
+    const now = new Date();
+    setLoading(true);
+    setError('');
+    loadLeaderboard(controller.signal, now.toISOString()).then(result => {
+      if (controller.signal.aborted) return;
+      setRounds(result.rounds);
+      setNames(result.names);
+      setProfilesUnavailable(result.profilesUnavailable);
+      setSnapshot(now);
+    }).catch(() => {
+      if (!controller.signal.aborted) setError('We couldn’t load the full leaderboard. Please try again.');
+    }).finally(() => {
+      if (!controller.signal.aborted) setLoading(false);
+    });
+    return () => controller.abort();
+  }, [refresh]);
 
   useEffect(() => {
-    if (leaderboard.length === 0) return;
-    let idx = -1;
-    if (roundId) {
-      idx = leaderboard.findIndex(entry => entry.id === roundId);
-    } else if (shouldHighlight && user) {
-      idx = leaderboard.findIndex(entry => entry.user_id === user.id);
+    const restore = () => setSettings(readSettings(new URLSearchParams(window.location.search)));
+    window.addEventListener('popstate', restore);
+    return () => window.removeEventListener('popstate', restore);
+  }, []);
+
+  useEffect(() => {
+    const url = new URL(window.location.href);
+    for (const [key, value] of Object.entries(settings)) {
+      // Always include board: post-game links otherwise default to games.
+      if (key === 'board' || value !== DEFAULTS[key as keyof Settings]) url.searchParams.set(key, value);
+      else url.searchParams.delete(key);
     }
-    if (idx === -1) return;
-    setHighlightIndex(idx);
-    const row = rowRefs.current[idx];
-    if (row) {
-      row.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    window.history.replaceState(window.history.state, '', url.pathname + url.search);
+  }, [settings]);
+
+  const matching = useMemo(() => filterRounds(rounds, settings, snapshot), [rounds, settings, snapshot]);
+  const entries = useMemo(() => settings.board === 'players'
+    ? rankPlayers(matching, settings.metric) : rankGames(matching), [matching, settings.board, settings.metric]);
+  const players = new Set(matching.map(round => round.user_id)).size;
+  const highest = matching.reduce((best, round) => Math.max(best, round.total_points), 0);
+  const latestPersonalGame = user ? rounds.filter(round => round.user_id === user.id)
+    .sort((a, b) => b.ended_at.localeCompare(a.ended_at) || a.id.localeCompare(b.id))[0] : undefined;
+  const targetGame = roundId ? rounds.find(round => round.id === roundId) : highlightMe ? latestPersonalGame : undefined;
+  const targetUser = roundId ? targetGame?.user_id : highlightMe ? user?.id : undefined;
+  const targetEntry = wantsFocus ? entries.find(entry => settings.board === 'games' ? entry.id === targetGame?.id : entry.userId === targetUser) : undefined;
+  const shown = entries.slice(0, 100);
+  const outsideTop = Boolean(targetEntry && !shown.some(entry => entry.id === targetEntry.id));
+  const focusLabel = settings.board === 'players'
+    ? targetUser === user?.id ? 'Your player ranking' : 'Selected player'
+    : targetGame?.user_id === user?.id ? 'Your game' : 'Selected game';
+  const scoreLabel = settings.board === 'games' || settings.metric === 'total' ? 'Points' : settings.metric === 'average' ? 'Avg. adjusted' : 'Best-five score';
+  const weekStart = startOfWeek(snapshot);
+  const weekEnd = new Date(weekStart.getTime() + 7 * 86400000);
+  const playHref = settings.genre !== 'all' && settings.genre !== 'other' ? `/trivia/${settings.genre}/` : '/';
+  const update = (patch: Partial<Settings>) => setSettings(previous => ({ ...previous, ...patch }));
+
+  let focusMessage = '';
+  if (wantsFocus && !loading && !error && !targetEntry) {
+    if (highlightMe && !roundId && !user) {
+      focusMessage = authLoading ? 'Finding your account…' : 'Sign in to find your saved scores. Guest games aren’t saved to the leaderboard.';
+    } else if (roundId && !targetGame) {
+      focusMessage = 'This game couldn’t be found among saved, completed games. It may not have been saved successfully.';
+    } else if (!targetUser || (!roundId && !latestPersonalGame)) {
+      focusMessage = 'No completed games saved yet. Play while signed in to earn your place.';
+    } else if (settings.board === 'players' && settings.metric === 'average' && matching.some(round => round.user_id === targetUser)) {
+      const count = matching.filter(round => round.user_id === targetUser).length;
+      focusMessage = `This player has ${count} matching ${count === 1 ? 'game' : 'games'}. Play ${5 - count} more to qualify for the average-score ranking.`;
+    } else {
+      focusMessage = 'That score is outside the current filters. Try all time and all genres to find it.';
     }
-    const timeoutId = window.setTimeout(() => setHighlightIndex(null), 6000);
-    return () => window.clearTimeout(timeoutId);
-  }, [shouldHighlight, user, leaderboard, roundId]);
+  }
+
+  function renderRow(entry: RankedEntry) {
+    const isTarget = entry.id === targetEntry?.id;
+    const isMe = entry.userId === user?.id;
+    const game = entry.round;
+    const detail = game?.mode === 'classic'
+      ? game.seed && /^\d{4}-\d{2}-\d{2}$/.test(game.seed) ? `Chart: ${shortDate(`${game.seed}T12:00:00Z`)}` : 'Picked week'
+      : game ? [game.difficulty, game.decade_start ? `${game.decade_start}s` : 'all years'].filter(Boolean).join(' · ') : '';
+    return (
+      <tr key={entry.id} ref={isTarget ? focusRow : undefined} className={isTarget ? 'row-highlight' : ''} data-entry-id={entry.id}>
+        <td className={`rank-cell font-display ${entry.rank <= 3 ? 'accent' : ''}`}><span className="sr-only">Rank </span>{number(entry.rank)}</td>
+        <th scope="row" className="player-cell">
+          <span className="player-name">{names[entry.userId] || 'Anonymous'}</span>
+          {isMe && <span className="board-badge">You</span>}
+          {isTarget && !isMe && <span className="board-badge">Selected</span>}
+          <span className="muted block text-xs font-normal mt-1">
+            {game ? `${genreName(game.genre)} · ${detail}` : `${number(entry.games)} ${entry.games === 1 ? 'game' : 'games'}${settings.metric === 'best-five' ? ` · ${Math.min(entry.games, 5)}/5 counted` : ''}`}
+          </span>
+        </th>
+        <td className="board-detail muted">{game ? shortDate(game.ended_at) : number(entry.best)}</td>
+        <td className="board-detail text-center">{game ? `${game.num_correct} correct` : number(entry.total)}</td>
+        <td className="score-cell font-semibold">{number(entry.score)}</td>
+      </tr>
+    );
+  }
 
   return (
-    <div className="min-h-screen p-3 sm:p-6 md:p-8 relative overflow-hidden" style={{
-      backgroundColor: '#000000',
-      backgroundImage: `
-        radial-gradient(2px 2px at 20% 30%, white, transparent),
-        radial-gradient(2px 2px at 60% 70%, white, transparent),
-        radial-gradient(1px 1px at 50% 50%, white, transparent),
-        radial-gradient(1px 1px at 80% 10%, white, transparent),
-        radial-gradient(2px 2px at 90% 60%, white, transparent),
-        radial-gradient(1px 1px at 33% 80%, white, transparent),
-        radial-gradient(2px 2px at 15% 75%, white, transparent),
-        radial-gradient(circle at 50% 50%, rgba(75, 0, 130, 0.3) 0%, transparent 50%),
-        radial-gradient(circle at 80% 20%, rgba(255, 0, 0, 0.2) 0%, transparent 50%)
-      `,
-      backgroundSize: '200% 200%, 200% 200%, 200% 200%, 200% 200%, 200% 200%, 200% 200%, 200% 200%, 100% 100%, 100% 100%',
-      backgroundAttachment: 'fixed',
-    }}>
-      {/* Constellation lines */}
-      <div className="constellation-line" style={{ top: '20%', left: '10%', width: '30%', transform: 'rotate(45deg)' }} />
-      <div className="constellation-line" style={{ top: '60%', right: '15%', width: '25%', transform: 'rotate(-30deg)' }} />
-      <div className="constellation-line" style={{ bottom: '30%', left: '25%', width: '40%', transform: 'rotate(15deg)' }} />
-
-      <div className="max-w-4xl mx-auto relative z-10">
-        {/* Header with logo and icons */}
-        <div className="flex items-center justify-between mb-4 sm:mb-6 relative z-20">
-          <Link
-            href="/"
-            className={`${audiowide.className} text-xl sm:text-2xl md:text-3xl font-bold metallic-text cursor-pointer transition-all hover:scale-105`}
-            style={{
-              textShadow: '0 0 20px rgba(192, 192, 192, 0.8), 0 0 40px rgba(75, 0, 130, 0.6)'
-            }}
-          >
-            🚀 TUNETRIVIA 🎸
-          </Link>
-
-          {/* Icons - right side */}
-          <div className="flex items-center gap-2 sm:gap-3 flex-shrink-0">
-            {/* Leaderboard button (current page indicator) */}
-            <div className="relative group">
-              <div
-                className="w-10 h-10 sm:w-12 sm:h-12 rounded-full flex items-center justify-center"
-                style={{
-                  backgroundColor: 'rgba(255, 215, 0, 0.3)',
-                  color: '#FFD700',
-                  border: '2px solid rgba(255, 215, 0, 0.6)',
-                  backdropFilter: 'blur(10px)',
-                }}
-              >
-                <svg className="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
-                </svg>
-              </div>
-            </div>
-
-            {/* User/Auth button with circular icon */}
-            {user ? (
-              <Link
-                href="/account"
-                className="w-10 h-10 sm:w-12 sm:h-12 rounded-full flex items-center justify-center overflow-hidden transition-all hover:scale-105"
-                style={{
-                  backgroundColor: 'rgba(75, 0, 130, 0.8)',
-                  border: '2px solid rgba(192, 192, 192, 0.5)',
-                  backdropFilter: 'blur(10px)',
-                }}
-              >
-                <img
-                  src={user.user_metadata?.picture}
-                  alt="User avatar"
-                  className="w-full h-full object-cover"
-                />
-              </Link>
-            ) : (
-              <div
-                className="w-10 h-10 sm:w-12 sm:h-12 rounded-full flex items-center justify-center transition-all"
-                style={{
-                  backgroundColor: 'rgba(75, 0, 130, 0.8)',
-                  color: '#C0C0C0',
-                  border: '2px solid rgba(192, 192, 192, 0.5)',
-                  backdropFilter: 'blur(10px)',
-                }}
-              >
-                <svg className="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                </svg>
-              </div>
-            )}
+    <div className="page">
+      <SiteHeader user={user} authLoading={authLoading} onSignIn={signInWithGoogle} current="leaderboard" />
+      <main id="main-content">
+        <div className="board-intro">
+          <div><p className="eyebrow">Good ears. Great company.</p><h1 className="font-display text-5xl sm:text-6xl leading-none mb-4">The music leaderboard.</h1><p className="muted max-w-xl">Find the standout players, the unforgettable games, and your own next score to beat.</p></div>
+          <div className="flex flex-wrap gap-3 shrink-0">
+            {user && <button className="btn btn-ghost" onClick={() => {
+              const url = new URL(window.location.href);
+              url.searchParams.delete('roundId');
+              url.searchParams.set('highlight', 'me');
+              router.replace(url.pathname + url.search, { scroll: false });
+            }}>Find my rank</button>}
+            <Link className="btn btn-primary" href={playHref}>Play a quiz <span aria-hidden="true">↗</span></Link>
           </div>
         </div>
 
-        <h1 className={`${audiowide.className} text-xl sm:text-2xl md:text-3xl font-bold text-center mb-6 sm:mb-8 metallic-text`} style={{
-          textShadow: '0 0 20px rgba(192, 192, 192, 0.8), 0 0 40px rgba(75, 0, 130, 0.6)'
-        }}>
-          🏆 LEADERBOARD
-        </h1>
-
-        {/* Mode Filter Tabs */}
-        <div className="flex justify-center gap-2 sm:gap-4 mb-6">
-          <button
-            onClick={() => setModeFilter('all')}
-            className={`px-4 sm:px-6 py-2 sm:py-3 rounded-xl font-bold text-sm sm:text-base transition-all ${
-              modeFilter === 'all'
-                ? 'bg-gradient-to-r from-purple-600 to-blue-600 text-white scale-105'
-                : 'bg-white/10 text-gray-400 hover:bg-white/20'
-            }`}
-            style={{
-              backdropFilter: 'blur(10px)',
-              border: modeFilter === 'all' ? '2px solid rgba(192, 192, 192, 0.5)' : '2px solid transparent',
-            }}
-          >
-            🌟 All
-          </button>
-          <button
-            onClick={() => setModeFilter('classic')}
-            className={`px-4 sm:px-6 py-2 sm:py-3 rounded-xl font-bold text-sm sm:text-base transition-all ${
-              modeFilter === 'classic'
-                ? 'bg-gradient-to-r from-purple-600 to-blue-600 text-white scale-105'
-                : 'bg-white/10 text-gray-400 hover:bg-white/20'
-            }`}
-            style={{
-              backdropFilter: 'blur(10px)',
-              border: modeFilter === 'classic' ? '2px solid rgba(192, 192, 192, 0.5)' : '2px solid transparent',
-            }}
-          >
-            📅 Classic
-          </button>
-          <button
-            onClick={() => setModeFilter('quick')}
-            className={`px-4 sm:px-6 py-2 sm:py-3 rounded-xl font-bold text-sm sm:text-base transition-all ${
-              modeFilter === 'quick'
-                ? 'bg-gradient-to-r from-purple-600 to-blue-600 text-white scale-105'
-                : 'bg-white/10 text-gray-400 hover:bg-white/20'
-            }`}
-            style={{
-              backdropFilter: 'blur(10px)',
-              border: modeFilter === 'quick' ? '2px solid rgba(192, 192, 192, 0.5)' : '2px solid transparent',
-            }}
-          >
-            ⚡ Quick Play
-          </button>
-        </div>
-
-        <div className="holographic-card rounded-3xl p-4 sm:p-6 md:p-8" style={{
-          background: 'linear-gradient(135deg, rgba(75, 0, 130, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%)',
-        }}>
-          {loading ? (
-            <div className="text-center py-12">
-              <div className="text-6xl animate-spin inline-block mb-4">🌌</div>
-              <div className="text-xl" style={{ color: '#C0C0C0' }}>Loading leaderboard...</div>
+        <section className="panel board-controls" aria-label="Leaderboard filters">
+          <div className="board-switches">
+            <div className="seg" role="group" aria-label="Leaderboard type">
+              <button aria-pressed={settings.board === 'players'} onClick={() => update({ board: 'players' })}>Top players</button>
+              <button aria-pressed={settings.board === 'games'} onClick={() => update({ board: 'games' })}>Best games</button>
             </div>
-          ) : leaderboard.length === 0 ? (
-            <div className="text-center py-12">
-              <div className="text-4xl mb-4">🎮</div>
-              <div className="text-xl" style={{ color: '#C0C0C0' }}>No players yet. Be the first!</div>
+            <div className="seg" role="group" aria-label="Time period">
+              <button aria-pressed={settings.period === 'all'} onClick={() => update({ period: 'all' })}>All time</button>
+              <button aria-pressed={settings.period === 'week'} onClick={() => update({ period: 'week' })}>This week</button>
             </div>
-          ) : (
-            <div className="overflow-x-auto">
-              <table className="w-full">
-                <thead>
-                  <tr className="border-b-2" style={{ borderColor: 'rgba(192, 192, 192, 0.3)' }}>
-                    <th className="text-left py-3 px-2 sm:px-4 text-xs sm:text-sm font-bold" style={{ color: '#C0C0C0' }}>Rank</th>
-                    <th className="text-left py-3 px-2 sm:px-4 text-xs sm:text-sm font-bold" style={{ color: '#C0C0C0' }}>Player</th>
-                    <th className="text-left py-3 px-2 sm:px-4 text-xs sm:text-sm font-bold hidden md:table-cell" style={{ color: '#C0C0C0' }}>Genre</th>
-                    <th className="text-center py-3 px-2 sm:px-4 text-xs sm:text-sm font-bold" style={{ color: '#C0C0C0' }}>Score</th>
-                    <th className="text-right py-3 px-2 sm:px-4 text-xs sm:text-sm font-bold" style={{ color: '#C0C0C0' }}>Points</th>
-                    <th className="text-left py-3 px-2 sm:px-4 text-xs sm:text-sm font-bold hidden lg:table-cell" style={{ color: '#C0C0C0' }}>Date</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {leaderboard.map((entry, index) => {
-                    let rankEmoji = '';
-                    if (index === 0) rankEmoji = '🥇';
-                    else if (index === 1) rankEmoji = '🥈';
-                    else if (index === 2) rankEmoji = '🥉';
+          </div>
+          <div className="board-filter-grid">
+            {settings.board === 'players' && <label><span className="group-title block">Rank players by</span><select className="field" value={settings.metric} onChange={event => update({ metric: event.target.value as PlayerMetric })}>{Object.entries(METRICS).map(([id, metric]) => <option key={id} value={id}>{metric.label}</option>)}</select></label>}
+            <label><span className="group-title block">Genre / chart</span><select className="field" value={settings.genre} onChange={event => update({ genre: event.target.value })}><option value="all">All genres</option>{CHARTS.map(chart => <option key={chart.genre} value={chart.genre}>{chart.name}</option>)}<option value="other">Other / legacy</option></select></label>
+            <label><span className="group-title block">Game mode</span><select className="field" value={settings.mode} onChange={event => update({ mode: event.target.value as Settings['mode'], ...(event.target.value === 'classic' ? { difficulty: 'all' as const } : {}) })}><option value="all">All modes</option><option value="quick">Quick play</option><option value="classic">Picked week</option></select></label>
+            <label><span className="group-title block">Difficulty</span><select className="field" value={settings.difficulty} disabled={settings.mode === 'classic'} onChange={event => update({ difficulty: event.target.value as Settings['difficulty'] })}><option value="all">All difficulties</option><option value="easy">Easy</option><option value="medium">Medium</option><option value="hard">Hard</option></select></label>
+          </div>
+          <p className="muted text-sm mt-4">{settings.board === 'players' ? METRICS[settings.metric].description : 'Individual completed games ranked by original points, including difficulty bonuses. Filter by difficulty for a closer comparison.'}</p>
+          <p className="muted text-xs mt-2">{settings.period === 'week' ? `${shortDate(weekStart.toISOString())} – ${shortDate(new Date(weekEnd.getTime() - 1).toISOString())}. ` : ''}Weeks run Monday–Sunday, UTC, based on when a game finishes. Difficulty filters apply to Quick play.</p>
+        </section>
 
-                    const genreEmojis: Record<string, string> = {
-                      'pop': '🔥',
-                      'country': '🤠',
-                      'rnb': '🎤',
-                      'rap': '🎙️',
-                      'alternative': '🎸',
-                      'rock': '🎧',
-                      'latin': '💃',
-                      'other': '🎵'
-                    };
+        {!loading && !error && <div className="board-stats" aria-label="Leaderboard summary"><div><strong>{number(players)}</strong><span>players in this selection</span></div><div><strong>{number(matching.length)}</strong><span>completed games</span></div><div><strong>{number(highest)}</strong><span>highest game score</span></div></div>}
 
-                    const formatChartWeek = (seedString: string | null) => {
-                      if (!seedString) return null;
-                      const date = new Date(seedString);
-                      const day = date.getDate();
-                      const suffix = day === 1 || day === 21 || day === 31 ? 'st' :
-                                     day === 2 || day === 22 ? 'nd' :
-                                     day === 3 || day === 23 ? 'rd' : 'th';
-                      return date.toLocaleDateString('en-US', {
-                        month: 'short',
-                        day: 'numeric',
-                        year: 'numeric'
-                      }).replace(/(\d+)/, `$1${suffix}`);
-                    };
+        {!loading && !error && wantsFocus && <section className="panel board-personal" aria-label="Your leaderboard result" role="status">
+          {targetEntry ? <><div><p className="eyebrow">{focusLabel}</p><p className="font-display text-3xl">#{number(targetEntry.rank)} <span className="text-lg">of {number(entries.length)} {settings.board === 'players' ? 'players' : 'games'}</span></p><p className="muted text-sm mt-2">{outsideTop ? 'Outside the displayed top 100 this time. Your ranked row is included below—try another quiz to climb.' : 'You found your place on the board.'} Ranks reflect the current filters; equal scores share a rank.</p></div><button className="btn btn-ghost" onClick={() => focusRow.current?.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'center' })}>Jump to row ↓</button></>
+            : <><p>{focusMessage}</p><div className="flex flex-wrap gap-3">{highlightMe && !roundId && !user && !authLoading ? <button className="btn btn-primary" onClick={signInWithGoogle}>Sign in</button> : <><button className="btn btn-ghost" onClick={() => update({ period: 'all', genre: 'all', mode: 'all', difficulty: 'all', metric: 'best-five' })}>Clear filters</button><Link className="btn btn-primary" href={playHref}>Try another quiz</Link></>}</div></>}
+        </section>}
 
-                    const formatDate = (dateString: string) => {
-                      const date = new Date(dateString);
-                      return date.toLocaleDateString('en-US', {
-                        month: 'short',
-                        day: 'numeric',
-                        year: 'numeric'
-                      });
-                    };
+        <section className="panel board-results" aria-labelledby="board-heading" aria-busy={loading}>
+          <div className="board-results-heading"><div><h2 id="board-heading" className="font-display text-2xl">{settings.board === 'players' ? 'Top players' : 'Best games'}{settings.period === 'week' ? ' this week' : ' of all time'}</h2><p className="muted text-xs mt-1">{!loading && !error ? `Showing ${Math.min(entries.length, 100)} of ${number(entries.length)} ${settings.board === 'players' ? 'ranked players' : 'games'}${outsideTop ? ', plus the selected result' : ''}.` : 'Scores from completed, saved games.'}</p></div><button className="text-link" disabled={loading} onClick={() => setRefresh(value => value + 1)}>Refresh</button></div>
+          {loading ? <p className="muted py-10 text-center" role="status">Finding the scores and calculating ranks…</p>
+            : error ? <div className="board-empty" role="alert"><p>{error}</p><button className="btn btn-primary mt-4" onClick={() => setRefresh(value => value + 1)}>Try again</button></div>
+            : entries.length === 0 ? <div className="board-empty"><h3 className="font-display text-2xl mb-3">{settings.board === 'players' && settings.metric === 'average' && matching.length ? 'Five games earn a spot.' : 'The stage is yours.'}</h3><p className="muted mb-5">{settings.board === 'players' && settings.metric === 'average' && matching.length ? 'No player has five completed games in this selection yet. Try Best five or widen your filters.' : 'No completed games match these filters yet. Try another selection or set the first score.'}</p><Link className="btn btn-primary" href={playHref}>Play a quiz</Link></div>
+            : <div className="overflow-x-auto"><table className="leaderboard-table"><caption className="sr-only">{settings.board === 'players' ? `Players ranked by ${METRICS[settings.metric].label}` : 'Games ranked by points'}. Equal scores share a rank.</caption><thead><tr><th scope="col">Rank</th><th scope="col">Player {settings.board === 'games' ? '/ game' : ''}</th><th scope="col" className="board-detail">{settings.board === 'games' ? 'Finished (UTC)' : 'Best game'}</th><th scope="col" className="board-detail text-center">{settings.board === 'games' ? 'Correct' : 'Total points'}</th><th scope="col" className="text-right">{scoreLabel}</th></tr></thead><tbody>{shown.map(renderRow)}{outsideTop && targetEntry && <><tr className="board-gap"><td colSpan={5}><span aria-hidden="true">•••</span><span className="sr-only">Other ranked entries omitted</span></td></tr>{renderRow(targetEntry)}</>}</tbody></table></div>}
+          {profilesUnavailable && !loading && !error && <p className="muted text-xs p-4" role="status">Some player names couldn’t be loaded. Scores and ranks are available; refresh to retry names.</p>}
+        </section>
 
-                    const genreDisplay = entry.genre === 'rnb' ? 'R&B/Hip-Hop' :
-                                        entry.genre.charAt(0).toUpperCase() + entry.genre.slice(1);
-
-                    const isHighlight = highlightIndex === index;
-
-                    return (
-                      <tr
-                        key={index}
-                        ref={(el) => { rowRefs.current[index] = el; }}
-                        className={`border-b transition-all hover:bg-white/5 ${isHighlight ? 'leaderboard-highlight' : ''}`}
-                        style={{ borderColor: 'rgba(192, 192, 192, 0.1)' }}
-                      >
-                        <td className="py-3 px-2 sm:px-4 text-sm sm:text-base font-bold" style={{ color: '#C0C0C0' }}>
-                          {rankEmoji} {index + 1}
-                        </td>
-                        <td className="py-3 px-2 sm:px-4 text-sm sm:text-base truncate max-w-[120px] sm:max-w-none" style={{ color: '#C0C0C0' }}>
-                          {entry.username || 'Anonymous'}
-                        </td>
-                        <td className="py-3 px-2 sm:px-4 text-sm sm:text-base hidden md:table-cell" style={{ color: '#C0C0C0' }}>
-                          <div>
-                            <div>
-                              <span className="mr-1">{genreEmojis[entry.genre] || '🎵'}</span>
-                              {genreDisplay}
-                            </div>
-                            {entry.mode === 'classic' && formatChartWeek(entry.seed) && (
-                              <div className="text-xs mt-1" style={{ color: 'rgba(192, 192, 192, 0.6)' }}>
-                                Week of {formatChartWeek(entry.seed)}
-                              </div>
-                            )}
-                            {entry.mode === 'quick' && (
-                              <div className="text-xs mt-1" style={{ color: 'rgba(192, 192, 192, 0.6)' }}>
-                                {entry.difficulty && (
-                                  <span className="capitalize mr-2">
-                                    {entry.difficulty === 'easy' ? '🟢 Easy' :
-                                     entry.difficulty === 'medium' ? '🟡 Medium' :
-                                     '🔴 Hard'}
-                                  </span>
-                                )}
-                                {entry.decade_start && (
-                                  <span>📅 {entry.decade_start}s</span>
-                                )}
-                              </div>
-                            )}
-                          </div>
-                        </td>
-                        <td className="py-3 px-2 sm:px-4 text-sm sm:text-base text-center font-bold" style={{ color: entry.num_correct === 10 ? '#00FF00' : '#C0C0C0' }}>
-                          {entry.num_correct}/10
-                        </td>
-                        <td className="py-3 px-2 sm:px-4 text-sm sm:text-base font-bold text-right metallic-text">
-                          {entry.total_points.toLocaleString()}
-                        </td>
-                        <td className="py-3 px-2 sm:px-4 text-xs sm:text-sm hidden lg:table-cell" style={{ color: 'rgba(192, 192, 192, 0.7)' }}>
-                          {formatDate(entry.started_at)}
-                        </td>
-                      </tr>
-                    );
-                  })}
-                </tbody>
-              </table>
-            </div>
-          )}
-        </div>
-      </div>
-      <style jsx>{`
-        .leaderboard-highlight {
-          animation: leaderboardPulse 1.8s ease-in-out 3;
-          background: rgba(255, 215, 0, 0.12);
-        }
-        @keyframes leaderboardPulse {
-          0% { box-shadow: 0 0 0 rgba(255, 215, 0, 0.0); }
-          50% { box-shadow: 0 0 20px rgba(255, 215, 0, 0.6); }
-          100% { box-shadow: 0 0 0 rgba(255, 215, 0, 0.0); }
-        }
-      `}</style>
+        <details className="panel board-rules"><summary>How are the rankings calculated?</summary><div className="muted text-sm space-y-3 mt-4"><p><strong>Best five:</strong> add each player’s five highest adjusted scores, or all their games if they have fewer than five. More games give you chances to improve without every extra game adding to your score.</p><p><strong>Average:</strong> average all adjusted scores, including zeros, with at least five matching games. <strong>Total points:</strong> sum the original points from every matching game.</p><p><strong>Adjusted scores:</strong> remove Quick play’s difficulty bonus: easy ÷ 1, medium ÷ 1.5, hard ÷ 2.5. Picked-week scores stay unchanged. This removes the points multiplier; clip length and song difficulty still differ. Scores are rounded to one decimal for ranking, and equal scores share a rank (1, 1, 3).</p><p>All filters apply before player totals are calculated. Weekly boards use the completion date, not the historical chart week. Only saved, completed games appear; guest games aren’t recorded.</p></div></details>
+      </main>
     </div>
   );
 }
 
-function LeaderboardWithParams() {
-  const searchParams = useSearchParams();
-  const shouldHighlight = searchParams.get('highlight') === 'me';
-  const roundId = searchParams.get('roundId');
-  return <LeaderboardContent shouldHighlight={shouldHighlight} roundId={roundId} />;
-}
-
 export default function Leaderboard() {
-  return (
-    <Suspense fallback={<div className="min-h-screen" style={{ backgroundColor: '#000000' }} />}>
-      <LeaderboardWithParams />
-    </Suspense>
-  );
+  return <Suspense fallback={<div className="page"><p role="status">Loading leaderboard…</p></div>}><LeaderboardContent /></Suspense>;
 }

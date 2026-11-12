@@ -1,0 +1,455 @@
+{
+  "date": "2023-09-09",
+  "data": [
+    {
+      "song": "I'm Good (Blue)",
+      "artist": "David Guetta & Bebe Rexha",
+      "this_week": 1,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 53,
+      "new": false
+    },
+    {
+      "song": "Baby Don't Hurt Me",
+      "artist": "David Guetta, Anne-Marie & Coi Leray",
+      "this_week": 2,
+      "last_week": 2,
+      "peak_position": 2,
+      "weeks_on_chart": 21,
+      "new": false
+    },
+    {
+      "song": "I Love You Hoe",
+      "artist": "Odetari & 9lives",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 3,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Rush",
+      "artist": "Troye Sivan",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 3,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "(It Goes Like) Nanana",
+      "artist": "Peggy Gou",
+      "this_week": 5,
+      "last_week": 5,
+      "peak_position": 5,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "GMFU",
+      "artist": "Odetari & 6arelyhuman",
+      "this_week": 6,
+      "last_week": 7,
+      "peak_position": 6,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "El Merengue",
+      "artist": "Marshmello & Manuel Turizo",
+      "this_week": 7,
+      "last_week": 8,
+      "peak_position": 5,
+      "weeks_on_chart": 26,
+      "new": false
+    },
+    {
+      "song": "Padam Padam",
+      "artist": "Kylie Minogue",
+      "this_week": 8,
+      "last_week": 9,
+      "peak_position": 7,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Back On 74",
+      "artist": "Jungle",
+      "this_week": 9,
+      "last_week": 20,
+      "peak_position": 9,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Baby Hello",
+      "artist": "Rauw Alejandro X Bizarrap",
+      "this_week": 10,
+      "last_week": 10,
+      "peak_position": 4,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Look Don't Touch",
+      "artist": "Odetari & cade clair",
+      "this_week": 11,
+      "last_week": 11,
+      "peak_position": 9,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Good Loyal Thots",
+      "artist": "Odetari",
+      "this_week": 12,
+      "last_week": 12,
+      "peak_position": 8,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Choose Your Fighter",
+      "artist": "Ava Max",
+      "this_week": 13,
+      "last_week": 13,
+      "peak_position": 7,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Where You Are",
+      "artist": "John Summit & Hayla",
+      "this_week": 14,
+      "last_week": 17,
+      "peak_position": 8,
+      "weeks_on_chart": 26,
+      "new": false
+    },
+    {
+      "song": "Desire",
+      "artist": "Calvin Harris & Sam Smith",
+      "this_week": 15,
+      "last_week": 14,
+      "peak_position": 5,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Prada",
+      "artist": "casso, RAYE & D-Block Europe",
+      "this_week": 16,
+      "last_week": 27,
+      "peak_position": 16,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "The Lost Soul Down",
+      "artist": "NBSPLV",
+      "this_week": 17,
+      "last_week": 19,
+      "peak_position": 15,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Memory Reboot",
+      "artist": "VOJ & Narvent",
+      "this_week": 18,
+      "last_week": 24,
+      "peak_position": 18,
+      "weeks_on_chart": 6,
+      "new": false
+    },
+    {
+      "song": "Atmosphere",
+      "artist": "FISHER x Kita Alexander",
+      "this_week": 19,
+      "last_week": 18,
+      "peak_position": 9,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Narcissistic Personality Disorder",
+      "artist": "Odetari",
+      "this_week": 20,
+      "last_week": 21,
+      "peak_position": 10,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "One In A Million",
+      "artist": "Bebe Rexha & David Guetta",
+      "this_week": 21,
+      "last_week": 16,
+      "peak_position": 9,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Provenza (Remix)",
+      "artist": "Karol G & Tiesto",
+      "this_week": 22,
+      "last_week": 15,
+      "peak_position": 4,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Miracle",
+      "artist": "Calvin Harris & Ellie Goulding",
+      "this_week": 23,
+      "last_week": 23,
+      "peak_position": 6,
+      "weeks_on_chart": 25,
+      "new": false
+    },
+    {
+      "song": "Alone",
+      "artist": "Kim Petras Featuring Nicki Minaj",
+      "this_week": 24,
+      "last_week": 22,
+      "peak_position": 10,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Hands Up!",
+      "artist": "6arelyhuman Featuring kets4eki",
+      "this_week": 25,
+      "last_week": 25,
+      "peak_position": 14,
+      "weeks_on_chart": 22,
+      "new": false
+    },
+    {
+      "song": "Montagem - Pr Funk",
+      "artist": "S3BZS",
+      "this_week": 26,
+      "last_week": 28,
+      "peak_position": 22,
+      "weeks_on_chart": 11,
+      "new": false
+    },
+    {
+      "song": "XOXO (Kisses Hugs)",
+      "artist": "6arelyhuman & Horrormovies",
+      "this_week": 27,
+      "last_week": null,
+      "peak_position": 27,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Fade Out",
+      "artist": "John Summit Featuring MKLA",
+      "this_week": 28,
+      "last_week": null,
+      "peak_position": 28,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Esta Vida",
+      "artist": "Marshmello & Farruko",
+      "this_week": 29,
+      "last_week": 30,
+      "peak_position": 10,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Bzrp Music Sessions, Vol. 56",
+      "artist": "Bizarrap & Rauw Alejandro",
+      "this_week": 30,
+      "last_week": 29,
+      "peak_position": 5,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "You're Too Slow",
+      "artist": "Odetari",
+      "this_week": 31,
+      "last_week": 33,
+      "peak_position": 29,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Adore U",
+      "artist": "Fred again..",
+      "this_week": 32,
+      "last_week": 31,
+      "peak_position": 16,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Tempo",
+      "artist": "Marshmello & Young Miko",
+      "this_week": 33,
+      "last_week": 26,
+      "peak_position": 26,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "If Only I",
+      "artist": "Loud Luxury, Two Friends & Bebe Rexha",
+      "this_week": 34,
+      "last_week": 35,
+      "peak_position": 18,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Ecstacy",
+      "artist": "SUICIDAL-IDOL",
+      "this_week": 35,
+      "last_week": 37,
+      "peak_position": 35,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Brazilian Danca Phonk",
+      "artist": "6YNTHMANE & RXDXVIL",
+      "this_week": 36,
+      "last_week": 34,
+      "peak_position": 32,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Take It Off",
+      "artist": "Fisher x Aatig",
+      "this_week": 37,
+      "last_week": 36,
+      "peak_position": 17,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Drinkin'",
+      "artist": "Joel Corry, MK & Rita Ora",
+      "this_week": 38,
+      "last_week": null,
+      "peak_position": 38,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Little Things X Gypsy Woman (L Beats Mashup)",
+      "artist": "Jorja Smith",
+      "this_week": 39,
+      "last_week": 39,
+      "peak_position": 28,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Drifting",
+      "artist": "Tiesto",
+      "this_week": 40,
+      "last_week": 40,
+      "peak_position": 29,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "Lovely Bastards",
+      "artist": "yatashigang & ZWE1HVNDXR",
+      "this_week": 41,
+      "last_week": null,
+      "peak_position": 41,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Sleepwalker",
+      "artist": "akiaura, LONOWN & STM",
+      "this_week": 42,
+      "last_week": null,
+      "peak_position": 42,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Chills (LA Hills)",
+      "artist": "Tiesto & A Boogie wit da Hoodie",
+      "this_week": 43,
+      "last_week": 42,
+      "peak_position": 11,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Fine Day Anthem",
+      "artist": "Skrillex & Boys Noize",
+      "this_week": 44,
+      "last_week": 41,
+      "peak_position": 21,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Beggin'",
+      "artist": "Chris Lake & Aluna",
+      "this_week": 45,
+      "last_week": 43,
+      "peak_position": 17,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Eat Your Man",
+      "artist": "Dom Dolla & Nelly Furtado",
+      "this_week": 46,
+      "last_week": 45,
+      "peak_position": 15,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Baby I'm Home",
+      "artist": "Odetari, Kanii & 9lives",
+      "this_week": 47,
+      "last_week": 38,
+      "peak_position": 38,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Badders",
+      "artist": "peekaboo, Flowdan & Skrillex",
+      "this_week": 48,
+      "last_week": 32,
+      "peak_position": 32,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Ascend",
+      "artist": "Dezko",
+      "this_week": 49,
+      "last_week": 44,
+      "peak_position": 41,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "I've Been In Love",
+      "artist": "Jungle Featuring Channel Tres",
+      "this_week": 50,
+      "last_week": null,
+      "peak_position": 50,
+      "weeks_on_chart": 1,
+      "new": true
+    }
+  ]
+}

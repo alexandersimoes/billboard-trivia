@@ -1,0 +1,455 @@
+{
+  "date": "2017-06-10",
+  "data": [
+    {
+      "song": "Stay",
+      "artist": "Zedd & Alessia Cara",
+      "this_week": 1,
+      "last_week": 2,
+      "peak_position": 1,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Something Just Like This",
+      "artist": "The Chainsmokers & Coldplay",
+      "this_week": 2,
+      "last_week": 1,
+      "peak_position": 1,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "It Ain't Me",
+      "artist": "Kygo x Selena Gomez",
+      "this_week": 3,
+      "last_week": 3,
+      "peak_position": 2,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Slide",
+      "artist": "Calvin Harris Featuring Frank Ocean & Migos",
+      "this_week": 4,
+      "last_week": 4,
+      "peak_position": 4,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "Closer",
+      "artist": "The Chainsmokers Featuring Halsey",
+      "this_week": 5,
+      "last_week": 6,
+      "peak_position": 1,
+      "weeks_on_chart": 44,
+      "new": false
+    },
+    {
+      "song": "Rockabye",
+      "artist": "Clean Bandit Featuring Sean Paul & Anne-Marie",
+      "this_week": 6,
+      "last_week": 5,
+      "peak_position": 2,
+      "weeks_on_chart": 31,
+      "new": false
+    },
+    {
+      "song": "Swish Swish",
+      "artist": "Katy Perry Featuring Nicki Minaj",
+      "this_week": 7,
+      "last_week": null,
+      "peak_position": 7,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Paris",
+      "artist": "The Chainsmokers",
+      "this_week": 8,
+      "last_week": 7,
+      "peak_position": 1,
+      "weeks_on_chart": 20,
+      "new": false
+    },
+    {
+      "song": "Let Me Love You",
+      "artist": "DJ Snake Featuring Justin Bieber",
+      "this_week": 9,
+      "last_week": 9,
+      "peak_position": 2,
+      "weeks_on_chart": 42,
+      "new": false
+    },
+    {
+      "song": "No Promises",
+      "artist": "Cheat Codes Featuring Demi Lovato",
+      "this_week": 10,
+      "last_week": 11,
+      "peak_position": 10,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Scared To Be Lonely",
+      "artist": "Martin Garrix & Dua Lipa",
+      "this_week": 11,
+      "last_week": 10,
+      "peak_position": 9,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Rollin",
+      "artist": "Calvin Harris Featuring Future & Khalid",
+      "this_week": 12,
+      "last_week": 8,
+      "peak_position": 8,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Symphony",
+      "artist": "Clean Bandit Featuring Zara Larsson",
+      "this_week": 13,
+      "last_week": 12,
+      "peak_position": 11,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "First Time",
+      "artist": "Kygo & Ellie Goulding",
+      "this_week": 14,
+      "last_week": 13,
+      "peak_position": 9,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Call On Me",
+      "artist": "Starley",
+      "this_week": 15,
+      "last_week": 14,
+      "peak_position": 9,
+      "weeks_on_chart": 13,
+      "new": false
+    },
+    {
+      "song": "Mama",
+      "artist": "Jonas Blue Featuring William Singe",
+      "this_week": 16,
+      "last_week": 22,
+      "peak_position": 16,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "The One",
+      "artist": "The Chainsmokers",
+      "this_week": 17,
+      "last_week": 15,
+      "peak_position": 10,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Young",
+      "artist": "The Chainsmokers",
+      "this_week": 18,
+      "last_week": 33,
+      "peak_position": 18,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Moving On",
+      "artist": "Marshmello",
+      "this_week": 19,
+      "last_week": 18,
+      "peak_position": 18,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "You Don't Know Me",
+      "artist": "Jax Jones Featuring RAYE",
+      "this_week": 20,
+      "last_week": 17,
+      "peak_position": 13,
+      "weeks_on_chart": 19,
+      "new": false
+    },
+    {
+      "song": "Run Up",
+      "artist": "Major Lazer Featuring PARTYNEXTDOOR & Nicki Minaj",
+      "this_week": 21,
+      "last_week": 19,
+      "peak_position": 9,
+      "weeks_on_chart": 17,
+      "new": false
+    },
+    {
+      "song": "Break Up Every Night",
+      "artist": "The Chainsmokers",
+      "this_week": 22,
+      "last_week": 20,
+      "peak_position": 12,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Shooting Stars",
+      "artist": "Bag Raiders",
+      "this_week": 23,
+      "last_week": 21,
+      "peak_position": 11,
+      "weeks_on_chart": 14,
+      "new": false
+    },
+    {
+      "song": "I Love You",
+      "artist": "Axwell & Ingrosso Featuring Kid Ink",
+      "this_week": 24,
+      "last_week": 16,
+      "peak_position": 15,
+      "weeks_on_chart": 15,
+      "new": false
+    },
+    {
+      "song": "Feel Good",
+      "artist": "Gryffin And Illenium Featuring Daya",
+      "this_week": 25,
+      "last_week": 26,
+      "peak_position": 17,
+      "weeks_on_chart": 12,
+      "new": false
+    },
+    {
+      "song": "Light My Body Up",
+      "artist": "David Guetta Featuring Nicki Minaj & Lil Wayne",
+      "this_week": 26,
+      "last_week": 30,
+      "peak_position": 13,
+      "weeks_on_chart": 10,
+      "new": false
+    },
+    {
+      "song": "OK",
+      "artist": "Robin Schulz Featuring James Blunt",
+      "this_week": 27,
+      "last_week": null,
+      "peak_position": 27,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Tired",
+      "artist": "Alan Walker Featuring Gavin James",
+      "this_week": 28,
+      "last_week": null,
+      "peak_position": 28,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Heatstroke",
+      "artist": "Calvin Harris Featuring Young Thug, Pharrell Williams & Ariana Grande",
+      "this_week": 29,
+      "last_week": 23,
+      "peak_position": 13,
+      "weeks_on_chart": 8,
+      "new": false
+    },
+    {
+      "song": "Hunter",
+      "artist": "Galantis",
+      "this_week": 30,
+      "last_week": 31,
+      "peak_position": 21,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Andromeda",
+      "artist": "Gorillaz Featuring D.R.A.M.",
+      "this_week": 31,
+      "last_week": 28,
+      "peak_position": 16,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "My Type",
+      "artist": "The Chainsmokers Featuring Emily Warren",
+      "this_week": 32,
+      "last_week": 32,
+      "peak_position": 14,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "New Face",
+      "artist": "PSY",
+      "this_week": 33,
+      "last_week": 27,
+      "peak_position": 27,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "You're Not Alone",
+      "artist": "Scotty Boy & Lizzie Curious",
+      "this_week": 34,
+      "last_week": 43,
+      "peak_position": 34,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Back 2 Love",
+      "artist": "Dave Aude & JVMIE",
+      "this_week": 35,
+      "last_week": 42,
+      "peak_position": 35,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Bloodstream",
+      "artist": "The Chainsmokers",
+      "this_week": 36,
+      "last_week": 35,
+      "peak_position": 15,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Falling",
+      "artist": "Alesso",
+      "this_week": 37,
+      "last_week": 34,
+      "peak_position": 28,
+      "weeks_on_chart": 16,
+      "new": false
+    },
+    {
+      "song": "Don't Say",
+      "artist": "The Chainsmokers Featuring Emily Warren",
+      "this_week": 38,
+      "last_week": 40,
+      "peak_position": 19,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "I LUV IT",
+      "artist": "PSY",
+      "this_week": 39,
+      "last_week": 29,
+      "peak_position": 29,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Line Of Sight",
+      "artist": "ODESZA Featuring WYNNE & Mansionair",
+      "this_week": 40,
+      "last_week": 38,
+      "peak_position": 23,
+      "weeks_on_chart": 5,
+      "new": false
+    },
+    {
+      "song": "Honest",
+      "artist": "The Chainsmokers",
+      "this_week": 41,
+      "last_week": 45,
+      "peak_position": 20,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "It Won't Kill Ya",
+      "artist": "The Chainsmokers Featuring Louane",
+      "this_week": 42,
+      "last_week": 44,
+      "peak_position": 24,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Nova",
+      "artist": "Ahrix",
+      "this_week": 43,
+      "last_week": 39,
+      "peak_position": 24,
+      "weeks_on_chart": 9,
+      "new": false
+    },
+    {
+      "song": "Another Life",
+      "artist": "Afrojack & David Guetta Featuring Ester Dean",
+      "this_week": 44,
+      "last_week": 47,
+      "peak_position": 35,
+      "weeks_on_chart": 4,
+      "new": false
+    },
+    {
+      "song": "Wake Up Alone",
+      "artist": "The Chainsmokers Featuring Jhene Aiko",
+      "this_week": 45,
+      "last_week": 46,
+      "peak_position": 23,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "Hyperreal",
+      "artist": "Flume Featuring Kucka",
+      "this_week": 46,
+      "last_week": 41,
+      "peak_position": 36,
+      "weeks_on_chart": 3,
+      "new": false
+    },
+    {
+      "song": "Creatures Of The Night",
+      "artist": "Hardwell & Austin Mahone",
+      "this_week": 47,
+      "last_week": 36,
+      "peak_position": 36,
+      "weeks_on_chart": 2,
+      "new": false
+    },
+    {
+      "song": "Last Day Alive",
+      "artist": "The Chainsmokers Featuring Florida Georgia Line",
+      "this_week": 48,
+      "last_week": 49,
+      "peak_position": 16,
+      "weeks_on_chart": 7,
+      "new": false
+    },
+    {
+      "song": "On My Mind",
+      "artist": "3LAU Featuring Yeah Boy",
+      "this_week": 49,
+      "last_week": null,
+      "peak_position": 49,
+      "weeks_on_chart": 1,
+      "new": true
+    },
+    {
+      "song": "Turn It Down For What",
+      "artist": "StoneBridge Featuring Seri",
+      "this_week": 50,
+      "last_week": null,
+      "peak_position": 50,
+      "weeks_on_chart": 1,
+      "new": true
+    }
+  ]
+}
