@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+  schedule:
+    - cron: "30 18 * * 2,3,5,6"
   workflow_dispatch:
 
 permissions:
@@ -30,6 +32,24 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+
+      - name: Restore release metadata cache
+        uses: actions/cache@v4
+        with:
+          path: .cache/music-releases
+          key: music-releases-v1-${{ github.run_id }}
+          restore-keys: music-releases-v1-
+
+      - name: Download chart archive
+        run: node scripts/explore-data.mjs
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_ANON_KEY }}
+
+      - name: Enrich album metadata gradually
+        # Existing cached covers remain available if the catalog is unavailable.
+        continue-on-error: true
+        run: node scripts/enrich-releases.mjs --limit=100
 
       - name: Build with Next.js
         run: npm run build

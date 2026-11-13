@@ -1,5 +1,8 @@
 'use client';
 
+import ArtistSuggestions from '@/components/ArtistSuggestions';
+import { artistHref, chartHref } from '@/lib/explore-links';
+
 import { useState, useEffect, useRef, useMemo, useCallback } from 'react';
 import { useGameTracking } from '@/hooks/useGameTracking';
 import { useAuth } from '@/hooks/useAuth';
@@ -163,6 +166,7 @@ export default function TriviaGame({ initialChart = 'hot-100' }: { initialChart?
   const [selectedWeek, setSelectedWeek] = useState<string | null>(null);
   const [latestWeek, setLatestWeek] = useState<string | null>(null);
   const [showAdvanced, setShowAdvanced] = useState(false);
+  const [timeMode, setTimeMode] = useState<'all' | 'era' | 'year' | 'week'>('all');
   const [pendingStart, setPendingStart] = useState<'quick' | 'latest' | null>(null);
   const defaultWeekRequestedRef = useRef(false);
   const [gameState, setGameState] = useState<'select' | 'loading' | 'playing'>('select');
@@ -249,7 +253,8 @@ export default function TriviaGame({ initialChart = 'hot-100' }: { initialChart?
       setSelectedYear(settings.year);
       setSelectedWeek(settings.week);
       // A shared link with custom settings opens the advanced controls so they're visible.
-      setShowAdvanced(settings.mode === 'specific' || settings.difficulty !== 'medium' || settings.decade !== 'all');
+      setTimeMode(settings.mode === 'specific' ? 'week' : settings.year ? 'year' : settings.decade !== 'all' ? 'era' : 'all');
+      setShowAdvanced(settings.mode === 'specific' || settings.difficulty !== 'medium' || settings.decade !== 'all' || settings.year !== null);
       setSettingsReady(true);
     };
     restore();
@@ -257,24 +262,30 @@ export default function TriviaGame({ initialChart = 'hot-100' }: { initialChart?
     return () => window.removeEventListener('popstate', restore);
   }, [initialChart]);
 
+  // What the share link and address bar record: only the settings that apply
+  // to the chosen way of picking songs.
+  const urlSettings = () => ({
+    mode: playMode,
+    difficulty,
+    decade: timeMode === 'era' ? selectedDecade : 'all',
+    year: timeMode === 'year' || timeMode === 'week' ? selectedYear : null,
+    week: timeMode === 'week' ? selectedWeek : null,
+  });
+
   useEffect(() => {
     if (!settingsReady || gameState !== 'select') return;
-    const href = triviaHref(chartById(selectedChart), {
-      mode: playMode, difficulty, decade: selectedDecade, year: selectedYear, week: selectedWeek,
-    });
+    const href = triviaHref(chartById(selectedChart), urlSettings());
     // Keep the general landing page at /; genre links have their own static pages.
     const url = new URL(href, window.location.origin);
     url.pathname = window.location.pathname;
     window.history.replaceState(window.history.state, '', url.pathname + url.search + window.location.hash);
     setShareMessage('');
     setManualShareUrl('');
-  }, [settingsReady, selectedChart, playMode, difficulty, selectedDecade, selectedYear, selectedWeek, gameState]);
+  }, [settingsReady, selectedChart, playMode, timeMode, difficulty, selectedDecade, selectedYear, selectedWeek, gameState]);
 
   const shareTrivia = async (copyOnly = false) => {
     const chart = chartById(selectedChart);
-    const url = new URL(triviaHref(chart, {
-      mode: playMode, difficulty, decade: selectedDecade, year: selectedYear, week: selectedWeek,
-    }), window.location.origin).href;
+    const url = new URL(triviaHref(chart, urlSettings()), window.location.origin).href;
     const text = gameComplete
       ? `I scored ${score} points (${correctCount}/${tracks.length}) on TuneTrivia ${chart.name}. Try these quiz settings!`
       : `Try this ${chart.name} music quiz on TuneTrivia!`;
@@ -517,7 +528,9 @@ export default function TriviaGame({ initialChart = 'hot-100' }: { initialChart?
   const startQuickPlay = async () => {
 
     // Don't need to pick a specific week - we'll query all weeks in the decade
-    if (selectedDecade === 'all') {
+    if (timeMode === 'year' && selectedYear) {
+      await startGameWithDecade(selectedYear, selectedYear + 1);
+    } else if (timeMode !== 'era' || selectedDecade === 'all') {
       await startGameWithDecade(null, null);
     } else {
       const decadeNum = parseInt(selectedDecade);
@@ -607,7 +620,7 @@ export default function TriviaGame({ initialChart = 'hot-100' }: { initialChart?
       // Start tracking game round - quick play mode
       await startGameRound(selectedChart, 'quick', {
         difficulty,
-        decadeStart: startYear,
+        decadeStart: startYear === null ? null : Math.floor(startYear / 10) * 10,
       });
 
       loadRound(gameTracks, 0, deduplicatedData);
@@ -1063,24 +1076,39 @@ export default function TriviaGame({ initialChart = 'hot-100' }: { initialChart?
     if (playMode === 'quick') startQuickPlay();
     else startGame();
   };
+  const chooseTime = (mode: 'all' | 'era' | 'year' | 'week') => {
+    if (mode === timeMode) return;
+    setTimeMode(mode);
+    if (mode === 'week') {
+      defaultWeekRequestedRef.current = true;
+      setPlayMode('specific');
+      return;
+    }
+    defaultWeekRequestedRef.current = false;
+    setPlayMode('quick');
+    setSelectedWeek(null);
+    if (mode === 'all') setSelectedDecade('all');
+    if (mode === 'era' && selectedDecade === 'all' && availableDecades.length) setSelectedDecade(availableDecades[0].replace('s', ''));
+    if (mode === 'year' && years.length && !(selectedYear && years.includes(selectedYear))) setSelectedYear(years[0]);
+  };
   // One-tap starts: set the mode first, then start once the state has settled.
   const playDefault = () => {
-    setPlayMode('quick'); setDifficulty('medium'); setSelectedDecade('all');
+    setPlayMode('quick'); setTimeMode('all'); setDifficulty('medium'); setSelectedDecade('all');
     setPendingStart('quick');
   };
   const playLatest = () => {
     if (!latestWeek) return;
-    setPlayMode('specific');
+    setPlayMode('specific'); setTimeMode('week');
     setSelectedYear(Number(latestWeek.slice(0, 4)));
     setSelectedWeek(latestWeek);
     setPendingStart('latest');
   };
   useEffect(() => {
     if (!pendingStart || gameState !== 'select') return;
-    if (pendingStart === 'quick' && playMode === 'quick' && difficulty === 'medium' && selectedDecade === 'all') {
+    if (pendingStart === 'quick' && playMode === 'quick' && timeMode === 'all' && difficulty === 'medium' && selectedDecade === 'all') {
       setPendingStart(null);
       startQuickPlay();
-    } else if (pendingStart === 'latest' && playMode === 'specific' && latestWeek && selectedWeek === latestWeek) {
+    } else if (pendingStart === 'latest' && playMode === 'specific' && timeMode === 'week' && latestWeek && selectedWeek === latestWeek) {
       setPendingStart(null);
       startGameWithWeek(latestWeek);
     }
@@ -1154,18 +1182,62 @@ export default function TriviaGame({ initialChart = 'hot-100' }: { initialChart?
               </div>
             )}
             {showAdvanced && (<>
-            <div className="seg mb-6" role="group" aria-label="Game mode">
-              <button aria-pressed={playMode === 'quick'} onClick={() => { defaultWeekRequestedRef.current = false; setPlayMode('quick'); }}>Quick play</button>
-              <button aria-pressed={playMode === 'specific'} disabled={!settingsReady} onClick={() => {
-                if (playMode === 'specific') return;
-                defaultWeekRequestedRef.current = true;
-                setPlayMode('specific');
-              }}>Pick a week</button>
-            </div>
+            <div className="space-y-6">
+              <div>
+                <div className="group-title">Songs from</div>
+                <div className="seg" role="group" aria-label="Songs from">
+                  <button aria-pressed={timeMode === 'all'} onClick={() => chooseTime('all')}>All time</button>
+                  <button aria-pressed={timeMode === 'era'} onClick={() => chooseTime('era')}>A decade</button>
+                  <button aria-pressed={timeMode === 'year'} onClick={() => chooseTime('year')}>A year</button>
+                  <button aria-pressed={timeMode === 'week'} disabled={!settingsReady} onClick={() => chooseTime('week')}>One week</button>
+                </div>
+                {timeMode === 'era' && (
+                  <div className="seg mt-3" role="group" aria-label="Decade">
+                    {availableDecades.map((decade) => {
+                      const n = decade.replace('s', '');
+                      return (
+                        <button key={decade} aria-pressed={selectedDecade === n} onClick={() => setSelectedDecade(n)}>{decade}</button>
+                      );
+                    })}
+                  </div>
+                )}
+                {timeMode === 'year' && (
+                  <label className="block mt-3 sm:max-w-xs">
+                    <span className="sr-only">Year</span>
+                    <select className="field" value={selectedYear || ''} onChange={(e) => setSelectedYear(Number(e.target.value) || null)}>
+                      {years.map((year) => <option key={year} value={year}>{year}</option>)}
+                    </select>
+                  </label>
+                )}
+                {timeMode === 'week' && (
+                  <div className="grid sm:grid-cols-2 gap-3 mt-3 sm:max-w-xl">
+                    <label>
+                      <span className="sr-only">Year</span>
+                      <select className="field" value={selectedYear || ''} onChange={(e) => { defaultWeekRequestedRef.current = false; setSelectedYear(Number(e.target.value) || null); setSelectedWeek(null); }}>
+                        <option value="">Choose a year</option>
+                        {years.map((year) => <option key={year} value={year}>{year}</option>)}
+                      </select>
+                    </label>
+                    <label>
+                      <span className="sr-only">Chart week</span>
+                      <select
+                        className="field"
+                        value={selectedWeek || ''}
+                        disabled={!selectedYear || !availableWeeks.length}
+                        onChange={(e) => { defaultWeekRequestedRef.current = false; setSelectedWeek(e.target.value || null); }}
+                      >
+                        <option value="">{selectedYear ? 'Choose a week' : 'Choose a year first'}</option>
+                        {selectedWeek && !availableWeeks.includes(selectedWeek) && <option value={selectedWeek}>{longDate(selectedWeek)}</option>}
+                        {availableWeeks.map((week) => <option key={week} value={week}>{longDate(week)}</option>)}
+                      </select>
+                    </label>
+                  </div>
+                )}
+              </div>
 
-            {playMode === 'quick' && (
-              <div className="space-y-6">
+              {timeMode !== 'week' ? (
                 <div>
+                  {(timeMode === 'year' || timeMode === 'era') && <ArtistSuggestions genre={chart.genre} year={timeMode === 'year' ? selectedYear : null} decade={selectedDecade} />}
                   <div className="group-title">Difficulty</div>
                   <div className="seg" role="group" aria-label="Difficulty">
                     {difficulties.map((d) => (
@@ -1176,52 +1248,15 @@ export default function TriviaGame({ initialChart = 'hot-100' }: { initialChart?
                   </div>
                   <p className="muted text-sm mt-2">{difficulties.find((d) => d.id === difficulty)?.hint}</p>
                 </div>
-                <div>
-                  <div className="group-title">Era</div>
-                  <div className="seg" role="group" aria-label="Era">
-                    <button aria-pressed={selectedDecade === 'all'} onClick={() => setSelectedDecade('all')}>All years</button>
-                    {availableDecades.map((decade) => {
-                      const n = decade.replace('s', '');
-                      return (
-                        <button key={decade} aria-pressed={selectedDecade === n} onClick={() => setSelectedDecade(n)}>
-                          {decade}
-                        </button>
-                      );
-                    })}
-                  </div>
-                </div>
-              </div>
-            )}
-
-            {playMode === 'specific' && (
-              <div className="grid sm:grid-cols-2 gap-4">
-                <label>
-                  <div className="group-title">Year</div>
-                  <select className="field" value={selectedYear || ''} onChange={(e) => { defaultWeekRequestedRef.current = false; setSelectedYear(Number(e.target.value) || null); setSelectedWeek(null); }}>
-                    <option value="">Choose a year</option>
-                    {years.map((year) => <option key={year} value={year}>{year}</option>)}
-                  </select>
-                </label>
-                <label>
-                  <div className="group-title">Chart week</div>
-                  <select
-                    className="field"
-                    value={selectedWeek || ''}
-                    disabled={!selectedYear || !availableWeeks.length}
-                    onChange={(e) => { defaultWeekRequestedRef.current = false; setSelectedWeek(e.target.value || null); }}
-                  >
-                    <option value="">{selectedYear ? 'Choose a week' : 'Choose a year first'}</option>
-                    {selectedWeek && !availableWeeks.includes(selectedWeek) && <option value={selectedWeek}>{longDate(selectedWeek)}</option>}
-                    {availableWeeks.map((week) => <option key={week} value={week}>{longDate(week)}</option>)}
-                  </select>
-                </label>
-              </div>
-            )}
+              ) : (
+                <p className="muted text-sm">A chart week plays that week’s songs, so there’s no difficulty setting.</p>
+              )}
+            </div>
 
             <div className="mt-8 flex flex-wrap items-center gap-4">
               <button
                 className="btn btn-primary btn-lg"
-                disabled={!settingsReady || (playMode === 'specific' && (!selectedWeek || !availableWeeks.includes(selectedWeek)))}
+                disabled={!settingsReady || (timeMode === 'week' && (!selectedWeek || !availableWeeks.includes(selectedWeek))) || (timeMode === 'year' && !selectedYear) || (timeMode === 'era' && selectedDecade === 'all')}
                 onClick={requestStart}
               >
                 Play {chart.name} trivia <span aria-hidden="true">→</span>
@@ -1383,7 +1418,9 @@ export default function TriviaGame({ initialChart = 'hot-100' }: { initialChart?
           </div>
 
           {answered && !loading && !audioBlocked && (
-            <div className="mt-5 flex items-center gap-4">
+            <div className="mt-5 flex flex-wrap items-center gap-4">
+              <a className="text-link" href={artistHref(current.artist)} target="_blank" rel="noopener noreferrer">Explore artist ↗<span className="sr-only"> (opens in a new tab)</span></a>
+              {current.chartDate && <a className="text-link" href={chartHref(chart.genre, current.chartDate)} target="_blank" rel="noopener noreferrer">View this chart ↗<span className="sr-only"> (opens in a new tab)</span></a>}
               <button className="btn btn-primary btn-lg" onClick={nextRound}>
                 {isLastRound ? 'See results' : 'Next song'}
               </button>
@@ -1414,7 +1451,7 @@ export default function TriviaGame({ initialChart = 'hot-100' }: { initialChart?
           onRetry={() => { if (!savingResult) requestStart(); }}
           onChangeSelection={resetGame}
           onShare={() => shareTrivia()}
-          chartReveal={playMode === 'specific' && weekChartTracks.length ? <ChartReveal tracks={weekChartTracks} label={chart.label} week={selectedWeek ? longDate(selectedWeek) : ''} revealed={revealedPositions} /> : undefined}
+          chartReveal={playMode === 'specific' && weekChartTracks.length ? <ChartReveal chartUrl={selectedWeek ? chartHref(chart.genre, selectedWeek) : undefined} tracks={weekChartTracks} label={chart.label} week={selectedWeek ? longDate(selectedWeek) : ''} revealed={revealedPositions} /> : undefined}
         />
       )}
 

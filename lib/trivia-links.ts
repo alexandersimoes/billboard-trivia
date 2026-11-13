@@ -41,7 +41,8 @@ export function triviaHref(chart: ChartConfig, settings?: TriviaSettings): strin
       params.set('mode', 'specific');
       if (settings.week) params.set('week', settings.week);
       else if (settings.year) params.set('year', String(settings.year));
-    } else if (settings.decade !== 'all') params.set('era', settings.decade);
+    } else if (settings.year) params.set('year', String(settings.year));
+    else if (settings.decade !== 'all') params.set('era', settings.decade);
   }
   return genrePath(chart) + (params.size ? `?${params}` : '');
 }

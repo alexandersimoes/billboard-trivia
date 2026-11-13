@@ -833,3 +833,24 @@ a { color: inherit; }
   .quiz-aside .share-setup p { display: none; }
   .quiz-aside .how-to { grid-column: 1 / -1; grid-row: 2; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.5rem; }
 }
+
+/* Native selects: draw the chevron inside the box, not at the browser's edge. */
+select.field {
+  appearance: none;
+  -webkit-appearance: none;
+  padding-right: 2.75rem;
+  cursor: pointer;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='9' viewBox='0 0 14 9' fill='none' stroke='%23d9d2dc' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M1.5 1.75 7 7.25l5.5-5.5'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 1.1rem center;
+}
+select.field:disabled { opacity: 0.55; cursor: not-allowed; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+.artist-suggestions { margin: 1rem 0 1.5rem; padding: 1rem; border: 1px solid var(--line); border-radius: 1rem; }
+.artist-suggestions > div { display: flex; flex-wrap: wrap; gap: .5rem; margin: .65rem 0; }
+.artist-suggestions a { border: 1px solid var(--line); border-radius: 999px; padding: .35rem .75rem; font-size: .85rem; }
+.artist-suggestions a:hover { background: var(--bg-deep); }
+@media(max-width:480px) { .page--select .site-header { flex-wrap: wrap; } .site-header nav { flex-wrap: wrap; } }
+.artist-suggestions a { display: inline-flex; align-items: center; gap: .35rem; }
+.artist-suggestions img { border-radius: 50%; width: 24px; height: 24px; object-fit: cover; }

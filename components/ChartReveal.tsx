@@ -3,8 +3,8 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import type { ChartTrack, RevealedPositions } from '@/lib/tracks';
 
-export default function ChartReveal({ tracks, label, week, revealed }: {
-  tracks: ChartTrack[]; label: string; week: string; revealed: RevealedPositions;
+export default function ChartReveal({ tracks, label, week, revealed, chartUrl }: {
+  tracks: ChartTrack[]; label: string; week: string; revealed: RevealedPositions; chartUrl?: string;
 }) {
   const [open, setOpen] = useState(false);
   const [search, setSearch] = useState('');
@@ -20,6 +20,7 @@ export default function ChartReveal({ tracks, label, week, revealed }: {
   useEffect(() => { if (scrollArea.current) scrollArea.current.scrollTop = 0; }, [search, onlyQuiz]);
 
   return <section className={`chart-reveal${open ? ' is-open' : ''}`} aria-label="Explore the full chart">
+    {chartUrl && <p className="mb-4"><a href={chartUrl} className="text-link">Explore this week’s full chart →</a></p>}
     {!open ? <div className="chart-reveal-invitation">
       <span className="chart-reveal-record" aria-hidden="true">♪</span>
       <div><p className="eyebrow">One week. A whole soundtrack.</p><h2 className="font-display text-2xl">What else was on the chart?</h2><p className="muted text-sm mt-2">You heard a few. Discover every available entry from this week.</p></div>

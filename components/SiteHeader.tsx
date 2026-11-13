@@ -25,6 +25,7 @@ export default function SiteHeader({ user, authLoading, onSignIn, onHome, curren
         <Link href="/" className="font-display text-2xl sm:text-3xl">TuneTrivia</Link>
       )}
       <nav className="flex items-center gap-4 sm:gap-6 font-semibold">
+        <a href="/explore/" className="header-explore">Explore</a>
         <Link
           href="/leaderboard"
           aria-current={current === 'leaderboard' ? 'page' : undefined}

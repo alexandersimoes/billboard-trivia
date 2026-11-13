@@ -26,7 +26,7 @@ async function setup(page: Page, { blocked = false, failFirst = false } = {}) {
   await page.route('**/rest/v1/rpc/get_chart_date_range', route => route.fulfill({ json: [{ min_date: '2020-09-19', max_date: '2024-01-06' }] }));
   await page.route('**/rest/v1/rpc/get_distinct_dates', route => route.fulfill({ json: [{ date: '2024-01-06' }] }));
   await page.route('**/rest/v1/v_chart_entries?**', route => route.fulfill({ json: Array.from({ length: 200 }, (_, index) => ({
-    song: `Mystery track ${index + 1}`, artist: `Singer ${index + 1}`, this_week: index + 1,
+    date: '2024-01-06', song: `Mystery track ${index + 1}`, artist: `Singer ${index + 1}`, this_week: index + 1,
     last_week: index % 3 === 0 ? null : index + 3, peak_position: 1, weeks_on_chart: 5,
   })) }));
   let failedSong = '';
@@ -76,10 +76,13 @@ test('wheel lands before playback, keeps titles secret, and reveals all 200 char
     const song = await page.evaluate(() => (window as any).currentSong as string);
     await page.locator('.option').filter({ has: page.getByText(song, { exact: true }) }).click();
     await expect(machine).toContainText(song);
+    await expect(page.getByRole('link', { name: 'Explore artist', exact: false })).toHaveAttribute('href', /\/explore\/artists\//);
+    await expect(page.getByRole('link', { name: 'View this chart', exact: false })).toHaveAttribute('href', '/explore/charts/global/2024-01-06/');
     await expect(machine).toContainText(`${index + 1} positions uncovered`);
     await page.getByRole('button', { name: index === 9 ? 'See results' : 'Next song', exact: true }).click();
   }
   await expect(page.getByRole('region', { name: 'Full chart song list' })).toHaveCount(0);
+  await expect(page.getByRole('link', { name: 'Explore this week’s full chart' })).toHaveAttribute('href', '/explore/charts/global/2024-01-06/');
   await page.getByRole('button', { name: 'Reveal the full list' }).click();
   await expect(page.locator('.chart-reveal-table tbody tr')).toHaveCount(200);
   await page.getByRole('searchbox', { name: 'Find a song or artist' }).fill('Mystery track 200');

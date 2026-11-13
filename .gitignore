@@ -39,3 +39,10 @@ next-env.d.ts
 venv/
 
 .env
+
+# Reproducible exploration archive
+.cache/explore/
+public/explore-data/
+
+.cache/music-releases/
+public/release-data/
