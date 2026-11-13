@@ -86,109 +86,145 @@ Composition rules:
 
 ## Rock
 
+Classic Rock Hall of Fame version. Attach the three reference images (Led Zeppelin Hermit, Grateful Dead Golden Road, KISS poster) with the ground prompt so the model takes their drawing style and symbols from them.
+
 ### Ground
 
-Create a wide landscape banner for the bottom of a website background: the "Rock" scene from the attached concept card, an old industrial district at night. Match the layout of the other attached ground image. A separate sky layer will sit behind it.
+Create a wide landscape banner for the bottom of a website background: the "Rock" scene, a street outside a legendary rock club at night, full of loving homages to the great classic rock bands. Match the layout of the other attached ground image. The attached Led Zeppelin, Grateful Dead and KISS artworks are references for the symbols and the poster style only. Do not copy them exactly. A separate sky layer will sit behind this image.
 
 Size and format: landscape 1536×1024, PNG with a transparent background. Every solid element is fully opaque with crisp, clean, anti-aliased edges. There is no fringe or glow halo around outlines, and no smoke or haze floating above the skyline. Lamp light falls in crisp-edged cones.
 
-Style: flat cel-shaded illustration, clean dark ink outlines, flat colour shapes with soft gradients, subtle paper grain, warm glowing windows, matching the attached concept card. Flat, straight-on side view with no perspective. All horizontal lines (wall top, railing, kerb, skyline base) are perfectly level and straight across the full width.
+Style: flat cel-shaded illustration with clean dark ink outlines, flat colour shapes with soft gradients and subtle paper grain, like a screen-printed gig poster. Flat, straight-on side view with no perspective. All horizontal lines (wall top, poster rows, kerb) are perfectly level and straight across the full width.
 
-Depth and detail: give the scene rich depth like the attached concept card, never flat silhouettes. Build it in three layers. The foreground (the end landmarks, the fence or railing, plants) has the darkest, richest colours and the crispest linework. The midground buildings are fully detailed. The background skyline uses lighter, cooler, less saturated tones and simpler shapes, so it reads as far away. Shade every building with a lit front face and a darker side or recessed face. Add cast shadows under cornices, ledges, balconies, awnings and window sills, and warm light spilling from lamps and windows onto nearby walls, plants and pavement. Use three or four related colours across the buildings instead of one flat colour, so neighbouring buildings read as separate and overlapping. Add texture and small details where they fit: brick or stone courses, window frames and mullions, sills, awnings, drainpipes, fire escapes, rooftop water tanks, vents, chimneys and antennas. Vary the windows: most warm and lit, some dim, a few dark, a few with curtains or silhouettes. Depth comes from layering, overlap, shading and colour, not from perspective lines, and everything stays fully opaque, with no haze.
+Depth and detail: give the scene rich depth, never flat silhouettes. Build it in three layers. The foreground (end landmarks, lamp posts, pavement) has the darkest, richest colours and the crispest linework. The midground (the poster wall and buildings) is fully detailed. The background skyline uses lighter, cooler, less saturated tones and simpler shapes. Shade every building with a lit front face and a darker side or recessed face. Add cast shadows under cornices, ledges and awnings, and warm light spilling from lamps and windows onto the walls and pavement. Use three or four related colours across the buildings so neighbouring buildings read as separate. Add texture where it fits: brick courses, window frames, drainpipes, fire escapes, rooftop water tanks, vents and antennas. Vary the windows: most warm and lit, some dim, a few dark. Everything stays fully opaque, with no haze.
+
+The homage idea: a passer-by should be able to spot the great rock acts from their famous visual signatures, drawn as stylised poster art. Show faces only as graphic, illustrated poster art in the flat style of the attached KISS poster, recognisable through the iconic costume, make-up, hair and props. Do not draw photographic or realistic portraits of real people. There is no text, lettering or band names anywhere, so the symbols must do the work.
 
 The image has three zones:
 
-1. Left end, the left 28% of the width: the corner of an old brick warehouse in dark plum-brown brick. Its big multi-pane factory windows glow red-orange. It has two black gooseneck wall lamps, a zig-zag iron fire escape and a wooden water tower on stilts on its roof, and it is cut off by the left side of the frame. The water tower is the tallest point in the image. Red and coral tropical leaves grow at the base.
+1. Left end, the left 28% of the width: the corner of the legendary club, a tall dark brick venue with a glowing marquee made only of round bulbs (no letters), an iron fire escape and a rooftop water tank. A giant painted mural covers its side wall: a face with a red and blue lightning bolt across it and a bright orange feathered haircut (the Bowie look). Beside the door, a gig poster in the style of the attached KISS poster shows four face-painted rockers with lightning bolts and stars. By the entrance stands a tall street lamp topped with the attached Led Zeppelin hermit: a hooded, bearded old man in a robe, leaning on his staff and holding up a glowing lantern. The hermit's lantern is the tallest point in the image.
 
 2. Middle, from 28% to 80% of the width. This section must be repeatable, like wallpaper:
-- A long low brick wall with identical square brick pillars, exactly one every 12% of the image width. Each pillar has a small caged amber bulb on top, and a simple black iron railing runs along the wall top.
-- Behind the wall, a band of low dark-purple industrial buildings of similar height, with sawtooth roofs, short chimneys and small amber and red-orange windows. No tall tower or landmark.
-- Across the bottom, wet asphalt with evenly spaced vertical red-orange and amber reflections.
-- No unique objects in the middle: no one-off landmark such as a windmill, gazebo, dome, tower, statue or fountain, not even as a small decoration. Detail and variety are welcome; standout features belong in the end zones.
+- A long low brick wall covered in pasted gig posters, divided by identical stone pillars, exactly one every 13% of the image width. Each pillar carries a short lamp post topped with a small glowing lantern, a simple echo of the hermit's lantern.
+- Between each pair of pillars the posters repeat in the same order. Poster one: a red tongue sticking out of big red lips (the Rolling Stones look). Poster two: a winged emblem with a star (the Aerosmith look). Poster three: a curly-haired man in dark sunglasses with a harmonica on a neck rack (the Dylan look). Poster four: a woman with round rose-tinted glasses, long hair and beads (the Janis Joplin look). Poster five: a red asterisk (the Red Hot Chili Peppers look). Poster six: a skull in a circle with a lightning bolt through it, ringed by roses (the Grateful Dead look). Add a few smaller stickers: a prism splitting light into a rainbow, a bullseye target roundel, a crowned crest, a lightning bolt, and a dancing bear.
+- Above the wall, a band of low dark brick buildings with small lit windows, rooftop antennas and a few hanging neon guitar-shaped signs with no text. No tall tower or landmark.
+- Across the bottom, a street of golden cobblestones like the yellow road in the attached Grateful Dead artwork, with evenly spaced vertical amber and red-orange reflections.
+- No unique objects in the middle: no one-off landmark such as a bus, tower, statue, fountain or stage, not even as a small decoration. Detail and variety are welcome, but the same arrangement repeats in each bay. Standout features belong in the end zones.
 
-3. Right end, the right 20% of the width: a rusted steel water tank on a tall lattice frame, and a clump of red and coral tropical leaves running off the right side of the frame. The tank may rise above the rest of the skyline.
+3. Right end, the right 20% of the width: a painted psychedelic VW camper van parked at the kerb, with swirling purple and magenta patterns, a drum kit tied to its roof and a small number plate. A tree beside it has a few tiny dancing bears (in green, blue and gold) climbing its branches, and sunflowers and a red rose grow at its base. A tall pole carries a faded poster of a spread-winged guitar-shaped silhouette. The scene runs off the right side of the frame.
 
-All artwork sits in the bottom 55% of the canvas. The top 45% is completely empty and transparent, except the two water towers.
+All artwork sits in the bottom 55% of the canvas. The top 45% is completely empty and transparent, except the hermit's lamp.
 
-Colours: plum night #2c2030, aubergine #43203a, brick #5a2e33, steel #3a2a40, red-orange window glow #ff5a36, ember red #f05050, amber bulbs #ffb347.
+Colours: plum night #2c2030, aubergine #43203a, brick #5a2e33, steel #3a2a40, red-orange glow #ff5a36, ember red #f05050, amber bulbs #ffb347, plus small accents of gold #f4c542, teal #2fb8a8 and violet #8a4fc8 in the posters, the bus and the bears.
 
-No sky, clouds, smoke, moon, stars, text, signs with words, logos, border or vignette.
+No sky, clouds, smoke, moon, stars, text, lettering, band names, border or vignette.
 
 ### Sky
 
-Create the stormy night sky that goes behind the attached "Rock" industrial scene. It will be a full-screen website background, and the attached image sits on top of it along the bottom of the screen, so this image is only sky.
+Create the psychedelic sunset sky that goes behind the attached "Rock" street scene. It will be a full-screen website background, and the attached image sits on top of it along the bottom of the screen, so this image is only sky. The attached Grateful Dead poster is a reference for the sun style only.
 
 Size: landscape 1536×1024, no transparency. The whole canvas is filled with sky.
 
-Style: match the attached image exactly. Flat cel-shaded illustration, flat colour shapes with soft gradients, subtle paper grain. Not photorealistic, no lens flare, no bloom.
+Style: match the attached ground image. Flat cel-shaded illustration like a screen-printed gig poster, flat colour shapes with soft gradients, subtle paper grain. Not photorealistic, no lens flare, no bloom.
 
-Sky gradient, top to bottom: near-black plum #1d132b at the top, through #361b3d and #55275d, to dusky purple #6a2f63 at the bottom edge.
+Sky gradient, top to bottom: near-black plum #1d132b at the top, through #43203a and #7a2d5e, to glowing red-orange #c2452f at the bottom edge.
 
 In the sky:
-- Big billowing storm clouds massed over the right half, in plum #5a2a55 with magenta-lit edges (#a24a7e) and darker undersides.
-- One thin winding wisp of smoke curling diagonally across the upper middle, in muted mauve #7a3a6e.
-- No stars.
+- One huge sun low in the right-hand half of the image, drawn as a round emblem: a pale gold circle with a lightning bolt through it and a faint skull in its lower half, surrounded by long flowing flame-like rays that fan out across the sky. Keep it soft and low-contrast, in warm gold #f4c542 and amber #ffb347 on the deep sky.
+- Thin wavy bands of cloud in magenta #a24a7e and violet #6a2f8f, drifting across the middle of the sky.
+- A few small four-point stars and one or two tiny lightning bolts in pale gold, scattered in the upper sky.
 
 Composition rules:
-- The bottom 40% is calm, with only the gradient and a faint red-orange city underglow (#8a3a4a) rising from the bottom edge. Buildings cover this area, and the sky only shows through the gaps.
-- Keep the top-left and top-centre quieter than the right, because the site title sits there.
+- The bottom 40% is calm, with only the gradient and a red-orange glow rising from the bottom edge. Buildings cover this area.
+- Keep the top-left and top-centre quiet, with no rays or emblem, because the site title sits there.
 - Keep everything low-contrast, so text and buttons stay readable on top.
-- No moon, sun, lightning, buildings, skyline, ground, birds, people, text, border or vignette.
+- No moon, buildings, skyline, ground, birds, people, faces, text, lettering, border or vignette.
+
+---
+
+### Sky (alternative: prism)
+
+Use this instead of the sunset sky above. Attach the finished ground image and the prism reference.
+
+Create a near-black night sky that goes behind the attached "Rock" street scene. It will be a full-screen website background, and the attached image sits on top of it along the bottom of the screen, so this image is only sky. The attached prism artwork is a reference for the idea only. Make a small, subtle homage, not a copy.
+
+Size: landscape 1536×1024, no transparency. The whole canvas is filled with sky.
+
+Style: flat, minimal, clean vector look with subtle paper grain, matching the attached ground image. Not photorealistic, no lens flare, no bloom.
+
+Sky gradient, top to bottom: pure black #050308 for the top 75%, easing into very deep plum #1d132b and then a faint dusky plum #2c1a33 at the bottom edge. It should read as essentially black.
+
+In the sky, one small prism motif in the upper right quarter of the image, placed about 70% of the way across and 22% of the way down:
+- A small triangle outline, roughly 9% of the image width, drawn as a thin glass-like edge in cool grey-teal #5f7d86 with a barely visible lighter edge on one side. The inside is the same black as the sky.
+- A thin white beam #e8e8f0 comes in from the left edge of the triangle, running slightly upward from the left, and fades out softly before it gets far.
+- On the right of the triangle the beam spreads into a narrow rainbow band of seven flat stripes (red, orange, yellow, green, blue, indigo, violet) that widens slightly as it runs off toward the right edge of the image. Keep the rainbow muted and slightly dim, about 60% of full brightness, so it glows quietly against the black.
+
+Composition rules:
+- Everything else is empty black. No stars, clouds, moon, sun, glow or haze.
+- The bottom 40% is calm, with only the gradient. Buildings cover this area.
+- Keep the top-left and top-centre completely black, because the site title sits there.
+- Keep the motif low-contrast and small, so text and buttons stay readable on top.
+- No buildings, skyline, ground, birds, people, faces, text, lettering, border or vignette.
+
+If it comes back too bright or too large, ask: "Make the prism about 30% smaller, dim the rainbow a little, and keep the rest of the sky pure black."
 
 ---
 
 ## Alternative
 
+Indie, punk and post-punk version: a lo-fi photocopied zine of a downtown club block, set apart from Rock by its look (xerox grain, torn paper, two-colour print) and by its colours (cold slate and ice blue with hot pink and safety orange). Attach the Smiths, Radiohead and Sonic Youth covers and the punk logo chart with the ground prompt, as references for mood and symbols only.
+
 ### Ground
 
-Create a wide landscape banner for the bottom of a website background: the "Alternative" scene from the attached concept card, an overgrown city park at night with fireflies. Match the layout of the other attached ground image. A separate sky layer will sit behind it.
+Create a wide landscape banner for the bottom of a website background: the "Alternative" scene, a gritty downtown club block at night, covered in homages to indie, alternative and punk bands. Match the layout of the other attached ground image. The attached album covers and punk logo chart are references for mood, colour and symbols only. Do not copy any cover or logo exactly. A separate sky layer will sit behind this image.
 
-Size and format: landscape 1536×1024, PNG with a transparent background. Every solid element is fully opaque with crisp, clean, anti-aliased edges. There is no fringe or glow halo around outlines, and no haze floating above the skyline. Fireflies are small solid amber dots, not glows.
+Size and format: landscape 1536×1024, PNG with a transparent background. Every solid element is fully opaque with crisp, clean, anti-aliased edges. There is no fringe, no glow halo around lamps or windows, and no haze or smoke floating above the skyline. Lamp light falls in crisp-edged cones.
 
-Style: flat cel-shaded illustration, clean dark ink outlines, flat colour shapes with soft gradients, subtle paper grain, warm glowing windows, matching the attached concept card. Flat, straight-on side view with no perspective. All horizontal lines (wall top, path edge, skyline base) are perfectly level and straight across the full width.
+Style: a lo-fi photocopied zine collage, clearly different from a polished screen-print. Rough hand-inked outlines, visible halftone dot shading, xerox grain, slightly off-register two-colour printing, torn and taped paper edges, hand-cut stencil shapes and spray-paint drips. Flat, straight-on side view with no perspective. All horizontal lines (wall top, fence rail, kerb) are perfectly level and straight across the full width.
 
-Depth and detail: give the scene rich depth like the attached concept card, never flat silhouettes. Build it in three layers. The foreground (the end landmarks, the fence or railing, plants) has the darkest, richest colours and the crispest linework. The midground buildings are fully detailed. The background skyline uses lighter, cooler, less saturated tones and simpler shapes, so it reads as far away. Shade every building with a lit front face and a darker side or recessed face. Add cast shadows under cornices, ledges, balconies, awnings and window sills, and warm light spilling from lamps and windows onto nearby walls, plants and pavement. Use three or four related colours across the buildings instead of one flat colour, so neighbouring buildings read as separate and overlapping. Add texture and small details where they fit: brick or stone courses, window frames and mullions, sills, awnings, drainpipes, fire escapes, rooftop water tanks, vents, chimneys and antennas. Vary the windows: most warm and lit, some dim, a few dark, a few with curtains or silhouettes. Depth comes from layering, overlap, shading and colour, not from perspective lines, and everything stays fully opaque, with no haze.
+Depth and detail: give the scene rich depth, never flat silhouettes. Build it in three layers. The foreground (end landmarks, fence posts, kerb) has the darkest, richest colours and the crispest linework. The midground (the graffiti wall and buildings) is fully detailed. The background skyline uses lighter, cooler, less saturated tones and simpler shapes. Shade every building with a lit front face and a darker side or recessed face. Add cast shadows under cornices, ledges and awnings, and warm light spilling from windows onto the walls and pavement. Use three or four related colours across the buildings so neighbouring buildings read as separate. Add texture where it fits: crumbling brick and concrete, layers of peeling flyers, spray-paint tags made of abstract scribbles (no readable letters), metal doors, fire escapes, rooftop vents and antennas. Vary the windows: some lit, some dim, many dark. Everything stays fully opaque.
+
+The homage idea: a passer-by should be able to spot great alternative and punk acts from their famous visual signatures, drawn as stencils, stickers and wheat-pasted flyers. Show faces and figures only as graphic, illustrated art in the photocopy style, never photographic portraits of real people. There is no text, lettering, band names or readable words anywhere, so the symbols must do the work.
 
 The image has three zones:
 
-1. Left end, the left 26% of the width: a thick old tree trunk with a leafy canopy whose crown reaches only a little above the skyline, cut off by the left side of the frame. Giant tropical leaves in yellow-green and teal grow at its base. The tree crown is the tallest point on the left.
+1. Left end, the left 28% of the width: the corner of a narrow, grimy punk club in the style of the famous New York dive on the Bowery. It has a flat dark-green awning, a heavy black door, a boarded window and a payphone on its front, and the whole front is layered with peeling flyers, band stickers and spray tags. Around the door, stencilled punk symbols: a skull with a spooky grin (Misfits look), four thick black bars in a row (Black Flag look), a circle with a lightning bolt through it (Bad Brains look), a crossed-out cross in a circle (Bad Religion look), a presidential eagle seal in a ring (Ramones look), and a stick figure mid-stride inside a circle. High on the wall, a big wheat-pasted poster of a pale, green-tinted face resting in shadow with an open hand over it (Smiths look, in murky green halftone). On the corner, a tall iron lamp post. The club's flat roof carries a rusted vent stack and a few antennas.
 
-2. Middle, from 26% to 80% of the width. This section must be repeatable, like wallpaper:
-- A low mossy stone wall with identical square stone pillars, exactly one every 12% of the image width, each with a small round stone cap.
-- Between each pair of pillars, an identical clump of ferns and leafy bushes.
-- Behind the wall, a teal skyline band of apartment blocks with similar heights and small amber windows. No tower or landmark.
-- Tiny solid amber firefly dots scattered evenly across the bushes.
-- Across the bottom, a dark damp garden path with soft evenly spaced amber reflections.
-- No unique objects in the middle: no one-off landmark such as a windmill, gazebo, dome, tower, statue or fountain, not even as a small decoration. Detail and variety are welcome; standout features belong in the end zones.
+2. Middle, from 28% to 80% of the width. This section must be repeatable, like wallpaper:
+- A long concrete and brick wall covered in flyers and spray tags, fronted by a chain-link fence on identical steel posts, exactly one post every 14% of the image width. Each post is a thin round steel pipe with a small flat cap, with a plain cone-shaped street lamp bracketed to it.
+- Keep the flyers and graffiti inside the bays between the posts. Nothing overlaps or hides a post. Each bay holds the same arrangement: a row of three torn flyers (a stitched orange crocheted doll's head with button eyes in the Sonic Youth look, a spiky-haired shouting cartoon face in a square, a skull inside a heart) and below them a few stickers (a lightning bolt, a four-bar flag, a star, a safety pin).
+- Behind the wall, a low band of dark brick tenement roofs with water-stained walls, a few lit and many dark windows, short chimneys and antennas, with a few colourful hand-painted block signs on the roofs made only of flat colour rectangles (no letters). No tall tower or landmark.
+- Across the bottom, a wet cracked pavement with a concrete kerb and evenly spaced vertical reflections of the lamps.
+- No unique objects in the middle: no one-off landmark such as a water tank, tower, van, tree, statue or stage, not even as a small decoration. Detail and variety are welcome, but the same arrangement repeats in each bay. Standout features belong in the end zones.
 
-3. Right end, the right 20% of the width: a cluster of three tall, slender, dark cypress trees, the tallest point on the right, with big yellow-green leaves at their base running off the right side of the frame.
+3. Right end, the right 20% of the width: the corner of a record shop with a big hand-painted mural of jagged icy white mountain peaks under a flat red sky, with two little orange volcano tips (Radiohead look). In front of it a giant crocheted orange doll with antennae sits on a stoop beside a stack of milk crates full of records. A rooftop sign made of rows of flat colour blocks and no letters sits on top. The scene runs off the right side of the frame.
 
-All artwork sits in the bottom 55% of the canvas. The top 45% is completely empty and transparent, except the left tree crown and the cypress tops.
+All artwork sits in the bottom 55% of the canvas. The top 45% is completely empty and transparent.
 
-Colours: deep teal #0e4a5c, teal #127978, sea green #229992, skyline teal #1f6f6f, dark foliage #0b3a3a, bright leaves #c8d84a and #8fbf3a, amber windows and fireflies #ffb347.
+Colours: slate night #1c2b3f, steel blue #2f4a63, ice blue #8fb2cc, pale grey-blue #c7d8e4, murky Smiths green #2f5a40, hot pink #ff4f9a, safety orange #ff6a1f, signal red #d93b2f, off-black #0d1118, flyer paper #e8dcc0.
 
-No sky, clouds, moon, stars, swirls, text, signs with words, logos, border or vignette.
+No sky, clouds, smoke, moon, stars, text, lettering, band names, border or vignette.
 
 ### Sky
 
-Create the dreamy night sky that goes behind the attached "Alternative" park scene. It will be a full-screen website background, and the attached image sits on top of it along the bottom of the screen, so this image is only sky.
+Create the cold night sky that goes behind the attached "Alternative" club-block scene. It will be a full-screen website background, and the attached image sits on top of it along the bottom of the screen, so this image is only sky.
 
 Size: landscape 1536×1024, no transparency. The whole canvas is filled with sky.
 
-Style: match the attached image exactly. Flat cel-shaded illustration, flat colour shapes with soft gradients, subtle paper grain. Not photorealistic, no lens flare, no bloom.
+Style: match the attached ground image. A lo-fi photocopy look: flat colour with halftone dot shading, coarse xerox grain, torn-paper edges on the clouds, slightly off-register layers. Not photorealistic, no lens flare, no bloom.
 
-Sky gradient, top to bottom: deep teal #0b3f4f at the top, through #127978 and #229992, to pale sea green #5ccec0 at the bottom edge.
+Sky gradient, top to bottom: near-black slate #0f1822 at the top, through #1c2b3f and #2f4a63, to a pale ice-blue glow #8fb2cc at the bottom edge.
 
 In the sky:
-- A full round cream moon (#f6eccd) in the upper right, at about 80% across and 15% down, with a small soft halo.
-- Flowing, swirling wind ribbons in the style of a painted starry night, in lighter teal (#4fb0a0 to #7ad0c0), sweeping across the upper middle. They are semi-transparent and low-contrast.
-- A few tiny cream stars.
+- A few big, flat, torn-paper clouds in steel blue #3f6280 and ice blue #6f93ae, with ragged cut edges and halftone-dot shadows, drifting across the middle of the sky.
+- One small pale moon disc in pale grey-blue #c7d8e4, low in the right third, with a faint halftone ring around it.
+- A scatter of tiny halftone dots and small hand-drawn crosses as stars in the upper sky, and one thin pink #ff4f9a torn-paper strip floating among the clouds as a small accent.
 
 Composition rules:
-- The bottom 40% is calm, with only the gradient. The skyline covers this area, and the sky only shows through the gaps.
-- Keep the top-left and top-centre quiet, with the swirls lighter there, because the site title sits there.
+- The bottom 40% is calm, with only the gradient. Buildings cover this area.
+- Keep the top-left and top-centre quiet, with no clouds or moon, because the site title sits there.
 - Keep everything low-contrast, so text and buttons stay readable on top.
-- No sun, buildings, trees, skyline, ground, fireflies, birds, people, text, border or vignette.
+- No buildings, skyline, ground, birds, people, faces, text, lettering, border or vignette.
 
 ---
 

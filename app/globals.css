@@ -11,7 +11,7 @@
 [data-theme="evergreen"]  { --bg: #0f3d3a; --accent: #ff8a3d; --ink: #eaf3e2; }
 [data-theme="harbor"]     { --bg: #12395b; --accent: #ffc857; --ink: #eaf1f5; }
 [data-theme="garage"]     { --bg: #2c2030; --accent: #ff5a36; --ink: #f3e8e2; }
-[data-theme="rain"]       { --bg: #0e4a5c; --accent: #ffb347; --ink: #e9f3f1; }
+[data-theme="rain"]       { --bg: #1c2b3f; --accent: #ff5fa2; --ink: #e6eef5; }
 [data-theme="prairie"]    { --bg: #7a3f14; --accent: #86dcd3; --ink: #fcebcf; }
 [data-theme="velvet"]     { --bg: #40154a; --accent: #ff9e8a; --ink: #f7e8f3; }
 [data-theme="brownstone"] { --bg: #3d2318; --accent: #45d0c6; --ink: #f6e7d6; }
@@ -264,35 +264,60 @@ a { color: inherit; }
 [data-theme="harbor"] .scene,
 [data-theme="harbor"] .moon { display: none; }
 
-/* Rock. */
+/* Rock: classic-rock tribute street under a Dark Side prism sky. The water
+ * tower at x ~730-800 in the source art was erased so it does not repeat. */
 [data-theme="garage"] .sky {
   background-image:
     url("/scenes/rock/sky.webp"),
-    linear-gradient(to bottom, #230e2f 0%, #30143b 30%, #4b1c4e 60%, #7c2965 85%, #8c3064 100%);
+    linear-gradient(to bottom, #010004 0%, #020005 50%, #06020d 70%, #14091e 85%, #27122d 100%);
+}
+/* The club end and the van end are wide (together 1.58 x the height), so the
+ * footer is a little shorter on phones to leave room for the repeating middle. */
+[data-theme="garage"] .ground { --gh: min(clamp(170px, 30vh, 330px), 44vw); }
+/* Anchor to the top so the prism is never cropped off on wide screens. */
+[data-theme="garage"] .sky { background-position: center top; }
+/* The prism sits in the left margin. On laptop widths the content column
+ * reaches the left edge, so enlarge the sky a little and crop the prism out
+ * rather than let it sit behind the title. */
+@media (min-width: 1000px) and (max-width: 1500px) {
+  [data-theme="garage"] .sky { background-size: 135% auto, cover; background-position: right top, center; }
 }
 [data-theme="garage"] .ground {
   --ground-l: url("/scenes/rock/left.webp");
   --ground-m: url("/scenes/rock/mid.webp");
   --ground-r: url("/scenes/rock/right.webp");
-  --ground-l-w: 0.8130;
-  --ground-r-w: 0.4079;
+  --ground-l-w: 0.9923;
+  --ground-r-w: 0.5877;
 }
 [data-theme="garage"] .scene,
 [data-theme="garage"] .moon { display: none; }
 
-/* Alternative. The source art's windmill (above the rooftops at x ~1005-1090)
- * was erased before slicing so it doesn't repeat with the middle tile. */
+/* Alternative: photocopied-zine punk club block under a halftone night sky. The
+ * rooftop sign at x ~880-970 in the source art straddled the repeat cut, so it
+ * was erased before slicing. The two end pieces are wide (together 1.54 x the
+ * height), so the footer is a little shorter on phones. */
 [data-theme="rain"] .sky {
   background-image:
     url("/scenes/alternative/sky.webp"),
-    linear-gradient(to bottom, #004253 0%, #01606f 30%, #059998 60%, #2ec5b6 85%, #4ad8c4 100%);
+    linear-gradient(to bottom, #141c25 0%, #13202c 30%, #1f3649 60%, #47728f 85%, #77a8c8 100%);
+}
+[data-theme="rain"] .ground { --gh: min(clamp(170px, 30vh, 330px), 44vw); }
+/* Below ~1500px the page content sits over the clouds and moon, so dim the
+ * sky a little to keep the labels readable. */
+@media (max-width: 1500px) {
+  [data-theme="rain"] .sky {
+    background-image:
+      linear-gradient(rgba(10, 16, 24, 0.5), rgba(10, 16, 24, 0.5)),
+      url("/scenes/alternative/sky.webp"),
+      linear-gradient(to bottom, #141c25 0%, #13202c 30%, #1f3649 60%, #47728f 85%, #77a8c8 100%);
+  }
 }
 [data-theme="rain"] .ground {
   --ground-l: url("/scenes/alternative/left.webp");
   --ground-m: url("/scenes/alternative/mid.webp");
   --ground-r: url("/scenes/alternative/right.webp");
-  --ground-l-w: 0.8081;
-  --ground-r-w: 0.3865;
+  --ground-l-w: 0.8224;
+  --ground-r-w: 0.7176;
 }
 [data-theme="rain"] .scene,
 [data-theme="rain"] .moon { display: none; }
@@ -491,7 +516,7 @@ a { color: inherit; }
 .section-heading .group-title { margin-bottom: 0; }
 .step-number { font-size: 0.75rem; margin-right: 0.65rem; color: var(--accent); }
 .chart-caption { margin: 1rem 0 1.7rem; font-size: 0.9rem; }
-.setup-layout { display: grid; grid-template-columns: minmax(0, 1.8fr) minmax(0, 1fr); gap: 2rem; }
+.setup-layout { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1.25rem; }
 #quiz-setup { scroll-margin-top: 1.5rem; }
 .quiz-aside { padding: 1.6rem; border: 1px solid var(--line); border-radius: 1.25rem; background: color-mix(in oklab, var(--bg-deep) 96%, transparent); }
 .how-to { display: grid; gap: 1.15rem; }
@@ -788,4 +813,23 @@ a { color: inherit; }
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition: none !important; animation: none !important; }
+}
+
+/* Landing: one-tap start buttons and the advanced-options toggle. */
+.quick-start { display: flex; flex-wrap: wrap; align-items: stretch; gap: 0.9rem; }
+.quick-start-btn { display: flex; flex-direction: column; align-items: flex-start; justify-content: center; gap: 0.15rem; text-align: left; min-width: 15rem; }
+.quick-start-btn small { font-size: 0.8rem; font-weight: 500; opacity: 0.75; }
+.cog-link { display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.9rem; color: var(--muted); cursor: pointer; }
+.cog-link:hover { color: var(--ink); }
+.quick-start .cog-link { flex-basis: 100%; }
+@media (max-width: 640px) { .quick-start-btn { width: 100%; } }
+
+/* Wide screens: the how-it-works card is a compact strip under the setup panel:
+ * title and share on one row, the three steps across the full width below. */
+@media (min-width: 900px) {
+  .quiz-aside { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 1.25rem 2rem; padding: 1.4rem 1.8rem; }
+  .quiz-aside > h2 { margin-bottom: 0; grid-column: 1; grid-row: 1; }
+  .quiz-aside .share-setup { grid-column: 2; grid-row: 1; border-top: 0; margin-top: 0; padding-top: 0; display: flex; align-items: center; gap: 0.5rem; }
+  .quiz-aside .share-setup p { display: none; }
+  .quiz-aside .how-to { grid-column: 1 / -1; grid-row: 2; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.5rem; }
 }

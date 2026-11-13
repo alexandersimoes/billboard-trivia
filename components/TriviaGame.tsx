@@ -161,6 +161,9 @@ export default function TriviaGame({ initialChart = 'hot-100' }: { initialChart?
   const [selectedYear, setSelectedYear] = useState<number | null>(null);
   const [availableWeeks, setAvailableWeeks] = useState<string[]>([]);
   const [selectedWeek, setSelectedWeek] = useState<string | null>(null);
+  const [latestWeek, setLatestWeek] = useState<string | null>(null);
+  const [showAdvanced, setShowAdvanced] = useState(false);
+  const [pendingStart, setPendingStart] = useState<'quick' | 'latest' | null>(null);
   const defaultWeekRequestedRef = useRef(false);
   const [gameState, setGameState] = useState<'select' | 'loading' | 'playing'>('select');
   const [tracks, setTracks] = useState<Track[]>([]);
@@ -245,6 +248,8 @@ export default function TriviaGame({ initialChart = 'hot-100' }: { initialChart?
       setSelectedDecade(settings.decade);
       setSelectedYear(settings.year);
       setSelectedWeek(settings.week);
+      // A shared link with custom settings opens the advanced controls so they're visible.
+      setShowAdvanced(settings.mode === 'specific' || settings.difficulty !== 'medium' || settings.decade !== 'all');
       setSettingsReady(true);
     };
     restore();
@@ -393,11 +398,11 @@ export default function TriviaGame({ initialChart = 'hot-100' }: { initialChart?
           allYears.push(year);
         }
 
-        if (playMode === 'quick') {
-          setAvailableDecades(getDecades(allYears));
-        } else {
-          setYears(allYears.sort((a, b) => b - a));
-          if (defaultWeekRequestedRef.current) {
+        setLatestWeek(rangeData[0].max_date);
+        setAvailableDecades(getDecades(allYears));
+        {
+          setYears([...allYears].sort((a, b) => b - a));
+          if (playMode === 'specific' && defaultWeekRequestedRef.current) {
             defaultWeekRequestedRef.current = false;
             setSelectedYear(maxYear);
             setSelectedWeek(rangeData[0].max_date);
@@ -1058,6 +1063,28 @@ export default function TriviaGame({ initialChart = 'hot-100' }: { initialChart?
     if (playMode === 'quick') startQuickPlay();
     else startGame();
   };
+  // One-tap starts: set the mode first, then start once the state has settled.
+  const playDefault = () => {
+    setPlayMode('quick'); setDifficulty('medium'); setSelectedDecade('all');
+    setPendingStart('quick');
+  };
+  const playLatest = () => {
+    if (!latestWeek) return;
+    setPlayMode('specific');
+    setSelectedYear(Number(latestWeek.slice(0, 4)));
+    setSelectedWeek(latestWeek);
+    setPendingStart('latest');
+  };
+  useEffect(() => {
+    if (!pendingStart || gameState !== 'select') return;
+    if (pendingStart === 'quick' && playMode === 'quick' && difficulty === 'medium' && selectedDecade === 'all') {
+      setPendingStart(null);
+      startQuickPlay();
+    } else if (pendingStart === 'latest' && playMode === 'specific' && latestWeek && selectedWeek === latestWeek) {
+      setPendingStart(null);
+      startGameWithWeek(latestWeek);
+    }
+  });
   const difficulties = [
     { id: 'easy', label: 'Easy', hint: 'Long-running top 10 hits, 30 seconds each' },
     { id: 'medium', label: 'Medium', hint: 'Top 20 songs, 20 seconds each, 1.5× points' },
@@ -1109,7 +1136,24 @@ export default function TriviaGame({ initialChart = 'hot-100' }: { initialChart?
 
           <div className="setup-layout">
           <section id="quiz-setup" className="panel p-5 sm:p-8" aria-labelledby="setup-heading">
-            <h2 id="setup-heading" className="group-title mb-5"><span className="step-number">02</span> Make it your mix</h2>
+            <h2 id="setup-heading" className="group-title mb-5"><span className="step-number">02</span> {showAdvanced ? 'Make it your mix' : 'Ready?'}</h2>
+            {!showAdvanced && (
+              <div className="quick-start">
+                <button className="btn btn-primary btn-lg quick-start-btn" disabled={!settingsReady} onClick={playDefault}>
+                  <span>Play {chart.name} trivia <span aria-hidden="true">→</span></span>
+                  <small>All years · Medium</small>
+                </button>
+                <button className="btn btn-ghost btn-lg quick-start-btn" disabled={!settingsReady || !latestWeek} onClick={playLatest}>
+                  <span>Play the latest week</span>
+                  <small>{latestWeek ? `Chart of ${longDate(latestWeek)}` : 'Loading…'}</small>
+                </button>
+                <button className="cog-link" onClick={() => setShowAdvanced(true)} aria-expanded="false">
+                  <span aria-hidden="true">⚙</span> Advanced options
+                </button>
+                {status.startsWith('Error') && <span role="alert">Couldn’t load that chart. Try another era or chart.</span>}
+              </div>
+            )}
+            {showAdvanced && (<>
             <div className="seg mb-6" role="group" aria-label="Game mode">
               <button aria-pressed={playMode === 'quick'} onClick={() => { defaultWeekRequestedRef.current = false; setPlayMode('quick'); }}>Quick play</button>
               <button aria-pressed={playMode === 'specific'} disabled={!settingsReady} onClick={() => {
@@ -1184,6 +1228,10 @@ export default function TriviaGame({ initialChart = 'hot-100' }: { initialChart?
               </button>
               {status.startsWith('Error') && <span role="alert">Couldn’t load that chart. Try another era or chart.</span>}
             </div>
+            <button className="cog-link mt-4" onClick={() => setShowAdvanced(false)} aria-expanded="true">
+              <span aria-hidden="true">⚙</span> Hide options
+            </button>
+            </>)}
             <p className="muted text-sm mt-3">Free to play. No sign-up needed. Sound on.</p>
           </section>
           <aside className="quiz-aside">
