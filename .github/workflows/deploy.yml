@@ -47,7 +47,10 @@ jobs:
           NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_ANON_KEY }}
 
       - name: Enrich album metadata gradually
+        # Rate-limited (about 3s per artist, ~6 minutes for 100), so it only runs on
+        # the weekly schedule or a manual run. Pushes reuse the cached covers.
         # Existing cached covers remain available if the catalog is unavailable.
+        if: github.event_name != 'push'
         continue-on-error: true
         run: node scripts/enrich-releases.mjs --limit=100
 

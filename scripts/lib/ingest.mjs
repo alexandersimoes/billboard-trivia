@@ -15,8 +15,10 @@ export const CHARTS = JSON.parse(fs.readFileSync(path.join(ROOT, 'lib', 'charts.
 
 export function getSupabase() {
   dotenv.config({ path: path.join(ROOT, '.env.local'), quiet: true });
-  const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
-  const key = process.env.SUPABASE_SERVICE_ROLE;
+  // Trim: a pasted secret often carries a trailing newline or space, which
+  // Supabase reports as "Invalid API key".
+  const url = process.env.NEXT_PUBLIC_SUPABASE_URL?.trim();
+  const key = process.env.SUPABASE_SERVICE_ROLE?.trim().replace(/^["']|["']$/g, '');
   if (!url || !key) {
     throw new Error('Missing NEXT_PUBLIC_SUPABASE_URL or SUPABASE_SERVICE_ROLE (set them in .env.local or the environment).');
   }
