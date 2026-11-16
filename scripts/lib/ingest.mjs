@@ -22,7 +22,26 @@ export function getSupabase() {
   if (!url || !key) {
     throw new Error('Missing NEXT_PUBLIC_SUPABASE_URL or SUPABASE_SERVICE_ROLE (set them in .env.local or the environment).');
   }
+  describeCredentials(url, key);
   return createClient(url, key, { auth: { persistSession: false } });
+}
+
+// Print what the credentials look like, never the key itself, so a rejected
+// "Invalid API key" can be traced to the wrong key type or the wrong project.
+function describeCredentials(url, key) {
+  const host = (() => { try { return new URL(url).host; } catch { return `not a URL (${url.length} chars)`; } })();
+  let kind;
+  if (key.startsWith('sb_secret_')) kind = 'new-style secret key (sb_secret_...)';
+  else if (key.startsWith('sb_publishable_')) kind = 'PUBLISHABLE key - wrong, a secret/service_role key is needed';
+  else if (key.split('.').length === 3) {
+    try {
+      const claims = JSON.parse(Buffer.from(key.split('.')[1], 'base64url').toString());
+      kind = `legacy JWT, role "${claims.role}", project "${claims.ref}"`;
+      if (claims.role !== 'service_role') kind += ' - wrong, a service_role key is needed';
+      if (claims.ref && !host.startsWith(`${claims.ref}.`)) kind += ` - MISMATCH: URL host is ${host}`;
+    } catch { kind = 'JWT-shaped but unreadable (truncated?)'; }
+  } else kind = 'unrecognised format';
+  console.error(`Supabase: ${host}; key: ${key.length} chars, ${kind}`);
 }
 
 const must = ({ data, error }, what) => {
